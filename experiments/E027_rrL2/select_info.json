@@ -1,0 +1,28 @@
+{
+ "n_s1": 200000,
+ "n_top10": 2000000,
+ "top10_pos": 586192,
+ "pool_pos": 650021,
+ "n_gt": 691957,
+ "tag_counts": {
+  "subname": 19301,
+  "housenum": 1493,
+  "emptyaddr": 140580,
+  "lexhard": 865795
+ },
+ "tag_pos_rate": {
+  "subname": 0.9922,
+  "housenum": 0.9873,
+  "emptyaddr": 0.1016,
+  "lexhard": 0.0108
+ },
+ "n_strong": 161374,
+ "n_weak_taken": 588626,
+ "n_tail": 250000,
+ "n_new": 1000000,
+ "new_pos": 172724,
+ "n_replay": 350000,
+ "replay_pos": 120663,
+ "n_total": 1350000,
+ "secs": 78
+}

@@ -1,0 +1,639 @@
+{
+ "arm": "B2_union",
+ "seed": 42,
+ "th": 0.6400000000000001,
+ "macro": 97.54659451599187,
+ "fix_retrieval_FN": 0.07323941898398356,
+ "fix_scorer_FN": 1.3841237741642587,
+ "fix_scorer_FP": 1.0086399267628665,
+ "fix_FP_singletons_only": 0.275000000000003,
+ "oracle_on_pool": 99.93365529751742,
+ "counts": {
+  "retrieval_FN": 146,
+  "scorer_FN": 2903,
+  "FP": 753,
+  "TP": 66329,
+  "singleton_FP_entities": 55,
+  "n_singletons": 1082
+ },
+ "taxonomy": {
+  "FP": {
+   "channel": {
+    "both": 614,
+    "dense_only": 136,
+    "lex_only": 3
+   },
+   "indic_name": {
+    "False": 692,
+    "True": 61
+   },
+   "cand_addr_missing": {
+    "False": 592,
+    "True": 161
+   },
+   "exact_name": {
+    "False": 677,
+    "True": 76
+   },
+   "country": {
+    "US": 381,
+    "India": 372
+   },
+   "band": {
+    "<.95": 387,
+    ">=.95": 122,
+    "<th+.1": 244
+   },
+   "owned_by_other_S1": {
+    "False": 643,
+    "True": 110
+   },
+   "singleton_S1": {
+    "False": 693,
+    "True": 60
+   },
+   "n": 753
+  },
+  "scorer_FN": {
+   "channel": {
+    "dense_only": 1194,
+    "both": 1639,
+    "lex_only": 70
+   },
+   "indic_name": {
+    "False": 2746,
+    "True": 157
+   },
+   "cand_addr_missing": {
+    "True": 1508,
+    "False": 1395
+   },
+   "exact_name": {
+    "False": 2629,
+    "True": 274
+   },
+   "country": {
+    "US": 1660,
+    "India": 1243
+   },
+   "band": {
+    "<th-.1": 783,
+    "<.3": 1690,
+    ">=th-.1": 430
+   },
+   "n": 2903
+  },
+  "TP": {
+   "channel": {
+    "both": 63381,
+    "dense_only": 2918,
+    "lex_only": 30
+   },
+   "indic_name": {
+    "False": 61566,
+    "True": 4763
+   },
+   "cand_addr_missing": {
+    "False": 64924,
+    "True": 1405
+   },
+   "exact_name": {
+    "False": 51463,
+    "True": 14866
+   },
+   "country": {
+    "US": 39899,
+    "India": 26430
+   },
+   "band": {
+    ">=.95": 62277,
+    "<.95": 3502,
+    "<th+.1": 550
+   },
+   "n": 66329
+  },
+  "retrieval_FN": {
+   "indic_name": 7,
+   "addr_missing": 106,
+   "n": 146
+  },
+  "retrieval_FN_examples": [
+   {
+    "s1": [
+     "Behavioral Health Associates, Inc",
+     "37 Liverpool Lane, Charleston, WV"
+    ],
+    "gt": [
+     "BEHAVIORAL HEALTH INC ASSOCIATES",
+     ""
+    ]
+   },
+   {
+    "s1": [
+     "Cinder Co",
+     "2253 Moss Court, CA, Thousand Oaks"
+    ],
+    "gt": [
+     "Cinder Trading",
+     ""
+    ]
+   },
+   {
+    "s1": [
+     "Downtown Hair Studio",
+     "Lincoln, 5851 Meadowbrook Lane, NE"
+    ],
+    "gt": [
+     "Downtown Hair Enterprises",
+     ""
+    ]
+   },
+   {
+    "s1": [
+     "Heart Fellowship VI",
+     "513 Leatha Lane, Cleveland, TN"
+    ],
+    "gt": [
+     "Heart VI Services",
+     ""
+    ]
+   },
+   {
+    "s1": [
+     "Horizon Better",
+     "12066 Sperry Road, Chesterland, OH"
+    ],
+    "gt": [
+     "Horizon Partners Partners",
+     ""
+    ]
+   },
+   {
+    "s1": [
+     "Orthopedic Care LLC",
+     "288 Georgetown Boulevard, Ankeny, IA"
+    ],
+    "gt": [
+     "Orthopedic Orthopedic Care",
+     ""
+    ]
+   },
+   {
+    "s1": [
+     "Oncology Care LLC",
+     "5512 Armitos Avenue, Unit 36, Goleta, CA"
+    ],
+    "gt": [
+     "Oncology Care Industries",
+     ""
+    ]
+   },
+   {
+    "s1": [
+     "Pediatric Dentistry Group",
+     "42269 Rhett Drive, Loudoun County, VA"
+    ],
+    "gt": [
+     "Pediatric Ddentitry Group",
+     ""
+    ]
+   },
+   {
+    "s1": [
+     "Pediatric Dental Care",
+     "6301 Shadow Valle Drive, Burleson, TX"
+    ],
+    "gt": [
+     "Pediatric  Care 5ervices #71001",
+     ""
+    ]
+   },
+   {
+    "s1": [
+     "Womens Health Associates LLC",
+     "3398 Bradley Road, Westlake, OH"
+    ],
+    "gt": [
+     "Womens Hea1th-Associates",
+     ""
+    ]
+   },
+   {
+    "s1": [
+     "Pediatric Dental Associates LLC",
+     "131 Nantucket Circle, Painesville Township, OH"
+    ],
+    "gt": [
+     "Pediatric Dental Asfsocnates  LLC",
+     ""
+    ]
+   },
+   {
+    "s1": [
+     "Surgical Partners LLC",
+     "South Strabane Township, PA, 380 Quarry Road"
+    ],
+    "gt": [
+     "Surgical Partners Industries",
+     ""
+    ]
+   }
+  ]
+ },
+ "examples": {
+  "FP": [
+   {
+    "p": 0.875,
+    "s1": [
+     "Vasquez Pediatrics",
+     "4013 Ogden Avenue, IL, Chicago"
+    ],
+    "cand": [
+     "Pediatric Pradtners of Chicago",
+     "4013 Ogden Ave, Chicago, Illinois"
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.691,
+    "s1": [
+     "White Trading Private Limited",
+     "Wellesley Court, Cts No.15B M.G. Road, Pune, Maharashtra"
+    ],
+    "cand": [
+     "\u0935\u094d\u0939\u093e\u0907\u091f \u091f\u094d\u0930\u0947\u0921\u093f\u0902\u0917 \u090f\u0932\u090f\u0932\u092a\u0940",
+     "No 70 Wellesley Court, Cts No.15b M.g. Road, Pune, \u092e\u0939\u093e\u0930\u093e\u0937\u094d\u091f\u094d\u0930"
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.981,
+    "s1": [
+     "New Systems",
+     "Ramkrishnapur (Sibtala), Banamalipur, Barasat - I, North 24 Parganas, West Bengal"
+    ],
+    "cand": [
+     "\u09a8\u09bf\u0989 \u09b8\u09bf\u09b8\u09cd\u099f\u09c7\u09ae\u09b8 \u09b8\u09cd\u099f\u09cb\u09b0\u09cd\u09b8",
+     "H.NO 79 RAMKRISHNAPUR (SIBTALA), NORTH 24 PARGANAS, BARASAT - I, West Bengal"
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.744,
+    "s1": [
+     "New Products Private Limited",
+     "411, Laxmi Plaza, Laxmi Industrial Estate, Link Road, Andheri(West), Mumbai, Mumbai City, Maharashtra"
+    ],
+    "cand": [
+     "\u0932\u0915\u094d\u0937\u094d\u092e\u0940 \u092a\u094d\u0930\u094b\u0921\u0915\u094d\u091f\u094d\u0938 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+     "411, Bldg No.9, 4Th Floor, Laxmi Industrial Estate New Link Road, Andheri (W), Mumbai, Mumbai City, MH"
+    ],
+    "ch": "dense_only",
+    "singleton": false
+   },
+   {
+    "p": 0.712,
+    "s1": [
+     "Clyelle Diversified",
+     "1281 Bonanza Avenue, Andover, OH"
+    ],
+    "cand": [
+     "Clyeltis  Diversified",
+     "ANDOVER TWP, OH, 1281 BONANZA AVENUE"
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.891,
+    "s1": [
+     "Pune City Projects Private Limited",
+     "S No. 29, Plot No. 8, Sayali Soc Opp Kalanagar, Pune City, Pune, Maharashtra"
+    ],
+    "cand": [
+     "Pune City Services Private",
+     "S. No. 29, Pune, NULL, MH"
+    ],
+    "ch": "dense_only",
+    "singleton": false
+   },
+   {
+    "p": 0.72,
+    "s1": [
+     "Arihant Producer Private Limited",
+     "2-A/3, Second Floor (Front Side) Asaf Ali Road, Turkman Gate, Delhi, North East, Delhi"
+    ],
+    "cand": [
+     "ELI Producer Priaate Limited",
+     "2-A/3, SECOND FLOOR (FRONT PORTION), KUNDAN MANSION, ASAF ALI ROAD, TURKMAN G, ATE, NEW DELHI, Delhi"
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.77,
+    "s1": [
+     "Lissi Keefe Regional Machine Works",
+     "520 Kirwin Avenue, Salina, KS"
+    ],
+    "cand": [
+     "Ewart Keefe R\u00e9gional Machine Works Inc.",
+     "520 KIRWIN AVE, SALINA, KS"
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.853,
+    "s1": [
+     "Subh Brothers Associates",
+     "Mc Xvii /2995 To 3001 District Hospital Road, Kollam, Kerala"
+    ],
+    "cand": [
+     "Subh Brothers Associates (LLP)",
+     "KL, Kollam, Mc Xvii /2995 To 3002 District Hospital Road"
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.997,
+    "s1": [
+     "Ninnetta Gramling, DPM",
+     "170 8th Avenue, Hartley, IA"
+    ],
+    "cand": [
+     "NINNETTA GRAMLING, DLPM",
+     "170 EIGHTH AVE, IA, HARTLEY CITY"
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.673,
+    "s1": [
+     "Mumbai Villas Pvt Ltd",
+     "604 Vashveen Aprtments7 Bunglows Andheri (W), Mumbai, Maharashtra"
+    ],
+    "cand": [
+     "Mumbai Villas Limited",
+     "Maharashtra, 60 VASHVEEN APRTMENTS7 BUNGLOWS ANDHERI (W), MUMBAI"
+    ],
+    "ch": "both",
+    "singleton": true
+   },
+   {
+    "p": 0.859,
+    "s1": [
+     "Dental Prairie Care LLC",
+     "1836 Halsted Street, Chicago, IL"
+    ],
+    "cand": [
+     "DENTAL-CARE",
+     "3509C HALSTED ST, CHICAGO, IL"
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.876,
+    "s1": [
+     "Siia National Daedalus Inc",
+     "Fl 1, Lacey, 3301 Bali Street, WA"
+    ],
+    "cand": [
+     "SIIA NATGSONAL DAEDALUS  LLC",
+     "LACEY, 330 BALI ST, WA"
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.84,
+    "s1": [
+     "Horizon Digital Brands PLLC",
+     "85 Taft Avenue, Asheville, NC"
+    ],
+    "cand": [
+     "Zephwexevo",
+     "85 TAFT AVE, ASHEVILLE, NC"
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.951,
+    "s1": [
+     "Best Business Private Limited",
+     "5Th Floor, Videocon Tower, Jhandewalan Extension, New Delhi, Central Delhi, Delhi"
+    ],
+    "cand": [
+     "\u092c\u0947\u0938\u094d\u091f \u092c\u093f\u091c\u0928\u0947\u0938 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+     "70/5, NEW DELHI, CENTRAL DELHI, Delhi"
+    ],
+    "ch": "dense_only",
+    "singleton": false
+   }
+  ],
+  "scorer_FN": [
+   {
+    "p": 0.043,
+    "s1": [
+     "Miller Veterinary Clinic",
+     "18 Peter Bush Drive, Monroe, NY"
+    ],
+    "cand": [
+     "Miller Veterinary",
+     ""
+    ],
+    "ch": "dense_only",
+    "singleton": false
+   },
+   {
+    "p": 0.452,
+    "s1": [
+     "Surekha & Co",
+     "8/8, Shree Hind Co. Op. Housing Society Limited 23, N S Mankikar Marg, Sion, Chunabhatti, Mumbai, Mumbai City, Maharashtra"
+    ],
+    "cand": [
+     "surekha.com",
+     ""
+    ],
+    "ch": "lex_only",
+    "singleton": false
+   },
+   {
+    "p": 0.164,
+    "s1": [
+     "Do Solutions Pvt Ltd",
+     "80/8 Shastri Nagar, Meerut, Uttar Pradesh"
+    ],
+    "cand": [
+     "Do Solutions Pvt",
+     ""
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.014,
+    "s1": [
+     "Golden Consultancy Private Limited",
+     "Flat No. C1, Suvarna Park, Bl Cs 18/1, Bavdhan Khurd, Pune, Maharashtra"
+    ],
+    "cand": [
+     "Smt Golden Consultancy  Private",
+     ""
+    ],
+    "ch": "dense_only",
+    "singleton": false
+   },
+   {
+    "p": 0.379,
+    "s1": [
+     "Fairchild, Krentz and Southard Clinic",
+     "4000 Lake Mary Road, Unit Unit 205, Flagstaff, AZ"
+    ],
+    "cand": [
+     "Fairchild, Krentz and Southard Clinic Co",
+     "4000B LAKE MARY RD, PO BOX 201, FLAGSTAFF, AZ"
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.054,
+    "s1": [
+     "Peninsular Travels Pvt. Ltd.",
+     "Flat No. 801 & 802, Punya Apartment, 8Th Floor, 29/33, Dr. Wilson Street, Khetwadi, Girg, Aon, Mumbai, Mumbai City, Maharashtra"
+    ],
+    "cand": [
+     "Peninsular Travels Pvt. | www.peninsular.com",
+     "DOOR NO 801  & 802, PUNYA APARTMENT, 8TH FLOOR, 29/33, DR. WILSON STREET, KHETWADI, GIRG, AON, MUMBAI, \u092e\u0939\u093e\u0930\u093e\u0937\u094d\u091f\u094d\u0930"
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.298,
+    "s1": [
+     "Raos India Private Limited",
+     "North 24 Parganas, Office No 705, Saltlake, 7Th Floor, Adventz Infinity, Bn Block, Sector V, Street No 18, West Bengal"
+    ],
+    "cand": [
+     "M/s Raos India Private  Limited",
+     ""
+    ],
+    "ch": "dense_only",
+    "singleton": false
+   },
+   {
+    "p": 0.5,
+    "s1": [
+     "Blanton Integrated Americas Corp",
+     "940 Virginia Avenue, Bauxite, AR"
+    ],
+    "cand": [
+     "Blanton Integrated Americas",
+     ""
+    ],
+    "ch": "dense_only",
+    "singleton": false
+   },
+   {
+    "p": 0.383,
+    "s1": [
+     "Garcia, Keller & Cerino",
+     "134 Hambrick Road, Houston, TX"
+    ],
+    "cand": [
+     "Garcia, Keller",
+     ""
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.611,
+    "s1": [
+     "Crowe Grand Braves LLC",
+     "69 Sanderson Street, Unit 702, Springfield, MA"
+    ],
+    "cand": [
+     "Crowe Grand Braves",
+     ""
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.02,
+    "s1": [
+     "Urban Care LLP",
+     "499 Swarnarekha Bldg 2A, 2Nd Flr Linking Rd Khar W, Mumbai, Maharashtra"
+    ],
+    "cand": [
+     "Urban Care",
+     ""
+    ],
+    "ch": "dense_only",
+    "singleton": false
+   },
+   {
+    "p": 0.051,
+    "s1": [
+     "Pediatric Dental Mountain Care LLC",
+     "675 British Road, Kinston, NC"
+    ],
+    "cand": [
+     "Pediatric Dental Mountain Care LLC Foundation",
+     ""
+    ],
+    "ch": "dense_only",
+    "singleton": false
+   },
+   {
+    "p": 0.021,
+    "s1": [
+     "Elite Nexera LLC",
+     "104 Nob Hill Lane, Ovilla, TX"
+    ],
+    "cand": [
+     "Elite Ndmir LLC",
+     ""
+    ],
+    "ch": "dense_only",
+    "singleton": false
+   },
+   {
+    "p": 0.138,
+    "s1": [
+     "Pediatric Dentistry American Clinic Inc.",
+     "6 Stevens Street, Unit 1, Peabody, MA"
+    ],
+    "cand": [
+     "Pediatric American Clinic Inc. Partners",
+     ""
+    ],
+    "ch": "dense_only",
+    "singleton": false
+   },
+   {
+    "p": 0.08,
+    "s1": [
+     "Vm Digital Private Limited",
+     "Plt 109, 1-24-492/109, Rd-2, Maruthi Nagar, Rangareddy, Hyderabad, Telangana"
+    ],
+    "cand": [
+     "Dr Vm  Digital Private-Limited",
+     ""
+    ],
+    "ch": "both",
+    "singleton": false
+   }
+  ]
+ }
+}

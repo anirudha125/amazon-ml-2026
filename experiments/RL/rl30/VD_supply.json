@@ -1,0 +1,85 @@
+{
+ "supply": {
+  "train_US": {
+   "n_s1": 1323633,
+   "n_s2": 3016817,
+   "n_s3": 3170056,
+   "frac_rec_in_gt": 0.7400381420468789,
+   "frac_rec_multi_owner": 0.0,
+   "frac_s2_in_gt": 0.7335791332387746,
+   "frac_s3_in_gt": 0.746184925439803,
+   "recs_per_s1": 4.674160435709898,
+   "s2_per_s1": 2.279194459491415,
+   "s3_per_s1": 2.3949659762184834,
+   "gt_links_per_s1": 3.4590570044717834
+  },
+  "train_India": {
+   "n_s1": 883188,
+   "n_s2": 2017799,
+   "n_s3": 2115547,
+   "frac_rec_in_gt": 0.7402823281670589,
+   "frac_rec_multi_owner": 0.0,
+   "frac_s2_in_gt": 0.7337425581041521,
+   "frac_s3_in_gt": 0.7465199307791318,
+   "recs_per_s1": 4.680029619967662,
+   "s2_per_s1": 2.28467664868635,
+   "s3_per_s1": 2.3953529712813126,
+   "gt_links_per_s1": 3.4645432229604567
+  },
+  "test_US": {
+   "n_s1": 663106,
+   "n_s2": 1871330,
+   "n_s3": 1945701,
+   "recs_per_s1": 5.756290849426788,
+   "s2_per_s1": 2.822067663390167,
+   "s3_per_s1": 2.9342231860366215
+  },
+  "test_India": {
+   "n_s1": 809986,
+   "n_s2": 2312565,
+   "n_s3": 2405000,
+   "recs_per_s1": 5.8242549871232345,
+   "s2_per_s1": 2.8550678653705126,
+   "s3_per_s1": 2.9691871217527215
+  },
+  "test_France": {
+   "n_s1": 259452,
+   "n_s2": 703378,
+   "n_s3": 731615,
+   "recs_per_s1": 5.530861199759493,
+   "s2_per_s1": 2.7110139833186873,
+   "s3_per_s1": 2.819847216440806
+  }
+ },
+ "est_gt_mean_from_supply": {
+  "US": 4.260577588455826,
+  "India": 4.310881940592069,
+  "France": 4.093723525957999
+ },
+ "accepted": {
+  "France": {
+   "pre_mc_per_s1": 3.3891779596996745,
+   "post_mc_per_s1": 3.29307925936204,
+   "dropped_by_mc_per_s1": 0.09609870033763471,
+   "frac_country_recs_accepted_final": 0.5954008138018791,
+   "frac_country_recs_accepted_any": 0.5954008138018791,
+   "unique_recs_final": 854396
+  },
+  "US": {
+   "pre_mc_per_s1": 3.3728136979608085,
+   "post_mc_per_s1": 3.3722481775161137,
+   "dropped_by_mc_per_s1": 0.0005655204446951166,
+   "frac_country_recs_accepted_final": 0.5858370026337224,
+   "frac_country_recs_accepted_any": 0.5858370026337224,
+   "unique_recs_final": 2236158
+  },
+  "India": {
+   "pre_mc_per_s1": 3.3714940752062383,
+   "post_mc_per_s1": 3.3683927870358255,
+   "dropped_by_mc_per_s1": 0.003101288170412822,
+   "frac_country_recs_accepted_final": 0.5783388252202143,
+   "frac_country_recs_accepted_any": 0.5783388252202143,
+   "unique_recs_final": 2728351
+  }
+ }
+}

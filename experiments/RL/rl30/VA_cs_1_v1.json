@@ -1,0 +1,2711 @@
+{
+ "baseline": {
+  "macro": 98.802,
+  "TP": 67186,
+  "FP": 167,
+  "FN_in_pool": 2046,
+  "FP_all": 167
+ },
+ "n_SUB1": 259582,
+ "n_SUB1_street": 5105,
+ "IN_C_ST": {
+  "US": {
+   "n": 58,
+   "pos": 17,
+   "neg": 41,
+   "TP": 17,
+   "FN": 0,
+   "FP": 0,
+   "TN": 41
+  },
+  "India": {
+   "n": 143,
+   "pos": 4,
+   "neg": 139,
+   "TP": 2,
+   "FN": 2,
+   "FP": 0,
+   "TN": 139
+  },
+  "all": {
+   "n": 201,
+   "pos": 21,
+   "neg": 180,
+   "TP": 19,
+   "FN": 2,
+   "FP": 0,
+   "TN": 180
+  },
+  "share_of_all_FN_in_pool": 0.00098,
+  "share_of_all_FP": 0.0,
+  "by_p_bin": {
+   "[0.00,0.01)": {
+    "flag_n": 176,
+    "flag_y": 0.011,
+    "unflag_y": 0.0001
+   },
+   "[0.01,0.05)": {
+    "flag_n": 5,
+    "flag_y": 0.0,
+    "unflag_y": 0.0239
+   },
+   "[0.05,0.20)": {
+    "flag_n": 1,
+    "flag_y": 0.0,
+    "unflag_y": 0.1062
+   },
+   "[0.20,0.50)": {
+    "flag_n": 0,
+    "flag_y": null,
+    "unflag_y": 0.3185
+   },
+   "[0.50,0.78)": {
+    "flag_n": 0,
+    "flag_y": null,
+    "unflag_y": 0.6072
+   },
+   "[0.78,0.90)": {
+    "flag_n": 0,
+    "flag_y": null,
+    "unflag_y": 0.8636
+   },
+   "[0.90,0.99)": {
+    "flag_n": 1,
+    "flag_y": 1.0,
+    "unflag_y": 0.9719
+   },
+   "[0.99,1.00)": {
+    "flag_n": 18,
+    "flag_y": 1.0,
+    "unflag_y": 0.9998
+   }
+  },
+  "oracle_macro": 98.8028,
+  "oracle_TP": 67188,
+  "oracle_FP": 167,
+  "oracle_delta_pp": 0.0004,
+  "veto_all_flagged_macro": 98.7909,
+  "veto_delta_pp": -0.0115,
+  "auc_p_within_flag": 0.9889,
+  "single_col_auc_top": {
+   "LF3": 0.826,
+   "LF63": 0.81,
+   "LF44": 0.197,
+   "LF27": 0.799,
+   "LF60": 0.203,
+   "LF17": 0.209,
+   "LF62": 0.791,
+   "LF33": 0.788,
+   "LF77_tok_frac_s1o": 0.212,
+   "LF12": 0.787,
+   "LF20": 0.768,
+   "LF22": 0.232,
+   "LF24": 0.768,
+   "LF78_tok_frac_co": 0.241,
+   "LF11": 0.755
+  },
+  "neg_owner": {
+   "orphan": 121,
+   "other_S1_same_street_notV1": 52,
+   "other_S1_elsewhere_notV1": 7
+  },
+  "pos_owner": {
+   "own": 21
+  },
+  "neg_orphan": {
+   "n": 121,
+   "accepted": 0,
+   "p_mean": 0.0024,
+   "p_max": 0.1857
+  },
+  "neg_owned_by_other": {
+   "n": 59,
+   "accepted": 0,
+   "p_mean": 0.0013
+  },
+  "neg_rl27_means": {
+   "nf_n": 169.05,
+   "nf_a": 0.006,
+   "af_n": 74.939,
+   "af_a": 0.544,
+   "coloc": 0.133,
+   "dupf": 6.55,
+   "rv_rank": 4.622,
+   "rv_sa": 0.696,
+   "rv_so": 0.737,
+   "rv_gap": -0.042
+  },
+  "neg_rv_rank1_frac": 0.606,
+  "neg_nf_a0_nfn_ge1_frac": 0.606,
+  "neg_p_quant": [
+   0.0,
+   0.0001,
+   0.0008,
+   0.028
+  ],
+  "pos_rl27_means": {
+   "nf_n": 266.19,
+   "nf_a": 0.381,
+   "af_n": 1.0,
+   "af_a": 0.524,
+   "coloc": 0.048,
+   "dupf": 7.762,
+   "rv_rank": 1.095,
+   "rv_sa": 0.999,
+   "rv_so": 0.561,
+   "rv_gap": 0.438
+  },
+  "pos_rv_rank1_frac": 0.952,
+  "pos_nf_a0_nfn_ge1_frac": 0.19,
+  "pos_p_quant": [
+   0.9552,
+   0.9998,
+   0.9999,
+   1.0
+  ],
+  "ex_neg": [
+   {
+    "c": "India",
+    "s1": "Medak Stone Pvt Ltd",
+    "rec": "Medak Farmer",
+    "s1_addr": "2 1 102 A Golla Keri Sadasivapet Medak, Medak, Telangana",
+    "rec_addr": "H.no 2 1 102 A Golla Keri Sadasivapet Medak, Medak, తెలంగాణ",
+    "x": "stone",
+    "z": "farmer",
+    "p": 0.0009,
+    "y": 0,
+    "owner": "other_S1_same_street_notV1",
+    "rv_rank": 2.0,
+    "nf_n": 1.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Indian Constructions LLP",
+    "rec": "Indian Agro L.L.P.",
+    "s1_addr": "Hno 4-195A, Vidhyanagar, 3 Cross, Chanthar Village, Udupi, Karnataka",
+    "rec_addr": "HNO 4-198A, VIDHYANAGAR, 3 CROSS, CHANTHAR VILLAGE, UDUPI, Karnataka",
+    "x": "constructions",
+    "z": "agro",
+    "p": 0.0,
+    "y": 0,
+    "owner": "orphan",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Real Properties Private Limited",
+    "rec": "Real Logistics Private  Limited",
+    "s1_addr": "Shop No-7, G/F, Dda Market, In Block A-2, New Delhi, West Delhi, Delhi",
+    "rec_addr": "West Delhi, DL, Shop No. D/07, New Delhi",
+    "x": "properties",
+    "z": "logistics",
+    "p": 0.0001,
+    "y": 0,
+    "owner": "other_S1_same_street_notV1",
+    "rv_rank": 11.0,
+    "nf_n": 60.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Creative Impex Private Limited",
+    "rec": "Innovative Impex Private",
+    "s1_addr": "Delhi, 2Nd Floor, Block-A, Single Storey Ramesh Nagar, New Delhi, West",
+    "rec_addr": "H.NO ##2ND FLOOR, SRB TOWER, PLOT NO.E/12, INFOCITY SQUARE, BHUBANESWA",
+    "x": "creative",
+    "z": "innovative",
+    "p": 0.0,
+    "y": 0,
+    "owner": "other_S1_same_street_notV1",
+    "rv_rank": 11.0,
+    "nf_n": 85.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Leela Heritage Private Limited",
+    "rec": "Leela India Private Limited",
+    "s1_addr": "J-5/52-A Shop No. 6, Ground Floor, Rajouri Garden, New Delhi, West Del",
+    "rec_addr": "J-5/52-a Shop No. 19, New Delhi, दिल्ली",
+    "x": "heritage",
+    "z": "india",
+    "p": 0.0001,
+    "y": 0,
+    "owner": "orphan",
+    "rv_rank": 1.0,
+    "nf_n": 2.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Foot & Ankle Specialists Inc",
+    "rec": "FOOT  & ANKLE CARE",
+    "s1_addr": "207 South Street, Elbridge, NY",
+    "rec_addr": "207 SOUTH STREET, ELWOOD DCP, IL",
+    "x": "specialists",
+    "z": "care",
+    "p": 0.0207,
+    "y": 0,
+    "owner": "other_S1_same_street_notV1",
+    "rv_rank": 11.0,
+    "nf_n": 994.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Leung Advanced Artificial Inc",
+    "rec": "Smith Advanced Artificial",
+    "s1_addr": "123 Benton Street, Fl 1, Columbia, MO",
+    "rec_addr": "123 BENTON ST, COLUMBBIA CITY, MO",
+    "x": "leung",
+    "z": "smith",
+    "p": 0.0004,
+    "y": 0,
+    "owner": "orphan",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Thane Refractories Private Limited",
+    "rec": "Thane Solutions Private",
+    "s1_addr": "Plot No. C-39, Shop No. B-70, Ground Floor, Gami Industrial Park, Than",
+    "rec_addr": "Plot No C ##39A, Unit No B-2, 5Th Floor Gami Industrial, Thane, MH",
+    "x": "refractories",
+    "z": "solutions",
+    "p": 0.0,
+    "y": 0,
+    "owner": "other_S1_same_street_notV1",
+    "rv_rank": 11.0,
+    "nf_n": 27.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Atkins Unified Stanley Clinic",
+    "rec": "Wallace Unified Stanley Clinic",
+    "s1_addr": "691 Genesee Road, Lysander, NY",
+    "rec_addr": "691 Genesee Rd, Baldwinsville, New York",
+    "x": "atkins",
+    "z": "wallace",
+    "p": 0.0002,
+    "y": 0,
+    "owner": "orphan",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Baylor Companies LLC",
+    "rec": "Brooks Companies LLC",
+    "s1_addr": "7943 Las Piedras Way, Fl 1, AZ, Scottsdale",
+    "rec_addr": "#7943 LAS PIEDRAS WAY, SCOTTSDALE, AZ",
+    "x": "baylor",
+    "z": "brooks",
+    "p": 0.0002,
+    "y": 0,
+    "owner": "orphan",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   }
+  ],
+  "ex_pos": [
+   {
+    "c": "India",
+    "s1": "Hyderabad Systems Private Limited",
+    "rec": "Hyderabad Technologies Private Limited",
+    "s1_addr": "Plot No. 44, Ida Mallapur, Near Bel, Mallapur, Hyderabad, Telangana",
+    "rec_addr": "PLOT NO. 044 , IDA MALLAPUR, NEAR BEL, MALLAPUR, HYDERABAD, Telangana",
+    "x": "systems",
+    "z": "technologies",
+    "p": 0.0007,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 42.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "G/L Mitsui LLC",
+    "rec": "LLC 6/L Mitsui",
+    "s1_addr": "608 Chucky Pike, Jefferson City, TN",
+    "rec_addr": "##608 Chucky Pike, Jefferson City, Tennessee",
+    "x": "g",
+    "z": "6",
+    "p": 0.9997,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Kora's Rocky Eye Care LLC",
+    "rec": "Kora's Rocky Eye Cable LLC",
+    "s1_addr": "1043 Mimosa Street, Mineola, TX",
+    "rec_addr": "1043 1/2 Mimosa St, Mienola, Texas",
+    "x": "care",
+    "z": "cable",
+    "p": 0.9552,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Chagnon, Garrett & Mcdonald Generation LLC",
+    "rec": "Chagnon, Garrett and Mcdonald",
+    "s1_addr": "622 Elochoman Valley Road, Cathlamet, WA",
+    "rec_addr": "622-626 Elochoman Valley Road, Cathlamet, Washington",
+    "x": "generation",
+    "z": "and",
+    "p": 0.9999,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 1.0,
+    "nf_a": 1.0
+   },
+   {
+    "c": "US",
+    "s1": "Big Pub! Care",
+    "rec": "Big P! Care",
+    "s1_addr": "15219 Crazy Horse Avenue, Fontana, CA",
+    "rec_addr": "15219-15223 CRAZY HORSE AVE, FONTANA, CA",
+    "x": "pub",
+    "z": "p",
+    "p": 0.9997,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "F E & D Quest LLC",
+    "rec": "F E and [D]",
+    "s1_addr": "1100 Centennial Boulevard, Hays, KS",
+    "rec_addr": "1100 CENTENNIAL BOULEVARD, HAYS, KS",
+    "x": "quest",
+    "z": "and",
+    "p": 0.9999,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 1.0,
+    "nf_a": 1.0
+   },
+   {
+    "c": "US",
+    "s1": "Rapid Smart Ngl Inc.",
+    "rec": "Rapid St Ngl [Inc.]",
+    "s1_addr": "16 Meadow Lane, Putnam Valley, NY",
+    "rec_addr": "16 MEADOW LN, PUTNAM VALLEY, NY",
+    "x": "smart",
+    "z": "st",
+    "p": 0.9999,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "# 2 OG Capital",
+    "rec": "# Two OG Capital",
+    "s1_addr": "16117 Monroe Street, Goodyear, AZ",
+    "rec_addr": "16117 MONROE STREET, GOODYEAR, AZ",
+    "x": "2",
+    "z": "two",
+    "p": 0.9999,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Star Garden",
+    "rec": "Star Gen",
+    "s1_addr": "1957 Lakota Drive, St George City, UT",
+    "rec_addr": "#1957 Lakota Dr, St George City, Utah",
+    "x": "garden",
+    "z": "gen",
+    "p": 0.9972,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 2.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Luckystar & Sons LLP",
+    "rec": "Mr Luckystar & Ss LLP",
+    "s1_addr": "House No. 252, Sector 55, Gurgaon, Haryana",
+    "rec_addr": "HOUSE NO. 252, SECTOR 55, GURGAON, Haryana",
+    "x": "sons",
+    "z": "ss",
+    "p": 0.9999,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   }
+  ],
+  "ex_errors": [
+   {
+    "c": "India",
+    "s1": "Hyderabad Systems Private Limited",
+    "rec": "Hyderabad Technologies  Private Limited",
+    "s1_addr": "Plot No. 44, Ida Mallapur, Near Bel, Mallapur, Hyderabad, Telangana",
+    "rec_addr": "Telangana, PLOT NO. 044 , IDA MALLAPUR, NEAR BEL, MALLAPUR, HYDERABAD",
+    "x": "systems",
+    "z": "technologies",
+    "p": 0.0005,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 42.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Hyderabad Systems Private Limited",
+    "rec": "Hyderabad Technologies Private Limited",
+    "s1_addr": "Plot No. 44, Ida Mallapur, Near Bel, Mallapur, Hyderabad, Telangana",
+    "rec_addr": "PLOT NO. 044 , IDA MALLAPUR, NEAR BEL, MALLAPUR, HYDERABAD, Telangana",
+    "x": "systems",
+    "z": "technologies",
+    "p": 0.0007,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 42.0,
+    "nf_a": 0.0
+   }
+  ],
+  "top_swaps_neg": [
+   [
+    "engineering->builders",
+    4
+   ],
+   [
+    "refractories->solutions",
+    3
+   ],
+   [
+    "npb->mumbai",
+    3
+   ],
+   [
+    "specialists->care",
+    2
+   ],
+   [
+    "greenfire->anchor",
+    2
+   ],
+   [
+    "global->traders",
+    2
+   ],
+   [
+    "berry->india",
+    2
+   ],
+   [
+    "arbour->kolkata",
+    2
+   ],
+   [
+    "indo->hyderabad",
+    2
+   ],
+   [
+    "projects->associates",
+    2
+   ],
+   [
+    "technologies->investment",
+    2
+   ],
+   [
+    "max->apex",
+    2
+   ],
+   [
+    "services->technology",
+    2
+   ],
+   [
+    "drusi->washington",
+    1
+   ],
+   [
+    "alvarez->smith",
+    1
+   ]
+  ],
+  "top_swaps_pos": [
+   [
+    "systems->technologies",
+    2
+   ],
+   [
+    "care->cable",
+    1
+   ],
+   [
+    "care->c",
+    1
+   ],
+   [
+    "perfect->and",
+    1
+   ],
+   [
+    "2->two",
+    1
+   ],
+   [
+    "stark->and",
+    1
+   ],
+   [
+    "b->8",
+    1
+   ],
+   [
+    "quest->and",
+    1
+   ],
+   [
+    "rain->and",
+    1
+   ],
+   [
+    "clinic->and",
+    1
+   ],
+   [
+    "garcia->and",
+    1
+   ],
+   [
+    "g->6",
+    1
+   ],
+   [
+    "smart->st",
+    1
+   ],
+   [
+    "marine->mae",
+    1
+   ],
+   [
+    "generation->and",
+    1
+   ]
+  ]
+ },
+ "CC_ST": {
+  "US": {
+   "n": 24,
+   "pos": 12,
+   "neg": 12,
+   "TP": 12,
+   "FN": 0,
+   "FP": 0,
+   "TN": 12
+  },
+  "India": {
+   "n": 91,
+   "pos": 4,
+   "neg": 87,
+   "TP": 2,
+   "FN": 2,
+   "FP": 0,
+   "TN": 87
+  },
+  "all": {
+   "n": 115,
+   "pos": 16,
+   "neg": 99,
+   "TP": 14,
+   "FN": 2,
+   "FP": 0,
+   "TN": 99
+  },
+  "share_of_all_FN_in_pool": 0.00098,
+  "share_of_all_FP": 0.0,
+  "by_p_bin": {
+   "[0.00,0.01)": {
+    "flag_n": 98,
+    "flag_y": 0.02,
+    "unflag_y": 0.0001
+   },
+   "[0.01,0.05)": {
+    "flag_n": 3,
+    "flag_y": 0.0,
+    "unflag_y": 0.0239
+   },
+   "[0.05,0.20)": {
+    "flag_n": 0,
+    "flag_y": null,
+    "unflag_y": 0.1062
+   },
+   "[0.20,0.50)": {
+    "flag_n": 0,
+    "flag_y": null,
+    "unflag_y": 0.3185
+   },
+   "[0.50,0.78)": {
+    "flag_n": 0,
+    "flag_y": null,
+    "unflag_y": 0.6072
+   },
+   "[0.78,0.90)": {
+    "flag_n": 0,
+    "flag_y": null,
+    "unflag_y": 0.8636
+   },
+   "[0.90,0.99)": {
+    "flag_n": 1,
+    "flag_y": 1.0,
+    "unflag_y": 0.9719
+   },
+   "[0.99,1.00)": {
+    "flag_n": 13,
+    "flag_y": 1.0,
+    "unflag_y": 0.9998
+   }
+  },
+  "oracle_macro": 98.8028,
+  "oracle_TP": 67188,
+  "oracle_FP": 167,
+  "oracle_delta_pp": 0.0004,
+  "veto_all_flagged_macro": 98.7927,
+  "veto_delta_pp": -0.0097,
+  "auc_p_within_flag": 0.9867,
+  "single_col_auc_top": {
+   "LF3": 0.918,
+   "LF2": 0.874,
+   "LF63": 0.837,
+   "LF60": 0.182,
+   "LF44": 0.184,
+   "LF62": 0.816,
+   "LF17": 0.186,
+   "LF64": 0.811,
+   "LF27": 0.805,
+   "LF12": 0.797,
+   "LF20": 0.767,
+   "LF22": 0.233,
+   "LF24": 0.767,
+   "LF11": 0.762,
+   "LF33": 0.757
+  },
+  "neg_owner": {
+   "orphan": 67,
+   "other_S1_same_street_notV1": 29,
+   "other_S1_elsewhere_notV1": 3
+  },
+  "pos_owner": {
+   "own": 16
+  },
+  "neg_orphan": {
+   "n": 67,
+   "accepted": 0,
+   "p_mean": 0.0009,
+   "p_max": 0.0235
+  },
+  "neg_owned_by_other": {
+   "n": 32,
+   "accepted": 0,
+   "p_mean": 0.0008
+  },
+  "neg_rl27_means": {
+   "nf_n": 233.717,
+   "nf_a": 0.01,
+   "af_n": 36.889,
+   "af_a": 0.545,
+   "coloc": 0.051,
+   "dupf": 10.808,
+   "rv_rank": 5.121,
+   "rv_sa": 0.65,
+   "rv_so": 0.742,
+   "rv_gap": -0.092
+  },
+  "neg_rv_rank1_frac": 0.566,
+  "neg_nf_a0_nfn_ge1_frac": 0.687,
+  "neg_p_quant": [
+   0.0,
+   0.0001,
+   0.0006,
+   0.0233
+  ],
+  "pos_rl27_means": {
+   "nf_n": 344.75,
+   "nf_a": 0.25,
+   "af_n": 1.125,
+   "af_a": 0.5,
+   "coloc": 0.0,
+   "dupf": 9.875,
+   "rv_rank": 1.125,
+   "rv_sa": 0.998,
+   "rv_so": 0.556,
+   "rv_gap": 0.442
+  },
+  "pos_rv_rank1_frac": 0.938,
+  "pos_nf_a0_nfn_ge1_frac": 0.25,
+  "pos_p_quant": [
+   0.4779,
+   0.9998,
+   0.9999,
+   1.0
+  ],
+  "ex_neg": [
+   {
+    "c": "India",
+    "s1": "Bangalore North My Private Limited",
+    "rec": "Bangalore North India Private Ltd",
+    "s1_addr": "Karnataka, 2Nd Floor, Kullappa Circle, Pns Layout, Subbayianiah Palya,",
+    "rec_addr": "#2Nd Floor, Bangalore, KA",
+    "x": "my",
+    "z": "india",
+    "p": 0.0001,
+    "y": 0,
+    "owner": "other_S1_same_street_notV1",
+    "rv_rank": 11.0,
+    "nf_n": 41.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Dhruva India Private Limited",
+    "rec": "Dhruva Solutions Private Limited",
+    "s1_addr": "Peerbaba Tower Ward 02, Holding 514/6 Kharagpur, Midnapore, West Midna",
+    "rec_addr": "Peerbaba Tower Ward 2, West Midnapore, WB",
+    "x": "india",
+    "z": "solutions",
+    "p": 0.0031,
+    "y": 0,
+    "owner": "orphan",
+    "rv_rank": 1.0,
+    "nf_n": 1.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Alvarez Sky Group",
+    "rec": "SMITH SKY GROUP",
+    "s1_addr": "2232 Coldwater Lane, Kannapolis, NC",
+    "rec_addr": "Kannaoplis, 2232c Coldwater Lane, North Carolina",
+    "x": "alvarez",
+    "z": "smith",
+    "p": 0.0233,
+    "y": 0,
+    "owner": "orphan",
+    "rv_rank": 1.0,
+    "nf_n": 3.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Foot & Ankle Specialists Inc",
+    "rec": "FOOT  & ANKLE CARE",
+    "s1_addr": "207 South Street, Elbridge, NY",
+    "rec_addr": "207 SOUTH STREET, ELWOOD DCP, IL",
+    "x": "specialists",
+    "z": "care",
+    "p": 0.0207,
+    "y": 0,
+    "owner": "other_S1_same_street_notV1",
+    "rv_rank": 11.0,
+    "nf_n": 994.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Unique Solutions",
+    "rec": "Unique Hospitality",
+    "s1_addr": "312/11 0 Ngr, Gmn W, Jawahar Nagar 2, Mumbai, Mumbai City, Maharashtra",
+    "rec_addr": "00312/14 0 NGR, GMN W, JAWAHAR NAGAR 2, MUMBAI, Maharashtra",
+    "x": "solutions",
+    "z": "hospitality",
+    "p": 0.0001,
+    "y": 0,
+    "owner": "orphan",
+    "rv_rank": 1.0,
+    "nf_n": 65.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "GNR Laxmi Corporation",
+    "rec": "GNR Impex ([Corp])",
+    "s1_addr": "Kanpur, 7/156 - B Swaroop Nagar, Uttar Pradesh, Kanpur",
+    "rec_addr": "7/163 - B Swaroop Nagar, Kanpur, उत्तर प्रदेश",
+    "x": "laxmi",
+    "z": "impex",
+    "p": 0.0,
+    "y": 0,
+    "owner": "orphan",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Real Properties Private Limited",
+    "rec": "Real Logistics Private  Limited",
+    "s1_addr": "Shop No-7, G/F, Dda Market, In Block A-2, New Delhi, West Delhi, Delhi",
+    "rec_addr": "West Delhi, DL, Shop No. D/07, New Delhi",
+    "x": "properties",
+    "z": "logistics",
+    "p": 0.0001,
+    "y": 0,
+    "owner": "other_S1_same_street_notV1",
+    "rv_rank": 11.0,
+    "nf_n": 60.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Future Food Private Limited",
+    "rec": "Ram  Food Private Limited",
+    "s1_addr": "Office No. 504, Kshitij Building Veera Desai Road, Andheri (West), Mum",
+    "rec_addr": "Office No.504, Mumbai, Mumbai City, MH",
+    "x": "future",
+    "z": "ram",
+    "p": 0.0003,
+    "y": 0,
+    "owner": "orphan",
+    "rv_rank": 11.0,
+    "nf_n": 70.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Reynolds All Lafayette",
+    "rec": "PHILLIPS ALL LAFAYETTE CO",
+    "s1_addr": "5846 Dunham Road, Leon, WV",
+    "rec_addr": "5846 DUNHAM ROAD, LEON, WV",
+    "x": "reynolds",
+    "z": "phillips",
+    "p": 0.0235,
+    "y": 0,
+    "owner": "orphan",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Balaji Agro Limited",
+    "rec": "Balaji Industries",
+    "s1_addr": "Plot No.25, Ashok Vihar, Colony, Varanasi, Uttar Pradesh",
+    "rec_addr": "Plot No. 25., Ahmedabad, ગુજરાત",
+    "x": "agro",
+    "z": "industries",
+    "p": 0.0,
+    "y": 0,
+    "owner": "other_S1_same_street_notV1",
+    "rv_rank": 11.0,
+    "nf_n": 81.0,
+    "nf_a": 0.0
+   }
+  ],
+  "ex_pos": [
+   {
+    "c": "India",
+    "s1": "Hyderabad Systems Private Limited",
+    "rec": "Hyderabad Technologies  Private Limited",
+    "s1_addr": "Plot No. 44, Ida Mallapur, Near Bel, Mallapur, Hyderabad, Telangana",
+    "rec_addr": "Telangana, PLOT NO. 044 , IDA MALLAPUR, NEAR BEL, MALLAPUR, HYDERABAD",
+    "x": "systems",
+    "z": "technologies",
+    "p": 0.0005,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 42.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "G/L Mitsui LLC",
+    "rec": "LLC 6/L Mitsui",
+    "s1_addr": "608 Chucky Pike, Jefferson City, TN",
+    "rec_addr": "##608 Chucky Pike, Jefferson City, Tennessee",
+    "x": "g",
+    "z": "6",
+    "p": 0.9997,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Foot & Ankle Clinic",
+    "rec": "Foot and Ankle",
+    "s1_addr": "2340 Sandy Springs Road, Mocksville, NC",
+    "rec_addr": "2340 SANDY SPRINGS ROAD, null, MOCKSVILLE, NC",
+    "x": "clinic",
+    "z": "and",
+    "p": 1.0,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 5242.0,
+    "nf_a": 1.0
+   },
+   {
+    "c": "US",
+    "s1": "Big Pub! Care",
+    "rec": "Big P! Care",
+    "s1_addr": "15219 Crazy Horse Avenue, Fontana, CA",
+    "rec_addr": "15219-15223 CRAZY HORSE AVE, FONTANA, CA",
+    "x": "pub",
+    "z": "p",
+    "p": 0.9997,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Hyderabad Systems Private Limited",
+    "rec": "Hyderabad Technologies Private Limited",
+    "s1_addr": "Plot No. 44, Ida Mallapur, Near Bel, Mallapur, Hyderabad, Telangana",
+    "rec_addr": "PLOT NO. 044 , IDA MALLAPUR, NEAR BEL, MALLAPUR, HYDERABAD, Telangana",
+    "x": "systems",
+    "z": "technologies",
+    "p": 0.0007,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 42.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Vision Care, LLC",
+    "rec": "LLC Vision C,",
+    "s1_addr": "375 Sugar Highland Boulevard, Houma, LA",
+    "rec_addr": "375 Sugar Highland Blvd, Houma CDP, Louisiana",
+    "x": "care",
+    "z": "c",
+    "p": 0.9998,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 183.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Luckystar & Sons LLP",
+    "rec": "Mr Luckystar & Ss LLP",
+    "s1_addr": "House No. 252, Sector 55, Gurgaon, Haryana",
+    "rec_addr": "HOUSE NO. 252, SECTOR 55, GURGAON, Haryana",
+    "x": "sons",
+    "z": "ss",
+    "p": 0.9999,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Corporate Marine Networks LP",
+    "rec": "CORPORATE MAE NETWORKS (LP)",
+    "s1_addr": "3890 Hal Rogers Parkway, London, KY",
+    "rec_addr": "3890 Hal Rogers Parkway, LONDON, KY",
+    "x": "marine",
+    "z": "mae",
+    "p": 0.9994,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Rapid Smart Ngl Inc.",
+    "rec": "Rapid St Ngl [Inc.]",
+    "s1_addr": "16 Meadow Lane, Putnam Valley, NY",
+    "rec_addr": "16 MEADOW LN, PUTNAM VALLEY, NY",
+    "x": "smart",
+    "z": "st",
+    "p": 0.9999,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Star Garden",
+    "rec": "Star Gen",
+    "s1_addr": "1957 Lakota Drive, St George City, UT",
+    "rec_addr": "#1957 Lakota Dr, St George City, Utah",
+    "x": "garden",
+    "z": "gen",
+    "p": 0.9972,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 2.0,
+    "nf_a": 0.0
+   }
+  ],
+  "ex_errors": [
+   {
+    "c": "India",
+    "s1": "Hyderabad Systems Private Limited",
+    "rec": "Hyderabad Technologies  Private Limited",
+    "s1_addr": "Plot No. 44, Ida Mallapur, Near Bel, Mallapur, Hyderabad, Telangana",
+    "rec_addr": "Telangana, PLOT NO. 044 , IDA MALLAPUR, NEAR BEL, MALLAPUR, HYDERABAD",
+    "x": "systems",
+    "z": "technologies",
+    "p": 0.0005,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 42.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Hyderabad Systems Private Limited",
+    "rec": "Hyderabad Technologies Private Limited",
+    "s1_addr": "Plot No. 44, Ida Mallapur, Near Bel, Mallapur, Hyderabad, Telangana",
+    "rec_addr": "PLOT NO. 044 , IDA MALLAPUR, NEAR BEL, MALLAPUR, HYDERABAD, Telangana",
+    "x": "systems",
+    "z": "technologies",
+    "p": 0.0007,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 42.0,
+    "nf_a": 0.0
+   }
+  ],
+  "top_swaps_neg": [
+   [
+    "engineering->builders",
+    4
+   ],
+   [
+    "specialists->care",
+    2
+   ],
+   [
+    "greenfire->anchor",
+    2
+   ],
+   [
+    "global->traders",
+    2
+   ],
+   [
+    "indo->hyderabad",
+    2
+   ],
+   [
+    "projects->associates",
+    2
+   ],
+   [
+    "technologies->investment",
+    2
+   ],
+   [
+    "alvarez->smith",
+    1
+   ],
+   [
+    "redwood->cancer",
+    1
+   ],
+   [
+    "urology->chiropractic",
+    1
+   ],
+   [
+    "flores->garcia",
+    1
+   ],
+   [
+    "perry->cox",
+    1
+   ],
+   [
+    "harrison->churchill",
+    1
+   ],
+   [
+    "king->anderson",
+    1
+   ],
+   [
+    "reynolds->phillips",
+    1
+   ]
+  ],
+  "top_swaps_pos": [
+   [
+    "systems->technologies",
+    2
+   ],
+   [
+    "care->cable",
+    1
+   ],
+   [
+    "care->c",
+    1
+   ],
+   [
+    "perfect->and",
+    1
+   ],
+   [
+    "2->two",
+    1
+   ],
+   [
+    "clinic->and",
+    1
+   ],
+   [
+    "garcia->and",
+    1
+   ],
+   [
+    "g->6",
+    1
+   ],
+   [
+    "smart->st",
+    1
+   ],
+   [
+    "marine->mae",
+    1
+   ],
+   [
+    "generation->and",
+    1
+   ],
+   [
+    "pub->p",
+    1
+   ],
+   [
+    "garden->gen",
+    1
+   ],
+   [
+    "farmers->farms",
+    1
+   ],
+   [
+    "sons->ss",
+    1
+   ]
+  ]
+ },
+ "CC_ANY": {
+  "US": {
+   "n": 45481,
+   "pos": 20,
+   "neg": 45461,
+   "TP": 15,
+   "FN": 5,
+   "FP": 0,
+   "TN": 45461
+  },
+  "India": {
+   "n": 29624,
+   "pos": 5,
+   "neg": 29619,
+   "TP": 3,
+   "FN": 2,
+   "FP": 0,
+   "TN": 29619
+  },
+  "all": {
+   "n": 75105,
+   "pos": 25,
+   "neg": 75080,
+   "TP": 18,
+   "FN": 7,
+   "FP": 0,
+   "TN": 75080
+  },
+  "share_of_all_FN_in_pool": 0.00342,
+  "share_of_all_FP": 0.0,
+  "by_p_bin": {
+   "[0.00,0.01)": {
+    "flag_n": 74922,
+    "flag_y": 0.0,
+    "unflag_y": 0.0001
+   },
+   "[0.01,0.05)": {
+    "flag_n": 149,
+    "flag_y": 0.013,
+    "unflag_y": 0.0239
+   },
+   "[0.05,0.20)": {
+    "flag_n": 14,
+    "flag_y": 0.0,
+    "unflag_y": 0.1065
+   },
+   "[0.20,0.50)": {
+    "flag_n": 1,
+    "flag_y": 1.0,
+    "unflag_y": 0.3182
+   },
+   "[0.50,0.78)": {
+    "flag_n": 1,
+    "flag_y": 0.0,
+    "unflag_y": 0.608
+   },
+   "[0.78,0.90)": {
+    "flag_n": 0,
+    "flag_y": null,
+    "unflag_y": 0.8636
+   },
+   "[0.90,0.99)": {
+    "flag_n": 1,
+    "flag_y": 1.0,
+    "unflag_y": 0.9719
+   },
+   "[0.99,1.00)": {
+    "flag_n": 17,
+    "flag_y": 1.0,
+    "unflag_y": 0.9998
+   }
+  },
+  "oracle_macro": 98.809,
+  "oracle_TP": 67193,
+  "oracle_FP": 167,
+  "oracle_delta_pp": 0.0066,
+  "veto_all_flagged_macro": 98.787,
+  "veto_delta_pp": -0.0154,
+  "auc_p_within_flag": 0.9966,
+  "single_col_auc_top": {
+   "rv_gap": 0.978,
+   "rv_sa": 0.977,
+   "LF3": 0.911,
+   "rv_rank": 0.091,
+   "rv_so": 0.104,
+   "LF15": 0.895,
+   "LF4": 0.878,
+   "LF20": 0.876,
+   "LF22": 0.124,
+   "LF24": 0.876,
+   "LF12": 0.859,
+   "LF13": 0.858,
+   "LF14": 0.858,
+   "LF11": 0.846,
+   "LF34": 0.844
+  },
+  "neg_owner": {
+   "other_S1_elsewhere_notV1": 65573,
+   "other_S1_elsewhere_inV1": 635,
+   "orphan": 8825,
+   "other_S1_same_street_notV1": 47
+  },
+  "pos_owner": {
+   "own": 25
+  },
+  "neg_orphan": {
+   "n": 8825,
+   "accepted": 0,
+   "p_mean": 0.0001,
+   "p_max": 0.6233
+  },
+  "neg_owned_by_other": {
+   "n": 66255,
+   "accepted": 0,
+   "p_mean": 0.0001
+  },
+  "neg_rl27_means": {
+   "nf_n": 122.821,
+   "nf_a": 0.028,
+   "af_n": 51.838,
+   "af_a": 0.003,
+   "coloc": 0.2,
+   "dupf": 10.733,
+   "rv_rank": 10.562,
+   "rv_sa": 0.329,
+   "rv_so": 0.996,
+   "rv_gap": -0.668
+  },
+  "neg_rv_rank1_frac": 0.01,
+  "neg_nf_a0_nfn_ge1_frac": 0.915,
+  "neg_p_quant": [
+   0.0,
+   0.0,
+   0.0001,
+   0.0023
+  ],
+  "pos_rl27_means": {
+   "nf_n": 226.36,
+   "nf_a": 0.36,
+   "af_n": 1.0,
+   "af_a": 0.381,
+   "coloc": 0.04,
+   "dupf": 8.32,
+   "rv_rank": 2.68,
+   "rv_sa": 0.957,
+   "rv_so": 0.665,
+   "rv_gap": 0.292
+  },
+  "pos_rv_rank1_frac": 0.8,
+  "pos_nf_a0_nfn_ge1_frac": 0.16,
+  "pos_p_quant": [
+   0.0037,
+   0.9995,
+   0.9999,
+   1.0
+  ],
+  "ex_neg": [
+   {
+    "c": "US",
+    "s1": "Guillot Associates",
+    "rec": "(L.L.C.) Guillot Photonics",
+    "s1_addr": "6651 Applewood Court, Downers Grove, IL",
+    "rec_addr": "305 Ozark Street, Prairie Grove, Arkansas",
+    "x": "associates",
+    "z": "photonics",
+    "p": 0.0,
+    "y": 0,
+    "owner": "other_S1_elsewhere_notV1",
+    "rv_rank": 11.0,
+    "nf_n": 1.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Gulf Mustang",
+    "rec": "Keystone [Mustang]",
+    "s1_addr": "20926 36th Place, Phoenix, AZ",
+    "rec_addr": "2800 RORER ROAD, RENICK, WV",
+    "x": "gulf",
+    "z": "keystone",
+    "p": 0.0,
+    "y": 0,
+    "owner": "other_S1_elsewhere_notV1",
+    "rv_rank": 8.0,
+    "nf_n": 5.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Desert Noble LLC",
+    "rec": "Desert LLC Guild",
+    "s1_addr": "706 Martin Luther King Jr Boulevard, Unit 6, Chapel Hill, NC",
+    "rec_addr": "4788 Martin Road, Newburgh, Indiana",
+    "x": "noble",
+    "z": "guild",
+    "p": 0.0,
+    "y": 0,
+    "owner": "other_S1_elsewhere_notV1",
+    "rv_rank": 11.0,
+    "nf_n": 45.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Black Infra Private Limited",
+    "rec": "Black It",
+    "s1_addr": "Sy No 164, Opposite Divine Providence School, Chandapura, Kommasandra ",
+    "rec_addr": "S.No. 17/2 B, Mhada Colony East P.No. 50, Near Rama Udyan, Miraj, Sang",
+    "x": "infra",
+    "z": "it",
+    "p": 0.0,
+    "y": 0,
+    "owner": "other_S1_elsewhere_notV1",
+    "rv_rank": 11.0,
+    "nf_n": 90.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Downtown Deli",
+    "rec": "Brown Deli",
+    "s1_addr": "2673 Pegasus Ranch Road, Bullhead City, AZ",
+    "rec_addr": "##104 Edenbridge, James City County, Virginia",
+    "x": "downtown",
+    "z": "brown",
+    "p": 0.0,
+    "y": 0,
+    "owner": "orphan",
+    "rv_rank": 11.0,
+    "nf_n": 1.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Aditya Industries Private Limited",
+    "rec": "Aditya It",
+    "s1_addr": "606-6, Golf Avenue 2, Noida Sector 75, Noida, Gautam Buddha Nagar, Utt",
+    "rec_addr": "Opp. Autolite India Limitedroad No. 9A, V.K.I. Area, Jaipur, Rajasthan",
+    "x": "industries",
+    "z": "it",
+    "p": 0.0,
+    "y": 0,
+    "owner": "other_S1_elsewhere_notV1",
+    "rv_rank": 11.0,
+    "nf_n": 83.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Corner Tattoo LLC",
+    "rec": "Cure Tattoo Ltd",
+    "s1_addr": "2200 Prout Street, Unit 3, Washington, DC",
+    "rec_addr": "19883 IMPERIAL RD, <NULL>, WEST UNION, IA",
+    "x": "corner",
+    "z": "cure",
+    "p": 0.0,
+    "y": 0,
+    "owner": "orphan",
+    "rv_rank": 11.0,
+    "nf_n": 56.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Heritage Inc",
+    "rec": "Eye",
+    "s1_addr": "170 Bethel Road, Magnolia, AR",
+    "rec_addr": "175 Black Swan Place, Magnolia, TX",
+    "x": "heritage",
+    "z": "eye",
+    "p": 0.0,
+    "y": 0,
+    "owner": "other_S1_elsewhere_notV1",
+    "rv_rank": 11.0,
+    "nf_n": 6158.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Universal Technology Pvt Ltd",
+    "rec": "Universal Tech",
+    "s1_addr": "141 Debai Pukur Road Po - Hindmotor, Hooghly, West Bengal",
+    "rec_addr": "E-125/126 AMAR COLONY, PART-4, LAJPAT NAGAR, NEW DELHI, Delhi",
+    "x": "technology",
+    "z": "tech",
+    "p": 0.0,
+    "y": 0,
+    "owner": "other_S1_elsewhere_notV1",
+    "rv_rank": 11.0,
+    "nf_n": 86.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Dixon Holdings",
+    "rec": "Dixon Zeo Llc",
+    "s1_addr": "13395 66, Bellemont, AZ",
+    "rec_addr": "",
+    "x": "holdings",
+    "z": "zeo",
+    "p": 0.0,
+    "y": 0,
+    "owner": "other_S1_elsewhere_notV1",
+    "rv_rank": 11.0,
+    "nf_n": 1.0,
+    "nf_a": 0.0
+   }
+  ],
+  "ex_pos": [
+   {
+    "c": "US",
+    "s1": "Lucky Hair Studio!",
+    "rec": "Lucky Hair Enterprises",
+    "s1_addr": "708 S Haven Drive, Noble, OK",
+    "rec_addr": "",
+    "x": "studio",
+    "z": "enterprises",
+    "p": 0.0074,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 11.0,
+    "nf_n": 65.0,
+    "nf_a": 1.0
+   },
+   {
+    "c": "US",
+    "s1": "Smith & Barbera Catering LLC",
+    "rec": "SMITH and and BARBERA",
+    "s1_addr": "Unit 255, Washington, 3460 14th Street, DC",
+    "rec_addr": "WASHINGTON, 3460 14ND ST, DC",
+    "x": "catering",
+    "z": "and",
+    "p": 0.9991,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 1.0,
+    "nf_a": 1.0
+   },
+   {
+    "c": "India",
+    "s1": "Hyderabad Systems Private Limited",
+    "rec": "Hyderabad Technologies Private Limited",
+    "s1_addr": "Plot No. 44, Ida Mallapur, Near Bel, Mallapur, Hyderabad, Telangana",
+    "rec_addr": "PLOT NO. 044 , IDA MALLAPUR, NEAR BEL, MALLAPUR, HYDERABAD, Telangana",
+    "x": "systems",
+    "z": "technologies",
+    "p": 0.0007,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 42.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Hyderabad Systems Private Limited",
+    "rec": "Hyderabad Technologies  Private Limited",
+    "s1_addr": "Plot No. 44, Ida Mallapur, Near Bel, Mallapur, Hyderabad, Telangana",
+    "rec_addr": "Telangana, PLOT NO. 044 , IDA MALLAPUR, NEAR BEL, MALLAPUR, HYDERABAD",
+    "x": "systems",
+    "z": "technologies",
+    "p": 0.0005,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 42.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "# 2 OG Capital",
+    "rec": "# Two OG Capital",
+    "s1_addr": "16117 Monroe Street, Goodyear, AZ",
+    "rec_addr": "16117 MONROE STREET, GOODYEAR, AZ",
+    "x": "2",
+    "z": "two",
+    "p": 0.9999,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Rapid Smart Ngl Inc.",
+    "rec": "Rapid St Ngl [Inc.]",
+    "s1_addr": "16 Meadow Lane, Putnam Valley, NY",
+    "rec_addr": "16 MEADOW LN, PUTNAM VALLEY, NY",
+    "x": "smart",
+    "z": "st",
+    "p": 0.9999,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Star Garden",
+    "rec": "Star Gen",
+    "s1_addr": "1957 Lakota Drive, St George City, UT",
+    "rec_addr": "#1957 Lakota Dr, St George City, Utah",
+    "x": "garden",
+    "z": "gen",
+    "p": 0.9972,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 2.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Preferred Automation Systems LLC",
+    "rec": "Preferred Automation Technologies LLC",
+    "s1_addr": "382 Davis Street, Northborough, MA",
+    "rec_addr": "",
+    "x": "systems",
+    "z": "technologies",
+    "p": 0.0012,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 11.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Chagnon, Garrett & Mcdonald Generation LLC",
+    "rec": "Chagnon, Garrett and Mcdonald",
+    "s1_addr": "622 Elochoman Valley Road, Cathlamet, WA",
+    "rec_addr": "622-626 Elochoman Valley Road, Cathlamet, Washington",
+    "x": "generation",
+    "z": "and",
+    "p": 0.9999,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 1.0,
+    "nf_a": 1.0
+   },
+   {
+    "c": "US",
+    "s1": "Big Pub! Care",
+    "rec": "Big P! Care",
+    "s1_addr": "15219 Crazy Horse Avenue, Fontana, CA",
+    "rec_addr": "15219-15223 CRAZY HORSE AVE, FONTANA, CA",
+    "x": "pub",
+    "z": "p",
+    "p": 0.9997,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   }
+  ],
+  "ex_errors": [
+   {
+    "c": "US",
+    "s1": "Preferred Automation Systems LLC",
+    "rec": "Preferred Automation Technologies LLC",
+    "s1_addr": "382 Davis Street, Northborough, MA",
+    "rec_addr": "",
+    "x": "systems",
+    "z": "technologies",
+    "p": 0.0012,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 11.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Hyderabad Systems Private Limited",
+    "rec": "Hyderabad Technologies Private Limited",
+    "s1_addr": "Plot No. 44, Ida Mallapur, Near Bel, Mallapur, Hyderabad, Telangana",
+    "rec_addr": "PLOT NO. 044 , IDA MALLAPUR, NEAR BEL, MALLAPUR, HYDERABAD, Telangana",
+    "x": "systems",
+    "z": "technologies",
+    "p": 0.0007,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 42.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Prairie Money, LLC",
+    "rec": "Prairie M,y-LLC",
+    "s1_addr": "22918 Oakmont Drive, Porter, TX",
+    "rec_addr": "22920 Oakmont Dr, Porter, Texas",
+    "x": "money",
+    "z": "y",
+    "p": 0.4894,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Strategic Rapid City, Inc",
+    "rec": "Strategic Rapid Enterprises",
+    "s1_addr": "307 Forest Beach Road, Fl 0, Annapolis, MD",
+    "rec_addr": "",
+    "x": "city",
+    "z": "enterprises",
+    "p": 0.0112,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 11.0,
+    "nf_n": 14.0,
+    "nf_a": 1.0
+   },
+   {
+    "c": "US",
+    "s1": "Regional Initiative IV",
+    "rec": "Regional Initiative Enterprises",
+    "s1_addr": "163 High Street, Unit 2, Brookline, MA",
+    "rec_addr": "",
+    "x": "iv",
+    "z": "enterprises",
+    "p": 0.0274,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 11.0,
+    "nf_n": 62.0,
+    "nf_a": 1.0
+   },
+   {
+    "c": "US",
+    "s1": "Lucky Hair Studio!",
+    "rec": "Lucky Hair Enterprises",
+    "s1_addr": "708 S Haven Drive, Noble, OK",
+    "rec_addr": "",
+    "x": "studio",
+    "z": "enterprises",
+    "p": 0.0074,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 11.0,
+    "nf_n": 65.0,
+    "nf_a": 1.0
+   },
+   {
+    "c": "India",
+    "s1": "Hyderabad Systems Private Limited",
+    "rec": "Hyderabad Technologies  Private Limited",
+    "s1_addr": "Plot No. 44, Ida Mallapur, Near Bel, Mallapur, Hyderabad, Telangana",
+    "rec_addr": "Telangana, PLOT NO. 044 , IDA MALLAPUR, NEAR BEL, MALLAPUR, HYDERABAD",
+    "x": "systems",
+    "z": "technologies",
+    "p": 0.0005,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 42.0,
+    "nf_a": 0.0
+   }
+  ],
+  "top_swaps_neg": [
+   [
+    "technologies->tech",
+    424
+   ],
+   [
+    "engineering->energy",
+    416
+   ],
+   [
+    "enterprises->energy",
+    378
+   ],
+   [
+    "foundation->food",
+    323
+   ],
+   [
+    "infrastructure->it",
+    313
+   ],
+   [
+    "technology->tech",
+    287
+   ],
+   [
+    "investments->it",
+    279
+   ],
+   [
+    "infotech->it",
+    278
+   ],
+   [
+    "international->it",
+    278
+   ],
+   [
+    "foundation->foods",
+    261
+   ],
+   [
+    "industries->it",
+    244
+   ],
+   [
+    "downtown->uptown",
+    240
+   ],
+   [
+    "management->marketing",
+    228
+   ],
+   [
+    "infra->it",
+    203
+   ],
+   [
+    "investment->it",
+    202
+   ]
+  ],
+  "top_swaps_pos": [
+   [
+    "systems->technologies",
+    3
+   ],
+   [
+    "sons->ss",
+    2
+   ],
+   [
+    "care->cable",
+    1
+   ],
+   [
+    "studio->enterprises",
+    1
+   ],
+   [
+    "care->c",
+    1
+   ],
+   [
+    "perfect->and",
+    1
+   ],
+   [
+    "2->two",
+    1
+   ],
+   [
+    "peak->pa",
+    1
+   ],
+   [
+    "nguyen->and",
+    1
+   ],
+   [
+    "city->enterprises",
+    1
+   ],
+   [
+    "iv->enterprises",
+    1
+   ],
+   [
+    "clinic->and",
+    1
+   ],
+   [
+    "garcia->and",
+    1
+   ],
+   [
+    "g->6",
+    1
+   ],
+   [
+    "catering->and",
+    1
+   ]
+  ]
+ },
+ "IN_C_ANY": {
+  "US": {
+   "n": 67741,
+   "pos": 32,
+   "neg": 67709,
+   "TP": 24,
+   "FN": 8,
+   "FP": 0,
+   "TN": 67709
+  },
+  "India": {
+   "n": 42896,
+   "pos": 6,
+   "neg": 42890,
+   "TP": 4,
+   "FN": 2,
+   "FP": 0,
+   "TN": 42890
+  },
+  "all": {
+   "n": 110637,
+   "pos": 38,
+   "neg": 110599,
+   "TP": 28,
+   "FN": 10,
+   "FP": 0,
+   "TN": 110599
+  },
+  "share_of_all_FN_in_pool": 0.00489,
+  "share_of_all_FP": 0.0,
+  "by_p_bin": {
+   "[0.00,0.01)": {
+    "flag_n": 110371,
+    "flag_y": 0.0,
+    "unflag_y": 0.0001
+   },
+   "[0.01,0.05)": {
+    "flag_n": 213,
+    "flag_y": 0.009,
+    "unflag_y": 0.024
+   },
+   "[0.05,0.20)": {
+    "flag_n": 22,
+    "flag_y": 0.045,
+    "unflag_y": 0.1065
+   },
+   "[0.20,0.50)": {
+    "flag_n": 2,
+    "flag_y": 0.5,
+    "unflag_y": 0.3183
+   },
+   "[0.50,0.78)": {
+    "flag_n": 1,
+    "flag_y": 0.0,
+    "unflag_y": 0.608
+   },
+   "[0.78,0.90)": {
+    "flag_n": 0,
+    "flag_y": null,
+    "unflag_y": 0.8636
+   },
+   "[0.90,0.99)": {
+    "flag_n": 1,
+    "flag_y": 1.0,
+    "unflag_y": 0.9719
+   },
+   "[0.99,1.00)": {
+    "flag_n": 27,
+    "flag_y": 1.0,
+    "unflag_y": 0.9998
+   }
+  },
+  "oracle_macro": 98.8099,
+  "oracle_TP": 67196,
+  "oracle_FP": 167,
+  "oracle_delta_pp": 0.0075,
+  "veto_all_flagged_macro": 98.7838,
+  "veto_delta_pp": -0.0186,
+  "auc_p_within_flag": 0.9976,
+  "single_col_auc_top": {
+   "rv_gap": 0.968,
+   "rv_sa": 0.967,
+   "rv_rank": 0.105,
+   "rv_so": 0.11,
+   "LF15": 0.88,
+   "LF78_tok_frac_co": 0.127,
+   "LF3": 0.869,
+   "LF4": 0.869,
+   "LF20": 0.866,
+   "LF22": 0.134,
+   "LF24": 0.866,
+   "LF29": 0.864,
+   "LF33": 0.864,
+   "LF77_tok_frac_s1o": 0.136,
+   "LF34": 0.853
+  },
+  "neg_owner": {
+   "other_S1_elsewhere_notV1": 96301,
+   "other_S1_elsewhere_inV1": 922,
+   "orphan": 13297,
+   "other_S1_same_street_notV1": 79
+  },
+  "pos_owner": {
+   "own": 38
+  },
+  "neg_orphan": {
+   "n": 13297,
+   "accepted": 0,
+   "p_mean": 0.0001,
+   "p_max": 0.6233
+  },
+  "neg_owned_by_other": {
+   "n": 97302,
+   "accepted": 0,
+   "p_mean": 0.0001
+  },
+  "neg_rl27_means": {
+   "nf_n": 144.943,
+   "nf_a": 0.026,
+   "af_n": 55.654,
+   "af_a": 0.004,
+   "coloc": 0.191,
+   "dupf": 8.264,
+   "rv_rank": 10.502,
+   "rv_sa": 0.351,
+   "rv_so": 0.996,
+   "rv_gap": -0.645
+  },
+  "neg_rv_rank1_frac": 0.012,
+  "neg_nf_a0_nfn_ge1_frac": 0.913,
+  "neg_p_quant": [
+   0.0,
+   0.0,
+   0.0001,
+   0.0021
+  ],
+  "pos_rl27_means": {
+   "nf_n": 296.079,
+   "nf_a": 0.5,
+   "af_n": 0.806,
+   "af_a": 0.387,
+   "coloc": 0.053,
+   "dupf": 8.421,
+   "rv_rank": 2.895,
+   "rv_sa": 0.945,
+   "rv_so": 0.672,
+   "rv_gap": 0.272
+  },
+  "pos_rv_rank1_frac": 0.789,
+  "pos_nf_a0_nfn_ge1_frac": 0.105,
+  "pos_p_quant": [
+   0.0027,
+   0.9997,
+   0.9999,
+   1.0
+  ],
+  "ex_neg": [
+   {
+    "c": "US",
+    "s1": "Harbor Institute VI, LLC",
+    "rec": "Capital Instutte VI LLC",
+    "s1_addr": "6 Henry Terrace, Unit 16, Worcester, MA",
+    "rec_addr": "47 Wells Hill Rd, Eason, Connecticut",
+    "x": "harbor",
+    "z": "capital",
+    "p": 0.0,
+    "y": 0,
+    "owner": "other_S1_elsewhere_notV1",
+    "rv_rank": 11.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Jain Marketing Private Limited",
+    "rec": "Jain [Management]",
+    "s1_addr": "Room No.66/3, Buddha Kripa Niwas, Takia Ward, Near Kurla Court, Kurla ",
+    "rec_addr": "#20 RZ-164, FIRST FLOOR, RAVI NAGAR EXTN. VISHNU GARDEN, NEW DELHI, De",
+    "x": "marketing",
+    "z": "management",
+    "p": 0.0,
+    "y": 0,
+    "owner": "other_S1_elsewhere_notV1",
+    "rv_rank": 11.0,
+    "nf_n": 79.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Unique Properties Private Limited",
+    "rec": "Unique Developers",
+    "s1_addr": "C/O Shantanu Sinha, Ganapati Kunja Apartment, Rajarhat, North 24 Parga",
+    "rec_addr": "C/O MALTI SINHA, D-138, P.C COLONY, SAMPATCHAK, बिहार",
+    "x": "properties",
+    "z": "developers",
+    "p": 0.0,
+    "y": 0,
+    "owner": "other_S1_elsewhere_notV1",
+    "rv_rank": 11.0,
+    "nf_n": 79.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Hand (India) Developersprivate Limited",
+    "rec": "Silver (India) Developersprivate Pvt",
+    "s1_addr": "Office No. 202, 2Nd Floor, Seven Business Square, City Suryey No.1108/",
+    "rec_addr": "No 41, Old No.730, 1St Main, Vyalikaval Extension, Aranmane Nagar, Ban",
+    "x": "hand",
+    "z": "silver",
+    "p": 0.0,
+    "y": 0,
+    "owner": "other_S1_elsewhere_notV1",
+    "rv_rank": 11.0,
+    "nf_n": 1.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Raj & Sons Private Limited",
+    "rec": "Raj Software",
+    "s1_addr": "Dadarkar Tower, Flat No. 1003 10Th Floor Tardeo Road Opp Film Center, ",
+    "rec_addr": "Tamil Nadu, 1, KRISHNASWAMY NAGAR COIMBATORE, COIMBATORE",
+    "x": "sons",
+    "z": "software",
+    "p": 0.0,
+    "y": 0,
+    "owner": "other_S1_elsewhere_notV1",
+    "rv_rank": 11.0,
+    "nf_n": 66.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Bright Consultants",
+    "rec": "BRIGHT [CARE]",
+    "s1_addr": "Gali No. 3, Govind Puri, Sadar Bazar, Gurgaon, Haryana",
+    "rec_addr": "H NO 23, FISRT FLOOR ALIGANJ KOTLA, NEW DELHI, Delhi",
+    "x": "consultants",
+    "z": "care",
+    "p": 0.0,
+    "y": 0,
+    "owner": "other_S1_elsewhere_notV1",
+    "rv_rank": 11.0,
+    "nf_n": 75.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Optimal Metro Productions L.L.C.",
+    "rec": "Metro Optimal  First LLC",
+    "s1_addr": "13134 Royal Bell Court, Houston, TX",
+    "rec_addr": "",
+    "x": "productions",
+    "z": "first",
+    "p": 0.0,
+    "y": 0,
+    "owner": "other_S1_elsewhere_notV1",
+    "rv_rank": 11.0,
+    "nf_n": 1.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Miller Vulcan LLC",
+    "rec": "Columbus-Vulcan LLC",
+    "s1_addr": "7824 Dahl Road, Deer Park, WA",
+    "rec_addr": "",
+    "x": "miller",
+    "z": "columbus",
+    "p": 0.0,
+    "y": 0,
+    "owner": "other_S1_elsewhere_notV1",
+    "rv_rank": 11.0,
+    "nf_n": 1.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Vadynis Israel LLC",
+    "rec": "First Israel [LLC]",
+    "s1_addr": "4562 Woodland Shores, Loon Lake, WA",
+    "rec_addr": "",
+    "x": "vadynis",
+    "z": "first",
+    "p": 0.0,
+    "y": 0,
+    "owner": "other_S1_elsewhere_notV1",
+    "rv_rank": 11.0,
+    "nf_n": 70.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Soul Traders Private Limited",
+    "rec": "Indore  Traders Private Limited",
+    "s1_addr": "Indore, First Floor, Madhya Pradesh, 57 - Fa, Scheme No. 94, Pipliyaha",
+    "rec_addr": "",
+    "x": "soul",
+    "z": "indore",
+    "p": 0.0,
+    "y": 0,
+    "owner": "other_S1_elsewhere_notV1",
+    "rv_rank": 11.0,
+    "nf_n": 8.0,
+    "nf_a": 0.0
+   }
+  ],
+  "ex_pos": [
+   {
+    "c": "US",
+    "s1": "Big Pub! Care",
+    "rec": "Big P! Care",
+    "s1_addr": "15219 Crazy Horse Avenue, Fontana, CA",
+    "rec_addr": "15219-15223 CRAZY HORSE AVE, FONTANA, CA",
+    "x": "pub",
+    "z": "p",
+    "p": 0.9997,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Kora's Rocky Eye Care LLC",
+    "rec": "Kora's Rocky Eye Cable LLC",
+    "s1_addr": "1043 Mimosa Street, Mineola, TX",
+    "rec_addr": "1043 1/2 Mimosa St, Mienola, Texas",
+    "x": "care",
+    "z": "cable",
+    "p": 0.9552,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "F & I Rain Ltd",
+    "rec": "F And I",
+    "s1_addr": "2209 Heath Lake Drive, Mint Hill, NC",
+    "rec_addr": "2209 Heath Lake Dr, Mint Hill, North Carolina",
+    "x": "rain",
+    "z": "and",
+    "p": 0.9998,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 55.0,
+    "nf_a": 1.0
+   },
+   {
+    "c": "US",
+    "s1": "A Cure 5 All",
+    "rec": "A Cure Five All",
+    "s1_addr": "520 Maple Street, TN, Unit C, Murfreesboro",
+    "rec_addr": "",
+    "x": "5",
+    "z": "five",
+    "p": 0.0027,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 11.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "C B Cruz Farms",
+    "rec": "C 8 Cruz Farms",
+    "s1_addr": "79 Lunsford Street, Weston, WV",
+    "rec_addr": "79 LUNSFORD STREET, WESTON, WV",
+    "x": "b",
+    "z": "8",
+    "p": 0.9924,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "India",
+    "s1": "Hyderabad Systems Private Limited",
+    "rec": "Hyderabad Technologies Private Limited",
+    "s1_addr": "Plot No. 44, Ida Mallapur, Near Bel, Mallapur, Hyderabad, Telangana",
+    "rec_addr": "PLOT NO. 044 , IDA MALLAPUR, NEAR BEL, MALLAPUR, HYDERABAD, Telangana",
+    "x": "systems",
+    "z": "technologies",
+    "p": 0.0007,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 42.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "F E & D Quest LLC",
+    "rec": "F E and [D]",
+    "s1_addr": "1100 Centennial Boulevard, Hays, KS",
+    "rec_addr": "1100 CENTENNIAL BOULEVARD, HAYS, KS",
+    "x": "quest",
+    "z": "and",
+    "p": 0.9999,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 1.0,
+    "nf_a": 1.0
+   },
+   {
+    "c": "India",
+    "s1": "Luckystar & Sons LLP",
+    "rec": "Mr Luckystar & Ss LLP",
+    "s1_addr": "House No. 252, Sector 55, Gurgaon, Haryana",
+    "rec_addr": "HOUSE NO. 252, SECTOR 55, GURGAON, Haryana",
+    "x": "sons",
+    "z": "ss",
+    "p": 0.9999,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Smith & Barbera Catering LLC",
+    "rec": "SMITH and and BARBERA",
+    "s1_addr": "Unit 255, Washington, 3460 14th Street, DC",
+    "rec_addr": "WASHINGTON, 3460 14ND ST, DC",
+    "x": "catering",
+    "z": "and",
+    "p": 0.9991,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 1.0,
+    "nf_a": 1.0
+   },
+   {
+    "c": "US",
+    "s1": "G/L Mitsui LLC",
+    "rec": "LLC 6/L Mitsui",
+    "s1_addr": "608 Chucky Pike, Jefferson City, TN",
+    "rec_addr": "##608 Chucky Pike, Jefferson City, Tennessee",
+    "x": "g",
+    "z": "6",
+    "p": 0.9997,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   }
+  ],
+  "ex_errors": [
+   {
+    "c": "India",
+    "s1": "Hyderabad Systems Private Limited",
+    "rec": "Hyderabad Technologies Private Limited",
+    "s1_addr": "Plot No. 44, Ida Mallapur, Near Bel, Mallapur, Hyderabad, Telangana",
+    "rec_addr": "PLOT NO. 044 , IDA MALLAPUR, NEAR BEL, MALLAPUR, HYDERABAD, Telangana",
+    "x": "systems",
+    "z": "technologies",
+    "p": 0.0007,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 42.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "A Cure 5 All",
+    "rec": "A Cure Five All",
+    "s1_addr": "520 Maple Street, TN, Unit C, Murfreesboro",
+    "rec_addr": "",
+    "x": "5",
+    "z": "five",
+    "p": 0.0027,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 11.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Preferred Automation Systems LLC",
+    "rec": "Preferred Automation Technologies LLC",
+    "s1_addr": "382 Davis Street, Northborough, MA",
+    "rec_addr": "",
+    "x": "systems",
+    "z": "technologies",
+    "p": 0.0012,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 11.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Regional Initiative IV",
+    "rec": "Regional Initiative Enterprises",
+    "s1_addr": "163 High Street, Unit 2, Brookline, MA",
+    "rec_addr": "",
+    "x": "iv",
+    "z": "enterprises",
+    "p": 0.0274,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 11.0,
+    "nf_n": 62.0,
+    "nf_a": 1.0
+   },
+   {
+    "c": "US",
+    "s1": "Strategic Rapid City, Inc",
+    "rec": "Strategic Rapid Enterprises",
+    "s1_addr": "307 Forest Beach Road, Fl 0, Annapolis, MD",
+    "rec_addr": "",
+    "x": "city",
+    "z": "enterprises",
+    "p": 0.0112,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 11.0,
+    "nf_n": 14.0,
+    "nf_a": 1.0
+   },
+   {
+    "c": "US",
+    "s1": "Prairie Money, LLC",
+    "rec": "Prairie M,y-LLC",
+    "s1_addr": "22918 Oakmont Drive, Porter, TX",
+    "rec_addr": "22920 Oakmont Dr, Porter, Texas",
+    "x": "money",
+    "z": "y",
+    "p": 0.4894,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 0.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Bricklayers Local Union 247 PC",
+    "rec": "Bricklayers Local Union Enterprises",
+    "s1_addr": "WY, Cheyenne, 1827 19th Street, Unit 1",
+    "rec_addr": "",
+    "x": "247",
+    "z": "enterprises",
+    "p": 0.0027,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 11.0,
+    "nf_n": 237.0,
+    "nf_a": 1.0
+   },
+   {
+    "c": "US",
+    "s1": "Select Reliable Manulife",
+    "rec": "Select Reliable Enterprises",
+    "s1_addr": "323 Malverne Drive, Syracuse, NY",
+    "rec_addr": "",
+    "x": "manulife",
+    "z": "enterprises",
+    "p": 0.0666,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 11.0,
+    "nf_n": 15.0,
+    "nf_a": 1.0
+   },
+   {
+    "c": "India",
+    "s1": "Hyderabad Systems Private Limited",
+    "rec": "Hyderabad Technologies  Private Limited",
+    "s1_addr": "Plot No. 44, Ida Mallapur, Near Bel, Mallapur, Hyderabad, Telangana",
+    "rec_addr": "Telangana, PLOT NO. 044 , IDA MALLAPUR, NEAR BEL, MALLAPUR, HYDERABAD",
+    "x": "systems",
+    "z": "technologies",
+    "p": 0.0005,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 1.0,
+    "nf_n": 42.0,
+    "nf_a": 0.0
+   },
+   {
+    "c": "US",
+    "s1": "Lucky Hair Studio!",
+    "rec": "Lucky Hair Enterprises",
+    "s1_addr": "708 S Haven Drive, Noble, OK",
+    "rec_addr": "",
+    "x": "studio",
+    "z": "enterprises",
+    "p": 0.0074,
+    "y": 1,
+    "owner": "own",
+    "rv_rank": 11.0,
+    "nf_n": 65.0,
+    "nf_a": 1.0
+   }
+  ],
+  "top_swaps_neg": [
+   [
+    "technologies->tech",
+    424
+   ],
+   [
+    "engineering->energy",
+    416
+   ],
+   [
+    "enterprises->energy",
+    378
+   ],
+   [
+    "foundation->food",
+    323
+   ],
+   [
+    "infrastructure->it",
+    313
+   ],
+   [
+    "technology->tech",
+    287
+   ],
+   [
+    "investments->it",
+    279
+   ],
+   [
+    "infotech->it",
+    278
+   ],
+   [
+    "international->it",
+    278
+   ],
+   [
+    "foundation->foods",
+    269
+   ],
+   [
+    "industries->it",
+    244
+   ],
+   [
+    "downtown->uptown",
+    240
+   ],
+   [
+    "trading->tech",
+    228
+   ],
+   [
+    "management->marketing",
+    228
+   ],
+   [
+    "business->builders",
+    214
+   ]
+  ],
+  "top_swaps_pos": [
+   [
+    "systems->technologies",
+    3
+   ],
+   [
+    "center->and",
+    2
+   ],
+   [
+    "sons->ss",
+    2
+   ],
+   [
+    "5->five",
+    1
+   ],
+   [
+    "care->cable",
+    1
+   ],
+   [
+    "studio->enterprises",
+    1
+   ],
+   [
+    "care->c",
+    1
+   ],
+   [
+    "perfect->and",
+    1
+   ],
+   [
+    "2->two",
+    1
+   ],
+   [
+    "peak->pa",
+    1
+   ],
+   [
+    "strong->and",
+    1
+   ],
+   [
+    "stark->and",
+    1
+   ],
+   [
+    "suma->and",
+    1
+   ],
+   [
+    "b->8",
+    1
+   ],
+   [
+    "nguyen->and",
+    1
+   ]
+  ]
+ },
+ "SUB1_ST_orphan": {
+  "n": 325,
+  "accepted": 3,
+  "p_quant": [
+   0.0003,
+   0.0408,
+   0.6784
+  ],
+  "by_country": {
+   "US": {
+    "n": 156,
+    "accepted": 2
+   },
+   "India": {
+    "n": 169,
+    "accepted": 1
+   }
+  }
+ },
+ "SUB1_ST_zcontent_orphan": {
+  "n": 121,
+  "accepted": 0,
+  "p_quant": [
+   0.0001,
+   0.001,
+   0.0235
+  ],
+  "by_country": {
+   "US": {
+    "n": 32,
+    "accepted": 0
+   },
+   "India": {
+    "n": 89,
+    "accepted": 0
+   }
+  }
+ },
+ "secs": 205.9
+}

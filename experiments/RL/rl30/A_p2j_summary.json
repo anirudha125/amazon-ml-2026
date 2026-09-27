@@ -1,0 +1,810 @@
+{
+ "US": {
+  "counts": {
+   "y1_in_rare_out_rare": 609,
+   "y1_in_rare_out_content": 1467,
+   "y0_in_rare_out_rare": 107,
+   "y1_in_generic_out_rare": 286,
+   "y1_in_generic_out_content": 1222,
+   "y1_in_rare_out_generic": 121,
+   "y0_in_content_out_rare": 29,
+   "y1_in_generic_out_generic": 71,
+   "y0_in_rare_out_content": 36,
+   "y1_in_content_out_content": 12,
+   "y0_in_content_out_content": 12,
+   "y0_in_generic_out_generic": 1,
+   "y0_in_generic_out_rare": 3,
+   "y0_in_generic_out_content": 7,
+   "y1_in_content_out_rare": 3,
+   "y1_in_content_out_generic": 2
+  },
+  "examples": {
+   "y1_in_rare_out_rare": [
+    [
+     "Meque, LLC",
+     "MOECUIE, LLC",
+     0.993
+    ],
+    [
+     "Obsidian Group",
+     "Obsdina Group",
+     0.965
+    ],
+    [
+     "Damaris C. Glander, D.O., M.D., P.C.",
+     "Damaris C. Gatndenr, D.O., M.D., P.C.",
+     1.0
+    ],
+    [
+     "Amil Seitz, D.C.",
+     "AMIL SEGIZ, D.C.",
+     1.0
+    ],
+    [
+     "Cavue Inc",
+     "CCEB-INC",
+     0.973
+    ],
+    [
+     "Solyx Bancorp",
+     "Solyx Banrrp",
+     1.0
+    ]
+   ],
+   "y1_in_rare_out_content": [
+    [
+     "Williams Pacific Oxley",
+     "Williams Pacific Ordiley",
+     1.0
+    ],
+    [
+     "C & V Copley, LLC",
+     "C & V CNOPOLNY, LLC",
+     1.0
+    ],
+    [
+     "Birch Noble",
+     "Birch Nhaboble",
+     1.0
+    ],
+    [
+     "Pinnacle Inc",
+     "Pinbnglce Inc",
+     1.0
+    ],
+    [
+     "Pediatric Dental Group",
+     "PEDIATRIC GROUP DNFTSAL",
+     0.998
+    ],
+    [
+     "New Life Baptist Church",
+     "New Life Batpsart Church",
+     1.0
+    ]
+   ],
+   "y0_in_rare_out_rare": [
+    [
+     "Zoller's Complete Healthcare Inc.",
+     "Coward Complete Healthcare",
+     0.0
+    ],
+    [
+     "Roex Marine",
+     "Avivera Marine",
+     0.006
+    ],
+    [
+     "Guillemette's Systems",
+     "Leon Systems Inc.",
+     0.0
+    ],
+    [
+     "Clyelle View",
+     "Clyeltis View",
+     0.047
+    ],
+    [
+     "Polaris L.L.C.",
+     "NOVIARC",
+     0.878
+    ],
+    [
+     "Olwen Carrion Cable LLC",
+     "Harter Carrion Cable",
+     0.0
+    ]
+   ],
+   "y1_in_generic_out_rare": [
+    [
+     "Valentina Alvarado Top Corp",
+     "VALENTINA ALVARADO CORP CENTER",
+     1.0
+    ],
+    [
+     "Glessner Rocket Inc.",
+     "Glessner Inc. Services",
+     1.0
+    ],
+    [
+     "Global Pioneer Yhn LLC",
+     "Global Pioneer LLC Partners",
+     1.0
+    ],
+    [
+     "Meryl Stein Therapeutics",
+     "Stein, Meryl Services",
+     0.999
+    ],
+    [
+     "RFX Quality Nuveen LLC",
+     "RFX Quality LLC Center",
+     1.0
+    ],
+    [
+     "Smith Signature Globa",
+     "Smith Signature (Services)",
+     1.0
+    ]
+   ],
+   "y1_in_generic_out_content": [
+    [
+     "Pediatric Prime Clinic Inc",
+     "Pediatric  Prime Inc Center",
+     1.0
+    ],
+    [
+     "Toma Schmehl Clean Averin LLC",
+     "Toma Schmehl Averin LLC Services",
+     1.0
+    ],
+    [
+     "Premier National Maywood LLC",
+     "Premier Maywood LLC Services",
+     0.999
+    ],
+    [
+     "Creative Security Associates Inc",
+     "Creative  Associates Inc Service",
+     1.0
+    ],
+    [
+     "Robinson Better Cbre",
+     "ROBINSON CBRE-SERVICES",
+     0.998
+    ],
+    [
+     "Patriot Charities",
+     "Patriot Center",
+     1.0
+    ]
+   ],
+   "y1_in_rare_out_generic": [
+    [
+     "Pediatric Dentistry Partners LLC",
+     "Pediatric Dentistry Pntnrs LLC",
+     1.0
+    ],
+    [
+     "Primary Care Partners Inc",
+     "Primary Care  Prarntrs Inc",
+     1.0
+    ],
+    [
+     "Eye American Center LLC",
+     "Eye American Cetr LLC",
+     1.0
+    ],
+    [
+     "Summit Capital Templeton Partners",
+     "Summit Capital Templeton Patrnrs",
+     1.0
+    ],
+    [
+     "Continental Trust",
+     "Continental Trect",
+     1.0
+    ],
+    [
+     "Velor International Partners",
+     "Velor International  Praegngers",
+     1.0
+    ]
+   ],
+   "y0_in_content_out_rare": [
+    [
+     "Kasper Summit Dime LLC",
+     "Martinez Summit Dime Llc",
+     0.001
+    ],
+    [
+     "Turcios Global Inc",
+     "Global  Cohen [LLC]",
+     0.0
+    ],
+    [
+     "Beasley, Gregerson & Andrews Online LLC",
+     "Gomez, Gregerson & Andrews Online Llc",
+     0.022
+    ],
+    [
+     "Rubio School of Medicine",
+     "Turner School of Medicine",
+     0.0
+    ],
+    [
+     "Cally's All Manufacturing",
+     "SMITH ALL MANUFACTURING",
+     0.0
+    ],
+    [
+     "Stahlman Dental Associates",
+     "Brown Dental Associates",
+     0.0
+    ]
+   ],
+   "y1_in_generic_out_generic": [
+    [
+     "Zena D. Davis, DPM",
+     "Zena Davis, DPM Service",
+     1.0
+    ],
+    [
+     "Allied Society",
+     "A1lied Center",
+     1.0
+    ],
+    [
+     "Pediatric Dentistry Partners LLC",
+     "Pediatric Dentistry LLC Service",
+     1.0
+    ],
+    [
+     "Ginnie F. Neiss, DO",
+     "Ginnie Neiss, DO Services",
+     1.0
+    ],
+    [
+     "Piedmont Association",
+     "Piedmont  Service",
+     1.0
+    ],
+    [
+     "Katherina A. Hernandez, DO",
+     "Katherina Hernandez, DO-Services",
+     1.0
+    ]
+   ],
+   "y0_in_rare_out_content": [
+    [
+     "Nova",
+     "Sinclair",
+     0.0
+    ],
+    [
+     "Aspen",
+     "@super64",
+     0.0
+    ],
+    [
+     "King and Lara Xsolla LLC",
+     "Bejarano and Lara Xsolla Llc",
+     0.006
+    ],
+    [
+     "CZ Quality Fisheries LLC",
+     "CD Quaty Fisheries LLC",
+     0.059
+    ],
+    [
+     "Cedar Cloud Clinic",
+     "Vionex Cloud Clinic LLC",
+     0.001
+    ],
+    [
+     "Falcon Third LLC",
+     "ONYXONYX THIRD LLC",
+     0.045
+    ]
+   ],
+   "y1_in_content_out_content": [
+    [
+     "Vision Care, LLC",
+     "LLC Vision C,",
+     1.0
+    ],
+    [
+     "# 2 OG Capital",
+     "# Two OG Capital",
+     1.0
+    ],
+    [
+     "Foot & Ankle Clinic",
+     "Foot and Ankle",
+     1.0
+    ],
+    [
+     "Flores, Bowman & Garcia",
+     "Flores, Bowman and",
+     1.0
+    ],
+    [
+     "Corporate Marine Networks LP",
+     "CORPORATE MAE NETWORKS (LP)",
+     0.999
+    ],
+    [
+     "Chagnon, Garrett & Mcdonald Generation LLC",
+     "Chagnon, Garrett and Mcdonald",
+     1.0
+    ]
+   ],
+   "y0_in_content_out_content": [
+    [
+     "Foot & Ankle Specialists Inc",
+     "FOOT  & ANKLE CARE",
+     0.021
+    ],
+    [
+     "Foot & Ankle Specialists Inc",
+     "FOOT & ANKLE CARE",
+     0.004
+    ],
+    [
+     "Reynolds All Lafayette",
+     "PHILLIPS ALL LAFAYETTE CO",
+     0.024
+    ]
+   ],
+   "y0_in_generic_out_generic": [],
+   "y0_in_generic_out_rare": [],
+   "y0_in_generic_out_content": [
+    [
+     "Pediatric Dental Premier Associates",
+     "The Pediatric Dental Ass0ciates",
+     0.989
+    ]
+   ],
+   "y1_in_content_out_rare": [
+    [
+     "F E & D Quest LLC",
+     "F E and [D]",
+     1.0
+    ]
+   ],
+   "y1_in_content_out_generic": []
+  }
+ },
+ "India": {
+  "counts": {
+   "y1_in_rare_out_content": 252,
+   "y1_in_generic_out_content": 287,
+   "y0_in_rare_out_content": 39,
+   "y1_in_generic_out_generic": 32,
+   "y1_in_rare_out_generic": 31,
+   "y1_in_rare_out_rare": 122,
+   "y1_in_generic_out_rare": 119,
+   "y0_in_rare_out_rare": 53,
+   "y0_in_content_out_content": 87,
+   "y0_in_content_out_rare": 43,
+   "y0_in_generic_out_content": 19,
+   "y0_in_generic_out_rare": 16,
+   "y0_in_rare_out_generic": 2,
+   "y0_in_content_out_generic": 9,
+   "y1_in_content_out_content": 4,
+   "y0_in_generic_out_generic": 2
+  },
+  "examples": {
+   "y1_in_rare_out_content": [
+    [
+     "Sparkle Builders Limited",
+     "Sparkle Bneulihesr Limited",
+     0.999
+    ],
+    [
+     "Wink Brothers Limited",
+     "Wink Brtoihhes Limited",
+     1.0
+    ],
+    [
+     "Flamingo Shyam Limited",
+     "Flamingo Ssm Limited",
+     1.0
+    ],
+    [
+     "Hajipur India Pvt Ltd",
+     "Hajipur Inodda  Pvt Ltd",
+     0.997
+    ],
+    [
+     "Divyanshi (India) Fund Private Limited",
+     "Divyanshi (India) Fnuad Private Limited",
+     1.0
+    ],
+    [
+     "Dream Global",
+     "Dream Glgbgbal",
+     1.0
+    ]
+   ],
+   "y1_in_generic_out_content": [
+    [
+     "Raj Surya Producer Pvt Ltd",
+     "Raj Surya Pvt Ltd  Partners",
+     1.0
+    ],
+    [
+     "Roopavi Products Private Limited",
+     "Roopavi  Private Limited Services",
+     1.0
+    ],
+    [
+     "Flamingo Shyam Limited",
+     "Flamingo Límited Center",
+     1.0
+    ],
+    [
+     "Kings Clinic",
+     "Kings Center",
+     1.0
+    ],
+    [
+     "Metal Power Private Limited",
+     "Limited Metal Private Center",
+     0.999
+    ],
+    [
+     "Jain International Private Limited",
+     "Shri Jain Private Limited Services",
+     0.997
+    ]
+   ],
+   "y0_in_rare_out_content": [
+    [
+     "VTY Housing LLP",
+     "VTY  Infocorp L.L.P.",
+     0.0
+    ],
+    [
+     "Noida Industries Private Limited",
+     "Noida Agri Private Limited",
+     0.006
+    ],
+    [
+     "Pune Industries Co",
+     "WOC Industries LLP",
+     0.0
+    ],
+    [
+     "Sairam Consultancy Pvt Ltd",
+     "Sairam Landbuild Pvt Ltd",
+     0.0
+    ],
+    [
+     "Leons Systems Private Limited",
+     "Leons Mind Private Limited",
+     0.0
+    ],
+    [
+     "Kolkata Enterprises Limited",
+     "Kolkata Stones",
+     0.0
+    ]
+   ],
+   "y1_in_generic_out_generic": [
+    [
+     "Investors & Partners",
+     "INVESTORS & CENTER",
+     1.0
+    ],
+    [
+     "Shiv Services Limited",
+     "Shiv Limited Center",
+     1.0
+    ],
+    [
+     "Rohtak Complex Partners",
+     "ROHTAK  COMPLEX CENTER",
+     1.0
+    ],
+    [
+     "Ashta Trading Center",
+     "Service Trading Ashta",
+     1.0
+    ],
+    [
+     "New Perfect Business LLP",
+     "New Perfect LLP  Services",
+     1.0
+    ],
+    [
+     "Kolkata Labs Corp",
+     "KOLKATA-CORP CENTER",
+     0.989
+    ]
+   ],
+   "y1_in_rare_out_generic": [
+    [
+     "Investors & Partners",
+     "Mr Investors & Pargtnesr",
+     1.0
+    ],
+    [
+     "Siscon Services Private Limited",
+     "Siscon Servlse Private Limited",
+     1.0
+    ],
+    [
+     "Oriental Trading LLP",
+     "ORIENTAL TOAMIGD LLP",
+     0.997
+    ],
+    [
+     "Shiv Services Limited",
+     "SHIV SSVICEES LIMITED",
+     1.0
+    ],
+    [
+     "Phoenix Services Pvt. Ltd.",
+     "Phoenix Sheices Pvt. Ltd.",
+     1.0
+    ],
+    [
+     "Modern Trading Private Limited",
+     "Modern Trarign Private Limited",
+     1.0
+    ]
+   ],
+   "y1_in_rare_out_rare": [
+    [
+     "Delhi Thakur Group",
+     "Delhi Tgaurk Group",
+     0.994
+    ],
+    [
+     "Delhi Thakur Group",
+     "Delhi Tahiakru Gróup",
+     0.956
+    ],
+    [
+     "Tarini & Co",
+     "Trim & Co",
+     0.477
+    ],
+    [
+     "WO Yarn Private Limited",
+     "WO Ydcorn Private Limited",
+     0.995
+    ],
+    [
+     "Mumbai Organics Private Limited",
+     "MUMBAI ORGOANIOSC PRIVATE LIMITED",
+     1.0
+    ],
+    [
+     "Consulting Bull Agro Limited",
+     "CONSULTING BALT  AGRO LIMITED",
+     0.999
+    ]
+   ],
+   "y1_in_generic_out_rare": [
+    [
+     "Tech Shree Retailers Private Limited",
+     "Tech Shree Private Limited Service",
+     1.0
+    ],
+    [
+     "Dhairya Buildtech Private Limited",
+     "Limited Dhairya Private Services",
+     0.997
+    ],
+    [
+     "My Leasing Pvt. Ltd.",
+     "My Pvt. Ltd. [Service]",
+     0.998
+    ],
+    [
+     "Teamtech Staffing Private Limited",
+     "Limited Teamtech Private Services",
+     1.0
+    ],
+    [
+     "Chennai Deposits Limited",
+     "Chennai Limited Partners",
+     1.0
+    ],
+    [
+     "Kritita Soft Pvt Ltd",
+     "Kritita Pvt Ltd Service",
+     0.999
+    ]
+   ],
+   "y0_in_rare_out_rare": [
+    [
+     "Kamco Shipping Private Limited",
+     "Shri Kamco Providers Private",
+     0.0
+    ],
+    [
+     "Hyderabad Recycle Pvt Ltd",
+     "Hyderabad Hyderabad Serbavics Pvt. Ltd.",
+     0.001
+    ],
+    [
+     "Bangalore Energie Pvt Ltd",
+     "Bangalore Agritech Private Ltd",
+     0.0
+    ],
+    [
+     "Aparna Softwares (India) Private Limited",
+     "Aparna Project (India) (Private)",
+     0.0
+    ],
+    [
+     "Vaayuya Grand LLP",
+     "Vaayuay Grand LLP",
+     0.008
+    ],
+    [
+     "Chandrin Resources Pvt Ltd",
+     "Chandrova Resources Pvt",
+     0.001
+    ]
+   ],
+   "y0_in_content_out_content": [
+    [
+     "My Global Pvt Ltd",
+     "My Ltd Traders",
+     0.0
+    ],
+    [
+     "My Global Pvt Ltd",
+     "My Ltd [Traders]",
+     0.0
+    ],
+    [
+     "Bps Infotech Pvt Ltd",
+     "Mr Bps  Technologies Pvt",
+     0.0
+    ],
+    [
+     "Galaxy Arihant Impex Private Limited",
+     "Galaxy Arihant Media",
+     0.0
+    ],
+    [
+     "Jrj Financial Company",
+     "Dr Jrj Solution Company",
+     0.0
+    ],
+    [
+     "Tropical Resorts Center",
+     "Tropical  Logistics Center",
+     0.0
+    ]
+   ],
+   "y0_in_content_out_rare": [
+    [
+     "Leela Heritage Private Limited",
+     "Leela India Private Limited",
+     0.0
+    ],
+    [
+     "Tech Shree Retailers Private Limited",
+     "Tech Shree Estates Private",
+     0.0
+    ],
+    [
+     "Speed Nuts (India) Private Limited",
+     "Speed Ventures (India) Private Limited",
+     0.0
+    ],
+    [
+     "Suave Traders Private Limited",
+     "Sai Traders",
+     0.0
+    ],
+    [
+     "Prasad Ladder Private Limited",
+     "Prasad Consulting Private Limited",
+     0.0
+    ],
+    [
+     "SF Ventura Private Limited",
+     "PRIVATE SF INFRA LTD",
+     0.0
+    ]
+   ],
+   "y0_in_generic_out_content": [
+    [
+     "Bombay Agro Private Limited",
+     "Bombay Private Limited Partners",
+     0.0
+    ],
+    [
+     "White Properties Private Limited",
+     "WHITE TRADING  PRIVATE LIMITED",
+     0.0
+    ],
+    [
+     "Prime Global",
+     "Prime Private Limited Center",
+     0.0
+    ],
+    [
+     "Om Enterprises Private Limited",
+     "Om Business Prívate Limited",
+     0.0
+    ],
+    [
+     "Shree Trust",
+     "Shree Private Limited Services",
+     0.0
+    ],
+    [
+     "Tech Projects Limited",
+     "Tech  Services",
+     0.128
+    ]
+   ],
+   "y0_in_generic_out_rare": [
+    [
+     "Mumbai Esolutions",
+     "Mumbai Mumbai Center",
+     0.0
+    ],
+    [
+     "Hyderabad Recycle Pvt Ltd",
+     "Hyderabad Services Pvt.",
+     0.001
+    ],
+    [
+     "Jk Fincap Private Limited",
+     "Jk Services Private Limited",
+     0.0
+    ],
+    [
+     "Instant Films Private Limited",
+     "ID Films Private [Limited]",
+     0.0
+    ],
+    [
+     "Tecsol Logistic Private Limited",
+     "Tecsol Services Private Limited",
+     0.0
+    ],
+    [
+     "Aditora People Group",
+     "Aditori Group  Services",
+     0.001
+    ]
+   ],
+   "y0_in_rare_out_generic": [
+    [
+     "Vijay Services Private Limited",
+     "Vijay Inns Private Limited",
+     0.0
+    ]
+   ],
+   "y0_in_content_out_generic": [
+    [
+     "Balaji Services Limited",
+     "Balaji Healthcare  Private Limited",
+     0.0
+    ],
+    [
+     "Tirupati Services Private Limited",
+     "Tirupati Technology Private Ltd",
+     0.0
+    ],
+    [
+     "Tirupati Services Private Limited",
+     "Tirupati Technology Private",
+     0.0
+    ]
+   ],
+   "y1_in_content_out_content": [],
+   "y0_in_generic_out_generic": []
+  }
+ }
+}

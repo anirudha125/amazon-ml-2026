@@ -1,0 +1,36 @@
+{
+ "RRL": {
+  "ALL": {
+   "actual": 98.947,
+   "selfest": 98.733,
+   "bias": 0.213
+  },
+  "US": {
+   "actual": 98.904,
+   "selfest": 98.71,
+   "bias": 0.194
+  },
+  "India": {
+   "actual": 99.012,
+   "selfest": 98.769,
+   "bias": 0.243
+  }
+ },
+ "NEW": {
+  "ALL": {
+   "actual": 98.802,
+   "selfest": 98.57,
+   "bias": 0.233
+  },
+  "US": {
+   "actual": 98.774,
+   "selfest": 98.593,
+   "bias": 0.181
+  },
+  "India": {
+   "actual": 98.846,
+   "selfest": 98.535,
+   "bias": 0.311
+  }
+ }
+}

@@ -1,0 +1,459 @@
+{
+ "adddrop_India": [
+  {
+   "idf_bin": "(0.0, 4.0]",
+   "n": 53,
+   "y_rate": 0.9057,
+   "mean_p": 0.8988,
+   "accepted": 47,
+   "acc_precision": 0.9787,
+   "acc_FP": 1,
+   "acc_expected_FP": 0.1,
+   "examples": [
+    "services",
+    "services",
+    "services",
+    "services"
+   ]
+  },
+  {
+   "idf_bin": "(4.0, 5.0]",
+   "n": 142,
+   "y_rate": 0.9296,
+   "mean_p": 0.9411,
+   "accepted": 131,
+   "acc_precision": 1.0,
+   "acc_FP": 0,
+   "acc_expected_FP": 0.3,
+   "examples": [
+    "group",
+    "group",
+    "consultancy",
+    "care"
+   ]
+  },
+  {
+   "idf_bin": "(5.0, 5.5]",
+   "n": 98,
+   "y_rate": 0.949,
+   "mean_p": 0.9441,
+   "accepted": 91,
+   "acc_precision": 1.0,
+   "acc_FP": 0,
+   "acc_expected_FP": 0.2,
+   "examples": [
+    "clinic",
+    "partners",
+    "silver",
+    "society"
+   ]
+  },
+  {
+   "idf_bin": "(5.5, 6.0]",
+   "n": 78,
+   "y_rate": 0.8462,
+   "mean_p": 0.87,
+   "accepted": 64,
+   "acc_precision": 0.9844,
+   "acc_FP": 1,
+   "acc_expected_FP": 0.1,
+   "examples": [
+    "center",
+    "samiti",
+    "holdings",
+    "chambers"
+   ]
+  },
+  {
+   "idf_bin": "(6.0, 7.0]",
+   "n": 5,
+   "y_rate": 0.4,
+   "mean_p": 0.5448,
+   "accepted": 2,
+   "acc_precision": 1.0,
+   "acc_FP": 0,
+   "acc_expected_FP": 0.0,
+   "examples": [
+    "farmers",
+    "west",
+    "exim",
+    "farmers"
+   ]
+  },
+  {
+   "idf_bin": "(7.0, 8.0]",
+   "n": 18,
+   "y_rate": 0.7222,
+   "mean_p": 0.7647,
+   "accepted": 13,
+   "acc_precision": 1.0,
+   "acc_FP": 0,
+   "acc_expected_FP": 0.1,
+   "examples": [
+    "service",
+    "service",
+    "service",
+    "service"
+   ]
+  },
+  {
+   "idf_bin": "(8.0, 30.0]",
+   "n": 59,
+   "y_rate": 0.9153,
+   "mean_p": 0.9489,
+   "accepted": 55,
+   "acc_precision": 0.9636,
+   "acc_FP": 2,
+   "acc_expected_FP": 0.3,
+   "examples": [
+    "saer",
+    "and",
+    "the",
+    "the"
+   ]
+  }
+ ],
+ "adddrop_US": [
+  {
+   "idf_bin": "(0.0, 4.0]",
+   "n": 689,
+   "y_rate": 0.8984,
+   "mean_p": 0.9064,
+   "accepted": 603,
+   "acc_precision": 0.9967,
+   "acc_FP": 2,
+   "acc_expected_FP": 2.0,
+   "examples": [
+    "group",
+    "group",
+    "center",
+    "group"
+   ]
+  },
+  {
+   "idf_bin": "(4.0, 5.0]",
+   "n": 78,
+   "y_rate": 0.8974,
+   "mean_p": 0.8971,
+   "accepted": 68,
+   "acc_precision": 1.0,
+   "acc_FP": 0,
+   "acc_expected_FP": 0.1,
+   "examples": [
+    "clinic",
+    "specialists",
+    "clinic",
+    "clinic"
+   ]
+  },
+  {
+   "idf_bin": "(5.0, 5.5]",
+   "n": 326,
+   "y_rate": 0.9049,
+   "mean_p": 0.9102,
+   "accepted": 289,
+   "acc_precision": 0.9896,
+   "acc_FP": 3,
+   "acc_expected_FP": 1.4,
+   "examples": [
+    "enterprises",
+    "enterprises",
+    "enterprises",
+    "holdings"
+   ]
+  },
+  {
+   "idf_bin": "(5.5, 6.0]",
+   "n": 285,
+   "y_rate": 0.9368,
+   "mean_p": 0.9455,
+   "accepted": 266,
+   "acc_precision": 1.0,
+   "acc_FP": 0,
+   "acc_expected_FP": 0.3,
+   "examples": [
+    "league",
+    "innovations",
+    "service",
+    "service"
+   ]
+  },
+  {
+   "idf_bin": "(6.0, 7.0]",
+   "n": 825,
+   "y_rate": 0.9867,
+   "mean_p": 0.9757,
+   "accepted": 797,
+   "acc_precision": 1.0,
+   "acc_FP": 0,
+   "acc_expected_FP": 1.1,
+   "examples": [
+    "housing",
+    "the",
+    "the",
+    "tattoo"
+   ]
+  },
+  {
+   "idf_bin": "(7.0, 8.0]",
+   "n": 341,
+   "y_rate": 0.9062,
+   "mean_p": 0.9137,
+   "accepted": 305,
+   "acc_precision": 0.9934,
+   "acc_FP": 2,
+   "acc_expected_FP": 0.5,
+   "examples": [
+    "montage",
+    "vance",
+    "grading",
+    "imperii"
+   ]
+  },
+  {
+   "idf_bin": "(8.0, 30.0]",
+   "n": 134,
+   "y_rate": 0.8582,
+   "mean_p": 0.8875,
+   "accepted": 114,
+   "acc_precision": 1.0,
+   "acc_FP": 0,
+   "acc_expected_FP": 0.3,
+   "examples": [
+    "com",
+    "safety",
+    "district",
+    "com"
+   ]
+  }
+ ],
+ "sub_India": [
+  {
+   "idf_bin": "(0.0, 4.0]",
+   "n": 56,
+   "y_rate": 0.9643,
+   "mean_p": 0.941,
+   "accepted": 52,
+   "acc_precision": 1.0,
+   "acc_FP": 0,
+   "acc_expected_FP": 0.3,
+   "examples": [
+    "india->services",
+    "solutions->services",
+    "brothers->services",
+    "india->services"
+   ]
+  },
+  {
+   "idf_bin": "(4.0, 5.0]",
+   "n": 172,
+   "y_rate": 0.9186,
+   "mean_p": 0.9266,
+   "accepted": 155,
+   "acc_precision": 0.9935,
+   "acc_FP": 1,
+   "acc_expected_FP": 1.1,
+   "examples": [
+    "enterprises->services",
+    "producer->services",
+    "business->services",
+    "global->services"
+   ]
+  },
+  {
+   "idf_bin": "(5.0, 5.5]",
+   "n": 113,
+   "y_rate": 0.9292,
+   "mean_p": 0.895,
+   "accepted": 94,
+   "acc_precision": 0.9894,
+   "acc_FP": 1,
+   "acc_expected_FP": 0.3,
+   "examples": [
+    "solutions->partners",
+    "estate->partners",
+    "mumbai->services",
+    "india->partners"
+   ]
+  },
+  {
+   "idf_bin": "(5.5, 6.0]",
+   "n": 397,
+   "y_rate": 0.9446,
+   "mean_p": 0.939,
+   "accepted": 365,
+   "acc_precision": 1.0,
+   "acc_FP": 0,
+   "acc_expected_FP": 1.5,
+   "examples": [
+    "construction->center",
+    "construction->center",
+    "educational->services",
+    "ventures->center"
+   ]
+  },
+  {
+   "idf_bin": "(6.0, 7.0]",
+   "n": 108,
+   "y_rate": 0.9259,
+   "mean_p": 0.9273,
+   "accepted": 99,
+   "acc_precision": 0.9899,
+   "acc_FP": 1,
+   "acc_expected_FP": 0.5,
+   "examples": [
+    "housing->center",
+    "chits->partners",
+    "infratech->center",
+    "security->center"
+   ]
+  },
+  {
+   "idf_bin": "(7.0, 8.0]",
+   "n": 265,
+   "y_rate": 0.9019,
+   "mean_p": 0.8867,
+   "accepted": 228,
+   "acc_precision": 0.9956,
+   "acc_FP": 1,
+   "acc_expected_FP": 1.1,
+   "examples": [
+    "sons->service",
+    "services->service",
+    "sons->service",
+    "india->service"
+   ]
+  },
+  {
+   "idf_bin": "(8.0, 30.0]",
+   "n": 2583,
+   "y_rate": 0.9404,
+   "mean_p": 0.9455,
+   "accepted": 2390,
+   "acc_precision": 0.9946,
+   "acc_FP": 13,
+   "acc_expected_FP": 11.8,
+   "examples": [
+    "budhh->bhudh",
+    "card->cabhrd",
+    "wings->center",
+    "industries->inteiss"
+   ]
+  }
+ ],
+ "sub_US": [
+  {
+   "idf_bin": "(0.0, 4.0]",
+   "n": 62,
+   "y_rate": 0.9355,
+   "mean_p": 0.9423,
+   "accepted": 58,
+   "acc_precision": 0.9828,
+   "acc_FP": 1,
+   "acc_expected_FP": 0.2,
+   "examples": [
+    "center->partners",
+    "partners->center",
+    "care->center",
+    "associates->center"
+   ]
+  },
+  {
+   "idf_bin": "(4.0, 5.0]",
+   "n": 35,
+   "y_rate": 0.9714,
+   "mean_p": 0.9745,
+   "accepted": 34,
+   "acc_precision": 1.0,
+   "acc_FP": 0,
+   "acc_expected_FP": 0.0,
+   "examples": [
+    "clinic->and",
+    "clinic->partners",
+    "medicine->partners",
+    "clinic->center"
+   ]
+  },
+  {
+   "idf_bin": "(5.0, 5.5]",
+   "n": 510,
+   "y_rate": 0.9745,
+   "mean_p": 0.9664,
+   "accepted": 489,
+   "acc_precision": 0.998,
+   "acc_FP": 1,
+   "acc_expected_FP": 1.4,
+   "examples": [
+    "preferred->services",
+    "summit->services",
+    "local->center",
+    "best->services"
+   ]
+  },
+  {
+   "idf_bin": "(5.5, 6.0]",
+   "n": 355,
+   "y_rate": 0.9521,
+   "mean_p": 0.9344,
+   "accepted": 327,
+   "acc_precision": 1.0,
+   "acc_FP": 0,
+   "acc_expected_FP": 0.7,
+   "examples": [
+    "dental->service",
+    "office->services",
+    "coalition->center",
+    "ministries->services"
+   ]
+  },
+  {
+   "idf_bin": "(6.0, 7.0]",
+   "n": 459,
+   "y_rate": 0.9521,
+   "mean_p": 0.9526,
+   "accepted": 431,
+   "acc_precision": 1.0,
+   "acc_FP": 0,
+   "acc_expected_FP": 0.5,
+   "examples": [
+    "media->partners",
+    "assets->center",
+    "business->partners",
+    "electronics->service"
+   ]
+  },
+  {
+   "idf_bin": "(7.0, 8.0]",
+   "n": 899,
+   "y_rate": 0.9299,
+   "mean_p": 0.9287,
+   "accepted": 820,
+   "acc_precision": 0.9963,
+   "acc_FP": 3,
+   "acc_expected_FP": 2.7,
+   "examples": [
+    "solana->services",
+    "care->cal",
+    "encore->center",
+    "miluna->center"
+   ]
+  },
+  {
+   "idf_bin": "(8.0, 30.0]",
+   "n": 5336,
+   "y_rate": 0.965,
+   "mean_p": 0.9615,
+   "accepted": 5054,
+   "acc_precision": 0.9976,
+   "acc_FP": 12,
+   "acc_expected_FP": 23.9,
+   "examples": [
+    "smart->samet",
+    "golden->g0lden",
+    "star->sdri",
+    "precious->preciou"
+   ]
+  }
+ ],
+ "runtime_s": 28.8
+}

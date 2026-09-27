@@ -1,0 +1,64 @@
+{
+ "rates": {
+  "US": {
+   "r_empty": 0.047380137083539185,
+   "r_fake": 0.024203443818769464
+  },
+  "India": {
+   "r_empty": 0.03924613125575397,
+   "r_fake": 0.027037661736239407
+  },
+  "avg": {
+   "r_empty": 0.044121745949558575,
+   "r_fake": 0.02533879959912887
+  }
+ },
+ "r_C3": 0.0004324137334601747,
+ "singleton_rate_train": 0.0558,
+ "V1_empirical_ceiling_C1strict_C2_C3": 99.474,
+ "V1_empirical_ceiling_C1strict_only": 99.536,
+ "V1_C1_links_strict_vs_loose": [
+  1044,
+  378
+ ],
+ "V1_analytic_ceiling": 99.419,
+ "V1_analytic_ceiling_by_country": {
+  "US": 99.426,
+  "India": 99.408
+ },
+ "train_analytic_ceiling_by_country": {
+  "US": 99.413,
+  "India": 99.405
+ },
+ "test_by_country": {
+  "US": {
+   "share": 0.38274,
+   "P_full_name_dup": 0.2913,
+   "P_addr_shared": 0.0532,
+   "ceiling": 99.524
+  },
+  "India": {
+   "share": 0.46751,
+   "P_full_name_dup": 0.4376,
+   "P_addr_shared": 0.0609,
+   "ceiling": 99.413
+  },
+  "France": {
+   "share": 0.14975,
+   "P_full_name_dup": 0.3441,
+   "P_addr_shared": 0.1444,
+   "ceiling": 99.41
+  }
+ },
+ "test_LB_ceiling_estimate": 99.455,
+ "train_flags": {
+  "US": {
+   "P_full_name_dup": 0.3581,
+   "P_addr_shared": 0.0717
+  },
+  "India": {
+   "P_full_name_dup": 0.444,
+   "P_addr_shared": 0.0623
+  }
+ }
+}

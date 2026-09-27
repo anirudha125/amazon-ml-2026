@@ -1,0 +1,1946 @@
+{
+ "M1_coloc": {
+  "test": {
+   "France": {
+    "n_s1": 259452,
+    "coloc_s1": 37465,
+    "coloc_share": 0.1444,
+    "coloc_pairs": 92044,
+    "pairs_no_shared_token_share": 0.8138,
+    "neardup_pairs": 718,
+    "neardup_per_100k_s1": 276.74,
+    "s1_in_skipped_groups_gt200": 0
+   },
+   "India": {
+    "n_s1": 809986,
+    "coloc_s1": 49313,
+    "coloc_share": 0.0609,
+    "coloc_pairs": 60580,
+    "pairs_no_shared_token_share": 0.6068,
+    "neardup_pairs": 264,
+    "neardup_per_100k_s1": 32.59,
+    "s1_in_skipped_groups_gt200": 0
+   },
+   "US": {
+    "n_s1": 663106,
+    "coloc_s1": 35306,
+    "coloc_share": 0.0532,
+    "coloc_pairs": 37243,
+    "pairs_no_shared_token_share": 0.8809,
+    "neardup_pairs": 21,
+    "neardup_per_100k_s1": 3.17,
+    "s1_in_skipped_groups_gt200": 0
+   }
+  },
+  "train": {
+   "India": {
+    "n_s1": 883188,
+    "coloc_s1": 54993,
+    "coloc_share": 0.0623,
+    "coloc_pairs": 70235,
+    "pairs_no_shared_token_share": 0.6122,
+    "neardup_pairs": 334,
+    "neardup_per_100k_s1": 37.82,
+    "s1_in_skipped_groups_gt200": 0
+   },
+   "US": {
+    "n_s1": 1323633,
+    "coloc_s1": 94921,
+    "coloc_share": 0.0717,
+    "coloc_pairs": 148596,
+    "pairs_no_shared_token_share": 0.8765,
+    "neardup_pairs": 78,
+    "neardup_per_100k_s1": 5.89,
+    "s1_in_skipped_groups_gt200": 0
+   }
+  }
+ },
+ "M2_idgap": {
+  "test": {
+   "France": {
+    "coloc": {
+     "n": 92044,
+     "median_gap": 296072632.5,
+     "random_median_gap": 292783654.5,
+     "share_gap_lt_1000": 0.0,
+     "random_share_gap_lt_1000": 0.0,
+     "ks_stat": 0.0055,
+     "ks_p": 0.04405709905341726
+    },
+    "neardup": {
+     "n": 718,
+     "median_gap": 273346261.0,
+     "random_median_gap": 292783654.5,
+     "share_gap_lt_1000": 0.0,
+     "random_share_gap_lt_1000": 0.0,
+     "ks_stat": 0.0325,
+     "ks_p": 0.42718292661721413
+    }
+   },
+   "India": {
+    "coloc": {
+     "n": 60580,
+     "median_gap": 290156643.0,
+     "random_median_gap": 293140960.5,
+     "share_gap_lt_1000": 0.0,
+     "random_share_gap_lt_1000": 1e-05,
+     "ks_stat": 0.0055,
+     "ks_p": 0.11968392823921037
+    },
+    "neardup": {
+     "n": 264,
+     "median_gap": 256860696.0,
+     "random_median_gap": 293140960.5,
+     "share_gap_lt_1000": 0.0,
+     "random_share_gap_lt_1000": 1e-05,
+     "ks_stat": 0.0572,
+     "ks_p": 0.3397485538053573
+    }
+   },
+   "US": {
+    "coloc": {
+     "n": 37243,
+     "median_gap": 291869910.0,
+     "random_median_gap": 293142164.5,
+     "share_gap_lt_1000": 0.0,
+     "random_share_gap_lt_1000": 0.0,
+     "ks_stat": 0.0051,
+     "ks_p": 0.38171258095206384
+    },
+    "neardup": {
+     "n": 21,
+     "median_gap": 294255798.0,
+     "random_median_gap": 293142164.5,
+     "share_gap_lt_1000": 0.0,
+     "random_share_gap_lt_1000": 0.0,
+     "ks_stat": 0.1007,
+     "ks_p": 0.9688785181019196
+    }
+   }
+  },
+  "train": {
+   "India": {
+    "coloc": {
+     "n": 70235,
+     "median_gap": 293714108.0,
+     "random_median_gap": 293620008.0,
+     "share_gap_lt_1000": 0.0,
+     "random_share_gap_lt_1000": 0.0,
+     "ks_stat": 0.0027,
+     "ks_p": 0.8348455870095364
+    },
+    "neardup": {
+     "n": 334,
+     "median_gap": 304133367.5,
+     "random_median_gap": 293620008.0,
+     "share_gap_lt_1000": 0.0,
+     "random_share_gap_lt_1000": 0.0,
+     "ks_stat": 0.0389,
+     "ks_p": 0.6788289059436288
+    }
+   },
+   "US": {
+    "coloc": {
+     "n": 148596,
+     "median_gap": 293427753.5,
+     "random_median_gap": 293479601.5,
+     "share_gap_lt_1000": 0.0,
+     "random_share_gap_lt_1000": 0.0,
+     "ks_stat": 0.0028,
+     "ks_p": 0.5160231375066304
+    },
+    "neardup": {
+     "n": 78,
+     "median_gap": 266039785.0,
+     "random_median_gap": 293479601.5,
+     "share_gap_lt_1000": 0.0,
+     "random_share_gap_lt_1000": 0.0,
+     "ks_stat": 0.0824,
+     "ks_p": 0.6339363023835698
+    }
+   }
+  }
+ },
+ "M1_train_neardup_labels": {
+  "India": {
+   "pairs": 334,
+   "both_have_links": 284,
+   "one_has_links": 50,
+   "neither": 0,
+   "pairs_touching_V1": 3
+  },
+  "US": {
+   "pairs": 78,
+   "both_have_links": 68,
+   "one_has_links": 10,
+   "neither": 0,
+   "pairs_touching_V1": 3
+  }
+ },
+ "M2_train_s1_rec_id_spearman": {
+  "S2": 6e-05,
+  "S3": 9e-05,
+  "n": 2000000
+ },
+ "M3_V1_precision": {
+  "US": {
+   "0.78": {
+    "accepted": 40362,
+    "fp": 91,
+    "precision": 0.99775,
+    "recall_of_pool_pos": 0.969
+   },
+   "0.9": {
+    "accepted": 40039,
+    "fp": 52,
+    "precision": 0.9987,
+    "recall_of_pool_pos": 0.9622
+   },
+   "0.95": {
+    "accepted": 39728,
+    "fp": 32,
+    "precision": 0.99919,
+    "recall_of_pool_pos": 0.9552
+   },
+   "0.99": {
+    "accepted": 38607,
+    "fp": 10,
+    "precision": 0.99974,
+    "recall_of_pool_pos": 0.9287
+   },
+   "0.999": {
+    "accepted": 35269,
+    "fp": 4,
+    "precision": 0.99989,
+    "recall_of_pool_pos": 0.8486
+   }
+  },
+  "India": {
+   "0.78": {
+    "accepted": 26991,
+    "fp": 76,
+    "precision": 0.99718,
+    "recall_of_pool_pos": 0.9726
+   },
+   "0.9": {
+    "accepted": 26757,
+    "fp": 39,
+    "precision": 0.99854,
+    "recall_of_pool_pos": 0.9655
+   },
+   "0.95": {
+    "accepted": 26488,
+    "fp": 22,
+    "precision": 0.99917,
+    "recall_of_pool_pos": 0.9564
+   },
+   "0.99": {
+    "accepted": 25515,
+    "fp": 6,
+    "precision": 0.99976,
+    "recall_of_pool_pos": 0.9218
+   },
+   "0.999": {
+    "accepted": 22724,
+    "fp": 1,
+    "precision": 0.99996,
+    "recall_of_pool_pos": 0.8211
+   }
+  },
+  "all": {
+   "0.78": {
+    "accepted": 67353,
+    "fp": 167,
+    "precision": 0.99752,
+    "recall_of_pool_pos": 0.9704
+   },
+   "0.9": {
+    "accepted": 66796,
+    "fp": 91,
+    "precision": 0.99864,
+    "recall_of_pool_pos": 0.9635
+   },
+   "0.95": {
+    "accepted": 66216,
+    "fp": 54,
+    "precision": 0.99918,
+    "recall_of_pool_pos": 0.9557
+   },
+   "0.99": {
+    "accepted": 64122,
+    "fp": 16,
+    "precision": 0.99975,
+    "recall_of_pool_pos": 0.926
+   },
+   "0.999": {
+    "accepted": 57993,
+    "fp": 5,
+    "precision": 0.99991,
+    "recall_of_pool_pos": 0.8376
+   }
+  }
+ },
+ "M3_test_conflict_lower_bound": {
+  "France": {
+   "0.78": {
+    "accepted": 879329,
+    "multi_claimed_records": 17468,
+    "provable_fp_lower_bound": 24933,
+    "lb_fp_rate": 0.02835,
+    "s1_coverage": 0.9482
+   },
+   "0.9": {
+    "accepted": 850495,
+    "multi_claimed_records": 12254,
+    "provable_fp_lower_bound": 16931,
+    "lb_fp_rate": 0.01991,
+    "s1_coverage": 0.9439
+   },
+   "0.95": {
+    "accepted": 828086,
+    "multi_claimed_records": 9070,
+    "provable_fp_lower_bound": 12191,
+    "lb_fp_rate": 0.01472,
+    "s1_coverage": 0.9406
+   },
+   "0.99": {
+    "accepted": 772705,
+    "multi_claimed_records": 4380,
+    "provable_fp_lower_bound": 5587,
+    "lb_fp_rate": 0.00723,
+    "s1_coverage": 0.9319
+   },
+   "0.999": {
+    "accepted": 675819,
+    "multi_claimed_records": 1253,
+    "provable_fp_lower_bound": 1458,
+    "lb_fp_rate": 0.00216,
+    "s1_coverage": 0.9115
+   }
+  },
+  "US": {
+   "0.78": {
+    "accepted": 2236533,
+    "multi_claimed_records": 374,
+    "provable_fp_lower_bound": 375,
+    "lb_fp_rate": 0.00017,
+    "s1_coverage": 0.9422
+   },
+   "0.9": {
+    "accepted": 2218751,
+    "multi_claimed_records": 169,
+    "provable_fp_lower_bound": 169,
+    "lb_fp_rate": 8e-05,
+    "s1_coverage": 0.9414
+   },
+   "0.95": {
+    "accepted": 2201993,
+    "multi_claimed_records": 116,
+    "provable_fp_lower_bound": 116,
+    "lb_fp_rate": 5e-05,
+    "s1_coverage": 0.9406
+   },
+   "0.99": {
+    "accepted": 2135958,
+    "multi_claimed_records": 52,
+    "provable_fp_lower_bound": 52,
+    "lb_fp_rate": 2e-05,
+    "s1_coverage": 0.9374
+   },
+   "0.999": {
+    "accepted": 1937517,
+    "multi_claimed_records": 28,
+    "provable_fp_lower_bound": 28,
+    "lb_fp_rate": 1e-05,
+    "s1_coverage": 0.9243
+   }
+  },
+  "India": {
+   "0.78": {
+    "accepted": 2730863,
+    "multi_claimed_records": 2433,
+    "provable_fp_lower_bound": 2512,
+    "lb_fp_rate": 0.00092,
+    "s1_coverage": 0.9424
+   },
+   "0.9": {
+    "accepted": 2706748,
+    "multi_claimed_records": 1182,
+    "provable_fp_lower_bound": 1212,
+    "lb_fp_rate": 0.00045,
+    "s1_coverage": 0.9414
+   },
+   "0.95": {
+    "accepted": 2681144,
+    "multi_claimed_records": 704,
+    "provable_fp_lower_bound": 718,
+    "lb_fp_rate": 0.00027,
+    "s1_coverage": 0.9403
+   },
+   "0.99": {
+    "accepted": 2580742,
+    "multi_claimed_records": 224,
+    "provable_fp_lower_bound": 227,
+    "lb_fp_rate": 9e-05,
+    "s1_coverage": 0.9362
+   },
+   "0.999": {
+    "accepted": 2295329,
+    "multi_claimed_records": 26,
+    "provable_fp_lower_bound": 26,
+    "lb_fp_rate": 1e-05,
+    "s1_coverage": 0.9192
+   }
+  }
+ },
+ "M4_street_type": {
+  "hand_list_size": 63,
+  "France_s1": {
+   "n_with_number": 257939,
+   "hand_list_coverage": 0.9723,
+   "data_top10_coverage": 0.9346,
+   "data_top20_coverage": 0.9784,
+   "data_top40_coverage": 0.9927,
+   "top20": [
+    [
+     "rue",
+     168631
+    ],
+    [
+     "avenue",
+     30821
+    ],
+    [
+     "allee",
+     12015
+    ],
+    [
+     "boulevard",
+     9248
+    ],
+    [
+     "impasse",
+     5105
+    ],
+    [
+     "route",
+     4411
+    ],
+    [
+     "chemin",
+     3352
+    ],
+    [
+     "place",
+     3191
+    ],
+    [
+     "cours",
+     2167
+    ],
+    [
+     "cour",
+     2137
+    ],
+    [
+     "av",
+     2026
+    ],
+    [
+     "bd",
+     1850
+    ],
+    [
+     "quai",
+     1836
+    ],
+    [
+     "cite",
+     1215
+    ],
+    [
+     "pl",
+     863
+    ],
+    [
+     "la",
+     827
+    ],
+    [
+     "square",
+     787
+    ],
+    [
+     "passage",
+     767
+    ],
+    [
+     "all",
+     629
+    ],
+    [
+     "residence",
+     500
+    ]
+   ],
+   "top20_not_in_hand_list": [
+    "cour",
+    "la"
+   ],
+   "hand_words_seen": 33,
+   "last_token_hand_list_coverage": 0.0028,
+   "last_token_data_top20_coverage": 0.0584,
+   "last_token_top10": [
+    [
+     "pyla",
+     1573
+    ],
+    [
+     "ferret",
+     1335
+    ],
+    [
+     "hugo",
+     1061
+    ],
+    [
+     "gaulle",
+     866
+    ],
+    [
+     "gambetta",
+     856
+    ],
+    [
+     "pasteur",
+     809
+    ],
+    [
+     "cazaux",
+     795
+    ],
+    [
+     "france",
+     786
+    ],
+    [
+     "republique",
+     781
+    ],
+    [
+     "moulin",
+     686
+    ]
+   ]
+  },
+  "France_s2": {
+   "n_with_number": 653630,
+   "hand_list_coverage": 0.696,
+   "data_top10_coverage": 0.6928,
+   "data_top20_coverage": 0.7842,
+   "data_top40_coverage": 0.8433,
+   "top20": [
+    [
+     "rue",
+     256120
+    ],
+    [
+     "avenue",
+     43990
+    ],
+    [
+     "de",
+     35253
+    ],
+    [
+     "av",
+     26192
+    ],
+    [
+     "du",
+     20779
+    ],
+    [
+     "allee",
+     18749
+    ],
+    [
+     "des",
+     15267
+    ],
+    [
+     "boulevard",
+     13389
+    ],
+    [
+     "all",
+     12192
+    ],
+    [
+     "bd",
+     10928
+    ],
+    [
+     "ave",
+     10383
+    ],
+    [
+     "impasse",
+     7432
+    ],
+    [
+     "route",
+     6252
+    ],
+    [
+     "imp",
+     5770
+    ],
+    [
+     "rte",
+     5514
+    ],
+    [
+     "pl",
+     5453
+    ],
+    [
+     "cour",
+     4986
+    ],
+    [
+     "jean",
+     4770
+    ],
+    [
+     "chemin",
+     4700
+    ],
+    [
+     "place",
+     4459
+    ]
+   ],
+   "top20_not_in_hand_list": [
+    "de",
+    "du",
+    "des",
+    "cour",
+    "jean"
+   ],
+   "hand_words_seen": 40,
+   "last_token_hand_list_coverage": 0.0023,
+   "last_token_data_top20_coverage": 0.054,
+   "last_token_top10": [
+    [
+     "pyla",
+     3780
+    ],
+    [
+     "ferret",
+     3249
+    ],
+    [
+     "hugo",
+     2482
+    ],
+    [
+     "gaulle",
+     2055
+    ],
+    [
+     "gambetta",
+     2000
+    ],
+    [
+     "cazaux",
+     1932
+    ],
+    [
+     "france",
+     1788
+    ],
+    [
+     "pasteur",
+     1745
+    ],
+    [
+     "republique",
+     1713
+    ],
+    [
+     "moulin",
+     1632
+    ]
+   ]
+  },
+  "France_s3": {
+   "n_with_number": 681557,
+   "hand_list_coverage": 0.7082,
+   "data_top10_coverage": 0.7,
+   "data_top20_coverage": 0.791,
+   "data_top40_coverage": 0.8489,
+   "top20": [
+    [
+     "rue",
+     274860
+    ],
+    [
+     "avenue",
+     47591
+    ],
+    [
+     "de",
+     34533
+    ],
+    [
+     "av",
+     26157
+    ],
+    [
+     "du",
+     20977
+    ],
+    [
+     "allee",
+     19985
+    ],
+    [
+     "des",
+     15102
+    ],
+    [
+     "boulevard",
+     14288
+    ],
+    [
+     "all",
+     12512
+    ],
+    [
+     "bd",
+     11059
+    ],
+    [
+     "ave",
+     10400
+    ],
+    [
+     "impasse",
+     7908
+    ],
+    [
+     "route",
+     6655
+    ],
+    [
+     "imp",
+     5754
+    ],
+    [
+     "pl",
+     5529
+    ],
+    [
+     "rte",
+     5526
+    ],
+    [
+     "cour",
+     5331
+    ],
+    [
+     "chemin",
+     5141
+    ],
+    [
+     "place",
+     4966
+    ],
+    [
+     "jean",
+     4818
+    ]
+   ],
+   "top20_not_in_hand_list": [
+    "de",
+    "du",
+    "des",
+    "cour",
+    "jean"
+   ],
+   "hand_words_seen": 40,
+   "last_token_hand_list_coverage": 0.0024,
+   "last_token_data_top20_coverage": 0.0541,
+   "last_token_top10": [
+    [
+     "pyla",
+     3918
+    ],
+    [
+     "ferret",
+     3271
+    ],
+    [
+     "hugo",
+     2644
+    ],
+    [
+     "gaulle",
+     2191
+    ],
+    [
+     "cazaux",
+     2062
+    ],
+    [
+     "gambetta",
+     2053
+    ],
+    [
+     "pasteur",
+     1917
+    ],
+    [
+     "france",
+     1871
+    ],
+    [
+     "republique",
+     1804
+    ],
+    [
+     "moulin",
+     1686
+    ]
+   ]
+  },
+  "US_s1": {
+   "n_with_number": 633122,
+   "hand_list_coverage": 0.0383,
+   "data_top10_coverage": 0.1189,
+   "data_top20_coverage": 0.1476,
+   "data_top40_coverage": 0.1841,
+   "top20": [
+    [
+     "th",
+     37825
+    ],
+    [
+     "main",
+     6897
+    ],
+    [
+     "st",
+     5543
+    ],
+    [
+     "street",
+     4955
+    ],
+    [
+     "rd",
+     4754
+    ],
+    [
+     "nd",
+     4726
+    ],
+    [
+     "old",
+     3715
+    ],
+    [
+     "oak",
+     2341
+    ],
+    [
+     "lake",
+     2319
+    ],
+    [
+     "park",
+     2191
+    ],
+    [
+     "county",
+     2134
+    ],
+    [
+     "road",
+     1999
+    ],
+    [
+     "washington",
+     1994
+    ],
+    [
+     "state",
+     1872
+    ],
+    [
+     "pine",
+     1867
+    ],
+    [
+     "highway",
+     1756
+    ],
+    [
+     "cedar",
+     1669
+    ],
+    [
+     "maple",
+     1665
+    ],
+    [
+     "river",
+     1641
+    ],
+    [
+     "avenue",
+     1612
+    ]
+   ],
+   "top20_not_in_hand_list": [
+    "th",
+    "main",
+    "nd",
+    "old",
+    "oak",
+    "lake",
+    "park",
+    "county",
+    "washington",
+    "state",
+    "pine",
+    "cedar",
+    "maple",
+    "river"
+   ],
+   "hand_words_seen": 40,
+   "last_token_hand_list_coverage": 0.9655,
+   "last_token_data_top20_coverage": 0.9603,
+   "last_token_top10": [
+    [
+     "street",
+     133882
+    ],
+    [
+     "road",
+     122687
+    ],
+    [
+     "drive",
+     109523
+    ],
+    [
+     "avenue",
+     88610
+    ],
+    [
+     "lane",
+     46591
+    ],
+    [
+     "court",
+     28040
+    ],
+    [
+     "way",
+     14676
+    ],
+    [
+     "circle",
+     13552
+    ],
+    [
+     "place",
+     12779
+    ],
+    [
+     "boulevard",
+     10383
+    ]
+   ]
+  },
+  "US_s2": {
+   "n_with_number": 1654573,
+   "hand_list_coverage": 0.046,
+   "data_top10_coverage": 0.1122,
+   "data_top20_coverage": 0.1386,
+   "data_top40_coverage": 0.174,
+   "top20": [
+    [
+     "th",
+     67083
+    ],
+    [
+     "st",
+     27955
+    ],
+    [
+     "rd",
+     21525
+    ],
+    [
+     "nd",
+     18751
+    ],
+    [
+     "main",
+     17412
+    ],
+    [
+     "old",
+     9656
+    ],
+    [
+     "oak",
+     6127
+    ],
+    [
+     "street",
+     5846
+    ],
+    [
+     "lake",
+     5823
+    ],
+    [
+     "park",
+     5457
+    ],
+    [
+     "county",
+     5431
+    ],
+    [
+     "washington",
+     5059
+    ],
+    [
+     "pine",
+     4763
+    ],
+    [
+     "state",
+     4704
+    ],
+    [
+     "maple",
+     4270
+    ],
+    [
+     "cedar",
+     4197
+    ],
+    [
+     "river",
+     4102
+    ],
+    [
+     "highway",
+     4071
+    ],
+    [
+     "broadway",
+     3625
+    ],
+    [
+     "elm",
+     3481
+    ]
+   ],
+   "top20_not_in_hand_list": [
+    "th",
+    "nd",
+    "main",
+    "old",
+    "oak",
+    "lake",
+    "park",
+    "county",
+    "washington",
+    "pine",
+    "state",
+    "maple",
+    "cedar",
+    "river",
+    "broadway",
+    "elm"
+   ],
+   "hand_words_seen": 43,
+   "last_token_hand_list_coverage": 0.9365,
+   "last_token_data_top20_coverage": 0.9192,
+   "last_token_top10": [
+    [
+     "st",
+     179302
+    ],
+    [
+     "rd",
+     176183
+    ],
+    [
+     "dr",
+     158663
+    ],
+    [
+     "street",
+     155506
+    ],
+    [
+     "road",
+     144391
+    ],
+    [
+     "ave",
+     130958
+    ],
+    [
+     "drive",
+     125874
+    ],
+    [
+     "avenue",
+     103209
+    ],
+    [
+     "ln",
+     67451
+    ],
+    [
+     "lane",
+     53442
+    ]
+   ]
+  },
+  "US_s3": {
+   "n_with_number": 1708899,
+   "hand_list_coverage": 0.0458,
+   "data_top10_coverage": 0.1124,
+   "data_top20_coverage": 0.1388,
+   "data_top40_coverage": 0.174,
+   "top20": [
+    [
+     "th",
+     70690
+    ],
+    [
+     "st",
+     28246
+    ],
+    [
+     "rd",
+     22140
+    ],
+    [
+     "nd",
+     18981
+    ],
+    [
+     "main",
+     17885
+    ],
+    [
+     "old",
+     9797
+    ],
+    [
+     "oak",
+     6334
+    ],
+    [
+     "street",
+     6268
+    ],
+    [
+     "lake",
+     6057
+    ],
+    [
+     "park",
+     5634
+    ],
+    [
+     "county",
+     5569
+    ],
+    [
+     "washington",
+     5023
+    ],
+    [
+     "state",
+     4887
+    ],
+    [
+     "pine",
+     4847
+    ],
+    [
+     "maple",
+     4392
+    ],
+    [
+     "cedar",
+     4337
+    ],
+    [
+     "highway",
+     4272
+    ],
+    [
+     "river",
+     4248
+    ],
+    [
+     "broadway",
+     3818
+    ],
+    [
+     "elm",
+     3693
+    ]
+   ],
+   "top20_not_in_hand_list": [
+    "th",
+    "nd",
+    "main",
+    "old",
+    "oak",
+    "lake",
+    "park",
+    "county",
+    "washington",
+    "state",
+    "pine",
+    "maple",
+    "cedar",
+    "river",
+    "broadway",
+    "elm"
+   ],
+   "hand_words_seen": 43,
+   "last_token_hand_list_coverage": 0.9375,
+   "last_token_data_top20_coverage": 0.9194,
+   "last_token_top10": [
+    [
+     "st",
+     177286
+    ],
+    [
+     "rd",
+     174326
+    ],
+    [
+     "street",
+     169612
+    ],
+    [
+     "dr",
+     157912
+    ],
+    [
+     "road",
+     156349
+    ],
+    [
+     "drive",
+     137727
+    ],
+    [
+     "ave",
+     129194
+    ],
+    [
+     "avenue",
+     111169
+    ],
+    [
+     "ln",
+     67094
+    ],
+    [
+     "lane",
+     58068
+    ]
+   ]
+  }
+ },
+ "M5_dept_region": {
+  "n_frequent_components": 30,
+  "s1_regions": [
+   "hauts-de-france",
+   "nouvelle-aquitaine",
+   "pays de la loire",
+   "maison des associations"
+  ],
+  "s1_region_counts": {
+   "hauts-de-france": 101521,
+   "nouvelle-aquitaine": 85197,
+   "pays de la loire": 72734,
+   "maison des associations": 342
+  },
+  "s1_share_with_region": 1.0,
+  "s1_dept_counts": {
+   "nord": 0,
+   "gironde": 0,
+   "loire-atlantique": 0,
+   "pas-de-calais": 0,
+   "st-nazaire": 0,
+   "st.-nazaire": 0,
+   "lege cap ferret": 0,
+   "st.-herblain": 0,
+   "st-herblain": 0,
+   "la baule escoublac": 0
+  },
+  "city_region": {
+   "bordeaux": [
+    "nouvelle-aquitaine",
+    1.0,
+    42934
+   ],
+   "la teste-de-buch": [
+    "nouvelle-aquitaine",
+    0.9999,
+    11295
+   ],
+   "dunkerque": [
+    "hauts-de-france",
+    0.9995,
+    17075
+   ],
+   "lille": [
+    "hauts-de-france",
+    0.9955,
+    34331
+   ],
+   "saint-nazaire": [
+    "pays de la loire",
+    0.9979,
+    13708
+   ],
+   "saint-herblain": [
+    "pays de la loire",
+    1.0,
+    6935
+   ],
+   "nantes": [
+    "pays de la loire",
+    0.9993,
+    37357
+   ],
+   "calais": [
+    "hauts-de-france",
+    0.9997,
+    15830
+   ],
+   "tourcoing": [
+    "hauts-de-france",
+    0.9983,
+    18184
+   ],
+   "roubaix": [
+    "hauts-de-france",
+    0.9979,
+    16334
+   ],
+   "la baule-escoublac": [
+    "pays de la loire",
+    1.0,
+    6957
+   ],
+   "pessac": [
+    "nouvelle-aquitaine",
+    0.9994,
+    12619
+   ],
+   "pornic": [
+    "pays de la loire",
+    0.9942,
+    7877
+   ],
+   "merignac": [
+    "nouvelle-aquitaine",
+    1.0,
+    10287
+   ],
+   "lege-cap-ferret": [
+    "nouvelle-aquitaine",
+    1.0,
+    8072
+   ]
+  },
+  "s23_only_frequent": [
+   "nord",
+   "gironde",
+   "loire-atlantique",
+   "pas-de-calais",
+   "st-nazaire",
+   "st.-nazaire",
+   "lege cap ferret",
+   "st.-herblain",
+   "st-herblain",
+   "la baule escoublac"
+  ],
+  "derived_map": {
+   "nord": {
+    "region": "hauts-de-france",
+    "purity": 1.0,
+    "support": 150860,
+    "cities": [
+     [
+      "lille",
+      59915
+     ],
+     [
+      "tourcoing",
+      31887
+     ],
+     [
+      "dunkerque",
+      30129
+     ],
+     [
+      "roubaix",
+      28929
+     ]
+    ],
+    "direct_cooccurrence_with_regions": {
+     "hauts-de-france": 0,
+     "nouvelle-aquitaine": 0,
+     "pays de la loire": 0,
+     "maison des associations": 175
+    }
+   },
+   "gironde": {
+    "region": "nouvelle-aquitaine",
+    "purity": 1.0,
+    "support": 146724,
+    "cities": [
+     [
+      "bordeaux",
+      76225
+     ],
+     [
+      "pessac",
+      22044
+     ],
+     [
+      "merignac",
+      18151
+     ],
+     [
+      "la teste-de-buch",
+      17682
+     ]
+    ],
+    "direct_cooccurrence_with_regions": {
+     "hauts-de-france": 0,
+     "nouvelle-aquitaine": 0,
+     "pays de la loire": 0,
+     "maison des associations": 11
+    }
+   },
+   "loire-atlantique": {
+    "region": "pays de la loire",
+    "purity": 1.0,
+    "support": 117636,
+    "cities": [
+     [
+      "nantes",
+      65159
+     ],
+     [
+      "saint-nazaire",
+      18518
+     ],
+     [
+      "pornic",
+      13615
+     ],
+     [
+      "la baule-escoublac",
+      10739
+     ]
+    ],
+    "direct_cooccurrence_with_regions": {
+     "hauts-de-france": 0,
+     "nouvelle-aquitaine": 0,
+     "pays de la loire": 0,
+     "maison des associations": 180
+    }
+   },
+   "pas-de-calais": {
+    "region": "hauts-de-france",
+    "purity": 1.0,
+    "support": 27839,
+    "cities": [
+     [
+      "calais",
+      27839
+     ],
+     [
+      "maison des associations",
+      3
+     ]
+    ],
+    "direct_cooccurrence_with_regions": {
+     "hauts-de-france": 0,
+     "nouvelle-aquitaine": 0,
+     "pays de la loire": 0,
+     "maison des associations": 3
+    }
+   }
+  },
+  "share_s23_records_with_dept_style_unit": {
+   "s2": 0.3224,
+   "s3": 0.3133
+  }
+ },
+ "M6_V1_classes": {
+  "all": {
+   "same": {
+    "pairs": 127050,
+    "pos_rate": 0.2912,
+    "accepted": 36145,
+    "acc_fp": 61,
+    "fn": 916
+   },
+   "add_drop_1": {
+    "pairs": 74706,
+    "pos_rate": 0.0828,
+    "accepted": 5915,
+    "acc_fp": 18,
+    "fn": 285
+   },
+   "sub_1for1": {
+    "pairs": 277165,
+    "pos_rate": 0.0418,
+    "accepted": 11225,
+    "acc_fp": 44,
+    "fn": 408
+   },
+   "other_overlap": {
+    "pairs": 428427,
+    "pos_rate": 0.01,
+    "accepted": 4209,
+    "acc_fp": 7,
+    "fn": 100
+   },
+   "disjoint": {
+    "pairs": 1643157,
+    "pos_rate": 0.0062,
+    "accepted": 9859,
+    "acc_fp": 37,
+    "fn": 337
+   }
+  },
+  "same_addr": {
+   "same": {
+    "pairs": 3098,
+    "pos_rate": 1.0,
+    "accepted": 3098,
+    "acc_fp": 0,
+    "fn": 0
+   },
+   "add_drop_1": {
+    "pairs": 670,
+    "pos_rate": 1.0,
+    "accepted": 670,
+    "acc_fp": 0,
+    "fn": 0
+   },
+   "sub_1for1": {
+    "pairs": 1034,
+    "pos_rate": 0.971,
+    "accepted": 1005,
+    "acc_fp": 2,
+    "fn": 1
+   },
+   "other_overlap": {
+    "pairs": 1916,
+    "pos_rate": 0.9812,
+    "accepted": 1881,
+    "acc_fp": 1,
+    "fn": 0
+   },
+   "disjoint": {
+    "pairs": 3003,
+    "pos_rate": 0.4239,
+    "accepted": 1246,
+    "acc_fp": 4,
+    "fn": 31
+   }
+  },
+  "s1_colocated": {
+   "same": {
+    "pairs": 8275,
+    "pos_rate": 0.3063,
+    "accepted": 2472,
+    "acc_fp": 7,
+    "fn": 70
+   },
+   "add_drop_1": {
+    "pairs": 4691,
+    "pos_rate": 0.0902,
+    "accepted": 409,
+    "acc_fp": 4,
+    "fn": 18
+   },
+   "sub_1for1": {
+    "pairs": 17089,
+    "pos_rate": 0.0428,
+    "accepted": 712,
+    "acc_fp": 6,
+    "fn": 25
+   },
+   "other_overlap": {
+    "pairs": 27364,
+    "pos_rate": 0.0107,
+    "accepted": 291,
+    "acc_fp": 3,
+    "fn": 6
+   },
+   "disjoint": {
+    "pairs": 109707,
+    "pos_rate": 0.0058,
+    "accepted": 545,
+    "acc_fp": 11,
+    "fn": 97
+   }
+  }
+ },
+ "M6_accepted_class_mix": {
+  "V1_US_India": {
+   "other_overlap": 0.0625,
+   "same": 0.5367,
+   "sub_1for1": 0.1667,
+   "disjoint": 0.1464,
+   "add_drop_1": 0.0878
+  },
+  "France_test_S005_sample300k": {
+   "same": 0.7037,
+   "other_overlap": 0.0521,
+   "add_drop_1": 0.0588,
+   "disjoint": 0.0881,
+   "sub_1for1": 0.0972
+  }
+ },
+ "M7_threshold_lb": {
+  "V1_macro": {
+   "0.6": 98.744,
+   "0.7": 98.79,
+   "0.72": 98.793,
+   "0.78": 98.802,
+   "0.85": 98.739,
+   "0.9": 98.668,
+   "0.95": 98.448
+  },
+  "per_s1_sd_at_078": 0.0613,
+  "paired": {
+   "0.6": {
+    "V1_delta_pp": -0.059,
+    "per_s1_sd_diff": 0.03765,
+    "share_s1_changed": 0.0227,
+    "all_pub10_se_pub_pp": 0.009,
+    "all_pub10_sd_pub_minus_priv_pp": 0.0095,
+    "France_pub10_se_pub_pp": 0.0234,
+    "France_pub10_sd_pub_minus_priv_pp": 0.0246,
+    "all_pub30_se_pub_pp": 0.0052,
+    "all_pub30_sd_pub_minus_priv_pp": 0.0062,
+    "France_pub30_se_pub_pp": 0.0135,
+    "France_pub30_sd_pub_minus_priv_pp": 0.0161,
+    "all_pub50_se_pub_pp": 0.004,
+    "all_pub50_sd_pub_minus_priv_pp": 0.0057,
+    "France_pub50_se_pub_pp": 0.0105,
+    "France_pub50_sd_pub_minus_priv_pp": 0.0148
+   },
+   "0.7": {
+    "V1_delta_pp": -0.013,
+    "per_s1_sd_diff": 0.02603,
+    "share_s1_changed": 0.0109,
+    "all_pub10_se_pub_pp": 0.0063,
+    "all_pub10_sd_pub_minus_priv_pp": 0.0066,
+    "France_pub10_se_pub_pp": 0.0162,
+    "France_pub10_sd_pub_minus_priv_pp": 0.017,
+    "all_pub30_se_pub_pp": 0.0036,
+    "all_pub30_sd_pub_minus_priv_pp": 0.0043,
+    "France_pub30_se_pub_pp": 0.0093,
+    "France_pub30_sd_pub_minus_priv_pp": 0.0112,
+    "all_pub50_se_pub_pp": 0.0028,
+    "all_pub50_sd_pub_minus_priv_pp": 0.004,
+    "France_pub50_se_pub_pp": 0.0072,
+    "France_pub50_sd_pub_minus_priv_pp": 0.0102
+   },
+   "0.72": {
+    "V1_delta_pp": -0.01,
+    "per_s1_sd_diff": 0.02184,
+    "share_s1_changed": 0.0078,
+    "all_pub10_se_pub_pp": 0.0052,
+    "all_pub10_sd_pub_minus_priv_pp": 0.0055,
+    "France_pub10_se_pub_pp": 0.0136,
+    "France_pub10_sd_pub_minus_priv_pp": 0.0143,
+    "all_pub30_se_pub_pp": 0.003,
+    "all_pub30_sd_pub_minus_priv_pp": 0.0036,
+    "France_pub30_se_pub_pp": 0.0078,
+    "France_pub30_sd_pub_minus_priv_pp": 0.0094,
+    "all_pub50_se_pub_pp": 0.0023,
+    "all_pub50_sd_pub_minus_priv_pp": 0.0033,
+    "France_pub50_se_pub_pp": 0.0061,
+    "France_pub50_sd_pub_minus_priv_pp": 0.0086
+   },
+   "0.85": {
+    "V1_delta_pp": -0.063,
+    "per_s1_sd_diff": 0.02523,
+    "share_s1_changed": 0.0128,
+    "all_pub10_se_pub_pp": 0.0061,
+    "all_pub10_sd_pub_minus_priv_pp": 0.0064,
+    "France_pub10_se_pub_pp": 0.0157,
+    "France_pub10_sd_pub_minus_priv_pp": 0.0165,
+    "all_pub30_se_pub_pp": 0.0035,
+    "all_pub30_sd_pub_minus_priv_pp": 0.0042,
+    "France_pub30_se_pub_pp": 0.009,
+    "France_pub30_sd_pub_minus_priv_pp": 0.0108,
+    "all_pub50_se_pub_pp": 0.0027,
+    "all_pub50_sd_pub_minus_priv_pp": 0.0038,
+    "France_pub50_se_pub_pp": 0.007,
+    "France_pub50_sd_pub_minus_priv_pp": 0.0099
+   },
+   "0.9": {
+    "V1_delta_pp": -0.134,
+    "per_s1_sd_diff": 0.03341,
+    "share_s1_changed": 0.0266,
+    "all_pub10_se_pub_pp": 0.008,
+    "all_pub10_sd_pub_minus_priv_pp": 0.0085,
+    "France_pub10_se_pub_pp": 0.0207,
+    "France_pub10_sd_pub_minus_priv_pp": 0.0219,
+    "all_pub30_se_pub_pp": 0.0046,
+    "all_pub30_sd_pub_minus_priv_pp": 0.0055,
+    "France_pub30_se_pub_pp": 0.012,
+    "France_pub30_sd_pub_minus_priv_pp": 0.0143,
+    "all_pub50_se_pub_pp": 0.0036,
+    "all_pub50_sd_pub_minus_priv_pp": 0.0051,
+    "France_pub50_se_pub_pp": 0.0093,
+    "France_pub50_sd_pub_minus_priv_pp": 0.0131
+   },
+   "0.95": {
+    "V1_delta_pp": -0.355,
+    "per_s1_sd_diff": 0.04576,
+    "share_s1_changed": 0.0521,
+    "all_pub10_se_pub_pp": 0.011,
+    "all_pub10_sd_pub_minus_priv_pp": 0.0116,
+    "France_pub10_se_pub_pp": 0.0284,
+    "France_pub10_sd_pub_minus_priv_pp": 0.0299,
+    "all_pub30_se_pub_pp": 0.0063,
+    "all_pub30_sd_pub_minus_priv_pp": 0.0076,
+    "France_pub30_se_pub_pp": 0.0164,
+    "France_pub30_sd_pub_minus_priv_pp": 0.0196,
+    "all_pub50_se_pub_pp": 0.0049,
+    "all_pub50_sd_pub_minus_priv_pp": 0.007,
+    "France_pub50_se_pub_pp": 0.0127,
+    "France_pub50_sd_pub_minus_priv_pp": 0.018
+   }
+  },
+  "n_test_s1": 1732544,
+  "n_france_s1": 259452
+ },
+ "M8_vocab": {
+  "france_token_occurrences": 800316,
+  "france_distinct": 34435,
+  "occ_share_with_train_df_ge": {
+   "1": 0.5029,
+   "10": 0.4193,
+   "100": 0.2761,
+   "1000": 0.0767
+  },
+  "top30_france_tokens": [
+   [
+    "sarl",
+    73486,
+    0
+   ],
+   [
+    "sas",
+    52278,
+    110
+   ],
+   [
+    "club",
+    22673,
+    288
+   ],
+   [
+    "france",
+    20793,
+    28
+   ],
+   [
+    "de",
+    17859,
+    311
+   ],
+   [
+    "eurl",
+    16980,
+    0
+   ],
+   [
+    "ecole",
+    15668,
+    0
+   ],
+   [
+    "amicale",
+    14389,
+    0
+   ],
+   [
+    "comite",
+    13832,
+    0
+   ],
+   [
+    "sa",
+    12767,
+    181
+   ],
+   [
+    "maison",
+    10839,
+    25
+   ],
+   [
+    "du",
+    10728,
+    128
+   ],
+   [
+    "sasu",
+    10721,
+    0
+   ],
+   [
+    "centre",
+    10519,
+    3510
+   ],
+   [
+    "union",
+    8630,
+    7669
+   ],
+   [
+    "sci",
+    8360,
+    10
+   ],
+   [
+    "sportive",
+    8234,
+    0
+   ],
+   [
+    "des",
+    7835,
+    144
+   ],
+   [
+    "college",
+    7059,
+    4749
+   ],
+   [
+    "amis",
+    6915,
+    24
+   ],
+   [
+    "primaire",
+    6716,
+    0
+   ],
+   [
+    "federation",
+    6670,
+    3905
+   ],
+   [
+    "pharmacie",
+    5962,
+    0
+   ],
+   [
+    "cie",
+    5680,
+    1
+   ],
+   [
+    "sante",
+    5623,
+    11
+   ],
+   [
+    "saint",
+    5611,
+    1383
+   ],
+   [
+    "etablissements",
+    5391,
+    0
+   ],
+   [
+    "la",
+    5379,
+    470
+   ],
+   [
+    "parents",
+    5319,
+    2
+   ],
+   [
+    "ets",
+    5307,
+    17
+   ]
+  ],
+  "listed_words_train_df": {
+   "ecole": 0,
+   "amicale": 0,
+   "club": 288,
+   "sportive": 0,
+   "centre": 3510,
+   "sas": 110,
+   "sarl": 0,
+   "comite": 0,
+   "union": 7669,
+   "amis": 24,
+   "association": 6240,
+   "lycee": 0,
+   "college": 4749,
+   "loisirs": 0
+  },
+  "listed_words_france_occ": {
+   "ecole": 15668,
+   "amicale": 14389,
+   "club": 22673,
+   "sportive": 8234,
+   "centre": 10519,
+   "sas": 52278,
+   "sarl": 73486,
+   "comite": 13832,
+   "union": 8630,
+   "amis": 6915,
+   "association": 4008,
+   "lycee": 5097,
+   "college": 7059,
+   "loisirs": 3467
+  },
+  "n_train_s1": 2206821
+ }
+}

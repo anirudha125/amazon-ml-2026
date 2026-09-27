@@ -1,0 +1,21 @@
+{
+ "model": "/teamspace/studios/this_studio/amazon-ml-challenge-2026/experiments/E026_rrL/model_RRL_s42.pkl",
+ "maxclaim": true,
+ "stats": {
+  "US": {
+   "n_s1": 663106,
+   "pred_pairs": 2241959,
+   "maxclaim_removed": 537
+  },
+  "India": {
+   "n_s1": 809986,
+   "pred_pairs": 2737323,
+   "maxclaim_removed": 2830
+  },
+  "France": {
+   "n_s1": 259452,
+   "pred_pairs": 848634,
+   "maxclaim_removed": 18595
+  }
+ }
+}

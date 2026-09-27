@@ -1,0 +1,414 @@
+{
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "V1": {
+  "s42": {
+   "th": [
+    0.7600000000000001,
+    0.7800000000000001
+   ],
+   "BASE": 98.555,
+   "NEW": 98.802,
+   "delta_pp": 0.248,
+   "ci95": [
+    0.187,
+    0.309
+   ],
+   "p_delta_le0": 0.0,
+   "US": [
+    98.499,
+    98.774
+   ],
+   "India": [
+    98.639,
+    98.846
+   ],
+   "TP": [
+    66911,
+    67186
+   ],
+   "FP": [
+    268,
+    167
+   ],
+   "FN": [
+    2467,
+    2192
+   ],
+   "singleton_fp_s1": [
+    10,
+    6
+   ],
+   "transitions": {
+    "new_TP": 471,
+    "lost_TP": 196,
+    "new_FP": 30,
+    "removed_FP": 131
+   },
+   "empty_address_slice": {
+    "BASE": {
+     "TP": 1417,
+     "FP": 79
+    },
+    "NEW": {
+     "TP": 1527,
+     "FP": 48
+    },
+    "in_pool_true": 2913
+   },
+   "lost_link_categories_fixed_minus_broken": {
+    "L2 empty-addr, unique name": 154,
+    "L3 Indic name": 2,
+    "L4 substituted name": 190,
+    "L5 house-number perturbed": 2,
+    "L6 other": 5,
+    "L7 record without house number": -2,
+    "SYM-C1": -44,
+    "SYM-C2": -32,
+    "SYM-C3": 0
+   }
+  },
+  "s43": {
+   "th": [
+    0.7400000000000001,
+    0.8000000000000002
+   ],
+   "BASE": 98.528,
+   "NEW": 98.808,
+   "delta_pp": 0.28,
+   "ci95": [
+    0.216,
+    0.344
+   ],
+   "p_delta_le0": 0.0,
+   "US": [
+    98.469,
+    98.782
+   ],
+   "India": [
+    98.617,
+    98.848
+   ],
+   "TP": [
+    66993,
+    67157
+   ],
+   "FP": [
+    320,
+    153
+   ],
+   "FN": [
+    2385,
+    2221
+   ],
+   "singleton_fp_s1": [
+    15,
+    5
+   ],
+   "transitions": {
+    "new_TP": 419,
+    "lost_TP": 255,
+    "new_FP": 18,
+    "removed_FP": 185
+   },
+   "empty_address_slice": {
+    "BASE": {
+     "TP": 1454,
+     "FP": 102
+    },
+    "NEW": {
+     "TP": 1515,
+     "FP": 46
+    },
+    "in_pool_true": 2913
+   },
+   "lost_link_categories_fixed_minus_broken": {
+    "L2 empty-addr, unique name": 126,
+    "L3 Indic name": -5,
+    "L4 substituted name": 165,
+    "L5 house-number perturbed": -4,
+    "L6 other": -20,
+    "L7 record without house number": 0,
+    "SYM-C1": -65,
+    "SYM-C2": -34,
+    "SYM-C3": 1
+   }
+  },
+  "s44": {
+   "th": [
+    0.7400000000000001,
+    0.7400000000000001
+   ],
+   "BASE": 98.537,
+   "NEW": 98.815,
+   "delta_pp": 0.279,
+   "ci95": [
+    0.218,
+    0.343
+   ],
+   "p_delta_le0": 0.0,
+   "US": [
+    98.46,
+    98.776
+   ],
+   "India": [
+    98.652,
+    98.875
+   ],
+   "TP": [
+    66981,
+    67303
+   ],
+   "FP": [
+    307,
+    206
+   ],
+   "FN": [
+    2397,
+    2075
+   ],
+   "singleton_fp_s1": [
+    13,
+    8
+   ],
+   "transitions": {
+    "new_TP": 499,
+    "lost_TP": 177,
+    "new_FP": 36,
+    "removed_FP": 137
+   },
+   "empty_address_slice": {
+    "BASE": {
+     "TP": 1434,
+     "FP": 97
+    },
+    "NEW": {
+     "TP": 1566,
+     "FP": 65
+    },
+    "in_pool_true": 2913
+   },
+   "lost_link_categories_fixed_minus_broken": {
+    "L2 empty-addr, unique name": 156,
+    "L3 Indic name": 5,
+    "L4 substituted name": 195,
+    "L5 house-number perturbed": 9,
+    "L6 other": 12,
+    "L7 record without house number": 1,
+    "SYM-C1": -24,
+    "SYM-C2": -33,
+    "SYM-C3": 1
+   }
+  },
+  "seedavg": {
+   "BASE": 98.54,
+   "NEW": 98.809,
+   "delta_pp": 0.269,
+   "ci95": [
+    0.216,
+    0.321
+   ]
+  }
+ },
+ "V0": {
+  "s42": {
+   "th": [
+    0.7600000000000001,
+    0.7800000000000001
+   ],
+   "BASE": 98.39,
+   "NEW": 98.689,
+   "delta_pp": 0.299,
+   "ci95": [
+    0.111,
+    0.527
+   ],
+   "p_delta_le0": 0.0003,
+   "US": [
+    98.244,
+    98.467
+   ],
+   "India": [
+    98.608,
+    99.021
+   ],
+   "TP": [
+    6657,
+    6685
+   ],
+   "FP": [
+    25,
+    17
+   ],
+   "FN": [
+    263,
+    235
+   ],
+   "singleton_fp_s1": [
+    2,
+    1
+   ],
+   "transitions": {
+    "new_TP": 48,
+    "lost_TP": 20,
+    "new_FP": 5,
+    "removed_FP": 13
+   },
+   "empty_address_slice": {
+    "BASE": {
+     "TP": 144,
+     "FP": 11
+    },
+    "NEW": {
+     "TP": 148,
+     "FP": 7
+    },
+    "in_pool_true": 301
+   }
+  },
+  "s43": {
+   "th": [
+    0.7400000000000001,
+    0.8000000000000002
+   ],
+   "BASE": 98.404,
+   "NEW": 98.66,
+   "delta_pp": 0.255,
+   "ci95": [
+    0.032,
+    0.503
+   ],
+   "p_delta_le0": 0.0121,
+   "US": [
+    98.298,
+    98.463
+   ],
+   "India": [
+    98.563,
+    98.954
+   ],
+   "TP": [
+    6669,
+    6685
+   ],
+   "FP": [
+    28,
+    14
+   ],
+   "FN": [
+    251,
+    235
+   ],
+   "singleton_fp_s1": [
+    2,
+    0
+   ],
+   "transitions": {
+    "new_TP": 43,
+    "lost_TP": 27,
+    "new_FP": 6,
+    "removed_FP": 20
+   },
+   "empty_address_slice": {
+    "BASE": {
+     "TP": 151,
+     "FP": 11
+    },
+    "NEW": {
+     "TP": 150,
+     "FP": 5
+    },
+    "in_pool_true": 301
+   }
+  },
+  "s44": {
+   "th": [
+    0.7400000000000001,
+    0.7400000000000001
+   ],
+   "BASE": 98.419,
+   "NEW": 98.667,
+   "delta_pp": 0.248,
+   "ci95": [
+    0.056,
+    0.455
+   ],
+   "p_delta_le0": 0.005,
+   "US": [
+    98.288,
+    98.561
+   ],
+   "India": [
+    98.615,
+    98.826
+   ],
+   "TP": [
+    6672,
+    6703
+   ],
+   "FP": [
+    28,
+    19
+   ],
+   "FN": [
+    248,
+    217
+   ],
+   "singleton_fp_s1": [
+    2,
+    2
+   ],
+   "transitions": {
+    "new_TP": 42,
+    "lost_TP": 11,
+    "new_FP": 5,
+    "removed_FP": 14
+   },
+   "empty_address_slice": {
+    "BASE": {
+     "TP": 153,
+     "FP": 12
+    },
+    "NEW": {
+     "TP": 158,
+     "FP": 8
+    },
+    "in_pool_true": 301
+   }
+  },
+  "seedavg": {
+   "BASE": 98.404,
+   "NEW": 98.672,
+   "delta_pp": 0.268,
+   "ci95": [
+    0.099,
+    0.467
+   ]
+  }
+ },
+ "feature_gain_rl27_s42": {
+  "nf_n": 14484.9,
+  "nf_a": 4260.0,
+  "af_n": 2749.0,
+  "af_a": 786.9,
+  "coloc": 3107.8,
+  "dupf": 2589.8,
+  "rv_rank": 3825.3,
+  "rv_sa": 9552.9,
+  "rv_so": 37104.0,
+  "rv_gap": 30425.0
+ },
+ "gain_share_rl27_s42": 0.0081,
+ "runtime_base_s": 137.9,
+ "fit_s": {
+  "BASE_s42": 321.1,
+  "NEW_s42": 379.0,
+  "BASE_s43": 322.3,
+  "BASE_s44": 322.2,
+  "NEW_s43": 337.0,
+  "NEW_s44": 356.5
+ }
+}

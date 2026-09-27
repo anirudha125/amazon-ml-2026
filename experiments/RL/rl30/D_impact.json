@@ -1,0 +1,54 @@
+{
+ "n_pairs": 14126,
+ "n_s1": 13792,
+ "mean_n_acc_of_those_s1": 4.239,
+ "gain_if_all_decoy_per_S1": 0.2659,
+ "loss_if_all_true_per_S1": 0.1228,
+ "f=0.6": {
+  "France_pts": 0.587,
+  "overall_LB_pts": 0.088
+ },
+ "f=0.75": {
+  "France_pts": 0.897,
+  "overall_LB_pts": 0.134
+ },
+ "f=0.9": {
+  "France_pts": 1.207,
+  "overall_LB_pts": 0.181
+ },
+ "S004only_n": 33226,
+ "S004only_content_swap_same_addr": 1797,
+ "S005new_n": 10233,
+ "S005new_content_swap_same_addr": 754,
+ "S005new_nt": {
+  "N_SAME": 3378,
+  "N_DISJOINT": 2479,
+  "N_SWAP1": 1626,
+  "N_ACRONYM": 1560,
+  "N_DROP": 369,
+  "N_HANDLE": 261
+ },
+ "all_accepted_rate": {
+  "France": 0.01654,
+  "US": 0.0003,
+  "India": 0.00017
+ },
+ "V1_US_analog": {
+  "n_hard": 50,
+  "n_pos": 16,
+  "p_match": 0.32,
+  "n_acc": 17,
+  "FP": 1,
+  "FN": 0,
+  "median_p_neg": 0.0051
+ },
+ "V1_India_analog": {
+  "n_hard": 32,
+  "n_pos": 11,
+  "p_match": 0.344,
+  "n_acc": 9,
+  "FP": 0,
+  "FN": 2,
+  "median_p_neg": 0.006
+ }
+}

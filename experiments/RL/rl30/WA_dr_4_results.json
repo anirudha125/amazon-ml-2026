@@ -1,0 +1,368 @@
+{
+ "abbrev_explainers_France_PP": {
+  "comite": [
+   [
+    "drops",
+    4605
+   ],
+   [
+    "com",
+    1916
+   ],
+   [
+    "cie",
+    216
+   ],
+   [
+    "cmite",
+    17
+   ],
+   [
+    "cm",
+    15
+   ],
+   [
+    "coite",
+    11
+   ]
+  ],
+  "compagnie": [
+   [
+    "drops",
+    1734
+   ],
+   [
+    "com",
+    499
+   ],
+   [
+    "cie",
+    457
+   ],
+   [
+    "compagie",
+    3
+   ],
+   [
+    "compgnie",
+    2
+   ],
+   [
+    "companie",
+    2
+   ]
+  ],
+  "freres": [
+   [
+    "drops",
+    3094
+   ],
+   [
+    "frs",
+    661
+   ],
+   [
+    "frres",
+    24
+   ],
+   [
+    "frere",
+    14
+   ],
+   [
+    "fers",
+    10
+   ],
+   [
+    "frees",
+    9
+   ]
+  ],
+  "communale": [
+   [
+    "drops",
+    331
+   ],
+   [
+    "com",
+    199
+   ],
+   [
+    "comunle",
+    3
+   ],
+   [
+    "communle",
+    2
+   ],
+   [
+    "cm",
+    2
+   ],
+   [
+    "cl",
+    1
+   ]
+  ],
+  "saint": [
+   [
+    "drops",
+    1540
+   ],
+   [
+    "st",
+    368
+   ],
+   [
+    "sa",
+    11
+   ],
+   [
+    "sain",
+    1
+   ],
+   [
+    "sit",
+    1
+   ],
+   [
+    "sai",
+    1
+   ]
+  ],
+  "etablissements": [
+   [
+    "drops",
+    1138
+   ],
+   [
+    "etablissement",
+    23
+   ],
+   [
+    "ea",
+    6
+   ],
+   [
+    "es",
+    5
+   ],
+   [
+    "et",
+    4
+   ],
+   [
+    "eb",
+    3
+   ]
+  ]
+ },
+ "abbrev_examples": {
+  "comite": [
+   [
+    "Artisanal Comite SARL",
+    "ARTISANALCOMITESARL.COM"
+   ],
+   [
+    "Lieu Comite SAS",
+    "Lieucomitesas.Com"
+   ],
+   [
+    "Management Spleen Comite SASU",
+    "MANAGEMENT SPLEEN SASU-CIE"
+   ],
+   [
+    "Reseau (France) Comite SASU",
+    "francecomitereseau.com"
+   ]
+  ],
+  "compagnie": [
+   [
+    "Collioure Compagnie SAS",
+    "colliourecompagniesas.com"
+   ],
+   [
+    "Collioure Compagnie SAS",
+    "Collioure Cie SAS"
+   ],
+   [
+    "Handicap Compagnie SAS",
+    "Handicap Cie SAS"
+   ],
+   [
+    "Francs Compagnie SARL",
+    "Francs Cie SARL"
+   ]
+  ],
+  "freres": [
+   [
+    "Pixel & Frères EURL",
+    "Pixel & Frs EURL"
+   ],
+   [
+    "Roulotte & Frères SARL",
+    "Roulotte & Frs SARL"
+   ],
+   [
+    "Personnel & Frères SCI",
+    "Personnel & Frs SCI"
+   ],
+   [
+    "Little & Frères SARL",
+    "Little & Frs SARL"
+   ]
+  ],
+  "communale": [
+   [
+    "Communale Amis SAS",
+    "COMMUNALEAMISSAS.COM"
+   ],
+   [
+    "Communale Patrimoine SCI",
+    "communalepatrimoinesci.com"
+   ],
+   [
+    "Communale Compagnie SARL",
+    "CCOMPAGNIE.COM"
+   ],
+   [
+    "Communale Section SARL",
+    "communalesectionsarl.com"
+   ]
+  ],
+  "saint": [
+   [
+    "Saint-Nazaire Eau SARL",
+    "Sain-Nblcaitre Eau SARL"
+   ],
+   [
+    "École primaire Saint Marie",
+    "École primaire St [Marie]"
+   ],
+   [
+    "Clinique Saint Sawa",
+    "Clinique  St Sawa"
+   ],
+   [
+    "École maternelle Saint Corneille",
+    "École maternelle St  Corneille"
+   ]
+  ],
+  "etablissements": [
+   [
+    "Établissements Rivery SAS",
+    "Établissement Rivery SAS"
+   ],
+   [
+    "Établissements Theatrale SARL",
+    "ÉTABLISSEMENT THEATRALE SARL"
+   ],
+   [
+    "Établissements Atrium SAS",
+    "ÉA"
+   ],
+   [
+    "Établissements Nationale SARL",
+    "Établissement Nationale  SARL"
+   ]
+  ]
+ },
+ "trainGT_content_drop_by_pos": {
+  "India_first_2": {
+   "n": 21002,
+   "dr": 0.2167
+  },
+  "India_first_3": {
+   "n": 42579,
+   "dr": 0.1995
+  },
+  "India_first_4": {
+   "n": 111938,
+   "dr": 0.2807
+  },
+  "India_first_5": {
+   "n": 21511,
+   "dr": 0.2601
+  },
+  "India_last_2": {
+   "n": 18713,
+   "dr": 0.3684
+  },
+  "India_last_3": {
+   "n": 10679,
+   "dr": 0.3195
+  },
+  "India_mid_3": {
+   "n": 42226,
+   "dr": 0.3287
+  },
+  "India_mid_4": {
+   "n": 120974,
+   "dr": 0.3546
+  },
+  "India_mid_5": {
+   "n": 43336,
+   "dr": 0.3206
+  },
+  "US_first_1": {
+   "n": 7008,
+   "dr": 0.1244
+  },
+  "US_first_2": {
+   "n": 101510,
+   "dr": 0.0915
+  },
+  "US_first_3": {
+   "n": 227690,
+   "dr": 0.0854
+  },
+  "US_first_4": {
+   "n": 197593,
+   "dr": 0.0826
+  },
+  "US_first_5": {
+   "n": 67128,
+   "dr": 0.0836
+  },
+  "US_first_6": {
+   "n": 20731,
+   "dr": 0.0843
+  },
+  "US_last_2": {
+   "n": 86071,
+   "dr": 0.2192
+  },
+  "US_last_3": {
+   "n": 106375,
+   "dr": 0.3002
+  },
+  "US_last_4": {
+   "n": 57125,
+   "dr": 0.315
+  },
+  "US_last_5": {
+   "n": 21200,
+   "dr": 0.3523
+  },
+  "US_last_6": {
+   "n": 9506,
+   "dr": 0.3873
+  },
+  "US_mid_3": {
+   "n": 216712,
+   "dr": 0.2011
+  },
+  "US_mid_4": {
+   "n": 368117,
+   "dr": 0.1938
+  },
+  "US_mid_5": {
+   "n": 175270,
+   "dr": 0.1738
+  },
+  "US_mid_6": {
+   "n": 67578,
+   "dr": 0.1726
+  }
+ }
+}

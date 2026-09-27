@@ -1,0 +1,29 @@
+{
+ "LO": {
+  "n_pairs": 11213,
+  "n_s1": 10974,
+  "dLB_if_all_FP_pp": 0.1688,
+  "dLB_if_all_TP_pp": -0.077,
+  "dFrance_if_all_FP_pp": 1.127,
+  "dFrance_if_all_TP_pp": -0.514,
+  "breakeven_FP_fraction": 0.313
+ },
+ "HI": {
+  "n_pairs": 4548,
+  "n_s1": 4491,
+  "dLB_if_all_FP_pp": 0.0661,
+  "dLB_if_all_TP_pp": -0.0289,
+  "dFrance_if_all_FP_pp": 0.441,
+  "dFrance_if_all_TP_pp": -0.193,
+  "breakeven_FP_fraction": 0.304
+ },
+ "HI+LO": {
+  "n_pairs": 15761,
+  "n_s1": 15256,
+  "dLB_if_all_FP_pp": 0.2352,
+  "dLB_if_all_TP_pp": -0.1067,
+  "dFrance_if_all_FP_pp": 1.57,
+  "dFrance_if_all_TP_pp": -0.713,
+  "breakeven_FP_fraction": 0.312
+ }
+}

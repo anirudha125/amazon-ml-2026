@@ -1,0 +1,35 @@
+{
+ "platt": [
+  0.9002134550503073,
+  -0.16498248771142732
+ ],
+ "V1_top10_sum_p_per_s1": 3.449899911880493,
+ "V1_top10_true_per_s1": 3.4504,
+ "France_top10_rrLcal_sum_per_s1": 3.627066032394194,
+ "France_top10_p6_sum_per_s1": 3.5045886212606274,
+ "France_W1.0": {
+  "sum_p_per_s1": 3.5409,
+  "delta": 0.523,
+  "acc_per_s1": 3.3425
+ },
+ "France_W0.75": {
+  "sum_p_per_s1": 3.5715,
+  "delta": 0.563,
+  "acc_per_s1": 3.33
+ },
+ "France_W0.5": {
+  "sum_p_per_s1": 3.6021,
+  "delta": 0.626,
+  "acc_per_s1": 3.3151
+ },
+ "France_W0.25": {
+  "sum_p_per_s1": 3.6327,
+  "delta": 0.716,
+  "acc_per_s1": 3.3269
+ },
+ "France_W0.0": {
+  "sum_p_per_s1": 3.6634,
+  "delta": 0.849,
+  "acc_per_s1": 3.4215
+ }
+}

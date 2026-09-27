@@ -1,0 +1,94 @@
+{
+ "nonlegal_contrast_tokens": [
+  "ecole",
+  "club",
+  "amicale",
+  "sportive",
+  "centre",
+  "comite",
+  "bordeaux",
+  "nantes",
+  "union",
+  "primaire",
+  "amis",
+  "college",
+  "societe",
+  "sante",
+  "lille",
+  "sport",
+  "fetes",
+  "anciens",
+  "parents",
+  "compagnie",
+  "culturelle",
+  "maternelle"
+ ],
+ "France_kept_nonlegal_contrast_diff": {
+  "n_pairs": 53584,
+  "per_1k_s1": 218.72,
+  "share_of_kept": 0.0627,
+  "p_mean": 0.9738,
+  "share_p_ge_0_97": 0.7601,
+  "n_record_token_carried_by_colocated_S1": 233,
+  "p_mean_record_token_carried_by_colocated_S1": 0.9459,
+  "top_diff_tokens": {
+   "club": 9456,
+   "comite": 5618,
+   "amicale": 5284,
+   "ecole": 4610,
+   "amis": 3992,
+   "centre": 3633,
+   "sportive": 3624,
+   "compagnie": 3356,
+   "parents": 2760,
+   "societe": 2670,
+   "fetes": 2301,
+   "primaire": 2282
+  }
+ },
+ "examples_record_token_carried_by_colocated_S1": [
+  {
+   "s1_name": "Maisons Ecole EI",
+   "rec_name": "Maisons  Comite EI",
+   "p": 0.999,
+   "colocated": [
+    "Amusicalement (France) Foyer SAS",
+    "Vilar Comite EURL",
+    "Communale Societe SARL",
+    "Fédération des Oeuf"
+   ],
+   "addr": "49 Rue du Maréchal Brune, Tourcoing, Hauts-de-France"
+  },
+  {
+   "s1_name": "Droit Cie SARL",
+   "rec_name": "Droit-Compagnie SARL",
+   "p": 0.995,
+   "colocated": [
+    "Bordeaux Compagnie SARL",
+    "Communale (France) Culture SA",
+    "Bordeaux Loisirs SAS",
+    "Ets Performances EURL"
+   ],
+   "addr": "21 Rue Ferbos, Bordeaux, Nouvelle-Aquitaine"
+  },
+  {
+   "s1_name": "Gecko & Cie SARL",
+   "rec_name": "Gecko & Compagnie SARL",
+   "p": 0.99,
+   "colocated": [
+    "Senegal Fitness Pharmacie",
+    "Nov Parents SARL",
+    "Elegance Beaulieu Club SARL",
+    "Clos Compagnie"
+   ],
+   "addr": "29 Rue de Cassel, Roubaix, Hauts-de-France"
+  }
+ ],
+ "V1_accepted_rl27": {
+  "n": 67353,
+  "nf_a_eq1": 0.6556,
+  "rv_rank_eq1": 0.9378,
+  "coloc_gt0": 0.0658
+ },
+ "runtime_s": 23.7
+}

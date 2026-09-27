@@ -1,0 +1,109 @@
+{
+ "pool_recall_V1": 0.9978955864971605,
+ "V1_US": {
+  "n_s1": 12039,
+  "gt_mean": 3.459589666915857,
+  "pred_mean": 3.3526040368801397,
+  "net_deficit": 0.10698563003571725,
+  "FP_per_s1": 0.007558767339480023,
+  "FN_per_s1": 0.11454439737519728,
+  "FN_outside_pool_per_s1": 0.007558767339480023,
+  "p0_gt": 0.05498795581028325,
+  "p0_pred": 0.05714760362156325,
+  "p1_gt": 0.0548218290555694,
+  "p1_pred": 0.06462330758368635,
+  "macroF05": 0.9877379125249844,
+  "loss_from_FN_only_S1": 0.010459689919391018,
+  "loss_from_FP_only_S1": 0.0015857405796852588,
+  "loss_from_both": 0.00021665697593930837
+ },
+ "V1_India": {
+  "n_s1": 7961,
+  "gt_mean": 3.482979525185278,
+  "pred_mean": 3.390277603316166,
+  "net_deficit": 0.09270192186911191,
+  "FP_per_s1": 0.009420927019218692,
+  "FN_per_s1": 0.1021228488883306,
+  "FN_outside_pool_per_s1": 0.0069086798140937065,
+  "p0_gt": 0.05275719130762467,
+  "p0_pred": 0.05451576435121216,
+  "p1_gt": 0.051626680065318425,
+  "p1_pred": 0.05866097223966838,
+  "macroF05": 0.988513095698651,
+  "loss_from_FN_only_S1": 0.00901538364387949,
+  "loss_from_FP_only_S1": 0.002190986386230557,
+  "loss_from_both": 0.00028053427123895657
+ },
+ "V1_ALL": {
+  "n_s1": 20000,
+  "gt_mean": 3.4689,
+  "pred_mean": 3.3676,
+  "net_deficit": 0.1013,
+  "FP_per_s1": 0.0083,
+  "FN_per_s1": 0.1096,
+  "FN_outside_pool_per_s1": 0.0073,
+  "p0_gt": 0.0541,
+  "p0_pred": 0.0561,
+  "p1_gt": 0.05355,
+  "p1_pred": 0.06225,
+  "macroF05": 0.9880464741872623,
+  "loss_from_FN_only_S1": 0.009884783806423653,
+  "loss_from_FP_only_S1": 0.001826658672980615,
+  "loss_from_both": 0.00024208333333333333
+ },
+ "test_US_minus_trainGT": -0.08680900000000014,
+ "test_India_minus_trainGT": -0.09614999999999974,
+ "sim": {
+  "US_extraFN_0.031": {
+   "mean_loss_pts": 0.2724,
+   "sd": 0.0132
+  },
+  "US_extraFN_0.079": {
+   "mean_loss_pts": 0.7613,
+   "sd": 0.0471
+  },
+  "US_extraFN_0.166": {
+   "mean_loss_pts": 1.6042,
+   "sd": 0.0683
+  },
+  "US_extraFP_0.079": {
+   "mean_loss_pts": 1.9612,
+   "sd": 0.0248
+  },
+  "India_extraFN_0.031": {
+   "mean_loss_pts": 0.2669,
+   "sd": 0.0215
+  },
+  "India_extraFN_0.079": {
+   "mean_loss_pts": 0.7146,
+   "sd": 0.0343
+  },
+  "India_extraFN_0.166": {
+   "mean_loss_pts": 1.5339,
+   "sd": 0.0581
+  },
+  "India_extraFP_0.079": {
+   "mean_loss_pts": 1.9605,
+   "sd": 0.0512
+  },
+  "ALL_extraFN_0.031": {
+   "mean_loss_pts": 0.2834,
+   "sd": 0.0108
+  },
+  "ALL_extraFN_0.079": {
+   "mean_loss_pts": 0.7145,
+   "sd": 0.0212
+  },
+  "ALL_extraFN_0.166": {
+   "mean_loss_pts": 1.5519,
+   "sd": 0.0297
+  },
+  "ALL_extraFP_0.079": {
+   "mean_loss_pts": 1.968,
+   "sd": 0.0255
+  }
+ },
+ "se_mean_France": 0.003275952290513828,
+ "se_mean_US": 0.0020759174960294667,
+ "se_mean_India": 0.0018762328613679085
+}

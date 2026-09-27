@@ -1,0 +1,56 @@
+{
+ "US|p5": {
+  "contested_rec_perS1": 0.0006,
+  "margin_lt_0.01_perS1": 0.0001,
+  "margin_lt_0.02_perS1": 0.0001,
+  "margin_lt_0.05_perS1": 0.0002,
+  "identical_core_addr_share": 0.0241,
+  "identical_core_addr_perS1": 0.0,
+  "crowd31_share_of_contests": 0.2701
+ },
+ "US|p6": {
+  "contested_rec_perS1": 0.0008,
+  "margin_lt_0.01_perS1": 0.0001,
+  "margin_lt_0.02_perS1": 0.0002,
+  "margin_lt_0.05_perS1": 0.0003,
+  "identical_core_addr_share": 0.0169,
+  "identical_core_addr_perS1": 0.0,
+  "crowd31_share_of_contests": 0.1745
+ },
+ "India|p5": {
+  "contested_rec_perS1": 0.003,
+  "margin_lt_0.01_perS1": 0.0004,
+  "margin_lt_0.02_perS1": 0.0007,
+  "margin_lt_0.05_perS1": 0.0012,
+  "identical_core_addr_share": 0.0016,
+  "identical_core_addr_perS1": 0.0,
+  "crowd31_share_of_contests": 0.5405
+ },
+ "India|p6": {
+  "contested_rec_perS1": 0.0034,
+  "margin_lt_0.01_perS1": 0.0005,
+  "margin_lt_0.02_perS1": 0.0008,
+  "margin_lt_0.05_perS1": 0.0013,
+  "identical_core_addr_share": 0.0007,
+  "identical_core_addr_perS1": 0.0,
+  "crowd31_share_of_contests": 0.4165
+ },
+ "France|p5": {
+  "contested_rec_perS1": 0.0673,
+  "margin_lt_0.01_perS1": 0.0181,
+  "margin_lt_0.02_perS1": 0.025,
+  "margin_lt_0.05_perS1": 0.0367,
+  "identical_core_addr_share": 0.0084,
+  "identical_core_addr_perS1": 0.0006,
+  "crowd31_share_of_contests": 0.6159
+ },
+ "France|p6": {
+  "contested_rec_perS1": 0.0531,
+  "margin_lt_0.01_perS1": 0.0151,
+  "margin_lt_0.02_perS1": 0.0208,
+  "margin_lt_0.05_perS1": 0.0299,
+  "identical_core_addr_share": 0.0099,
+  "identical_core_addr_perS1": 0.0005,
+  "crowd31_share_of_contests": 0.6126
+ }
+}

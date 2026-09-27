@@ -1,0 +1,62 @@
+{
+ "India_jaipur": {
+  "margin[0,0.01)": {
+   "removed": 23,
+   "removed_true": 4,
+   "precision_removed_is_FP": 0.826,
+   "winner_is_owner": 18,
+   "record_unlinked": 0
+  },
+  "margin[0.01,0.05)": {
+   "removed": 40,
+   "removed_true": 11,
+   "precision_removed_is_FP": 0.725,
+   "winner_is_owner": 23,
+   "record_unlinked": 1
+  },
+  "margin[0.05,0.1)": {
+   "removed": 31,
+   "removed_true": 2,
+   "precision_removed_is_FP": 0.935,
+   "winner_is_owner": 26,
+   "record_unlinked": 0
+  },
+  "margin[0.1,1.01)": {
+   "removed": 54,
+   "removed_true": 2,
+   "precision_removed_is_FP": 0.963,
+   "winner_is_owner": 49,
+   "record_unlinked": 0
+  }
+ },
+ "US_OR": {
+  "margin[0,0.01)": {
+   "removed": 14,
+   "removed_true": 4,
+   "precision_removed_is_FP": 0.714,
+   "winner_is_owner": 8,
+   "record_unlinked": 0
+  },
+  "margin[0.01,0.05)": {
+   "removed": 33,
+   "removed_true": 8,
+   "precision_removed_is_FP": 0.758,
+   "winner_is_owner": 16,
+   "record_unlinked": 0
+  },
+  "margin[0.05,0.1)": {
+   "removed": 40,
+   "removed_true": 5,
+   "precision_removed_is_FP": 0.875,
+   "winner_is_owner": 20,
+   "record_unlinked": 0
+  },
+  "margin[0.1,1.01)": {
+   "removed": 53,
+   "removed_true": 7,
+   "precision_removed_is_FP": 0.868,
+   "winner_is_owner": 38,
+   "record_unlinked": 2
+  }
+ }
+}

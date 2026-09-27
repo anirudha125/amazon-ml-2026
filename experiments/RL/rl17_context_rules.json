@@ -1,0 +1,458 @@
+{
+ "PROD_V1": {
+  "th": 0.72,
+  "base_macro": 96.05,
+  "accepted": 63800,
+  "R1": {
+   "vetoed": 545,
+   "vetoed_true": 505,
+   "vetoed_false": 40,
+   "precision_of_veto": 0.073,
+   "macro": 95.899,
+   "delta_pp": -0.15,
+   "ci95": [
+    -0.179,
+    -0.123
+   ],
+   "vetoed_by_country": {
+    "US": 445,
+    "India": 100
+   }
+  },
+  "R2": {
+   "vetoed": 219,
+   "vetoed_true": 211,
+   "vetoed_false": 8,
+   "precision_of_veto": 0.037,
+   "macro": 95.893,
+   "delta_pp": -0.157,
+   "ci95": [
+    -0.198,
+    -0.118
+   ],
+   "vetoed_by_country": {
+    "US": 50,
+    "India": 169
+   }
+  },
+  "R1|R2": {
+   "vetoed": 724,
+   "vetoed_true": 681,
+   "vetoed_false": 43,
+   "precision_of_veto": 0.059,
+   "macro": 95.761,
+   "delta_pp": -0.289,
+   "ci95": [
+    -0.338,
+    -0.244
+   ],
+   "vetoed_by_country": {
+    "US": 485,
+    "India": 239
+   }
+  },
+  "rescue_probe_fav_cell": {
+   "n": 59,
+   "precision": 0.847
+  }
+ },
+ "B2s42_V1": {
+  "th": 0.6400000000000001,
+  "base_macro": 97.547,
+  "accepted": 67082,
+  "R1": {
+   "vetoed": 597,
+   "vetoed_true": 551,
+   "vetoed_false": 46,
+   "precision_of_veto": 0.077,
+   "macro": 97.39,
+   "delta_pp": -0.156,
+   "ci95": [
+    -0.185,
+    -0.129
+   ],
+   "vetoed_by_country": {
+    "US": 485,
+    "India": 112
+   }
+  },
+  "R2": {
+   "vetoed": 271,
+   "vetoed_true": 254,
+   "vetoed_false": 17,
+   "precision_of_veto": 0.063,
+   "macro": 97.403,
+   "delta_pp": -0.143,
+   "ci95": [
+    -0.183,
+    -0.107
+   ],
+   "vetoed_by_country": {
+    "US": 60,
+    "India": 211
+   }
+  },
+  "R1|R2": {
+   "vetoed": 817,
+   "vetoed_true": 762,
+   "vetoed_false": 55,
+   "precision_of_veto": 0.067,
+   "macro": 97.263,
+   "delta_pp": -0.284,
+   "ci95": [
+    -0.33,
+    -0.24
+   ],
+   "vetoed_by_country": {
+    "US": 527,
+    "India": 290
+   }
+  },
+  "rescue_probe_fav_cell": {
+   "n": 66,
+   "precision": 0.864
+  }
+ },
+ "B2s43_V1": {
+  "th": 0.7200000000000001,
+  "base_macro": 97.565,
+  "accepted": 66498,
+  "R1": {
+   "vetoed": 572,
+   "vetoed_true": 542,
+   "vetoed_false": 30,
+   "precision_of_veto": 0.052,
+   "macro": 97.401,
+   "delta_pp": -0.164,
+   "ci95": [
+    -0.192,
+    -0.136
+   ],
+   "vetoed_by_country": {
+    "US": 465,
+    "India": 107
+   }
+  },
+  "R2": {
+   "vetoed": 257,
+   "vetoed_true": 243,
+   "vetoed_false": 14,
+   "precision_of_veto": 0.054,
+   "macro": 97.426,
+   "delta_pp": -0.138,
+   "ci95": [
+    -0.178,
+    -0.101
+   ],
+   "vetoed_by_country": {
+    "US": 59,
+    "India": 198
+   }
+  },
+  "R1|R2": {
+   "vetoed": 782,
+   "vetoed_true": 744,
+   "vetoed_false": 38,
+   "precision_of_veto": 0.049,
+   "macro": 97.276,
+   "delta_pp": -0.289,
+   "ci95": [
+    -0.335,
+    -0.245
+   ],
+   "vetoed_by_country": {
+    "US": 507,
+    "India": 275
+   }
+  },
+  "rescue_probe_fav_cell": {
+   "n": 73,
+   "precision": 0.877
+  }
+ },
+ "B2s44_V1": {
+  "th": 0.7000000000000001,
+  "base_macro": 97.583,
+  "accepted": 66633,
+  "R1": {
+   "vetoed": 579,
+   "vetoed_true": 548,
+   "vetoed_false": 31,
+   "precision_of_veto": 0.054,
+   "macro": 97.413,
+   "delta_pp": -0.17,
+   "ci95": [
+    -0.199,
+    -0.144
+   ],
+   "vetoed_by_country": {
+    "US": 474,
+    "India": 105
+   }
+  },
+  "R2": {
+   "vetoed": 257,
+   "vetoed_true": 245,
+   "vetoed_false": 12,
+   "precision_of_veto": 0.047,
+   "macro": 97.44,
+   "delta_pp": -0.143,
+   "ci95": [
+    -0.179,
+    -0.109
+   ],
+   "vetoed_by_country": {
+    "US": 58,
+    "India": 199
+   }
+  },
+  "R1|R2": {
+   "vetoed": 790,
+   "vetoed_true": 751,
+   "vetoed_false": 39,
+   "precision_of_veto": 0.049,
+   "macro": 97.293,
+   "delta_pp": -0.291,
+   "ci95": [
+    -0.334,
+    -0.249
+   ],
+   "vetoed_by_country": {
+    "US": 516,
+    "India": 274
+   }
+  },
+  "rescue_probe_fav_cell": {
+   "n": 74,
+   "precision": 0.838
+  }
+ },
+ "PROD_V0": {
+  "th": 0.72,
+  "base_macro": 95.998,
+  "accepted": 6362,
+  "R1": {
+   "vetoed": 48,
+   "vetoed_true": 46,
+   "vetoed_false": 2,
+   "precision_of_veto": 0.042,
+   "macro": 95.839,
+   "delta_pp": -0.159,
+   "ci95": [
+    -0.239,
+    -0.085
+   ],
+   "vetoed_by_country": {
+    "US": 43,
+    "India": 5
+   }
+  },
+  "R2": {
+   "vetoed": 23,
+   "vetoed_true": 22,
+   "vetoed_false": 1,
+   "precision_of_veto": 0.043,
+   "macro": 95.779,
+   "delta_pp": -0.219,
+   "ci95": [
+    -0.414,
+    -0.066
+   ],
+   "vetoed_by_country": {
+    "US": 3,
+    "India": 20
+   }
+  },
+  "R1|R2": {
+   "vetoed": 68,
+   "vetoed_true": 66,
+   "vetoed_false": 2,
+   "precision_of_veto": 0.029,
+   "macro": 95.613,
+   "delta_pp": -0.384,
+   "ci95": [
+    -0.593,
+    -0.217
+   ],
+   "vetoed_by_country": {
+    "US": 44,
+    "India": 24
+   }
+  },
+  "rescue_probe_fav_cell": {
+   "n": 1,
+   "precision": 1.0
+  }
+ },
+ "B2s42_V0": {
+  "th": 0.6400000000000001,
+  "base_macro": 97.305,
+  "accepted": 6659,
+  "R1": {
+   "vetoed": 52,
+   "vetoed_true": 50,
+   "vetoed_false": 2,
+   "precision_of_veto": 0.038,
+   "macro": 97.138,
+   "delta_pp": -0.167,
+   "ci95": [
+    -0.237,
+    -0.104
+   ],
+   "vetoed_by_country": {
+    "US": 48,
+    "India": 4
+   }
+  },
+  "R2": {
+   "vetoed": 26,
+   "vetoed_true": 25,
+   "vetoed_false": 1,
+   "precision_of_veto": 0.038,
+   "macro": 97.091,
+   "delta_pp": -0.214,
+   "ci95": [
+    -0.397,
+    -0.068
+   ],
+   "vetoed_by_country": {
+    "US": 2,
+    "India": 24
+   }
+  },
+  "R1|R2": {
+   "vetoed": 76,
+   "vetoed_true": 73,
+   "vetoed_false": 3,
+   "precision_of_veto": 0.039,
+   "macro": 96.934,
+   "delta_pp": -0.372,
+   "ci95": [
+    -0.566,
+    -0.212
+   ],
+   "vetoed_by_country": {
+    "US": 49,
+    "India": 27
+   }
+  },
+  "rescue_probe_fav_cell": {
+   "n": 0,
+   "precision": null
+  }
+ },
+ "B2s43_V0": {
+  "th": 0.7200000000000001,
+  "base_macro": 97.564,
+  "accepted": 6600,
+  "R1": {
+   "vetoed": 52,
+   "vetoed_true": 50,
+   "vetoed_false": 2,
+   "precision_of_veto": 0.038,
+   "macro": 97.392,
+   "delta_pp": -0.173,
+   "ci95": [
+    -0.245,
+    -0.107
+   ],
+   "vetoed_by_country": {
+    "US": 48,
+    "India": 4
+   }
+  },
+  "R2": {
+   "vetoed": 25,
+   "vetoed_true": 25,
+   "vetoed_false": 0,
+   "precision_of_veto": 0.0,
+   "macro": 97.328,
+   "delta_pp": -0.236,
+   "ci95": [
+    -0.432,
+    -0.082
+   ],
+   "vetoed_by_country": {
+    "US": 2,
+    "India": 23
+   }
+  },
+  "R1|R2": {
+   "vetoed": 75,
+   "vetoed_true": 73,
+   "vetoed_false": 2,
+   "precision_of_veto": 0.027,
+   "macro": 97.165,
+   "delta_pp": -0.399,
+   "ci95": [
+    -0.605,
+    -0.232
+   ],
+   "vetoed_by_country": {
+    "US": 49,
+    "India": 26
+   }
+  },
+  "rescue_probe_fav_cell": {
+   "n": 1,
+   "precision": 1.0
+  }
+ },
+ "B2s44_V0": {
+  "th": 0.7000000000000001,
+  "base_macro": 97.449,
+  "accepted": 6618,
+  "R1": {
+   "vetoed": 53,
+   "vetoed_true": 51,
+   "vetoed_false": 2,
+   "precision_of_veto": 0.038,
+   "macro": 97.276,
+   "delta_pp": -0.173,
+   "ci95": [
+    -0.246,
+    -0.105
+   ],
+   "vetoed_by_country": {
+    "US": 48,
+    "India": 5
+   }
+  },
+  "R2": {
+   "vetoed": 26,
+   "vetoed_true": 25,
+   "vetoed_false": 1,
+   "precision_of_veto": 0.038,
+   "macro": 97.237,
+   "delta_pp": -0.212,
+   "ci95": [
+    -0.397,
+    -0.065
+   ],
+   "vetoed_by_country": {
+    "US": 3,
+    "India": 23
+   }
+  },
+  "R1|R2": {
+   "vetoed": 76,
+   "vetoed_true": 73,
+   "vetoed_false": 3,
+   "precision_of_veto": 0.039,
+   "macro": 97.078,
+   "delta_pp": -0.371,
+   "ci95": [
+    -0.568,
+    -0.21
+   ],
+   "vetoed_by_country": {
+    "US": 49,
+    "India": 27
+   }
+  },
+  "rescue_probe_fav_cell": {
+   "n": 3,
+   "precision": 1.0
+  }
+ }
+}

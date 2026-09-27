@@ -1,0 +1,514 @@
+{
+ "F_add_other_st|kept": {
+  "n": 1022,
+  "sib_same_core_any": 0.0,
+  "sib_rec_exact_any": 0.0,
+  "sib_rec_core_any": 0.0,
+  "legal_swap": 0.0254,
+  "s1_kept0": 0.0,
+  "s1_kept_median": 4.0,
+  "no_sibling_and_no_legal_swap": 996
+ },
+ "F_add_other_st|lost_mc": {
+  "n": 15,
+  "sib_same_core_any": 0.0,
+  "sib_rec_exact_any": 0.0667,
+  "sib_rec_core_any": 0.2,
+  "legal_swap": 0.0667,
+  "s1_kept0": 0.0,
+  "s1_kept_median": 3.0,
+  "no_sibling_and_no_legal_swap": 11
+ },
+ "F_add_other_st|rej_rec_kept_other": {
+  "n": 403,
+  "sib_same_core_any": 0.0,
+  "sib_rec_exact_any": 0.2506,
+  "sib_rec_core_any": 0.4665,
+  "legal_swap": 0.2208,
+  "s1_kept0": 0.0546,
+  "s1_kept_median": 3.0,
+  "no_sibling_and_no_legal_swap": 187
+ },
+ "F_add_other_st|rej_rec_unassigned": {
+  "n": 715,
+  "sib_same_core_any": 0.0028,
+  "sib_rec_exact_any": 0.0,
+  "sib_rec_core_any": 0.0084,
+  "legal_swap": 0.1021,
+  "s1_kept0": 0.049,
+  "s1_kept_median": 3.0,
+  "no_sibling_and_no_legal_swap": 637
+ },
+ "F_only_st|kept": {
+  "n": 35564,
+  "sib_same_core_any": 0.0,
+  "sib_rec_exact_any": 0.0,
+  "sib_rec_core_any": 0.0,
+  "legal_swap": 0.0008,
+  "s1_kept0": 0.0,
+  "s1_kept_median": 4.0,
+  "no_sibling_and_no_legal_swap": 35533
+ },
+ "F_only_st|lost_mc": {
+  "n": 59,
+  "sib_same_core_any": 0.2373,
+  "sib_rec_exact_any": 0.1695,
+  "sib_rec_core_any": 0.2203,
+  "legal_swap": 0.1864,
+  "s1_kept0": 0.0339,
+  "s1_kept_median": 3.0,
+  "no_sibling_and_no_legal_swap": 45
+ },
+ "F_only_st|rej_rec_kept_other": {
+  "n": 61,
+  "sib_same_core_any": 0.7705,
+  "sib_rec_exact_any": 0.6885,
+  "sib_rec_core_any": 0.7705,
+  "legal_swap": 0.6885,
+  "s1_kept0": 0.0656,
+  "s1_kept_median": 3.0,
+  "no_sibling_and_no_legal_swap": 10
+ },
+ "F_only_st|rej_rec_unassigned": {
+  "n": 1757,
+  "sib_same_core_any": 0.0006,
+  "sib_rec_exact_any": 0.0006,
+  "sib_rec_core_any": 0.0006,
+  "legal_swap": 0.0393,
+  "s1_kept0": 0.0393,
+  "s1_kept_median": 3.0,
+  "no_sibling_and_no_legal_swap": 1688
+ },
+ "F_sub1_st|kept": {
+  "n": 22689,
+  "sib_same_core_any": 0.0004,
+  "sib_rec_exact_any": 0.0,
+  "sib_rec_core_any": 0.0006,
+  "legal_swap": 0.0004,
+  "s1_kept0": 0.0,
+  "s1_kept_median": 4.0,
+  "no_sibling_and_no_legal_swap": 22658
+ },
+ "F_sub1_st|lost_mc": {
+  "n": 112,
+  "sib_same_core_any": 0.0446,
+  "sib_rec_exact_any": 0.2768,
+  "sib_rec_core_any": 0.4375,
+  "legal_swap": 0.1161,
+  "s1_kept0": 0.0536,
+  "s1_kept_median": 3.0,
+  "no_sibling_and_no_legal_swap": 57
+ },
+ "F_sub1_st|rej_rec_kept_other": {
+  "n": 395,
+  "sib_same_core_any": 0.0608,
+  "sib_rec_exact_any": 0.2886,
+  "sib_rec_core_any": 0.5291,
+  "legal_swap": 0.2785,
+  "s1_kept0": 0.0456,
+  "s1_kept_median": 3.0,
+  "no_sibling_and_no_legal_swap": 129
+ },
+ "F_sub1_st|rej_rec_unassigned": {
+  "n": 8209,
+  "sib_same_core_any": 0.0054,
+  "sib_rec_exact_any": 0.0001,
+  "sib_rec_core_any": 0.0065,
+  "legal_swap": 0.0135,
+  "s1_kept0": 0.0246,
+  "s1_kept_median": 3.0,
+  "no_sibling_and_no_legal_swap": 8021
+ },
+ "F_only_rejected_clean_examples": [
+  {
+   "s1": "Fédération de Accueil",
+   "rec": "FÉDÉRATION DE ACCUEIL SASU",
+   "s1_kept": 5
+  },
+  {
+   "s1": "Fédération du Cds",
+   "rec": "Fédération du Cds Et Fils",
+   "s1_kept": 3
+  },
+  {
+   "s1": "Association de Joliot",
+   "rec": "Association de Joliot Et Fils",
+   "s1_kept": 2
+  },
+  {
+   "s1": "Pharmacie Trait",
+   "rec": "Pharmacie Trait Et Fils",
+   "s1_kept": 3
+  },
+  {
+   "s1": "Generations Scolaire Centre",
+   "rec": "Generations  Scolaire Centre SASU",
+   "s1_kept": 3
+  },
+  {
+   "s1": "Association de Detudes",
+   "rec": "Association de Detudes Et (Fils)",
+   "s1_kept": 2
+  },
+  {
+   "s1": "Collège Louis",
+   "rec": "Collège Louis Et Fils",
+   "s1_kept": 1
+  },
+  {
+   "s1": "EHPAD du Pierre",
+   "rec": "EHPAD du-Pierre Et Fils",
+   "s1_kept": 4
+  },
+  {
+   "s1": "Établissements Lequilibre SAS",
+   "rec": "Établissements Lequilibre SAS Développement",
+   "s1_kept": 5
+  },
+  {
+   "s1": "Ets Nationale",
+   "rec": "Ets Nationale  EURL",
+   "s1_kept": 3
+  },
+  {
+   "s1": "Union du Deleves",
+   "rec": "Union du Deleves & Fils",
+   "s1_kept": 4
+  },
+  {
+   "s1": "Generations (France) Societe",
+   "rec": "Generations (France) Societe EURL",
+   "s1_kept": 3
+  },
+  {
+   "s1": "Maison Trait SA",
+   "rec": "Maison Trait SA Et Fils",
+   "s1_kept": 7
+  },
+  {
+   "s1": "Clinique Christ",
+   "rec": "Clinique Christ & Fils",
+   "s1_kept": 4
+  },
+  {
+   "s1": "Fédération des Departemental",
+   "rec": "Fédération des Departemental EURL",
+   "s1_kept": 4
+  },
+  {
+   "s1": "Ets Fabrik",
+   "rec": "ETS FABRIK DÉVELOPPEMENT",
+   "s1_kept": 4
+  },
+  {
+   "s1": "Comité de Usagers",
+   "rec": "COMITÉ DE USAGERS [DÉVELOPPEMENT]",
+   "s1_kept": 2
+  },
+  {
+   "s1": "Calais Collège",
+   "rec": "Calais Collège SA",
+   "s1_kept": 5
+  },
+  {
+   "s1": "Franco Service",
+   "rec": "FRANCO ET  FILS",
+   "s1_kept": 7
+  },
+  {
+   "s1": "Club du Sapeurs",
+   "rec": "Club  du Sapeurs Et Fils",
+   "s1_kept": 3
+  },
+  {
+   "s1": "Fédération de Agreee",
+   "rec": "Fédération de Agreee Et Fils",
+   "s1_kept": 3
+  },
+  {
+   "s1": "Maison de Santé de la Sainte",
+   "rec": "Maison de Santé de la Sainte EURL",
+   "s1_kept": 1
+  },
+  {
+   "s1": "Petanque & Fils",
+   "rec": "Développement Et Petanque",
+   "s1_kept": 2
+  },
+  {
+   "s1": "Fédération des Avec",
+   "rec": "FÉDÉRATION DES AVEC SASU",
+   "s1_kept": 1
+  },
+  {
+   "s1": "Amicale de Pordic",
+   "rec": "Amicale Développement Pordic de",
+   "s1_kept": 0
+  }
+ ],
+ "F_only_rejected_with_sibling_examples": [
+  {
+   "s1": "Pornic Club EI",
+   "rec": "Pornic Club S.C.I.",
+   "sib_same_core": 1,
+   "s1_kept": 2
+  },
+  {
+   "s1": "Tourcoing Amicale SARL",
+   "rec": "Tourcoing Amicale EURL",
+   "sib_same_core": 1,
+   "s1_kept": 5
+  },
+  {
+   "s1": "Lille Sportive SAS",
+   "rec": "Lille Sportive E.U.R.L.",
+   "sib_same_core": 2,
+   "s1_kept": 3
+  },
+  {
+   "s1": "Pornic Club EI",
+   "rec": "Pornic Çlub SCI",
+   "sib_same_core": 1,
+   "s1_kept": 2
+  },
+  {
+   "s1": "Dunkerque Services SAS",
+   "rec": "Dunkerque çompagnie",
+   "sib_same_core": 1,
+   "s1_kept": 4
+  },
+  {
+   "s1": "Lille College SCI",
+   "rec": "LILLE COLLEGE SA",
+   "sib_same_core": 1,
+   "s1_kept": 2
+  },
+  {
+   "s1": "Roubaix Club SARL",
+   "rec": "Roubaix Club E.U.R.L.",
+   "sib_same_core": 1,
+   "s1_kept": 5
+  },
+  {
+   "s1": "Lille Ecole",
+   "rec": "Lille Ecole SASU",
+   "sib_same_core": 1,
+   "s1_kept": 0
+  },
+  {
+   "s1": "Bordeaux Maison SARL",
+   "rec": "Bordeaux Macson SCI",
+   "sib_same_core": 1,
+   "s1_kept": 3
+  },
+  {
+   "s1": "Lille Loisirs SARL",
+   "rec": "Lille  Loisirs EURL",
+   "sib_same_core": 2,
+   "s1_kept": 6
+  },
+  {
+   "s1": "Bordeaux Club SAS",
+   "rec": "EURL Bordeaux Club",
+   "sib_same_core": 2,
+   "s1_kept": 1
+  },
+  {
+   "s1": "Dunkerque Services SAS",
+   "rec": "Dunkerque Çompagnie",
+   "sib_same_core": 1,
+   "s1_kept": 4
+  },
+  {
+   "s1": "Bordeaux Club SARL",
+   "rec": "Bordeaux Club Sa",
+   "sib_same_core": 1,
+   "s1_kept": 3
+  },
+  {
+   "s1": "La Baule-Escoublac Residence SCI",
+   "rec": "La Baule-Escoublac Residence SASU",
+   "sib_same_core": 1,
+   "s1_kept": 2
+  },
+  {
+   "s1": "Lille Amis",
+   "rec": "Lille Amis SCI",
+   "sib_same_core": 1,
+   "s1_kept": 2
+  }
+ ],
+ "F_only_rejected_clean_s1_kept_dist": {
+  "0": 66,
+  "1": 163,
+  "2": 387,
+  "3": 437,
+  "4": 330,
+  "5": 315
+ },
+ "F_only_rejected_rec_only_tokens": [
+  [
+   "fils",
+   672
+  ],
+  [
+   "et",
+   547
+  ],
+  [
+   "developpement",
+   527
+  ],
+  [
+   "sasu",
+   175
+  ],
+  [
+   "eurl",
+   168
+  ],
+  [
+   "sci",
+   102
+  ],
+  [
+   "sa",
+   73
+  ],
+  [
+   "associes",
+   46
+  ],
+  [
+   "cie",
+   33
+  ],
+  [
+   "compagnie",
+   17
+  ],
+  [
+   "services",
+   11
+  ],
+  [
+   "com",
+   5
+  ],
+  [
+   "ehad",
+   2
+  ],
+  [
+   "ehpzd",
+   2
+  ],
+  [
+   "ehptd",
+   2
+  ],
+  [
+   "ehpd",
+   2
+  ],
+  [
+   "ejbd",
+   1
+  ],
+  [
+   "wgf",
+   1
+  ],
+  [
+   "shpad",
+   1
+  ],
+  [
+   "deducation",
+   1
+  ]
+ ],
+ "F_only_kept_rec_only_tokens": [
+  [
+   "sci",
+   6277
+  ],
+  [
+   "sa",
+   6164
+  ],
+  [
+   "sasu",
+   6125
+  ],
+  [
+   "eurl",
+   6117
+  ],
+  [
+   "et",
+   2420
+  ],
+  [
+   "fils",
+   2287
+  ],
+  [
+   "cie",
+   1848
+  ],
+  [
+   "services",
+   1594
+  ],
+  [
+   "associes",
+   1557
+  ],
+  [
+   "developpement",
+   1066
+  ],
+  [
+   "compagnie",
+   749
+  ],
+  [
+   "frs",
+   675
+  ],
+  [
+   "com",
+   169
+  ],
+  [
+   "service",
+   6
+  ],
+  [
+   "fi1s",
+   4
+  ],
+  [
+   "epad",
+   4
+  ],
+  [
+   "departementalcie",
+   3
+  ],
+  [
+   "nationalecie",
+   3
+  ],
+  [
+   "frres",
+   3
+  ],
+  [
+   "fls",
+   3
+  ]
+ ],
+ "secs": 83.8
+}

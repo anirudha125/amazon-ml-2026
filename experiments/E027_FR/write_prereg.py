@@ -1,0 +1,53 @@
+import json, datetime
+SHIFT = [1, 2, 3, 4, 5, 7, 9, 11, 13, 21]
+MIRROR = [-k for k in SHIFT]
+NEIGH = [-2, -1, 6, 8, 10]
+ROLE = sorted({"club", "clubs", "comite", "centre", "amicale", "amis", "groupement", "groupe", "societe", "association", "cercle",
+               "union", "foyer", "federation", "collectif", "section", "maison", "institut", "ligue", "entente", "syndicat",
+               "cooperative", "conseil"})
+FILLER = sorted({"cie", "compagnie", "co", "fils", "freres", "frs", "associes", "associe", "developpement", "dev", "groupe", "group",
+                 "france"})
+LEGAL = sorted({"sarl", "sas", "sa", "eurl", "sci", "sasu", "snc", "ei", "eirl", "sarlu", "selarl", "scp", "scm", "scop", "gie", "sca",
+                "5arl", "5as"})
+P = dict(
+    created_utc=datetime.datetime.utcnow().isoformat(timespec="seconds"),
+    note=("Written after computing token document frequencies and the most frequent substituted/added/dropped tokens in the France "
+          "street-equal pool (vocab.log; no S006 match information used) and BEFORE any census by offset or any count of S006 rows "
+          "that would move."),
+    parsing=dict(text="lowercase, NFKD accent strip, remove '.', tokens = [a-z0-9]+; name stopwords removed: de du des la le les l d et and the of a au aux en; name = token multiset",
+                 house_number="first token matching \\d{1,5}[a-z]? scanning comma-components left to right",
+                 street="the comma-component holding that number, number removed, abbreviations expanded (r->rue, av->avenue, bd->boulevard, ...), stopwords + no/bis/ter removed; street-equal = exact string equality; entities with no number excluded",
+                 delta="cand_number - s1_number",
+                 pool="FULL France union pool experiments/P3/France/chunk_*.npz (33.18M pairs), street-equal pairs only"),
+    edit_types=dict(sub="exactly one token of S1 replaced by one token of cand (a->b)", add="cand = S1 + one token", drop="S1 = cand + one token"),
+    lists=dict(ROLE=ROLE, FILLER=FILLER, LEGAL=LEGAL),
+    classes={
+        "A_generic_role_sub": "sub with a in ROLE and b in ROLE, a != b, not both LEGAL",
+        "B_filler_legal_attach": "add or drop of one token in FILLER or LEGAL",
+        "C_rare_sub": "sub (not A, not D) with min(DF(a),DF(b)) < 200 (France S1+S2+S3 name-token document frequency)",
+        "D_legal_flip": "sub with a in LEGAL and b in LEGAL",
+        "X_content_sub": "any other sub (census only, no action)",
+    },
+    offsets=dict(shift=SHIFT, mirror=MIRROR, neighbour_background=NEIGH),
+    bars_verbatim=[
+        "DROP a class only when the same edit is >= 5x as common on the shift set {+1,+2,+3,+4,+5,+7,+9,+11,+13,+21} as on its mirror {-1,-2,-3,-4,-5,-7,-9,-11,-13,-21}, OR when delta-0 is indistinguishable from the neighbour background (per-offset count at delta 0 not above the per-offset count at small non-decoy neighbours delta -1,-2 and small positive offsets NOT in the shift set, e.g. +6,+8,+10). Apply a drop only where street matches, house number matches (delta 0), exactly one name token differs, and that token pair is on the generic-role list.",
+        "ADD a class only when delta-0 count >= 5x the per-offset background, the rest of the address matches, and this S1 is the unique best name match at that address among its candidates. The add list is the filler/legal suffix list, NOT the role-word list. Added pairs must be candidates currently NOT in S006's matched list for that S1.",
+        "LEAVE rare/distinctive substitutions alone. LEAVE legal-form change at the same house number alone. Drop a legal-form flip only when it rides along with a house-number shift whose +k/-k ratio clears the same 5x bar.",
+    ],
+    operationalisation=dict(
+        shift_mirror_ratio="sum_{k in shift} n(k) / sum_{k in shift} n(-k)  (>=5 clears)",
+        background="mean over neighbour offsets {-2,-1,+6,+8,+10} of n(k)",
+        drop_indistinguishable="n(0) <= background",
+        add_bar="n(0) >= 5 * background",
+        drop_scope="class A pairs in S006 matched list, street-equal, delta 0; per bucket = class A as a whole (plus per token pair reported)",
+        unique_best_add=("candidate c for S1 s is added only if: (s,c) is B-class add/drop at delta 0 street-equal; c in S006 candidate_pairs row of s; "
+                         "c not in S006 matched list of ANY France S1; no other candidate of s at the same street+number has an exact-name match or another B-class edit; "
+                         "no other France S1 has c in its pool at the same street+number with exact name or a B-class edit"),
+        legal_flip_drop="class D pairs in S006 matched list at delta k in shift set where n_D(+k)/n_D(-k) >= 5 (per k)",
+        safety="never apply a drop that would leave an S1's matched list empty",
+        one_slot_rule="submit only if a bucket clears its 5x bar AND expected LB gain >= +0.0005",
+        economics="removal pays when > ~31% of removed links are false; add pays when > ~70% of added links are true; linear model dF_France(pt) = 0.7 * (n/15000) * (f - 0.31)/(0.70 - 0.31) for removals; LB = 0.14975 * dF/100",
+    ),
+)
+json.dump(P, open("preregistration.json", "w"), indent=1)
+print("written", P["created_utc"])

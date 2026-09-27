@@ -1,0 +1,273 @@
+{
+ "train_label_only_audit_owned_records": {
+  "F2_ge": {
+   "records": 2382,
+   "s1": 725,
+   "P_owner_is_this_s1": 0.0894,
+   "by_country": {
+    "US": {
+     "records": 519,
+     "P_this": 0.0983
+    },
+    "India": {
+     "records": 1863,
+     "P_this": 0.087
+    }
+   },
+   "char_S1": {
+    "records": 197,
+    "P_this": 0.797
+   },
+   "char_sib": {
+    "records": 2173,
+    "P_this": 0.023
+   },
+   "char_eq": {
+    "records": 12,
+    "P_this": 0.5
+   }
+  },
+  "F2_gt": {
+   "records": 1978,
+   "s1": 692,
+   "P_owner_is_this_s1": 0.0071,
+   "by_country": {
+    "US": {
+     "records": 430,
+     "P_this": 0.0163
+    },
+    "India": {
+     "records": 1548,
+     "P_this": 0.0045
+    }
+   },
+   "char_S1": {
+    "records": 4,
+    "P_this": 0.5
+   },
+   "char_sib": {
+    "records": 1974,
+    "P_this": 0.0061
+   },
+   "char_eq": {
+    "records": 0,
+    "P_this": null
+   },
+   "per_s1_mean_P_this": 0.0047
+  },
+  "F2_tie_only": {
+   "records": 404,
+   "s1": 283,
+   "P_owner_is_this_s1": 0.4926,
+   "by_country": {
+    "US": {
+     "records": 89,
+     "P_this": 0.4944
+    },
+    "India": {
+     "records": 315,
+     "P_this": 0.4921
+    }
+   },
+   "char_S1": {
+    "records": 193,
+    "P_this": 0.8031
+   },
+   "char_sib": {
+    "records": 199,
+    "P_this": 0.191
+   },
+   "char_eq": {
+    "records": 12,
+    "P_this": 0.5
+   },
+   "per_s1_mean_P_this": 0.4912,
+   "n_s1": 283
+  },
+  "not_flagged": {
+   "records": 3012,
+   "s1": 752,
+   "P_owner_is_this_s1": 0.8078,
+   "by_country": {
+    "US": {
+     "records": 475,
+     "P_this": 0.9263
+    },
+    "India": {
+     "records": 2537,
+     "P_this": 0.7856
+    }
+   },
+   "char_S1": {
+    "records": 2060,
+    "P_this": 0.9699
+   },
+   "char_sib": {
+    "records": 181,
+    "P_this": 0.2983
+   },
+   "char_eq": {
+    "records": 771,
+    "P_this": 0.4942
+   }
+  },
+  "all": {
+   "records": 5394,
+   "s1": 788,
+   "P_owner_is_this_s1": 0.4905,
+   "by_country": {
+    "US": {
+     "records": 994,
+     "P_this": 0.494
+    },
+    "India": {
+     "records": 4400,
+     "P_this": 0.4898
+    }
+   },
+   "char_S1": {
+    "records": 2257,
+    "P_this": 0.9548
+   },
+   "char_sib": {
+    "records": 2354,
+    "P_this": 0.0442
+   },
+   "char_eq": {
+    "records": 783,
+    "P_this": 0.4943
+   }
+  },
+  "F2_ge_collapsed": {
+   "records": 2382,
+   "s1": 725,
+   "P_owner_is_this_s1": 0.0894,
+   "by_country": {
+    "US": {
+     "records": 519,
+     "P_this": 0.0983
+    },
+    "India": {
+     "records": 1863,
+     "P_this": 0.087
+    }
+   },
+   "char_S1": {
+    "records": 197,
+    "P_this": 0.797
+   },
+   "char_sib": {
+    "records": 2173,
+    "P_this": 0.023
+   },
+   "char_eq": {
+    "records": 12,
+    "P_this": 0.5
+   }
+  }
+ },
+ "test_char_side": {
+  "S005_France": {
+   "accepted_F2_ge": {
+    "n": 791,
+    "char_closer_to_this_S1": 251,
+    "char_closer_to_sibling": 520,
+    "char_equal": 20,
+    "still_F2_ge_after_collapsing_initials": 770,
+    "still_F2_ge_after_collapse_and_not_char_closer_to_S1": 535
+   },
+   "kept_F2_ge": {
+    "n": 225,
+    "char_closer_to_this_S1": 164,
+    "char_closer_to_sibling": 52,
+    "char_equal": 9,
+    "still_F2_ge_after_collapsing_initials": 208,
+    "still_F2_ge_after_collapse_and_not_char_closer_to_S1": 59
+   },
+   "kept_tie_only": {
+    "n": 214,
+    "char_closer_to_this_S1": 163,
+    "char_closer_to_sibling": 42,
+    "char_equal": 9,
+    "still_F2_ge_after_collapsing_initials": 197,
+    "still_F2_ge_after_collapse_and_not_char_closer_to_S1": 49
+   },
+   "kept_gt": {
+    "n": 11,
+    "char_closer_to_this_S1": 1,
+    "char_closer_to_sibling": 10,
+    "char_equal": 0,
+    "still_F2_ge_after_collapsing_initials": 11,
+    "still_F2_ge_after_collapse_and_not_char_closer_to_S1": 10
+   }
+  },
+  "S005_US": {
+   "accepted_F2_ge": {
+    "n": 30,
+    "char_closer_to_this_S1": 10,
+    "char_closer_to_sibling": 13,
+    "char_equal": 7,
+    "still_F2_ge_after_collapsing_initials": 29,
+    "still_F2_ge_after_collapse_and_not_char_closer_to_S1": 20
+   },
+   "kept_F2_ge": {
+    "n": 13,
+    "char_closer_to_this_S1": 9,
+    "char_closer_to_sibling": 0,
+    "char_equal": 4,
+    "still_F2_ge_after_collapsing_initials": 12,
+    "still_F2_ge_after_collapse_and_not_char_closer_to_S1": 4
+   },
+   "kept_tie_only": {
+    "n": 11,
+    "char_closer_to_this_S1": 8,
+    "char_closer_to_sibling": 0,
+    "char_equal": 3,
+    "still_F2_ge_after_collapsing_initials": 10,
+    "still_F2_ge_after_collapse_and_not_char_closer_to_S1": 3
+   },
+   "kept_gt": {
+    "n": 2,
+    "char_closer_to_this_S1": 1,
+    "char_closer_to_sibling": 0,
+    "char_equal": 1,
+    "still_F2_ge_after_collapsing_initials": 2,
+    "still_F2_ge_after_collapse_and_not_char_closer_to_S1": 1
+   }
+  },
+  "S005_India": {
+   "accepted_F2_ge": {
+    "n": 168,
+    "char_closer_to_this_S1": 93,
+    "char_closer_to_sibling": 69,
+    "char_equal": 6,
+    "still_F2_ge_after_collapsing_initials": 168,
+    "still_F2_ge_after_collapse_and_not_char_closer_to_S1": 75
+   },
+   "kept_F2_ge": {
+    "n": 98,
+    "char_closer_to_this_S1": 82,
+    "char_closer_to_sibling": 14,
+    "char_equal": 2,
+    "still_F2_ge_after_collapsing_initials": 98,
+    "still_F2_ge_after_collapse_and_not_char_closer_to_S1": 16
+   },
+   "kept_tie_only": {
+    "n": 98,
+    "char_closer_to_this_S1": 82,
+    "char_closer_to_sibling": 14,
+    "char_equal": 2,
+    "still_F2_ge_after_collapsing_initials": 98,
+    "still_F2_ge_after_collapse_and_not_char_closer_to_S1": 16
+   },
+   "kept_gt": {
+    "n": 0,
+    "char_closer_to_this_S1": 0,
+    "char_closer_to_sibling": 0,
+    "char_equal": 0,
+    "still_F2_ge_after_collapsing_initials": 0,
+    "still_F2_ge_after_collapse_and_not_char_closer_to_S1": 0
+   }
+  }
+ }
+}

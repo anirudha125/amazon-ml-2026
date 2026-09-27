@@ -1,0 +1,14 @@
+{
+ "train_gt_links": 7638365,
+ "train_gt_pairs_by_country_street": {
+  "US_False": 331609,
+  "US_True": 627463,
+  "India_False": 442697,
+  "India_True": 198231
+ },
+ "V1_pairs": 2550505,
+ "V1_pos": 69232,
+ "V1_n_gt": 69378,
+ "V1_selected_pairs": 82727,
+ "V1_rows_written": 82727
+}

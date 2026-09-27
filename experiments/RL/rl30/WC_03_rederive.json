@@ -1,0 +1,538 @@
+{
+ "n_s1": {
+  "India": 809986,
+  "US": 663106,
+  "France": 259452
+ },
+ "France": {
+  "n_accepted": 879329,
+  "n_kept": 854396,
+  "n_s1_country": 259452,
+  "KEY2_C": {
+   "n": 8777,
+   "share_acc": 0.00998,
+   "kept": 1463,
+   "share_kept": 0.00171,
+   "s1_kept": 1411,
+   "mean_p_kept": 0.9479,
+   "multi_claim": 0.8913
+  },
+  "KEY2_C&hn=eq": {
+   "n": 4439,
+   "share_acc": 0.00505,
+   "kept": 959,
+   "share_kept": 0.00112,
+   "s1_kept": 932,
+   "mean_p_kept": 0.9662,
+   "multi_claim": 0.8687
+  },
+  "KEY2_C&hn=neq": {
+   "n": 2196,
+   "share_acc": 0.0025,
+   "kept": 440,
+   "share_kept": 0.00051,
+   "s1_kept": 436,
+   "mean_p_kept": 0.9079,
+   "multi_claim": 0.8488
+  },
+  "KEY2_C&hn=miss": {
+   "n": 2142,
+   "share_acc": 0.00244,
+   "kept": 64,
+   "share_kept": 7e-05,
+   "s1_kept": 60,
+   "mean_p_kept": 0.9491,
+   "multi_claim": 0.9818
+  },
+  "KEY2_B": {
+   "n": 8242,
+   "share_acc": 0.00937,
+   "kept": 2968,
+   "share_kept": 0.00347,
+   "s1_kept": 2287,
+   "mean_p_kept": 0.9715,
+   "multi_claim": 0.7002
+  },
+  "KEY2_B&hnB=eq": {
+   "n": 4468,
+   "share_acc": 0.00508,
+   "kept": 985,
+   "share_kept": 0.00115,
+   "s1_kept": 947,
+   "mean_p_kept": 0.9676,
+   "multi_claim": 0.8628
+  },
+  "KEY2_C&KEY2_B": {
+   "n": 6650,
+   "share_acc": 0.00756,
+   "kept": 1398,
+   "share_kept": 0.00164,
+   "s1_kept": 1355,
+   "mean_p_kept": 0.948,
+   "multi_claim": 0.8626
+  },
+  "KEY2_C&~KEY2_B": {
+   "n": 2127,
+   "share_acc": 0.00242,
+   "kept": 65,
+   "share_kept": 8e-05,
+   "s1_kept": 61,
+   "mean_p_kept": 0.9476,
+   "multi_claim": 0.9812
+  },
+  "KEY2_C&rsB_match(>=0.8)": {
+   "n": 6,
+   "share_acc": 1e-05,
+   "kept": 6,
+   "share_kept": 1e-05,
+   "s1_kept": 5,
+   "mean_p_kept": 0.9994,
+   "multi_claim": 0.0
+  },
+  "KEY2_C&rsB_undef": {
+   "n": 2121,
+   "share_acc": 0.00241,
+   "kept": 59,
+   "share_kept": 7e-05,
+   "s1_kept": 56,
+   "mean_p_kept": 0.9423,
+   "multi_claim": 0.984
+  },
+  "street_diff_C(any full)": {
+   "n": 17415,
+   "share_acc": 0.0198,
+   "kept": 3701,
+   "share_kept": 0.00433,
+   "s1_kept": 3441,
+   "mean_p_kept": 0.9468,
+   "multi_claim": 0.8408
+  },
+  "by_genericity": {
+   "dupf_core[0,0]": {
+    "acc": 443007,
+    "kept": 440998,
+    "KEY2_share_acc": 0.00133,
+    "KEY2_share_kept": 0.00014,
+    "KEY2_hn_eq_share_kept": 8e-05,
+    "KEY2_kept_n": 62
+   },
+   "dupf_core[1,2]": {
+    "acc": 141046,
+    "kept": 139816,
+    "KEY2_share_acc": 0.00258,
+    "KEY2_share_kept": 0.0004,
+    "KEY2_hn_eq_share_kept": 0.00021,
+    "KEY2_kept_n": 56
+   },
+   "dupf_core[3,9]": {
+    "acc": 113528,
+    "kept": 111436,
+    "KEY2_share_acc": 0.00589,
+    "KEY2_share_kept": 0.00082,
+    "KEY2_hn_eq_share_kept": 0.0005,
+    "KEY2_kept_n": 91
+   },
+   "dupf_core[10,inf]": {
+    "acc": 181748,
+    "kept": 162146,
+    "KEY2_share_acc": 0.03938,
+    "KEY2_share_kept": 0.00773,
+    "KEY2_hn_eq_share_kept": 0.00517,
+    "KEY2_kept_n": 1254
+   }
+  },
+  "stakes_KEY2_C": {
+   "pairs": 1463,
+   "s1": 1411,
+   "s1_t0": 102,
+   "s1_share_country": 0.00544,
+   "ESTIMATED_country_gain_if_all_FP": 0.00161,
+   "ESTIMATED_country_gain_if_all_FP_t0_not_singleton": 0.00122,
+   "ESTIMATED_country_loss_if_all_TP": 0.00078,
+   "ESTIMATED_LB_gain_if_all_FP": 0.000241,
+   "ESTIMATED_LB_loss_if_all_TP": 0.000117,
+   "ESTIMATED_breakeven_FP_fraction": 0.327,
+   "ESTIMATED_breakeven_FP_fraction_t0_not_singleton": 0.392
+  },
+  "stakes_KEY2_C&KEY2_B": {
+   "pairs": 1398,
+   "s1": 1355,
+   "s1_t0": 100,
+   "s1_share_country": 0.00522,
+   "ESTIMATED_country_gain_if_all_FP": 0.00155,
+   "ESTIMATED_country_gain_if_all_FP_t0_not_singleton": 0.00116,
+   "ESTIMATED_country_loss_if_all_TP": 0.00076,
+   "ESTIMATED_LB_gain_if_all_FP": 0.000232,
+   "ESTIMATED_LB_loss_if_all_TP": 0.000114,
+   "ESTIMATED_breakeven_FP_fraction": 0.329,
+   "ESTIMATED_breakeven_FP_fraction_t0_not_singleton": 0.395
+  },
+  "stakes_street_diff_C": {
+   "pairs": 3701,
+   "s1": 3441,
+   "s1_t0": 255,
+   "s1_share_country": 0.01326,
+   "ESTIMATED_country_gain_if_all_FP": 0.00405,
+   "ESTIMATED_country_gain_if_all_FP_t0_not_singleton": 0.00307,
+   "ESTIMATED_country_loss_if_all_TP": 0.00198,
+   "ESTIMATED_LB_gain_if_all_FP": 0.000607,
+   "ESTIMATED_LB_loss_if_all_TP": 0.000297,
+   "ESTIMATED_breakeven_FP_fraction": 0.328,
+   "ESTIMATED_breakeven_FP_fraction_t0_not_singleton": 0.392
+  }
+ },
+ "US": {
+  "n_accepted": 2236533,
+  "n_kept": 2236158,
+  "n_s1_country": 663106,
+  "KEY2_C": {
+   "n": 555,
+   "share_acc": 0.00025,
+   "kept": 550,
+   "share_kept": 0.00025,
+   "s1_kept": 425,
+   "mean_p_kept": 0.9968,
+   "multi_claim": 0.009
+  },
+  "KEY2_C&hn=eq": {
+   "n": 457,
+   "share_acc": 0.0002,
+   "kept": 457,
+   "share_kept": 0.0002,
+   "s1_kept": 372,
+   "mean_p_kept": 0.998,
+   "multi_claim": 0.0
+  },
+  "KEY2_C&hn=neq": {
+   "n": 41,
+   "share_acc": 2e-05,
+   "kept": 40,
+   "share_kept": 2e-05,
+   "s1_kept": 35,
+   "mean_p_kept": 0.9822,
+   "multi_claim": 0.0244
+  },
+  "KEY2_C&hn=miss": {
+   "n": 57,
+   "share_acc": 3e-05,
+   "kept": 53,
+   "share_kept": 2e-05,
+   "s1_kept": 51,
+   "mean_p_kept": 0.9975,
+   "multi_claim": 0.0702
+  },
+  "KEY2_B": {
+   "n": 15796,
+   "share_acc": 0.00706,
+   "kept": 15793,
+   "share_kept": 0.00706,
+   "s1_kept": 11177,
+   "mean_p_kept": 0.9977,
+   "multi_claim": 0.0004
+  },
+  "KEY2_B&hnB=eq": {
+   "n": 11037,
+   "share_acc": 0.00493,
+   "kept": 11037,
+   "share_kept": 0.00494,
+   "s1_kept": 8082,
+   "mean_p_kept": 0.9986,
+   "multi_claim": 0.0002
+  },
+  "KEY2_C&KEY2_B": {
+   "n": 275,
+   "share_acc": 0.00012,
+   "kept": 274,
+   "share_kept": 0.00012,
+   "s1_kept": 206,
+   "mean_p_kept": 0.996,
+   "multi_claim": 0.0036
+  },
+  "KEY2_C&~KEY2_B": {
+   "n": 280,
+   "share_acc": 0.00013,
+   "kept": 276,
+   "share_kept": 0.00012,
+   "s1_kept": 224,
+   "mean_p_kept": 0.9976,
+   "multi_claim": 0.0143
+  },
+  "KEY2_C&rsB_match(>=0.8)": {
+   "n": 3,
+   "share_acc": 0.0,
+   "kept": 3,
+   "share_kept": 0.0,
+   "s1_kept": 3,
+   "mean_p_kept": 0.9993,
+   "multi_claim": 0.0
+  },
+  "KEY2_C&rsB_undef": {
+   "n": 261,
+   "share_acc": 0.00012,
+   "kept": 257,
+   "share_kept": 0.00011,
+   "s1_kept": 205,
+   "mean_p_kept": 0.9975,
+   "multi_claim": 0.0153
+  },
+  "street_diff_C(any full)": {
+   "n": 2146,
+   "share_acc": 0.00096,
+   "kept": 2126,
+   "share_kept": 0.00095,
+   "s1_kept": 1721,
+   "mean_p_kept": 0.9976,
+   "multi_claim": 0.0093
+  },
+  "by_genericity": {
+   "dupf_core[0,0]": {
+    "acc": 1388781,
+    "kept": 1388661,
+    "KEY2_share_acc": 0.00025,
+    "KEY2_share_kept": 0.00024,
+    "KEY2_hn_eq_share_kept": 0.0002,
+    "KEY2_kept_n": 340
+   },
+   "dupf_core[1,2]": {
+    "acc": 360532,
+    "kept": 360427,
+    "KEY2_share_acc": 0.00022,
+    "KEY2_share_kept": 0.00022,
+    "KEY2_hn_eq_share_kept": 0.00019,
+    "KEY2_kept_n": 79
+   },
+   "dupf_core[3,9]": {
+    "acc": 139203,
+    "kept": 139176,
+    "KEY2_share_acc": 0.00027,
+    "KEY2_share_kept": 0.00027,
+    "KEY2_hn_eq_share_kept": 0.00022,
+    "KEY2_kept_n": 37
+   },
+   "dupf_core[10,inf]": {
+    "acc": 348017,
+    "kept": 347894,
+    "KEY2_share_acc": 0.00028,
+    "KEY2_share_kept": 0.00027,
+    "KEY2_hn_eq_share_kept": 0.00022,
+    "KEY2_kept_n": 94
+   }
+  },
+  "stakes_KEY2_C": {
+   "pairs": 550,
+   "s1": 425,
+   "s1_t0": 28,
+   "s1_share_country": 0.00064,
+   "ESTIMATED_country_gain_if_all_FP": 0.00022,
+   "ESTIMATED_country_gain_if_all_FP_t0_not_singleton": 0.00017,
+   "ESTIMATED_country_loss_if_all_TP": 0.0001,
+   "ESTIMATED_LB_gain_if_all_FP": 8.2e-05,
+   "ESTIMATED_LB_loss_if_all_TP": 3.9e-05,
+   "ESTIMATED_breakeven_FP_fraction": 0.323,
+   "ESTIMATED_breakeven_FP_fraction_t0_not_singleton": 0.372
+  },
+  "stakes_KEY2_C&KEY2_B": {
+   "pairs": 274,
+   "s1": 206,
+   "s1_t0": 16,
+   "s1_share_country": 0.00031,
+   "ESTIMATED_country_gain_if_all_FP": 0.00011,
+   "ESTIMATED_country_gain_if_all_FP_t0_not_singleton": 8e-05,
+   "ESTIMATED_country_loss_if_all_TP": 5e-05,
+   "ESTIMATED_LB_gain_if_all_FP": 4.1e-05,
+   "ESTIMATED_LB_loss_if_all_TP": 2e-05,
+   "ESTIMATED_breakeven_FP_fraction": 0.332,
+   "ESTIMATED_breakeven_FP_fraction_t0_not_singleton": 0.391
+  },
+  "stakes_street_diff_C": {
+   "pairs": 2126,
+   "s1": 1721,
+   "s1_t0": 92,
+   "s1_share_country": 0.0026,
+   "ESTIMATED_country_gain_if_all_FP": 0.00082,
+   "ESTIMATED_country_gain_if_all_FP_t0_not_singleton": 0.00068,
+   "ESTIMATED_country_loss_if_all_TP": 0.00038,
+   "ESTIMATED_LB_gain_if_all_FP": 0.000314,
+   "ESTIMATED_LB_loss_if_all_TP": 0.000144,
+   "ESTIMATED_breakeven_FP_fraction": 0.315,
+   "ESTIMATED_breakeven_FP_fraction_t0_not_singleton": 0.356
+  }
+ },
+ "India": {
+  "n_accepted": 2730863,
+  "n_kept": 2728351,
+  "n_s1_country": 809986,
+  "KEY2_C": {
+   "n": 10161,
+   "share_acc": 0.00372,
+   "kept": 10113,
+   "share_kept": 0.00371,
+   "s1_kept": 7795,
+   "mean_p_kept": 0.9914,
+   "multi_claim": 0.0066
+  },
+  "KEY2_C&hn=eq": {
+   "n": 1032,
+   "share_acc": 0.00038,
+   "kept": 1020,
+   "share_kept": 0.00037,
+   "s1_kept": 703,
+   "mean_p_kept": 0.9951,
+   "multi_claim": 0.0126
+  },
+  "KEY2_C&hn=neq": {
+   "n": 4627,
+   "share_acc": 0.00169,
+   "kept": 4619,
+   "share_kept": 0.00169,
+   "s1_kept": 3594,
+   "mean_p_kept": 0.9904,
+   "multi_claim": 0.003
+  },
+  "KEY2_C&hn=miss": {
+   "n": 4502,
+   "share_acc": 0.00165,
+   "kept": 4474,
+   "share_kept": 0.00164,
+   "s1_kept": 3501,
+   "mean_p_kept": 0.9915,
+   "multi_claim": 0.0089
+  },
+  "KEY2_B": {
+   "n": 66492,
+   "share_acc": 0.02435,
+   "kept": 66445,
+   "share_kept": 0.02435,
+   "s1_kept": 39238,
+   "mean_p_kept": 0.9962,
+   "multi_claim": 0.0011
+  },
+  "KEY2_B&hnB=eq": {
+   "n": 10701,
+   "share_acc": 0.00392,
+   "kept": 10687,
+   "share_kept": 0.00392,
+   "s1_kept": 9259,
+   "mean_p_kept": 0.9986,
+   "multi_claim": 0.0014
+  },
+  "KEY2_C&KEY2_B": {
+   "n": 2615,
+   "share_acc": 0.00096,
+   "kept": 2596,
+   "share_kept": 0.00095,
+   "s1_kept": 2051,
+   "mean_p_kept": 0.9874,
+   "multi_claim": 0.008
+  },
+  "KEY2_C&~KEY2_B": {
+   "n": 7546,
+   "share_acc": 0.00276,
+   "kept": 7517,
+   "share_kept": 0.00276,
+   "s1_kept": 5755,
+   "mean_p_kept": 0.9928,
+   "multi_claim": 0.0061
+  },
+  "KEY2_C&rsB_match(>=0.8)": {
+   "n": 1938,
+   "share_acc": 0.00071,
+   "kept": 1935,
+   "share_kept": 0.00071,
+   "s1_kept": 1472,
+   "mean_p_kept": 0.9955,
+   "multi_claim": 0.0031
+  },
+  "KEY2_C&rsB_undef": {
+   "n": 5528,
+   "share_acc": 0.00202,
+   "kept": 5502,
+   "share_kept": 0.00202,
+   "s1_kept": 4231,
+   "mean_p_kept": 0.9918,
+   "multi_claim": 0.0072
+  },
+  "street_diff_C(any full)": {
+   "n": 16714,
+   "share_acc": 0.00612,
+   "kept": 16630,
+   "share_kept": 0.0061,
+   "s1_kept": 13057,
+   "mean_p_kept": 0.9906,
+   "multi_claim": 0.0071
+  },
+  "by_genericity": {
+   "dupf_core[0,0]": {
+    "acc": 1283888,
+    "kept": 1283408,
+    "KEY2_share_acc": 0.00323,
+    "KEY2_share_kept": 0.00323,
+    "KEY2_hn_eq_share_kept": 0.00035,
+    "KEY2_kept_n": 4142
+   },
+   "dupf_core[1,2]": {
+    "acc": 365983,
+    "kept": 365557,
+    "KEY2_share_acc": 0.00328,
+    "KEY2_share_kept": 0.00328,
+    "KEY2_hn_eq_share_kept": 0.00034,
+    "KEY2_kept_n": 1199
+   },
+   "dupf_core[3,9]": {
+    "acc": 193237,
+    "kept": 193031,
+    "KEY2_share_acc": 0.00344,
+    "KEY2_share_kept": 0.00342,
+    "KEY2_hn_eq_share_kept": 0.0003,
+    "KEY2_kept_n": 660
+   },
+   "dupf_core[10,inf]": {
+    "acc": 887755,
+    "kept": 886355,
+    "KEY2_share_acc": 0.00467,
+    "KEY2_share_kept": 0.00464,
+    "KEY2_hn_eq_share_kept": 0.00043,
+    "KEY2_kept_n": 4112
+   }
+  },
+  "stakes_KEY2_C": {
+   "pairs": 10113,
+   "s1": 7795,
+   "s1_t0": 310,
+   "s1_share_country": 0.00962,
+   "ESTIMATED_country_gain_if_all_FP": 0.00315,
+   "ESTIMATED_country_gain_if_all_FP_t0_not_singleton": 0.00276,
+   "ESTIMATED_country_loss_if_all_TP": 0.00136,
+   "ESTIMATED_LB_gain_if_all_FP": 0.001471,
+   "ESTIMATED_LB_loss_if_all_TP": 0.000637,
+   "ESTIMATED_breakeven_FP_fraction": 0.302,
+   "ESTIMATED_breakeven_FP_fraction_t0_not_singleton": 0.33
+  },
+  "stakes_KEY2_C&KEY2_B": {
+   "pairs": 2596,
+   "s1": 2051,
+   "s1_t0": 68,
+   "s1_share_country": 0.00253,
+   "ESTIMATED_country_gain_if_all_FP": 0.0008,
+   "ESTIMATED_country_gain_if_all_FP_t0_not_singleton": 0.00071,
+   "ESTIMATED_country_loss_if_all_TP": 0.00033,
+   "ESTIMATED_LB_gain_if_all_FP": 0.000372,
+   "ESTIMATED_LB_loss_if_all_TP": 0.000155,
+   "ESTIMATED_breakeven_FP_fraction": 0.295,
+   "ESTIMATED_breakeven_FP_fraction_t0_not_singleton": 0.318
+  },
+  "stakes_street_diff_C": {
+   "pairs": 16630,
+   "s1": 13057,
+   "s1_t0": 530,
+   "s1_share_country": 0.01612,
+   "ESTIMATED_country_gain_if_all_FP": 0.00519,
+   "ESTIMATED_country_gain_if_all_FP_t0_not_singleton": 0.00453,
+   "ESTIMATED_country_loss_if_all_TP": 0.00225,
+   "ESTIMATED_LB_gain_if_all_FP": 0.002426,
+   "ESTIMATED_LB_loss_if_all_TP": 0.001053,
+   "ESTIMATED_breakeven_FP_fraction": 0.303,
+   "ESTIMATED_breakeven_FP_fraction_t0_not_singleton": 0.332
+  }
+ }
+}

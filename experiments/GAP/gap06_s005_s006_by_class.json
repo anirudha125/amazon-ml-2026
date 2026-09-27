@@ -1,0 +1,501 @@
+{
+ "by_class": [
+  {
+   "cls": "D:num_diff|same_core",
+   "pairs": 207.38,
+   "mass5": 102.58,
+   "mass6": 65.33,
+   "acc5": 70.42,
+   "acc6": 51.6,
+   "dmass": -37.26,
+   "dacc": -18.82
+  },
+  {
+   "cls": "D:street_diff|same_core",
+   "pairs": 377.61,
+   "mass5": 327.56,
+   "mass6": 310.94,
+   "acc5": 312.03,
+   "acc6": 301.89,
+   "dmass": -16.62,
+   "dacc": -10.14
+  },
+  {
+   "cls": "A=num&street|swap1",
+   "pairs": 351.65,
+   "mass5": 282.18,
+   "mass6": 269.14,
+   "acc5": 258.44,
+   "acc6": 251.37,
+   "dmass": -13.04,
+   "dacc": -7.07
+  },
+  {
+   "cls": "A~nonum|same_core",
+   "pairs": 147.61,
+   "mass5": 135.5,
+   "mass6": 130.13,
+   "acc5": 131.64,
+   "acc6": 127.16,
+   "dmass": -5.37,
+   "dacc": -4.48
+  },
+  {
+   "cls": "D:street_diff|swap1",
+   "pairs": 76.56,
+   "mass5": 50.32,
+   "mass6": 45.05,
+   "acc5": 42.29,
+   "acc6": 39.96,
+   "dmass": -5.27,
+   "dacc": -2.32
+  },
+  {
+   "cls": "D:num_diff|swap1",
+   "pairs": 67.48,
+   "mass5": 21.62,
+   "mass6": 16.48,
+   "acc5": 10.17,
+   "acc6": 9.07,
+   "dmass": -5.14,
+   "dacc": -1.1
+  },
+  {
+   "cls": "A=num&street|same_core",
+   "pairs": 1792.22,
+   "mass5": 1783.4,
+   "mass6": 1778.42,
+   "acc5": 1781.64,
+   "acc6": 1777.71,
+   "dmass": -4.99,
+   "dacc": -3.93
+  },
+  {
+   "cls": "E|same_core",
+   "pairs": 311.46,
+   "mass5": 129.05,
+   "mass6": 125.81,
+   "acc5": 76.24,
+   "acc6": 77.71,
+   "dmass": -3.23,
+   "dacc": 1.48
+  },
+  {
+   "cls": "A=num&street|rec_adds",
+   "pairs": 38.52,
+   "mass5": 35.13,
+   "mass6": 32.21,
+   "acc5": 34.37,
+   "acc6": 30.7,
+   "dmass": -2.91,
+   "dacc": -3.67
+  },
+  {
+   "cls": "A=num&street|other",
+   "pairs": 44.06,
+   "mass5": 29.04,
+   "mass6": 26.24,
+   "acc5": 23.58,
+   "acc6": 22.72,
+   "dmass": -2.8,
+   "dacc": -0.86
+  },
+  {
+   "cls": "A~nonum|swap1",
+   "pairs": 34.92,
+   "mass5": 21.7,
+   "mass6": 19.44,
+   "acc5": 17.68,
+   "acc6": 16.7,
+   "dmass": -2.26,
+   "dacc": -0.98
+  },
+  {
+   "cls": "D:num_diff|rec_adds2+",
+   "pairs": 11.8,
+   "mass5": 5.74,
+   "mass6": 3.82,
+   "acc5": 3.64,
+   "acc6": 2.83,
+   "dmass": -1.92,
+   "dacc": -0.81
+  },
+  {
+   "cls": "D:num_diff|rec_adds",
+   "pairs": 15.31,
+   "mass5": 2.54,
+   "mass6": 1.25,
+   "acc5": 0.67,
+   "acc6": 0.44,
+   "dmass": -1.29,
+   "dacc": -0.23
+  },
+  {
+   "cls": "D:street_diff|other",
+   "pairs": 10.87,
+   "mass5": 5.41,
+   "mass6": 4.35,
+   "acc5": 3.8,
+   "acc6": 3.44,
+   "dmass": -1.06,
+   "dacc": -0.36
+  },
+  {
+   "cls": "D:street_diff|rec_adds",
+   "pairs": 10.53,
+   "mass5": 6.56,
+   "mass6": 5.5,
+   "acc5": 5.76,
+   "acc6": 4.86,
+   "dmass": -1.06,
+   "dacc": -0.9
+  },
+  {
+   "cls": "D:street_diff|rec_adds2+",
+   "pairs": 25.76,
+   "mass5": 22.87,
+   "mass6": 22.01,
+   "acc5": 21.81,
+   "acc6": 21.46,
+   "dmass": -0.85,
+   "dacc": -0.35
+  },
+  {
+   "cls": "D:street_diff|rec_drops",
+   "pairs": 13.83,
+   "mass5": 9.37,
+   "mass6": 8.54,
+   "acc5": 8.21,
+   "acc6": 7.94,
+   "dmass": -0.82,
+   "dacc": -0.27
+  },
+  {
+   "cls": "E|rec_adds",
+   "pairs": 31.85,
+   "mass5": 5.46,
+   "mass6": 4.67,
+   "acc5": 1.02,
+   "acc6": 1.08,
+   "dmass": -0.79,
+   "dacc": 0.06
+  },
+  {
+   "cls": "D:num_diff|rec_drops",
+   "pairs": 12.99,
+   "mass5": 4.63,
+   "mass6": 3.89,
+   "acc5": 2.3,
+   "acc6": 2.63,
+   "dmass": -0.74,
+   "dacc": 0.33
+  },
+  {
+   "cls": "E|rec_adds2+",
+   "pairs": 17.74,
+   "mass5": 8.02,
+   "mass6": 7.39,
+   "acc5": 4.85,
+   "acc6": 5.2,
+   "dmass": -0.63,
+   "dacc": 0.35
+  },
+  {
+   "cls": "D:num_diff|other",
+   "pairs": 8.15,
+   "mass5": 1.75,
+   "mass6": 1.16,
+   "acc5": 0.38,
+   "acc6": 0.43,
+   "dmass": -0.59,
+   "dacc": 0.05
+  },
+  {
+   "cls": "D:street_diff|disjoint",
+   "pairs": 43.46,
+   "mass5": 32.35,
+   "mass6": 31.77,
+   "acc5": 29.54,
+   "acc6": 29.77,
+   "dmass": -0.57,
+   "dacc": 0.22
+  },
+  {
+   "cls": "A=num&street|acronym",
+   "pairs": 52.08,
+   "mass5": 37.8,
+   "mass6": 37.32,
+   "acc5": 30.94,
+   "acc6": 33.09,
+   "dmass": -0.48,
+   "dacc": 2.15
+  },
+  {
+   "cls": "A~nonum|rec_adds",
+   "pairs": 3.63,
+   "mass5": 2.64,
+   "mass6": 2.24,
+   "acc5": 2.32,
+   "acc6": 2.02,
+   "dmass": -0.4,
+   "dacc": -0.3
+  },
+  {
+   "cls": "A=num&street|rec_drops2+",
+   "pairs": 9.55,
+   "mass5": 8.04,
+   "mass6": 7.67,
+   "acc5": 7.44,
+   "acc6": 7.31,
+   "dmass": -0.37,
+   "dacc": -0.13
+  },
+  {
+   "cls": "A=num&street|rec_adds2+",
+   "pairs": 189.84,
+   "mass5": 187.77,
+   "mass6": 187.4,
+   "acc5": 186.87,
+   "acc6": 186.91,
+   "dmass": -0.37,
+   "dacc": 0.04
+  },
+  {
+   "cls": "A=num&street|rec_drops",
+   "pairs": 63.09,
+   "mass5": 60.98,
+   "mass6": 60.64,
+   "acc5": 60.26,
+   "acc6": 60.2,
+   "dmass": -0.34,
+   "dacc": -0.06
+  },
+  {
+   "cls": "A~nonum|other",
+   "pairs": 7.51,
+   "mass5": 2.78,
+   "mass6": 2.54,
+   "acc5": 1.5,
+   "acc6": 1.65,
+   "dmass": -0.24,
+   "dacc": 0.14
+  },
+  {
+   "cls": "A~nonum|rec_adds2+",
+   "pairs": 10.69,
+   "mass5": 9.81,
+   "mass6": 9.57,
+   "acc5": 9.49,
+   "acc6": 9.37,
+   "dmass": -0.24,
+   "dacc": -0.12
+  },
+  {
+   "cls": "D:num_diff|rec_drops2+",
+   "pairs": 4.24,
+   "mass5": 1.24,
+   "mass6": 1.05,
+   "acc5": 0.38,
+   "acc6": 0.52,
+   "dmass": -0.2,
+   "dacc": 0.14
+  },
+  {
+   "cls": "D:street_diff|rec_drops2+",
+   "pairs": 0.83,
+   "mass5": 0.35,
+   "mass6": 0.22,
+   "acc5": 0.21,
+   "acc6": 0.16,
+   "dmass": -0.13,
+   "dacc": -0.05
+  },
+  {
+   "cls": "E|other",
+   "pairs": 4.66,
+   "mass5": 0.92,
+   "mass6": 0.8,
+   "acc5": 0.32,
+   "acc6": 0.34,
+   "dmass": -0.12,
+   "dacc": 0.02
+  },
+  {
+   "cls": "D:street_diff|acronym",
+   "pairs": 3.99,
+   "mass5": 2.15,
+   "mass6": 2.03,
+   "acc5": 1.4,
+   "acc6": 1.54,
+   "dmass": -0.12,
+   "dacc": 0.14
+  },
+  {
+   "cls": "A~nonum|disjoint",
+   "pairs": 47.25,
+   "mass5": 19.15,
+   "mass6": 19.13,
+   "acc5": 13.14,
+   "acc6": 13.17,
+   "dmass": -0.02,
+   "dacc": 0.03
+  },
+  {
+   "cls": "A~nonum|rec_drops2+",
+   "pairs": 0.6,
+   "mass5": 0.2,
+   "mass6": 0.18,
+   "acc5": 0.1,
+   "acc6": 0.11,
+   "dmass": -0.02,
+   "dacc": 0.0
+  },
+  {
+   "cls": "E|disjoint",
+   "pairs": 0.29,
+   "mass5": 0.06,
+   "mass6": 0.04,
+   "acc5": 0.0,
+   "acc6": 0.0,
+   "dmass": -0.01,
+   "dacc": 0.0
+  },
+  {
+   "cls": "E|rec_drops2+",
+   "pairs": 1.07,
+   "mass5": 0.12,
+   "mass6": 0.11,
+   "acc5": 0.02,
+   "acc6": 0.02,
+   "dmass": -0.01,
+   "dacc": 0.0
+  },
+  {
+   "cls": "E|acronym",
+   "pairs": 0.0,
+   "mass5": 0.0,
+   "mass6": 0.0,
+   "acc5": 0.0,
+   "acc6": 0.0,
+   "dmass": -0.0,
+   "dacc": 0.0
+  },
+  {
+   "cls": "D:num_diff|acronym",
+   "pairs": 0.81,
+   "mass5": 0.26,
+   "mass6": 0.26,
+   "acc5": 0.19,
+   "acc6": 0.19,
+   "dmass": 0.0,
+   "dacc": 0.01
+  },
+  {
+   "cls": "E|swap1",
+   "pairs": 48.21,
+   "mass5": 11.57,
+   "mass6": 11.59,
+   "acc5": 4.68,
+   "acc6": 5.3,
+   "dmass": 0.01,
+   "dacc": 0.62
+  },
+  {
+   "cls": "A~nonum|acronym",
+   "pairs": 1.68,
+   "mass5": 0.54,
+   "mass6": 0.6,
+   "acc5": 0.28,
+   "acc6": 0.34,
+   "dmass": 0.07,
+   "dacc": 0.06
+  },
+  {
+   "cls": "E|rec_drops",
+   "pairs": 25.81,
+   "mass5": 4.81,
+   "mass6": 5.01,
+   "acc5": 1.26,
+   "acc6": 1.38,
+   "dmass": 0.2,
+   "dacc": 0.13
+  },
+  {
+   "cls": "A~nonum|rec_drops",
+   "pairs": 6.26,
+   "mass5": 3.97,
+   "mass6": 4.24,
+   "acc5": 3.48,
+   "acc6": 3.62,
+   "dmass": 0.26,
+   "dacc": 0.14
+  },
+  {
+   "cls": "D:num_diff|disjoint",
+   "pairs": 80.27,
+   "mass5": 14.44,
+   "mass6": 14.87,
+   "acc5": 7.03,
+   "acc6": 6.98,
+   "dmass": 0.42,
+   "dacc": -0.05
+  },
+  {
+   "cls": "A=num&street|disjoint",
+   "pairs": 293.25,
+   "mass5": 231.87,
+   "mass6": 233.18,
+   "acc5": 217.39,
+   "acc6": 221.66,
+   "dmass": 1.31,
+   "dacc": 4.26
+  }
+ ],
+ "by_addr": [
+  {
+   "a": "A=num&street",
+   "mass5": 2656.201,
+   "mass6": 2632.221,
+   "acc5": 2600.94,
+   "acc6": 2591.67,
+   "dmass": -23.98,
+   "dacc": -9.27
+  },
+  {
+   "a": "A~nonum",
+   "mass5": 196.281,
+   "mass6": 188.075,
+   "acc5": 179.64,
+   "acc6": 174.136,
+   "dmass": -8.206,
+   "dacc": -5.504
+  },
+  {
+   "a": "D:num_diff",
+   "mass5": 154.811,
+   "mass6": 108.111,
+   "acc5": 95.174,
+   "acc6": 74.696,
+   "dmass": -46.7,
+   "dacc": -20.478
+  },
+  {
+   "a": "D:street_diff",
+   "mass5": 456.919,
+   "mass6": 430.419,
+   "acc5": 425.042,
+   "acc6": 411.009,
+   "dmass": -26.5,
+   "dacc": -14.033
+  },
+  {
+   "a": "E",
+   "mass5": 160.008,
+   "mass6": 155.433,
+   "acc5": 88.382,
+   "acc6": 91.03,
+   "dmass": -4.575,
+   "dacc": 2.648
+  }
+ ]
+}

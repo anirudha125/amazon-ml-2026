@@ -1,0 +1,115 @@
+{
+ "arm": "D2b_union_rrUb_big_V1_s42",
+ "th": 0.72,
+ "calibration_oof": [
+  {
+   "p": "[0,0.05)",
+   "n": 2475993,
+   "mean_p": 0.0,
+   "actual": 0.0
+  },
+  {
+   "p": "[0.05,0.2)",
+   "n": 4262,
+   "mean_p": 0.101,
+   "actual": 0.103
+  },
+  {
+   "p": "[0.2,0.4)",
+   "n": 1519,
+   "mean_p": 0.289,
+   "actual": 0.302
+  },
+  {
+   "p": "[0.4,0.6)",
+   "n": 833,
+   "mean_p": 0.497,
+   "actual": 0.449
+  },
+  {
+   "p": "[0.6,0.72)",
+   "n": 500,
+   "mean_p": 0.661,
+   "actual": 0.658
+  },
+  {
+   "p": "[0.72,0.8)",
+   "n": 424,
+   "mean_p": 0.761,
+   "actual": 0.741
+  },
+  {
+   "p": "[0.8,0.9)",
+   "n": 839,
+   "mean_p": 0.854,
+   "actual": 0.878
+  },
+  {
+   "p": "[0.9,0.95)",
+   "n": 979,
+   "mean_p": 0.928,
+   "actual": 0.953
+  },
+  {
+   "p": "[0.95,0.99)",
+   "n": 2335,
+   "mean_p": 0.974,
+   "actual": 0.977
+  },
+  {
+   "p": "[0.99,1.0001)",
+   "n": 62821,
+   "mean_p": 1.0,
+   "actual": 1.0
+  }
+ ],
+ "th_star_per_fold": {
+  "0": 0.76,
+  "1": 0.66
+ },
+ "T": {
+  "macro": 98.532,
+  "tp": 67065,
+  "fp": 333,
+  "empty_pred": 1116,
+  "singleton_fp_s1": 16,
+  "nonsingleton_empty": 50
+ },
+ "T*": {
+  "macro": 98.531,
+  "tp": 67040,
+  "fp": 329,
+  "empty_pred": 1116,
+  "singleton_fp_s1": 16,
+  "nonsingleton_empty": 50,
+  "delta_vs_T": [
+   -0.001,
+   -0.032,
+   0.03
+  ]
+ },
+ "EF": {
+  "macro": 98.527,
+  "tp": 66908,
+  "fp": 296,
+  "empty_pred": 1089,
+  "singleton_fp_s1": 30,
+  "nonsingleton_empty": 37,
+  "delta_vs_T": [
+   -0.005,
+   -0.059,
+   0.047
+  ]
+ },
+ "ORC": {
+  "macro": 99.682
+ },
+ "implied_singleton_rate": 0.0518,
+ "actual_singleton_rate": 0.0541,
+ "EF_vs_T_pair_changes": {
+  "added": 46,
+  "added_true": 23,
+  "removed": 240,
+  "removed_true": 180
+ }
+}

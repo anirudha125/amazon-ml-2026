@@ -1,0 +1,72 @@
+{
+ "LOCO_US_w0.0": {
+  "held": "India",
+  "macro": 95.755,
+  "fp": 718,
+  "fn": 1514,
+  "delta": 0.282
+ },
+ "LOCO_US_w0.25": {
+  "held": "India",
+  "macro": 96.205,
+  "fp": 469,
+  "fn": 1726,
+  "delta": 0.254
+ },
+ "LOCO_US_w0.5": {
+  "held": "India",
+  "macro": 95.104,
+  "fp": 418,
+  "fn": 2394,
+  "delta": 0.266
+ },
+ "LOCO_US_w0.75": {
+  "held": "India",
+  "macro": 94.035,
+  "fp": 728,
+  "fn": 2482,
+  "delta": 0.311
+ },
+ "LOCO_US_w1.0": {
+  "held": "India",
+  "macro": 92.376,
+  "fp": 1208,
+  "fn": 2612,
+  "delta": 0.409
+ },
+ "LOCO_IN_w0.0": {
+  "held": "US",
+  "macro": 97.322,
+  "fp": 463,
+  "fn": 1948,
+  "delta": 0.338
+ },
+ "LOCO_IN_w0.25": {
+  "held": "US",
+  "macro": 97.32,
+  "fp": 483,
+  "fn": 1912,
+  "delta": 0.51
+ },
+ "LOCO_IN_w0.5": {
+  "held": "US",
+  "macro": 97.022,
+  "fp": 622,
+  "fn": 1949,
+  "delta": 0.688
+ },
+ "LOCO_IN_w0.75": {
+  "held": "US",
+  "macro": 94.923,
+  "fp": 1585,
+  "fn": 1855,
+  "delta": 0.914
+ },
+ "LOCO_IN_w1.0": {
+  "held": "US",
+  "macro": 93.252,
+  "fp": 2396,
+  "fn": 1830,
+  "delta": 1.301
+ }
+}

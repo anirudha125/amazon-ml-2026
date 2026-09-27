@@ -1,0 +1,296 @@
+{
+ "A_new_on_flagged": {
+  "US": {
+   "n_rows": 53,
+   "n_hard": 50,
+   "n_pos": 16,
+   "NEW_s42": {
+    "TP": 16,
+    "FP": 1,
+    "FN": 0,
+    "TN_hard": 33,
+    "median_p_neg": 0.0043,
+    "median_p_pos": 0.9997
+   },
+   "NEW_s43": {
+    "TP": 16,
+    "FP": 1,
+    "FN": 0,
+    "TN_hard": 33,
+    "median_p_neg": 0.0038,
+    "median_p_pos": 0.9996
+   },
+   "NEW_s44": {
+    "TP": 15,
+    "FP": 1,
+    "FN": 1,
+    "TN_hard": 33,
+    "median_p_neg": 0.0043,
+    "median_p_pos": 0.9996
+   },
+   "BASE_D2b_s42": {
+    "TP": 16,
+    "FP": 1,
+    "FN": 0,
+    "TN_hard": 33,
+    "median_p_neg": 0.0053,
+    "median_p_pos": 0.9997
+   },
+   "auc_NEW_within_flag_hard": 0.9853
+  },
+  "India": {
+   "n_rows": 43,
+   "n_hard": 32,
+   "n_pos": 11,
+   "NEW_s42": {
+    "TP": 9,
+    "FP": 0,
+    "FN": 2,
+    "TN_hard": 21,
+    "median_p_neg": 0.003,
+    "median_p_pos": 0.9972
+   },
+   "NEW_s43": {
+    "TP": 9,
+    "FP": 0,
+    "FN": 2,
+    "TN_hard": 21,
+    "median_p_neg": 0.0033,
+    "median_p_pos": 0.9974
+   },
+   "NEW_s44": {
+    "TP": 9,
+    "FP": 0,
+    "FN": 2,
+    "TN_hard": 21,
+    "median_p_neg": 0.0022,
+    "median_p_pos": 0.9972
+   },
+   "BASE_D2b_s42": {
+    "TP": 9,
+    "FP": 0,
+    "FN": 2,
+    "TN_hard": 21,
+    "median_p_neg": 0.0019,
+    "median_p_pos": 0.9976
+   },
+   "auc_NEW_within_flag_hard": 0.8182
+  }
+ },
+ "B_stratified": {
+  "same_addr_all": {
+   "[0.0, 0.001)|flag=False": {
+    "n": 3,
+    "pos": 3,
+    "rate": 1.0
+   },
+   "[0.0, 0.001)|flag=True": {
+    "n": 2,
+    "pos": 2,
+    "rate": 1.0
+   },
+   "[0.001, 0.01)|flag=False": {
+    "n": 600,
+    "pos": 1,
+    "rate": 0.0017
+   },
+   "[0.001, 0.01)|flag=True": {
+    "n": 33,
+    "pos": 0,
+    "rate": 0.0
+   },
+   "[0.01, 0.1)|flag=False": {
+    "n": 352,
+    "pos": 23,
+    "rate": 0.0653
+   },
+   "[0.01, 0.1)|flag=True": {
+    "n": 16,
+    "pos": 0,
+    "rate": 0.0
+   },
+   "[0.1, 0.5)|flag=False": {
+    "n": 269,
+    "pos": 79,
+    "rate": 0.2937
+   },
+   "[0.1, 0.5)|flag=True": {
+    "n": 5,
+    "pos": 0,
+    "rate": 0.0
+   },
+   "[0.5, 0.78)|flag=False": {
+    "n": 114,
+    "pos": 73,
+    "rate": 0.6404
+   },
+   "[0.78, 0.95)|flag=False": {
+    "n": 192,
+    "pos": 178,
+    "rate": 0.9271
+   },
+   "[0.78, 0.95)|flag=True": {
+    "n": 2,
+    "pos": 2,
+    "rate": 1.0
+   },
+   "[0.95, 0.99)|flag=False": {
+    "n": 526,
+    "pos": 519,
+    "rate": 0.9867
+   },
+   "[0.95, 0.99)|flag=True": {
+    "n": 5,
+    "pos": 5,
+    "rate": 1.0
+   },
+   "[0.99, 1.0)|flag=False": {
+    "n": 40111,
+    "pos": 40102,
+    "rate": 0.9998
+   },
+   "[0.99, 1.0)|flag=True": {
+    "n": 19,
+    "pos": 18,
+    "rate": 0.9474
+   }
+  },
+  "same_addr_SWAP1": {
+   "[0.0, 0.001)|flag=True": {
+    "n": 2,
+    "pos": 2,
+    "rate": 1.0
+   },
+   "[0.001, 0.01)|flag=False": {
+    "n": 29,
+    "pos": 0,
+    "rate": 0.0
+   },
+   "[0.001, 0.01)|flag=True": {
+    "n": 33,
+    "pos": 0,
+    "rate": 0.0
+   },
+   "[0.01, 0.1)|flag=False": {
+    "n": 32,
+    "pos": 3,
+    "rate": 0.0938
+   },
+   "[0.01, 0.1)|flag=True": {
+    "n": 16,
+    "pos": 0,
+    "rate": 0.0
+   },
+   "[0.1, 0.5)|flag=False": {
+    "n": 12,
+    "pos": 2,
+    "rate": 0.1667
+   },
+   "[0.1, 0.5)|flag=True": {
+    "n": 5,
+    "pos": 0,
+    "rate": 0.0
+   },
+   "[0.5, 0.78)|flag=False": {
+    "n": 11,
+    "pos": 7,
+    "rate": 0.6364
+   },
+   "[0.78, 0.95)|flag=False": {
+    "n": 14,
+    "pos": 12,
+    "rate": 0.8571
+   },
+   "[0.78, 0.95)|flag=True": {
+    "n": 2,
+    "pos": 2,
+    "rate": 1.0
+   },
+   "[0.95, 0.99)|flag=False": {
+    "n": 56,
+    "pos": 55,
+    "rate": 0.9821
+   },
+   "[0.95, 0.99)|flag=True": {
+    "n": 5,
+    "pos": 5,
+    "rate": 1.0
+   },
+   "[0.99, 1.0)|flag=False": {
+    "n": 3340,
+    "pos": 3338,
+    "rate": 0.9994
+   },
+   "[0.99, 1.0)|flag=True": {
+    "n": 19,
+    "pos": 18,
+    "rate": 0.9474
+   }
+  },
+  "accepted_precision": {
+   "US|flag": {
+    "n": 17,
+    "prec": 0.9412
+   },
+   "US|same_addr_unflagged": {
+    "n": 29433,
+    "prec": 0.9993
+   },
+   "US|SWAP1_same_addr_unflagged": {
+    "n": 2652,
+    "prec": 0.9992
+   },
+   "India|flag": {
+    "n": 9,
+    "prec": 1.0
+   },
+   "India|same_addr_unflagged": {
+    "n": 11396,
+    "prec": 0.9991
+   },
+   "India|SWAP1_same_addr_unflagged": {
+    "n": 758,
+    "prec": 0.996
+   }
+  }
+ },
+ "C_v1_f05_drop_rule": {
+  "s42": {
+   "base": {
+    "macro": 98.8046,
+    "US": 98.7738,
+    "India": 98.8513
+   },
+   "drop_flagged": {
+    "macro": 98.7902,
+    "US": 98.7554,
+    "India": 98.8428
+   }
+  },
+  "s43": {
+   "base": {
+    "macro": 98.8136,
+    "US": 98.7947,
+    "India": 98.8421
+   },
+   "drop_flagged": {
+    "macro": 98.7991,
+    "US": 98.7763,
+    "India": 98.8336
+   }
+  },
+  "s44": {
+   "base": {
+    "macro": 98.8228,
+    "US": 98.7696,
+    "India": 98.9033
+   },
+   "drop_flagged": {
+    "macro": 98.8088,
+    "US": 98.752,
+    "India": 98.8948
+   }
+  }
+ },
+ "D_parity_max_abs_dp": 2.9791312861071617e-08
+}

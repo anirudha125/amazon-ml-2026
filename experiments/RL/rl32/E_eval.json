@@ -1,0 +1,2432 @@
+{
+ "L_fp_owner": {
+  "n_fp": 595,
+  "share_has_true_owner": 0.605,
+  "share_owner_in_L": 0.015
+ },
+ "L_band_table": [
+  {
+   "band": "0.72-0.90",
+   "flag": "num_diff",
+   "per1k": 7.49,
+   "band_per1k": 30.8,
+   "fp_rate_flag": 0.1503,
+   "fp_rate_unflag": 0.1636,
+   "lift": 0.94,
+   "fp_capt": 0.228,
+   "n_flag": 539,
+   "n_fp": 81
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "nm_far",
+   "per1k": 10.64,
+   "band_per1k": 30.8,
+   "fp_rate_flag": 0.1762,
+   "fp_rate_unflag": 0.1519,
+   "lift": 1.1,
+   "fp_capt": 0.38,
+   "n_flag": 766,
+   "n_fp": 135
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "st_diff",
+   "per1k": 4.89,
+   "band_per1k": 30.8,
+   "fp_rate_flag": 0.1648,
+   "fp_rate_unflag": 0.1595,
+   "lift": 1.03,
+   "fp_capt": 0.163,
+   "n_flag": 352,
+   "n_fp": 58
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "lonely_nm",
+   "per1k": 3.94,
+   "band_per1k": 30.8,
+   "fp_rate_flag": 0.1408,
+   "fp_rate_unflag": 0.1632,
+   "lift": 0.88,
+   "fp_capt": 0.113,
+   "n_flag": 284,
+   "n_fp": 40
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "lonely_nmfar",
+   "per1k": 2.68,
+   "band_per1k": 30.8,
+   "fp_rate_flag": 0.1606,
+   "fp_rate_unflag": 0.1603,
+   "lift": 1.0,
+   "fp_capt": 0.087,
+   "n_flag": 193,
+   "n_fp": 31
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "lonely_num",
+   "per1k": 2.31,
+   "band_per1k": 30.8,
+   "fp_rate_flag": 0.3253,
+   "fp_rate_unflag": 0.147,
+   "lift": 2.03,
+   "fp_capt": 0.152,
+   "n_flag": 166,
+   "n_fp": 54
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "lonely_st",
+   "per1k": 1.74,
+   "band_per1k": 30.8,
+   "fp_rate_flag": 0.16,
+   "fp_rate_unflag": 0.1604,
+   "lift": 1.0,
+   "fp_capt": 0.056,
+   "n_flag": 125,
+   "n_fp": 20
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "grp2_num",
+   "per1k": 4.06,
+   "band_per1k": 30.8,
+   "fp_rate_flag": 0.0445,
+   "fp_rate_unflag": 0.1779,
+   "lift": 0.28,
+   "fp_capt": 0.037,
+   "n_flag": 292,
+   "n_fp": 13
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "lonely_any",
+   "per1k": 6.97,
+   "band_per1k": 30.8,
+   "fp_rate_flag": 0.2032,
+   "fp_rate_unflag": 0.1478,
+   "lift": 1.27,
+   "fp_capt": 0.287,
+   "n_flag": 502,
+   "n_fp": 102
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "nosib_twin_no2",
+   "per1k": 22.75,
+   "band_per1k": 30.8,
+   "fp_rate_flag": 0.1734,
+   "fp_rate_unflag": 0.1233,
+   "lift": 1.08,
+   "fp_capt": 0.8,
+   "n_flag": 1638,
+   "n_fp": 284
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "nacc_ge7",
+   "per1k": 2.35,
+   "band_per1k": 30.8,
+   "fp_rate_flag": 0.1834,
+   "fp_rate_unflag": 0.1584,
+   "lift": 1.14,
+   "fp_capt": 0.087,
+   "n_flag": 169,
+   "n_fp": 31
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "s1_twin",
+   "per1k": 0.17,
+   "band_per1k": 30.8,
+   "fp_rate_flag": 0.4167,
+   "fp_rate_unflag": 0.1589,
+   "lift": 2.6,
+   "fp_capt": 0.014,
+   "n_flag": 12,
+   "n_fp": 5
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "prun_ge.3",
+   "per1k": 0.11,
+   "band_per1k": 30.8,
+   "fp_rate_flag": 0.5,
+   "fp_rate_unflag": 0.1591,
+   "lift": 3.12,
+   "fp_capt": 0.011,
+   "n_flag": 8,
+   "n_fp": 4
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "prun_ge.72",
+   "per1k": 0.0,
+   "band_per1k": 30.8,
+   "fp_rate_flag": 0.0,
+   "fp_rate_unflag": 0.1603,
+   "lift": 0.0,
+   "fp_capt": 0.0,
+   "n_flag": 0,
+   "n_fp": 0
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "lonely_num|nm_2plus",
+   "per1k": 4.46,
+   "band_per1k": 30.8,
+   "fp_rate_flag": 0.2492,
+   "fp_rate_unflag": 0.1453,
+   "lift": 1.55,
+   "fp_capt": 0.225,
+   "n_flag": 321,
+   "n_fp": 80
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "lonely_nm&s1_twin",
+   "per1k": 0.01,
+   "band_per1k": 30.8,
+   "fp_rate_flag": 0.0,
+   "fp_rate_unflag": 0.1604,
+   "lift": 0.0,
+   "fp_capt": 0.0,
+   "n_flag": 1,
+   "n_fp": 0
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "num_diff",
+   "per1k": 33.67,
+   "band_per1k": 107.9,
+   "fp_rate_flag": 0.0285,
+   "fp_rate_unflag": 0.0225,
+   "lift": 1.17,
+   "fp_capt": 0.365,
+   "n_flag": 2424,
+   "n_fp": 69
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "nm_far",
+   "per1k": 35.5,
+   "band_per1k": 107.9,
+   "fp_rate_flag": 0.0243,
+   "fp_rate_unflag": 0.0244,
+   "lift": 1.0,
+   "fp_capt": 0.328,
+   "n_flag": 2556,
+   "n_fp": 62
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "st_diff",
+   "per1k": 19.2,
+   "band_per1k": 107.9,
+   "fp_rate_flag": 0.0347,
+   "fp_rate_unflag": 0.0221,
+   "lift": 1.43,
+   "fp_capt": 0.254,
+   "n_flag": 1382,
+   "n_fp": 48
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "lonely_nm",
+   "per1k": 12.96,
+   "band_per1k": 107.9,
+   "fp_rate_flag": 0.015,
+   "fp_rate_unflag": 0.0256,
+   "lift": 0.62,
+   "fp_capt": 0.074,
+   "n_flag": 933,
+   "n_fp": 14
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "lonely_nmfar",
+   "per1k": 8.24,
+   "band_per1k": 107.9,
+   "fp_rate_flag": 0.0169,
+   "fp_rate_unflag": 0.025,
+   "lift": 0.69,
+   "fp_capt": 0.053,
+   "n_flag": 593,
+   "n_fp": 10
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "lonely_num",
+   "per1k": 7.38,
+   "band_per1k": 107.9,
+   "fp_rate_flag": 0.0847,
+   "fp_rate_unflag": 0.0199,
+   "lift": 3.48,
+   "fp_capt": 0.238,
+   "n_flag": 531,
+   "n_fp": 45
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "lonely_st",
+   "per1k": 6.6,
+   "band_per1k": 107.9,
+   "fp_rate_flag": 0.0379,
+   "fp_rate_unflag": 0.0235,
+   "lift": 1.56,
+   "fp_capt": 0.095,
+   "n_flag": 475,
+   "n_fp": 18
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "grp2_num",
+   "per1k": 21.28,
+   "band_per1k": 107.9,
+   "fp_rate_flag": 0.0046,
+   "fp_rate_unflag": 0.0292,
+   "lift": 0.19,
+   "fp_capt": 0.037,
+   "n_flag": 1532,
+   "n_fp": 7
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "lonely_any",
+   "per1k": 24.22,
+   "band_per1k": 107.9,
+   "fp_rate_flag": 0.0396,
+   "fp_rate_unflag": 0.0199,
+   "lift": 1.63,
+   "fp_capt": 0.365,
+   "n_flag": 1744,
+   "n_fp": 69
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "nosib_twin_no2",
+   "per1k": 77.02,
+   "band_per1k": 107.9,
+   "fp_rate_flag": 0.0265,
+   "fp_rate_unflag": 0.0189,
+   "lift": 1.09,
+   "fp_capt": 0.778,
+   "n_flag": 5545,
+   "n_fp": 147
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "nacc_ge7",
+   "per1k": 8.39,
+   "band_per1k": 107.9,
+   "fp_rate_flag": 0.0348,
+   "fp_rate_unflag": 0.0235,
+   "lift": 1.43,
+   "fp_capt": 0.111,
+   "n_flag": 604,
+   "n_fp": 21
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "s1_twin",
+   "per1k": 0.69,
+   "band_per1k": 107.9,
+   "fp_rate_flag": 0.06,
+   "fp_rate_unflag": 0.0241,
+   "lift": 2.47,
+   "fp_capt": 0.016,
+   "n_flag": 50,
+   "n_fp": 3
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "prun_ge.3",
+   "per1k": 0.08,
+   "band_per1k": 107.9,
+   "fp_rate_flag": 0.3333,
+   "fp_rate_unflag": 0.0241,
+   "lift": 13.69,
+   "fp_capt": 0.011,
+   "n_flag": 6,
+   "n_fp": 2
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "prun_ge.72",
+   "per1k": 0.01,
+   "band_per1k": 107.9,
+   "fp_rate_flag": 0.0,
+   "fp_rate_unflag": 0.0243,
+   "lift": 0.0,
+   "fp_capt": 0.0,
+   "n_flag": 1,
+   "n_fp": 0
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "lonely_num|nm_2plus",
+   "per1k": 14.65,
+   "band_per1k": 107.9,
+   "fp_rate_flag": 0.0464,
+   "fp_rate_unflag": 0.0209,
+   "lift": 1.91,
+   "fp_capt": 0.259,
+   "n_flag": 1055,
+   "n_fp": 49
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "lonely_nm&s1_twin",
+   "per1k": 0.04,
+   "band_per1k": 107.9,
+   "fp_rate_flag": 0.0,
+   "fp_rate_unflag": 0.0243,
+   "lift": 0.0,
+   "fp_capt": 0.0,
+   "n_flag": 3,
+   "n_fp": 0
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "num_diff",
+   "per1k": 446.29,
+   "band_per1k": 3237.6,
+   "fp_rate_flag": 0.0004,
+   "fp_rate_unflag": 0.0002,
+   "lift": 1.99,
+   "fp_capt": 0.275,
+   "n_flag": 32130,
+   "n_fp": 14
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "nm_far",
+   "per1k": 571.01,
+   "band_per1k": 3237.6,
+   "fp_rate_flag": 0.0004,
+   "fp_rate_unflag": 0.0002,
+   "lift": 1.89,
+   "fp_capt": 0.333,
+   "n_flag": 41109,
+   "n_fp": 17
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "st_diff",
+   "per1k": 550.8,
+   "band_per1k": 3237.6,
+   "fp_rate_flag": 0.0003,
+   "fp_rate_unflag": 0.0002,
+   "lift": 1.27,
+   "fp_capt": 0.216,
+   "n_flag": 39654,
+   "n_fp": 11
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "lonely_nm",
+   "per1k": 274.09,
+   "band_per1k": 3237.6,
+   "fp_rate_flag": 0.0003,
+   "fp_rate_unflag": 0.0002,
+   "lift": 1.39,
+   "fp_capt": 0.118,
+   "n_flag": 19733,
+   "n_fp": 6
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "lonely_nmfar",
+   "per1k": 134.9,
+   "band_per1k": 3237.6,
+   "fp_rate_flag": 0.0003,
+   "fp_rate_unflag": 0.0002,
+   "lift": 1.41,
+   "fp_capt": 0.059,
+   "n_flag": 9712,
+   "n_fp": 3
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "lonely_num",
+   "per1k": 98.52,
+   "band_per1k": 3237.6,
+   "fp_rate_flag": 0.0007,
+   "fp_rate_unflag": 0.0002,
+   "lift": 3.22,
+   "fp_capt": 0.098,
+   "n_flag": 7093,
+   "n_fp": 5
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "lonely_st",
+   "per1k": 196.59,
+   "band_per1k": 3237.6,
+   "fp_rate_flag": 0.0001,
+   "fp_rate_unflag": 0.0002,
+   "lift": 0.32,
+   "fp_capt": 0.02,
+   "n_flag": 14153,
+   "n_fp": 1
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "grp2_num",
+   "per1k": 300.53,
+   "band_per1k": 3237.6,
+   "fp_rate_flag": 0.0001,
+   "fp_rate_unflag": 0.0002,
+   "lift": 0.63,
+   "fp_capt": 0.059,
+   "n_flag": 21636,
+   "n_fp": 3
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "lonely_any",
+   "per1k": 528.86,
+   "band_per1k": 3237.6,
+   "fp_rate_flag": 0.0003,
+   "fp_rate_unflag": 0.0002,
+   "lift": 1.32,
+   "fp_capt": 0.216,
+   "n_flag": 38075,
+   "n_fp": 11
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "nosib_twin_no2",
+   "per1k": 1513.08,
+   "band_per1k": 3237.6,
+   "fp_rate_flag": 0.0003,
+   "fp_rate_unflag": 0.0002,
+   "lift": 1.17,
+   "fp_capt": 0.549,
+   "n_flag": 108933,
+   "n_fp": 28
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "nacc_ge7",
+   "per1k": 235.24,
+   "band_per1k": 3237.6,
+   "fp_rate_flag": 0.0004,
+   "fp_rate_unflag": 0.0002,
+   "lift": 1.89,
+   "fp_capt": 0.137,
+   "n_flag": 16936,
+   "n_fp": 7
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "s1_twin",
+   "per1k": 13.33,
+   "band_per1k": 3237.6,
+   "fp_rate_flag": 0.0,
+   "fp_rate_unflag": 0.0002,
+   "lift": 0.0,
+   "fp_capt": 0.0,
+   "n_flag": 960,
+   "n_fp": 0
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "prun_ge.3",
+   "per1k": 0.14,
+   "band_per1k": 3237.6,
+   "fp_rate_flag": 0.0,
+   "fp_rate_unflag": 0.0002,
+   "lift": 0.0,
+   "fp_capt": 0.0,
+   "n_flag": 10,
+   "n_fp": 0
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "prun_ge.72",
+   "per1k": 0.1,
+   "band_per1k": 3237.6,
+   "fp_rate_flag": 0.0,
+   "fp_rate_unflag": 0.0002,
+   "lift": 0.0,
+   "fp_capt": 0.0,
+   "n_flag": 7,
+   "n_fp": 0
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "lonely_num|nm_2plus",
+   "per1k": 272.61,
+   "band_per1k": 3237.6,
+   "fp_rate_flag": 0.0003,
+   "fp_rate_unflag": 0.0002,
+   "lift": 1.4,
+   "fp_capt": 0.118,
+   "n_flag": 19626,
+   "n_fp": 6
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "lonely_nm&s1_twin",
+   "per1k": 1.06,
+   "band_per1k": 3237.6,
+   "fp_rate_flag": 0.0,
+   "fp_rate_unflag": 0.0002,
+   "lift": 0.0,
+   "fp_capt": 0.0,
+   "n_flag": 76,
+   "n_fp": 0
+  }
+ ],
+ "L_auc_fp": {
+  "0.72-0.9": {
+   "p(neg)": 0.5721,
+   "-sib_twin": 0.5249,
+   "-supp_s": 0.4833,
+   "n_acc": 0.5272,
+   "o_eq_num-(num==eq)": 0.5327,
+   "s1_twins": 0.5052,
+   "lonely_any": 0.5361
+  },
+  "0.9-0.99": {
+   "p(neg)": 0.741,
+   "-sib_twin": 0.5308,
+   "-supp_s": 0.4952,
+   "n_acc": 0.5385,
+   "o_eq_num-(num==eq)": 0.5482,
+   "s1_twins": 0.5048,
+   "lonely_any": 0.572
+  },
+  "0.99-1.01": {
+   "p(neg)": 0.9451,
+   "-sib_twin": 0.6087,
+   "-supp_s": 0.531,
+   "n_acc": 0.4943,
+   "o_eq_num-(num==eq)": 0.5542,
+   "s1_twins": 0.4979,
+   "lonely_any": 0.5262
+  }
+ },
+ "L_veto": {
+  "lonely_num|p<0.99": {
+   "V1": [
+    [
+     -0.0414,
+     -0.0605,
+     -0.0218
+    ],
+    98.951,
+    189,
+    32
+   ],
+   "T": [
+    [
+     -0.058,
+     -0.0695,
+     -0.0461
+    ],
+    98.914,
+    508,
+    67
+   ]
+  },
+  "lonely_num|p<1.01": {
+   "V1": [
+    [
+     -0.9545,
+     -1.0026,
+     -0.9071
+    ],
+    98.951,
+    2133,
+    33
+   ],
+   "T": [
+    [
+     -0.9936,
+     -1.0222,
+     -0.9629
+    ],
+    98.914,
+    5657,
+    71
+   ]
+  },
+  "lonely_nm|p<0.99": {
+   "V1": [
+    [
+     -0.1374,
+     -0.158,
+     -0.1163
+    ],
+    98.951,
+    335,
+    11
+   ],
+   "T": [
+    [
+     -0.1363,
+     -0.1505,
+     -0.1225
+    ],
+    98.914,
+    882,
+    43
+   ]
+  },
+  "lonely_nm|p<1.01": {
+   "V1": [
+    [
+     -2.8299,
+     -2.9012,
+     -2.7589
+    ],
+    98.951,
+    5894,
+    12
+   ],
+   "T": [
+    [
+     -2.7825,
+     -2.8262,
+     -2.7369
+    ],
+    98.914,
+    15056,
+    48
+   ]
+  },
+  "lonely_nmfar|p<0.99": {
+   "V1": [
+    [
+     -0.081,
+     -0.0969,
+     -0.0642
+    ],
+    98.951,
+    211,
+    9
+   ],
+   "T": [
+    [
+     -0.0835,
+     -0.0947,
+     -0.0726
+    ],
+    98.914,
+    575,
+    32
+   ]
+  },
+  "lonely_nmfar|p<1.01": {
+   "V1": [
+    [
+     -1.4063,
+     -1.4593,
+     -1.3531
+    ],
+    98.951,
+    3000,
+    9
+   ],
+   "T": [
+    [
+     -1.3583,
+     -1.3913,
+     -1.323
+    ],
+    98.914,
+    7498,
+    35
+   ]
+  },
+  "lonely_st|p<0.99": {
+   "V1": [
+    [
+     -0.0515,
+     -0.0665,
+     -0.0368
+    ],
+    98.951,
+    163,
+    13
+   ],
+   "T": [
+    [
+     -0.0596,
+     -0.0685,
+     -0.0509
+    ],
+    98.914,
+    437,
+    25
+   ]
+  },
+  "lonely_st|p<1.01": {
+   "V1": [
+    [
+     -1.8542,
+     -1.9141,
+     -1.792
+    ],
+    98.951,
+    4150,
+    13
+   ],
+   "T": [
+    [
+     -1.8147,
+     -1.8508,
+     -1.7769
+    ],
+    98.914,
+    10603,
+    26
+   ]
+  },
+  "grp2_num|p<0.99": {
+   "V1": [
+    [
+     -0.1859,
+     -0.215,
+     -0.1576
+    ],
+    98.951,
+    487,
+    2
+   ],
+   "T": [
+    [
+     -0.2071,
+     -0.2299,
+     -0.1865
+    ],
+    98.914,
+    1337,
+    18
+   ]
+  },
+  "grp2_num|p<1.01": {
+   "V1": [
+    [
+     -4.3387,
+     -4.5554,
+     -4.1243
+    ],
+    98.951,
+    6440,
+    2
+   ],
+   "T": [
+    [
+     -4.5038,
+     -4.6363,
+     -4.3667
+    ],
+    98.914,
+    17020,
+    21
+   ]
+  },
+  "lonely_any|p<0.99": {
+   "V1": [
+    [
+     -0.2069,
+     -0.2376,
+     -0.1754
+    ],
+    98.951,
+    618,
+    49
+   ],
+   "T": [
+    [
+     -0.2244,
+     -0.2446,
+     -0.2049
+    ],
+    98.914,
+    1628,
+    122
+   ]
+  },
+  "lonely_any|p<1.01": {
+   "V1": [
+    [
+     -6.6438,
+     -6.8464,
+     -6.4439
+    ],
+    98.951,
+    11279,
+    51
+   ],
+   "T": [
+    [
+     -6.5912,
+     -6.7051,
+     -6.4739
+    ],
+    98.914,
+    29042,
+    131
+   ]
+  },
+  "lonely_num|nm_2plus|p<0.99": {
+   "V1": [
+    [
+     -0.0846,
+     -0.1026,
+     -0.0658
+    ],
+    98.951,
+    386,
+    37
+   ],
+   "T": [
+    [
+     -0.0875,
+     -0.0991,
+     -0.0759
+    ],
+    98.914,
+    990,
+    92
+   ]
+  },
+  "lonely_num|nm_2plus|p<1.01": {
+   "V1": [
+    [
+     -2.1807,
+     -2.2422,
+     -2.121
+    ],
+    98.951,
+    5899,
+    38
+   ],
+   "T": [
+    [
+     -2.146,
+     -2.1837,
+     -2.1083
+    ],
+    98.914,
+    15103,
+    97
+   ]
+  },
+  "s1_twin|p<0.99": {
+   "V1": [
+    [
+     -0.0062,
+     -0.0105,
+     -0.0026
+    ],
+    98.951,
+    15,
+    0
+   ],
+   "T": [
+    [
+     -0.0055,
+     -0.0123,
+     0.0005
+    ],
+    98.914,
+    47,
+    8
+   ]
+  },
+  "s1_twin|p<1.01": {
+   "V1": [
+    [
+     -0.3763,
+     -0.4608,
+     -0.2969
+    ],
+    98.951,
+    291,
+    0
+   ],
+   "T": [
+    [
+     -0.4125,
+     -0.4693,
+     -0.3584
+    ],
+    98.914,
+    731,
+    8
+   ]
+  },
+  "nosib_twin_no2|p<0.99": {
+   "V1": [
+    [
+     -0.4965,
+     -0.539,
+     -0.4519
+    ],
+    98.951,
+    1984,
+    125
+   ],
+   "T": [
+    [
+     -0.5053,
+     -0.5302,
+     -0.4806
+    ],
+    98.914,
+    5199,
+    306
+   ]
+  },
+  "nosib_twin_no2|p<1.01": {
+   "V1": [
+    [
+     -27.3153,
+     -27.8597,
+     -26.7673
+    ],
+    98.951,
+    32144,
+    132
+   ],
+   "T": [
+    [
+     -27.4375,
+     -27.7712,
+     -27.0968
+    ],
+    98.914,
+    83972,
+    327
+   ]
+  },
+  "nacc_ge7|p<0.99": {
+   "V1": [
+    [
+     -0.0259,
+     -0.0337,
+     -0.0176
+    ],
+    98.951,
+    212,
+    14
+   ],
+   "T": [
+    [
+     -0.0259,
+     -0.0305,
+     -0.0213
+    ],
+    98.914,
+    561,
+    38
+   ]
+  },
+  "nacc_ge7|p<1.01": {
+   "V1": [
+    [
+     -3.3877,
+     -3.6411,
+     -3.149
+    ],
+    98.951,
+    4947,
+    15
+   ],
+   "T": [
+    [
+     -3.3361,
+     -3.4967,
+     -3.1856
+    ],
+    98.914,
+    12762,
+    44
+   ]
+  }
+ },
+ "L_pseudo": {
+  "exact3|p>=0.3": {
+   "per1k": 0.33,
+   "prec": 0.708,
+   "V1": [
+    [
+     0.0014,
+     0.0,
+     0.0039
+    ],
+    3,
+    3
+   ],
+   "T": [
+    [
+     -0.0004,
+     -0.0027,
+     0.0017
+    ],
+    21,
+    14
+   ]
+  },
+  "exact3|p>=0.5": {
+   "per1k": 0.21,
+   "prec": 0.867,
+   "V1": [
+    [
+     0.0014,
+     0.0,
+     0.0039
+    ],
+    3,
+    3
+   ],
+   "T": [
+    [
+     0.001,
+     -0.0003,
+     0.0023
+    ],
+    12,
+    10
+   ]
+  },
+  "exact3&supp2|p>=0.3": {
+   "per1k": 0.15,
+   "prec": 0.545,
+   "V1": [
+    [
+     0.0002,
+     0.0,
+     0.0006
+    ],
+    1,
+    1
+   ],
+   "T": [
+    [
+     -0.0012,
+     -0.0029,
+     0.0002
+    ],
+    10,
+    5
+   ]
+  },
+  "exact3&supp2|p>=0.5": {
+   "per1k": 0.08,
+   "prec": 0.667,
+   "V1": [
+    [
+     0.0002,
+     0.0,
+     0.0006
+    ],
+    1,
+    1
+   ],
+   "T": [
+    [
+     -0.0003,
+     -0.0012,
+     0.0004
+    ],
+    5,
+    3
+   ]
+  },
+  "sib_twin>=1|p>=0.3": {
+   "per1k": 5.89,
+   "prec": 0.517,
+   "V1": [
+    [
+     -0.0229,
+     -0.0382,
+     -0.0086
+    ],
+    115,
+    66
+   ],
+   "T": [
+    [
+     -0.0362,
+     -0.0464,
+     -0.0262
+    ],
+    309,
+    153
+   ]
+  },
+  "sib_twin>=1|p>=0.5": {
+   "per1k": 2.31,
+   "prec": 0.669,
+   "V1": [
+    [
+     -0.0059,
+     -0.0166,
+     0.0039
+    ],
+    49,
+    33
+   ],
+   "T": [
+    [
+     -0.0061,
+     -0.0119,
+     -0.001
+    ],
+    117,
+    78
+   ]
+  },
+  "sib_twin>=2|p>=0.3": {
+   "per1k": 1.21,
+   "prec": 0.563,
+   "V1": [
+    [
+     -0.0003,
+     -0.005,
+     0.0043
+    ],
+    28,
+    20
+   ],
+   "T": [
+    [
+     -0.0069,
+     -0.0108,
+     -0.0035
+    ],
+    59,
+    29
+   ]
+  },
+  "sib_twin>=2|p>=0.5": {
+   "per1k": 0.49,
+   "prec": 0.714,
+   "V1": [
+    [
+     0.0004,
+     -0.0025,
+     0.0029
+    ],
+    10,
+    8
+   ],
+   "T": [
+    [
+     -0.0012,
+     -0.0034,
+     0.0007
+    ],
+    25,
+    17
+   ]
+  },
+  "exact3&prun<.3|p>=0.3": {
+   "per1k": 0.33,
+   "prec": 0.708,
+   "V1": [
+    [
+     0.0014,
+     0.0,
+     0.0039
+    ],
+    3,
+    3
+   ],
+   "T": [
+    [
+     -0.0004,
+     -0.0027,
+     0.0017
+    ],
+    21,
+    14
+   ]
+  },
+  "exact3&prun<.3|p>=0.5": {
+   "per1k": 0.21,
+   "prec": 0.867,
+   "V1": [
+    [
+     0.0014,
+     0.0,
+     0.0039
+    ],
+    3,
+    3
+   ],
+   "T": [
+    [
+     0.001,
+     -0.0003,
+     0.0023
+    ],
+    12,
+    10
+   ]
+  },
+  "ACC_supp_s>=2&nm_eq&num_eq|0.72-0.9": {
+   "per1k": 0.29,
+   "prec": 0.9524
+  },
+  "ACC_supp_s>=2&nm_eq&num_eq|0.9-0.99": {
+   "per1k": 2.31,
+   "prec": 0.994
+  },
+  "ACC_supp_s>=2&nm_eq&num_eq|0.99-1.01": {
+   "per1k": 579.38,
+   "prec": 0.9999
+  },
+  "ACC_sib_twin>=2|0.72-0.9": {
+   "per1k": 1.07,
+   "prec": 0.9091
+  },
+  "ACC_sib_twin>=2|0.9-0.99": {
+   "per1k": 6.0,
+   "prec": 0.9861
+  },
+  "ACC_sib_twin>=2|0.99-1.01": {
+   "per1k": 705.92,
+   "prec": 0.9999
+  }
+ },
+ "test_promo_per1k": {
+  "US_p6_exact3|p>=0.3": 0.46,
+  "US_p6_exact3|p>=0.5": 0.28,
+  "US_p6_exact3&supp2|p>=0.3": 0.21,
+  "US_p6_exact3&supp2|p>=0.5": 0.14,
+  "US_p6_sib_twin>=1|p>=0.3": 5.8,
+  "US_p6_sib_twin>=1|p>=0.5": 2.58,
+  "US_p6_sib_twin>=2|p>=0.3": 0.91,
+  "US_p6_sib_twin>=2|p>=0.5": 0.5,
+  "US_p6_exact3&prun<.3|p>=0.3": 0.46,
+  "US_p6_exact3&prun<.3|p>=0.5": 0.28,
+  "US_p5_exact3|p>=0.3": 0.97,
+  "US_p5_exact3|p>=0.5": 0.61,
+  "US_p5_exact3&supp2|p>=0.3": 0.38,
+  "US_p5_exact3&supp2|p>=0.5": 0.22,
+  "US_p5_sib_twin>=1|p>=0.3": 7.18,
+  "US_p5_sib_twin>=1|p>=0.5": 3.59,
+  "US_p5_sib_twin>=2|p>=0.3": 1.31,
+  "US_p5_sib_twin>=2|p>=0.5": 0.73,
+  "US_p5_exact3&prun<.3|p>=0.3": 0.97,
+  "US_p5_exact3&prun<.3|p>=0.5": 0.61,
+  "India_p6_exact3|p>=0.3": 0.28,
+  "India_p6_exact3|p>=0.5": 0.11,
+  "India_p6_exact3&supp2|p>=0.3": 0.08,
+  "India_p6_exact3&supp2|p>=0.5": 0.03,
+  "India_p6_sib_twin>=1|p>=0.3": 3.68,
+  "India_p6_sib_twin>=1|p>=0.5": 1.78,
+  "India_p6_sib_twin>=2|p>=0.3": 1.3,
+  "India_p6_sib_twin>=2|p>=0.5": 0.62,
+  "India_p6_exact3&prun<.3|p>=0.3": 0.28,
+  "India_p6_exact3&prun<.3|p>=0.5": 0.11,
+  "India_p5_exact3|p>=0.3": 0.65,
+  "India_p5_exact3|p>=0.5": 0.36,
+  "India_p5_exact3&supp2|p>=0.3": 0.24,
+  "India_p5_exact3&supp2|p>=0.5": 0.13,
+  "India_p5_sib_twin>=1|p>=0.3": 5.71,
+  "India_p5_sib_twin>=1|p>=0.5": 3.3,
+  "India_p5_sib_twin>=2|p>=0.3": 2.11,
+  "India_p5_sib_twin>=2|p>=0.5": 1.14,
+  "India_p5_exact3&prun<.3|p>=0.3": 0.65,
+  "India_p5_exact3&prun<.3|p>=0.5": 0.36,
+  "France_p6_exact3|p>=0.3": 2.31,
+  "France_p6_exact3|p>=0.5": 1.09,
+  "France_p6_exact3&supp2|p>=0.3": 1.55,
+  "France_p6_exact3&supp2|p>=0.5": 0.67,
+  "France_p6_sib_twin>=1|p>=0.3": 11.13,
+  "France_p6_sib_twin>=1|p>=0.5": 4.56,
+  "France_p6_sib_twin>=2|p>=0.3": 5.33,
+  "France_p6_sib_twin>=2|p>=0.5": 2.1,
+  "France_p6_exact3&prun<.3|p>=0.3": 2.12,
+  "France_p6_exact3&prun<.3|p>=0.5": 0.99,
+  "France_p5_exact3|p>=0.3": 2.66,
+  "France_p5_exact3|p>=0.5": 1.5,
+  "France_p5_exact3&supp2|p>=0.3": 1.78,
+  "France_p5_exact3&supp2|p>=0.5": 0.96,
+  "France_p5_sib_twin>=1|p>=0.3": 12.31,
+  "France_p5_sib_twin>=1|p>=0.5": 6.09,
+  "France_p5_sib_twin>=2|p>=0.3": 5.75,
+  "France_p5_sib_twin>=2|p>=0.5": 2.65,
+  "France_p5_exact3&prun<.3|p>=0.3": 2.54,
+  "France_p5_exact3&prun<.3|p>=0.5": 1.43
+ },
+ "test_nacc_perS1": {
+  "US_p6": 3.381,
+  "US_p5": 3.3722,
+  "India_p6": 3.3795,
+  "India_p5": 3.3684,
+  "France_p6": 3.2709,
+  "France_p5": 3.2931
+ },
+ "test_flags_p6": [
+  {
+   "band": "0.72-0.90",
+   "flag": "num_diff",
+   "US": 9.43,
+   "India": 7.08,
+   "France": 10.95,
+   "USI": 8.14,
+   "Fr/USI": 1.35,
+   "band_Fr": 90.4,
+   "band_USI": 28.2
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "nm_far",
+   "US": 7.3,
+   "India": 10.33,
+   "France": 52.97,
+   "USI": 8.97,
+   "Fr/USI": 5.91,
+   "band_Fr": 90.4,
+   "band_USI": 28.2
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "st_diff",
+   "US": 2.94,
+   "India": 6.44,
+   "France": 9.59,
+   "USI": 4.86,
+   "Fr/USI": 1.97,
+   "band_Fr": 90.4,
+   "band_USI": 28.2
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "lonely_nm",
+   "US": 2.78,
+   "India": 3.44,
+   "France": 28.48,
+   "USI": 3.14,
+   "Fr/USI": 9.07,
+   "band_Fr": 90.4,
+   "band_USI": 28.2
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "lonely_nmfar",
+   "US": 1.7,
+   "India": 2.37,
+   "France": 22.46,
+   "USI": 2.07,
+   "Fr/USI": 10.85,
+   "band_Fr": 90.4,
+   "band_USI": 28.2
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "lonely_num",
+   "US": 3.4,
+   "India": 1.94,
+   "France": 8.53,
+   "USI": 2.6,
+   "Fr/USI": 3.28,
+   "band_Fr": 90.4,
+   "band_USI": 28.2
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "lonely_st",
+   "US": 0.97,
+   "India": 2.65,
+   "France": 4.46,
+   "USI": 1.89,
+   "Fr/USI": 2.36,
+   "band_Fr": 90.4,
+   "band_USI": 28.2
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "grp2_num",
+   "US": 4.29,
+   "India": 3.76,
+   "France": 1.09,
+   "USI": 4.0,
+   "Fr/USI": 0.27,
+   "band_Fr": 90.4,
+   "band_USI": 28.2
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "lonely_any",
+   "US": 6.47,
+   "India": 6.95,
+   "France": 38.17,
+   "USI": 6.73,
+   "Fr/USI": 5.67,
+   "band_Fr": 90.4,
+   "band_USI": 28.2
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "nosib_twin_no2",
+   "US": 20.82,
+   "India": 21.33,
+   "France": 70.42,
+   "USI": 21.1,
+   "Fr/USI": 3.34,
+   "band_Fr": 90.4,
+   "band_USI": 28.2
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "nacc_ge7",
+   "US": 2.42,
+   "India": 2.12,
+   "France": 6.41,
+   "USI": 2.26,
+   "Fr/USI": 2.84,
+   "band_Fr": 90.4,
+   "band_USI": 28.2
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "s1_twin",
+   "US": 0.0,
+   "India": 0.17,
+   "France": 2.56,
+   "USI": 0.09,
+   "Fr/USI": 28.44,
+   "band_Fr": 90.4,
+   "band_USI": 28.2
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "prun_ge.3",
+   "US": 3.69,
+   "India": 4.28,
+   "France": 6.9,
+   "USI": 4.01,
+   "Fr/USI": 1.72,
+   "band_Fr": 90.4,
+   "band_USI": 28.2
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "prun_ge.72",
+   "US": 0.24,
+   "India": 0.66,
+   "France": 1.05,
+   "USI": 0.47,
+   "Fr/USI": 2.23,
+   "band_Fr": 90.4,
+   "band_USI": 28.2
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "lonely_num|nm_2plus",
+   "US": 4.75,
+   "India": 4.02,
+   "France": 29.64,
+   "USI": 4.35,
+   "Fr/USI": 6.81,
+   "band_Fr": 90.4,
+   "band_USI": 28.2
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "lonely_nm&s1_twin",
+   "US": 0.0,
+   "India": 0.02,
+   "France": 0.68,
+   "USI": 0.01,
+   "Fr/USI": 68.0,
+   "band_Fr": 90.4,
+   "band_USI": 28.2
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "num_diff",
+   "US": 33.23,
+   "India": 35.27,
+   "France": 18.95,
+   "USI": 34.35,
+   "Fr/USI": 0.55,
+   "band_Fr": 262.3,
+   "band_USI": 105.5
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "nm_far",
+   "US": 30.38,
+   "India": 36.94,
+   "France": 101.39,
+   "USI": 33.99,
+   "Fr/USI": 2.98,
+   "band_Fr": 262.3,
+   "band_USI": 105.5
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "st_diff",
+   "US": 12.48,
+   "India": 24.43,
+   "France": 27.58,
+   "USI": 19.05,
+   "Fr/USI": 1.45,
+   "band_Fr": 262.3,
+   "band_USI": 105.5
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "lonely_nm",
+   "US": 12.41,
+   "India": 12.4,
+   "France": 54.32,
+   "USI": 12.4,
+   "Fr/USI": 4.38,
+   "band_Fr": 262.3,
+   "band_USI": 105.5
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "lonely_nmfar",
+   "US": 7.52,
+   "India": 8.29,
+   "France": 42.45,
+   "USI": 7.94,
+   "Fr/USI": 5.35,
+   "band_Fr": 262.3,
+   "band_USI": 105.5
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "lonely_num",
+   "US": 8.08,
+   "India": 6.81,
+   "France": 10.51,
+   "USI": 7.38,
+   "Fr/USI": 1.42,
+   "band_Fr": 262.3,
+   "band_USI": 105.5
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "lonely_st",
+   "US": 3.95,
+   "India": 9.37,
+   "France": 12.35,
+   "USI": 6.93,
+   "Fr/USI": 1.78,
+   "band_Fr": 262.3,
+   "band_USI": 105.5
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "grp2_num",
+   "US": 19.59,
+   "India": 23.95,
+   "France": 6.08,
+   "USI": 21.99,
+   "Fr/USI": 0.28,
+   "band_Fr": 262.3,
+   "band_USI": 105.5
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "lonely_any",
+   "US": 21.74,
+   "India": 25.17,
+   "France": 72.92,
+   "USI": 23.63,
+   "Fr/USI": 3.09,
+   "band_Fr": 262.3,
+   "band_USI": 105.5
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "nosib_twin_no2",
+   "US": 72.0,
+   "India": 77.31,
+   "France": 148.8,
+   "USI": 74.92,
+   "Fr/USI": 1.99,
+   "band_Fr": 262.3,
+   "band_USI": 105.5
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "nacc_ge7",
+   "US": 8.34,
+   "India": 8.62,
+   "France": 18.05,
+   "USI": 8.49,
+   "Fr/USI": 2.13,
+   "band_Fr": 262.3,
+   "band_USI": 105.5
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "s1_twin",
+   "US": 0.0,
+   "India": 0.79,
+   "France": 5.71,
+   "USI": 0.43,
+   "Fr/USI": 13.28,
+   "band_Fr": 262.3,
+   "band_USI": 105.5
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "prun_ge.3",
+   "US": 1.95,
+   "India": 3.53,
+   "France": 10.64,
+   "USI": 2.82,
+   "Fr/USI": 3.77,
+   "band_Fr": 262.3,
+   "band_USI": 105.5
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "prun_ge.72",
+   "US": 0.27,
+   "India": 0.9,
+   "France": 2.92,
+   "USI": 0.62,
+   "Fr/USI": 4.71,
+   "band_Fr": 262.3,
+   "band_USI": 105.5
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "lonely_num|nm_2plus",
+   "US": 14.5,
+   "India": 13.79,
+   "France": 52.06,
+   "USI": 14.11,
+   "Fr/USI": 3.69,
+   "band_Fr": 262.3,
+   "band_USI": 105.5
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "lonely_nm&s1_twin",
+   "US": 0.0,
+   "India": 0.09,
+   "France": 1.16,
+   "USI": 0.05,
+   "Fr/USI": 23.2,
+   "band_Fr": 262.3,
+   "band_USI": 105.5
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "num_diff",
+   "US": 321.15,
+   "India": 655.04,
+   "France": 31.04,
+   "USI": 504.74,
+   "Fr/USI": 0.06,
+   "band_Fr": 2918.1,
+   "band_USI": 3246.5
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "nm_far",
+   "US": 543.53,
+   "India": 622.55,
+   "France": 407.96,
+   "USI": 586.98,
+   "Fr/USI": 0.7,
+   "band_Fr": 2918.1,
+   "band_USI": 3246.5
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "st_diff",
+   "US": 528.91,
+   "India": 586.91,
+   "France": 358.46,
+   "USI": 560.8,
+   "Fr/USI": 0.64,
+   "band_Fr": 2918.1,
+   "band_USI": 3246.5
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "lonely_nm",
+   "US": 287.15,
+   "India": 256.91,
+   "France": 255.27,
+   "USI": 270.52,
+   "Fr/USI": 0.94,
+   "band_Fr": 2918.1,
+   "band_USI": 3246.5
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "lonely_nmfar",
+   "US": 132.02,
+   "India": 140.88,
+   "France": 175.33,
+   "USI": 136.89,
+   "Fr/USI": 1.28,
+   "band_Fr": 2918.1,
+   "band_USI": 3246.5
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "lonely_num",
+   "US": 93.86,
+   "India": 106.89,
+   "France": 9.75,
+   "USI": 101.02,
+   "Fr/USI": 0.1,
+   "band_Fr": 2918.1,
+   "band_USI": 3246.5
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "lonely_st",
+   "US": 172.41,
+   "India": 231.44,
+   "France": 155.62,
+   "USI": 204.87,
+   "Fr/USI": 0.76,
+   "band_Fr": 2918.1,
+   "band_USI": 3246.5
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "grp2_num",
+   "US": 189.42,
+   "India": 484.33,
+   "France": 18.66,
+   "USI": 351.58,
+   "Fr/USI": 0.05,
+   "band_Fr": 2918.1,
+   "band_USI": 3246.5
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "lonely_any",
+   "US": 515.19,
+   "India": 552.27,
+   "France": 406.22,
+   "USI": 535.58,
+   "Fr/USI": 0.76,
+   "band_Fr": 2918.1,
+   "band_USI": 3246.5
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "nosib_twin_no2",
+   "US": 1536.88,
+   "India": 1503.08,
+   "France": 639.65,
+   "USI": 1518.29,
+   "Fr/USI": 0.42,
+   "band_Fr": 2918.1,
+   "band_USI": 3246.5
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "nacc_ge7",
+   "US": 250.17,
+   "India": 247.84,
+   "France": 192.41,
+   "USI": 248.89,
+   "Fr/USI": 0.77,
+   "band_Fr": 2918.1,
+   "band_USI": 3246.5
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "s1_twin",
+   "US": 0.11,
+   "India": 31.53,
+   "France": 82.08,
+   "USI": 17.39,
+   "Fr/USI": 4.72,
+   "band_Fr": 2918.1,
+   "band_USI": 3246.5
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "prun_ge.3",
+   "US": 0.72,
+   "India": 4.27,
+   "France": 75.72,
+   "USI": 2.67,
+   "Fr/USI": 28.36,
+   "band_Fr": 2918.1,
+   "band_USI": 3246.5
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "prun_ge.72",
+   "US": 0.3,
+   "India": 1.8,
+   "France": 49.11,
+   "USI": 1.12,
+   "Fr/USI": 43.85,
+   "band_Fr": 2918.1,
+   "band_USI": 3246.5
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "lonely_num|nm_2plus",
+   "US": 275.2,
+   "India": 269.04,
+   "France": 211.15,
+   "USI": 271.81,
+   "Fr/USI": 0.78,
+   "band_Fr": 2918.1,
+   "band_USI": 3246.5
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "lonely_nm&s1_twin",
+   "US": 0.01,
+   "India": 2.22,
+   "France": 7.51,
+   "USI": 1.23,
+   "Fr/USI": 6.11,
+   "band_Fr": 2918.1,
+   "band_USI": 3246.5
+  }
+ ],
+ "test_flags_p5": [
+  {
+   "band": "0.72-0.90",
+   "flag": "num_diff",
+   "US": 10.03,
+   "India": 9.41,
+   "France": 17.65,
+   "USI": 9.69,
+   "Fr/USI": 1.82,
+   "band_Fr": 80.3,
+   "band_USI": 27.4
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "nm_far",
+   "US": 7.39,
+   "India": 10.47,
+   "France": 40.27,
+   "USI": 9.08,
+   "Fr/USI": 4.44,
+   "band_Fr": 80.3,
+   "band_USI": 27.4
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "st_diff",
+   "US": 3.26,
+   "India": 7.88,
+   "France": 9.3,
+   "USI": 5.8,
+   "Fr/USI": 1.6,
+   "band_Fr": 80.3,
+   "band_USI": 27.4
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "lonely_nm",
+   "US": 3.03,
+   "India": 3.53,
+   "France": 22.35,
+   "USI": 3.3,
+   "Fr/USI": 6.77,
+   "band_Fr": 80.3,
+   "band_USI": 27.4
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "lonely_nmfar",
+   "US": 1.79,
+   "India": 2.4,
+   "France": 16.84,
+   "USI": 2.13,
+   "Fr/USI": 7.91,
+   "band_Fr": 80.3,
+   "band_USI": 27.4
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "lonely_num",
+   "US": 3.77,
+   "India": 2.42,
+   "France": 14.25,
+   "USI": 3.03,
+   "Fr/USI": 4.7,
+   "band_Fr": 80.3,
+   "band_USI": 27.4
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "lonely_st",
+   "US": 1.05,
+   "India": 3.17,
+   "France": 4.52,
+   "USI": 2.22,
+   "Fr/USI": 2.04,
+   "band_Fr": 80.3,
+   "band_USI": 27.4
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "grp2_num",
+   "US": 4.41,
+   "India": 5.23,
+   "France": 1.2,
+   "USI": 4.86,
+   "Fr/USI": 0.25,
+   "band_Fr": 80.3,
+   "band_USI": 27.4
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "lonely_any",
+   "US": 7.0,
+   "India": 7.9,
+   "France": 37.53,
+   "USI": 7.49,
+   "Fr/USI": 5.01,
+   "band_Fr": 80.3,
+   "band_USI": 27.4
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "nosib_twin_no2",
+   "US": 19.59,
+   "India": 20.68,
+   "France": 63.16,
+   "USI": 20.19,
+   "Fr/USI": 3.13,
+   "band_Fr": 80.3,
+   "band_USI": 27.4
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "nacc_ge7",
+   "US": 2.09,
+   "India": 2.1,
+   "France": 5.92,
+   "USI": 2.1,
+   "Fr/USI": 2.82,
+   "band_Fr": 80.3,
+   "band_USI": 27.4
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "s1_twin",
+   "US": 0.0,
+   "India": 0.23,
+   "France": 2.35,
+   "USI": 0.13,
+   "Fr/USI": 18.08,
+   "band_Fr": 80.3,
+   "band_USI": 27.4
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "prun_ge.3",
+   "US": 2.46,
+   "India": 3.21,
+   "France": 6.53,
+   "USI": 2.87,
+   "Fr/USI": 2.28,
+   "band_Fr": 80.3,
+   "band_USI": 27.4
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "prun_ge.72",
+   "US": 0.18,
+   "India": 0.53,
+   "France": 1.64,
+   "USI": 0.37,
+   "Fr/USI": 4.43,
+   "band_Fr": 80.3,
+   "band_USI": 27.4
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "lonely_num|nm_2plus",
+   "US": 5.11,
+   "India": 4.42,
+   "France": 30.02,
+   "USI": 4.73,
+   "Fr/USI": 6.35,
+   "band_Fr": 80.3,
+   "band_USI": 27.4
+  },
+  {
+   "band": "0.72-0.90",
+   "flag": "lonely_nm&s1_twin",
+   "US": 0.0,
+   "India": 0.03,
+   "France": 0.52,
+   "USI": 0.02,
+   "Fr/USI": 26.0,
+   "band_Fr": 80.3,
+   "band_USI": 27.4
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "num_diff",
+   "US": 42.81,
+   "India": 60.27,
+   "France": 29.68,
+   "USI": 52.41,
+   "Fr/USI": 0.57,
+   "band_Fr": 256.1,
+   "band_USI": 141.0
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "nm_far",
+   "US": 40.98,
+   "India": 52.67,
+   "France": 110.89,
+   "USI": 47.41,
+   "Fr/USI": 2.34,
+   "band_Fr": 256.1,
+   "band_USI": 141.0
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "st_diff",
+   "US": 17.51,
+   "India": 43.88,
+   "France": 29.61,
+   "USI": 32.01,
+   "Fr/USI": 0.93,
+   "band_Fr": 256.1,
+   "band_USI": 141.0
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "lonely_nm",
+   "US": 16.88,
+   "India": 18.47,
+   "France": 62.3,
+   "USI": 17.75,
+   "Fr/USI": 3.51,
+   "band_Fr": 256.1,
+   "band_USI": 141.0
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "lonely_nmfar",
+   "US": 10.25,
+   "India": 12.01,
+   "France": 46.83,
+   "USI": 11.22,
+   "Fr/USI": 4.17,
+   "band_Fr": 256.1,
+   "band_USI": 141.0
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "lonely_num",
+   "US": 11.23,
+   "India": 11.3,
+   "France": 19.25,
+   "USI": 11.27,
+   "Fr/USI": 1.71,
+   "band_Fr": 256.1,
+   "band_USI": 141.0
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "lonely_st",
+   "US": 5.6,
+   "India": 16.74,
+   "France": 13.34,
+   "USI": 11.73,
+   "Fr/USI": 1.14,
+   "band_Fr": 256.1,
+   "band_USI": 141.0
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "grp2_num",
+   "US": 24.83,
+   "India": 41.65,
+   "France": 6.78,
+   "USI": 34.08,
+   "Fr/USI": 0.2,
+   "band_Fr": 256.1,
+   "band_USI": 141.0
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "lonely_any",
+   "US": 29.85,
+   "India": 40.8,
+   "France": 89.23,
+   "USI": 35.87,
+   "Fr/USI": 2.49,
+   "band_Fr": 256.1,
+   "band_USI": 141.0
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "nosib_twin_no2",
+   "US": 89.81,
+   "India": 105.03,
+   "France": 169.43,
+   "USI": 98.18,
+   "Fr/USI": 1.73,
+   "band_Fr": 256.1,
+   "band_USI": 141.0
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "nacc_ge7",
+   "US": 9.98,
+   "India": 11.65,
+   "France": 18.59,
+   "USI": 10.9,
+   "Fr/USI": 1.71,
+   "band_Fr": 256.1,
+   "band_USI": 141.0
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "s1_twin",
+   "US": 0.01,
+   "India": 1.3,
+   "France": 7.4,
+   "USI": 0.72,
+   "Fr/USI": 10.28,
+   "band_Fr": 256.1,
+   "band_USI": 141.0
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "prun_ge.3",
+   "US": 2.42,
+   "India": 4.09,
+   "France": 12.13,
+   "USI": 3.34,
+   "Fr/USI": 3.63,
+   "band_Fr": 256.1,
+   "band_USI": 141.0
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "prun_ge.72",
+   "US": 0.27,
+   "India": 1.02,
+   "France": 4.87,
+   "USI": 0.68,
+   "Fr/USI": 7.16,
+   "band_Fr": 256.1,
+   "band_USI": 141.0
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "lonely_num|nm_2plus",
+   "US": 20.02,
+   "India": 21.32,
+   "France": 66.31,
+   "USI": 20.73,
+   "Fr/USI": 3.2,
+   "band_Fr": 256.1,
+   "band_USI": 141.0
+  },
+  {
+   "band": "0.90-0.99",
+   "flag": "lonely_nm&s1_twin",
+   "US": 0.0,
+   "India": 0.16,
+   "France": 1.56,
+   "USI": 0.09,
+   "Fr/USI": 17.33,
+   "band_Fr": 256.1,
+   "band_USI": 141.0
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "num_diff",
+   "US": 308.18,
+   "India": 624.0,
+   "France": 30.43,
+   "USI": 481.83,
+   "Fr/USI": 0.06,
+   "band_Fr": 2956.7,
+   "band_USI": 3201.7
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "nm_far",
+   "US": 529.48,
+   "India": 602.08,
+   "France": 407.05,
+   "USI": 569.4,
+   "Fr/USI": 0.71,
+   "band_Fr": 2956.7,
+   "band_USI": 3201.7
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "st_diff",
+   "US": 522.03,
+   "India": 561.6,
+   "France": 361.62,
+   "USI": 543.79,
+   "Fr/USI": 0.66,
+   "band_Fr": 2956.7,
+   "band_USI": 3201.7
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "lonely_nm",
+   "US": 282.75,
+   "India": 250.91,
+   "France": 254.17,
+   "USI": 265.24,
+   "Fr/USI": 0.96,
+   "band_Fr": 2956.7,
+   "band_USI": 3201.7
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "lonely_nmfar",
+   "US": 129.17,
+   "India": 137.04,
+   "France": 174.47,
+   "USI": 133.5,
+   "Fr/USI": 1.31,
+   "band_Fr": 2956.7,
+   "band_USI": 3201.7
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "lonely_num",
+   "US": 90.76,
+   "India": 102.57,
+   "France": 9.65,
+   "USI": 97.25,
+   "Fr/USI": 0.1,
+   "band_Fr": 2956.7,
+   "band_USI": 3201.7
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "lonely_st",
+   "US": 170.55,
+   "India": 223.24,
+   "France": 156.97,
+   "USI": 199.52,
+   "Fr/USI": 0.79,
+   "band_Fr": 2956.7,
+   "band_USI": 3201.7
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "grp2_num",
+   "US": 181.06,
+   "India": 460.51,
+   "France": 17.95,
+   "USI": 334.72,
+   "Fr/USI": 0.05,
+   "band_Fr": 2956.7,
+   "band_USI": 3201.7
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "lonely_any",
+   "US": 507.12,
+   "India": 536.13,
+   "France": 406.65,
+   "USI": 523.07,
+   "Fr/USI": 0.78,
+   "band_Fr": 2956.7,
+   "band_USI": 3201.7
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "nosib_twin_no2",
+   "US": 1511.92,
+   "India": 1465.24,
+   "France": 647.94,
+   "USI": 1486.25,
+   "Fr/USI": 0.44,
+   "band_Fr": 2956.7,
+   "band_USI": 3201.7
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "nacc_ge7",
+   "US": 245.15,
+   "India": 240.62,
+   "France": 199.87,
+   "USI": 242.66,
+   "Fr/USI": 0.82,
+   "band_Fr": 2956.7,
+   "band_USI": 3201.7
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "s1_twin",
+   "US": 0.11,
+   "India": 30.87,
+   "France": 82.03,
+   "USI": 17.02,
+   "Fr/USI": 4.82,
+   "band_Fr": 2956.7,
+   "band_USI": 3201.7
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "prun_ge.3",
+   "US": 0.94,
+   "India": 5.77,
+   "France": 109.2,
+   "USI": 3.6,
+   "Fr/USI": 30.33,
+   "band_Fr": 2956.7,
+   "band_USI": 3201.7
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "prun_ge.72",
+   "US": 0.41,
+   "India": 2.38,
+   "France": 69.03,
+   "USI": 1.49,
+   "Fr/USI": 46.33,
+   "band_Fr": 2956.7,
+   "band_USI": 3201.7
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "lonely_num|nm_2plus",
+   "US": 269.43,
+   "India": 261.13,
+   "France": 210.64,
+   "USI": 264.87,
+   "Fr/USI": 0.8,
+   "band_Fr": 2956.7,
+   "band_USI": 3201.7
+  },
+  {
+   "band": "0.99-1.00",
+   "flag": "lonely_nm&s1_twin",
+   "US": 0.01,
+   "India": 2.14,
+   "France": 7.32,
+   "USI": 1.18,
+   "Fr/USI": 6.2,
+   "band_Fr": 2956.7,
+   "band_USI": 3201.7
+  }
+ ]
+}

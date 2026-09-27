@@ -1,0 +1,1995 @@
+{
+ "France_PP_pairs": 595690,
+ "France_kept_final_pairs": 854396,
+ "France_kept_final_S1": 244988,
+ "France_one_for_one_core_subs": 73150,
+ "US_PP_pairs": 460067,
+ "India_PP_pairs": 216672,
+ "France_content_set_sizes": {
+  "A": 336,
+  "WA": 335,
+  "inter": 335,
+  "A_only": [
+   "5arl"
+  ],
+  "WA_only": []
+ },
+ "France_flag_Aset": {
+  "pairs": 15323,
+  "S1": 14840,
+  "HI": 4479,
+  "LO": 10844,
+  "S1_LO": 10621,
+  "street": 12566,
+  "street_share": 0.8201,
+  "mean_p": 0.9456,
+  "mean_1mp_LO": 0.0752
+ },
+ "France_flag_WAset": {
+  "pairs": 15323,
+  "S1": 14840,
+  "HI": 4479,
+  "LO": 10844,
+  "S1_LO": 10621,
+  "street": 12566,
+  "street_share": 0.8201,
+  "mean_p": 0.9456,
+  "mean_1mp_LO": 0.0752
+ },
+ "France_flag_overlap_pairs": {
+  "A_and_WA": 15323,
+  "A_only": 0,
+  "WA_only": 0
+ },
+ "France_sensitivity_grid": {
+  "thr0.01_occ100": {
+   "n_content": 864,
+   "pairs": 6207,
+   "S1": 6080,
+   "HI": 995,
+   "LO": 5212,
+   "S1_LO": 5135,
+   "street": 5185,
+   "street_share": 0.8353,
+   "mean_p": 0.9309,
+   "mean_1mp_LO": 0.0815
+  },
+  "thr0.01_occ300": {
+   "n_content": 323,
+   "pairs": 6111,
+   "S1": 5987,
+   "HI": 976,
+   "LO": 5135,
+   "S1_LO": 5060,
+   "street": 5118,
+   "street_share": 0.8375,
+   "mean_p": 0.9309,
+   "mean_1mp_LO": 0.0814
+  },
+  "thr0.01_occ1000": {
+   "n_content": 120,
+   "pairs": 5940,
+   "S1": 5822,
+   "HI": 939,
+   "LO": 5001,
+   "S1_LO": 4929,
+   "street": 4977,
+   "street_share": 0.8379,
+   "mean_p": 0.9307,
+   "mean_1mp_LO": 0.0814
+  },
+  "thr0.01_occ3000": {
+   "n_content": 55,
+   "pairs": 5350,
+   "S1": 5251,
+   "HI": 816,
+   "LO": 4534,
+   "S1_LO": 4474,
+   "street": 4484,
+   "street_share": 0.8381,
+   "mean_p": 0.93,
+   "mean_1mp_LO": 0.0818
+  },
+  "thr0.02_occ100": {
+   "n_content": 878,
+   "pairs": 9033,
+   "S1": 8814,
+   "HI": 1952,
+   "LO": 7081,
+   "S1_LO": 6966,
+   "street": 7432,
+   "street_share": 0.8228,
+   "mean_p": 0.9365,
+   "mean_1mp_LO": 0.0798
+  },
+  "thr0.02_occ300": {
+   "n_content": 329,
+   "pairs": 8887,
+   "S1": 8674,
+   "HI": 1916,
+   "LO": 6971,
+   "S1_LO": 6859,
+   "street": 7326,
+   "street_share": 0.8244,
+   "mean_p": 0.9366,
+   "mean_1mp_LO": 0.0797
+  },
+  "thr0.02_occ1000": {
+   "n_content": 125,
+   "pairs": 8680,
+   "S1": 8474,
+   "HI": 1868,
+   "LO": 6812,
+   "S1_LO": 6703,
+   "street": 7160,
+   "street_share": 0.8249,
+   "mean_p": 0.9366,
+   "mean_1mp_LO": 0.0797
+  },
+  "thr0.02_occ3000": {
+   "n_content": 60,
+   "pairs": 7958,
+   "S1": 7781,
+   "HI": 1695,
+   "LO": 6263,
+   "S1_LO": 6169,
+   "street": 6563,
+   "street_share": 0.8247,
+   "mean_p": 0.9363,
+   "mean_1mp_LO": 0.0798
+  },
+  "thr0.05_occ100": {
+   "n_content": 895,
+   "pairs": 15545,
+   "S1": 15053,
+   "HI": 4551,
+   "LO": 10994,
+   "S1_LO": 10767,
+   "street": 12740,
+   "street_share": 0.8196,
+   "mean_p": 0.9456,
+   "mean_1mp_LO": 0.0753
+  },
+  "thr0.05_occ300": {
+   "n_content": 335,
+   "pairs": 15323,
+   "S1": 14840,
+   "HI": 4479,
+   "LO": 10844,
+   "S1_LO": 10621,
+   "street": 12566,
+   "street_share": 0.8201,
+   "mean_p": 0.9456,
+   "mean_1mp_LO": 0.0752
+  },
+  "thr0.05_occ1000": {
+   "n_content": 130,
+   "pairs": 14963,
+   "S1": 14500,
+   "HI": 4371,
+   "LO": 10592,
+   "S1_LO": 10378,
+   "street": 12277,
+   "street_share": 0.8205,
+   "mean_p": 0.9456,
+   "mean_1mp_LO": 0.0752
+  },
+  "thr0.05_occ3000": {
+   "n_content": 65,
+   "pairs": 13936,
+   "S1": 13525,
+   "HI": 4078,
+   "LO": 9858,
+   "S1_LO": 9672,
+   "street": 11426,
+   "street_share": 0.8199,
+   "mean_p": 0.9456,
+   "mean_1mp_LO": 0.0753
+  },
+  "thr0.1_occ100": {
+   "n_content": 904,
+   "pairs": 17809,
+   "S1": 17108,
+   "HI": 5099,
+   "LO": 12710,
+   "S1_LO": 12360,
+   "street": 14353,
+   "street_share": 0.8059,
+   "mean_p": 0.9426,
+   "mean_1mp_LO": 0.0789
+  },
+  "thr0.1_occ300": {
+   "n_content": 338,
+   "pairs": 17556,
+   "S1": 16865,
+   "HI": 5009,
+   "LO": 12547,
+   "S1_LO": 12201,
+   "street": 14153,
+   "street_share": 0.8062,
+   "mean_p": 0.9426,
+   "mean_1mp_LO": 0.0789
+  },
+  "thr0.1_occ1000": {
+   "n_content": 132,
+   "pairs": 17146,
+   "S1": 16483,
+   "HI": 4883,
+   "LO": 12263,
+   "S1_LO": 11929,
+   "street": 13829,
+   "street_share": 0.8065,
+   "mean_p": 0.9424,
+   "mean_1mp_LO": 0.079
+  },
+  "thr0.1_occ3000": {
+   "n_content": 66,
+   "pairs": 14864,
+   "S1": 14402,
+   "HI": 4503,
+   "LO": 10361,
+   "S1_LO": 10153,
+   "street": 11908,
+   "street_share": 0.8011,
+   "mean_p": 0.9458,
+   "mean_1mp_LO": 0.0762
+  },
+  "thr0.2_occ100": {
+   "n_content": 910,
+   "pairs": 22554,
+   "S1": 21393,
+   "HI": 6915,
+   "LO": 15639,
+   "S1_LO": 15076,
+   "street": 18235,
+   "street_share": 0.8085,
+   "mean_p": 0.9466,
+   "mean_1mp_LO": 0.0754
+  },
+  "thr0.2_occ300": {
+   "n_content": 340,
+   "pairs": 22274,
+   "S1": 21129,
+   "HI": 6816,
+   "LO": 15458,
+   "S1_LO": 14902,
+   "street": 18011,
+   "street_share": 0.8086,
+   "mean_p": 0.9466,
+   "mean_1mp_LO": 0.0753
+  },
+  "thr0.2_occ1000": {
+   "n_content": 134,
+   "pairs": 21818,
+   "S1": 20705,
+   "HI": 6676,
+   "LO": 15142,
+   "S1_LO": 14600,
+   "street": 17651,
+   "street_share": 0.809,
+   "mean_p": 0.9466,
+   "mean_1mp_LO": 0.0753
+  },
+  "thr0.2_occ3000": {
+   "n_content": 68,
+   "pairs": 19359,
+   "S1": 18490,
+   "HI": 6268,
+   "LO": 13091,
+   "S1_LO": 12699,
+   "street": 15596,
+   "street_share": 0.8056,
+   "mean_p": 0.9497,
+   "mean_1mp_LO": 0.0725
+  },
+  "thr0.5_occ100": {
+   "n_content": 916,
+   "pairs": 29646,
+   "S1": 27630,
+   "HI": 12416,
+   "LO": 17230,
+   "S1_LO": 16575,
+   "street": 23980,
+   "street_share": 0.8089,
+   "mean_p": 0.9565,
+   "mean_1mp_LO": 0.0724
+  },
+  "thr0.5_occ300": {
+   "n_content": 341,
+   "pairs": 29279,
+   "S1": 27292,
+   "HI": 12252,
+   "LO": 17027,
+   "S1_LO": 16381,
+   "street": 23685,
+   "street_share": 0.8089,
+   "mean_p": 0.9566,
+   "mean_1mp_LO": 0.0723
+  },
+  "thr0.5_occ1000": {
+   "n_content": 135,
+   "pairs": 28749,
+   "S1": 26801,
+   "HI": 12073,
+   "LO": 16676,
+   "S1_LO": 16046,
+   "street": 23271,
+   "street_share": 0.8095,
+   "mean_p": 0.9566,
+   "mean_1mp_LO": 0.0724
+  },
+  "thr0.5_occ3000": {
+   "n_content": 69,
+   "pairs": 26046,
+   "S1": 24405,
+   "HI": 11518,
+   "LO": 14528,
+   "S1_LO": 14059,
+   "street": 21021,
+   "street_share": 0.8071,
+   "mean_p": 0.9598,
+   "mean_1mp_LO": 0.0695
+  }
+ },
+ "France_top_swaps_Aset": [
+  [
+   "club",
+   "comite",
+   226,
+   0.0214,
+   32128
+  ],
+  [
+   "amicale",
+   "amis",
+   183,
+   0.0251,
+   16509
+  ],
+  [
+   "club",
+   "centre",
+   182,
+   0.0181,
+   23863
+  ],
+  [
+   "club",
+   "france",
+   176,
+   0.0059,
+   49881
+  ],
+  [
+   "club",
+   "amicale",
+   147,
+   0.0054,
+   32969
+  ],
+  [
+   "comite",
+   "club",
+   137,
+   0.0064,
+   51590
+  ],
+  [
+   "groupement",
+   "groupe",
+   114,
+   0.0153,
+   5058
+  ],
+  [
+   "amicale",
+   "comite",
+   112,
+   0.0214,
+   32128
+  ],
+  [
+   "centre",
+   "club",
+   107,
+   0.0064,
+   51590
+  ],
+  [
+   "sportive",
+   "sport",
+   105,
+   0.0034,
+   6404
+  ],
+  [
+   "club",
+   "ecole",
+   101,
+   0.0019,
+   34864
+  ],
+  [
+   "club",
+   "amis",
+   94,
+   0.0251,
+   16509
+  ],
+  [
+   "college",
+   "club",
+   90,
+   0.0064,
+   51590
+  ],
+  [
+   "sportive",
+   "club",
+   89,
+   0.0064,
+   51590
+  ],
+  [
+   "ecole",
+   "comite",
+   89,
+   0.0214,
+   32128
+  ],
+  [
+   "amicale",
+   "club",
+   88,
+   0.0064,
+   51590
+  ],
+  [
+   "comite",
+   "amicale",
+   84,
+   0.0054,
+   32969
+  ],
+  [
+   "ecole",
+   "club",
+   84,
+   0.0064,
+   51590
+  ],
+  [
+   "college",
+   "ecole",
+   83,
+   0.0019,
+   34864
+  ],
+  [
+   "club",
+   "societe",
+   82,
+   0.0445,
+   9982
+  ],
+  [
+   "comite",
+   "centre",
+   82,
+   0.0181,
+   23863
+  ],
+  [
+   "amis",
+   "amicale",
+   82,
+   0.0054,
+   32969
+  ],
+  [
+   "sante",
+   "france",
+   82,
+   0.0059,
+   49881
+  ],
+  [
+   "club",
+   "fetes",
+   73,
+   0.0323,
+   9258
+  ],
+  [
+   "centre",
+   "comite",
+   71,
+   0.0214,
+   32128
+  ],
+  [
+   "amis",
+   "club",
+   68,
+   0.0064,
+   51590
+  ],
+  [
+   "club",
+   "college",
+   66,
+   0.0045,
+   16399
+  ],
+  [
+   "amicale",
+   "centre",
+   66,
+   0.0181,
+   23863
+  ],
+  [
+   "club",
+   "parents",
+   64,
+   0.0075,
+   12498
+  ],
+  [
+   "sportive",
+   "amicale",
+   64,
+   0.0054,
+   32969
+  ]
+ ],
+ "France_flagged_S1_m_dist": {
+  "0": 787,
+  "1": 1327,
+  "2": 2944,
+  "3": 3750,
+  "4": 3015,
+  "5": 1818,
+  "6": 829,
+  "7": 278,
+  "8": 92
+ },
+ "France_flagged_share_of_France_S1": 0.0572,
+ "France_flagged_p_quantiles": {
+  "0.05": 0.8134,
+  "0.1": 0.8405,
+  "0.25": 0.9162,
+  "0.5": 0.9709,
+  "0.75": 0.9925,
+  "0.9": 0.998
+ },
+ "France_flagged_model_implied_FP": {
+  "all": 832.8,
+  "LO": 815.6,
+  "share_all": 0.0544
+ },
+ "US_GT_pairs": 588308,
+ "India_GT_pairs": 186300,
+ "V1": {
+  "US_PP": {
+   "n_content": 570,
+   "content_for_content_any_all": {
+    "n": 33354,
+    "neg": 33345,
+    "neg_rate_ci": [
+     0.9997,
+     0.9995,
+     0.9999
+    ]
+   },
+   "content_for_content_any_p<0.5": {
+    "n": 33349,
+    "neg": 33345,
+    "neg_rate_ci": [
+     0.9999,
+     0.9997,
+     1.0
+    ],
+    "mean_1mp": 0.9998
+   },
+   "content_for_content_any_0.5-0.78": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_for_content_any_0.78-0.99": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_for_content_any_>=0.99": {
+    "n": 5,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.4345
+    ],
+    "mean_1mp": 0.0001
+   },
+   "content_for_content_street_all": {
+    "n": 10,
+    "neg": 6,
+    "neg_rate_ci": [
+     0.6,
+     0.3127,
+     0.8318
+    ]
+   },
+   "content_for_content_street_p<0.5": {
+    "n": 6,
+    "neg": 6,
+    "neg_rate_ci": [
+     1.0,
+     0.6097,
+     1.0
+    ],
+    "mean_1mp": 0.9956
+   },
+   "content_for_content_street_0.5-0.78": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_for_content_street_0.78-0.99": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_for_content_street_>=0.99": {
+    "n": 4,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.4899
+    ],
+    "mean_1mp": 0.0001
+   },
+   "content_in_any_out_any_all": {
+    "n": 55541,
+    "neg": 55513,
+    "neg_rate_ci": [
+     0.9995,
+     0.9993,
+     0.9997
+    ]
+   },
+   "content_in_any_out_any_p<0.5": {
+    "n": 55521,
+    "neg": 55513,
+    "neg_rate_ci": [
+     0.9999,
+     0.9997,
+     0.9999
+    ],
+    "mean_1mp": 0.9998
+   },
+   "content_in_any_out_any_0.5-0.78": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_in_any_out_any_0.78-0.99": {
+    "n": 1,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.7935
+    ],
+    "mean_1mp": 0.0535
+   },
+   "content_in_any_out_any_>=0.99": {
+    "n": 19,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.1682
+    ],
+    "mean_1mp": 0.0007
+   },
+   "content_in_any_out_street_all": {
+    "n": 45,
+    "neg": 31,
+    "neg_rate_ci": [
+     0.6889,
+     0.5433,
+     0.8047
+    ]
+   },
+   "content_in_any_out_street_p<0.5": {
+    "n": 31,
+    "neg": 31,
+    "neg_rate_ci": [
+     1.0,
+     0.8897,
+     1.0
+    ],
+    "mean_1mp": 0.989
+   },
+   "content_in_any_out_street_0.5-0.78": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_in_any_out_street_0.78-0.99": {
+    "n": 1,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.7935
+    ],
+    "mean_1mp": 0.0535
+   },
+   "content_in_any_out_street_>=0.99": {
+    "n": 13,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.2281
+    ],
+    "mean_1mp": 0.0009
+   },
+   "accepted_content_for_content_examples": [
+    [
+     "Fisher, Griggs & Nguyen",
+     "Fisher, Griggs-and",
+     1,
+     1.0
+    ],
+    [
+     "Foot & Ankle Clinic",
+     "Foot and Ankle",
+     1,
+     1.0
+    ],
+    [
+     "Flores, Bowman & Garcia",
+     "Flores, Bowman and",
+     1,
+     1.0
+    ],
+    [
+     "G/L Mitsui LLC",
+     "LLC 6/L Mitsui",
+     1,
+     1.0
+    ],
+    [
+     "Rapid Smart Ngl Inc.",
+     "Rapid St Ngl [Inc.]",
+     1,
+     1.0
+    ]
+   ]
+  },
+  "US_GT": {
+   "n_content": 675,
+   "content_for_content_any_all": {
+    "n": 35893,
+    "neg": 35883,
+    "neg_rate_ci": [
+     0.9997,
+     0.9995,
+     0.9998
+    ]
+   },
+   "content_for_content_any_p<0.5": {
+    "n": 35887,
+    "neg": 35883,
+    "neg_rate_ci": [
+     0.9999,
+     0.9997,
+     1.0
+    ],
+    "mean_1mp": 0.9998
+   },
+   "content_for_content_any_0.5-0.78": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_for_content_any_0.78-0.99": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_for_content_any_>=0.99": {
+    "n": 6,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.3903
+    ],
+    "mean_1mp": 0.0003
+   },
+   "content_for_content_street_all": {
+    "n": 12,
+    "neg": 8,
+    "neg_rate_ci": [
+     0.6667,
+     0.3906,
+     0.8619
+    ]
+   },
+   "content_for_content_street_p<0.5": {
+    "n": 8,
+    "neg": 8,
+    "neg_rate_ci": [
+     1.0,
+     0.6756,
+     1
+    ],
+    "mean_1mp": 0.9936
+   },
+   "content_for_content_street_0.5-0.78": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_for_content_street_0.78-0.99": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_for_content_street_>=0.99": {
+    "n": 4,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.4899
+    ],
+    "mean_1mp": 0.0001
+   },
+   "content_in_any_out_any_all": {
+    "n": 58332,
+    "neg": 58304,
+    "neg_rate_ci": [
+     0.9995,
+     0.9993,
+     0.9997
+    ]
+   },
+   "content_in_any_out_any_p<0.5": {
+    "n": 58312,
+    "neg": 58304,
+    "neg_rate_ci": [
+     0.9999,
+     0.9997,
+     0.9999
+    ],
+    "mean_1mp": 0.9998
+   },
+   "content_in_any_out_any_0.5-0.78": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_in_any_out_any_0.78-0.99": {
+    "n": 1,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.7935
+    ],
+    "mean_1mp": 0.0535
+   },
+   "content_in_any_out_any_>=0.99": {
+    "n": 19,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.1682
+    ],
+    "mean_1mp": 0.0007
+   },
+   "content_in_any_out_street_all": {
+    "n": 49,
+    "neg": 35,
+    "neg_rate_ci": [
+     0.7143,
+     0.5759,
+     0.8215
+    ]
+   },
+   "content_in_any_out_street_p<0.5": {
+    "n": 35,
+    "neg": 35,
+    "neg_rate_ci": [
+     1.0,
+     0.9011,
+     1
+    ],
+    "mean_1mp": 0.9902
+   },
+   "content_in_any_out_street_0.5-0.78": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_in_any_out_street_0.78-0.99": {
+    "n": 1,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.7935
+    ],
+    "mean_1mp": 0.0535
+   },
+   "content_in_any_out_street_>=0.99": {
+    "n": 13,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.2281
+    ],
+    "mean_1mp": 0.0009
+   },
+   "accepted_content_for_content_examples": [
+    [
+     "Fisher, Griggs & Nguyen",
+     "Fisher, Griggs-and",
+     1,
+     1.0
+    ],
+    [
+     "Foot & Ankle Clinic",
+     "Foot and Ankle",
+     1,
+     1.0
+    ],
+    [
+     "Flores, Bowman & Garcia",
+     "Flores, Bowman and",
+     1,
+     1.0
+    ],
+    [
+     "G/L Mitsui LLC",
+     "LLC 6/L Mitsui",
+     1,
+     1.0
+    ],
+    [
+     "Smith & Barbera Catering LLC",
+     "SMITH and and BARBERA",
+     1,
+     0.999
+    ],
+    [
+     "Rapid Smart Ngl Inc.",
+     "Rapid St Ngl [Inc.]",
+     1,
+     1.0
+    ]
+   ]
+  },
+  "US_A": {
+   "n_content": 1171,
+   "content_for_content_any_all": {
+    "n": 45099,
+    "neg": 45080,
+    "neg_rate_ci": [
+     0.9996,
+     0.9993,
+     0.9997
+    ]
+   },
+   "content_for_content_any_p<0.5": {
+    "n": 45085,
+    "neg": 45080,
+    "neg_rate_ci": [
+     0.9999,
+     0.9997,
+     1.0
+    ],
+    "mean_1mp": 0.9998
+   },
+   "content_for_content_any_0.5-0.78": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_for_content_any_0.78-0.99": {
+    "n": 1,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.7935
+    ],
+    "mean_1mp": 0.0448
+   },
+   "content_for_content_any_>=0.99": {
+    "n": 13,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.2281
+    ],
+    "mean_1mp": 0.0004
+   },
+   "content_for_content_street_all": {
+    "n": 24,
+    "neg": 12,
+    "neg_rate_ci": [
+     0.5,
+     0.3143,
+     0.6857
+    ]
+   },
+   "content_for_content_street_p<0.5": {
+    "n": 12,
+    "neg": 12,
+    "neg_rate_ci": [
+     1.0,
+     0.7575,
+     1
+    ],
+    "mean_1mp": 0.9937
+   },
+   "content_for_content_street_0.5-0.78": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_for_content_street_0.78-0.99": {
+    "n": 1,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.7935
+    ],
+    "mean_1mp": 0.0448
+   },
+   "content_for_content_street_>=0.99": {
+    "n": 11,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0.0,
+     0.2588
+    ],
+    "mean_1mp": 0.0004
+   },
+   "content_in_any_out_any_all": {
+    "n": 67176,
+    "neg": 67141,
+    "neg_rate_ci": [
+     0.9995,
+     0.9993,
+     0.9996
+    ]
+   },
+   "content_in_any_out_any_p<0.5": {
+    "n": 67150,
+    "neg": 67141,
+    "neg_rate_ci": [
+     0.9999,
+     0.9997,
+     0.9999
+    ],
+    "mean_1mp": 0.9998
+   },
+   "content_in_any_out_any_0.5-0.78": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_in_any_out_any_0.78-0.99": {
+    "n": 2,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.6576
+    ],
+    "mean_1mp": 0.0491
+   },
+   "content_in_any_out_any_>=0.99": {
+    "n": 24,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.138
+    ],
+    "mean_1mp": 0.0007
+   },
+   "content_in_any_out_street_all": {
+    "n": 61,
+    "neg": 41,
+    "neg_rate_ci": [
+     0.6721,
+     0.5472,
+     0.7767
+    ]
+   },
+   "content_in_any_out_street_p<0.5": {
+    "n": 41,
+    "neg": 41,
+    "neg_rate_ci": [
+     1.0,
+     0.9143,
+     1
+    ],
+    "mean_1mp": 0.9916
+   },
+   "content_in_any_out_street_0.5-0.78": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_in_any_out_street_0.78-0.99": {
+    "n": 2,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.6576
+    ],
+    "mean_1mp": 0.0491
+   },
+   "content_in_any_out_street_>=0.99": {
+    "n": 18,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.1759
+    ],
+    "mean_1mp": 0.0009
+   },
+   "accepted_content_for_content_examples": [
+    [
+     "Kora's Rocky Eye Care LLC",
+     "Kora's Rocky Eye Cable LLC",
+     1,
+     0.955
+    ],
+    [
+     "Vision Care, LLC",
+     "LLC Vision C,",
+     1,
+     1.0
+    ],
+    [
+     "X W & Q Perfect, LLC",
+     "X W and (Q)",
+     1,
+     1.0
+    ],
+    [
+     "# 2 OG Capital",
+     "# Two OG Capital",
+     1,
+     1.0
+    ],
+    [
+     "Fisher, Griggs & Nguyen",
+     "Fisher, Griggs-and",
+     1,
+     1.0
+    ],
+    [
+     "Foot & Ankle Clinic",
+     "Foot and Ankle",
+     1,
+     1.0
+    ],
+    [
+     "Flores, Bowman & Garcia",
+     "Flores, Bowman and",
+     1,
+     1.0
+    ],
+    [
+     "G/L Mitsui LLC",
+     "LLC 6/L Mitsui",
+     1,
+     1.0
+    ],
+    [
+     "Smith & Barbera Catering LLC",
+     "SMITH and and BARBERA",
+     1,
+     0.999
+    ],
+    [
+     "Rapid Smart Ngl Inc.",
+     "Rapid St Ngl [Inc.]",
+     1,
+     1.0
+    ],
+    [
+     "Corporate Marine Networks LP",
+     "CORPORATE MAE NETWORKS (LP)",
+     1,
+     0.999
+    ],
+    [
+     "Chagnon, Garrett & Mcdonald Generation LLC",
+     "Chagnon, Garrett and Mcdonald",
+     1,
+     1.0
+    ],
+    [
+     "Big Pub! Care",
+     "Big P! Care",
+     1,
+     1.0
+    ],
+    [
+     "Star Garden",
+     "Star Gen",
+     1,
+     0.997
+    ]
+   ]
+  },
+  "India_PP": {
+   "n_content": 196,
+   "content_for_content_any_all": {
+    "n": 33996,
+    "neg": 33992,
+    "neg_rate_ci": [
+     0.9999,
+     0.9997,
+     1.0
+    ]
+   },
+   "content_for_content_any_p<0.5": {
+    "n": 33993,
+    "neg": 33991,
+    "neg_rate_ci": [
+     0.9999,
+     0.9998,
+     1.0
+    ],
+    "mean_1mp": 0.9999
+   },
+   "content_for_content_any_0.5-0.78": {
+    "n": 1,
+    "neg": 1,
+    "neg_rate_ci": [
+     1.0,
+     0.2065,
+     1
+    ],
+    "mean_1mp": 0.3767
+   },
+   "content_for_content_any_0.78-0.99": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_for_content_any_>=0.99": {
+    "n": 2,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.6576
+    ],
+    "mean_1mp": 0.0001
+   },
+   "content_for_content_street_all": {
+    "n": 96,
+    "neg": 93,
+    "neg_rate_ci": [
+     0.9688,
+     0.9121,
+     0.9893
+    ]
+   },
+   "content_for_content_street_p<0.5": {
+    "n": 95,
+    "neg": 93,
+    "neg_rate_ci": [
+     0.9789,
+     0.9265,
+     0.9942
+    ],
+    "mean_1mp": 0.9998
+   },
+   "content_for_content_street_0.5-0.78": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_for_content_street_0.78-0.99": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_for_content_street_>=0.99": {
+    "n": 1,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.7935
+    ],
+    "mean_1mp": 0.0001
+   },
+   "content_in_any_out_any_all": {
+    "n": 52160,
+    "neg": 52155,
+    "neg_rate_ci": [
+     0.9999,
+     0.9998,
+     1.0
+    ]
+   },
+   "content_in_any_out_any_p<0.5": {
+    "n": 52156,
+    "neg": 52154,
+    "neg_rate_ci": [
+     1.0,
+     0.9999,
+     1.0
+    ],
+    "mean_1mp": 0.9999
+   },
+   "content_in_any_out_any_0.5-0.78": {
+    "n": 1,
+    "neg": 1,
+    "neg_rate_ci": [
+     1.0,
+     0.2065,
+     1
+    ],
+    "mean_1mp": 0.3767
+   },
+   "content_in_any_out_any_0.78-0.99": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_in_any_out_any_>=0.99": {
+    "n": 3,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.5615
+    ],
+    "mean_1mp": 0.0001
+   },
+   "content_in_any_out_street_all": {
+    "n": 157,
+    "neg": 154,
+    "neg_rate_ci": [
+     0.9809,
+     0.9453,
+     0.9935
+    ]
+   },
+   "content_in_any_out_street_p<0.5": {
+    "n": 156,
+    "neg": 154,
+    "neg_rate_ci": [
+     0.9872,
+     0.9545,
+     0.9965
+    ],
+    "mean_1mp": 0.9998
+   },
+   "content_in_any_out_street_0.5-0.78": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_in_any_out_street_0.78-0.99": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_in_any_out_street_>=0.99": {
+    "n": 1,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.7935
+    ],
+    "mean_1mp": 0.0001
+   },
+   "accepted_content_for_content_examples": [
+    [
+     "Gaurav & Sons Pvt Ltd",
+     "Gaurav & Ss Pvt Ltd",
+     1,
+     1.0
+    ],
+    [
+     "Luckystar & Sons LLP",
+     "Mr Luckystar & Ss LLP",
+     1,
+     1.0
+    ]
+   ]
+  },
+  "India_GT": {
+   "n_content": 185,
+   "content_for_content_any_all": {
+    "n": 32913,
+    "neg": 32909,
+    "neg_rate_ci": [
+     0.9999,
+     0.9997,
+     1.0
+    ]
+   },
+   "content_for_content_any_p<0.5": {
+    "n": 32910,
+    "neg": 32908,
+    "neg_rate_ci": [
+     0.9999,
+     0.9998,
+     1.0
+    ],
+    "mean_1mp": 0.9999
+   },
+   "content_for_content_any_0.5-0.78": {
+    "n": 1,
+    "neg": 1,
+    "neg_rate_ci": [
+     1.0,
+     0.2065,
+     1
+    ],
+    "mean_1mp": 0.3767
+   },
+   "content_for_content_any_0.78-0.99": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_for_content_any_>=0.99": {
+    "n": 2,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.6576
+    ],
+    "mean_1mp": 0.0001
+   },
+   "content_for_content_street_all": {
+    "n": 88,
+    "neg": 85,
+    "neg_rate_ci": [
+     0.9659,
+     0.9045,
+     0.9883
+    ]
+   },
+   "content_for_content_street_p<0.5": {
+    "n": 87,
+    "neg": 85,
+    "neg_rate_ci": [
+     0.977,
+     0.92,
+     0.9937
+    ],
+    "mean_1mp": 0.9998
+   },
+   "content_for_content_street_0.5-0.78": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_for_content_street_0.78-0.99": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_for_content_street_>=0.99": {
+    "n": 1,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.7935
+    ],
+    "mean_1mp": 0.0001
+   },
+   "content_in_any_out_any_all": {
+    "n": 51024,
+    "neg": 51019,
+    "neg_rate_ci": [
+     0.9999,
+     0.9998,
+     1.0
+    ]
+   },
+   "content_in_any_out_any_p<0.5": {
+    "n": 51020,
+    "neg": 51018,
+    "neg_rate_ci": [
+     1.0,
+     0.9999,
+     1.0
+    ],
+    "mean_1mp": 0.9999
+   },
+   "content_in_any_out_any_0.5-0.78": {
+    "n": 1,
+    "neg": 1,
+    "neg_rate_ci": [
+     1.0,
+     0.2065,
+     1
+    ],
+    "mean_1mp": 0.3767
+   },
+   "content_in_any_out_any_0.78-0.99": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_in_any_out_any_>=0.99": {
+    "n": 3,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.5615
+    ],
+    "mean_1mp": 0.0001
+   },
+   "content_in_any_out_street_all": {
+    "n": 150,
+    "neg": 147,
+    "neg_rate_ci": [
+     0.98,
+     0.9429,
+     0.9932
+    ]
+   },
+   "content_in_any_out_street_p<0.5": {
+    "n": 149,
+    "neg": 147,
+    "neg_rate_ci": [
+     0.9866,
+     0.9524,
+     0.9963
+    ],
+    "mean_1mp": 0.9998
+   },
+   "content_in_any_out_street_0.5-0.78": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_in_any_out_street_0.78-0.99": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_in_any_out_street_>=0.99": {
+    "n": 1,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.7935
+    ],
+    "mean_1mp": 0.0001
+   },
+   "accepted_content_for_content_examples": [
+    [
+     "Gaurav & Sons Pvt Ltd",
+     "Gaurav & Ss Pvt Ltd",
+     1,
+     1.0
+    ],
+    [
+     "Luckystar & Sons LLP",
+     "Mr Luckystar & Ss LLP",
+     1,
+     1.0
+    ]
+   ]
+  },
+  "India_A": {
+   "n_content": 248,
+   "content_for_content_any_all": {
+    "n": 37444,
+    "neg": 37439,
+    "neg_rate_ci": [
+     0.9999,
+     0.9997,
+     0.9999
+    ]
+   },
+   "content_for_content_any_p<0.5": {
+    "n": 37440,
+    "neg": 37438,
+    "neg_rate_ci": [
+     0.9999,
+     0.9998,
+     1.0
+    ],
+    "mean_1mp": 0.9999
+   },
+   "content_for_content_any_0.5-0.78": {
+    "n": 1,
+    "neg": 1,
+    "neg_rate_ci": [
+     1.0,
+     0.2065,
+     1
+    ],
+    "mean_1mp": 0.3767
+   },
+   "content_for_content_any_0.78-0.99": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_for_content_any_>=0.99": {
+    "n": 3,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.5615
+    ],
+    "mean_1mp": 0.0002
+   },
+   "content_for_content_street_all": {
+    "n": 107,
+    "neg": 103,
+    "neg_rate_ci": [
+     0.9626,
+     0.9078,
+     0.9854
+    ]
+   },
+   "content_for_content_street_p<0.5": {
+    "n": 105,
+    "neg": 103,
+    "neg_rate_ci": [
+     0.981,
+     0.9332,
+     0.9948
+    ],
+    "mean_1mp": 0.9998
+   },
+   "content_for_content_street_0.5-0.78": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_for_content_street_0.78-0.99": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_for_content_street_>=0.99": {
+    "n": 2,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.6576
+    ],
+    "mean_1mp": 0.0003
+   },
+   "content_in_any_out_any_all": {
+    "n": 56085,
+    "neg": 56079,
+    "neg_rate_ci": [
+     0.9999,
+     0.9998,
+     1.0
+    ]
+   },
+   "content_in_any_out_any_p<0.5": {
+    "n": 56080,
+    "neg": 56078,
+    "neg_rate_ci": [
+     1.0,
+     0.9999,
+     1.0
+    ],
+    "mean_1mp": 0.9999
+   },
+   "content_in_any_out_any_0.5-0.78": {
+    "n": 1,
+    "neg": 1,
+    "neg_rate_ci": [
+     1.0,
+     0.2065,
+     1
+    ],
+    "mean_1mp": 0.3767
+   },
+   "content_in_any_out_any_0.78-0.99": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_in_any_out_any_>=0.99": {
+    "n": 4,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.4899
+    ],
+    "mean_1mp": 0.0002
+   },
+   "content_in_any_out_street_all": {
+    "n": 175,
+    "neg": 171,
+    "neg_rate_ci": [
+     0.9771,
+     0.9427,
+     0.9911
+    ]
+   },
+   "content_in_any_out_street_p<0.5": {
+    "n": 173,
+    "neg": 171,
+    "neg_rate_ci": [
+     0.9884,
+     0.9588,
+     0.9968
+    ],
+    "mean_1mp": 0.9998
+   },
+   "content_in_any_out_street_0.5-0.78": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_in_any_out_street_0.78-0.99": {
+    "n": 0,
+    "neg": 0,
+    "neg_rate_ci": [
+     null,
+     null,
+     null
+    ],
+    "mean_1mp": null
+   },
+   "content_in_any_out_street_>=0.99": {
+    "n": 2,
+    "neg": 0,
+    "neg_rate_ci": [
+     0.0,
+     0,
+     0.6576
+    ],
+    "mean_1mp": 0.0003
+   },
+   "accepted_content_for_content_examples": [
+    [
+     "Gaurav & Sons Pvt Ltd",
+     "Gaurav & Ss Pvt Ltd",
+     1,
+     1.0
+    ],
+    [
+     "Bombay (India) Farmers Limited",
+     "Limited Bombay (India) Farms",
+     1,
+     0.999
+    ],
+    [
+     "Luckystar & Sons LLP",
+     "Mr Luckystar & Ss LLP",
+     1,
+     1.0
+    ]
+   ]
+  }
+ },
+ "V1_calibration_1for1_subs": {
+  "US": {
+   "n": 422,
+   "actual_FP": 14,
+   "implied_FP": 23.0
+  },
+  "US_HI": {
+   "n": 5194,
+   "actual_FP": 2,
+   "implied_FP": 2.7
+  },
+  "India": {
+   "n": 264,
+   "actual_FP": 12,
+   "implied_FP": 13.2
+  },
+  "India_HI": {
+   "n": 2671,
+   "actual_FP": 2,
+   "implied_FP": 2.2
+  }
+ }
+}

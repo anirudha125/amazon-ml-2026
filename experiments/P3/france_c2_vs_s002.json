@@ -1,0 +1,63 @@
+{
+ "S002_France": {
+  "th": 0.72,
+  "nonempty_pct": 94.79,
+  "preds_per_s1": 3.331,
+  "pred_pairs": 864301,
+  "contested_records": 17291,
+  "contested_s1": 24380,
+  "contested_s1_pct": 9.4,
+  "s1_all_preds_contested": 2324,
+  "p_pct_5_25_50_75": [
+   0.889,
+   0.998,
+   1.0,
+   1.0
+  ],
+  "top1_pct_5_25_50_75": [
+   0.999,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "frac_p_ge_95": 0.9104,
+  "frac_p_lt_th_plus_05": 0.0121,
+  "contested_pred_share": 0.0464,
+  "contested_p_median": 0.975
+ },
+ "C2_France": {
+  "th": 0.8,
+  "nonempty_pct": 95.02,
+  "preds_per_s1": 3.468,
+  "pred_pairs": 899715,
+  "contested_records": 26890,
+  "contested_s1": 35916,
+  "contested_s1_pct": 13.84,
+  "s1_all_preds_contested": 3213,
+  "p_pct_5_25_50_75": [
+   0.913,
+   0.999,
+   1.0,
+   1.0
+  ],
+  "top1_pct_5_25_50_75": [
+   0.999,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "frac_p_ge_95": 0.9188,
+  "frac_p_lt_th_plus_05": 0.018,
+  "contested_pred_share": 0.0753,
+  "contested_p_median": 0.993
+ },
+ "highconf": {
+  "S002_hi": 786842,
+  "C2_hi": 826619,
+  "hi_both": 756700,
+  "S002_hi_dropped_by_C2": 11558,
+  "S002_hi_kept_below95": 18584,
+  "C2_hi_new_not_in_S002": 53577
+ },
+ "C2_claims_on_records_S002_gave_other_S1": 26969
+}

@@ -1,0 +1,19 @@
+{
+ "verifier": "WC (adversarial, lens statistical artefact / support) on investigator C's 'France decoy KEY2' signal",
+ "reproduction": {"France_KEY2_accepted": 8777, "France_KEY2_kept": 1463, "France_KEY2_kept_S1": 1411, "hn_eq_acc_kept": [4439, 959],
+   "alt_parser_overlap_kept": "1398/1463 (95.6%)", "max_claimer_rule_reproduces_S005_kept_final": 1.0, "EXF_alignment_rows_checked": 15141, "EXF_max_abs_diff": 0.0},
+ "support_inflation": {"pre_max_claimer": 8777, "kept": 1463, "already_removed_by_S005_max_claimer": 7314, "strict_rival_share_in_kept": "43/1463 (2.9%)"},
+ "genericity_gradient_KEY2_share_of_kept": {"France": {"dupf_core=0": 0.00014, "1-2": 0.0004, "3-9": 0.00082, ">=10": 0.00773},
+   "US": {"dupf_core=0": 0.00024, "1-2": 0.00022, "3-9": 0.00027, ">=10": 0.00027}, "India": {"dupf_core=0": 0.00323, ">=10": 0.00464}},
+ "mechanical_enrichments": {"rv_rank11_kept_street_match_dupf<10": 0.0068, "rv_rank11_kept_KEY2_dupf=0": 0.7172, "rv_rank11_kept_KEY2_dupf<10": 0.768,
+   "af_a0_kept_KEY2": 0.9911},
+ "house_number_chance_test_France": {"S1_twins_same_core_same_city_diff_street_pairs": 303303, "hn_eq_observed": 0.01278, "hn_eq_chance": 0.01274,
+   "orphan_records_n_city_ge4_ratio_obs_over_chance": [1.03, 1.09, 1.04], "orphan_records_n_city_1_ratio": 7.25, "orphan_kept_key2_in_n_city_ge4": "682/805"},
+ "train_GT": {"US_GT_KEY2_share": 0.00029, "US_GT_KEY2_examples": "all ordinal/typo artefacts (21st vs Twenty First, 4th vs Fiurth)", "India_GT_KEY2_share": 0.00374,
+   "train_records_unowned_share": 0.74014, "train_S1_singleton_share": 0.05585},
+ "fp_fraction_estimates": {"ESTIMATED_model_implied_via_V1_calibration": 0.0435, "breakeven": [0.327, 0.392], "structural": "mostly coincidental (not label-backed)"},
+ "stakes": {"ESTIMATED_France_if_all_FP": 0.00161, "ESTIMATED_France_if_all_TP": -0.00078, "ESTIMATED_LB_if_all_FP": 0.000241, "ESTIMATED_LB_if_all_TP": -0.000117,
+   "France_deficit_share_if_all_FP": "~3.4% of ~4.7 pp", "India_KEY2_kept_pairs_V1_all_TP": 10113},
+ "natural_experiment_S004_to_S005": {"S004_KEY2_kept_after_max_claimer": 1981, "S005": 1463, "removed": 595, "added": 77,
+   "ESTIMATED_France_pp_if_removed_FP": 0.063, "if_TP": -0.029, "LB_inferred_France_change_pp": "-0.06 (-0.4..+0.3)"}
+}

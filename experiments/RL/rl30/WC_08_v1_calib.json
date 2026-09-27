@@ -1,0 +1,100 @@
+{
+ "france_kept_KEY2_p_quantiles": [
+  0.8098,
+  0.913,
+  0.9795,
+  0.9977,
+  0.9998
+ ],
+ "france_kept_KEY2_mean_p": 0.9479,
+ "V1_all": {
+  "[0.78,0.9)": {
+   "n": 557,
+   "precision": 0.8636,
+   "mean_p": 0.8502
+  },
+  "[0.9,0.95)": {
+   "n": 580,
+   "precision": 0.9362,
+   "mean_p": 0.9273
+  },
+  "[0.95,0.99)": {
+   "n": 2094,
+   "precision": 0.9819,
+   "mean_p": 0.9776
+  },
+  "[0.99,1.01)": {
+   "n": 64122,
+   "precision": 0.9998,
+   "mean_p": 0.9995
+  }
+ },
+ "V1_rv11": {
+  "[0.78,0.9)": {
+   "n": 132,
+   "precision": 0.8712,
+   "mean_p": 0.845
+  },
+  "[0.9,0.95)": {
+   "n": 122,
+   "precision": 0.918,
+   "mean_p": 0.9248
+  },
+  "[0.95,0.99)": {
+   "n": 281,
+   "precision": 0.9609,
+   "mean_p": 0.9766
+  },
+  "[0.99,1.01)": {
+   "n": 1321,
+   "precision": 0.9992,
+   "mean_p": 0.9986
+  }
+ },
+ "V1_street_diff": {
+  "[0.78,0.9)": {
+   "n": 2,
+   "precision": 1.0,
+   "mean_p": 0.895
+  },
+  "[0.9,0.95)": {
+   "n": 4,
+   "precision": 1.0,
+   "mean_p": 0.9232
+  },
+  "[0.95,0.99)": {
+   "n": 12,
+   "precision": 0.9167,
+   "mean_p": 0.976
+  },
+  "[0.99,1.01)": {
+   "n": 168,
+   "precision": 1.0,
+   "mean_p": 0.9991
+  }
+ },
+ "V1_rv11&street_diff": {
+  "[0.78,0.9)": {
+   "n": 0,
+   "precision": null,
+   "mean_p": null
+  },
+  "[0.9,0.95)": {
+   "n": 1,
+   "precision": 1.0,
+   "mean_p": 0.9062
+  },
+  "[0.95,0.99)": {
+   "n": 7,
+   "precision": 1.0,
+   "mean_p": 0.976
+  },
+  "[0.99,1.01)": {
+   "n": 31,
+   "precision": 1.0,
+   "mean_p": 0.9985
+  }
+ },
+ "ESTIMATED_model_implied_FP_among_France_kept_KEY2": 63.6,
+ "ESTIMATED_model_implied_FP_fraction": 0.0435
+}

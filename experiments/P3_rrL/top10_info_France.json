@@ -1,0 +1,8 @@
+{
+ "country": "France",
+ "n_s1": 259452,
+ "n_pool_pairs": 33180559,
+ "n_top10": 2594520,
+ "secs": 53.6,
+ "base": "/teamspace/studios/this_studio/amazon-ml-challenge-2026/experiments/RL/rl27_model_NEW_s42.pkl"
+}

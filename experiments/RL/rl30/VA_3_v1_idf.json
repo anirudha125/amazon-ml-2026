@@ -1,0 +1,311 @@
+{
+ "nonfiller_add|idf<5": {
+  "n": 635,
+  "pos": 478,
+  "yrate": 0.7528,
+  "TP": 476,
+  "FN": 2,
+  "FP": 0,
+  "TN": 157,
+  "acc_rate_of_pos": 0.9958,
+  "median_p_pos": 0.9998
+ },
+ "nonfiller_add|idf5-7": {
+  "n": 149,
+  "pos": 17,
+  "yrate": 0.1141,
+  "TP": 17,
+  "FN": 0,
+  "FP": 0,
+  "TN": 132,
+  "acc_rate_of_pos": 1.0,
+  "median_p_pos": 0.9999
+ },
+ "nonfiller_add|idf7-9": {
+  "n": 77,
+  "pos": 4,
+  "yrate": 0.0519,
+  "TP": 4,
+  "FN": 0,
+  "FP": 0,
+  "TN": 73,
+  "acc_rate_of_pos": 1.0,
+  "median_p_pos": 0.9999
+ },
+ "nonfiller_add|idf9-11": {
+  "n": 38,
+  "pos": 8,
+  "yrate": 0.2105,
+  "TP": 8,
+  "FN": 0,
+  "FP": 0,
+  "TN": 30,
+  "acc_rate_of_pos": 1.0,
+  "median_p_pos": 0.9999
+ },
+ "nonfiller_add|idf>=11": {
+  "n": 1864,
+  "pos": 1821,
+  "yrate": 0.9769,
+  "TP": 1819,
+  "FN": 2,
+  "FP": 0,
+  "TN": 43,
+  "acc_rate_of_pos": 0.9989,
+  "median_p_pos": 0.9999
+ },
+ "filler_add|idf<5": {
+  "n": 2717,
+  "pos": 2648,
+  "yrate": 0.9746,
+  "TP": 2642,
+  "FN": 6,
+  "FP": 2,
+  "TN": 67,
+  "acc_rate_of_pos": 0.9977,
+  "median_p_pos": 0.9999
+ },
+ "filler_add|idf5-7": {
+  "n": 610,
+  "pos": 606,
+  "yrate": 0.9934,
+  "TP": 606,
+  "FN": 0,
+  "FP": 0,
+  "TN": 4,
+  "acc_rate_of_pos": 1.0,
+  "median_p_pos": 0.9999
+ },
+ "filler_add|idf7-9": {
+  "n": 400,
+  "pos": 396,
+  "yrate": 0.99,
+  "TP": 396,
+  "FN": 0,
+  "FP": 1,
+  "TN": 3,
+  "acc_rate_of_pos": 1.0,
+  "median_p_pos": 0.9999
+ },
+ "filler_add|idf9-11": {
+  "n": 196,
+  "pos": 196,
+  "yrate": 1.0,
+  "TP": 196,
+  "FN": 0,
+  "FP": 0,
+  "TN": 0,
+  "acc_rate_of_pos": 1.0,
+  "median_p_pos": 0.9999
+ },
+ "filler_add|idf>=11": {
+  "n": 527,
+  "pos": 520,
+  "yrate": 0.9867,
+  "TP": 520,
+  "FN": 0,
+  "FP": 0,
+  "TN": 7,
+  "acc_rate_of_pos": 1.0,
+  "median_p_pos": 0.9999
+ },
+ "India|all": {
+  "n": 2420,
+  "pos": 1980,
+  "yrate": 0.8182,
+  "TP": 1978,
+  "FN": 2,
+  "FP": 0,
+  "TN": 440,
+  "acc_rate_of_pos": 0.999,
+  "median_p_pos": 0.9999
+ },
+ "India|filler_idf>=9": {
+  "n": 400,
+  "pos": 398,
+  "yrate": 0.995,
+  "TP": 398,
+  "FN": 0,
+  "FP": 0,
+  "TN": 2,
+  "acc_rate_of_pos": 1.0,
+  "median_p_pos": 0.9999
+ },
+ "India|nonfiller_idf>=9": {
+  "n": 538,
+  "pos": 480,
+  "yrate": 0.8922,
+  "TP": 479,
+  "FN": 1,
+  "FP": 0,
+  "TN": 58,
+  "acc_rate_of_pos": 0.9979,
+  "median_p_pos": 0.9999
+ },
+ "US|all": {
+  "n": 4793,
+  "pos": 4714,
+  "yrate": 0.9835,
+  "TP": 4706,
+  "FN": 8,
+  "FP": 3,
+  "TN": 76,
+  "acc_rate_of_pos": 0.9983,
+  "median_p_pos": 0.9999
+ },
+ "US|filler_idf>=9": {
+  "n": 323,
+  "pos": 318,
+  "yrate": 0.9845,
+  "TP": 318,
+  "FN": 0,
+  "FP": 0,
+  "TN": 5,
+  "acc_rate_of_pos": 1.0,
+  "median_p_pos": 0.9999
+ },
+ "US|nonfiller_idf>=9": {
+  "n": 1364,
+  "pos": 1349,
+  "yrate": 0.989,
+  "TP": 1348,
+  "FN": 1,
+  "FP": 0,
+  "TN": 15,
+  "acc_rate_of_pos": 0.9993,
+  "median_p_pos": 0.9999
+ },
+ "top_high_idf_filler_adds": {
+  "incorporated": 256,
+  "sri": 71,
+  "shri": 67,
+  "dr": 62,
+  "mr": 60,
+  "smt": 58,
+  "com": 32,
+  "district": 13,
+  "ltd smt": 12,
+  "authority": 11,
+  "com www": 9,
+  "ltd sri": 9,
+  "ltd shri": 9,
+  "ltd mr": 9,
+  "dr ltd": 8,
+  "company shri": 4,
+  "lnc": 4,
+  "center smt": 3,
+  "company dr": 3,
+  "mr services": 2,
+  "dr service": 2,
+  "llp smt": 2,
+  "com corporation www": 1,
+  "com ltd www": 1,
+  "services smt": 1
+ },
+ "examples_nonfiller_hi_idf_pos": [
+  {
+   "s1": "Northern Endocrinology",
+   "rec": "Beloectobrix doing business as Northern Endocrinology",
+   "p": 1.0
+  },
+  {
+   "s1": "Beacon Transportation, LLC",
+   "rec": "beacon transportation, llc - 9455666422",
+   "p": 0.9999
+  },
+  {
+   "s1": "SO Advisors LLC",
+   "rec": "SO Advisors [LLC] #44858",
+   "p": 0.9999
+  },
+  {
+   "s1": "Jacob's Transport",
+   "rec": "Gildvera aka Jacob's Transport",
+   "p": 1.0
+  },
+  {
+   "s1": "Heart Association IV Inc",
+   "rec": "Heart Abscoibdtino IV-Inc",
+   "p": 0.9999
+  },
+  {
+   "s1": "Harmon, Sostre and Bierbaum Lionheart",
+   "rec": "Korkeloxylo Formerly Harmon, Sostre and Bierbaum Lionheart",
+   "p": 1.0
+  },
+  {
+   "s1": "Morehead City Heart Coalition",
+   "rec": "Cirazeta formerly: Morehead City Heart Coalition",
+   "p": 1.0
+  },
+  {
+   "s1": "YEW Restaurant L.L.C.",
+   "rec": "YEW RESTAURANT RESTAURANT L.L.C. - 6127626619",
+   "p": 0.9999
+  },
+  {
+   "s1": "Silver Jackson",
+   "rec": "Wexdeltaquo DBA: Silver Jackson",
+   "p": 1.0
+  },
+  {
+   "s1": "Jensen Metropolitan Applied",
+   "rec": "Nexnovisol née Jensen Metropolitan Applied",
+   "p": 1.0
+  }
+ ],
+ "examples_nonfiller_hi_idf_neg": [
+  {
+   "s1": "Molinari Secure Pony Inc",
+   "rec": "Molinari Secure  Pony LLC #19143",
+   "p": 0.0001
+  },
+  {
+   "s1": "Robinson Blue Better LLC",
+   "rec": "Robinson Blue Better Greater LLC",
+   "p": 0.0
+  },
+  {
+   "s1": "Sterling Bread LLC",
+   "rec": "Sterling Bréad Greater LLC",
+   "p": 0.0002
+  },
+  {
+   "s1": "Green Sea LLC",
+   "rec": "Green Sea Midtown LLC",
+   "p": 0.0
+  },
+  {
+   "s1": "Orthopedic Partners Inc",
+   "rec": "Ariazeph+ Formerly Orthopedic Associates, Inc",
+   "p": 0.5874
+  },
+  {
+   "s1": "Cinder LLC",
+   "rec": "CINDER CO CENTER | www.cinderco.com",
+   "p": 0.0001
+  },
+  {
+   "s1": "Westbrook Entergy LLC",
+   "rec": "Westbrook Entergy Eastgate  LLC",
+   "p": 0.0001
+  },
+  {
+   "s1": "Frontier Foundation",
+   "rec": "Frontier Minisoies IV",
+   "p": 0.0026
+  },
+  {
+   "s1": "Lira H. Beil, CPA P.C.",
+   "rec": "Lira H. Beil CPWA  P.C. - 7828031554",
+   "p": 0.0736
+  },
+  {
+   "s1": "Lumelle Village",
+   "rec": "Lumello Village Corporation (ID: 67826)",
+   "p": 0.0656
+  }
+ ],
+ "examples_filler_hi_idf_FN": [],
+ "secs": 81.7
+}

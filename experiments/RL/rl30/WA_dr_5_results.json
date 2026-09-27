@@ -1,0 +1,257 @@
+{
+ "PP_pairs": 595690,
+ "domain_pairs": 35093,
+ "domain_share": 0.0589,
+ "all_tokens_dropped_pairs": 41995,
+ "content_drop_mass_from_domain_pairs": 0.5026,
+ "content_drop_mass_from_all_dropped_pairs": 0.6282,
+ "all_PP": {
+  "n_tok": 83,
+  "median": 0.1227,
+  "min": 0.0673,
+  "max": 0.2463,
+  "p10": 0.0794,
+  "p90": 0.1655,
+  "share_var_pos_len": 0.728,
+  "adj_ratio_p10_p90": [
+   0.855,
+   1.154
+  ],
+  "adj_ratio_min_max": [
+   0.637,
+   1.689
+  ],
+  "top_adj": [
+   [
+    "freres",
+    1.689
+   ],
+   [
+    "lege",
+    1.361
+   ],
+   [
+    "cie",
+    1.314
+   ],
+   [
+    "compagnie",
+    1.312
+   ],
+   [
+    "service",
+    1.21
+   ],
+   [
+    "fils",
+    1.206
+   ]
+  ],
+  "bottom_adj": [
+   [
+    "nazaire",
+    0.637
+   ],
+   [
+    "hospitalier",
+    0.72
+   ],
+   [
+    "medical",
+    0.735
+   ],
+   [
+    "maternelle",
+    0.739
+   ],
+   [
+    "sainte",
+    0.761
+   ],
+   [
+    "teste",
+    0.802
+   ]
+  ],
+  "sel": {
+   "lille": 0.0784,
+   "dunkerque": 0.0693,
+   "bordeaux": 0.0848,
+   "ets": 0.0762,
+   "club": 0.1445,
+   "ecole": 0.1171,
+   "amicale": 0.1349,
+   "parents": 0.1661,
+   "freres": 0.2463,
+   "comite": 0.1351,
+   "cie": 0.1922,
+   "compagnie": 0.189
+  }
+ },
+ "non_domain_PP": {
+  "n_tok": 79,
+  "median": 0.0719,
+  "min": 0.0164,
+  "max": 0.2032,
+  "p10": 0.025,
+  "p90": 0.1183,
+  "share_var_pos_len": 0.8265,
+  "adj_ratio_p10_p90": [
+   0.778,
+   1.269
+  ],
+  "adj_ratio_min_max": [
+   0.332,
+   2.117
+  ],
+  "top_adj": [
+   [
+    "freres",
+    2.117
+   ],
+   [
+    "lege",
+    1.881
+   ],
+   [
+    "compagnie",
+    1.53
+   ],
+   [
+    "cie",
+    1.478
+   ],
+   [
+    "calais",
+    1.43
+   ],
+   [
+    "service",
+    1.385
+   ]
+  ],
+  "bottom_adj": [
+   [
+    "nazaire",
+    0.332
+   ],
+   [
+    "hospitalier",
+    0.448
+   ],
+   [
+    "medical",
+    0.547
+   ],
+   [
+    "sainte",
+    0.649
+   ],
+   [
+    "cap",
+    0.691
+   ],
+   [
+    "maternelle",
+    0.716
+   ]
+  ],
+  "sel": {
+   "lille": 0.0234,
+   "dunkerque": 0.0243,
+   "bordeaux": 0.0251,
+   "ets": 0.0164,
+   "club": 0.0933,
+   "ecole": 0.0705,
+   "amicale": 0.0831,
+   "parents": 0.1165,
+   "freres": 0.2032,
+   "comite": 0.0832,
+   "cie": 0.1426,
+   "compagnie": 0.1442
+  }
+ },
+ "non_domain_non_alldrop_PP": {
+  "n_tok": 77,
+  "median": 0.0571,
+  "min": 0.0027,
+  "max": 0.1944,
+  "p10": 0.0075,
+  "p90": 0.1001,
+  "share_var_pos_len": 0.8477,
+  "adj_ratio_p10_p90": [
+   0.664,
+   1.919
+  ],
+  "adj_ratio_min_max": [
+   0.14,
+   2.854
+  ],
+  "top_adj": [
+   [
+    "calais",
+    2.854
+   ],
+   [
+    "nantes",
+    2.453
+   ],
+   [
+    "bordeaux",
+    2.431
+   ],
+   [
+    "freres",
+    2.413
+   ],
+   [
+    "lille",
+    2.383
+   ],
+   [
+    "tourcoing",
+    2.363
+   ]
+  ],
+  "bottom_adj": [
+   [
+    "nazaire",
+    0.14
+   ],
+   [
+    "cap",
+    0.267
+   ],
+   [
+    "hospitalier",
+    0.364
+   ],
+   [
+    "medical",
+    0.424
+   ],
+   [
+    "sainte",
+    0.569
+   ],
+   [
+    "teste",
+    0.6
+   ]
+  ],
+  "sel": {
+   "lille": 0.0075,
+   "dunkerque": 0.0065,
+   "bordeaux": 0.0077,
+   "ets": 0.003,
+   "club": 0.0774,
+   "ecole": 0.0554,
+   "amicale": 0.0671,
+   "parents": 0.0992,
+   "freres": 0.1944,
+   "comite": 0.066,
+   "cie": 0.1352,
+   "compagnie": 0.1311
+  }
+ }
+}

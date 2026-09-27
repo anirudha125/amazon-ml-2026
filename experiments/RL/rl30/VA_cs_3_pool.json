@@ -1,0 +1,969 @@
+{
+ "test_France": {
+  "n_same_addr_pool": 1574022,
+  "acc_rate_same_addr_pool": 0.4789,
+  "n_swap1": 162581,
+  "acc_rate_swap1": 0.5188,
+  "CC": {
+   "n": 59650,
+   "accepted": 14750,
+   "acc_rate": 0.2473,
+   "kept_final": 14430,
+   "acc_p_ge99": 4312,
+   "acc_p_78_99": 10438,
+   "exact_addr_share": 0.1342,
+   "acc_rate_exact": 0.3271,
+   "acc_rate_nonexact": 0.2349
+  },
+  "Z_CONTENT_X_GENERIC": {
+   "n": 2763,
+   "accepted": 811,
+   "acc_rate": 0.2935,
+   "kept_final": 783,
+   "acc_p_ge99": 273,
+   "acc_p_78_99": 538,
+   "exact_addr_share": 0.1303,
+   "acc_rate_exact": 0.3972,
+   "acc_rate_nonexact": 0.278
+  },
+  "Z_CONTENT_X_RARE": {
+   "n": 5912,
+   "accepted": 146,
+   "acc_rate": 0.0247,
+   "kept_final": 123,
+   "acc_p_ge99": 27,
+   "acc_p_78_99": 119,
+   "exact_addr_share": 0.0927,
+   "acc_rate_exact": 0.0456,
+   "acc_rate_nonexact": 0.0226
+  },
+  "Z_GENERIC": {
+   "n": 66990,
+   "accepted": 55161,
+   "acc_rate": 0.8234,
+   "kept_final": 54943,
+   "acc_p_ge99": 43485,
+   "acc_p_78_99": 11676,
+   "exact_addr_share": 0.1417,
+   "acc_rate_exact": 0.8816,
+   "acc_rate_nonexact": 0.8138
+  },
+  "Z_RARE": {
+   "n": 27266,
+   "accepted": 13483,
+   "acc_rate": 0.4945,
+   "kept_final": 13266,
+   "acc_p_ge99": 12614,
+   "acc_p_78_99": 869,
+   "exact_addr_share": 0.1221,
+   "acc_rate_exact": 0.6222,
+   "acc_rate_nonexact": 0.4767
+  },
+  "CC_top_swaps_accepted": [
+   [
+    "club->comite",
+    235
+   ],
+   [
+    "club->france",
+    165
+   ],
+   [
+    "club->centre",
+    156
+   ],
+   [
+    "club->amicale",
+    148
+   ],
+   [
+    "comite->club",
+    139
+   ],
+   [
+    "centre->club",
+    119
+   ],
+   [
+    "amicale->comite",
+    114
+   ],
+   [
+    "club->ecole",
+    101
+   ],
+   [
+    "amicale->amis",
+    97
+   ],
+   [
+    "club->amis",
+    96
+   ],
+   [
+    "sportive->club",
+    95
+   ],
+   [
+    "college->club",
+    94
+   ],
+   [
+    "ecole->comite",
+    93
+   ],
+   [
+    "amicale->club",
+    91
+   ],
+   [
+    "club->societe",
+    87
+   ]
+  ],
+  "CC_top_swaps_rejected": [
+   [
+    "club->groupe",
+    561
+   ],
+   [
+    "club->france",
+    296
+   ],
+   [
+    "amicale->groupe",
+    296
+   ],
+   [
+    "ecole->groupe",
+    283
+   ],
+   [
+    "france->groupe",
+    279
+   ],
+   [
+    "comite->groupe",
+    267
+   ],
+   [
+    "club->ecole",
+    239
+   ],
+   [
+    "club->sportive",
+    229
+   ],
+   [
+    "ecole->club",
+    228
+   ],
+   [
+    "ecole->france",
+    222
+   ],
+   [
+    "amis->groupe",
+    220
+   ],
+   [
+    "sportive->groupe",
+    218
+   ],
+   [
+    "amicale->club",
+    210
+   ],
+   [
+    "amicale->france",
+    197
+   ],
+   [
+    "club->amicale",
+    191
+   ]
+  ]
+ },
+ "test_US": {
+  "n_same_addr_pool": 520318,
+  "acc_rate_same_addr_pool": 0.7634,
+  "n_swap1": 51541,
+  "acc_rate_swap1": 0.8825,
+  "CC": {
+   "n": 471,
+   "accepted": 40,
+   "acc_rate": 0.0849,
+   "kept_final": 39,
+   "acc_p_ge99": 29,
+   "acc_p_78_99": 11,
+   "exact_addr_share": 0.0807,
+   "acc_rate_exact": 0.1053,
+   "acc_rate_nonexact": 0.0831
+  },
+  "Z_CONTENT_X_GENERIC": {
+   "n": 9,
+   "accepted": 0,
+   "acc_rate": 0.0,
+   "kept_final": 0,
+   "acc_p_ge99": 0,
+   "acc_p_78_99": 0,
+   "exact_addr_share": 0.0,
+   "acc_rate_exact": null,
+   "acc_rate_nonexact": 0.0
+  },
+  "Z_CONTENT_X_RARE": {
+   "n": 988,
+   "accepted": 24,
+   "acc_rate": 0.0243,
+   "kept_final": 24,
+   "acc_p_ge99": 19,
+   "acc_p_78_99": 5,
+   "exact_addr_share": 0.1346,
+   "acc_rate_exact": 0.0301,
+   "acc_rate_nonexact": 0.0234
+  },
+  "Z_GENERIC": {
+   "n": 30765,
+   "accepted": 30547,
+   "acc_rate": 0.9929,
+   "kept_final": 30547,
+   "acc_p_ge99": 30200,
+   "acc_p_78_99": 347,
+   "exact_addr_share": 0.1354,
+   "acc_rate_exact": 0.9966,
+   "acc_rate_nonexact": 0.9923
+  },
+  "Z_RARE": {
+   "n": 19308,
+   "accepted": 14872,
+   "acc_rate": 0.7703,
+   "kept_final": 14871,
+   "acc_p_ge99": 13765,
+   "acc_p_78_99": 1107,
+   "exact_addr_share": 0.1374,
+   "acc_rate_exact": 0.7964,
+   "acc_rate_nonexact": 0.7661
+  },
+  "CC_top_swaps_accepted": [
+   [
+    "pizza->pa",
+    3
+   ],
+   [
+    "short->st",
+    3
+   ],
+   [
+    "motors->auto",
+    2
+   ],
+   [
+    "nose->no",
+    2
+   ],
+   [
+    "maid->md",
+    2
+   ],
+   [
+    "league->lee",
+    2
+   ],
+   [
+    "glass->gss",
+    2
+   ],
+   [
+    "network->aberdeen",
+    1
+   ],
+   [
+    "summit->st",
+    1
+   ],
+   [
+    "smart->st",
+    1
+   ],
+   [
+    "media->mae",
+    1
+   ],
+   [
+    "star->st",
+    1
+   ],
+   [
+    "five->two",
+    1
+   ],
+   [
+    "motors->automotive",
+    1
+   ],
+   [
+    "first->third",
+    1
+   ]
+  ],
+  "CC_top_swaps_rejected": [
+   [
+    "first->third",
+    5
+   ],
+   [
+    "alliance->family",
+    4
+   ],
+   [
+    "creative->lakeshore",
+    4
+   ],
+   [
+    "group->fellowship",
+    4
+   ],
+   [
+    "pizza->massage",
+    4
+   ],
+   [
+    "tpg->communities",
+    4
+   ],
+   [
+    "education->family",
+    3
+   ],
+   [
+    "compass->meridian",
+    3
+   ],
+   [
+    "cobalt->vega",
+    3
+   ],
+   [
+    "staking->abrdn",
+    3
+   ],
+   [
+    "national->valley",
+    3
+   ],
+   [
+    "charter->atlas",
+    3
+   ],
+   [
+    "states->armada",
+    3
+   ],
+   [
+    "fresh->historical",
+    3
+   ],
+   [
+    "apex->quasaredge",
+    2
+   ]
+  ]
+ },
+ "test_India": {
+  "n_same_addr_pool": 460991,
+  "acc_rate_same_addr_pool": 0.5888,
+  "n_swap1": 41658,
+  "acc_rate_swap1": 0.651,
+  "CC": {
+   "n": 4836,
+   "accepted": 41,
+   "acc_rate": 0.0085,
+   "kept_final": 39,
+   "acc_p_ge99": 34,
+   "acc_p_78_99": 7,
+   "exact_addr_share": 0.0093,
+   "acc_rate_exact": 0.1778,
+   "acc_rate_nonexact": 0.0069
+  },
+  "Z_CONTENT_X_GENERIC": {
+   "n": 367,
+   "accepted": 0,
+   "acc_rate": 0.0,
+   "kept_final": 0,
+   "acc_p_ge99": 0,
+   "acc_p_78_99": 0,
+   "exact_addr_share": 0.0136,
+   "acc_rate_exact": 0.0,
+   "acc_rate_nonexact": 0.0
+  },
+  "Z_CONTENT_X_RARE": {
+   "n": 2201,
+   "accepted": 2,
+   "acc_rate": 0.0009,
+   "kept_final": 2,
+   "acc_p_ge99": 1,
+   "acc_p_78_99": 1,
+   "exact_addr_share": 0.0114,
+   "acc_rate_exact": 0.04,
+   "acc_rate_nonexact": 0.0005
+  },
+  "Z_GENERIC": {
+   "n": 22572,
+   "accepted": 21040,
+   "acc_rate": 0.9321,
+   "kept_final": 21024,
+   "acc_p_ge99": 20518,
+   "acc_p_78_99": 522,
+   "exact_addr_share": 0.1664,
+   "acc_rate_exact": 0.9941,
+   "acc_rate_nonexact": 0.9198
+  },
+  "Z_RARE": {
+   "n": 11682,
+   "accepted": 6038,
+   "acc_rate": 0.5169,
+   "kept_final": 6028,
+   "acc_p_ge99": 5564,
+   "acc_p_78_99": 474,
+   "exact_addr_share": 0.1157,
+   "acc_rate_exact": 0.9179,
+   "acc_rate_nonexact": 0.4644
+  },
+  "CC_top_swaps_accepted": [
+   [
+    "sons->ss",
+    31
+   ],
+   [
+    "engineering->energy",
+    2
+   ],
+   [
+    "india->it",
+    1
+   ],
+   [
+    "college->centre",
+    1
+   ],
+   [
+    "centre->chit",
+    1
+   ],
+   [
+    "sales->ss",
+    1
+   ],
+   [
+    "sunrise->surya",
+    1
+   ],
+   [
+    "urban->foundation",
+    1
+   ],
+   [
+    "surya->jain",
+    1
+   ],
+   [
+    "star->hari",
+    1
+   ]
+  ],
+  "CC_top_swaps_rejected": [
+   [
+    "india->solutions",
+    10
+   ],
+   [
+    "logistics->solutions",
+    9
+   ],
+   [
+    "engineering->technologies",
+    9
+   ],
+   [
+    "management->solutions",
+    9
+   ],
+   [
+    "engineering->energy",
+    8
+   ],
+   [
+    "care->ventures",
+    7
+   ],
+   [
+    "solutions->software",
+    7
+   ],
+   [
+    "developers->constructions",
+    7
+   ],
+   [
+    "india->energy",
+    7
+   ],
+   [
+    "solutions->infra",
+    7
+   ],
+   [
+    "systems->solutions",
+    6
+   ],
+   [
+    "energy->ventures",
+    6
+   ],
+   [
+    "exports->technologies",
+    6
+   ],
+   [
+    "energy->management",
+    6
+   ],
+   [
+    "tech->industries",
+    6
+   ]
+  ]
+ },
+ "train_E014_India": {
+  "CC": {
+   "n": 55,
+   "pos": 1,
+   "y_rate": 0.0182,
+   "exact_share": 0.0182
+  },
+  "Z_CONTENT_X_GENERIC": {
+   "n": 6,
+   "pos": 0,
+   "y_rate": 0.0,
+   "exact_share": 0.0
+  },
+  "Z_CONTENT_X_RARE": {
+   "n": 31,
+   "pos": 0,
+   "y_rate": 0.0,
+   "exact_share": 0.0
+  },
+  "Z_GENERIC": {
+   "n": 465,
+   "pos": 432,
+   "y_rate": 0.929,
+   "exact_share": 0.1656
+  },
+  "Z_RARE": {
+   "n": 216,
+   "pos": 110,
+   "y_rate": 0.5093,
+   "exact_share": 0.1204
+  }
+ },
+ "train_E014_US": {
+  "CC": {
+   "n": 20,
+   "pos": 2,
+   "y_rate": 0.1,
+   "exact_share": 0.15
+  },
+  "Z_CONTENT_X_RARE": {
+   "n": 19,
+   "pos": 2,
+   "y_rate": 0.1053,
+   "exact_share": 0.0526
+  },
+  "Z_GENERIC": {
+   "n": 1112,
+   "pos": 1107,
+   "y_rate": 0.9955,
+   "exact_share": 0.1286
+  },
+  "Z_RARE": {
+   "n": 610,
+   "pos": 527,
+   "y_rate": 0.8639,
+   "exact_share": 0.1246
+  }
+ },
+ "train_T0_India": {
+  "CC": {
+   "n": 13,
+   "pos": 1,
+   "y_rate": 0.0769,
+   "exact_share": 0.0769
+  },
+  "Z_CONTENT_X_GENERIC": {
+   "n": 1,
+   "pos": 0,
+   "y_rate": 0.0,
+   "exact_share": 0.0
+  },
+  "Z_CONTENT_X_RARE": {
+   "n": 4,
+   "pos": 0,
+   "y_rate": 0.0,
+   "exact_share": 0.0
+  },
+  "Z_GENERIC": {
+   "n": 105,
+   "pos": 98,
+   "y_rate": 0.9333,
+   "exact_share": 0.1333
+  },
+  "Z_RARE": {
+   "n": 37,
+   "pos": 26,
+   "y_rate": 0.7027,
+   "exact_share": 0.1351
+  }
+ },
+ "train_T0_US": {
+  "CC": {
+   "n": 4,
+   "pos": 0,
+   "y_rate": 0.0,
+   "exact_share": 0.0
+  },
+  "Z_CONTENT_X_RARE": {
+   "n": 4,
+   "pos": 0,
+   "y_rate": 0.0,
+   "exact_share": 0.0
+  },
+  "Z_GENERIC": {
+   "n": 228,
+   "pos": 225,
+   "y_rate": 0.9868,
+   "exact_share": 0.1447
+  },
+  "Z_RARE": {
+   "n": 155,
+   "pos": 133,
+   "y_rate": 0.8581,
+   "exact_share": 0.1161
+  }
+ },
+ "train_T2X_India": {
+  "CC": {
+   "n": 250,
+   "pos": 2,
+   "y_rate": 0.008,
+   "exact_share": 0.012
+  },
+  "Z_CONTENT_X_GENERIC": {
+   "n": 22,
+   "pos": 0,
+   "y_rate": 0.0,
+   "exact_share": 0.0
+  },
+  "Z_CONTENT_X_RARE": {
+   "n": 119,
+   "pos": 0,
+   "y_rate": 0.0,
+   "exact_share": 0.0252
+  },
+  "Z_GENERIC": {
+   "n": 1805,
+   "pos": 1710,
+   "y_rate": 0.9474,
+   "exact_share": 0.1662
+  },
+  "Z_RARE": {
+   "n": 828,
+   "pos": 490,
+   "y_rate": 0.5918,
+   "exact_share": 0.1341
+  }
+ },
+ "train_T2X_US": {
+  "CC": {
+   "n": 72,
+   "pos": 5,
+   "y_rate": 0.0694,
+   "exact_share": 0.1111
+  },
+  "Z_CONTENT_X_GENERIC": {
+   "n": 1,
+   "pos": 0,
+   "y_rate": 0.0,
+   "exact_share": 0.0
+  },
+  "Z_CONTENT_X_RARE": {
+   "n": 82,
+   "pos": 3,
+   "y_rate": 0.0366,
+   "exact_share": 0.1341
+  },
+  "Z_GENERIC": {
+   "n": 4448,
+   "pos": 4422,
+   "y_rate": 0.9942,
+   "exact_share": 0.1369
+  },
+  "Z_RARE": {
+   "n": 2584,
+   "pos": 2173,
+   "y_rate": 0.8409,
+   "exact_share": 0.1374
+  }
+ },
+ "train_V1_India": {
+  "CC": {
+   "n": 123,
+   "pos": 3,
+   "y_rate": 0.0244,
+   "exact_share": 0.0081,
+   "accepted": 1,
+   "acc_rate": 0.0081,
+   "FP": 0,
+   "FN": 2
+  },
+  "Z_CONTENT_X_GENERIC": {
+   "n": 10,
+   "pos": 0,
+   "y_rate": 0.0,
+   "exact_share": 0.0,
+   "accepted": 0,
+   "acc_rate": 0.0,
+   "FP": 0,
+   "FN": 0
+  },
+  "Z_CONTENT_X_RARE": {
+   "n": 75,
+   "pos": 0,
+   "y_rate": 0.0,
+   "exact_share": 0.0133,
+   "accepted": 0,
+   "acc_rate": 0.0,
+   "FP": 0,
+   "FN": 0
+  },
+  "Z_GENERIC": {
+   "n": 912,
+   "pos": 848,
+   "y_rate": 0.9298,
+   "exact_share": 0.1491,
+   "accepted": 842,
+   "acc_rate": 0.9232,
+   "FP": 1,
+   "FN": 7
+  },
+  "Z_RARE": {
+   "n": 389,
+   "pos": 252,
+   "y_rate": 0.6478,
+   "exact_share": 0.1465,
+   "accepted": 247,
+   "acc_rate": 0.635,
+   "FP": 0,
+   "FN": 5
+  }
+ },
+ "train_V1_US": {
+  "CC": {
+   "n": 22,
+   "pos": 3,
+   "y_rate": 0.1364,
+   "exact_share": 0.1364,
+   "accepted": 3,
+   "acc_rate": 0.1364,
+   "FP": 0,
+   "FN": 0
+  },
+  "Z_CONTENT_X_RARE": {
+   "n": 40,
+   "pos": 0,
+   "y_rate": 0.0,
+   "exact_share": 0.15,
+   "accepted": 0,
+   "acc_rate": 0.0,
+   "FP": 0,
+   "FN": 0
+  },
+  "Z_GENERIC": {
+   "n": 2168,
+   "pos": 2157,
+   "y_rate": 0.9949,
+   "exact_share": 0.1338,
+   "accepted": 2155,
+   "acc_rate": 0.994,
+   "FP": 2,
+   "FN": 4
+  },
+  "Z_RARE": {
+   "n": 1288,
+   "pos": 1110,
+   "y_rate": 0.8618,
+   "exact_share": 0.1436,
+   "accepted": 1106,
+   "acc_rate": 0.8587,
+   "FP": 3,
+   "FN": 7
+  }
+ },
+ "train_all_CC": {
+  "US": {
+   "n": 118,
+   "pos": 10,
+   "top_neg": [
+    [
+     "coastal->initiative",
+     4
+    ],
+    [
+     "prime->st",
+     4
+    ],
+    [
+     "twin->nova",
+     3
+    ],
+    [
+     "equipment->associates",
+     3
+    ],
+    [
+     "cathedral->blockchain",
+     3
+    ],
+    [
+     "bright->it",
+     3
+    ],
+    [
+     "miller->johnson",
+     2
+    ],
+    [
+     "specialists->care",
+     2
+    ],
+    [
+     "greenfire->anchor",
+     2
+    ],
+    [
+     "community->pacific",
+     2
+    ],
+    [
+     "morris->associates",
+     2
+    ],
+    [
+     "dermatology->algonquin",
+     2
+    ]
+   ],
+   "top_pos": [
+    [
+     "smart->st",
+     2
+    ],
+    [
+     "marine->mae",
+     1
+    ],
+    [
+     "garden->gen",
+     1
+    ],
+    [
+     "pizza->pa",
+     1
+    ],
+    [
+     "ramos->ross",
+     1
+    ],
+    [
+     "states->seas",
+     1
+    ],
+    [
+     "peak->pa",
+     1
+    ],
+    [
+     "star->st",
+     1
+    ],
+    [
+     "cinder->can",
+     1
+    ]
+   ]
+  },
+  "India": {
+   "n": 441,
+   "pos": 7,
+   "top_neg": [
+    [
+     "engineering->builders",
+     4
+    ],
+    [
+     "traders->international",
+     3
+    ],
+    [
+     "it->india",
+     3
+    ],
+    [
+     "great->lotus",
+     3
+    ],
+    [
+     "agro->works",
+     3
+    ],
+    [
+     "systems->infra",
+     3
+    ],
+    [
+     "media->infrastructure",
+     3
+    ],
+    [
+     "unique->mumbai",
+     3
+    ],
+    [
+     "shree->apex",
+     3
+    ],
+    [
+     "power->brothers",
+     3
+    ],
+    [
+     "global->traders",
+     2
+    ],
+    [
+     "technology->vision",
+     2
+    ]
+   ],
+   "top_pos": [
+    [
+     "sons->ss",
+     5
+    ],
+    [
+     "systems->technologies",
+     2
+    ]
+   ]
+  }
+ }
+}

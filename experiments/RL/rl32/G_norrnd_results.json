@@ -1,0 +1,62 @@
+{
+ "NORRND_US": {
+  "US": {
+   "sum_p_per_s1": 3.4483,
+   "true_inpool_per_s1": 3.452,
+   "delta": -0.033,
+   "th": 0.74,
+   "th_delta": 0.7335,
+   "macro": 98.324,
+   "tp": 40083,
+   "fp": 186,
+   "fn_inpool": 1476,
+   "macro_after_delta": 98.332,
+   "tp_after": 40094,
+   "fp_after": 189
+  },
+  "India": {
+   "sum_p_per_s1": 3.4967,
+   "true_inpool_per_s1": 3.4761,
+   "delta": 0.103,
+   "th": 0.74,
+   "th_delta": 0.7594,
+   "macro": 95.314,
+   "tp": 25854,
+   "fp": 667,
+   "fn_inpool": 1819,
+   "macro_after_delta": 95.347,
+   "tp_after": 25771,
+   "fp_after": 625
+  }
+ },
+ "NORRND_India": {
+  "US": {
+   "sum_p_per_s1": 3.5115,
+   "true_inpool_per_s1": 3.452,
+   "delta": 0.332,
+   "th": 0.72,
+   "th_delta": 0.7819,
+   "macro": 97.353,
+   "tp": 39685,
+   "fp": 500,
+   "fn_inpool": 1874,
+   "macro_after_delta": 97.318,
+   "tp_after": 39452,
+   "fp_after": 402
+  },
+  "India": {
+   "sum_p_per_s1": 3.4746,
+   "true_inpool_per_s1": 3.4761,
+   "delta": -0.011,
+   "th": 0.72,
+   "th_delta": 0.7179,
+   "macro": 98.136,
+   "tp": 26627,
+   "fp": 150,
+   "fn_inpool": 1046,
+   "macro_after_delta": 98.14,
+   "tp_after": 26631,
+   "fp_after": 150
+  }
+ }
+}

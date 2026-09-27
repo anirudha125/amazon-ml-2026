@@ -1,0 +1,1038 @@
+{
+ "France_class_decoy_frac": {
+  "content_word|exact_addr": {
+   "n_pairs": 2419,
+   "n_groups": 2407,
+   "mean_k": 2.664,
+   "p1": 0.1471,
+   "f_mean": 1.08,
+   "f_p1": 0.97,
+   "f_p1_se": 0.11,
+   "mean_p": 0.9555
+  },
+  "content_word|same_num_street": {
+   "n_pairs": 11707,
+   "n_groups": 11565,
+   "mean_k": 2.605,
+   "p1": 0.1525,
+   "f_mean": 0.82,
+   "f_p1": 0.89,
+   "f_p1_se": 0.05,
+   "mean_p": 0.9513
+  },
+  "content_word|num_shift_same_street": {
+   "n_pairs": 897,
+   "n_groups": 895,
+   "mean_k": 2.578,
+   "p1": 0.1441,
+   "f_mean": 0.7,
+   "f_p1": 1.02,
+   "f_p1_se": 0.18,
+   "mean_p": 0.8883
+  },
+  "content_word|other": {
+   "n_pairs": 230,
+   "n_groups": 230,
+   "mean_k": 2.683,
+   "p1": 0.1565,
+   "f_mean": 1.16,
+   "f_p1": 0.83,
+   "f_p1_se": 0.36,
+   "mean_p": 0.9389
+  },
+  "to_noise_suffix|exact_addr": {
+   "n_pairs": 3217,
+   "n_groups": 3162,
+   "mean_k": 2.409,
+   "p1": 0.2116,
+   "f_mean": -0.03,
+   "f_p1": 0.01,
+   "f_p1_se": 0.11,
+   "mean_p": 0.9633
+  },
+  "to_noise_suffix|same_num_street": {
+   "n_pairs": 16444,
+   "n_groups": 16058,
+   "mean_k": 2.395,
+   "p1": 0.2221,
+   "f_mean": -0.09,
+   "f_p1": -0.15,
+   "f_p1_se": 0.05,
+   "mean_p": 0.9612
+  },
+  "to_noise_suffix|num_shift_same_street": {
+   "n_pairs": 235,
+   "n_groups": 235,
+   "mean_k": 2.553,
+   "p1": 0.1617,
+   "f_mean": 0.6,
+   "f_p1": 0.75,
+   "f_p1_se": 0.36,
+   "mean_p": 0.8949
+  },
+  "to_noise_suffix|rec_num_missing": {
+   "n_pairs": 894,
+   "n_groups": 875,
+   "mean_k": 2.341,
+   "p1": 0.2354,
+   "f_mean": -0.33,
+   "f_p1": -0.35,
+   "f_p1_se": 0.21,
+   "mean_p": 0.951
+  },
+  "to_noise_suffix|other": {
+   "n_pairs": 404,
+   "n_groups": 404,
+   "mean_k": 2.52,
+   "p1": 0.2104,
+   "f_mean": 0.45,
+   "f_p1": 0.03,
+   "f_p1_se": 0.3,
+   "mean_p": 0.948
+  },
+  "garble_or_rare|exact_addr": {
+   "n_pairs": 1493,
+   "n_groups": 1487,
+   "mean_k": 2.467,
+   "p1": 0.1923,
+   "f_mean": 0.22,
+   "f_p1": 0.3,
+   "f_p1_se": 0.15,
+   "mean_p": 0.9984
+  },
+  "garble_or_rare|same_num_street": {
+   "n_pairs": 8666,
+   "n_groups": 8604,
+   "mean_k": 2.397,
+   "p1": 0.2116,
+   "f_mean": -0.08,
+   "f_p1": 0.01,
+   "f_p1_se": 0.07,
+   "mean_p": 0.9979
+  },
+  "garble_or_rare|rec_num_missing": {
+   "n_pairs": 634,
+   "n_groups": 628,
+   "mean_k": 2.455,
+   "p1": 0.2038,
+   "f_mean": 0.17,
+   "f_p1": 0.12,
+   "f_p1_se": 0.24,
+   "mean_p": 0.9928
+  },
+  "garble_or_rare|other": {
+   "n_pairs": 429,
+   "n_groups": 429,
+   "mean_k": 2.424,
+   "p1": 0.2145,
+   "f_mean": 0.04,
+   "f_p1": -0.03,
+   "f_p1_se": 0.3,
+   "mean_p": 0.9501
+  },
+  "abbrev|exact_addr": {
+   "n_pairs": 384,
+   "n_groups": 379,
+   "mean_k": 2.377,
+   "p1": 0.219,
+   "f_mean": -0.17,
+   "f_p1": -0.1,
+   "f_p1_se": 0.32,
+   "mean_p": 0.9993
+  },
+  "abbrev|same_num_street": {
+   "n_pairs": 2076,
+   "n_groups": 2046,
+   "mean_k": 2.393,
+   "p1": 0.2243,
+   "f_mean": -0.1,
+   "f_p1": -0.18,
+   "f_p1_se": 0.14,
+   "mean_p": 0.9978
+  },
+  "N_SAME|exact_addr": {
+   "n_pairs": 82261,
+   "n_groups": 63940,
+   "mean_k": 2.226,
+   "p1": 0.2735,
+   "f_mean": -0.82,
+   "f_p1": -0.92,
+   "f_p1_se": 0.03,
+   "mean_p": 0.9996
+  },
+  "N_SAME|same_num_street": {
+   "n_pairs": 481451,
+   "n_groups": 313635,
+   "mean_k": 2.072,
+   "p1": 0.334,
+   "f_mean": -1.49,
+   "f_p1": -1.82,
+   "f_p1_se": 0.01,
+   "mean_p": 0.999
+  },
+  "N_SAME|num_shift_same_street": {
+   "n_pairs": 13324,
+   "n_groups": 11968,
+   "mean_k": 2.364,
+   "p1": 0.2198,
+   "f_mean": -0.22,
+   "f_p1": -0.11,
+   "f_p1_se": 0.06,
+   "mean_p": 0.9443
+  },
+  "N_SAME|street_sub_same_num": {
+   "n_pairs": 3685,
+   "n_groups": 3537,
+   "mean_k": 2.408,
+   "p1": 0.2038,
+   "f_mean": -0.03,
+   "f_p1": 0.12,
+   "f_p1_se": 0.1,
+   "mean_p": 0.9755
+  },
+  "N_TYPO|exact_addr": {
+   "n_pairs": 3438,
+   "n_groups": 3395,
+   "mean_k": 2.461,
+   "p1": 0.1959,
+   "f_mean": 0.19,
+   "f_p1": 0.24,
+   "f_p1_se": 0.1,
+   "mean_p": 0.9974
+  },
+  "N_TYPO|same_num_street": {
+   "n_pairs": 20372,
+   "n_groups": 19970,
+   "mean_k": 2.4,
+   "p1": 0.2184,
+   "f_mean": -0.07,
+   "f_p1": -0.09,
+   "f_p1_se": 0.04,
+   "mean_p": 0.997
+  },
+  "N_TYPO|num_shift_same_street": {
+   "n_pairs": 427,
+   "n_groups": 425,
+   "mean_k": 2.412,
+   "p1": 0.1929,
+   "f_mean": -0.02,
+   "f_p1": 0.29,
+   "f_p1_se": 0.29,
+   "mean_p": 0.9395
+  },
+  "N_DROP|exact_addr": {
+   "n_pairs": 5559,
+   "n_groups": 5505,
+   "mean_k": 2.595,
+   "p1": 0.1379,
+   "f_mean": 0.78,
+   "f_p1": 1.11,
+   "f_p1_se": 0.07,
+   "mean_p": 0.9954
+  },
+  "N_DROP|same_num_street": {
+   "n_pairs": 11354,
+   "n_groups": 11053,
+   "mean_k": 2.42,
+   "p1": 0.2142,
+   "f_mean": 0.02,
+   "f_p1": -0.03,
+   "f_p1_se": 0.06,
+   "mean_p": 0.9927
+  },
+  "N_ADD|exact_addr": {
+   "n_pairs": 5090,
+   "n_groups": 5049,
+   "mean_k": 2.568,
+   "p1": 0.1468,
+   "f_mean": 0.66,
+   "f_p1": 0.98,
+   "f_p1_se": 0.07,
+   "mean_p": 0.9911
+  },
+  "N_ADD|same_num_street": {
+   "n_pairs": 8099,
+   "n_groups": 7808,
+   "mean_k": 2.348,
+   "p1": 0.2304,
+   "f_mean": -0.29,
+   "f_p1": -0.27,
+   "f_p1_se": 0.07,
+   "mean_p": 0.9612
+  },
+  "N_STEM|same_num_street": {
+   "n_pairs": 590,
+   "n_groups": 586,
+   "mean_k": 2.401,
+   "p1": 0.1945,
+   "f_mean": -0.06,
+   "f_p1": 0.26,
+   "f_p1_se": 0.24,
+   "mean_p": 0.9937
+  },
+  "N_ACRONYM|exact_addr": {
+   "n_pairs": 3081,
+   "n_groups": 3051,
+   "mean_k": 2.507,
+   "p1": 0.1731,
+   "f_mean": 0.4,
+   "f_p1": 0.58,
+   "f_p1_se": 0.1,
+   "mean_p": 0.9571
+  },
+  "N_ACRONYM|same_num_street": {
+   "n_pairs": 4406,
+   "n_groups": 4362,
+   "mean_k": 2.339,
+   "p1": 0.2182,
+   "f_mean": -0.33,
+   "f_p1": -0.09,
+   "f_p1_se": 0.09,
+   "mean_p": 0.9331
+  },
+  "N_DISJOINT|exact_addr": {
+   "n_pairs": 6453,
+   "n_groups": 6420,
+   "mean_k": 2.61,
+   "p1": 0.1318,
+   "f_mean": 0.84,
+   "f_p1": 1.2,
+   "f_p1_se": 0.06,
+   "mean_p": 0.9438
+  },
+  "N_DISJOINT|same_num_street": {
+   "n_pairs": 4936,
+   "n_groups": 4871,
+   "mean_k": 2.382,
+   "p1": 0.2225,
+   "f_mean": -0.15,
+   "f_p1": -0.15,
+   "f_p1_se": 0.09,
+   "mean_p": 0.9273
+  },
+  "N_HANDLE|exact_addr": {
+   "n_pairs": 9655,
+   "n_groups": 9426,
+   "mean_k": 2.43,
+   "p1": 0.2111,
+   "f_mean": 0.06,
+   "f_p1": 0.02,
+   "f_p1_se": 0.06,
+   "mean_p": 0.9988
+  },
+  "N_HANDLE|same_num_street": {
+   "n_pairs": 48112,
+   "n_groups": 45991,
+   "mean_k": 2.366,
+   "p1": 0.2276,
+   "f_mean": -0.22,
+   "f_p1": -0.23,
+   "f_p1_se": 0.03,
+   "mean_p": 0.9984
+  },
+  "N_HANDLE|num_shift_same_street": {
+   "n_pairs": 688,
+   "n_groups": 672,
+   "mean_k": 2.315,
+   "p1": 0.256,
+   "f_mean": -0.44,
+   "f_p1": -0.65,
+   "f_p1_se": 0.25,
+   "mean_p": 0.9816
+  },
+  "N_ALIAS|exact_addr": {
+   "n_pairs": 10818,
+   "n_groups": 10818,
+   "mean_k": 2.66,
+   "p1": 0.1121,
+   "f_mean": 1.06,
+   "f_p1": 1.49,
+   "f_p1_se": 0.05,
+   "mean_p": 0.9999
+  },
+  "N_SAME&samestreet|H_D1": {
+   "n_pairs": 1042,
+   "n_groups": 997,
+   "mean_k": 2.482,
+   "p1": 0.1886,
+   "f_mean": 0.29,
+   "f_p1": 0.35,
+   "f_p1_se": 0.19,
+   "mean_p": 0.934
+  },
+  "N_SAME&samestreet|H_D2": {
+   "n_pairs": 1125,
+   "n_groups": 1082,
+   "mean_k": 2.517,
+   "p1": 0.1765,
+   "f_mean": 0.44,
+   "f_p1": 0.53,
+   "f_p1_se": 0.17,
+   "mean_p": 0.9336
+  },
+  "N_SAME&samestreet|H_D3_10_ODD": {
+   "n_pairs": 1291,
+   "n_groups": 1265,
+   "mean_k": 2.434,
+   "p1": 0.185,
+   "f_mean": 0.08,
+   "f_p1": 0.41,
+   "f_p1_se": 0.16,
+   "mean_p": 0.9022
+  },
+  "N_SAME&samestreet|H_D3_10_EVEN": {
+   "n_pairs": 375,
+   "n_groups": 351,
+   "mean_k": 2.422,
+   "p1": 0.1909,
+   "f_mean": 0.02,
+   "f_p1": 0.32,
+   "f_p1_se": 0.31,
+   "mean_p": 0.9231
+  },
+  "N_SAME&samestreet|H_DIGSUB": {
+   "n_pairs": 2256,
+   "n_groups": 2065,
+   "mean_k": 2.397,
+   "p1": 0.2073,
+   "f_mean": -0.08,
+   "f_p1": 0.07,
+   "f_p1_se": 0.13,
+   "mean_p": 0.9309
+  },
+  "N_SAME&samestreet|H_GT10_ODD": {
+   "n_pairs": 4067,
+   "n_groups": 3642,
+   "mean_k": 2.354,
+   "p1": 0.2268,
+   "f_mean": -0.27,
+   "f_p1": -0.22,
+   "f_p1_se": 0.1,
+   "mean_p": 0.948
+  },
+  "N_SAME&samestreet|H_GT10_EVEN": {
+   "n_pairs": 2258,
+   "n_groups": 1942,
+   "mean_k": 2.236,
+   "p1": 0.2703,
+   "f_mean": -0.78,
+   "f_p1": -0.87,
+   "f_p1_se": 0.15,
+   "mean_p": 0.9763
+  },
+  "N_SAME&samestreet|H_DIGINDEL": {
+   "n_pairs": 865,
+   "n_groups": 741,
+   "mean_k": 2.267,
+   "p1": 0.2267,
+   "f_mean": -0.65,
+   "f_p1": -0.22,
+   "f_p1_se": 0.23,
+   "mean_p": 0.9786
+  }
+ },
+ "France_pair_decoy_frac": {
+  "club->amicale": {
+   "n_pairs": 144,
+   "n_groups": 144,
+   "mean_k": 2.611,
+   "p1": 0.1667,
+   "f_mean": 0.85,
+   "f_p1": 0.68,
+   "f_p1_se": 0.46,
+   "mean_p": 0.9337
+  },
+  "club->centre": {
+   "n_pairs": 152,
+   "n_groups": 152,
+   "mean_k": 2.612,
+   "p1": 0.1908,
+   "f_mean": 0.85,
+   "f_p1": 0.32,
+   "f_p1_se": 0.48,
+   "mean_p": 0.9821
+  },
+  "club->comite": {
+   "n_pairs": 229,
+   "n_groups": 229,
+   "mean_k": 2.568,
+   "p1": 0.1703,
+   "f_mean": 0.66,
+   "f_p1": 0.63,
+   "f_p1_se": 0.37,
+   "mean_p": 0.982
+  },
+  "comite->club": {
+   "n_pairs": 134,
+   "n_groups": 134,
+   "mean_k": 2.687,
+   "p1": 0.1269,
+   "f_mean": 1.17,
+   "f_p1": 1.27,
+   "f_p1_se": 0.43,
+   "mean_p": 0.949
+  }
+ },
+ "France_sw_a_decoy_frac": {
+  "amicale": {
+   "n_pairs": 815,
+   "n_groups": 802,
+   "mean_k": 2.594,
+   "p1": 0.1559,
+   "f_mean": 0.77,
+   "f_p1": 0.84,
+   "f_p1_se": 0.19,
+   "mean_p": 0.9507
+  },
+  "amis": {
+   "n_pairs": 574,
+   "n_groups": 566,
+   "mean_k": 2.594,
+   "p1": 0.1608,
+   "f_mean": 0.77,
+   "f_p1": 0.77,
+   "f_p1_se": 0.23,
+   "mean_p": 0.9525
+  },
+  "anciens": {
+   "n_pairs": 297,
+   "n_groups": 294,
+   "mean_k": 2.582,
+   "p1": 0.1667,
+   "f_mean": 0.72,
+   "f_p1": 0.68,
+   "f_p1_se": 0.32,
+   "mean_p": 0.9593
+  },
+  "centre": {
+   "n_pairs": 505,
+   "n_groups": 494,
+   "mean_k": 2.595,
+   "p1": 0.1498,
+   "f_mean": 0.78,
+   "f_p1": 0.93,
+   "f_p1_se": 0.24,
+   "mean_p": 0.9509
+  },
+  "club": {
+   "n_pairs": 1595,
+   "n_groups": 1580,
+   "mean_k": 2.621,
+   "p1": 0.1595,
+   "f_mean": 0.89,
+   "f_p1": 0.79,
+   "f_p1_se": 0.14,
+   "mean_p": 0.9559
+  },
+  "college": {
+   "n_pairs": 458,
+   "n_groups": 454,
+   "mean_k": 2.639,
+   "p1": 0.1498,
+   "f_mean": 0.97,
+   "f_p1": 0.93,
+   "f_p1_se": 0.25,
+   "mean_p": 0.9535
+  },
+  "comite": {
+   "n_pairs": 729,
+   "n_groups": 719,
+   "mean_k": 2.569,
+   "p1": 0.1474,
+   "f_mean": 0.66,
+   "f_p1": 0.97,
+   "f_p1_se": 0.2,
+   "mean_p": 0.954
+  },
+  "compagnie": {
+   "n_pairs": 276,
+   "n_groups": 274,
+   "mean_k": 2.555,
+   "p1": 0.1606,
+   "f_mean": 0.6,
+   "f_p1": 0.77,
+   "f_p1_se": 0.33,
+   "mean_p": 0.9578
+  },
+  "ecole": {
+   "n_pairs": 682,
+   "n_groups": 674,
+   "mean_k": 2.576,
+   "p1": 0.1543,
+   "f_mean": 0.69,
+   "f_p1": 0.86,
+   "f_p1_se": 0.21,
+   "mean_p": 0.9435
+  },
+  "fetes": {
+   "n_pairs": 277,
+   "n_groups": 271,
+   "mean_k": 2.528,
+   "p1": 0.1661,
+   "f_mean": 0.48,
+   "f_p1": 0.69,
+   "f_p1_se": 0.34,
+   "mean_p": 0.9574
+  },
+  "loisirs": {
+   "n_pairs": 277,
+   "n_groups": 273,
+   "mean_k": 2.681,
+   "p1": 0.1355,
+   "f_mean": 1.15,
+   "f_p1": 1.14,
+   "f_p1_se": 0.31,
+   "mean_p": 0.9413
+  },
+  "maison": {
+   "n_pairs": 317,
+   "n_groups": 309,
+   "mean_k": 2.608,
+   "p1": 0.1586,
+   "f_mean": 0.83,
+   "f_p1": 0.8,
+   "f_p1_se": 0.31,
+   "mean_p": 0.9588
+  },
+  "parents": {
+   "n_pairs": 452,
+   "n_groups": 447,
+   "mean_k": 2.57,
+   "p1": 0.1454,
+   "f_mean": 0.67,
+   "f_p1": 1.0,
+   "f_p1_se": 0.25,
+   "mean_p": 0.9566
+  },
+  "primaire": {
+   "n_pairs": 357,
+   "n_groups": 352,
+   "mean_k": 2.577,
+   "p1": 0.1676,
+   "f_mean": 0.7,
+   "f_p1": 0.67,
+   "f_p1_se": 0.3,
+   "mean_p": 0.9571
+  },
+  "sante": {
+   "n_pairs": 298,
+   "n_groups": 290,
+   "mean_k": 2.741,
+   "p1": 0.1379,
+   "f_mean": 1.41,
+   "f_p1": 1.11,
+   "f_p1_se": 0.3,
+   "mean_p": 0.9515
+  },
+  "societe": {
+   "n_pairs": 391,
+   "n_groups": 383,
+   "mean_k": 2.668,
+   "p1": 0.1514,
+   "f_mean": 1.09,
+   "f_p1": 0.91,
+   "f_p1_se": 0.27,
+   "mean_p": 0.9593
+  },
+  "sport": {
+   "n_pairs": 257,
+   "n_groups": 252,
+   "mean_k": 2.607,
+   "p1": 0.1627,
+   "f_mean": 0.83,
+   "f_p1": 0.74,
+   "f_p1_se": 0.35,
+   "mean_p": 0.9601
+  },
+  "sportive": {
+   "n_pairs": 739,
+   "n_groups": 729,
+   "mean_k": 2.638,
+   "p1": 0.1221,
+   "f_mean": 0.96,
+   "f_p1": 1.35,
+   "f_p1_se": 0.18,
+   "mean_p": 0.953
+  },
+  "union": {
+   "n_pairs": 329,
+   "n_groups": 319,
+   "mean_k": 2.636,
+   "p1": 0.1755,
+   "f_mean": 0.96,
+   "f_p1": 0.55,
+   "f_p1_se": 0.32,
+   "mean_p": 0.9438
+  }
+ },
+ "France_sw_b_decoy_frac": {
+  "amicale": {
+   "n_pairs": 994,
+   "n_groups": 994,
+   "mean_k": 2.596,
+   "p1": 0.16,
+   "f_mean": 0.78,
+   "f_p1": 0.78,
+   "f_p1_se": 0.17,
+   "mean_p": 0.9407
+  },
+  "amis": {
+   "n_pairs": 1066,
+   "n_groups": 1066,
+   "mean_k": 2.614,
+   "p1": 0.1454,
+   "f_mean": 0.86,
+   "f_p1": 1.0,
+   "f_p1_se": 0.16,
+   "mean_p": 0.9629
+  },
+  "anciens": {
+   "n_pairs": 271,
+   "n_groups": 271,
+   "mean_k": 2.624,
+   "p1": 0.1476,
+   "f_mean": 0.9,
+   "f_p1": 0.96,
+   "f_p1_se": 0.32,
+   "mean_p": 0.9277
+  },
+  "centre": {
+   "n_pairs": 1032,
+   "n_groups": 1032,
+   "mean_k": 2.623,
+   "p1": 0.1715,
+   "f_mean": 0.9,
+   "f_p1": 0.61,
+   "f_p1_se": 0.18,
+   "mean_p": 0.9697
+  },
+  "club": {
+   "n_pairs": 1731,
+   "n_groups": 1731,
+   "mean_k": 2.663,
+   "p1": 0.1415,
+   "f_mean": 1.07,
+   "f_p1": 1.06,
+   "f_p1_se": 0.13,
+   "mean_p": 0.9406
+  },
+  "college": {
+   "n_pairs": 325,
+   "n_groups": 324,
+   "mean_k": 2.688,
+   "p1": 0.1235,
+   "f_mean": 1.18,
+   "f_p1": 1.33,
+   "f_p1_se": 0.27,
+   "mean_p": 0.9474
+  },
+  "comite": {
+   "n_pairs": 1642,
+   "n_groups": 1642,
+   "mean_k": 2.646,
+   "p1": 0.1523,
+   "f_mean": 1.0,
+   "f_p1": 0.9,
+   "f_p1_se": 0.13,
+   "mean_p": 0.9685
+  },
+  "ecole": {
+   "n_pairs": 519,
+   "n_groups": 519,
+   "mean_k": 2.568,
+   "p1": 0.1387,
+   "f_mean": 0.66,
+   "f_p1": 1.1,
+   "f_p1_se": 0.23,
+   "mean_p": 0.9189
+  },
+  "federation": {
+   "n_pairs": 393,
+   "n_groups": 393,
+   "mean_k": 2.636,
+   "p1": 0.1552,
+   "f_mean": 0.95,
+   "f_p1": 0.85,
+   "f_p1_se": 0.27,
+   "mean_p": 0.9537
+  },
+  "fetes": {
+   "n_pairs": 645,
+   "n_groups": 645,
+   "mean_k": 2.763,
+   "p1": 0.1426,
+   "f_mean": 1.5,
+   "f_p1": 1.04,
+   "f_p1_se": 0.21,
+   "mean_p": 0.9704
+  },
+  "loisirs": {
+   "n_pairs": 272,
+   "n_groups": 272,
+   "mean_k": 2.441,
+   "p1": 0.1728,
+   "f_mean": 0.11,
+   "f_p1": 0.59,
+   "f_p1_se": 0.34,
+   "mean_p": 0.9343
+  },
+  "lycee": {
+   "n_pairs": 299,
+   "n_groups": 298,
+   "mean_k": 2.638,
+   "p1": 0.1409,
+   "f_mean": 0.96,
+   "f_p1": 1.06,
+   "f_p1_se": 0.3,
+   "mean_p": 0.9462
+  },
+  "parents": {
+   "n_pairs": 507,
+   "n_groups": 507,
+   "mean_k": 2.562,
+   "p1": 0.1598,
+   "f_mean": 0.63,
+   "f_p1": 0.78,
+   "f_p1_se": 0.24,
+   "mean_p": 0.9417
+  },
+  "sante": {
+   "n_pairs": 401,
+   "n_groups": 401,
+   "mean_k": 2.569,
+   "p1": 0.1446,
+   "f_mean": 0.66,
+   "f_p1": 1.01,
+   "f_p1_se": 0.26,
+   "mean_p": 0.9607
+  },
+  "section": {
+   "n_pairs": 433,
+   "n_groups": 433,
+   "mean_k": 2.589,
+   "p1": 0.1617,
+   "f_mean": 0.75,
+   "f_p1": 0.75,
+   "f_p1_se": 0.26,
+   "mean_p": 0.9673
+  },
+  "service": {
+   "n_pairs": 411,
+   "n_groups": 411,
+   "mean_k": 2.645,
+   "p1": 0.1314,
+   "f_mean": 0.99,
+   "f_p1": 1.21,
+   "f_p1_se": 0.25,
+   "mean_p": 0.9938
+  },
+  "societe": {
+   "n_pairs": 778,
+   "n_groups": 778,
+   "mean_k": 2.616,
+   "p1": 0.1478,
+   "f_mean": 0.87,
+   "f_p1": 0.96,
+   "f_p1_se": 0.19,
+   "mean_p": 0.976
+  }
+ },
+ "France_related_vs_unrelated": {
+  "shared_4prefix": {
+   "n_groups": 19,
+   "mean_k": 2.895,
+   "p1": 0.1579,
+   "f_mean": 2.08,
+   "f_p1": 0.81,
+   "f_p1_se": 1.25,
+   "n_pairs": 19
+  },
+  "no_shared_prefix": {
+   "n_groups": 13924,
+   "mean_k": 2.612,
+   "p1": 0.1519,
+   "f_mean": 0.85,
+   "f_p1": 0.9,
+   "f_p1_se": 0.05,
+   "n_pairs": 14107
+  }
+ },
+ "France_cs_same_addr_p_quantiles": {
+  "0.05": 0.8224,
+  "0.1": 0.856,
+  "0.25": 0.9302,
+  "0.5": 0.9759,
+  "0.75": 0.9941
+ },
+ "France_cs_same_addr_counts": {
+  "n_final": 14126,
+  "n_s1": 13792,
+  "exact": 2419,
+  "same_num_street": 11707,
+  "share_of_final_pairs": 0.01653,
+  "share_of_France_S1": 0.05316
+ },
+ "France_cs_by_pbin": {
+  "(0.78, 0.9]": {
+   "n_groups": 2486,
+   "mean_k": 2.586,
+   "p1": 0.1581,
+   "f_mean": 0.74,
+   "f_p1": 0.81,
+   "f_p1_se": 0.11
+  },
+  "(0.9, 0.95]": {
+   "n_groups": 2114,
+   "mean_k": 2.582,
+   "p1": 0.1556,
+   "f_mean": 0.72,
+   "f_p1": 0.84,
+   "f_p1_se": 0.12
+  },
+  "(0.95, 0.98]": {
+   "n_groups": 2995,
+   "mean_k": 2.631,
+   "p1": 0.1446,
+   "f_mean": 0.93,
+   "f_p1": 1.01,
+   "f_p1_se": 0.1
+  },
+  "(0.98, 0.99]": {
+   "n_groups": 1781,
+   "mean_k": 2.647,
+   "p1": 0.1583,
+   "f_mean": 1.0,
+   "f_p1": 0.8,
+   "f_p1_se": 0.13
+  },
+  "(0.99, 0.995]": {
+   "n_groups": 1496,
+   "mean_k": 2.619,
+   "p1": 0.1551,
+   "f_mean": 0.88,
+   "f_p1": 0.85,
+   "f_p1_se": 0.14
+  },
+  "(0.995, 1.0]": {
+   "n_groups": 3212,
+   "mean_k": 2.659,
+   "p1": 0.1398,
+   "f_mean": 1.06,
+   "f_p1": 1.08,
+   "f_p1_se": 0.09
+  }
+ },
+ "V1_content_swap_by_arel": {
+  "US|exact_addr": {
+   "n_hard": 9,
+   "n_pos": 2,
+   "p_match": 0.2222,
+   "n_acc": 3,
+   "prec": 0.6667,
+   "FP": 1
+  },
+  "US|num_shift_same_street": {
+   "n_hard": 39,
+   "n_pos": 2,
+   "p_match": 0.0513,
+   "n_acc": 0,
+   "prec": null,
+   "FP": 0
+  },
+  "US|other": {
+   "n_hard": 1618,
+   "n_pos": 14,
+   "p_match": 0.0087,
+   "n_acc": 3,
+   "prec": 1.0,
+   "FP": 0
+  },
+  "US|rec_num_missing": {
+   "n_hard": 8,
+   "n_pos": 0,
+   "p_match": 0.0,
+   "n_acc": 0,
+   "prec": null,
+   "FP": 0
+  },
+  "US|same_num_street": {
+   "n_hard": 41,
+   "n_pos": 14,
+   "p_match": 0.3415,
+   "n_acc": 14,
+   "prec": 1.0,
+   "FP": 0
+  },
+  "US|street_sub_same_num": {
+   "n_hard": 2,
+   "n_pos": 0,
+   "p_match": 0.0,
+   "n_acc": 0,
+   "prec": null,
+   "FP": 0
+  },
+  "US|abbrev_all": {
+   "n_hard": 168,
+   "n_pos": 123,
+   "p_match": 0.7321
+  },
+  "India|exact_addr": {
+   "n_hard": 3,
+   "n_pos": 3,
+   "p_match": 1.0,
+   "n_acc": 3,
+   "prec": 1.0,
+   "FP": 0
+  },
+  "India|num_shift_same_street": {
+   "n_hard": 30,
+   "n_pos": 0,
+   "p_match": 0.0,
+   "n_acc": 0,
+   "prec": null,
+   "FP": 0
+  },
+  "India|other": {
+   "n_hard": 588,
+   "n_pos": 4,
+   "p_match": 0.0068,
+   "n_acc": 4,
+   "prec": 1.0,
+   "FP": 0
+  },
+  "India|rec_num_missing": {
+   "n_hard": 9,
+   "n_pos": 0,
+   "p_match": 0.0,
+   "n_acc": 0,
+   "prec": null,
+   "FP": 0
+  },
+  "India|same_num_street": {
+   "n_hard": 29,
+   "n_pos": 8,
+   "p_match": 0.2759,
+   "n_acc": 6,
+   "prec": 1.0,
+   "FP": 0
+  },
+  "India|street_sub_same_num": {
+   "n_hard": 3,
+   "n_pos": 0,
+   "p_match": 0.0,
+   "n_acc": 0,
+   "prec": null,
+   "FP": 0
+  },
+  "India|abbrev_all": {
+   "n_hard": 55,
+   "n_pos": 43,
+   "p_match": 0.7818
+  }
+ },
+ "rate_cs_same_addr": {
+  "France": 0.01653,
+  "US": 0.0003,
+  "India": 0.00017
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "th": 0.7200000000000001,
+ "train_oof_macro": 0.9810696471497241,
+ "V1": {
+  "US": {
+   "sum_p_per_s1": 3.4505,
+   "true_inpool_per_s1": 3.452,
+   "delta": -0.013,
+   "th": 0.72,
+   "th_delta": 0.7174,
+   "macro": 98.276,
+   "tp": 40067,
+   "fp": 198,
+   "fn_inpool": 1492,
+   "macro_after_delta": 98.274,
+   "tp_after": 40076,
+   "fp_after": 202
+  },
+  "India": {
+   "sum_p_per_s1": 3.4757,
+   "true_inpool_per_s1": 3.4761,
+   "delta": -0.002,
+   "th": 0.72,
+   "th_delta": 0.7195,
+   "macro": 97.943,
+   "tp": 26576,
+   "fp": 175,
+   "fn_inpool": 1097,
+   "macro_after_delta": 97.943,
+   "tp_after": 26576,
+   "fp_after": 175
+  }
+ },
+ "n_feat": 111
+}

@@ -1,0 +1,1029 @@
+{
+ "reproduced_exact_from_D_pickles": {
+  "word_swaps": 39891,
+  "distinct": 3024,
+  "share": 0.0454,
+  "reverse_mass_measured": 0.5611,
+  "reverse_mass_claimed": 0.76,
+  "top": [
+   [
+    "club",
+    "fils",
+    783
+   ],
+   [
+    "france",
+    "fils",
+    558
+   ],
+   [
+    "club",
+    "services",
+    538
+   ],
+   [
+    "saint",
+    "st",
+    487
+   ]
+  ]
+ },
+ "independent_recount_France": {
+  "word_swaps": 47894,
+  "distinct": 3204,
+  "reverse_mass": 0.5808,
+  "overlap": {
+   "min_D_ratio_of_fillers": 0.0215,
+   "filler_with_min": "association",
+   "n_nonfiller_swap_targets": 36,
+   "n_nonfiller_above_that": 34,
+   "nonfiller_above": [
+    [
+     "cb",
+     10.3462,
+     269,
+     0
+    ],
+    [
+     "fs",
+     4.6667,
+     112,
+     0
+    ],
+    [
+     "st",
+     1.8939,
+     500,
+     0
+    ],
+    [
+     "service",
+     0.4486,
+     807,
+     0
+    ],
+    [
+     "as",
+     0.445,
+     85,
+     0
+    ],
+    [
+     "compagnie",
+     0.4303,
+     1512,
+     0
+    ],
+    [
+     "section",
+     0.2135,
+     462,
+     0
+    ],
+    [
+     "societe",
+     0.2118,
+     865,
+     0
+    ],
+    [
+     "fetes",
+     0.1991,
+     766,
+     0
+    ],
+    [
+     "amis",
+     0.1747,
+     1208,
+     0
+    ],
+    [
+     "comite",
+     0.1275,
+     1763,
+     0
+    ],
+    [
+     "soins",
+     0.1142,
+     107,
+     0
+    ],
+    [
+     "conseil",
+     0.112,
+     116,
+     0
+    ],
+    [
+     "centre",
+     0.1098,
+     1154,
+     1
+    ],
+    [
+     "parents",
+     0.0991,
+     527,
+     0
+    ]
+   ]
+  }
+ },
+ "shape_test_V1_calibration": {
+  "corr": {
+   "n_classes": 19,
+   "pearson": 0.018,
+   "max_abs_err": 2.68
+  },
+  "principle": {
+   "acc_y0": {
+    "n": 162,
+    "p1": 0.1975,
+    "f_p1": 0.13,
+    "se": 0.43
+   },
+   "acc_y1": {
+    "n": 34610,
+    "p1": 0.4018,
+    "f_p1": -2.67,
+    "se": 0.04
+   },
+   "n_acc_y0": 167,
+   "n_acc_y1": 67186
+  },
+  "true_classes_high_f": {
+   "N_ADD|exact": {
+    "n": 631,
+    "p1": 0.1395,
+    "f_p1": 0.92,
+    "se": 0.19,
+    "n_rows": 637,
+    "FP_share": 0.0
+   },
+   "N_DISJOINT|exact": {
+    "n": 250,
+    "p1": 0.128,
+    "f_p1": 1.08,
+    "se": 0.29,
+    "n_rows": 251,
+    "FP_share": 0.012
+   },
+   "N_ALIAS|any": {
+    "n": 1107,
+    "p1": 0.1048,
+    "f_p1": 1.4,
+    "se": 0.13,
+    "n_rows": 1107,
+    "FP_share": 0.0
+   },
+   "N_ACRONYM|any": {
+    "n": 79,
+    "p1": 0.1013,
+    "f_p1": 1.45,
+    "se": 0.46,
+    "n_rows": 79,
+    "FP_share": 0.0
+   },
+   "N_DROP|exact": {
+    "n": 532,
+    "p1": 0.156,
+    "f_p1": 0.7,
+    "se": 0.22,
+    "n_rows": 538,
+    "FP_share": 0.0
+   }
+  }
+ },
+ "appended_tokens_train_India": [
+  [
+   "center",
+   3447,
+   342,
+   875,
+   0.281,
+   0.3531,
+   0.9912
+  ],
+  [
+   "services",
+   24128,
+   189,
+   648,
+   0.2258,
+   0.0347,
+   0.9947
+  ],
+  [
+   "public",
+   7234,
+   134,
+   0,
+   1.0,
+   0.0185,
+   0.0
+  ],
+  [
+   "enterprises",
+   12145,
+   134,
+   8,
+   0.9437,
+   0.0117,
+   0.0
+  ],
+  [
+   "holdings",
+   2849,
+   128,
+   5,
+   0.9624,
+   0.0467,
+   0.0
+  ],
+  [
+   "group",
+   9025,
+   126,
+   0,
+   1.0,
+   0.014,
+   0.0
+  ],
+  [
+   "exports",
+   8846,
+   126,
+   5,
+   0.9618,
+   0.0148,
+   0.0
+  ],
+  [
+   "overseas",
+   968,
+   123,
+   2,
+   0.984,
+   0.1291,
+   0.0
+  ],
+  [
+   "industries",
+   13172,
+   118,
+   14,
+   0.8939,
+   0.01,
+   0.0
+  ],
+  [
+   "ventures",
+   11533,
+   112,
+   9,
+   0.9256,
+   0.0105,
+   0.0
+  ],
+  [
+   "infratech",
+   1192,
+   111,
+   4,
+   0.9652,
+   0.0965,
+   0.0
+  ],
+  [
+   "service",
+   755,
+   108,
+   284,
+   0.2755,
+   0.5192,
+   0.9907
+  ],
+  [
+   "partners",
+   5835,
+   77,
+   229,
+   0.2516,
+   0.0524,
+   0.974
+  ]
+ ],
+ "appended_tokens_train_US": [
+  [
+   "incorporated",
+   8,
+   902,
+   0,
+   1.0,
+   112.75,
+   0.9889
+  ],
+  [
+   "center",
+   31814,
+   576,
+   2424,
+   0.192,
+   0.0943,
+   0.9965
+  ],
+  [
+   "services",
+   7001,
+   373,
+   1767,
+   0.1743,
+   0.3057,
+   1.0
+  ],
+  [
+   "service",
+   4260,
+   199,
+   829,
+   0.1936,
+   0.2413,
+   0.995
+  ],
+  [
+   "partners",
+   29117,
+   182,
+   651,
+   0.2185,
+   0.0286,
+   0.8791
+  ],
+  [
+   "com",
+   1,
+   155,
+   2245,
+   0.0646,
+   2400.0,
+   1.0
+  ],
+  [
+   "lnc",
+   1,
+   92,
+   4,
+   0.9583,
+   96.0,
+   0.9891
+  ],
+  [
+   "district",
+   10,
+   51,
+   0,
+   1.0,
+   5.1,
+   1.0
+  ],
+  [
+   "society",
+   3788,
+   49,
+   0,
+   1.0,
+   0.0129,
+   1.0
+  ],
+  [
+   "board",
+   1651,
+   42,
+   1,
+   0.9767,
+   0.026,
+   1.0
+  ],
+  [
+   "trust",
+   5916,
+   39,
+   1,
+   0.975,
+   0.0068,
+   1.0
+  ],
+  [
+   "association",
+   5669,
+   38,
+   0,
+   1.0,
+   0.0067,
+   1.0
+  ],
+  [
+   "council",
+   3833,
+   37,
+   2,
+   0.9487,
+   0.0102,
+   1.0
+  ],
+  [
+   "federation",
+   3761,
+   37,
+   0,
+   1.0,
+   0.0098,
+   1.0
+  ],
+  [
+   "commission",
+   1671,
+   36,
+   0,
+   1.0,
+   0.0215,
+   1.0
+  ],
+  [
+   "authority",
+   0,
+   34,
+   0,
+   1.0,
+   34.0,
+   1.0
+  ],
+  [
+   "foundation",
+   3738,
+   31,
+   0,
+   1.0,
+   0.0083,
+   1.0
+  ]
+ ],
+ "classes_train": {
+  "US": [
+   [
+    "ADD_appended",
+    2873,
+    2837,
+    0.98747,
+    667.02266
+   ],
+   [
+    "ADD_other",
+    1961,
+    1837,
+    0.93677,
+    455.28418
+   ],
+   [
+    "SWAP_other",
+    4933,
+    3989,
+    0.80864,
+    1145.2916
+   ],
+   [
+    "SWAP_to_appended",
+    7924,
+    7880,
+    0.99445,
+    1839.71025
+   ]
+  ],
+  "India": [
+   [
+    "ADD_appended",
+    1828,
+    709,
+    0.38786,
+    632.04481
+   ],
+   [
+    "ADD_other",
+    1645,
+    1432,
+    0.87052,
+    568.77118
+   ],
+   [
+    "SWAP_other",
+    3221,
+    2084,
+    0.647,
+    1113.68508
+   ],
+   [
+    "SWAP_to_appended",
+    2083,
+    1889,
+    0.90687,
+    720.21299
+   ],
+   [
+    "SWAP_word_to_distinguishing",
+    162,
+    0,
+    0.0,
+    56.01272
+   ]
+  ]
+ },
+ "V1_model_in_class": {
+  "US": {
+   "ADD_appended": {
+    "n": 814,
+    "n_pos": 803,
+    "n_acc": 803,
+    "FP": 0,
+    "FN": 0
+   },
+   "ADD_other": {
+    "n": 575,
+    "n_pos": 544,
+    "n_acc": 543,
+    "FP": 0,
+    "FN": 1
+   },
+   "SWAP_other": {
+    "n": 1361,
+    "n_pos": 1124,
+    "n_acc": 1120,
+    "FP": 3,
+    "FN": 7
+   },
+   "SWAP_to_appended": {
+    "n": 2157,
+    "n_pos": 2146,
+    "n_acc": 2144,
+    "FP": 2,
+    "FN": 4
+   }
+  },
+  "India": {
+   "ADD_appended": {
+    "n": 498,
+    "n_pos": 184,
+    "n_acc": 184,
+    "FP": 0,
+    "FN": 0
+   },
+   "ADD_other": {
+    "n": 460,
+    "n_pos": 403,
+    "n_acc": 403,
+    "FP": 0,
+    "FN": 0
+   },
+   "SWAP_other": {
+    "n": 883,
+    "n_pos": 584,
+    "n_acc": 575,
+    "FP": 0,
+    "FN": 9
+   },
+   "SWAP_to_appended": {
+    "n": 576,
+    "n_pos": 519,
+    "n_acc": 515,
+    "FP": 1,
+    "FN": 5
+   },
+   "SWAP_word_to_distinguishing": {
+    "n": 50,
+    "n_pos": 0,
+    "n_acc": 0,
+    "FP": 0,
+    "FN": 0
+   }
+  },
+  "US_total": {
+   "FP": 91,
+   "FN": 1288
+  },
+  "India_total": {
+   "FP": 76,
+   "FN": 758
+  }
+ },
+ "classes_test": {
+  "France": [
+   [
+    "ADD_appended",
+    13658,
+    0.75048,
+    10248,
+    9506,
+    526.41722,
+    3.66388
+   ],
+   [
+    "ADD_other",
+    4850,
+    0.96268,
+    4658,
+    4643,
+    186.93246,
+    1.78954
+   ],
+   [
+    "SWAP_other",
+    63000,
+    0.69783,
+    43623,
+    39363,
+    2428.19481,
+    15.17159
+   ],
+   [
+    "SWAP_to_appended",
+    46060,
+    0.55929,
+    25690,
+    24006,
+    1775.28021,
+    9.25258
+   ],
+   [
+    "SWAP_word_to_distinguishing",
+    53521,
+    0.27329,
+    14232,
+    13902,
+    2062.84785,
+    5.35822
+   ]
+  ],
+  "US": [
+   [
+    "ADD_appended",
+    12380,
+    0.92205,
+    11415,
+    10447,
+    743.54354,
+    6.27447
+   ],
+   [
+    "ADD_other",
+    6923,
+    0.99148,
+    6864,
+    6783,
+    415.7958,
+    4.07387
+   ],
+   [
+    "SWAP_other",
+    20526,
+    0.72786,
+    14938,
+    14140,
+    1232.79279,
+    8.49249
+   ],
+   [
+    "SWAP_to_appended",
+    30777,
+    0.99236,
+    30542,
+    27105,
+    1848.46847,
+    16.27928
+   ],
+   [
+    "SWAP_word_to_distinguishing",
+    238,
+    0.0042,
+    1,
+    1,
+    14.29429,
+    0.0006
+   ]
+  ],
+  "India": [
+   [
+    "ADD_appended",
+    23839,
+    0.22627,
+    5393,
+    5099,
+    1177.23457,
+    2.51802
+   ],
+   [
+    "ADD_other",
+    9806,
+    0.97777,
+    9587,
+    9109,
+    484.24691,
+    4.49827
+   ],
+   [
+    "SWAP_other",
+    22172,
+    0.62782,
+    13906,
+    12915,
+    1094.91358,
+    6.37778
+   ],
+   [
+    "SWAP_to_appended",
+    15960,
+    0.82607,
+    13170,
+    12179,
+    788.14815,
+    6.01432
+   ],
+   [
+    "SWAP_word_to_distinguishing",
+    3526,
+    0.00482,
+    17,
+    17,
+    174.12346,
+    0.0084
+   ]
+  ]
+ },
+ "rival": {
+  "test_France": {
+   "n": 53521,
+   "acc_rate": 0.2733,
+   "rival_any_share": 0.5976,
+   "rival_same_addr_share": 0.1895,
+   "acc_by_rival": [
+    [
+     false,
+     false,
+     21536,
+     0.39
+    ],
+    [
+     true,
+     false,
+     21842,
+     0.273
+    ],
+    [
+     true,
+     true,
+     10143,
+     0.0261
+    ]
+   ],
+   "acc_by_target_token": [
+    [
+     "club",
+     4870,
+     0.368
+    ],
+    [
+     "ecole",
+     3122,
+     0.175
+    ],
+    [
+     "amicale",
+     3088,
+     0.333
+    ],
+    [
+     "comite",
+     2841,
+     0.596
+    ],
+    [
+     "sportive",
+     2209,
+     0.046
+    ],
+    [
+     "amis",
+     1950,
+     0.568
+    ],
+    [
+     "centre",
+     1736,
+     0.62
+    ],
+    [
+     "parents",
+     1584,
+     0.325
+    ],
+    [
+     "union",
+     1467,
+     0.134
+    ],
+    [
+     "primaire",
+     1338,
+     0.109
+    ],
+    [
+     "college",
+     1326,
+     0.253
+    ],
+    [
+     "societe",
+     1295,
+     0.625
+    ],
+    [
+     "fetes",
+     1103,
+     0.586
+    ],
+    [
+     "loisirs",
+     1097,
+     0.253
+    ],
+    [
+     "anciens",
+     1047,
+     0.263
+    ],
+    [
+     "sante",
+     1042,
+     0.402
+    ],
+    [
+     "maison",
+     1017,
+     0.151
+    ],
+    [
+     "compagnie",
+     1003,
+     0.6
+    ],
+    [
+     "pharmacie",
+     1001,
+     0.009
+    ],
+    [
+     "culturelle",
+     810,
+     0.005
+    ],
+    [
+     "groupement",
+     802,
+     0.032
+    ],
+    [
+     "elementaire",
+     750,
+     0.144
+    ],
+    [
+     "maternelle",
+     742,
+     0.216
+    ],
+    [
+     "sport",
+     739,
+     0.026
+    ],
+    [
+     "lycee",
+     735,
+     0.414
+    ]
+   ],
+   "final_n": 14232,
+   "final_n_s1": 13902,
+   "final_rival_any_share": 0.4099,
+   "final_rival_same_addr_share": 0.0004,
+   "final_p_quantiles": {
+    "0.1": 0.8576,
+    "0.25": 0.9322,
+    "0.5": 0.9769,
+    "0.75": 0.9944,
+    "0.9": 0.9986
+   },
+   "final_orphan_examples": [
+    "p=0.836 | Girls Ma Loisirs EURL | Dunkerque, Hauts-de-France, 5 Rue du Kursaal  ->  Girls Ma Lyc\u00e9e | 5 Rue Du Kusraal, Dunkerque, Nord",
+    "p=0.981 | IEN Sport | 20 Place de la Ferme de Richemont, Bordeaux, Nouvelle-Aquitaine  ->  IEN Coll\u00e8ge | 20 PL DE LA FERME DE RICHEMONT, BORDEAUX, Gironde",
+    "p=0.940 | Chtite Amis (France) SARL | 7 Place Jeanne d'Arc, Lille, Hauts-de-France  ->  CHTITE LOISIRS (FRANCE) SARL | 7 PL. JEANNE D'ARC, LILLE, Hauts-de-France",
+    "p=0.984 | Pimms Hopital (France) SAS | 17 Avenue des Chenes, La Teste-de-Buch, Nouvelle-Aquitaine  ->  Pimms Societe (France) Sas | La Teste-de-buch, Gironde, 17 Av. Des Chenes",
+    "p=0.998 | TJN Anciens SAS | 29 Rue Cl\u00e9menceau, Dunkerque, Hauts-de-France  ->  TJN Comite SAS | 29 R. CLEMENCEAU, DUNKERQUE",
+    "p=0.973 | Circuit Maison SAS | 189 Rue du Chemin Neuf, Roubaix, Hauts-de-France  ->  Circuit Danse S.A.S | # 189 RUE DU CHEMIN NEUF, ROUBAIX, Hauts-de-France",
+    "p=0.968 | Mariae Korian Coll\u00e8ge | 6 Rue Jean Bart, Nouvelle-Aquitaine, La Teste-de-Buch  ->  Mariae Korian Union | 6 R. JEAN BART, LA TESTE-DE-BUCH, Gironde",
+    "p=0.974 | Ensemble Unef Section | 27 Rue Louis Le Nain, Nantes, Pays de la Loire  ->  Ensemble Unef (Club) | 27 Rue Louis Le Nain, Nantes, Loire-Atlantique"
+   ]
+  },
+  "test_India": {
+   "n": 3526,
+   "acc_rate": 0.0048,
+   "rival_any_share": 0.5394,
+   "rival_same_addr_share": 0.194,
+   "acc_by_rival": [
+    [
+     false,
+     false,
+     1624,
+     0.0092
+    ],
+    [
+     true,
+     false,
+     1218,
+     0.0016
+    ],
+    [
+     true,
+     true,
+     684,
+     0.0
+    ]
+   ]
+  },
+  "test_US": {
+   "n": 238,
+   "acc_rate": 0.0042,
+   "rival_any_share": 0.1134,
+   "rival_same_addr_share": 0.0042,
+   "acc_by_rival": [
+    [
+     false,
+     false,
+     211,
+     0.0047
+    ],
+    [
+     true,
+     false,
+     26,
+     0.0
+    ],
+    [
+     true,
+     true,
+     1,
+     0.0
+    ]
+   ]
+  },
+  "train_India": {
+   "n": 162,
+   "p_match": 0.0,
+   "rival_any_share": 0.6728,
+   "rival_same_addr_share": 0.3272,
+   "p_match_by_rival": [
+    [
+     false,
+     false,
+     53,
+     0.0
+    ],
+    [
+     true,
+     false,
+     56,
+     0.0
+    ],
+    [
+     true,
+     true,
+     53,
+     0.0
+    ]
+   ],
+   "rec_owned_by_some_train_S1": 0.3704
+  },
+  "train_US": {
+   "n": 0
+  }
+ },
+ "stakes_estimated": {
+  "n_s1": 13902,
+  "share_France_S1": 0.0536,
+  "gain_if_decoy_per_S1": 0.2659,
+  "loss_if_true_per_S1": 0.1228,
+  "breakeven_f": 0.316,
+  "France_pts_f1": 1.425,
+  "France_pts_f0": -0.658
+ }
+}

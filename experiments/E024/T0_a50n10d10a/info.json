@@ -1,0 +1,16 @@
+{
+ "set": "T0",
+ "pooltag": "a50n10d10a",
+ "k_addr": 50,
+ "k_name": 10,
+ "dense_tag": "a",
+ "k_dense": 10,
+ "n_s1": 1994,
+ "n_pairs": 254226,
+ "pairs_per_s1": 127.49548645937813,
+ "positives": 6918,
+ "n_gt": 6940,
+ "pool_recall": 0.9968299711815563,
+ "secs": 56.20739674568176,
+ "workers": 28
+}

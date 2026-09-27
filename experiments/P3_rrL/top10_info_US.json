@@ -1,0 +1,8 @@
+{
+ "country": "US",
+ "n_s1": 663106,
+ "n_pool_pairs": 82073398,
+ "n_top10": 6631060,
+ "secs": 107.5,
+ "base": "/teamspace/studios/this_studio/amazon-ml-challenge-2026/experiments/RL/rl27_model_NEW_s42.pkl"
+}

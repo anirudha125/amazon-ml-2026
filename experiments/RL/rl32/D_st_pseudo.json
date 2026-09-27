@@ -1,0 +1,11 @@
+{
+ "n_india_rows": 2724916,
+ "n_pos": 67897,
+ "n_neg": 2634220,
+ "n_drop": 22799,
+ "pos_precision_diag": 0.9995876106455366,
+ "neg_fnr_diag": 5.732247116793586e-05,
+ "true_pos_dropped_share_diag": 0.05785558956743355,
+ "drop_true_pos_rate_diag": 0.1832097899030659,
+ "secs": 156.0
+}

@@ -1,0 +1,130 @@
+{
+ "India_jaipur": {
+  "n_slice_s1": 17154,
+  "n_eval_s1": 17056,
+  "n_train_s1_excluded": 98,
+  "th": 0.7200000000000001,
+  "E018C": {
+   "macro_none": 94.191,
+   "pred_pairs": 52582,
+   "contested_records": 136,
+   "max": {
+    "macro": 94.348,
+    "delta_pp": 0.157,
+    "ci95": [
+     0.113,
+     0.202
+    ],
+    "p_delta_le0": 0.0,
+    "tp_lost": 19,
+    "fp_removed": 129,
+    "s1_changed": 119
+   },
+   "dropall": {
+    "macro": 94.273,
+    "delta_pp": 0.081,
+    "ci95": [
+     0.026,
+     0.138
+    ],
+    "p_delta_le0": 0.0029,
+    "tp_lost": 131,
+    "fp_removed": 153,
+    "s1_changed": 218
+   }
+  },
+  "E014B_r06": {
+   "macro_none": 93.435,
+   "pred_pairs": 52118,
+   "contested_records": 203,
+   "max": {
+    "macro": 93.685,
+    "delta_pp": 0.25,
+    "ci95": [
+     0.201,
+     0.301
+    ],
+    "p_delta_le0": 0.0,
+    "tp_lost": 14,
+    "fp_removed": 210,
+    "s1_changed": 182
+   },
+   "dropall": {
+    "macro": 93.541,
+    "delta_pp": 0.106,
+    "ci95": [
+     0.042,
+     0.17
+    ],
+    "p_delta_le0": 0.0007,
+    "tp_lost": 200,
+    "fp_removed": 227,
+    "s1_changed": 317
+   }
+  }
+ },
+ "US_OR": {
+  "n_slice_s1": 29826,
+  "n_eval_s1": 29664,
+  "n_train_s1_excluded": 162,
+  "th": 0.7200000000000001,
+  "E018C": {
+   "macro_none": 96.653,
+   "pred_pairs": 96571,
+   "contested_records": 105,
+   "max": {
+    "macro": 96.753,
+    "delta_pp": 0.1,
+    "ci95": [
+     0.075,
+     0.128
+    ],
+    "p_delta_le0": 0.0,
+    "tp_lost": 24,
+    "fp_removed": 116,
+    "s1_changed": 128
+   },
+   "dropall": {
+    "macro": 96.748,
+    "delta_pp": 0.095,
+    "ci95": [
+     0.065,
+     0.128
+    ],
+    "p_delta_le0": 0.0,
+    "tp_lost": 95,
+    "fp_removed": 150,
+    "s1_changed": 211
+   }
+  },
+  "E014B_r06": {
+   "macro_none": 96.408,
+   "pred_pairs": 96490,
+   "contested_records": 121,
+   "max": {
+    "macro": 96.531,
+    "delta_pp": 0.123,
+    "ci95": [
+     0.097,
+     0.151
+    ],
+    "p_delta_le0": 0.0,
+    "tp_lost": 21,
+    "fp_removed": 150,
+    "s1_changed": 156
+   },
+   "dropall": {
+    "macro": 96.518,
+    "delta_pp": 0.11,
+    "ci95": [
+     0.082,
+     0.142
+    ],
+    "p_delta_le0": 0.0,
+    "tp_lost": 115,
+    "fp_removed": 177,
+    "s1_changed": 255
+   }
+  }
+ }
+}

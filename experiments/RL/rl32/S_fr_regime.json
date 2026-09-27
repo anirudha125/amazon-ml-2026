@@ -1,0 +1,129 @@
+{
+ "parity_V1_maxabs": 2.9801914491756065e-08,
+ "V1_indomain": {
+  "nS1": 20000,
+  "dmass_per_s1": 0.0445,
+  "sum_p6_per_s1": 3.4526,
+  "sum_pnorr_per_s1": 3.4081,
+  "ge99": {
+   "acc_per_s1": 3.2428,
+   "reject_rate": 0.0069,
+   "reject_per_s1": 0.0223,
+   "rejected_false": 0.004
+  },
+  "mid": {
+   "acc_per_s1": 0.1376,
+   "reject_rate": 0.2159,
+   "reject_per_s1": 0.0297,
+   "rejected_false": 0.148
+  },
+  "W0.5": {
+   "removed_per_s1": 0.0268,
+   "added_per_s1": 0.0044,
+   "accepted_per_s1": 3.358,
+   "s006_accepted_per_s1": 3.3804,
+   "rem_ge99_share": 0.285,
+   "removed_false": 0.123,
+   "added_true": 0.693
+  },
+  "W0.75": {
+   "removed_per_s1": 0.0079,
+   "added_per_s1": 0.0018,
+   "accepted_per_s1": 3.3743,
+   "s006_accepted_per_s1": 3.3804,
+   "rem_ge99_share": 0.0,
+   "removed_false": 0.272,
+   "added_true": 0.622
+  }
+ },
+ "test_US": {
+  "nS1": 90000,
+  "dmass_per_s1": 0.012,
+  "sum_p6_per_s1": 3.4433,
+  "sum_pnorr_per_s1": 3.4312,
+  "ge99": {
+   "acc_per_s1": 3.2479,
+   "reject_rate": 0.006,
+   "reject_per_s1": 0.0194
+  },
+  "mid": {
+   "acc_per_s1": 0.1309,
+   "reject_rate": 0.1852,
+   "reject_per_s1": 0.0242
+  },
+  "W0.5": {
+   "removed_per_s1": 0.0227,
+   "added_per_s1": 0.0051,
+   "accepted_per_s1": 3.3611,
+   "s006_accepted_per_s1": 3.3787,
+   "rem_ge99_share": 0.338
+  },
+  "W0.75": {
+   "removed_per_s1": 0.0052,
+   "added_per_s1": 0.0022,
+   "accepted_per_s1": 3.3757,
+   "s006_accepted_per_s1": 3.3787,
+   "rem_ge99_share": 0.002
+  }
+ },
+ "test_India": {
+  "nS1": 90000,
+  "dmass_per_s1": 0.0864,
+  "sum_p6_per_s1": 3.4434,
+  "sum_pnorr_per_s1": 3.357,
+  "ge99": {
+   "acc_per_s1": 3.2414,
+   "reject_rate": 0.0175,
+   "reject_per_s1": 0.0567
+  },
+  "mid": {
+   "acc_per_s1": 0.1385,
+   "reject_rate": 0.2747,
+   "reject_per_s1": 0.0381
+  },
+  "W0.5": {
+   "removed_per_s1": 0.0493,
+   "added_per_s1": 0.0036,
+   "accepted_per_s1": 3.3338,
+   "s006_accepted_per_s1": 3.3795,
+   "rem_ge99_share": 0.475
+  },
+  "W0.75": {
+   "removed_per_s1": 0.01,
+   "added_per_s1": 0.0013,
+   "accepted_per_s1": 3.3708,
+   "s006_accepted_per_s1": 3.3795,
+   "rem_ge99_share": 0.001
+  }
+ },
+ "test_France": {
+  "nS1": 259452,
+  "dmass_per_s1": -0.0297,
+  "sum_p6_per_s1": 3.5283,
+  "sum_pnorr_per_s1": 3.558,
+  "ge99": {
+   "acc_per_s1": 2.9362,
+   "reject_rate": 0.0082,
+   "reject_per_s1": 0.024
+  },
+  "mid": {
+   "acc_per_s1": 0.4063,
+   "reject_rate": 0.2659,
+   "reject_per_s1": 0.108
+  },
+  "W0.5": {
+   "removed_per_s1": 0.0627,
+   "added_per_s1": 0.0277,
+   "accepted_per_s1": 3.2359,
+   "s006_accepted_per_s1": 3.2709,
+   "rem_ge99_share": 0.163
+  },
+  "W0.75": {
+   "removed_per_s1": 0.0235,
+   "added_per_s1": 0.0115,
+   "accepted_per_s1": 3.2589,
+   "s006_accepted_per_s1": 3.2709,
+   "rem_ge99_share": 0.051
+  }
+ }
+}

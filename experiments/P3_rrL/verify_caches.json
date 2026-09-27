@@ -1,0 +1,35 @@
+{
+ "France": {
+  "n_top10": 2594520,
+  "unique": 2594520,
+  "rrL_keys_eq_top10": true,
+  "rrL_finite": true,
+  "rrL_pos_pct": 36.97,
+  "fill_keys_eq_missing": true,
+  "n_fill": 53536,
+  "rrUb_complete": true,
+  "fill_finite": true
+ },
+ "US": {
+  "n_top10": 6631060,
+  "unique": 6631060,
+  "rrL_keys_eq_top10": true,
+  "rrL_finite": true,
+  "rrL_pos_pct": 34.16,
+  "fill_keys_eq_missing": true,
+  "n_fill": 330737,
+  "rrUb_complete": true,
+  "fill_finite": true
+ },
+ "India": {
+  "n_top10": 8099860,
+  "unique": 8099860,
+  "rrL_keys_eq_top10": true,
+  "rrL_finite": true,
+  "rrL_pos_pct": 34.54,
+  "fill_keys_eq_missing": true,
+  "n_fill": 196511,
+  "rrUb_complete": true,
+  "fill_finite": true
+ }
+}

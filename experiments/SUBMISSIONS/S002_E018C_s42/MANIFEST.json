@@ -1,0 +1,47 @@
+{
+ "submission_id": "S002",
+ "created": "2026-09-26T19:27",
+ "model": "E018C_s42: E014-B two-stage LightGBM + stage-2 feature = fine-tuned e5-small cross-encoder reranker score (top-10 per S1 by base score; NaN otherwise); stage-2 reg_lambda=1, 100 feats",
+ "reranker": "intfloat/multilingual-e5-small (MIT, commit 614241f622f53c4eeff9890bdc4f31cfecc418b3, 117,653,760 params), fine-tuned 1 epoch on 119,940 train top-10 pairs; fp16 weights in reranker_e5small_full.zip",
+ "train_s1": 11994,
+ "threshold": 0.72,
+ "threshold_protocol": "OOF-calibrated",
+ "val_s1_macro_f05_oof": 0.96,
+ "val_paired_vs_S001_model": "+0.55 [+0.23,+0.88] (seed 42); Kaggle 3-seed avg +0.65 [+0.37,+0.97]",
+ "retrieval": "identical to S001 (RECON-04 char-4gram BM25, numba engine)",
+ "candidate_pairs": "full retrieval pool = exactly the pairs scored by stage 2 (CASCADE_TAU=0); byte size identical to S001",
+ "validator": "official validate_submission.py PASS; tools/check_submission.py CHECK PASS (0 preds outside candidates, 0 dups, all 5,543,947 predicted ids exist in test S2/S3)",
+ "rows": 1732544,
+ "empty_predictions": 108857,
+ "unique_predicted_ids": 5543947,
+ "per_country": {
+  "US": {
+   "S1": 663106,
+   "nonempty_pct": 94.1,
+   "preds_per_S1": 3.3
+  },
+  "France": {
+   "S1": 259452,
+   "nonempty_pct": 94.8,
+   "preds_per_S1": 3.33
+  },
+  "India": {
+   "S1": 809986,
+   "nonempty_pct": 93.1,
+   "preds_per_S1": 3.12
+  }
+ },
+ "reranker_test_inference": {
+  "pairs": 17325440,
+  "France_min": 11,
+  "India_min": 52,
+  "US_min": 24,
+  "hardware": "Kaggle 2xT4 fp16"
+ },
+ "stage2_rerun_min": {
+  "France": 38,
+  "India": 67.6,
+  "US": 52
+ },
+ "leaderboard_score": null
+}

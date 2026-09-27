@@ -1,0 +1,1293 @@
+{
+ "idf_pipeline_vs_folded": {
+  "associes": {
+   "idf_pipeline": 11.126,
+   "df_S1_pipeline": 25,
+   "n_France_records_pipeline": 138,
+   "idf_folded": 11.126
+  },
+  "associés": {
+   "idf_pipeline": 15.058,
+   "df_S1_pipeline": 0,
+   "n_France_records_pipeline": 10477,
+   "idf_folded": 11.126
+  },
+  "developpement": {
+   "idf_pipeline": 7.661,
+   "df_S1_pipeline": 815,
+   "n_France_records_pipeline": 4038,
+   "idf_folded": 7.661
+  },
+  "développement": {
+   "idf_pipeline": 15.058,
+   "df_S1_pipeline": 0,
+   "n_France_records_pipeline": 44064,
+   "idf_folded": 7.661
+  },
+  "cie": {
+   "idf_pipeline": 5.72,
+   "df_S1_pipeline": 5682,
+   "n_France_records_pipeline": 33482,
+   "idf_folded": 5.72
+  },
+  "fils": {
+   "idf_pipeline": 5.829,
+   "df_S1_pipeline": 5096,
+   "n_France_records_pipeline": 41236,
+   "idf_folded": 5.829
+  },
+  "compagnie": {
+   "idf_pipeline": 6.2,
+   "df_S1_pipeline": 3514,
+   "n_France_records_pipeline": 16087,
+   "idf_folded": 6.2
+  },
+  "et": {
+   "idf_pipeline": 9.817,
+   "df_S1_pipeline": 94,
+   "n_France_records_pipeline": 15229,
+   "idf_folded": 9.817
+  },
+  "frs": {
+   "idf_pipeline": 12.014,
+   "df_S1_pipeline": 10,
+   "n_France_records_pipeline": 1391,
+   "idf_folded": 12.014
+  },
+  "dba": {
+   "idf_pipeline": 11.923,
+   "df_S1_pipeline": 11,
+   "n_France_records_pipeline": 3012,
+   "idf_folded": 11.923
+  },
+  "sarl": {
+   "idf_pipeline": 3.16,
+   "df_S1_pipeline": 73486,
+   "n_France_records_pipeline": 285190,
+   "idf_folded": 3.16
+  },
+  "sas": {
+   "idf_pipeline": 3.499,
+   "df_S1_pipeline": 52393,
+   "n_France_records_pipeline": 200604,
+   "idf_folded": 3.499
+  },
+  "services": {
+   "idf_pipeline": 4.158,
+   "df_S1_pipeline": 27081,
+   "n_France_records_pipeline": 15727,
+   "idf_folded": 4.158
+  },
+  "freres": {
+   "idf_pipeline": 10.349,
+   "df_S1_pipeline": 55,
+   "n_France_records_pipeline": 255,
+   "idf_folded": 5.823
+  },
+  "frères": {
+   "idf_pipeline": 5.833,
+   "df_S1_pipeline": 5073,
+   "n_France_records_pipeline": 19050,
+   "idf_folded": 5.823
+  }
+ },
+ "idf_claim_vs_folded": {
+  "cie": {
+   "claim": 5.72,
+   "folded": 5.72
+  },
+  "fils": {
+   "claim": 5.83,
+   "folded": 5.829
+  },
+  "compagnie": {
+   "claim": 6.2,
+   "folded": 6.2
+  },
+  "developpement": {
+   "claim": 7.66,
+   "folded": 7.661
+  },
+  "et": {
+   "claim": 9.82,
+   "folded": 9.817
+  },
+  "associes": {
+   "claim": 11.13,
+   "folded": 11.126
+  },
+  "frs": {
+   "claim": 12.01,
+   "folded": 12.014
+  },
+  "dba": {
+   "claim": 11.92,
+   "folded": 11.923
+  },
+  "sarl": {
+   "claim": 3.16,
+   "folded": 3.16
+  },
+  "sas": {
+   "claim": 3.5,
+   "folded": 3.499
+  },
+  "services": {
+   "claim": 4.16,
+   "folded": 4.158
+  }
+ },
+ "France": {
+  "n_kept_final": 854396,
+  "n_HI": 767118,
+  "n_LO": 87278,
+  "LO_share": 0.1022,
+  "n_PP": 595690,
+  "n_LO_street": 49677,
+  "LO_street_share_of_kept": 0.0581,
+  "n_PP_counted": 595690,
+  "street_pairs_by_band": {
+   "HI": 606934,
+   "LO": 49677
+  },
+  "LO_share_among_street_pairs": 0.0757,
+  "tokens": {
+   "aka": {
+    "raw_add_per_1k": 1.63,
+    "pure_add_per_1k": 1.63,
+    "n_pure_add": 969,
+    "add_LR": 140.682,
+    "s1_df": 3,
+    "drop_rate": 0.0,
+    "HI_street_rec_only_per_1k": 1.61,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 980,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "associes": {
+    "raw_add_per_1k": 2.88,
+    "pure_add_per_1k": 2.88,
+    "n_pure_add": 1713,
+    "add_LR": 29.844,
+    "s1_df": 25,
+    "drop_rate": 0.043,
+    "HI_street_rec_only_per_1k": 2.83,
+    "LO_street_rec_only_per_1k": 69.59,
+    "n_HI_street_rec_only": 1717,
+    "n_LO_street_rec_only": 3457,
+    "frac_of_street_rec_only_in_LO": 0.668,
+    "pure_single_add_HI": 416,
+    "pure_single_add_LO": 695
+   },
+   "center": {
+    "raw_add_per_1k": 0.2,
+    "pure_add_per_1k": 0.2,
+    "n_pure_add": 120,
+    "add_LR": 7.467,
+    "s1_df": 7,
+    "drop_rate": 0.1,
+    "HI_street_rec_only_per_1k": 0.2,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 122,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "cie": {
+    "raw_add_per_1k": 8.55,
+    "pure_add_per_1k": 8.55,
+    "n_pure_add": 5094,
+    "add_LR": 0.391,
+    "s1_df": 5680,
+    "drop_rate": 0.192,
+    "HI_street_rec_only_per_1k": 8.44,
+    "LO_street_rec_only_per_1k": 18.88,
+    "n_HI_street_rec_only": 5120,
+    "n_LO_street_rec_only": 938,
+    "frac_of_street_rec_only_in_LO": 0.155,
+    "pure_single_add_HI": 1110,
+    "pure_single_add_LO": 40
+   },
+   "com": {
+    "raw_add_per_1k": 58.91,
+    "pure_add_per_1k": 58.83,
+    "n_pure_add": 35047,
+    "add_LR": 848.037,
+    "s1_df": 18,
+    "drop_rate": 0.0,
+    "HI_street_rec_only_per_1k": 59.28,
+    "LO_street_rec_only_per_1k": 20.79,
+    "n_HI_street_rec_only": 35978,
+    "n_LO_street_rec_only": 1033,
+    "frac_of_street_rec_only_in_LO": 0.028,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "compagnie": {
+    "raw_add_per_1k": 1.46,
+    "pure_add_per_1k": 1.46,
+    "n_pure_add": 870,
+    "add_LR": 0.108,
+    "s1_df": 3514,
+    "drop_rate": 0.189,
+    "HI_street_rec_only_per_1k": 1.44,
+    "LO_street_rec_only_per_1k": 7.53,
+    "n_HI_street_rec_only": 875,
+    "n_LO_street_rec_only": 374,
+    "frac_of_street_rec_only_in_LO": 0.299,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "dba": {
+    "raw_add_per_1k": 4.95,
+    "pure_add_per_1k": 4.95,
+    "n_pure_add": 2950,
+    "add_LR": 1284.869,
+    "s1_df": 0,
+    "drop_rate": null,
+    "HI_street_rec_only_per_1k": 4.91,
+    "LO_street_rec_only_per_1k": 0.02,
+    "n_HI_street_rec_only": 2982,
+    "n_LO_street_rec_only": 1,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "developpement": {
+    "raw_add_per_1k": 0.2,
+    "pure_add_per_1k": 0.2,
+    "n_pure_add": 119,
+    "add_LR": 0.064,
+    "s1_df": 815,
+    "drop_rate": 0.08,
+    "HI_street_rec_only_per_1k": 0.2,
+    "LO_street_rec_only_per_1k": 40.3,
+    "n_HI_street_rec_only": 119,
+    "n_LO_street_rec_only": 2002,
+    "frac_of_street_rec_only_in_LO": 0.944,
+    "pure_single_add_HI": 55,
+    "pure_single_add_LO": 914
+   },
+   "et": {
+    "raw_add_per_1k": 3.11,
+    "pure_add_per_1k": 3.08,
+    "n_pure_add": 1836,
+    "add_LR": 47.039,
+    "s1_df": 17,
+    "drop_rate": 0.143,
+    "HI_street_rec_only_per_1k": 3.04,
+    "LO_street_rec_only_per_1k": 77.58,
+    "n_HI_street_rec_only": 1844,
+    "n_LO_street_rec_only": 3854,
+    "frac_of_street_rec_only_in_LO": 0.676,
+    "pure_single_add_HI": 669,
+    "pure_single_add_LO": 7
+   },
+   "eurl": {
+    "raw_add_per_1k": 7.55,
+    "pure_add_per_1k": 7.55,
+    "n_pure_add": 4495,
+    "add_LR": 0.115,
+    "s1_df": 16980,
+    "drop_rate": 0.368,
+    "HI_street_rec_only_per_1k": 7.44,
+    "LO_street_rec_only_per_1k": 32.59,
+    "n_HI_street_rec_only": 4514,
+    "n_LO_street_rec_only": 1619,
+    "frac_of_street_rec_only_in_LO": 0.264,
+    "pure_single_add_HI": 4501,
+    "pure_single_add_LO": 1588
+   },
+   "fils": {
+    "raw_add_per_1k": 3.13,
+    "pure_add_per_1k": 3.13,
+    "n_pure_add": 1862,
+    "add_LR": 0.159,
+    "s1_df": 5095,
+    "drop_rate": 0.176,
+    "HI_street_rec_only_per_1k": 3.08,
+    "LO_street_rec_only_per_1k": 122.49,
+    "n_HI_street_rec_only": 1867,
+    "n_LO_street_rec_only": 6085,
+    "frac_of_street_rec_only_in_LO": 0.765,
+    "pure_single_add_HI": 141,
+    "pure_single_add_LO": 831
+   },
+   "formerly": {
+    "raw_add_per_1k": 3.63,
+    "pure_add_per_1k": 3.63,
+    "n_pure_add": 2161,
+    "add_LR": 941.221,
+    "s1_df": 0,
+    "drop_rate": null,
+    "HI_street_rec_only_per_1k": 3.6,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 2186,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "freres": {
+    "raw_add_per_1k": 0.0,
+    "pure_add_per_1k": 0.0,
+    "n_pure_add": 0,
+    "add_LR": 0.0,
+    "s1_df": 5126,
+    "drop_rate": 0.246,
+    "HI_street_rec_only_per_1k": 0.0,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 0,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "frs": {
+    "raw_add_per_1k": 1.12,
+    "pure_add_per_1k": 1.12,
+    "n_pure_add": 669,
+    "add_LR": 97.127,
+    "s1_df": 3,
+    "drop_rate": 0.0,
+    "HI_street_rec_only_per_1k": 1.11,
+    "LO_street_rec_only_per_1k": 0.04,
+    "n_HI_street_rec_only": 675,
+    "n_LO_street_rec_only": 2,
+    "frac_of_street_rec_only_in_LO": 0.003,
+    "pure_single_add_HI": 1,
+    "pure_single_add_LO": 0
+   },
+   "partners": {
+    "raw_add_per_1k": 0.0,
+    "pure_add_per_1k": 0.0,
+    "n_pure_add": 0,
+    "add_LR": 0.0,
+    "s1_df": 4,
+    "drop_rate": 0.1,
+    "HI_street_rec_only_per_1k": 0.0,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 0,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "sa": {
+    "raw_add_per_1k": 9.97,
+    "pure_add_per_1k": 9.94,
+    "n_pure_add": 5923,
+    "add_LR": 0.202,
+    "s1_df": 12766,
+    "drop_rate": 0.262,
+    "HI_street_rec_only_per_1k": 9.85,
+    "LO_street_rec_only_per_1k": 5.58,
+    "n_HI_street_rec_only": 5981,
+    "n_LO_street_rec_only": 277,
+    "frac_of_street_rec_only_in_LO": 0.044,
+    "pure_single_add_HI": 5946,
+    "pure_single_add_LO": 202
+   },
+   "sarl": {
+    "raw_add_per_1k": 9.25,
+    "pure_add_per_1k": 9.25,
+    "n_pure_add": 5511,
+    "add_LR": 0.033,
+    "s1_df": 73486,
+    "drop_rate": 0.299,
+    "HI_street_rec_only_per_1k": 9.2,
+    "LO_street_rec_only_per_1k": 9.58,
+    "n_HI_street_rec_only": 5584,
+    "n_LO_street_rec_only": 476,
+    "frac_of_street_rec_only_in_LO": 0.079,
+    "pure_single_add_HI": 5562,
+    "pure_single_add_LO": 431
+   },
+   "sas": {
+    "raw_add_per_1k": 10.05,
+    "pure_add_per_1k": 10.04,
+    "n_pure_add": 5982,
+    "add_LR": 0.05,
+    "s1_df": 52278,
+    "drop_rate": 0.375,
+    "HI_street_rec_only_per_1k": 10.0,
+    "LO_street_rec_only_per_1k": 4.79,
+    "n_HI_street_rec_only": 6069,
+    "n_LO_street_rec_only": 238,
+    "frac_of_street_rec_only_in_LO": 0.038,
+    "pure_single_add_HI": 6027,
+    "pure_single_add_LO": 172
+   },
+   "sasu": {
+    "raw_add_per_1k": 5.12,
+    "pure_add_per_1k": 5.12,
+    "n_pure_add": 3049,
+    "add_LR": 0.124,
+    "s1_df": 10721,
+    "drop_rate": 0.367,
+    "HI_street_rec_only_per_1k": 5.04,
+    "LO_street_rec_only_per_1k": 62.28,
+    "n_HI_street_rec_only": 3060,
+    "n_LO_street_rec_only": 3094,
+    "frac_of_street_rec_only_in_LO": 0.503,
+    "pure_single_add_HI": 3053,
+    "pure_single_add_LO": 3048
+   },
+   "sci": {
+    "raw_add_per_1k": 8.36,
+    "pure_add_per_1k": 8.36,
+    "n_pure_add": 4977,
+    "add_LR": 0.259,
+    "s1_df": 8360,
+    "drop_rate": 0.368,
+    "HI_street_rec_only_per_1k": 8.24,
+    "LO_street_rec_only_per_1k": 26.43,
+    "n_HI_street_rec_only": 4999,
+    "n_LO_street_rec_only": 1313,
+    "frac_of_street_rec_only_in_LO": 0.208,
+    "pure_single_add_HI": 4991,
+    "pure_single_add_LO": 1265
+   },
+   "service": {
+    "raw_add_per_1k": 0.56,
+    "pure_add_per_1k": 0.55,
+    "n_pure_add": 327,
+    "add_LR": 0.079,
+    "s1_df": 1799,
+    "drop_rate": 0.175,
+    "HI_street_rec_only_per_1k": 0.55,
+    "LO_street_rec_only_per_1k": 0.93,
+    "n_HI_street_rec_only": 336,
+    "n_LO_street_rec_only": 46,
+    "frac_of_street_rec_only_in_LO": 0.12,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "services": {
+    "raw_add_per_1k": 9.88,
+    "pure_add_per_1k": 9.83,
+    "n_pure_add": 5853,
+    "add_LR": 2.074,
+    "s1_df": 1229,
+    "drop_rate": 0.162,
+    "HI_street_rec_only_per_1k": 9.89,
+    "LO_street_rec_only_per_1k": 1.85,
+    "n_HI_street_rec_only": 6005,
+    "n_LO_street_rec_only": 92,
+    "frac_of_street_rec_only_in_LO": 0.015,
+    "pure_single_add_HI": 1299,
+    "pure_single_add_LO": 2
+   }
+  },
+  "legal_drop_rates": {
+   "sas": 0.375,
+   "sa": 0.262,
+   "sarl": 0.299,
+   "sci": 0.368,
+   "eurl": 0.368,
+   "sasu": 0.367
+  },
+  "claim_add_per_1k_vs_rederived_pure": {
+   "com": [
+    58.8,
+    58.83
+   ],
+   "sas": [
+    10.0,
+    10.04
+   ],
+   "sa": [
+    9.9,
+    9.94
+   ],
+   "services": [
+    9.8,
+    9.83
+   ],
+   "sarl": [
+    9.3,
+    9.25
+   ],
+   "cie": [
+    8.6,
+    8.55
+   ],
+   "sci": [
+    8.4,
+    8.36
+   ],
+   "eurl": [
+    7.5,
+    7.55
+   ],
+   "dba": [
+    6.6,
+    4.95
+   ],
+   "sasu": [
+    5.1,
+    5.12
+   ],
+   "formerly": [
+    3.6,
+    3.63
+   ],
+   "fils": [
+    3.1,
+    3.13
+   ],
+   "et": [
+    3.1,
+    3.08
+   ],
+   "associes": [
+    2.9,
+    2.88
+   ],
+   "aka": [
+    1.6,
+    1.63
+   ],
+   "compagnie": [
+    1.5,
+    1.46
+   ],
+   "frs": [
+    1.1,
+    1.12
+   ]
+  },
+  "claim_addLR_vs_rederived": {
+   "services": [
+    2.07,
+    2.074
+   ],
+   "cie": [
+    0.39,
+    0.391
+   ],
+   "fils": [
+    0.16,
+    0.159
+   ],
+   "associes": [
+    29.8,
+    29.844
+   ]
+  }
+ },
+ "US": {
+  "n_kept_final": 2236158,
+  "n_HI": 2135906,
+  "n_LO": 100252,
+  "LO_share": 0.0448,
+  "n_PP": 1471075,
+  "n_LO_street": 26092,
+  "LO_street_share_of_kept": 0.0117,
+  "n_PP_counted": 1471075,
+  "street_pairs_by_band": {
+   "HI": 1471198,
+   "LO": 26092
+  },
+  "LO_share_among_street_pairs": 0.0174,
+  "tokens": {
+   "aka": {
+    "raw_add_per_1k": 2.21,
+    "pure_add_per_1k": 2.21,
+    "n_pure_add": 3253,
+    "add_LR": 1466.332,
+    "s1_df": 0,
+    "drop_rate": null,
+    "HI_street_rec_only_per_1k": 2.21,
+    "LO_street_rec_only_per_1k": 0.04,
+    "n_HI_street_rec_only": 3253,
+    "n_LO_street_rec_only": 1,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "associes": {
+    "raw_add_per_1k": 0.0,
+    "pure_add_per_1k": 0.0,
+    "n_pure_add": 0,
+    "add_LR": 0.0,
+    "s1_df": 0,
+    "drop_rate": null,
+    "HI_street_rec_only_per_1k": 0.0,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 0,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "center": {
+    "raw_add_per_1k": 30.06,
+    "pure_add_per_1k": 30.05,
+    "n_pure_add": 44210,
+    "add_LR": 1.247,
+    "s1_df": 15977,
+    "drop_rate": 0.248,
+    "HI_street_rec_only_per_1k": 30.05,
+    "LO_street_rec_only_per_1k": 9.12,
+    "n_HI_street_rec_only": 44215,
+    "n_LO_street_rec_only": 238,
+    "frac_of_street_rec_only_in_LO": 0.005,
+    "pure_single_add_HI": 6330,
+    "pure_single_add_LO": 13
+   },
+   "cie": {
+    "raw_add_per_1k": 0.01,
+    "pure_add_per_1k": 0.01,
+    "n_pure_add": 18,
+    "add_LR": 8.114,
+    "s1_df": 0,
+    "drop_rate": null,
+    "HI_street_rec_only_per_1k": 0.01,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 18,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "com": {
+    "raw_add_per_1k": 58.18,
+    "pure_add_per_1k": 57.78,
+    "n_pure_add": 85001,
+    "add_LR": 38315.295,
+    "s1_df": 0,
+    "drop_rate": null,
+    "HI_street_rec_only_per_1k": 57.79,
+    "LO_street_rec_only_per_1k": 45.84,
+    "n_HI_street_rec_only": 85016,
+    "n_LO_street_rec_only": 1196,
+    "frac_of_street_rec_only_in_LO": 0.014,
+    "pure_single_add_HI": 548,
+    "pure_single_add_LO": 0
+   },
+   "compagnie": {
+    "raw_add_per_1k": 0.0,
+    "pure_add_per_1k": 0.0,
+    "n_pure_add": 0,
+    "add_LR": 0.0,
+    "s1_df": 0,
+    "drop_rate": null,
+    "HI_street_rec_only_per_1k": 0.0,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 0,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "dba": {
+    "raw_add_per_1k": 6.51,
+    "pure_add_per_1k": 6.51,
+    "n_pure_add": 9576,
+    "add_LR": 4316.505,
+    "s1_df": 1,
+    "drop_rate": 0.2,
+    "HI_street_rec_only_per_1k": 6.51,
+    "LO_street_rec_only_per_1k": 0.15,
+    "n_HI_street_rec_only": 9576,
+    "n_LO_street_rec_only": 4,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "developpement": {
+    "raw_add_per_1k": 0.0,
+    "pure_add_per_1k": 0.0,
+    "n_pure_add": 0,
+    "add_LR": 0.0,
+    "s1_df": 0,
+    "drop_rate": null,
+    "HI_street_rec_only_per_1k": 0.0,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 0,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "et": {
+    "raw_add_per_1k": 0.01,
+    "pure_add_per_1k": 0.01,
+    "n_pure_add": 10,
+    "add_LR": 0.301,
+    "s1_df": 15,
+    "drop_rate": 0.0,
+    "HI_street_rec_only_per_1k": 0.01,
+    "LO_street_rec_only_per_1k": 0.08,
+    "n_HI_street_rec_only": 10,
+    "n_LO_street_rec_only": 2,
+    "frac_of_street_rec_only_in_LO": 0.167,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "eurl": {
+    "raw_add_per_1k": 0.0,
+    "pure_add_per_1k": 0.0,
+    "n_pure_add": 0,
+    "add_LR": 0.0,
+    "s1_df": 0,
+    "drop_rate": null,
+    "HI_street_rec_only_per_1k": 0.0,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 0,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "fils": {
+    "raw_add_per_1k": 0.0,
+    "pure_add_per_1k": 0.0,
+    "n_pure_add": 1,
+    "add_LR": 0.451,
+    "s1_df": 1,
+    "drop_rate": 0.0,
+    "HI_street_rec_only_per_1k": 0.0,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 1,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "formerly": {
+    "raw_add_per_1k": 7.05,
+    "pure_add_per_1k": 7.05,
+    "n_pure_add": 10369,
+    "add_LR": 4673.96,
+    "s1_df": 0,
+    "drop_rate": null,
+    "HI_street_rec_only_per_1k": 7.05,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 10369,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "freres": {
+    "raw_add_per_1k": 0.0,
+    "pure_add_per_1k": 0.0,
+    "n_pure_add": 0,
+    "add_LR": 0.0,
+    "s1_df": 0,
+    "drop_rate": null,
+    "HI_street_rec_only_per_1k": 0.0,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 0,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "frs": {
+    "raw_add_per_1k": 0.0,
+    "pure_add_per_1k": 0.0,
+    "n_pure_add": 4,
+    "add_LR": 1.803,
+    "s1_df": 1,
+    "drop_rate": null,
+    "HI_street_rec_only_per_1k": 0.0,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 4,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "partners": {
+    "raw_add_per_1k": 7.46,
+    "pure_add_per_1k": 7.46,
+    "n_pure_add": 10980,
+    "add_LR": 0.333,
+    "s1_df": 14857,
+    "drop_rate": 0.244,
+    "HI_street_rec_only_per_1k": 7.46,
+    "LO_street_rec_only_per_1k": 36.95,
+    "n_HI_street_rec_only": 10981,
+    "n_LO_street_rec_only": 964,
+    "frac_of_street_rec_only_in_LO": 0.081,
+    "pure_single_add_HI": 1466,
+    "pure_single_add_LO": 212
+   },
+   "sa": {
+    "raw_add_per_1k": 0.02,
+    "pure_add_per_1k": 0.02,
+    "n_pure_add": 32,
+    "add_LR": 1.311,
+    "s1_df": 11,
+    "drop_rate": 0.167,
+    "HI_street_rec_only_per_1k": 0.02,
+    "LO_street_rec_only_per_1k": 0.15,
+    "n_HI_street_rec_only": 32,
+    "n_LO_street_rec_only": 4,
+    "frac_of_street_rec_only_in_LO": 0.111,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "sarl": {
+    "raw_add_per_1k": 0.0,
+    "pure_add_per_1k": 0.0,
+    "n_pure_add": 0,
+    "add_LR": 0.0,
+    "s1_df": 0,
+    "drop_rate": null,
+    "HI_street_rec_only_per_1k": 0.0,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 0,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "sas": {
+    "raw_add_per_1k": 0.0,
+    "pure_add_per_1k": 0.0,
+    "n_pure_add": 1,
+    "add_LR": 0.451,
+    "s1_df": 1,
+    "drop_rate": 0.0,
+    "HI_street_rec_only_per_1k": 0.0,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 1,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "sasu": {
+    "raw_add_per_1k": 0.0,
+    "pure_add_per_1k": 0.0,
+    "n_pure_add": 0,
+    "add_LR": 0.0,
+    "s1_df": 0,
+    "drop_rate": null,
+    "HI_street_rec_only_per_1k": 0.0,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 0,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "sci": {
+    "raw_add_per_1k": 0.0,
+    "pure_add_per_1k": 0.0,
+    "n_pure_add": 3,
+    "add_LR": 1.352,
+    "s1_df": 0,
+    "drop_rate": null,
+    "HI_street_rec_only_per_1k": 0.0,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 3,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "service": {
+    "raw_add_per_1k": 10.44,
+    "pure_add_per_1k": 10.4,
+    "n_pure_add": 15296,
+    "add_LR": 3.254,
+    "s1_df": 2119,
+    "drop_rate": 0.243,
+    "HI_street_rec_only_per_1k": 10.4,
+    "LO_street_rec_only_per_1k": 4.37,
+    "n_HI_street_rec_only": 15298,
+    "n_LO_street_rec_only": 114,
+    "frac_of_street_rec_only_in_LO": 0.007,
+    "pure_single_add_HI": 2151,
+    "pure_single_add_LO": 7
+   },
+   "services": {
+    "raw_add_per_1k": 21.75,
+    "pure_add_per_1k": 21.72,
+    "n_pure_add": 31953,
+    "add_LR": 3.985,
+    "s1_df": 3614,
+    "drop_rate": 0.235,
+    "HI_street_rec_only_per_1k": 21.72,
+    "LO_street_rec_only_per_1k": 9.01,
+    "n_HI_street_rec_only": 31955,
+    "n_LO_street_rec_only": 235,
+    "frac_of_street_rec_only_in_LO": 0.007,
+    "pure_single_add_HI": 4357,
+    "pure_single_add_LO": 12
+   }
+  },
+  "legal_drop_rates": {
+   "sas": 0.0,
+   "sa": 0.167,
+   "sarl": null,
+   "sci": null,
+   "eurl": null,
+   "sasu": null
+  }
+ },
+ "India": {
+  "n_kept_final": 2728351,
+  "n_HI": 2580515,
+  "n_LO": 147836,
+  "LO_share": 0.0542,
+  "n_PP": 846044,
+  "n_LO_street": 15144,
+  "LO_street_share_of_kept": 0.0056,
+  "n_PP_counted": 846044,
+  "street_pairs_by_band": {
+   "HI": 846452,
+   "LO": 15144
+  },
+  "LO_share_among_street_pairs": 0.0176,
+  "tokens": {
+   "aka": {
+    "raw_add_per_1k": 1.67,
+    "pure_add_per_1k": 1.67,
+    "n_pure_add": 1410,
+    "add_LR": 84.369,
+    "s1_df": 16,
+    "drop_rate": 0.091,
+    "HI_street_rec_only_per_1k": 1.67,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 1410,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "associes": {
+    "raw_add_per_1k": 0.0,
+    "pure_add_per_1k": 0.0,
+    "n_pure_add": 0,
+    "add_LR": 0.0,
+    "s1_df": 0,
+    "drop_rate": null,
+    "HI_street_rec_only_per_1k": 0.0,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 0,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "center": {
+    "raw_add_per_1k": 30.87,
+    "pure_add_per_1k": 30.86,
+    "n_pure_add": 26113,
+    "add_LR": 8.021,
+    "s1_df": 3117,
+    "drop_rate": 0.251,
+    "HI_street_rec_only_per_1k": 30.88,
+    "LO_street_rec_only_per_1k": 40.54,
+    "n_HI_street_rec_only": 26136,
+    "n_LO_street_rec_only": 614,
+    "frac_of_street_rec_only_in_LO": 0.023,
+    "pure_single_add_HI": 922,
+    "pure_single_add_LO": 8
+   },
+   "cie": {
+    "raw_add_per_1k": 0.0,
+    "pure_add_per_1k": 0.0,
+    "n_pure_add": 3,
+    "add_LR": 1.436,
+    "s1_df": 2,
+    "drop_rate": 0.0,
+    "HI_street_rec_only_per_1k": 0.0,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 3,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "com": {
+    "raw_add_per_1k": 46.1,
+    "pure_add_per_1k": 45.04,
+    "n_pure_add": 38102,
+    "add_LR": 301.472,
+    "s1_df": 121,
+    "drop_rate": 0.094,
+    "HI_street_rec_only_per_1k": 45.08,
+    "LO_street_rec_only_per_1k": 55.27,
+    "n_HI_street_rec_only": 38155,
+    "n_LO_street_rec_only": 837,
+    "frac_of_street_rec_only_in_LO": 0.021,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "compagnie": {
+    "raw_add_per_1k": 0.0,
+    "pure_add_per_1k": 0.0,
+    "n_pure_add": 0,
+    "add_LR": 0.0,
+    "s1_df": 0,
+    "drop_rate": null,
+    "HI_street_rec_only_per_1k": 0.0,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 0,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "dba": {
+    "raw_add_per_1k": 5.08,
+    "pure_add_per_1k": 5.08,
+    "n_pure_add": 4299,
+    "add_LR": 411.578,
+    "s1_df": 10,
+    "drop_rate": 0.071,
+    "HI_street_rec_only_per_1k": 5.08,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 4299,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "developpement": {
+    "raw_add_per_1k": 0.0,
+    "pure_add_per_1k": 0.0,
+    "n_pure_add": 0,
+    "add_LR": 0.0,
+    "s1_df": 0,
+    "drop_rate": null,
+    "HI_street_rec_only_per_1k": 0.0,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 0,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "et": {
+    "raw_add_per_1k": 0.02,
+    "pure_add_per_1k": 0.02,
+    "n_pure_add": 19,
+    "add_LR": 0.293,
+    "s1_df": 62,
+    "drop_rate": 0.086,
+    "HI_street_rec_only_per_1k": 0.02,
+    "LO_street_rec_only_per_1k": 0.13,
+    "n_HI_street_rec_only": 19,
+    "n_LO_street_rec_only": 2,
+    "frac_of_street_rec_only_in_LO": 0.095,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "eurl": {
+    "raw_add_per_1k": 0.0,
+    "pure_add_per_1k": 0.0,
+    "n_pure_add": 0,
+    "add_LR": 0.0,
+    "s1_df": 0,
+    "drop_rate": null,
+    "HI_street_rec_only_per_1k": 0.0,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 0,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "fils": {
+    "raw_add_per_1k": 0.0,
+    "pure_add_per_1k": 0.0,
+    "n_pure_add": 1,
+    "add_LR": 0.957,
+    "s1_df": 0,
+    "drop_rate": null,
+    "HI_street_rec_only_per_1k": 0.0,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 1,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "formerly": {
+    "raw_add_per_1k": 3.89,
+    "pure_add_per_1k": 3.89,
+    "n_pure_add": 3294,
+    "add_LR": 3153.611,
+    "s1_df": 0,
+    "drop_rate": null,
+    "HI_street_rec_only_per_1k": 3.89,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 3296,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "freres": {
+    "raw_add_per_1k": 0.0,
+    "pure_add_per_1k": 0.0,
+    "n_pure_add": 0,
+    "add_LR": 0.0,
+    "s1_df": 0,
+    "drop_rate": null,
+    "HI_street_rec_only_per_1k": 0.0,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 0,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "frs": {
+    "raw_add_per_1k": 0.0,
+    "pure_add_per_1k": 0.0,
+    "n_pure_add": 1,
+    "add_LR": 0.16,
+    "s1_df": 6,
+    "drop_rate": 0.0,
+    "HI_street_rec_only_per_1k": 0.0,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 1,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "partners": {
+    "raw_add_per_1k": 8.23,
+    "pure_add_per_1k": 8.23,
+    "n_pure_add": 6965,
+    "add_LR": 1.288,
+    "s1_df": 5179,
+    "drop_rate": 0.255,
+    "HI_street_rec_only_per_1k": 8.24,
+    "LO_street_rec_only_per_1k": 23.71,
+    "n_HI_street_rec_only": 6972,
+    "n_LO_street_rec_only": 359,
+    "frac_of_street_rec_only_in_LO": 0.049,
+    "pure_single_add_HI": 236,
+    "pure_single_add_LO": 10
+   },
+   "sa": {
+    "raw_add_per_1k": 0.06,
+    "pure_add_per_1k": 0.06,
+    "n_pure_add": 47,
+    "add_LR": 0.484,
+    "s1_df": 93,
+    "drop_rate": 0.093,
+    "HI_street_rec_only_per_1k": 0.06,
+    "LO_street_rec_only_per_1k": 0.26,
+    "n_HI_street_rec_only": 47,
+    "n_LO_street_rec_only": 4,
+    "frac_of_street_rec_only_in_LO": 0.078,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "sarl": {
+    "raw_add_per_1k": 0.0,
+    "pure_add_per_1k": 0.0,
+    "n_pure_add": 0,
+    "add_LR": 0.0,
+    "s1_df": 0,
+    "drop_rate": null,
+    "HI_street_rec_only_per_1k": 0.0,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 0,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "sas": {
+    "raw_add_per_1k": 0.0,
+    "pure_add_per_1k": 0.0,
+    "n_pure_add": 4,
+    "add_LR": 0.034,
+    "s1_df": 114,
+    "drop_rate": 0.111,
+    "HI_street_rec_only_per_1k": 0.0,
+    "LO_street_rec_only_per_1k": 0.07,
+    "n_HI_street_rec_only": 4,
+    "n_LO_street_rec_only": 1,
+    "frac_of_street_rec_only_in_LO": 0.2,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "sasu": {
+    "raw_add_per_1k": 0.0,
+    "pure_add_per_1k": 0.0,
+    "n_pure_add": 0,
+    "add_LR": 0.0,
+    "s1_df": 0,
+    "drop_rate": null,
+    "HI_street_rec_only_per_1k": 0.0,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 0,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "sci": {
+    "raw_add_per_1k": 0.0,
+    "pure_add_per_1k": 0.0,
+    "n_pure_add": 0,
+    "add_LR": 0.0,
+    "s1_df": 17,
+    "drop_rate": 0.2,
+    "HI_street_rec_only_per_1k": 0.0,
+    "LO_street_rec_only_per_1k": 0.0,
+    "n_HI_street_rec_only": 0,
+    "n_LO_street_rec_only": 0,
+    "frac_of_street_rec_only_in_LO": 0.0,
+    "pure_single_add_HI": 0,
+    "pure_single_add_LO": 0
+   },
+   "service": {
+    "raw_add_per_1k": 10.78,
+    "pure_add_per_1k": 10.5,
+    "n_pure_add": 8887,
+    "add_LR": 12.349,
+    "s1_df": 689,
+    "drop_rate": 0.203,
+    "HI_street_rec_only_per_1k": 10.5,
+    "LO_street_rec_only_per_1k": 16.57,
+    "n_HI_street_rec_only": 8889,
+    "n_LO_street_rec_only": 251,
+    "frac_of_street_rec_only_in_LO": 0.027,
+    "pure_single_add_HI": 344,
+    "pure_single_add_LO": 6
+   },
+   "services": {
+    "raw_add_per_1k": 21.47,
+    "pure_add_per_1k": 21.46,
+    "n_pure_add": 18153,
+    "add_LR": 0.782,
+    "s1_df": 22238,
+    "drop_rate": 0.266,
+    "HI_street_rec_only_per_1k": 21.47,
+    "LO_street_rec_only_per_1k": 44.37,
+    "n_HI_street_rec_only": 18170,
+    "n_LO_street_rec_only": 672,
+    "frac_of_street_rec_only_in_LO": 0.036,
+    "pure_single_add_HI": 693,
+    "pure_single_add_LO": 11
+   }
+  },
+  "legal_drop_rates": {
+   "sas": 0.111,
+   "sa": 0.093,
+   "sarl": null,
+   "sci": 0.2,
+   "eurl": null,
+   "sasu": null
+  }
+ }
+}

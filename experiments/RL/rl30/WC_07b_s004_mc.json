@@ -1,0 +1,32 @@
+{
+ "S005_maxclaim_rule_agreement": 1.0,
+ "S005_France": {
+  "n_acc": 879329,
+  "n_kept_maxclaim": 854396,
+  "KEY2_acc": 8777,
+  "KEY2_kept": 1463,
+  "KEY2_kept_s1": 1411,
+  "mean_p_KEY2_kept": 0.9479,
+  "street_diff_kept": 3701
+ },
+ "S004_France": {
+  "n_acc": 902322,
+  "n_kept_maxclaim": 858979,
+  "KEY2_acc": 15071,
+  "KEY2_kept": 1981,
+  "KEY2_kept_s1": 1901,
+  "mean_p_KEY2_kept": 0.9377,
+  "street_diff_kept": 4895
+ },
+ "KEY2_kept_both": 1386,
+ "KEY2_kept_only_S004": 595,
+ "KEY2_kept_only_S005": 77,
+ "France_kept_only_S004_all": 15144,
+ "France_kept_only_S005_all": 10561,
+ "removed_KEY2_S004_only": {
+  "pairs": 595,
+  "s1": 593,
+  "ESTIMATED_france_pp_if_all_FP": 0.063,
+  "ESTIMATED_france_pp_if_all_TP": -0.029
+ }
+}

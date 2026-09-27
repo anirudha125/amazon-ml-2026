@@ -1,0 +1,19 @@
+{
+ "country": "France",
+ "n_top10": 2594520,
+ "rrL": {
+  "n_pairs": 2594520,
+  "secs": 733.0,
+  "pairs_per_s": 3540,
+  "gpu_util_mean": 97.90883977900552,
+  "gpu_mem_used_max_mb": 38983.0
+ },
+ "rrUb_missing": 53536,
+ "rrUb_fill": {
+  "n_pairs": 53536,
+  "secs": 13.5,
+  "pairs_per_s": 3976,
+  "gpu_util_mean": 29.571428571428573
+ },
+ "secs": 778.9
+}

@@ -1,0 +1,204 @@
+{
+ "V1_US": {
+  "y1_sub": {
+   "n": 3793,
+   "frac_rep_ge1": 0.0166,
+   "mean_rep": 0.017
+  },
+  "y0_sub": {
+   "n": 195,
+   "frac_rep_ge1": 0.0513,
+   "mean_rep": 0.077
+  },
+  "y1_drop": {
+   "n": 1639,
+   "frac_rep_ge1": 0.2288,
+   "mean_rep": 0.272
+  },
+  "y1_add": {
+   "n": 1242,
+   "frac_rep_ge1": 0.0548,
+   "mean_rep": 0.055
+  },
+  "y0_add": {
+   "n": 37,
+   "frac_rep_ge1": 0.0,
+   "mean_rep": 0.0
+  },
+  "y0_drop": {
+   "n": 2,
+   "frac_rep_ge1": 0.0,
+   "mean_rep": 0.0
+  }
+ },
+ "V1_India": {
+  "y1_sub": {
+   "n": 847,
+   "frac_rep_ge1": 0.0354,
+   "mean_rep": 0.039
+  },
+  "y0_sub": {
+   "n": 270,
+   "frac_rep_ge1": 0.2111,
+   "mean_rep": 0.426
+  },
+  "y0_add": {
+   "n": 326,
+   "frac_rep_ge1": 0.0,
+   "mean_rep": 0.0
+  },
+  "y1_add": {
+   "n": 379,
+   "frac_rep_ge1": 0.0158,
+   "mean_rep": 0.016
+  },
+  "y1_drop": {
+   "n": 237,
+   "frac_rep_ge1": 0.1519,
+   "mean_rep": 0.186
+  },
+  "y0_drop": {
+   "n": 22,
+   "frac_rep_ge1": 0.7273,
+   "mean_rep": 79.545
+  }
+ },
+ "France_TEST": {
+  "HI_add": {
+   "n": 5631,
+   "frac_rep_ge1": 0.0229,
+   "mean_rep": 0.023
+  },
+  "HI_drop": {
+   "n": 13631,
+   "frac_rep_ge1": 0.0923,
+   "mean_rep": 0.101
+  },
+  "HI_multi": {
+   "n": 60735,
+   "frac_rep_ge1": 0.0547,
+   "mean_rep": 0.057
+  },
+  "HI_nodiff": {
+   "n": 486020,
+   "frac_rep_ge1": 0.8473,
+   "mean_rep": 1.819
+  },
+  "HI_sub_content": {
+   "n": 3938,
+   "frac_rep_ge1": 0.0046,
+   "mean_rep": 0.006
+  },
+  "HI_sub_generic": {
+   "n": 36263,
+   "frac_rep_ge1": 0.0153,
+   "mean_rep": 0.016
+  },
+  "HI_sub_other": {
+   "n": 716,
+   "frac_rep_ge1": 0.0056,
+   "mean_rep": 0.006
+  },
+  "LO_add": {
+   "n": 3387,
+   "frac_rep_ge1": 0.0186,
+   "mean_rep": 0.019
+  },
+  "LO_drop": {
+   "n": 780,
+   "frac_rep_ge1": 0.0577,
+   "mean_rep": 0.062
+  },
+  "LO_multi": {
+   "n": 19427,
+   "frac_rep_ge1": 0.0322,
+   "mean_rep": 0.034
+  },
+  "LO_nodiff": {
+   "n": 8664,
+   "frac_rep_ge1": 0.801,
+   "mean_rep": 1.787
+  },
+  "LO_sub_content": {
+   "n": 9005,
+   "frac_rep_ge1": 0.0056,
+   "mean_rep": 0.006
+  },
+  "LO_sub_generic": {
+   "n": 7155,
+   "frac_rep_ge1": 0.0197,
+   "mean_rep": 0.02
+  },
+  "LO_sub_other": {
+   "n": 1259,
+   "frac_rep_ge1": 0.0048,
+   "mean_rep": 0.005
+  }
+ },
+ "France_examples_replicated_content_sub": {
+  "HI": [
+   {
+    "s1": "Nantes Societe EURL",
+    "rec": "Nantes Comite EURL",
+    "p": 0.996,
+    "n_other_records_same_name_same_street": 1
+   },
+   {
+    "s1": "HRI Sante",
+    "rec": "HRI  France",
+    "p": 0.9942,
+    "n_other_records_same_name_same_street": 1
+   },
+   {
+    "s1": "Tourcoing Ecole EURL",
+    "rec": "TOURCOING EURL FRANCE",
+    "p": 0.9924,
+    "n_other_records_same_name_same_street": 1
+   },
+   {
+    "s1": "Retro Ecole SARL",
+    "rec": "Retro SARL France",
+    "p": 0.9939,
+    "n_other_records_same_name_same_street": 1
+   }
+  ],
+  "LO": [
+   {
+    "s1": "Kine Peinture SARL",
+    "rec": "KINE SARL FRANCE",
+    "p": 0.9622,
+    "n_other_records_same_name_same_street": 1
+   },
+   {
+    "s1": "Tourcoing Sante SAS",
+    "rec": "TOURCOING SAS FRANCE",
+    "p": 0.9872,
+    "n_other_records_same_name_same_street": 1
+   },
+   {
+    "s1": "Blue Club",
+    "rec": "BLUE GROUPE",
+    "p": 0.8567,
+    "n_other_records_same_name_same_street": 1
+   },
+   {
+    "s1": "LRJ Amis",
+    "rec": "LRJ Lycee",
+    "p": 0.9426,
+    "n_other_records_same_name_same_street": 1
+   },
+   {
+    "s1": "Village Ecole SARL",
+    "rec": "VILLAGE SARL FRANCE",
+    "p": 0.8573,
+    "n_other_records_same_name_same_street": 1
+   },
+   {
+    "s1": "GU Sport SARL",
+    "rec": "GU SARL France",
+    "p": 0.9864,
+    "n_other_records_same_name_same_street": 1
+   }
+  ]
+ }
+}

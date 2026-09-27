@@ -1,0 +1,522 @@
+{
+ "France": {
+  "detail": {
+   "dropped|gt|norm_sib>": 345,
+   "dropped|tie|norm_self>": 4,
+   "dropped|tie|norm_sib>": 6,
+   "dropped|tie|norm_tie": 211,
+   "kept|gt|norm_sib>": 11,
+   "kept|tie|norm_self>": 17,
+   "kept|tie|norm_sib>": 3,
+   "kept|tie|norm_tie": 194
+  },
+  "by_state_and_normalized_direction": {
+   "dropped|norm_self>": 4,
+   "dropped|norm_sib>": 351,
+   "dropped|norm_tie": 211,
+   "kept|norm_self>": 17,
+   "kept|norm_sib>": 14,
+   "kept|norm_tie": 194
+  }
+ },
+ "India": {
+  "detail": {
+   "dropped|gt|norm_sib>": 19,
+   "dropped|tie|norm_tie": 51,
+   "kept|tie|norm_tie": 98
+  },
+  "by_state_and_normalized_direction": {
+   "dropped|norm_sib>": 19,
+   "dropped|norm_tie": 51,
+   "kept|norm_tie": 98
+  }
+ },
+ "US": {
+  "detail": {
+   "dropped|gt|norm_sib>": 14,
+   "dropped|tie|norm_tie": 3,
+   "kept|gt|norm_sib>": 2,
+   "kept|tie|norm_self>": 1,
+   "kept|tie|norm_tie": 10
+  },
+  "by_state_and_normalized_direction": {
+   "dropped|norm_sib>": 14,
+   "dropped|norm_tie": 3,
+   "kept|norm_self>": 1,
+   "kept|norm_sib>": 2,
+   "kept|norm_tie": 10
+  }
+ },
+ "France_kept_examples": {
+  "tie": [
+   {
+    "s1": "Maison Coeur SARL",
+    "rec": "Maison Cmuer SARL",
+    "sibs": [
+     "Maison Rassemblement SARL"
+    ],
+    "p": 0.9999,
+    "jr": 0.5,
+    "js": 0.5,
+    "jr_norm": 0.5,
+    "js_norm": 0.5
+   },
+   {
+    "s1": "Bordeaux Club SARL",
+    "rec": "Bordeaux Club",
+    "sibs": [
+     "Bordeaux Club EURL"
+    ],
+    "p": 0.9999,
+    "jr": 0.667,
+    "js": 0.667,
+    "jr_norm": 0.667,
+    "js_norm": 0.667
+   },
+   {
+    "s1": "Bordeaux Transport SARL",
+    "rec": "Bordeaux  SARL Services",
+    "sibs": [
+     "Bordeaux Amicale SARL"
+    ],
+    "p": 0.9994,
+    "jr": 0.5,
+    "js": 0.5,
+    "jr_norm": 0.5,
+    "js_norm": 0.5
+   },
+   {
+    "s1": "Comit\u00e9 du Fete",
+    "rec": "Comit\u00e9 du Fe",
+    "sibs": [
+     "Comit\u00e9 du Gymnastique"
+    ],
+    "p": 0.9997,
+    "jr": 0.5,
+    "js": 0.5,
+    "jr_norm": 0.5,
+    "js_norm": 0.5
+   },
+   {
+    "s1": "Nantes Centre SAS",
+    "rec": "Nantes SAS Et Fils",
+    "sibs": [
+     "Nantes Club SAS"
+    ],
+    "p": 0.9593,
+    "jr": 0.4,
+    "js": 0.4,
+    "jr_norm": 0.4,
+    "js_norm": 0.4
+   },
+   {
+    "s1": "Ets Sica SARL",
+    "rec": "ETS SIAA  SARL",
+    "sibs": [
+     "Ets Eduquer SARL"
+    ],
+    "p": 0.9969,
+    "jr": 0.5,
+    "js": 0.5,
+    "jr_norm": 0.5,
+    "js_norm": 0.5
+   },
+   {
+    "s1": "Pessac Comite SAS",
+    "rec": "Pessac Cie SAS",
+    "sibs": [
+     "Pessac Federation SAS"
+    ],
+    "p": 0.9882,
+    "jr": 0.5,
+    "js": 0.5,
+    "jr_norm": 0.5,
+    "js_norm": 0.5
+   },
+   {
+    "s1": "Calais Coll\u00e8ge SA",
+    "rec": "Calais-Coll\u00e8ge",
+    "sibs": [
+     "Calais College SARL"
+    ],
+    "p": 0.9998,
+    "jr": 0.667,
+    "js": 0.667,
+    "jr_norm": 0.667,
+    "js_norm": 0.667
+   },
+   {
+    "s1": "Nantes Sportive SAS",
+    "rec": "Nantes Sportive",
+    "sibs": [
+     "Nantes Sportive SARL"
+    ],
+    "p": 0.9999,
+    "jr": 0.667,
+    "js": 0.667,
+    "jr_norm": 0.667,
+    "js_norm": 0.667
+   },
+   {
+    "s1": "Roubaix Centre",
+    "rec": "Roubaix Cie",
+    "sibs": [
+     "Roubaix Compagnie"
+    ],
+    "p": 0.9992,
+    "jr": 0.333,
+    "js": 0.333,
+    "jr_norm": 0.333,
+    "js_norm": 0.333
+   },
+   {
+    "s1": "Roubaix Centre",
+    "rec": "Roubaix Cie",
+    "sibs": [
+     "Roubaix Compagnie"
+    ],
+    "p": 0.9759,
+    "jr": 0.333,
+    "js": 0.333,
+    "jr_norm": 0.333,
+    "js_norm": 0.333
+   },
+   {
+    "s1": "Saint-Nazaire College EI",
+    "rec": "SAINT-NAZAIRE COMITE EI",
+    "sibs": [
+     "Saint-Nazaire Restaurant EI"
+    ],
+    "p": 0.9941,
+    "jr": 0.6,
+    "js": 0.6,
+    "jr_norm": 0.6,
+    "js_norm": 0.6
+   }
+  ],
+  "self>": [
+   {
+    "s1": "Nantes Sportive SAS",
+    "rec": "Nantes Sportive S.A.S.",
+    "sibs": [
+     "Nantes Sportive SARL"
+    ],
+    "p": 0.9995,
+    "jr": 0.4,
+    "js": 0.4,
+    "jr_norm": 1.0,
+    "js_norm": 0.5
+   },
+   {
+    "s1": "Nantes Sportive SAS",
+    "rec": "Nantes Sportive S.A.S.",
+    "sibs": [
+     "Nantes Sportive SARL"
+    ],
+    "p": 0.9999,
+    "jr": 0.4,
+    "js": 0.4,
+    "jr_norm": 1.0,
+    "js_norm": 0.5
+   },
+   {
+    "s1": "Lille Sante SARL",
+    "rec": "S.A.R.L. LILLE SANTE",
+    "sibs": [
+     "Lille Primaire SARL",
+     "Lille Centre SARL",
+     "Lille Loisirs SARL",
+     "Lille Culturelle SARL",
+     "Lille Sante SCI",
+     "Lille Energie SARL"
+    ],
+    "p": 0.9989,
+    "jr": 0.286,
+    "js": 0.286,
+    "jr_norm": 1.0,
+    "js_norm": 0.5
+   },
+   {
+    "s1": "Lille Club SARL",
+    "rec": "Lille Club S.A.R.L.",
+    "sibs": [
+     "Osmose Club SARL",
+     "Deleves Club SARL",
+     "Lille Club SARL Enterprises",
+     "Lille Societe SARL",
+     "Lille Sport SARL",
+     "Lille Anciens SARL",
+     "Lille Centre SARL",
+     "Lille Club SAS",
+     "Lille Elementaire SARL"
+    ],
+    "p": 0.9993,
+    "jr": 0.286,
+    "js": 0.286,
+    "jr_norm": 1.0,
+    "js_norm": 0.75
+   },
+   {
+    "s1": "Saint-Herblain Amicale SAS",
+    "rec": "Saint-Herblain Amicale S.A.S.",
+    "sibs": [
+     "Saint-Herblain Etablissement SAS",
+     "Saint-Herblain Amicale SARL"
+    ],
+    "p": 0.9996,
+    "jr": 0.5,
+    "js": 0.5,
+    "jr_norm": 1.0,
+    "js_norm": 0.6
+   },
+   {
+    "s1": "Nantes Pharmacie SAS",
+    "rec": "Nantes Pharmacie S.A.S",
+    "sibs": [
+     "Nantes Pharmacie SARL"
+    ],
+    "p": 0.9998,
+    "jr": 0.4,
+    "js": 0.4,
+    "jr_norm": 1.0,
+    "js_norm": 0.5
+   },
+   {
+    "s1": "Lille Loisirs SA",
+    "rec": "LILLE LOISIRS S.A.",
+    "sibs": [
+     "Lille Loisirs EURL",
+     "Lille Primaire SA"
+    ],
+    "p": 0.9997,
+    "jr": 0.4,
+    "js": 0.4,
+    "jr_norm": 1.0,
+    "js_norm": 0.5
+   },
+   {
+    "s1": "Lille Ecole SAS",
+    "rec": "Lille Ecole S.A.S.",
+    "sibs": [
+     "Lille Ecole SA"
+    ],
+    "p": 0.9999,
+    "jr": 0.4,
+    "js": 0.4,
+    "jr_norm": 1.0,
+    "js_norm": 0.5
+   },
+   {
+    "s1": "Lille Maison SAS",
+    "rec": "Lille Maison S.A.S",
+    "sibs": [
+     "Lille Coll\u00e8ge SAS",
+     "Lille Maison SARL",
+     "Lille Sante SAS",
+     "Lille Club SAS"
+    ],
+    "p": 0.9999,
+    "jr": 0.4,
+    "js": 0.4,
+    "jr_norm": 1.0,
+    "js_norm": 0.5
+   },
+   {
+    "s1": "Lille Centre SAS",
+    "rec": "Lille Centre S.A.S.",
+    "sibs": [
+     "Lille Centre SARL",
+     "Lille Ecole SAS"
+    ],
+    "p": 0.9999,
+    "jr": 0.4,
+    "js": 0.4,
+    "jr_norm": 1.0,
+    "js_norm": 0.5
+   },
+   {
+    "s1": "Lille Centre SAS",
+    "rec": "Lille Centre S.A.S.",
+    "sibs": [
+     "Lille Centre SARL",
+     "Lille Ecole SAS"
+    ],
+    "p": 0.9869,
+    "jr": 0.4,
+    "js": 0.4,
+    "jr_norm": 1.0,
+    "js_norm": 0.5
+   },
+   {
+    "s1": "Pornic Club EI",
+    "rec": "Pornic Club E.I.",
+    "sibs": [
+     "Pornic Club SCI"
+    ],
+    "p": 0.9308,
+    "jr": 0.4,
+    "js": 0.4,
+    "jr_norm": 1.0,
+    "js_norm": 0.5
+   }
+  ],
+  "sib>": [
+   {
+    "s1": "Lille Ecole SAS",
+    "rec": "Lille Ecole S.A.R.L.",
+    "sibs": [
+     "Lille Ecole SARL",
+     "Lille Jeunes SAS",
+     "Lille Sportive SAS"
+    ],
+    "p": 0.9997,
+    "jr": 0.286,
+    "js": 0.286,
+    "jr_norm": 0.5,
+    "js_norm": 1.0
+   },
+   {
+    "s1": "Dunkerque Jeunes SARL Enterprises",
+    "rec": "DUNKERQUE JEUNES",
+    "sibs": [
+     "Dunkerque Jeunes SARL"
+    ],
+    "p": 0.9977,
+    "jr": 0.5,
+    "js": 0.667,
+    "jr_norm": 0.5,
+    "js_norm": 0.667
+   },
+   {
+    "s1": "Lille Amicale SAS",
+    "rec": "Lille Amicale S.A.R.L.",
+    "sibs": [
+     "Lille Amicale SARL",
+     "Lille Section SAS"
+    ],
+    "p": 0.9932,
+    "jr": 0.286,
+    "js": 0.286,
+    "jr_norm": 0.5,
+    "js_norm": 1.0
+   },
+   {
+    "s1": "Lille Sportive SARL",
+    "rec": "Lille Sport",
+    "sibs": [
+     "Lille Groupe SARL",
+     "Lille Sport SARL"
+    ],
+    "p": 0.9864,
+    "jr": 0.25,
+    "js": 0.667,
+    "jr_norm": 0.25,
+    "js_norm": 0.667
+   },
+   {
+    "s1": "Dunkerque Ecole SARL Enterprises",
+    "rec": "SARL DUNKERQUE ECOLE",
+    "sibs": [
+     "Dunkerque Ecole SARL"
+    ],
+    "p": 0.9992,
+    "jr": 0.75,
+    "js": 1.0,
+    "jr_norm": 0.75,
+    "js_norm": 1.0
+   },
+   {
+    "s1": "Lille Conseil SAS",
+    "rec": "Lille \u00c7lub SAS",
+    "sibs": [
+     "Lille Club SAS"
+    ],
+    "p": 0.9998,
+    "jr": 0.5,
+    "js": 1.0,
+    "jr_norm": 0.5,
+    "js_norm": 1.0
+   },
+   {
+    "s1": "Lille Club SARL Enterprises",
+    "rec": "Lille Club",
+    "sibs": [
+     "Lille Club SARL"
+    ],
+    "p": 0.9951,
+    "jr": 0.5,
+    "js": 0.667,
+    "jr_norm": 0.5,
+    "js_norm": 0.667
+   },
+   {
+    "s1": "Lille Culture SARL",
+    "rec": "Lille \u00c7lub SARL",
+    "sibs": [
+     "Lille Soins SARL",
+     "Lille Danse SARL",
+     "Lille Maison SARL",
+     "Lille Groupement SARL",
+     "Lille Jeunes SARL",
+     "Lille Club SARL"
+    ],
+    "p": 0.9997,
+    "jr": 0.5,
+    "js": 1.0,
+    "jr_norm": 0.5,
+    "js_norm": 1.0
+   },
+   {
+    "s1": "Lille Sport SARL",
+    "rec": "Lille [Sportive]",
+    "sibs": [
+     "Lille Sportive SARL"
+    ],
+    "p": 0.9884,
+    "jr": 0.25,
+    "js": 0.667,
+    "jr_norm": 0.25,
+    "js_norm": 0.667
+   },
+   {
+    "s1": "Lille Club SARL Trading",
+    "rec": "Lille Club SARL",
+    "sibs": [
+     "Lille Club SARL Enterprises",
+     "Lille Club SARL"
+    ],
+    "p": 0.9999,
+    "jr": 0.75,
+    "js": 1.0,
+    "jr_norm": 0.75,
+    "js_norm": 1.0
+   },
+   {
+    "s1": "Lille Club SARL Trading",
+    "rec": "Lille Club S\u00e0rl",
+    "sibs": [
+     "Lille Club SARL Enterprises",
+     "Lille Club SARL"
+    ],
+    "p": 0.9998,
+    "jr": 0.75,
+    "js": 1.0,
+    "jr_norm": 0.75,
+    "js_norm": 1.0
+   },
+   {
+    "s1": "Lille Sport SARL",
+    "rec": "LILLE SPORTIVE",
+    "sibs": [
+     "Lille Sportive SARL",
+     "Lille Groupe SARL"
+    ],
+    "p": 0.9977,
+    "jr": 0.25,
+    "js": 0.667,
+    "jr_norm": 0.25,
+    "js_norm": 0.667
+   }
+  ]
+ }
+}

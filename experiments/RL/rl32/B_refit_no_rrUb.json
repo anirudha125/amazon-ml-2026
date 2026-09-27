@@ -1,0 +1,66 @@
+{
+ "tag": "no_rrUb",
+ "dropped": [
+  "rrUb"
+ ],
+ "fit_s": 161.9,
+ "V1": {
+  "variant": 98.9215,
+  "s006": 98.9467,
+  "delta_ci": [
+   -0.0251,
+   -0.057,
+   0.0061
+  ],
+  "fp_variant": 177.0,
+  "fp_s006": 170.0,
+  "tp_variant": 67424.0,
+  "tp_s006": 67437.0,
+  "us_variant": 98.8772,
+  "india_variant": 98.9886,
+  "sum_p_per_s1_variant": 3.4597,
+  "sum_p_per_s1_s006": 3.4597,
+  "true_inpool_per_s1": 3.4616,
+  "variant_at_th": {
+   "0.66": 98.8893,
+   "0.70": 98.92,
+   "0.72": 98.9215,
+   "0.74": 98.9291,
+   "0.78": 98.9164
+  }
+ },
+ "test": {
+  "France": {
+   "n_s1": 259452,
+   "sum_p_variant": 3.5327,
+   "sum_p_s006": 3.5409,
+   "acc_per_s1_variant": 3.3325,
+   "acc_per_s1_s006": 3.3425,
+   "band_05_99_variant": 1.2971,
+   "band_05_99_s006": 1.2475
+  },
+  "US": {
+   "n_s1": 90000,
+   "sum_p_variant": 3.4497,
+   "sum_p_s006": 3.4494,
+   "acc_per_s1_variant": 3.3801,
+   "acc_per_s1_s006": 3.3788,
+   "band_05_99_variant": 0.4208,
+   "band_05_99_s006": 0.4021
+  },
+  "India": {
+   "n_s1": 90000,
+   "sum_p_variant": 3.4477,
+   "sum_p_s006": 3.4487,
+   "acc_per_s1_variant": 3.3791,
+   "acc_per_s1_s006": 3.3799,
+   "band_05_99_variant": 0.4255,
+   "band_05_99_s006": 0.4164
+  }
+ },
+ "France_excess_vs_USI": {
+  "variant": 0.084,
+  "s006": 0.0919
+ },
+ "secs": 179.0
+}

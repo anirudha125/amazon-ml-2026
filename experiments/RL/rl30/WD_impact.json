@@ -1,0 +1,120 @@
+{
+ "France_oracle_per_class": {
+  "pm1": {
+   "n_pairs": 1021,
+   "n_s1": 956,
+   "oracle_all_decoy_France_pts": 0.1043,
+   "oracle_all_decoy_LB_pts": 0.0156,
+   "loss_if_all_true_dropped_France_pts": 0.0481,
+   "gain_per_pair": 0.265
+  },
+  "pm2": {
+   "n_pairs": 1109,
+   "n_s1": 1039,
+   "oracle_all_decoy_France_pts": 0.1147,
+   "oracle_all_decoy_LB_pts": 0.0172,
+   "loss_if_all_true_dropped_France_pts": 0.0552,
+   "gain_per_pair": 0.2683
+  },
+  "odd3_10": {
+   "n_pairs": 1283,
+   "n_s1": 1215,
+   "oracle_all_decoy_France_pts": 0.1354,
+   "oracle_all_decoy_LB_pts": 0.0203,
+   "loss_if_all_true_dropped_France_pts": 0.0633,
+   "gain_per_pair": 0.2738
+  },
+  "even3_10": {
+   "n_pairs": 375,
+   "n_s1": 325,
+   "oracle_all_decoy_France_pts": 0.0369,
+   "oracle_all_decoy_LB_pts": 0.0055,
+   "loss_if_all_true_dropped_France_pts": 0.0167,
+   "gain_per_pair": 0.2554
+  },
+  "digsub": {
+   "n_pairs": 2202,
+   "n_s1": 1900,
+   "oracle_all_decoy_France_pts": 0.229,
+   "oracle_all_decoy_LB_pts": 0.0343,
+   "loss_if_all_true_dropped_France_pts": 0.1105,
+   "gain_per_pair": 0.2698
+  },
+  "odd_gt10": {
+   "n_pairs": 3942,
+   "n_s1": 3238,
+   "oracle_all_decoy_France_pts": 0.414,
+   "oracle_all_decoy_LB_pts": 0.062,
+   "loss_if_all_true_dropped_France_pts": 0.2038,
+   "gain_per_pair": 0.2725
+  },
+  "even_gt10": {
+   "n_pairs": 2173,
+   "n_s1": 1621,
+   "oracle_all_decoy_France_pts": 0.2262,
+   "oracle_all_decoy_LB_pts": 0.0339,
+   "loss_if_all_true_dropped_France_pts": 0.1115,
+   "gain_per_pair": 0.2701
+  },
+  "digindel": {
+   "n_pairs": 820,
+   "n_s1": 607,
+   "oracle_all_decoy_France_pts": 0.085,
+   "oracle_all_decoy_LB_pts": 0.0127,
+   "loss_if_all_true_dropped_France_pts": 0.0415,
+   "gain_per_pair": 0.2688
+  },
+  "perm": {
+   "n_pairs": 46,
+   "n_s1": 41,
+   "oracle_all_decoy_France_pts": 0.0043,
+   "oracle_all_decoy_LB_pts": 0.0006,
+   "loss_if_all_true_dropped_France_pts": 0.0017,
+   "gain_per_pair": 0.2442
+  }
+ },
+ "train_parities": {
+  "US_3_10": {
+   "true_odd_share": 0.5498,
+   "nontrue_odd_share": 0.8547
+  },
+  "US_gt10": {
+   "true_odd_share": 0.4091,
+   "nontrue_odd_share": 0.8328
+  },
+  "India_3_10": {
+   "true_odd_share": 0.6263,
+   "nontrue_odd_share": 0.8442
+  },
+  "India_gt10": {
+   "true_odd_share": 0.4369,
+   "nontrue_odd_share": 0.8764
+  }
+ },
+ "France_parity_mixture_ESTIMATED": {
+  "3_10_parities_from_US": {
+   "France_accepted_odd_share": 0.7738,
+   "decoy_share_ESTIMATED": 0.735,
+   "decoy_pairs_ESTIMATED": 1218,
+   "n_accepted": 1658
+  },
+  "3_10_parities_from_India": {
+   "France_accepted_odd_share": 0.7738,
+   "decoy_share_ESTIMATED": 0.677,
+   "decoy_pairs_ESTIMATED": 1123,
+   "n_accepted": 1658
+  },
+  "gt10_parities_from_US": {
+   "France_accepted_odd_share": 0.6446,
+   "decoy_share_ESTIMATED": 0.556,
+   "decoy_pairs_ESTIMATED": 3399,
+   "n_accepted": 6115
+  },
+  "gt10_parities_from_India": {
+   "France_accepted_odd_share": 0.6446,
+   "decoy_share_ESTIMATED": 0.473,
+   "decoy_pairs_ESTIMATED": 2890,
+   "n_accepted": 6115
+  }
+ }
+}

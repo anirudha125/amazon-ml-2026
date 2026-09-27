@@ -1,0 +1,514 @@
+{
+ "france_token_df_occurrence_share": {
+  "df<=1": 0.019,
+  "df<=2": 0.0369,
+  "df<=5": 0.0645,
+  "df<=20": 0.1178,
+  "df<=100": 0.1925
+ },
+ "france_s1_with_a_df1_token": 0.0583,
+ "france_neardup_coloc": {
+  "stats": {
+   "pairs": 718,
+   "both_claim_something": 669,
+   "share_any_claimed_record": 226,
+   "both_nonempty_final": 626,
+   "one_empty_final": 89,
+   "both_empty_final": 3
+  },
+  "top_differing_tokens": [
+   [
+    "club",
+    51
+   ],
+   [
+    "ecole",
+    51
+   ],
+   [
+    "amicale",
+    35
+   ],
+   [
+    "lille",
+    34
+   ],
+   [
+    "centre",
+    34
+   ],
+   [
+    "sportive",
+    33
+   ],
+   [
+    "sarl",
+    27
+   ],
+   [
+    "sas",
+    27
+   ],
+   [
+    "comite",
+    27
+   ],
+   [
+    "primaire",
+    20
+   ],
+   [
+    "maison",
+    20
+   ],
+   [
+    "sante",
+    18
+   ],
+   [
+    "sport",
+    17
+   ],
+   [
+    "culturelle",
+    17
+   ],
+   [
+    "societe",
+    16
+   ]
+  ],
+  "examples": [
+   {
+    "a": [
+     "S1-418524279",
+     "Autrement Ecole SARL"
+    ],
+    "b": [
+     "S1-827129388",
+     "Locale Ecole SARL"
+    ],
+    "addr": "2 RUE Capitaine Kleber Dupuy, Rs le Pauillac Apt 46, Bordeaux, Nouvelle-Aquitaine",
+    "claims_a": 1,
+    "claims_b": 4,
+    "shared_claims": 0,
+    "final_a": 1,
+    "final_b": 4
+   },
+   {
+    "a": [
+     "S1-418524279",
+     "Autrement Ecole SARL"
+    ],
+    "b": [
+     "S1-86643596",
+     "Journee Ecole SARL"
+    ],
+    "addr": "2 RUE Capitaine Kleber Dupuy, Rs le Pauillac Apt 46, Bordeaux, Nouvelle-Aquitaine",
+    "claims_a": 1,
+    "claims_b": 3,
+    "shared_claims": 0,
+    "final_a": 1,
+    "final_b": 3
+   },
+   {
+    "a": [
+     "S1-827129388",
+     "Locale Ecole SARL"
+    ],
+    "b": [
+     "S1-86643596",
+     "Journee Ecole SARL"
+    ],
+    "addr": "2 RUE Capitaine Kleber Dupuy, Rs le Pauillac Apt 46, Bordeaux, Nouvelle-Aquitaine",
+    "claims_a": 4,
+    "claims_b": 3,
+    "shared_claims": 0,
+    "final_a": 4,
+    "final_b": 3
+   },
+   {
+    "a": [
+     "S1-149411806",
+     "Gaule Sportive SARL"
+    ],
+    "b": [
+     "S1-575316552",
+     "Busca Sportive SARL"
+    ],
+    "addr": "30 RUE des Meuniers, Lille, Hauts-de-France",
+    "claims_a": 3,
+    "claims_b": 1,
+    "shared_claims": 0,
+    "final_a": 3,
+    "final_b": 1
+   },
+   {
+    "a": [
+     "S1-149411806",
+     "Gaule Sportive SARL"
+    ],
+    "b": [
+     "S1-834502904",
+     "Place Sportive SARL"
+    ],
+    "addr": "30 RUE des Meuniers, Lille, Hauts-de-France",
+    "claims_a": 3,
+    "claims_b": 5,
+    "shared_claims": 0,
+    "final_a": 3,
+    "final_b": 5
+   },
+   {
+    "a": [
+     "S1-831889889",
+     "Pension & Fils EURL"
+    ],
+    "b": [
+     "S1-461374198",
+     "Priv\u00e9e & Fils EURL"
+    ],
+    "addr": "30 RUE des Meuniers, Lille, Hauts-de-France",
+    "claims_a": 3,
+    "claims_b": 4,
+    "shared_claims": 0,
+    "final_a": 3,
+    "final_b": 4
+   },
+   {
+    "a": [
+     "S1-831889889",
+     "Pension & Fils EURL"
+    ],
+    "b": [
+     "S1-644428267",
+     "Rayons & Fils EURL"
+    ],
+    "addr": "30 RUE des Meuniers, Lille, Hauts-de-France",
+    "claims_a": 3,
+    "claims_b": 2,
+    "shared_claims": 0,
+    "final_a": 3,
+    "final_b": 2
+   },
+   {
+    "a": [
+     "S1-728790192",
+     "Lille Club SARL"
+    ],
+    "b": [
+     "S1-280705210",
+     "Osmose Club SARL"
+    ],
+    "addr": "30 RUE Des meuniers, Lille, Hauts-de-France",
+    "claims_a": 9,
+    "claims_b": 3,
+    "shared_claims": 0,
+    "final_a": 8,
+    "final_b": 3
+   },
+   {
+    "a": [
+     "S1-728790192",
+     "Lille Club SARL"
+    ],
+    "b": [
+     "S1-79055345",
+     "Deleves Club SARL"
+    ],
+    "addr": "30 RUE Des meuniers, Lille, Hauts-de-France",
+    "claims_a": 9,
+    "claims_b": 2,
+    "shared_claims": 0,
+    "final_a": 8,
+    "final_b": 1
+   },
+   {
+    "a": [
+     "S1-728790192",
+     "Lille Club SARL"
+    ],
+    "b": [
+     "S1-435040338",
+     "Lille Club SARL Enterprises"
+    ],
+    "addr": "30 RUE Des meuniers, Lille, Hauts-de-France",
+    "claims_a": 9,
+    "claims_b": 8,
+    "shared_claims": 6,
+    "final_a": 8,
+    "final_b": 1
+   },
+   {
+    "a": [
+     "S1-728790192",
+     "Lille Club SARL"
+    ],
+    "b": [
+     "S1-817319559",
+     "Lille Societe SARL"
+    ],
+    "addr": "30 RUE Des meuniers, Lille, Hauts-de-France",
+    "claims_a": 9,
+    "claims_b": 5,
+    "shared_claims": 0,
+    "final_a": 8,
+    "final_b": 5
+   },
+   {
+    "a": [
+     "S1-728790192",
+     "Lille Club SARL"
+    ],
+    "b": [
+     "S1-745621739",
+     "Lille Sport SARL"
+    ],
+    "addr": "30 RUE Des meuniers, Lille, Hauts-de-France",
+    "claims_a": 9,
+    "claims_b": 6,
+    "shared_claims": 0,
+    "final_a": 8,
+    "final_b": 3
+   }
+  ]
+ },
+ "dept_examples": [
+  [
+   "s2",
+   "SCI Ptit \u00c0micale",
+   "18 RUE JEN ZAY, Dunkerque, Nord"
+  ],
+  [
+   "s2",
+   "sci ligue ici parents",
+   "NO. 5 ALL\u00c9E DES H\u00caTRES, Pornic, Loire-Atlantique"
+  ],
+  [
+   "s2",
+   "QHC Culture [EURL]",
+   "68 R. DE JEMMAPES, LILLE, Nord"
+  ],
+  [
+   "s3",
+   "Fractales Amis Groupe S.A.S",
+   "23 Rue Icmre, La Teste-de-buch, Gironde"
+  ],
+  [
+   "s3",
+   "Europ & Fr\u00e8res Distribution S.A.",
+   "(41) Rue Des Thuyas, L\u00e8ge-cap-ferret, Gironde"
+  ],
+  [
+   "s3",
+   "Roubaix Hotel Sa",
+   "69 R D'odan, Roubaix, Nord"
+  ]
+ ],
+ "s1_region_examples": [
+  [
+   "<< Team Ecole",
+   "175 Boulevard du Pr\u00e9sident Franklin Roosevelt, Bordeaux, Nouvelle-Aquitaine"
+  ],
+  [
+   "ZNB Club SARL",
+   "Nouvelle-Aquitaine, La Teste-de-Buch, 5 bis Rue Pierre Dignac"
+  ],
+  [
+   "Thermal & Fils SASU",
+   "20 Rue Parmentier, Dunkerque, Hauts-de-France"
+  ],
+  [
+   "Grain & Fils",
+   "Lille, 329 Avenue de Dunkerque, Hauts-de-France"
+  ],
+  [
+   "Elephant Centre EURL",
+   "30 Rue Lachassaigne, Bordeaux, Nouvelle-Aquitaine"
+  ]
+ ],
+ "V1_same_addr_sub1_examples": {
+  "n_pos": 1004,
+  "n_neg": 30,
+  "pos": [
+   [
+    "Roix Sterling Tree LLC",
+    "Roix Sterling LLC Center",
+    [
+     "tree"
+    ],
+    [
+     "center"
+    ],
+    "8513 Golden Cloud Lane, Knoxville, TN"
+   ],
+   [
+    "Metro Foundation Corp",
+    "METRO FOUNDTAOIN CORP",
+    [
+     "foundation"
+    ],
+    [
+     "foundtaoin"
+    ],
+    "13186 95, Foley, MN"
+   ],
+   [
+    "Beacon Transportation, LLC",
+    "Beac0n Transportation,",
+    [
+     "beacon"
+    ],
+    [
+     "beac0n"
+    ],
+    "3712 Joy Street, Charlotte, NC"
+   ],
+   [
+    "National Creative Systems, Inc",
+    "Creative Nati0nal Inc Systems,",
+    [
+     "national"
+    ],
+    [
+     "nati0nal"
+    ],
+    "6796 400, Berne, IN"
+   ],
+   [
+    "Northern Apex Ligand PC",
+    "NORTHERN AOPTXE LIGAND PC",
+    [
+     "apex"
+    ],
+    [
+     "aoptxe"
+    ],
+    "3698 Miramonte Drive, Lima, OH"
+   ],
+   [
+    "Milian Custom Agriculture LLC",
+    "MILIAN  CUST0M AGRICULTURE",
+    [
+     "custom"
+    ],
+    [
+     "cust0m"
+    ],
+    "Davenport, 5904 Marquette St, IA"
+   ],
+   [
+    "Milian Custom Agriculture LLC",
+    "Milian Ciotdm Agriculture (LLC)",
+    [
+     "custom"
+    ],
+    [
+     "ciotdm"
+    ],
+    "Davenport, 5904 Marquette St, IA"
+   ],
+   [
+    "Atlantic League",
+    "ATLANTIC LEAFUE",
+    [
+     "league"
+    ],
+    [
+     "leafue"
+    ],
+    "1804 11th Circle, Moore, OK"
+   ]
+  ],
+  "neg": [
+   [
+    "Donica Rodriguez Precision Synchrony Inc",
+    "Atkins Rodriguez Precision Synchrony Inc.",
+    [
+     "donica"
+    ],
+    [
+     "atkins"
+    ],
+    "40 Kimberly Lane, Moreau, NY"
+   ],
+   [
+    "Nexora Alliancebernstein",
+    "Nexori  Alliancebernstein",
+    [
+     "nexora"
+    ],
+    [
+     "nexori"
+    ],
+    "3942 Olivene Cove, New Haven, IN"
+   ],
+   [
+    "Kasper Summit Dime LLC",
+    "Martinez Summit Dime Llc",
+    [
+     "kasper"
+    ],
+    [
+     "martinez"
+    ],
+    "6347 Basden Drive, Indianapolis, IN"
+   ],
+   [
+    "Guillemette's Systems",
+    "Leon Systems Inc.",
+    [
+     "guillemette"
+    ],
+    [
+     "leon"
+    ],
+    "2560 Perdenales Drive, Royse City, TX"
+   ],
+   [
+    "Severson Sea Corp",
+    "Jones Sea Corp",
+    [
+     "severson"
+    ],
+    [
+     "jones"
+    ],
+    "125 Watersfield Road, Leland, NC"
+   ],
+   [
+    "Caldex Transport",
+    "Caldeks Transport",
+    [
+     "caldex"
+    ],
+    [
+     "caldeks"
+    ],
+    "304 Veterans Road, Laurens, IA"
+   ],
+   [
+    "Orthopedic Partners Inc",
+    "ORTHOPEDIC \u00cdNC CENTER",
+    [
+     "partners"
+    ],
+    [
+     "center"
+    ],
+    "3333 85th Street, Chicago, IL"
+   ],
+   [
+    "Evelyn Chauhan Bread",
+    "CHAUHAN, WHITT BREAD",
+    [
+     "evelyn"
+    ],
+    [
+     "whitt"
+    ],
+    "7 Rocky Road, Stockton, MN"
+   ]
+  ]
+ }
+}

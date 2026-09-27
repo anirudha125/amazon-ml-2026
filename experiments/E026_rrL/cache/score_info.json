@@ -1,0 +1,16 @@
+{
+ "rrL": {
+  "n_pairs": 739950,
+  "secs": 230.4,
+  "pairs_per_s": 3211,
+  "gpu_util_mean": 95.37719298245614,
+  "gpu_mem_used_max_mb": 37849.0
+ },
+ "rrUb_fill": {
+  "n_pairs": 25920,
+  "secs": 10.6,
+  "pairs_per_s": 2442,
+  "gpu_util_mean": 19.5
+ },
+ "secs": 268.9
+}

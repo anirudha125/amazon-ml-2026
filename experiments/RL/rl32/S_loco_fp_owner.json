@@ -1,0 +1,124 @@
+{
+ "S006@India": {
+  "nS1": 7961,
+  "macro": 99.012,
+  "fp_per_s1": 0.0094,
+  "fn_per_s1": 0.0858,
+  "fp_owned_elsewhere_share": 0.707,
+  "fp_unowned_per_s1": 0.0028,
+  "fp_band_share": {
+   "ge99": 0.053,
+   "90_99": 0.4,
+   "lt90": 0.547
+  },
+  "fp_ge99_per_s1": 0.0005
+ },
+ "S006@US": {
+  "nS1": 12039,
+  "macro": 98.904,
+  "fp_per_s1": 0.0079,
+  "fn_per_s1": 0.1045,
+  "fp_owned_elsewhere_share": 0.547,
+  "fp_unowned_per_s1": 0.0036,
+  "fp_band_share": {
+   "ge99": 0.116,
+   "90_99": 0.295,
+   "lt90": 0.589
+  },
+  "fp_ge99_per_s1": 0.0009
+ },
+ "LOCO_US@India": {
+  "nS1": 7961,
+  "macro": 92.376,
+  "fp_per_s1": 0.1517,
+  "fn_per_s1": 0.335,
+  "fp_owned_elsewhere_share": 0.14,
+  "fp_unowned_per_s1": 0.1305,
+  "fp_band_share": {
+   "ge99": 0.2,
+   "90_99": 0.431,
+   "lt90": 0.368
+  },
+  "fp_ge99_per_s1": 0.0304
+ },
+ "LOCO_IN@US": {
+  "nS1": 12039,
+  "macro": 93.252,
+  "fp_per_s1": 0.199,
+  "fn_per_s1": 0.1596,
+  "fp_owned_elsewhere_share": 0.073,
+  "fp_unowned_per_s1": 0.1844,
+  "fp_band_share": {
+   "ge99": 0.146,
+   "90_99": 0.393,
+   "lt90": 0.461
+  },
+  "fp_ge99_per_s1": 0.0292
+ },
+ "NORR_US@India": {
+  "nS1": 7961,
+  "macro": 95.755,
+  "fp_per_s1": 0.0902,
+  "fn_per_s1": 0.1971,
+  "fp_owned_elsewhere_share": 0.117,
+  "fp_unowned_per_s1": 0.0796,
+  "fp_band_share": {
+   "ge99": 0.06,
+   "90_99": 0.429,
+   "lt90": 0.511
+  },
+  "fp_ge99_per_s1": 0.0054
+ },
+ "NORR_IN@US": {
+  "nS1": 12039,
+  "macro": 97.322,
+  "fp_per_s1": 0.0385,
+  "fn_per_s1": 0.1694,
+  "fp_owned_elsewhere_share": 0.145,
+  "fp_unowned_per_s1": 0.0329,
+  "fp_band_share": {
+   "ge99": 0.086,
+   "90_99": 0.374,
+   "lt90": 0.54
+  },
+  "fp_ge99_per_s1": 0.0033
+ },
+ "BL25_US@India": {
+  "nS1": 7961,
+  "macro": 96.205,
+  "fp_per_s1": 0.0589,
+  "fn_per_s1": 0.2237,
+  "fp_owned_elsewhere_share": 0.145,
+  "fp_unowned_per_s1": 0.0504,
+  "fp_band_share": {
+   "ge99": 0.047,
+   "90_99": 0.33,
+   "lt90": 0.623
+  },
+  "fp_ge99_per_s1": 0.0028
+ },
+ "BL25_IN@US": {
+  "nS1": 12039,
+  "macro": 97.32,
+  "fp_per_s1": 0.0401,
+  "fn_per_s1": 0.1664,
+  "fp_owned_elsewhere_share": 0.135,
+  "fp_unowned_per_s1": 0.0347,
+  "fp_band_share": {
+   "ge99": 0.064,
+   "90_99": 0.306,
+   "lt90": 0.629
+  },
+  "fp_ge99_per_s1": 0.0026
+ },
+ "LOCO_US_fp_rejected": {
+  "by_NORR": 0.764,
+  "by_BL25": 0.742,
+  "tp_lost_by_BL25": 0.0134
+ },
+ "LOCO_IN_fp_rejected": {
+  "by_NORR": 0.859,
+  "by_BL25": 0.826,
+  "tp_lost_by_BL25": 0.0112
+ }
+}

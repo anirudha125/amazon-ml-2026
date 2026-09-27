@@ -1,0 +1,882 @@
+{
+ "France": [
+  {
+   "s1_name": "Maison Coeur SARL",
+   "s1_addr": "44 Rue Permentade, Bordeaux, Nouvelle-Aquitaine",
+   "rec_name": "Maison Cmuer SARL",
+   "rec_addr": "BORDEAUX, Nouvelle-Aquitaine, 44 RUE PERMENTADE",
+   "p": 0.9999,
+   "sib_names": [
+    "Maison Rassemblement SARL"
+   ],
+   "sib_claims": true,
+   "sib_p": 0.9995,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 2.0,
+   "self_rv_gap": -0.0624,
+   "sib_rv_rank": [
+    9.0
+   ],
+   "jr": 0.5,
+   "js": 0.5,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Bordeaux Club SARL",
+   "s1_addr": "114 RUE LUCIEN FAURE, Bordeaux, Nouvelle-Aquitaine",
+   "rec_name": "Bordeaux Club",
+   "rec_addr": "114 Rue Lucien Faure, Bordeaux, Nouvelle-Aquitaine",
+   "p": 0.9999,
+   "sib_names": [
+    "Bordeaux Club EURL"
+   ],
+   "sib_claims": true,
+   "sib_p": 0.9998,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 1.0,
+   "self_rv_gap": -0.0,
+   "sib_rv_rank": [
+    2.0
+   ],
+   "jr": 0.667,
+   "js": 0.667,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Bordeaux Transport SARL",
+   "s1_addr": "1 Rue N\u00e9rigean, Bordeaux, Nouvelle-Aquitaine",
+   "rec_name": "Bordeaux  SARL Services",
+   "rec_addr": "Bordeaux, 1 Rue Nerigean, Nouvelle-Aquitaine",
+   "p": 0.9994,
+   "sib_names": [
+    "Bordeaux Amicale SARL"
+   ],
+   "sib_claims": true,
+   "sib_p": 0.9989,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 11.0,
+   "self_rv_gap": -0.4556,
+   "sib_rv_rank": [
+    11.0
+   ],
+   "jr": 0.5,
+   "js": 0.5,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Comit\u00e9 du Fete",
+   "s1_addr": "15 Rue Marcel Carn\u00e9, Saint-Nazaire, Pays de la Loire",
+   "rec_name": "Comit\u00e9 du Fe",
+   "rec_addr": "15 Rue Marcel Carn\u00e9, St.-nazaire, Loire-Atlantique",
+   "p": 0.9997,
+   "sib_names": [
+    "Comit\u00e9 du Gymnastique"
+   ],
+   "sib_claims": false,
+   "sib_p": null,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 1.0,
+   "self_rv_gap": 0.1087,
+   "sib_rv_rank": [
+    2.0
+   ],
+   "jr": 0.5,
+   "js": 0.5,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Nantes Centre SAS",
+   "s1_addr": "25 Rue Diane, Nantes, Pays de la Loire",
+   "rec_name": "Nantes SAS Et Fils",
+   "rec_addr": "NO 25 RUE DIANE, NANTES, Pays de la Loire",
+   "p": 0.9593,
+   "sib_names": [
+    "Nantes Club SAS"
+   ],
+   "sib_claims": false,
+   "sib_p": null,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 2.0,
+   "self_rv_gap": -0.0161,
+   "sib_rv_rank": [
+    1.0
+   ],
+   "jr": 0.4,
+   "js": 0.4,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Ets Sica SARL",
+   "s1_addr": "82 Cours le Rouzic, Bordeaux, Nouvelle-Aquitaine",
+   "rec_name": "ETS SIAA  SARL",
+   "rec_addr": "COURS LE ROUZIC, BORDEAUX, Gironde",
+   "p": 0.9969,
+   "sib_names": [
+    "Ets Eduquer SARL"
+   ],
+   "sib_claims": false,
+   "sib_p": null,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 1.0,
+   "self_rv_gap": 0.1096,
+   "sib_rv_rank": [
+    11.0
+   ],
+   "jr": 0.5,
+   "js": 0.5,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Pessac Comite SAS",
+   "s1_addr": "6 All\u00e9e du Languedoc, Pessac, Nouvelle-Aquitaine",
+   "rec_name": "Pessac Cie SAS",
+   "rec_addr": "Gironde, PESSAC, 6 ALL\u00c9E DU LANUGEDOC",
+   "p": 0.9882,
+   "sib_names": [
+    "Pessac Federation SAS"
+   ],
+   "sib_claims": false,
+   "sib_p": null,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 3.0,
+   "self_rv_gap": -0.0422,
+   "sib_rv_rank": [
+    11.0
+   ],
+   "jr": 0.5,
+   "js": 0.5,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Calais Coll\u00e8ge SA",
+   "s1_addr": "56 Rue Pierre Brossolette, Calais, Hauts-de-France",
+   "rec_name": "Calais-Coll\u00e8ge",
+   "rec_addr": "056 R. PIERRE BROSSOLETTE, CALAIS, Hauts-de-France",
+   "p": 0.9998,
+   "sib_names": [
+    "Calais College SARL"
+   ],
+   "sib_claims": true,
+   "sib_p": 0.9991,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 1.0,
+   "self_rv_gap": 0.0775,
+   "sib_rv_rank": [
+    3.0
+   ],
+   "jr": 0.667,
+   "js": 0.667,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Nantes Sportive SAS",
+   "s1_addr": "Nantes, 29 Boulevard de Longchamp, Pays de la Loire",
+   "rec_name": "Nantes Sportive S.A.S.",
+   "rec_addr": "29 BD. DE LONGCHAMP, NANTES",
+   "p": 0.9995,
+   "sib_names": [
+    "Nantes Sportive SARL"
+   ],
+   "sib_claims": false,
+   "sib_p": null,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 9.0,
+   "self_rv_gap": -0.1067,
+   "sib_rv_rank": [
+    2.0
+   ],
+   "jr": 0.4,
+   "js": 0.4,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Nantes Sportive SAS",
+   "s1_addr": "Nantes, 29 Boulevard de Longchamp, Pays de la Loire",
+   "rec_name": "Nantes Sportive",
+   "rec_addr": "Nantes, 29 Bd De Longchamp, Pays de la Loire",
+   "p": 0.9999,
+   "sib_names": [
+    "Nantes Sportive SARL"
+   ],
+   "sib_claims": false,
+   "sib_p": null,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 1.0,
+   "self_rv_gap": 0.277,
+   "sib_rv_rank": [
+    4.0
+   ],
+   "jr": 0.667,
+   "js": 0.667,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Nantes Sportive SAS",
+   "s1_addr": "Nantes, 29 Boulevard de Longchamp, Pays de la Loire",
+   "rec_name": "Nantes Sportive S.A.S.",
+   "rec_addr": "29 Boulevard De Longchamp, Nantes, Pays de la Loire",
+   "p": 0.9999,
+   "sib_names": [
+    "Nantes Sportive SARL"
+   ],
+   "sib_claims": true,
+   "sib_p": 0.9707,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 5.0,
+   "self_rv_gap": -0.0932,
+   "sib_rv_rank": [
+    1.0
+   ],
+   "jr": 0.4,
+   "js": 0.4,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Roubaix Centre",
+   "s1_addr": "19 RUE Cuvier, Roubaix, Hauts-de-France",
+   "rec_name": "Roubaix Cie",
+   "rec_addr": "19 RUE CUVIER, ROUBAIX, Hauts-de-France",
+   "p": 0.9992,
+   "sib_names": [
+    "Roubaix Compagnie"
+   ],
+   "sib_claims": true,
+   "sib_p": 0.9961,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 2.0,
+   "self_rv_gap": -0.0601,
+   "sib_rv_rank": [
+    1.0
+   ],
+   "jr": 0.333,
+   "js": 0.333,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Roubaix Centre",
+   "s1_addr": "19 RUE Cuvier, Roubaix, Hauts-de-France",
+   "rec_name": "Roubaix Cie",
+   "rec_addr": "19 R Cuvier, Roubaix, Nord",
+   "p": 0.9759,
+   "sib_names": [
+    "Roubaix Compagnie"
+   ],
+   "sib_claims": true,
+   "sib_p": 0.8087,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 2.0,
+   "self_rv_gap": -0.0663,
+   "sib_rv_rank": [
+    1.0
+   ],
+   "jr": 0.333,
+   "js": 0.333,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Saint-Nazaire College EI",
+   "s1_addr": "16 RUE Rene Reaumur, Zone de Brais, Saint-Nazaire, Pays de la Loire",
+   "rec_name": "SAINT-NAZAIRE COMITE EI",
+   "rec_addr": "16 R. RENE REAUMUR, ZONE DE BRAIS, ST-NAZAIRE, Pays de la Loire",
+   "p": 0.9941,
+   "sib_names": [
+    "Saint-Nazaire Restaurant EI"
+   ],
+   "sib_claims": true,
+   "sib_p": 0.9195,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 1.0,
+   "self_rv_gap": 0.0381,
+   "sib_rv_rank": [
+    3.0
+   ],
+   "jr": 0.6,
+   "js": 0.6,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Saint-Nazaire College EI",
+   "s1_addr": "16 RUE Rene Reaumur, Zone de Brais, Saint-Nazaire, Pays de la Loire",
+   "rec_name": "Saint-Nazaire Ecole EI",
+   "rec_addr": "16 R. Rene Reaumur, Zone De Brais, Saint-nazaire, Loire-Atlantique",
+   "p": 0.9915,
+   "sib_names": [
+    "Saint-Nazaire Restaurant EI"
+   ],
+   "sib_claims": false,
+   "sib_p": null,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 2.0,
+   "self_rv_gap": -0.0138,
+   "sib_rv_rank": [
+    3.0
+   ],
+   "jr": 0.6,
+   "js": 0.6,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Lille Sante SARL",
+   "s1_addr": "12 RUE Lyderic, Lille, Hauts-de-France",
+   "rec_name": "S.A.R.L. LILLE SANTE",
+   "rec_addr": "Lille, RUE LYDERIC",
+   "p": 0.9989,
+   "sib_names": [
+    "Lille Energie SARL",
+    "Lille Primaire SARL",
+    "Lille Culturelle SARL",
+    "Lille Centre SARL",
+    "Lille Loisirs SARL",
+    "Lille Sante SCI"
+   ],
+   "sib_claims": false,
+   "sib_p": null,
+   "sibling_is_candidate": false,
+   "self_rv_rank": 9.0,
+   "self_rv_gap": -0.0637,
+   "sib_rv_rank": [],
+   "jr": 0.286,
+   "js": 0.286,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Lille Club SARL",
+   "s1_addr": "30 RUE Des meuniers, Lille, Hauts-de-France",
+   "rec_name": "Lille Club S.A.R.L.",
+   "rec_addr": "30 RUE DES MEUNIERS, LILLE",
+   "p": 0.9993,
+   "sib_names": [
+    "Lille Centre SARL",
+    "Lille Societe SARL",
+    "Lille Elementaire SARL",
+    "Lille Sport SARL",
+    "Lille Club SARL Enterprises",
+    "Deleves Club SARL",
+    "Osmose Club SARL",
+    "Lille Anciens SARL",
+    "Lille Club SAS"
+   ],
+   "sib_claims": true,
+   "sib_p": 0.9993,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 1.0,
+   "self_rv_gap": 0.0077,
+   "sib_rv_rank": [
+    3.0,
+    2.0,
+    11.0,
+    11.0,
+    6.0,
+    5.0,
+    11.0
+   ],
+   "jr": 0.286,
+   "js": 0.286,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Lille Club SARL",
+   "s1_addr": "30 RUE Des meuniers, Lille, Hauts-de-France",
+   "rec_name": "Lille Club",
+   "rec_addr": "LILLE, (30) RUE DES MEUNIERS",
+   "p": 0.9577,
+   "sib_names": [
+    "Lille Centre SARL",
+    "Lille Societe SARL",
+    "Lille Elementaire SARL",
+    "Lille Sport SARL",
+    "Lille Club SARL Enterprises",
+    "Deleves Club SARL",
+    "Osmose Club SARL",
+    "Lille Anciens SARL",
+    "Lille Club SAS"
+   ],
+   "sib_claims": true,
+   "sib_p": 0.9492,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 11.0,
+   "self_rv_gap": -0.2267,
+   "sib_rv_rank": [
+    11.0,
+    8.0,
+    11.0,
+    11.0,
+    11.0
+   ],
+   "jr": 0.667,
+   "js": 0.667,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Lille Ecole SAS",
+   "s1_addr": "23 RUE Delphin Petit, Lille, Hauts-de-France",
+   "rec_name": "Lille Ecole S.A.R.L.",
+   "rec_addr": "N\u00ba 23 Rue Delphin Petit, Lille",
+   "p": 0.9997,
+   "sib_names": [
+    "Lille Sportive SAS",
+    "Lille Jeunes SAS",
+    "Lille Ecole SARL"
+   ],
+   "sib_claims": true,
+   "sib_p": 0.9991,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 1.0,
+   "self_rv_gap": 0.0077,
+   "sib_rv_rank": [
+    5.0,
+    3.0,
+    2.0
+   ],
+   "jr": 0.286,
+   "js": 0.286,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Lille Ecole SAS",
+   "s1_addr": "23 RUE Delphin Petit, Lille, Hauts-de-France",
+   "rec_name": "Lille Ecole",
+   "rec_addr": "No 23 Rue Delphin Petit, Lille, Hauts-de-France",
+   "p": 0.9999,
+   "sib_names": [
+    "Lille Sportive SAS",
+    "Lille Jeunes SAS",
+    "Lille Ecole SARL"
+   ],
+   "sib_claims": true,
+   "sib_p": 0.9998,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 1.0,
+   "self_rv_gap": 0.0077,
+   "sib_rv_rank": [
+    3.0,
+    2.0
+   ],
+   "jr": 0.667,
+   "js": 0.667,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Communale Sportive SARL",
+   "s1_addr": "4 Rue Vasco de Gama, Nantes, Pays de la Loire",
+   "rec_name": "Communale Sprovei SARL",
+   "rec_addr": "4 RUE VASCO DE GAMA, NANTES, Pays de la Loire",
+   "p": 0.9999,
+   "sib_names": [
+    "Communale Groupement SARL"
+   ],
+   "sib_claims": true,
+   "sib_p": 0.9987,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 1.0,
+   "self_rv_gap": 0.0426,
+   "sib_rv_rank": [
+    2.0
+   ],
+   "jr": 0.5,
+   "js": 0.5,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Dunkerque Societe SARL",
+   "s1_addr": "206 Rue de l\u2019Ancienne RN 40, Dunkerque, Hauts-de-France",
+   "rec_name": "Dunkerque Sportive SARL",
+   "rec_addr": "206 RUE DE L\u2019ANCIENNE RN 40, DUNKERQUE, Hauts-de-France",
+   "p": 0.8598,
+   "sib_names": [
+    "Dunkerque Ecole SARL"
+   ],
+   "sib_claims": false,
+   "sib_p": null,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 2.0,
+   "self_rv_gap": -0.014,
+   "sib_rv_rank": [
+    1.0
+   ],
+   "jr": 0.5,
+   "js": 0.5,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Tourcoing Sport SARL",
+   "s1_addr": "Hauts-de-France, Tourcoing, 9 Rue du Marechal Ney",
+   "rec_name": "Tourcoing Sit SARL",
+   "rec_addr": "9 Rue Du Marechal Ney, Tourcoing",
+   "p": 0.9977,
+   "sib_names": [
+    "Tourcoing Ecole SARL"
+   ],
+   "sib_claims": true,
+   "sib_p": 0.9901,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 11.0,
+   "self_rv_gap": -0.253,
+   "sib_rv_rank": [
+    1.0
+   ],
+   "jr": 0.5,
+   "js": 0.5,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Dunkerque Jeunes SARL Enterprises",
+   "s1_addr": "21 Place de la Gare, Dunkerque, Hauts-de-France",
+   "rec_name": "DUNKERQUE JEUNES",
+   "rec_addr": "21 PL DE LA GARE, DUNKERQUE",
+   "p": 0.9977,
+   "sib_names": [
+    "Dunkerque Jeunes SARL"
+   ],
+   "sib_claims": true,
+   "sib_p": 0.9967,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 1.0,
+   "self_rv_gap": 0.0586,
+   "sib_rv_rank": [
+    2.0
+   ],
+   "jr": 0.5,
+   "js": 0.667,
+   "f2_gt": true
+  },
+  {
+   "s1_name": "Nantes Maternelle SARL",
+   "s1_addr": "20 Bis Rue Alexandre Gosselin, Nantes, Pays de la Loire",
+   "rec_name": "Nantes-Materdelle SARL",
+   "rec_addr": "Nantes, 20 Bis Rue Alrxandre Gosselin",
+   "p": 0.9995,
+   "sib_names": [
+    "Nantes Ecole SARL"
+   ],
+   "sib_claims": false,
+   "sib_p": null,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 3.0,
+   "self_rv_gap": -0.093,
+   "sib_rv_rank": [
+    1.0
+   ],
+   "jr": 0.5,
+   "js": 0.5,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "F\u00e9d\u00e9ration du Demain",
+   "s1_addr": "27 RUE Jean Bart, Lille, Hauts-de-France",
+   "rec_name": "F\u00e9d\u00e9ration Dorganisation de",
+   "rec_addr": "27 Rue Jean Bart, Lille",
+   "p": 0.994,
+   "sib_names": [
+    "F\u00e9d\u00e9ration du Raconte"
+   ],
+   "sib_claims": true,
+   "sib_p": 0.9124,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 6.0,
+   "self_rv_gap": -0.1452,
+   "sib_rv_rank": [
+    2.0
+   ],
+   "jr": 0.2,
+   "js": 0.2,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Saint-Herblain Amicale SAS",
+   "s1_addr": "33 Avenue du Docteur Laennec, Pays de la Loire, Saint-Herblain",
+   "rec_name": "Saint-Herblain Amicale S.A.S.",
+   "rec_addr": "Pays de la Loire, ST-HERBLAIN, # 33 AV. DU DOCTEUR LAENNEC",
+   "p": 0.9996,
+   "sib_names": [
+    "Saint-Herblain Etablissement SAS",
+    "Saint-Herblain Amicale SARL"
+   ],
+   "sib_claims": false,
+   "sib_p": null,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 1.0,
+   "self_rv_gap": 0.0067,
+   "sib_rv_rank": [
+    7.0,
+    2.0
+   ],
+   "jr": 0.5,
+   "js": 0.5,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Nantes Sportive SARL",
+   "s1_addr": "4 Rue de la Perverie, Nantes, Pays de la Loire",
+   "rec_name": "Nantes Spitrive SARL",
+   "rec_addr": "4 RUE DE LA PERVERIE, NANTES",
+   "p": 0.9993,
+   "sib_names": [
+    "Nantes Collectif SARL"
+   ],
+   "sib_claims": false,
+   "sib_p": null,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 1.0,
+   "self_rv_gap": 0.0811,
+   "sib_rv_rank": [
+    11.0
+   ],
+   "jr": 0.5,
+   "js": 0.5,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Nantes Club SARL",
+   "s1_addr": "Pays de la Loire, Nantes, 29 Boulevard de Longchamp",
+   "rec_name": "Nantes Clsob SARL",
+   "rec_addr": "29 BD. DE LONGCHMP, NANTES",
+   "p": 0.9988,
+   "sib_names": [
+    "Nantes Sportive SARL"
+   ],
+   "sib_claims": false,
+   "sib_p": null,
+   "sibling_is_candidate": false,
+   "self_rv_rank": 11.0,
+   "self_rv_gap": -0.2546,
+   "sib_rv_rank": [],
+   "jr": 0.5,
+   "js": 0.5,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "M\u00e9rignac Centre SAS",
+   "s1_addr": "2 Place Emile Augier, M\u00e9rignac, Nouvelle-Aquitaine",
+   "rec_name": "M\u00e9rignac Comite [SAS]",
+   "rec_addr": "2 PLACE EMILE AUGIER, M\u00c9RIGNAC, Nouvelle-Aquitaine",
+   "p": 0.9977,
+   "sib_names": [
+    "M\u00e9rignac Maison SAS",
+    "M\u00e9rignac Musique SAS"
+   ],
+   "sib_claims": true,
+   "sib_p": 0.9739,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 1.0,
+   "self_rv_gap": 0.0524,
+   "sib_rv_rank": [
+    5.0,
+    2.0
+   ],
+   "jr": 0.5,
+   "js": 0.5,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Saint-Herblain Etablissement SAS",
+   "s1_addr": "33 Avenue du Docteur Laennec, Saint-Herblain, Pays de la Loire",
+   "rec_name": "Saint-Herblain Etabissement SAS",
+   "rec_addr": "33 Av. Du Docteur Laennec, Saint-herblain, Loire-Atlantique",
+   "p": 0.9998,
+   "sib_names": [
+    "Saint-Herblain Amicale SAS"
+   ],
+   "sib_claims": false,
+   "sib_p": null,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 1.0,
+   "self_rv_gap": 0.2022,
+   "sib_rv_rank": [
+    6.0
+   ],
+   "jr": 0.6,
+   "js": 0.6,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Tourcoing Club SARL",
+   "s1_addr": "55 RUE Blaise Pascal, Tourcoing, Hauts-de-France",
+   "rec_name": "Tourcoing Centre SARL",
+   "rec_addr": "No 55 Rue Blaise Pascal, Tourcoing, Nord",
+   "p": 0.989,
+   "sib_names": [
+    "Tourcoing Coll\u00e8ge SARL"
+   ],
+   "sib_claims": true,
+   "sib_p": 0.8916,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 1.0,
+   "self_rv_gap": 0.022,
+   "sib_rv_rank": [
+    2.0
+   ],
+   "jr": 0.5,
+   "js": 0.5,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Lille Groupement SARL",
+   "s1_addr": "1 Rue Pascal, Lille, Hauts-de-France",
+   "rec_name": "[SARL] Lille Goaucpemfrrt",
+   "rec_addr": "No 1 Rue Pascal, Lille",
+   "p": 0.995,
+   "sib_names": [
+    "Lille Amicale SARL"
+   ],
+   "sib_claims": false,
+   "sib_p": null,
+   "sibling_is_candidate": false,
+   "self_rv_rank": 1.0,
+   "self_rv_gap": 0.0518,
+   "sib_rv_rank": [],
+   "jr": 0.5,
+   "js": 0.5,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Dunkerque College SARL",
+   "s1_addr": "101 bis Rue des Fusiliers Marins, Dunkerque, Hauts-de-France",
+   "rec_name": "Dunkerque Collletbge SARL",
+   "rec_addr": "101BIS RUE DES FUSILIERS MARINS, DUNKERQUE, Hauts-de-France",
+   "p": 0.9999,
+   "sib_names": [
+    "Dunkerque Fetes SARL"
+   ],
+   "sib_claims": false,
+   "sib_p": null,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 1.0,
+   "self_rv_gap": 0.0274,
+   "sib_rv_rank": [
+    2.0
+   ],
+   "jr": 0.5,
+   "js": 0.5,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Dunkerque College SARL",
+   "s1_addr": "101 bis Rue des Fusiliers Marins, Dunkerque, Hauts-de-France",
+   "rec_name": "Dunkerque C0llege SARL",
+   "rec_addr": "101 Bis Rue Des Fusiliers Marins, Dunkerque, Hauts-de-France",
+   "p": 0.9999,
+   "sib_names": [
+    "Dunkerque Fetes SARL"
+   ],
+   "sib_claims": true,
+   "sib_p": 0.9733,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 1.0,
+   "self_rv_gap": 0.1186,
+   "sib_rv_rank": [
+    2.0
+   ],
+   "jr": 0.5,
+   "js": 0.5,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Bordeaux Maison EURL",
+   "s1_addr": "118 RUE Bourbon, Bordeaux, Nouvelle-Aquitaine",
+   "rec_name": "Bordeaux Mairsn-EURL",
+   "rec_addr": "118 R Blurbon, Bordeaux",
+   "p": 0.9915,
+   "sib_names": [
+    "Bordeaux Ecole EURL"
+   ],
+   "sib_claims": false,
+   "sib_p": null,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 1.0,
+   "self_rv_gap": 0.2652,
+   "sib_rv_rank": [
+    2.0
+   ],
+   "jr": 0.5,
+   "js": 0.5,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Lille Parents SARL",
+   "s1_addr": "108 QUAI Gery Legrand, Lille, Hauts-de-France",
+   "rec_name": "LILLE SARL  & FILS",
+   "rec_addr": "LILLE, 108 QUAI GERY LEGRAND",
+   "p": 0.9949,
+   "sib_names": [
+    "Lille Societe SARL"
+   ],
+   "sib_claims": false,
+   "sib_p": null,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 1.0,
+   "self_rv_gap": 0.0074,
+   "sib_rv_rank": [
+    2.0
+   ],
+   "jr": 0.5,
+   "js": 0.5,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Nantes Pharmacie SAS",
+   "s1_addr": "2 Avenue Sarah Bernhardt, Nantes, Pays de la Loire",
+   "rec_name": "Nantes Pharmacie S.A.S",
+   "rec_addr": "NANTES, NO 2 AVE SARAH BERNHARDT, Loire-Atlantique",
+   "p": 0.9998,
+   "sib_names": [
+    "Nantes Pharmacie SARL"
+   ],
+   "sib_claims": false,
+   "sib_p": null,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 1.0,
+   "self_rv_gap": 0.0144,
+   "sib_rv_rank": [
+    2.0
+   ],
+   "jr": 0.4,
+   "js": 0.4,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Lille Amicale SAS",
+   "s1_addr": "3 RUE de la Digue, Lille, Hauts-de-France, IESEG",
+   "rec_name": "Lille Amicale S.A.R.L.",
+   "rec_addr": "3 RUE DE LA DIMUE, IESEG, LILLE, Nord",
+   "p": 0.9932,
+   "sib_names": [
+    "Lille Section SAS",
+    "Lille Amicale SARL"
+   ],
+   "sib_claims": true,
+   "sib_p": 0.9932,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 11.0,
+   "self_rv_gap": -0.4157,
+   "sib_rv_rank": [
+    4.0,
+    8.0
+   ],
+   "jr": 0.286,
+   "js": 0.286,
+   "f2_gt": false
+  },
+  {
+   "s1_name": "Maison Planete SARL",
+   "s1_addr": "12 RUE lyderic, Lille, Hauts-de-France",
+   "rec_name": "Maison Planre SARL",
+   "rec_addr": "LILLE, 12 R. LYDERIC, Nord",
+   "p": 0.9956,
+   "sib_names": [
+    "Maison Producteurs SARL"
+   ],
+   "sib_claims": false,
+   "sib_p": null,
+   "sibling_is_candidate": true,
+   "self_rv_rank": 1.0,
+   "self_rv_gap": 0.1306,
+   "sib_rv_rank": [
+    11.0
+   ],
+   "jr": 0.5,
+   "js": 0.5,
+   "f2_gt": false
+  }
+ ]
+}

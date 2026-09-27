@@ -1,0 +1,41 @@
+{
+ "S2": {
+  "cap": 5,
+  "n_content_swaps": 6935,
+  "n_groups_at_cap": 2235,
+  "n_over_cap": 81,
+  "n_over_cap_with_cs": 38,
+  "expected_over_cap_with_decoy_cs_if_f1_independent": 59.7,
+  "implied_f_max_independent": 0.64,
+  "expected_if_f1_per_record": 187.7,
+  "implied_f_max_per_record": 0.2
+ },
+ "S3": {
+  "cap": 6,
+  "n_content_swaps": 7191,
+  "n_groups_at_cap": 325,
+  "n_over_cap": 8,
+  "n_over_cap_with_cs": 7,
+  "expected_over_cap_with_decoy_cs_if_f1_independent": 9.0,
+  "implied_f_max_independent": 0.78,
+  "expected_if_f1_per_record": 31.8,
+  "implied_f_max_per_record": 0.22
+ },
+ "breakeven_f": 0.316,
+ "EV_France_pts": {
+  "0.1": -0.446,
+  "0.2": -0.24,
+  "0.316": 0.0,
+  "0.45": 0.277,
+  "0.63": 0.649,
+  "0.89": 1.186
+ },
+ "EV_overall_LB_pts": {
+  "0.1": -0.067,
+  "0.2": -0.036,
+  "0.316": 0.0,
+  "0.45": 0.041,
+  "0.63": 0.097,
+  "0.89": 0.178
+ }
+}

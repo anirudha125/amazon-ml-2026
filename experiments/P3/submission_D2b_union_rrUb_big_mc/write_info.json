@@ -1,0 +1,24 @@
+{
+ "model": "D2b_union_rrUb_big",
+ "maxclaim": true,
+ "stats": {
+  "US": {
+   "n_s1": 663106,
+   "pred_pairs": 2226093,
+   "maxclaim_removed": 2234,
+   "cands_per_s1": 123.8
+  },
+  "India": {
+   "n_s1": 809986,
+   "pred_pairs": 2724546,
+   "maxclaim_removed": 7822,
+   "cands_per_s1": 129.1
+  },
+  "France": {
+   "n_s1": 259452,
+   "pred_pairs": 858979,
+   "maxclaim_removed": 43343,
+   "cands_per_s1": 127.9
+  }
+ }
+}

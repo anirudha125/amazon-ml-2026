@@ -1,0 +1,711 @@
+{
+ "US": {
+  "1": {
+   "n_S1": 398018,
+   "contested_claims_perS1": 0.0007,
+   "losers_perS1": 0.0004,
+   "loser_margin_q": [
+    0.0092,
+    0.0332,
+    0.0927,
+    0.1647,
+    0.2032
+   ],
+   "winner_addr_class": {
+    "E": 0.441,
+    "A=num&street": 0.221,
+    "A~nonum": 0.125,
+    "D:num_diff": 0.125,
+    "D:street_diff": 0.088
+   },
+   "loser_addr_class": {
+    "E": 0.364,
+    "A=num&street": 0.221,
+    "D:num_diff": 0.188,
+    "D:street_diff": 0.156,
+    "A~nonum": 0.071
+   },
+   "loser_name_class": {
+    "disjoint": 0.377,
+    "swap1": 0.26,
+    "rec_adds": 0.156,
+    "rec_drops": 0.084,
+    "rec_drops2+": 0.058
+   },
+   "band_pairs_perS1": 0.0611,
+   "band_mass_perS1": 0.0255,
+   "band_claimed_elsewhere_share": 0.0795,
+   "band_unclaimed_mass_perS1": 0.0236,
+   "band_unclaimed_class": {
+    "D:num_diff|same_core": 0.259,
+    "E|swap1": 0.118,
+    "E|same_core": 0.09,
+    "A=num&street|disjoint": 0.088,
+    "E|rec_drops": 0.064,
+    "D:street_diff|same_core": 0.059
+   },
+   "band_claimed_class": {
+    "E|rec_drops": 0.243,
+    "E|swap1": 0.226,
+    "A=num&street|disjoint": 0.14,
+    "D:num_diff|disjoint": 0.085
+   },
+   "accepted_mc_addr_class": {
+    "A=num&street": 0.645,
+    "D:street_diff": 0.159,
+    "D:num_diff": 0.086,
+    "A~nonum": 0.067,
+    "E": 0.044
+   },
+   "accepted_mc_p_lt_.95_perS1": 0.0463
+  },
+  "2-5": {
+   "n_S1": 137704,
+   "contested_claims_perS1": 0.0038,
+   "losers_perS1": 0.0019,
+   "loser_margin_q": [
+    0.0105,
+    0.0533,
+    0.1107,
+    0.1618,
+    0.2021
+   ],
+   "winner_addr_class": {
+    "E": 0.837,
+    "A=num&street": 0.068,
+    "D:street_diff": 0.038,
+    "D:num_diff": 0.03,
+    "A~nonum": 0.027
+   },
+   "loser_addr_class": {
+    "E": 0.846,
+    "D:street_diff": 0.056,
+    "A=num&street": 0.045,
+    "D:num_diff": 0.037,
+    "A~nonum": 0.015
+   },
+   "loser_name_class": {
+    "same_core": 0.588,
+    "swap1": 0.161,
+    "rec_adds": 0.075,
+    "disjoint": 0.067,
+    "rec_drops2+": 0.045
+   },
+   "band_pairs_perS1": 0.2497,
+   "band_mass_perS1": 0.0988,
+   "band_claimed_elsewhere_share": 0.1049,
+   "band_unclaimed_mass_perS1": 0.0878,
+   "band_unclaimed_class": {
+    "E|same_core": 0.583,
+    "E|swap1": 0.139,
+    "D:num_diff|same_core": 0.054,
+    "E|rec_adds": 0.046,
+    "E|rec_drops": 0.029,
+    "A=num&street|disjoint": 0.024
+   },
+   "band_claimed_class": {
+    "E|same_core": 0.635,
+    "E|swap1": 0.131,
+    "E|rec_adds": 0.058,
+    "E|rec_drops2+": 0.038
+   },
+   "accepted_mc_addr_class": {
+    "A=num&street": 0.662,
+    "D:street_diff": 0.168,
+    "D:num_diff": 0.085,
+    "A~nonum": 0.068,
+    "E": 0.016
+   },
+   "accepted_mc_p_lt_.95_perS1": 0.0644
+  },
+  "6-30": {
+   "n_S1": 58038,
+   "contested_claims_perS1": 0.0016,
+   "losers_perS1": 0.0009,
+   "loser_margin_q": [
+    0.0003,
+    0.0027,
+    0.0193,
+    0.1052,
+    0.214
+   ],
+   "winner_addr_class": {
+    "A=num&street": 0.683,
+    "A~nonum": 0.146,
+    "D:num_diff": 0.098,
+    "D:street_diff": 0.049,
+    "E": 0.024
+   },
+   "loser_addr_class": {
+    "D:num_diff": 0.434,
+    "D:street_diff": 0.208,
+    "A=num&street": 0.189,
+    "A~nonum": 0.17
+   },
+   "loser_name_class": {
+    "same_core": 0.358,
+    "swap1": 0.264,
+    "disjoint": 0.245,
+    "rec_drops": 0.057,
+    "rec_drops2+": 0.038
+   },
+   "band_pairs_perS1": 0.1201,
+   "band_mass_perS1": 0.0421,
+   "band_claimed_elsewhere_share": 0.0304,
+   "band_unclaimed_mass_perS1": 0.0409,
+   "band_unclaimed_class": {
+    "E|same_core": 0.401,
+    "D:num_diff|same_core": 0.142,
+    "E|swap1": 0.134,
+    "E|rec_adds": 0.049,
+    "A=num&street|disjoint": 0.045,
+    "A=num&street|swap1": 0.044
+   },
+   "band_claimed_class": {
+    "E|same_core": 0.245,
+    "E|rec_adds": 0.123,
+    "E|swap1": 0.104,
+    "D:num_diff|disjoint": 0.085
+   },
+   "accepted_mc_addr_class": {
+    "A=num&street": 0.679,
+    "D:street_diff": 0.166,
+    "D:num_diff": 0.084,
+    "A~nonum": 0.068,
+    "E": 0.002
+   },
+   "accepted_mc_p_lt_.95_perS1": 0.0354
+  },
+  "31+": {
+   "n_S1": 69346,
+   "contested_claims_perS1": 0.0022,
+   "losers_perS1": 0.0009,
+   "loser_margin_q": [
+    0.0004,
+    0.0087,
+    0.0466,
+    0.1102,
+    0.1846
+   ],
+   "winner_addr_class": {
+    "A=num&street": 0.495,
+    "D:street_diff": 0.194,
+    "A~nonum": 0.183,
+    "D:num_diff": 0.129
+   },
+   "loser_addr_class": {
+    "D:num_diff": 0.333,
+    "D:street_diff": 0.333,
+    "A=num&street": 0.238,
+    "A~nonum": 0.095
+   },
+   "loser_name_class": {
+    "same_core": 0.286,
+    "disjoint": 0.254,
+    "swap1": 0.159,
+    "rec_drops": 0.143,
+    "rec_adds": 0.048
+   },
+   "band_pairs_perS1": 0.0556,
+   "band_mass_perS1": 0.0224,
+   "band_claimed_elsewhere_share": 0.0412,
+   "band_unclaimed_mass_perS1": 0.0214,
+   "band_unclaimed_class": {
+    "D:num_diff|same_core": 0.327,
+    "E|same_core": 0.164,
+    "A=num&street|disjoint": 0.085,
+    "D:street_diff|same_core": 0.072,
+    "D:street_diff|disjoint": 0.039,
+    "A=num&street|swap1": 0.035
+   },
+   "band_claimed_class": {
+    "A=num&street|disjoint": 0.201,
+    "D:num_diff|disjoint": 0.126,
+    "D:street_diff|disjoint": 0.113,
+    "D:street_diff|same_core": 0.107
+   },
+   "accepted_mc_addr_class": {
+    "A=num&street": 0.665,
+    "D:street_diff": 0.17,
+    "D:num_diff": 0.093,
+    "A~nonum": 0.071,
+    "E": 0.0
+   },
+   "accepted_mc_p_lt_.95_perS1": 0.0307
+  }
+ },
+ "India": {
+  "1": {
+   "n_S1": 377268,
+   "contested_claims_perS1": 0.0032,
+   "losers_perS1": 0.0017,
+   "loser_margin_q": [
+    0.0057,
+    0.0254,
+    0.0816,
+    0.1478,
+    0.2141
+   ],
+   "winner_addr_class": {
+    "A=num&street": 0.347,
+    "E": 0.284,
+    "D:street_diff": 0.249,
+    "D:num_diff": 0.075,
+    "A~nonum": 0.046
+   },
+   "loser_addr_class": {
+    "D:street_diff": 0.326,
+    "A=num&street": 0.291,
+    "E": 0.274,
+    "D:num_diff": 0.062,
+    "A~nonum": 0.046
+   },
+   "loser_name_class": {
+    "swap1": 0.44,
+    "disjoint": 0.37,
+    "rec_drops": 0.048,
+    "other": 0.045,
+    "rec_adds": 0.034
+   },
+   "band_pairs_perS1": 0.0609,
+   "band_mass_perS1": 0.0257,
+   "band_claimed_elsewhere_share": 0.1667,
+   "band_unclaimed_mass_perS1": 0.0215,
+   "band_unclaimed_class": {
+    "E|swap1": 0.196,
+    "D:street_diff|disjoint": 0.117,
+    "A=num&street|disjoint": 0.115,
+    "E|same_core": 0.071,
+    "D:num_diff|swap1": 0.056,
+    "D:num_diff|same_core": 0.052
+   },
+   "band_claimed_class": {
+    "E|swap1": 0.236,
+    "A=num&street|disjoint": 0.219,
+    "D:street_diff|disjoint": 0.178,
+    "E|rec_drops": 0.097
+   },
+   "accepted_mc_addr_class": {
+    "A=num&street": 0.542,
+    "D:street_diff": 0.167,
+    "D:num_diff": 0.162,
+    "A~nonum": 0.087,
+    "E": 0.042
+   },
+   "accepted_mc_p_lt_.95_perS1": 0.053
+  },
+  "2-5": {
+   "n_S1": 143957,
+   "contested_claims_perS1": 0.0119,
+   "losers_perS1": 0.0061,
+   "loser_margin_q": [
+    0.0086,
+    0.0322,
+    0.0803,
+    0.1408,
+    0.1913
+   ],
+   "winner_addr_class": {
+    "E": 0.695,
+    "D:street_diff": 0.186,
+    "A=num&street": 0.083,
+    "D:num_diff": 0.024,
+    "A~nonum": 0.012
+   },
+   "loser_addr_class": {
+    "E": 0.691,
+    "D:street_diff": 0.211,
+    "A=num&street": 0.065,
+    "D:num_diff": 0.029,
+    "A~nonum": 0.005
+   },
+   "loser_name_class": {
+    "same_core": 0.53,
+    "swap1": 0.162,
+    "rec_adds": 0.146,
+    "disjoint": 0.086,
+    "rec_adds2+": 0.031
+   },
+   "band_pairs_perS1": 0.2495,
+   "band_mass_perS1": 0.1047,
+   "band_claimed_elsewhere_share": 0.1349,
+   "band_unclaimed_mass_perS1": 0.09,
+   "band_unclaimed_class": {
+    "E|same_core": 0.571,
+    "E|swap1": 0.115,
+    "E|rec_adds": 0.111,
+    "A=num&street|disjoint": 0.029,
+    "D:street_diff|disjoint": 0.028,
+    "E|rec_adds2+": 0.028
+   },
+   "band_claimed_class": {
+    "E|same_core": 0.475,
+    "E|rec_adds": 0.119,
+    "E|swap1": 0.118,
+    "A=num&street|disjoint": 0.066
+   },
+   "accepted_mc_addr_class": {
+    "A=num&street": 0.569,
+    "D:num_diff": 0.169,
+    "D:street_diff": 0.168,
+    "A~nonum": 0.077,
+    "E": 0.018
+   },
+   "accepted_mc_p_lt_.95_perS1": 0.081
+  },
+  "6-30": {
+   "n_S1": 34477,
+   "contested_claims_perS1": 0.0103,
+   "losers_perS1": 0.0053,
+   "loser_margin_q": [
+    0.0037,
+    0.0203,
+    0.069,
+    0.1296,
+    0.1923
+   ],
+   "winner_addr_class": {
+    "D:street_diff": 0.509,
+    "A=num&street": 0.243,
+    "E": 0.179,
+    "D:num_diff": 0.046,
+    "A~nonum": 0.023
+   },
+   "loser_addr_class": {
+    "D:street_diff": 0.626,
+    "E": 0.181,
+    "A=num&street": 0.104,
+    "D:num_diff": 0.077,
+    "A~nonum": 0.011
+   },
+   "loser_name_class": {
+    "same_core": 0.379,
+    "swap1": 0.258,
+    "disjoint": 0.159,
+    "rec_adds": 0.121,
+    "rec_drops": 0.027
+   },
+   "band_pairs_perS1": 0.2844,
+   "band_mass_perS1": 0.0975,
+   "band_claimed_elsewhere_share": 0.1133,
+   "band_unclaimed_mass_perS1": 0.0856,
+   "band_unclaimed_class": {
+    "E|same_core": 0.601,
+    "E|rec_adds": 0.124,
+    "E|swap1": 0.09,
+    "E|rec_adds2+": 0.029,
+    "A=num&street|disjoint": 0.026,
+    "D:street_diff|disjoint": 0.025
+   },
+   "band_claimed_class": {
+    "E|same_core": 0.373,
+    "D:street_diff|same_core": 0.109,
+    "E|rec_adds": 0.095,
+    "D:street_diff|swap1": 0.074
+   },
+   "accepted_mc_addr_class": {
+    "A=num&street": 0.583,
+    "D:num_diff": 0.179,
+    "D:street_diff": 0.167,
+    "A~nonum": 0.064,
+    "E": 0.006
+   },
+   "accepted_mc_p_lt_.95_perS1": 0.0505
+  },
+  "31+": {
+   "n_S1": 254284,
+   "contested_claims_perS1": 0.009,
+   "losers_perS1": 0.0045,
+   "loser_margin_q": [
+    0.0047,
+    0.0208,
+    0.0706,
+    0.1596,
+    0.2228
+   ],
+   "winner_addr_class": {
+    "D:street_diff": 0.781,
+    "A=num&street": 0.161,
+    "D:num_diff": 0.039,
+    "A~nonum": 0.019
+   },
+   "loser_addr_class": {
+    "D:street_diff": 0.823,
+    "A=num&street": 0.112,
+    "D:num_diff": 0.048,
+    "A~nonum": 0.017
+   },
+   "loser_name_class": {
+    "rec_drops2+": 0.477,
+    "same_core": 0.157,
+    "disjoint": 0.153,
+    "swap1": 0.115,
+    "rec_adds": 0.04
+   },
+   "band_pairs_perS1": 0.0434,
+   "band_mass_perS1": 0.0171,
+   "band_claimed_elsewhere_share": 0.2266,
+   "band_unclaimed_mass_perS1": 0.0132,
+   "band_unclaimed_class": {
+    "A=num&street|disjoint": 0.155,
+    "E|same_core": 0.15,
+    "D:street_diff|rec_drops2+": 0.142,
+    "D:street_diff|disjoint": 0.092,
+    "D:street_diff|same_core": 0.077,
+    "E|swap1": 0.049
+   },
+   "band_claimed_class": {
+    "D:street_diff|rec_drops2+": 0.299,
+    "A=num&street|disjoint": 0.184,
+    "D:street_diff|disjoint": 0.12,
+    "D:street_diff|same_core": 0.12
+   },
+   "accepted_mc_addr_class": {
+    "A=num&street": 0.535,
+    "D:street_diff": 0.218,
+    "D:num_diff": 0.163,
+    "A~nonum": 0.084,
+    "E": 0.0
+   },
+   "accepted_mc_p_lt_.95_perS1": 0.0264
+  }
+ },
+ "France": {
+  "1": {
+   "n_S1": 133008,
+   "contested_claims_perS1": 0.0253,
+   "losers_perS1": 0.0154,
+   "loser_margin_q": [
+    0.007,
+    0.0268,
+    0.0842,
+    0.1689,
+    0.2317
+   ],
+   "winner_addr_class": {
+    "A=num&street": 0.679,
+    "A~nonum": 0.189,
+    "E": 0.062,
+    "D:street_diff": 0.056,
+    "D:num_diff": 0.014
+   },
+   "loser_addr_class": {
+    "A=num&street": 0.33,
+    "A~nonum": 0.257,
+    "D:num_diff": 0.223,
+    "D:street_diff": 0.154,
+    "E": 0.036
+   },
+   "loser_name_class": {
+    "swap1": 0.346,
+    "disjoint": 0.303,
+    "rec_drops": 0.15,
+    "other": 0.101,
+    "rec_drops2+": 0.077
+   },
+   "band_pairs_perS1": 0.2166,
+   "band_mass_perS1": 0.093,
+   "band_claimed_elsewhere_share": 0.1929,
+   "band_unclaimed_mass_perS1": 0.0763,
+   "band_unclaimed_class": {
+    "A=num&street|swap1": 0.233,
+    "A=num&street|disjoint": 0.123,
+    "D:num_diff|same_core": 0.094,
+    "A=num&street|acronym": 0.08,
+    "D:num_diff|swap1": 0.071,
+    "A~nonum|disjoint": 0.069
+   },
+   "band_claimed_class": {
+    "D:num_diff|disjoint": 0.169,
+    "A=num&street|disjoint": 0.152,
+    "E|swap1": 0.115,
+    "A~nonum|swap1": 0.068
+   },
+   "accepted_mc_addr_class": {
+    "A=num&street": 0.775,
+    "D:street_diff": 0.118,
+    "A~nonum": 0.051,
+    "E": 0.04,
+    "D:num_diff": 0.016
+   },
+   "accepted_mc_p_lt_.95_perS1": 0.1565
+  },
+  "2-5": {
+   "n_S1": 58033,
+   "contested_claims_perS1": 0.0529,
+   "losers_perS1": 0.0302,
+   "loser_margin_q": [
+    0.0044,
+    0.0211,
+    0.0725,
+    0.1595,
+    0.2272
+   ],
+   "winner_addr_class": {
+    "A=num&street": 0.593,
+    "A~nonum": 0.173,
+    "E": 0.154,
+    "D:street_diff": 0.062,
+    "D:num_diff": 0.017
+   },
+   "loser_addr_class": {
+    "A=num&street": 0.266,
+    "D:num_diff": 0.225,
+    "A~nonum": 0.203,
+    "D:street_diff": 0.181,
+    "E": 0.125
+   },
+   "loser_name_class": {
+    "swap1": 0.318,
+    "disjoint": 0.192,
+    "same_core": 0.187,
+    "rec_drops": 0.157,
+    "other": 0.075
+   },
+   "band_pairs_perS1": 0.3814,
+   "band_mass_perS1": 0.1574,
+   "band_claimed_elsewhere_share": 0.2206,
+   "band_unclaimed_mass_perS1": 0.123,
+   "band_unclaimed_class": {
+    "E|same_core": 0.41,
+    "A=num&street|swap1": 0.134,
+    "A=num&street|disjoint": 0.069,
+    "D:num_diff|same_core": 0.054,
+    "A=num&street|acronym": 0.039,
+    "E|swap1": 0.032
+   },
+   "band_claimed_class": {
+    "E|same_core": 0.302,
+    "E|swap1": 0.076,
+    "D:num_diff|disjoint": 0.069,
+    "A=num&street|disjoint": 0.061
+   },
+   "accepted_mc_addr_class": {
+    "A=num&street": 0.798,
+    "D:street_diff": 0.117,
+    "A~nonum": 0.051,
+    "E": 0.021,
+    "D:num_diff": 0.014
+   },
+   "accepted_mc_p_lt_.95_perS1": 0.1632
+  },
+  "6-30": {
+   "n_S1": 40353,
+   "contested_claims_perS1": 0.1514,
+   "losers_perS1": 0.0845,
+   "loser_margin_q": [
+    0.0018,
+    0.0096,
+    0.0439,
+    0.1302,
+    0.2113
+   ],
+   "winner_addr_class": {
+    "A=num&street": 0.719,
+    "A~nonum": 0.175,
+    "D:street_diff": 0.073,
+    "E": 0.019,
+    "D:num_diff": 0.013
+   },
+   "loser_addr_class": {
+    "D:num_diff": 0.27,
+    "D:street_diff": 0.246,
+    "A~nonum": 0.237,
+    "A=num&street": 0.228,
+    "E": 0.018
+   },
+   "loser_name_class": {
+    "same_core": 0.385,
+    "swap1": 0.277,
+    "rec_drops": 0.132,
+    "disjoint": 0.111,
+    "other": 0.041
+   },
+   "band_pairs_perS1": 0.4944,
+   "band_mass_perS1": 0.1844,
+   "band_claimed_elsewhere_share": 0.2381,
+   "band_unclaimed_mass_perS1": 0.1369,
+   "band_unclaimed_class": {
+    "E|same_core": 0.525,
+    "A=num&street|swap1": 0.094,
+    "A=num&street|disjoint": 0.057,
+    "D:num_diff|same_core": 0.036,
+    "E|rec_adds2+": 0.03,
+    "A=num&street|acronym": 0.03
+   },
+   "band_claimed_class": {
+    "E|same_core": 0.142,
+    "D:street_diff|same_core": 0.131,
+    "D:num_diff|same_core": 0.077,
+    "D:num_diff|swap1": 0.066
+   },
+   "accepted_mc_addr_class": {
+    "A=num&street": 0.807,
+    "D:street_diff": 0.121,
+    "A~nonum": 0.051,
+    "D:num_diff": 0.015,
+    "E": 0.006
+   },
+   "accepted_mc_p_lt_.95_perS1": 0.1337
+  },
+  "31+": {
+   "n_S1": 28058,
+   "contested_claims_perS1": 0.7066,
+   "losers_perS1": 0.4058,
+   "loser_margin_q": [
+    0.001,
+    0.0064,
+    0.0323,
+    0.1007,
+    0.1898
+   ],
+   "winner_addr_class": {
+    "A=num&street": 0.758,
+    "A~nonum": 0.112,
+    "D:street_diff": 0.099,
+    "D:num_diff": 0.029,
+    "E": 0.002
+   },
+   "loser_addr_class": {
+    "D:num_diff": 0.338,
+    "A=num&street": 0.252,
+    "D:street_diff": 0.23,
+    "A~nonum": 0.178,
+    "E": 0.002
+   },
+   "loser_name_class": {
+    "same_core": 0.79,
+    "swap1": 0.094,
+    "disjoint": 0.066,
+    "rec_adds2+": 0.029,
+    "rec_drops": 0.01
+   },
+   "band_pairs_perS1": 0.8272,
+   "band_mass_perS1": 0.3263,
+   "band_claimed_elsewhere_share": 0.3978,
+   "band_unclaimed_mass_perS1": 0.1895,
+   "band_unclaimed_class": {
+    "E|same_core": 0.539,
+    "A=num&street|swap1": 0.087,
+    "D:num_diff|same_core": 0.058,
+    "D:street_diff|same_core": 0.054,
+    "A=num&street|disjoint": 0.045,
+    "A=num&street|same_core": 0.033
+   },
+   "band_claimed_class": {
+    "D:street_diff|same_core": 0.278,
+    "D:num_diff|same_core": 0.204,
+    "A~nonum|same_core": 0.142,
+    "A=num&street|same_core": 0.091
+   },
+   "accepted_mc_addr_class": {
+    "A=num&street": 0.792,
+    "D:street_diff": 0.134,
+    "A~nonum": 0.047,
+    "D:num_diff": 0.026,
+    "E": 0.001
+   },
+   "accepted_mc_p_lt_.95_perS1": 0.1324
+  }
+ }
+}

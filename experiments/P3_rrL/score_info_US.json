@@ -1,0 +1,19 @@
+{
+ "country": "US",
+ "n_top10": 6631060,
+ "rrL": {
+  "n_pairs": 6631060,
+  "secs": 1738.8,
+  "pairs_per_s": 3814,
+  "gpu_util_mean": 98.69965075669383,
+  "gpu_mem_used_max_mb": 39219.0
+ },
+ "rrUb_missing": 330737,
+ "rrUb_fill": {
+  "n_pairs": 330737,
+  "secs": 36.6,
+  "pairs_per_s": 9041,
+  "gpu_util_mean": 77.57894736842105
+ },
+ "secs": 1827.1
+}

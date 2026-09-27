@@ -1,0 +1,47 @@
+{
+ "rv11": {
+  "kept_in_cell": 10567,
+  "KEY2_in_cell": 1262,
+  "KEY2_share_in_cell": 0.1194,
+  "DIFF_in_cell": 3086,
+  "DIFF_share_in_cell": 0.292,
+  "street_match_share_in_cell": 0.684
+ },
+ "rv11&af_a0": {
+  "kept_in_cell": 7252,
+  "KEY2_in_cell": 1258,
+  "KEY2_share_in_cell": 0.1735,
+  "DIFF_in_cell": 3081,
+  "DIFF_share_in_cell": 0.4248,
+  "street_match_share_in_cell": 0.5403
+ },
+ "rv11&af_a0&dupf>=1": {
+  "kept_in_cell": 5309,
+  "KEY2_in_cell": 1155,
+  "KEY2_share_in_cell": 0.2176,
+  "DIFF_in_cell": 2752,
+  "DIFF_share_in_cell": 0.5184,
+  "street_match_share_in_cell": 0.4436
+ },
+ "rv_gap<-0.3&af_a0": {
+  "kept_in_cell": 4967,
+  "KEY2_in_cell": 1238,
+  "KEY2_share_in_cell": 0.2492,
+  "DIFF_in_cell": 3035,
+  "DIFF_share_in_cell": 0.611,
+  "street_match_share_in_cell": 0.3419
+ },
+ "ESTIMATED_model_calibrated_EV_drop_kept_KEY2": {
+  "n_s1": 1411,
+  "n_pairs": 1463,
+  "expected_FP_pairs": 76.2,
+  "france_macro_delta": -0.000664,
+  "france_ci95": [
+   -0.0007,
+   -0.000622
+  ],
+  "LB_delta": -9.95e-05
+ },
+ "ESTIMATED_break_even_FP_share_kept_KEY2": 0.3264,
+ "model_implied_FP_share_kept_KEY2": 0.0521
+}

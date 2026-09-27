@@ -1,0 +1,77 @@
+{
+ "US|genuine": {
+  "n": 32,
+  "pos": 1,
+  "p_match": 0.031,
+  "TP": 1,
+  "FP": 1,
+  "FN": 0,
+  "rr_median": -6.66,
+  "frac_rr_le_m3": 0.844
+ },
+ "US|short_or_related": {
+  "n": 21,
+  "pos": 15,
+  "p_match": 0.714,
+  "TP": 15,
+  "FP": 0,
+  "FN": 0,
+  "rr_median": 7.47,
+  "frac_rr_le_m3": 0.19
+ },
+ "India|genuine": {
+  "n": 30,
+  "pos": 3,
+  "p_match": 0.1,
+  "TP": 1,
+  "FP": 0,
+  "FN": 2,
+  "rr_median": -9.16,
+  "frac_rr_le_m3": 0.733
+ },
+ "India|short_or_related": {
+  "n": 13,
+  "pos": 8,
+  "p_match": 0.615,
+  "TP": 8,
+  "FP": 0,
+  "FN": 0,
+  "rr_median": 3.98,
+  "frac_rr_le_m3": 0.308
+ },
+ "all|genuine": {
+  "n": 62,
+  "pos": 4,
+  "p_match": 0.065,
+  "TP": 2,
+  "FP": 1,
+  "FN": 2,
+  "rr_median": -7.47,
+  "frac_rr_le_m3": 0.79
+ },
+ "all|short_or_related": {
+  "n": 34,
+  "pos": 23,
+  "p_match": 0.676,
+  "TP": 23,
+  "FP": 0,
+  "FN": 0,
+  "rr_median": 5.91,
+  "frac_rr_le_m3": 0.235
+ },
+ "France_FLAG": {
+  "n": 14126,
+  "genuine_share": 0.9582,
+  "rr_median_genuine": 3.53,
+  "frac_rr_le_m3_genuine": 0.0004,
+  "p_median_genuine": 0.9744,
+  "accepted_genuine": 13536
+ },
+ "France_auc_NEWp_FLAG_vs_NOISE": 0.582,
+ "France_p_median": {
+  "FLAG": 0.9759,
+  "NOISE": 0.9844,
+  "CLEAN": 0.9999
+ },
+ "V1_auc_NEWp_FLAG_vs_NOISE": 0.934
+}

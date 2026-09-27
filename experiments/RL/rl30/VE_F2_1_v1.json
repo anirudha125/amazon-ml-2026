@@ -1,0 +1,563 @@
+{
+ "Q1": {
+  "v1_accepted": 67353,
+  "v1_acc_FP": 167,
+  "FP_record_has_owner": 93,
+  "FP_owner_in_V1": 2,
+  "FP_owner_not_in_V1": 91
+ },
+ "F2_ge_pairs_p_ge_0.01": [
+  {
+   "s1_name": "Orthopedic Partners Inc",
+   "rec_name": "ORTHOPEDIC \u00cdNC CENTER",
+   "rec_addr": "3333 85TH STREET, CHICAGO, IL",
+   "p42": 0.9996,
+   "p43": 0.9996,
+   "p44": 0.9995,
+   "accepted": true,
+   "y": false,
+   "strict_gt": false,
+   "owner": "S1-11479437",
+   "owner_name": "Orthopedic Associates, Inc",
+   "owner_in_V1": false,
+   "owner_rows": {},
+   "nf_n": 5122.0,
+   "nf_a": 1.0,
+   "af_n": 9.0,
+   "af_a": 1.0,
+   "coloc": 6.0,
+   "dupf": 44.0,
+   "rv_rank": 3.0,
+   "rv_sa": 0.9285,
+   "rv_so": 1.0,
+   "rv_gap": -0.0715
+  },
+  {
+   "s1_name": "Orthopedic Partners Inc",
+   "rec_name": "Orthopedic Parcners Inc",
+   "rec_addr": "3333 85TH STREET, CHICAGO, IL",
+   "p42": 0.9999,
+   "p43": 0.9999,
+   "p44": 0.9999,
+   "accepted": true,
+   "y": true,
+   "strict_gt": false,
+   "owner": "S1-235619489",
+   "owner_name": "Orthopedic Partners Inc",
+   "owner_in_V1": true,
+   "owner_rows": {},
+   "nf_n": 0.0,
+   "nf_a": 0.0,
+   "af_n": 9.0,
+   "af_a": 1.0,
+   "coloc": 6.0,
+   "dupf": 44.0,
+   "rv_rank": 1.0,
+   "rv_sa": 1.0,
+   "rv_so": 0.9749,
+   "rv_gap": 0.0251
+  },
+  {
+   "s1_name": "Orthopedic Partners Inc",
+   "rec_name": "Ariazeph+ Formerly Orthopedic Associates, Inc",
+   "rec_addr": "3333 85th Street, Chicago, IL",
+   "p42": 0.5874,
+   "p43": 0.3375,
+   "p44": 0.3543,
+   "accepted": false,
+   "y": false,
+   "strict_gt": true,
+   "owner": "S1-11479437",
+   "owner_name": "Orthopedic Associates, Inc",
+   "owner_in_V1": false,
+   "owner_rows": {},
+   "nf_n": 0.0,
+   "nf_a": 0.0,
+   "af_n": 9.0,
+   "af_a": 1.0,
+   "coloc": 6.0,
+   "dupf": 44.0,
+   "rv_rank": 4.0,
+   "rv_sa": 0.8348,
+   "rv_so": 1.0,
+   "rv_gap": -0.1652
+  },
+  {
+   "s1_name": "Orthopedic Partners Inc",
+   "rec_name": "Orthopedic  Associates, (Inc)",
+   "rec_addr": "##3333 85nd St, Chicago, Illinois",
+   "p42": 0.2546,
+   "p43": 0.2179,
+   "p44": 0.2201,
+   "accepted": false,
+   "y": false,
+   "strict_gt": true,
+   "owner": "S1-11479437",
+   "owner_name": "Orthopedic Associates, Inc",
+   "owner_in_V1": false,
+   "owner_rows": {},
+   "nf_n": 944.0,
+   "nf_a": 0.0,
+   "af_n": 0.0,
+   "af_a": 0.0,
+   "coloc": 6.0,
+   "dupf": 44.0,
+   "rv_rank": 4.0,
+   "rv_sa": 0.8824,
+   "rv_so": 1.0,
+   "rv_gap": -0.1176
+  },
+  {
+   "s1_name": "Pediatric Dental Premier Associates",
+   "rec_name": "Pediatric Dental \u00c1ssociates",
+   "rec_addr": "2816 HAZELWOOD AVE, ST JOSEPH, IN",
+   "p42": 0.9924,
+   "p43": 0.9946,
+   "p44": 0.9962,
+   "accepted": true,
+   "y": false,
+   "strict_gt": true,
+   "owner": "S1-174875453",
+   "owner_name": "Pediatric Dental Associates",
+   "owner_in_V1": false,
+   "owner_rows": {
+    "T2X": {
+     "owner_has_rec_as_candidate": true,
+     "owner_rv_rank": 1.0,
+     "owner_rv_gap": 0.01805076003074646,
+     "y": 1
+    }
+   },
+   "nf_n": 1006.0,
+   "nf_a": 1.0,
+   "af_n": 0.0,
+   "af_a": 0.0,
+   "coloc": 2.0,
+   "dupf": 0.0,
+   "rv_rank": 3.0,
+   "rv_sa": 0.9394,
+   "rv_so": 1.0,
+   "rv_gap": -0.0606
+  },
+  {
+   "s1_name": "Pediatric Dental Premier Associates",
+   "rec_name": "Pediatric Denta1 Associates Board",
+   "rec_addr": "2816 HAZELWOOD AVENUE, FORT WAYNE, IN",
+   "p42": 0.9997,
+   "p43": 0.9997,
+   "p44": 0.9998,
+   "accepted": true,
+   "y": false,
+   "strict_gt": true,
+   "owner": "S1-174875453",
+   "owner_name": "Pediatric Dental Associates",
+   "owner_in_V1": false,
+   "owner_rows": {
+    "T2X": {
+     "owner_has_rec_as_candidate": true,
+     "owner_rv_rank": 2.0,
+     "owner_rv_gap": -0.06454840302467346,
+     "y": 1
+    }
+   },
+   "nf_n": 0.0,
+   "nf_a": 0.0,
+   "af_n": 3.0,
+   "af_a": 1.0,
+   "coloc": 2.0,
+   "dupf": 0.0,
+   "rv_rank": 3.0,
+   "rv_sa": 0.8787,
+   "rv_so": 1.0,
+   "rv_gap": -0.1213
+  },
+  {
+   "s1_name": "Pediatric Dental Premier Associates",
+   "rec_name": "Pediatric Deeall Associates",
+   "rec_addr": "2816 Hazelwood Avenue, Fort Wayne, Indiana",
+   "p42": 0.9729,
+   "p43": 0.9763,
+   "p44": 0.9925,
+   "accepted": true,
+   "y": false,
+   "strict_gt": true,
+   "owner": "S1-174875453",
+   "owner_name": "Pediatric Dental Associates",
+   "owner_in_V1": false,
+   "owner_rows": {
+    "T2X": {
+     "owner_has_rec_as_candidate": true,
+     "owner_rv_rank": 1.0,
+     "owner_rv_gap": 0.012367595918476582,
+     "y": 1
+    }
+   },
+   "nf_n": 0.0,
+   "nf_a": 0.0,
+   "af_n": 0.0,
+   "af_a": 0.0,
+   "coloc": 2.0,
+   "dupf": 0.0,
+   "rv_rank": 3.0,
+   "rv_sa": 0.9394,
+   "rv_so": 1.0,
+   "rv_gap": -0.0606
+  },
+  {
+   "s1_name": "Pediatric Dental Premier Associates",
+   "rec_name": "The Pediatric Dental Ass0ciates",
+   "rec_addr": "2816 Hazelwood Avenue, Saint Joseph, Indiana",
+   "p42": 0.9891,
+   "p43": 0.9933,
+   "p44": 0.9959,
+   "accepted": true,
+   "y": false,
+   "strict_gt": true,
+   "owner": "S1-174875453",
+   "owner_name": "Pediatric Dental Associates",
+   "owner_in_V1": false,
+   "owner_rows": {
+    "T2X": {
+     "owner_has_rec_as_candidate": true,
+     "owner_rv_rank": 1.0,
+     "owner_rv_gap": 0.01805076003074646,
+     "y": 1
+    }
+   },
+   "nf_n": 0.0,
+   "nf_a": 0.0,
+   "af_n": 0.0,
+   "af_a": 0.0,
+   "coloc": 2.0,
+   "dupf": 0.0,
+   "rv_rank": 3.0,
+   "rv_sa": 0.9394,
+   "rv_so": 1.0,
+   "rv_gap": -0.0606
+  },
+  {
+   "s1_name": "Pediatric Dental Premier Associates",
+   "rec_name": "PEDIATRIC DENTAL ASSOCIATES",
+   "rec_addr": "HAZELWOOD AVE, FORT WAYNE, IN",
+   "p42": 0.0154,
+   "p43": 0.014,
+   "p44": 0.0139,
+   "accepted": false,
+   "y": false,
+   "strict_gt": true,
+   "owner": "S1-174875453",
+   "owner_name": "Pediatric Dental Associates",
+   "owner_in_V1": false,
+   "owner_rows": {
+    "T2X": {
+     "owner_has_rec_as_candidate": true,
+     "owner_rv_rank": 11.0,
+     "owner_rv_gap": -0.11747781932353973,
+     "y": 1
+    }
+   },
+   "nf_n": 1006.0,
+   "nf_a": 1.0,
+   "af_n": 3.0,
+   "af_a": 1.0,
+   "coloc": 2.0,
+   "dupf": 0.0,
+   "rv_rank": 11.0,
+   "rv_sa": 0.829,
+   "rv_so": 1.0,
+   "rv_gap": -0.171
+  },
+  {
+   "s1_name": "Vea LLC",
+   "rec_name": "LLC Bgstf",
+   "rec_addr": "525 BUNN RD, DYERSBURG, TN",
+   "p42": 0.1872,
+   "p43": 0.1488,
+   "p44": 0.1231,
+   "accepted": false,
+   "y": false,
+   "strict_gt": false,
+   "owner": "S1-851508513",
+   "owner_name": "Bisoft LLC",
+   "owner_in_V1": false,
+   "owner_rows": {},
+   "nf_n": 0.0,
+   "nf_a": 0.0,
+   "af_n": 7.0,
+   "af_a": 1.0,
+   "coloc": 6.0,
+   "dupf": 3.0,
+   "rv_rank": 1.0,
+   "rv_sa": 1.0,
+   "rv_so": 0.9004,
+   "rv_gap": 0.0996
+  },
+  {
+   "s1_name": "Kolkata Technologies Pvt Ltd",
+   "rec_name": "Kolkata Kolkata Ifraltsruoctmures Pvt. Ltd.",
+   "rec_addr": "13, B.B GANGULY STREET SUITE NO 504, KOLKATA, West Bengal",
+   "p42": 0.9956,
+   "p43": 0.9958,
+   "p44": 0.9949,
+   "accepted": true,
+   "y": false,
+   "strict_gt": false,
+   "owner": "S1-724093604",
+   "owner_name": "Kolkata Infrastructures Pvt. Ltd.",
+   "owner_in_V1": false,
+   "owner_rows": {},
+   "nf_n": 0.0,
+   "nf_a": 0.0,
+   "af_n": 13.0,
+   "af_a": 1.0,
+   "coloc": 1.0,
+   "dupf": 6.0,
+   "rv_rank": 1.0,
+   "rv_sa": 1.0,
+   "rv_so": 0.8914,
+   "rv_gap": 0.1086
+  },
+  {
+   "s1_name": "Kolkata Technologies Pvt Ltd",
+   "rec_name": "Ko1kata Pharma Pvt Ltd",
+   "rec_addr": "15, B.b Ganguly Street Suite No 504, Howrah, Kolkata, \u09aa\u09b6\u09cd\u099a\u09bf\u09ae\u09ac\u0999\u09cd\u0997",
+   "p42": 0.0272,
+   "p43": 0.009,
+   "p44": 0.0212,
+   "accepted": false,
+   "y": false,
+   "strict_gt": false,
+   "owner": null,
+   "owner_name": null,
+   "owner_in_V1": false,
+   "owner_rows": {},
+   "nf_n": 0.0,
+   "nf_a": 0.0,
+   "af_n": 0.0,
+   "af_a": 0.0,
+   "coloc": 1.0,
+   "dupf": 6.0,
+   "rv_rank": 1.0,
+   "rv_sa": 1.0,
+   "rv_so": 0.9848,
+   "rv_gap": 0.0152
+  },
+  {
+   "s1_name": "Global Energy Private Limited",
+   "rec_name": "Krishna \u0917\u094d\u0932\u094b\u092c\u0932 Private Limited",
+   "rec_addr": "2524, BURUD GALLI, AHMEDNAGAR, \u092e\u0939\u093e\u0930\u093e\u0937\u094d\u091f\u094d\u0930",
+   "p42": 0.024,
+   "p43": 0.0156,
+   "p44": 0.0182,
+   "accepted": false,
+   "y": false,
+   "strict_gt": true,
+   "owner": "S1-69853804",
+   "owner_name": "Krishna Global Private Limited",
+   "owner_in_V1": false,
+   "owner_rows": {},
+   "nf_n": 4447.0,
+   "nf_a": 0.0,
+   "af_n": 6.0,
+   "af_a": 1.0,
+   "coloc": 5.0,
+   "dupf": 38.0,
+   "rv_rank": 3.0,
+   "rv_sa": 0.9441,
+   "rv_so": 1.0,
+   "rv_gap": -0.0559
+  }
+ ],
+ "accepted_split": {
+  "F2_ge": {
+   "acc": 7,
+   "TP": 1,
+   "FP": 6,
+   "FP_S1": 3
+  },
+  "F2_gt_strict": {
+   "acc": 4,
+   "TP": 0,
+   "FP": 4,
+   "FP_S1": 1
+  },
+  "F2_tie": {
+   "acc": 3,
+   "TP": 1,
+   "FP": 2,
+   "FP_S1": 2
+  }
+ },
+ "Q2": {
+  "rv_rank>1": {
+   "accepted": 4187,
+   "acc_FP": 74,
+   "acc_precision": 0.98233,
+   "covers_F2_FPs": 5,
+   "of_F2_FPs": 6,
+   "logit_incr": {
+    "n": 90086,
+    "n_flag": 24378,
+    "coef_flag": -0.1307,
+    "se": 0.066,
+    "z": -1.98,
+    "LR_chi2": 3.89,
+    "coef_logit_p": 0.9975
+   }
+  },
+  "rv_gap<0": {
+   "accepted": 4159,
+   "acc_FP": 74,
+   "acc_precision": 0.98221,
+   "covers_F2_FPs": 5,
+   "of_F2_FPs": 6,
+   "logit_incr": {
+    "n": 90086,
+    "n_flag": 23410,
+    "coef_flag": -0.1439,
+    "se": 0.062,
+    "z": -2.32,
+    "LR_chi2": 5.33,
+    "coef_logit_p": 0.9974
+   }
+  },
+  "coloc>=1": {
+   "accepted": 4429,
+   "acc_FP": 31,
+   "acc_precision": 0.993,
+   "covers_F2_FPs": 6,
+   "of_F2_FPs": 6,
+   "logit_incr": {
+    "n": 90086,
+    "n_flag": 6251,
+    "coef_flag": -0.0152,
+    "se": 0.0892,
+    "z": -0.17,
+    "LR_chi2": 0.03,
+    "coef_logit_p": 1.0083
+   }
+  },
+  "rv_rank>1&coloc>=1": {
+   "accepted": 740,
+   "acc_FP": 13,
+   "acc_precision": 0.98243,
+   "covers_F2_FPs": 5,
+   "of_F2_FPs": 6,
+   "logit_incr": {
+    "n": 90086,
+    "n_flag": 2299,
+    "coef_flag": 0.0642,
+    "se": 0.1015,
+    "z": 0.63,
+    "LR_chi2": 0.4,
+    "coef_logit_p": 1.0087
+   }
+  },
+  "F2_ge": {
+   "accepted": 7,
+   "acc_FP": 6,
+   "acc_precision": 0.14286,
+   "covers_F2_FPs": 6,
+   "of_F2_FPs": 6,
+   "logit_incr": {
+    "n": 90086,
+    "n_flag": 13,
+    "coef_flag": -9.5107,
+    "se": 1.2914,
+    "z": -7.36,
+    "LR_chi2": 70.91,
+    "coef_logit_p": 1.0146
+   }
+  },
+  "F2_gt": {
+   "accepted": 4,
+   "acc_FP": 4,
+   "acc_precision": 0.0,
+   "covers_F2_FPs": 4,
+   "of_F2_FPs": 6,
+   "logit_incr": {
+    "n": 90086,
+    "n_flag": 8,
+    "coef_flag": -30.0576,
+    "se": 9819.8689,
+    "z": -0.0,
+    "LR_chi2": 45.46,
+    "coef_logit_p": 1.0122
+   }
+  },
+  "F2_tie": {
+   "accepted": 3,
+   "acc_FP": 2,
+   "acc_precision": 0.33333,
+   "covers_F2_FPs": 2,
+   "of_F2_FPs": 6,
+   "logit_incr": {
+    "n": 90086,
+    "n_flag": 5,
+    "coef_flag": -8.9151,
+    "se": 1.5004,
+    "z": -5.94,
+    "LR_chi2": 25.97,
+    "coef_logit_p": 1.0106
+   }
+  }
+ },
+ "Q3": {
+  "rv_rank>1": {
+   "F2_coef_given_rule": -9.441,
+   "F2_z_given_rule": -7.25,
+   "LR_F2_given_rule": 70.01
+  },
+  "rv_rank>1&coloc>=1": {
+   "F2_coef_given_rule": -9.576,
+   "F2_z_given_rule": -7.48,
+   "LR_F2_given_rule": 71.85
+  },
+  "drop_one_S1": {
+   "S1-235619489": {
+    "name": "Orthopedic Partners Inc",
+    "n_flag_removed": 4,
+    "LR_without": 54.71,
+    "z_without": -0.03
+   },
+   "S1-306313550": {
+    "name": "Pediatric Dental Premier Associates",
+    "n_flag_removed": 5,
+    "LR_without": 28.61,
+    "z_without": -5.96
+   },
+   "S1-559054757": {
+    "name": "Vea LLC",
+    "n_flag_removed": 1,
+    "LR_without": 70.48,
+    "z_without": -7.36
+   },
+   "S1-117686396": {
+    "name": "Kolkata Technologies Pvt Ltd",
+    "n_flag_removed": 2,
+    "LR_without": 59.84,
+    "z_without": -7.26
+   },
+   "S1-397878612": {
+    "name": "Global Energy Private Limited",
+    "n_flag_removed": 1,
+    "LR_without": 70.85,
+    "z_without": -7.36
+   }
+  }
+ },
+ "seeds": {
+  "s42": {
+   "F2_acc": 7,
+   "F2_acc_FP": 6
+  },
+  "s43": {
+   "F2_acc": 7,
+   "F2_acc_FP": 6
+  },
+  "s44": {
+   "F2_acc": 7,
+   "F2_acc_FP": 6
+  }
+ }
+}

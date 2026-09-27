@@ -1,0 +1,668 @@
+{
+ "shape_f_p1": {
+  "V1_truth_y1": {
+   "content_swap&same_addr": {
+    "n": 26,
+    "mean": 2.154,
+    "p1": 0.3846,
+    "f_mean": -1.28,
+    "f_p1": -2.57,
+    "se": 1.31
+   },
+   "to_noise_suffix&same_addr": {
+    "n": 2074,
+    "mean": 2.486,
+    "p1": 0.1962,
+    "f_mean": 0.04,
+    "f_p1": 0.02,
+    "se": 0.12
+   },
+   "garble&same_addr": {
+    "n": 1107,
+    "mean": 2.397,
+    "p1": 0.2177,
+    "f_mean": -0.32,
+    "f_p1": -0.28,
+    "se": 0.17
+   },
+   "abbrev&same_addr": {
+    "n": 110,
+    "mean": 2.382,
+    "p1": 0.2182,
+    "f_mean": -0.38,
+    "f_p1": -0.28,
+    "se": 0.54
+   },
+   "N_TYPO&same_addr": {
+    "n": 3389,
+    "mean": 2.369,
+    "p1": 0.2246,
+    "f_mean": -0.43,
+    "f_p1": -0.37,
+    "se": 0.1
+   },
+   "N_DROP|exact": {
+    "n": 532,
+    "mean": 2.534,
+    "p1": 0.141,
+    "f_mean": 0.22,
+    "f_p1": 0.77,
+    "se": 0.21
+   },
+   "N_DROP|same_num_street": {
+    "n": 1641,
+    "mean": 2.427,
+    "p1": 0.2078,
+    "f_mean": -0.2,
+    "f_p1": -0.14,
+    "se": 0.14
+   },
+   "N_ADD|exact": {
+    "n": 632,
+    "mean": 2.601,
+    "p1": 0.1282,
+    "f_mean": 0.49,
+    "f_p1": 0.95,
+    "se": 0.18
+   },
+   "N_ADD|same_num_street": {
+    "n": 1264,
+    "mean": 2.438,
+    "p1": 0.212,
+    "f_mean": -0.16,
+    "f_p1": -0.2,
+    "se": 0.16
+   },
+   "N_DISJOINT|exact": {
+    "n": 273,
+    "mean": 2.747,
+    "p1": 0.1099,
+    "f_mean": 1.06,
+    "f_p1": 1.2,
+    "se": 0.26
+   },
+   "N_DISJOINT|same_num_street": {
+    "n": 559,
+    "mean": 2.506,
+    "p1": 0.1932,
+    "f_mean": 0.11,
+    "f_p1": 0.06,
+    "se": 0.23
+   },
+   "N_ACRONYM|exact": {
+    "n": 70,
+    "mean": 2.843,
+    "p1": 0.0571,
+    "f_mean": 1.44,
+    "f_p1": 1.92,
+    "se": 0.38
+   },
+   "N_ALIAS|exact": {
+    "n": 1082,
+    "mean": 2.699,
+    "p1": 0.0878,
+    "f_mean": 0.87,
+    "f_p1": 1.5,
+    "se": 0.12
+   },
+   "N_ALIAS|any": {
+    "n": 1107,
+    "mean": 2.693,
+    "p1": 0.0903,
+    "f_mean": 0.85,
+    "f_p1": 1.47,
+    "se": 0.12
+   },
+   "N_HANDLE|same_num_street": {
+    "n": 2324,
+    "mean": 2.452,
+    "p1": 0.2121,
+    "f_mean": -0.1,
+    "f_p1": -0.2,
+    "se": 0.12
+   },
+   "N_NONLATIN|any": {
+    "n": 3519,
+    "mean": 2.099,
+    "p1": 0.3367,
+    "f_mean": -1.49,
+    "f_p1": -1.91,
+    "se": 0.11
+   },
+   "N_SAME|num_shift": {
+    "n": 1896,
+    "mean": 2.252,
+    "p1": 0.2774,
+    "f_mean": -0.89,
+    "f_p1": -1.1,
+    "se": 0.14
+   },
+   "N_SAME|street_sub": {
+    "n": 359,
+    "mean": 2.309,
+    "p1": 0.2702,
+    "f_mean": -0.66,
+    "f_p1": -1.0,
+    "se": 0.32
+   },
+   "any|rec_addr_empty": null
+  },
+  "test_France": {
+   "content_swap&same_addr": {
+    "n": 13943,
+    "mean": 2.613,
+    "p1": 0.1519,
+    "f_mean": 0.85,
+    "f_p1": 0.9,
+    "se": 0.05
+   },
+   "to_noise_suffix&same_addr": {
+    "n": 19157,
+    "mean": 2.395,
+    "p1": 0.2211,
+    "f_mean": -0.09,
+    "f_p1": -0.13,
+    "se": 0.04
+   },
+   "garble&same_addr": {
+    "n": 10074,
+    "mean": 2.406,
+    "p1": 0.2092,
+    "f_mean": -0.04,
+    "f_p1": 0.05,
+    "se": 0.06
+   },
+   "abbrev&same_addr": {
+    "n": 2417,
+    "mean": 2.388,
+    "p1": 0.2242,
+    "f_mean": -0.12,
+    "f_p1": -0.18,
+    "se": 0.13
+   },
+   "N_TYPO&same_addr": {
+    "n": 23297,
+    "mean": 2.406,
+    "p1": 0.2158,
+    "f_mean": -0.04,
+    "f_p1": -0.05,
+    "se": 0.04
+   },
+   "N_DROP|exact": {
+    "n": 5505,
+    "mean": 2.595,
+    "p1": 0.1379,
+    "f_mean": 0.78,
+    "f_p1": 1.11,
+    "se": 0.07
+   },
+   "N_DROP|same_num_street": {
+    "n": 11053,
+    "mean": 2.42,
+    "p1": 0.2142,
+    "f_mean": 0.02,
+    "f_p1": -0.03,
+    "se": 0.06
+   },
+   "N_ADD|exact": {
+    "n": 5049,
+    "mean": 2.568,
+    "p1": 0.1468,
+    "f_mean": 0.66,
+    "f_p1": 0.98,
+    "se": 0.07
+   },
+   "N_ADD|same_num_street": {
+    "n": 7808,
+    "mean": 2.348,
+    "p1": 0.2304,
+    "f_mean": -0.29,
+    "f_p1": -0.27,
+    "se": 0.07
+   },
+   "N_DISJOINT|exact": {
+    "n": 6420,
+    "mean": 2.61,
+    "p1": 0.1318,
+    "f_mean": 0.84,
+    "f_p1": 1.2,
+    "se": 0.06
+   },
+   "N_DISJOINT|same_num_street": {
+    "n": 4871,
+    "mean": 2.382,
+    "p1": 0.2225,
+    "f_mean": -0.15,
+    "f_p1": -0.15,
+    "se": 0.09
+   },
+   "N_ACRONYM|exact": {
+    "n": 3051,
+    "mean": 2.507,
+    "p1": 0.1731,
+    "f_mean": 0.4,
+    "f_p1": 0.58,
+    "se": 0.1
+   },
+   "N_ALIAS|exact": {
+    "n": 10818,
+    "mean": 2.66,
+    "p1": 0.1121,
+    "f_mean": 1.06,
+    "f_p1": 1.49,
+    "se": 0.05
+   },
+   "N_ALIAS|any": {
+    "n": 10820,
+    "mean": 2.66,
+    "p1": 0.1122,
+    "f_mean": 1.06,
+    "f_p1": 1.49,
+    "se": 0.05
+   },
+   "N_HANDLE|same_num_street": {
+    "n": 45991,
+    "mean": 2.366,
+    "p1": 0.2276,
+    "f_mean": -0.22,
+    "f_p1": -0.23,
+    "se": 0.03
+   },
+   "N_NONLATIN|any": null,
+   "N_SAME|num_shift": {
+    "n": 11968,
+    "mean": 2.364,
+    "p1": 0.2198,
+    "f_mean": -0.22,
+    "f_p1": -0.11,
+    "se": 0.06
+   },
+   "N_SAME|street_sub": {
+    "n": 3537,
+    "mean": 2.408,
+    "p1": 0.2038,
+    "f_mean": -0.03,
+    "f_p1": 0.12,
+    "se": 0.1
+   },
+   "any|rec_addr_empty": null
+  },
+  "test_US": {
+   "content_swap&same_addr": {
+    "n": 88,
+    "mean": 2.648,
+    "p1": 0.1818,
+    "f_mean": 0.84,
+    "f_p1": 0.34,
+    "se": 0.59
+   },
+   "to_noise_suffix&same_addr": {
+    "n": 12361,
+    "mean": 2.423,
+    "p1": 0.2127,
+    "f_mean": -0.1,
+    "f_p1": -0.11,
+    "se": 0.05
+   },
+   "garble&same_addr": {
+    "n": 6669,
+    "mean": 2.407,
+    "p1": 0.2183,
+    "f_mean": -0.16,
+    "f_p1": -0.19,
+    "se": 0.07
+   },
+   "abbrev&same_addr": {
+    "n": 632,
+    "mean": 2.503,
+    "p1": 0.1661,
+    "f_mean": 0.24,
+    "f_p1": 0.56,
+    "se": 0.21
+   },
+   "N_TYPO&same_addr": {
+    "n": 20302,
+    "mean": 2.439,
+    "p1": 0.2117,
+    "f_mean": -0.03,
+    "f_p1": -0.09,
+    "se": 0.04
+   },
+   "N_DROP|exact": {
+    "n": 3095,
+    "mean": 2.536,
+    "p1": 0.1616,
+    "f_mean": 0.37,
+    "f_p1": 0.62,
+    "se": 0.09
+   },
+   "N_DROP|same_num_street": {
+    "n": 11589,
+    "mean": 2.432,
+    "p1": 0.2155,
+    "f_mean": -0.06,
+    "f_p1": -0.15,
+    "se": 0.05
+   },
+   "N_ADD|exact": {
+    "n": 3126,
+    "mean": 2.599,
+    "p1": 0.1232,
+    "f_mean": 0.64,
+    "f_p1": 1.17,
+    "se": 0.08
+   },
+   "N_ADD|same_num_street": {
+    "n": 6541,
+    "mean": 2.43,
+    "p1": 0.2043,
+    "f_mean": -0.07,
+    "f_p1": 0.01,
+    "se": 0.07
+   },
+   "N_DISJOINT|exact": {
+    "n": 760,
+    "mean": 2.529,
+    "p1": 0.1829,
+    "f_mean": 0.34,
+    "f_p1": 0.32,
+    "se": 0.2
+   },
+   "N_DISJOINT|same_num_street": {
+    "n": 2602,
+    "mean": 2.433,
+    "p1": 0.2137,
+    "f_mean": -0.05,
+    "f_p1": -0.12,
+    "se": 0.11
+   },
+   "N_ACRONYM|exact": {
+    "n": 149,
+    "mean": 2.765,
+    "p1": 0.0805,
+    "f_mean": 1.33,
+    "f_p1": 1.78,
+    "se": 0.32
+   },
+   "N_ALIAS|exact": {
+    "n": 5654,
+    "mean": 2.704,
+    "p1": 0.0966,
+    "f_mean": 1.08,
+    "f_p1": 1.55,
+    "se": 0.06
+   },
+   "N_ALIAS|any": {
+    "n": 5654,
+    "mean": 2.704,
+    "p1": 0.0966,
+    "f_mean": 1.08,
+    "f_p1": 1.55,
+    "se": 0.06
+   },
+   "N_HANDLE|same_num_street": {
+    "n": 14351,
+    "mean": 2.452,
+    "p1": 0.204,
+    "f_mean": 0.02,
+    "f_p1": 0.02,
+    "se": 0.05
+   },
+   "N_NONLATIN|any": null,
+   "N_SAME|num_shift": {
+    "n": 12595,
+    "mean": 2.366,
+    "p1": 0.2307,
+    "f_mean": -0.33,
+    "f_p1": -0.36,
+    "se": 0.05
+   },
+   "N_SAME|street_sub": {
+    "n": 2507,
+    "mean": 2.432,
+    "p1": 0.2122,
+    "f_mean": -0.06,
+    "f_p1": -0.1,
+    "se": 0.12
+   },
+   "any|rec_addr_empty": null
+  },
+  "test_India": {
+   "content_swap&same_addr": {
+    "n": 51,
+    "mean": 2.451,
+    "p1": 0.1961,
+    "f_mean": 0.03,
+    "f_p1": 0.14,
+    "se": 0.79
+   },
+   "to_noise_suffix&same_addr": {
+    "n": 6125,
+    "mean": 2.433,
+    "p1": 0.2038,
+    "f_mean": -0.04,
+    "f_p1": 0.03,
+    "se": 0.07
+   },
+   "garble&same_addr": {
+    "n": 2374,
+    "mean": 2.444,
+    "p1": 0.2102,
+    "f_mean": 0.0,
+    "f_p1": -0.06,
+    "se": 0.12
+   },
+   "abbrev&same_addr": {
+    "n": 223,
+    "mean": 2.587,
+    "p1": 0.1659,
+    "f_mean": 0.6,
+    "f_p1": 0.57,
+    "se": 0.35
+   },
+   "N_TYPO&same_addr": {
+    "n": 8522,
+    "mean": 2.441,
+    "p1": 0.2056,
+    "f_mean": -0.01,
+    "f_p1": 0.01,
+    "se": 0.06
+   },
+   "N_DROP|exact": {
+    "n": 1652,
+    "mean": 2.691,
+    "p1": 0.1108,
+    "f_mean": 1.03,
+    "f_p1": 1.35,
+    "se": 0.11
+   },
+   "N_DROP|same_num_street": {
+    "n": 2101,
+    "mean": 2.516,
+    "p1": 0.1947,
+    "f_mean": 0.3,
+    "f_p1": 0.16,
+    "se": 0.12
+   },
+   "N_ADD|exact": {
+    "n": 2124,
+    "mean": 2.636,
+    "p1": 0.1314,
+    "f_mean": 0.8,
+    "f_p1": 1.06,
+    "se": 0.1
+   },
+   "N_ADD|same_num_street": {
+    "n": 4617,
+    "mean": 2.459,
+    "p1": 0.2001,
+    "f_mean": 0.07,
+    "f_p1": 0.08,
+    "se": 0.08
+   },
+   "N_DISJOINT|exact": {
+    "n": 2123,
+    "mean": 2.636,
+    "p1": 0.1201,
+    "f_mean": 0.8,
+    "f_p1": 1.21,
+    "se": 0.1
+   },
+   "N_DISJOINT|same_num_street": {
+    "n": 1074,
+    "mean": 2.495,
+    "p1": 0.1881,
+    "f_mean": 0.22,
+    "f_p1": 0.25,
+    "se": 0.17
+   },
+   "N_ACRONYM|exact": {
+    "n": 636,
+    "mean": 2.64,
+    "p1": 0.1053,
+    "f_mean": 0.82,
+    "f_p1": 1.42,
+    "se": 0.17
+   },
+   "N_ALIAS|exact": {
+    "n": 3229,
+    "mean": 2.727,
+    "p1": 0.0929,
+    "f_mean": 1.18,
+    "f_p1": 1.6,
+    "se": 0.07
+   },
+   "N_ALIAS|any": {
+    "n": 3528,
+    "mean": 2.724,
+    "p1": 0.0941,
+    "f_mean": 1.16,
+    "f_p1": 1.58,
+    "se": 0.07
+   },
+   "N_HANDLE|same_num_street": {
+    "n": 5624,
+    "mean": 2.462,
+    "p1": 0.1977,
+    "f_mean": 0.08,
+    "f_p1": 0.12,
+    "se": 0.08
+   },
+   "N_NONLATIN|any": {
+    "n": 49832,
+    "mean": 2.267,
+    "p1": 0.2721,
+    "f_mean": -0.73,
+    "f_p1": -0.93,
+    "se": 0.03
+   },
+   "N_SAME|num_shift": {
+    "n": 9041,
+    "mean": 2.432,
+    "p1": 0.2087,
+    "f_mean": -0.05,
+    "f_p1": -0.04,
+    "se": 0.06
+   },
+   "N_SAME|street_sub": {
+    "n": 981,
+    "mean": 2.472,
+    "p1": 0.2018,
+    "f_mean": 0.12,
+    "f_p1": 0.06,
+    "se": 0.18
+   },
+   "any|rec_addr_empty": null
+  }
+ },
+ "share_S3": {
+  "France": {
+   "content_swap&same_addr": 0.509,
+   "to_noise_suffix&same_addr": 0.509,
+   "garble&same_addr": 0.497,
+   "abbrev&same_addr": 0.502,
+   "N_TYPO&same_addr": 0.502,
+   "N_DROP|exact": 0.815,
+   "N_DROP|same_num_street": 0.495,
+   "N_ADD|exact": 0.861,
+   "N_ADD|same_num_street": 0.492,
+   "N_DISJOINT|exact": 0.88,
+   "N_DISJOINT|same_num_street": 0.512,
+   "N_ACRONYM|exact": 0.751,
+   "N_ALIAS|exact": 1.0,
+   "N_ALIAS|any": 1.0,
+   "N_HANDLE|same_num_street": 0.506,
+   "N_NONLATIN|any": null,
+   "N_SAME|num_shift": 0.484,
+   "N_SAME|street_sub": 0.519,
+   "any|rec_addr_empty": null,
+   "ALL": 0.517
+  },
+  "US": {
+   "content_swap&same_addr": 0.438,
+   "to_noise_suffix&same_addr": 0.515,
+   "garble&same_addr": 0.491,
+   "abbrev&same_addr": 0.532,
+   "N_TYPO&same_addr": 0.486,
+   "N_DROP|exact": 0.399,
+   "N_DROP|same_num_street": 0.561,
+   "N_ADD|exact": 0.669,
+   "N_ADD|same_num_street": 0.555,
+   "N_DISJOINT|exact": 0.399,
+   "N_DISJOINT|same_num_street": 0.581,
+   "N_ACRONYM|exact": 0.926,
+   "N_ALIAS|exact": 1.0,
+   "N_ALIAS|any": 1.0,
+   "N_HANDLE|same_num_street": 0.571,
+   "N_NONLATIN|any": null,
+   "N_SAME|num_shift": 0.497,
+   "N_SAME|street_sub": 0.512,
+   "any|rec_addr_empty": null,
+   "ALL": 0.516
+  },
+  "India": {
+   "content_swap&same_addr": 0.471,
+   "to_noise_suffix&same_addr": 0.51,
+   "garble&same_addr": 0.452,
+   "abbrev&same_addr": 0.471,
+   "N_TYPO&same_addr": 0.455,
+   "N_DROP|exact": 0.735,
+   "N_DROP|same_num_street": 0.598,
+   "N_ADD|exact": 0.546,
+   "N_ADD|same_num_street": 0.58,
+   "N_DISJOINT|exact": 0.863,
+   "N_DISJOINT|same_num_street": 0.635,
+   "N_ACRONYM|exact": 0.998,
+   "N_ALIAS|exact": 1.0,
+   "N_ALIAS|any": 1.0,
+   "N_HANDLE|same_num_street": 0.564,
+   "N_NONLATIN|any": 0.355,
+   "N_SAME|num_shift": 0.506,
+   "N_SAME|street_sub": 0.612,
+   "any|rec_addr_empty": null,
+   "ALL": 0.514
+  },
+  "V1_pos": {
+   "content_swap&same_addr": 0.407,
+   "to_noise_suffix&same_addr": 0.512,
+   "garble&same_addr": 0.516,
+   "abbrev&same_addr": 0.432,
+   "N_TYPO&same_addr": 0.479,
+   "N_DROP|exact": 0.487,
+   "N_DROP|same_num_street": 0.572,
+   "N_ADD|exact": 0.596,
+   "N_ADD|same_num_street": 0.597,
+   "N_DISJOINT|exact": 0.734,
+   "N_DISJOINT|same_num_street": 0.572,
+   "N_ACRONYM|exact": 0.986,
+   "N_ALIAS|exact": 1.0,
+   "N_ALIAS|any": 1.0,
+   "N_HANDLE|same_num_street": 0.567,
+   "N_NONLATIN|any": 0.36,
+   "N_SAME|num_shift": 0.5,
+   "N_SAME|street_sub": 0.538,
+   "any|rec_addr_empty": null,
+   "ALL": 0.516
+  }
+ }
+}

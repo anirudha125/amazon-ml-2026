@@ -1,0 +1,19 @@
+{
+ "country": "India",
+ "n_top10": 8099860,
+ "rrL": {
+  "n_pairs": 8099860,
+  "secs": 2986.1,
+  "pairs_per_s": 2713,
+  "gpu_util_mean": 99.33627118644068,
+  "gpu_mem_used_max_mb": 40299.0
+ },
+ "rrUb_missing": 196511,
+ "rrUb_fill": {
+  "n_pairs": 196511,
+  "secs": 30.8,
+  "pairs_per_s": 6371,
+  "gpu_util_mean": 69.4375
+ },
+ "secs": 3077.3
+}

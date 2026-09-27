@@ -1,0 +1,22 @@
+{
+ "probe_id": "P001",
+ "base": "S002_E018C_s42 (LB 0.95065)",
+ "change": "France rows emptied; nothing else",
+ "purpose": "measure the absolute France F0.5 of S002 from one LB submission",
+ "inference": "F_FR(S002) = (LB(S002) - LB(P001)) / w_FR + s_FR ; w_FR ~ 0.14975 ; s_FR = France singleton share (unknown; train US 5.58% / India 5.59%)",
+ "candidate_pairs": "symlink -> S002 candidates (sha256 10f7dcab... of the uncompressed file)",
+ "status": "NOT submitted",
+ "stats": {
+  "rows": 1732544,
+  "france_rows": 259452,
+  "france_rows_nonempty_in_S002": 245942,
+  "france_pred_ids_removed": 864301,
+  "other_rows": 1473092,
+  "verified_rows": 1732544,
+  "nonfrance_lines_differing": 0,
+  "france_lines_not_empty": 0,
+  "sha256_matching_results": "2e239a41a7720695c7b6c75d3292e291b1413b1ea3c0da72266cf8c4b6cc78cd",
+  "sha256_S002_matching_results": "52bef507c65eba10e2ce99fee3deb1c43b9058407bf94591a3b509204979a664",
+  "w_FR_full_test": 0.14975
+ }
+}

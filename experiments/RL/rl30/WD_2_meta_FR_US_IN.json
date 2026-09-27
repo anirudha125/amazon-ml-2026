@@ -1,0 +1,20 @@
+{
+ "FR": {
+  "n_chunks": 173,
+  "n_pool_rows": 33180559,
+  "n_s1": 259452,
+  "n_same_addr": 1574022
+ },
+ "US": {
+  "n_chunks": 111,
+  "n_pool_rows": 20604701,
+  "n_s1": 166500,
+  "n_same_addr": 520318
+ },
+ "IN": {
+  "n_chunks": 135,
+  "n_pool_rows": 26132862,
+  "n_s1": 202500,
+  "n_same_addr": 460991
+ }
+}

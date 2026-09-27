@@ -1,0 +1,21 @@
+{
+ "S004_France": {
+  "n_acc": 902322,
+  "n_kept": 902322,
+  "KEY2_acc": 15071,
+  "KEY2_kept": 15071,
+  "KEY2_kept_s1": 11617,
+  "mean_p_KEY2_kept": 0.9136
+ },
+ "S005_France": {
+  "n_acc": 879329,
+  "n_kept": 854396,
+  "KEY2_acc": 8777,
+  "KEY2_kept": 1463,
+  "KEY2_kept_s1": 1411,
+  "mean_p_KEY2_kept": 0.9479
+ },
+ "KEY2_kept_both": 1449,
+ "KEY2_kept_only_S004": 13622,
+ "KEY2_kept_only_S005": 14
+}

@@ -1,0 +1,1075 @@
+{
+ "n_pairs": 2550505,
+ "n_nd": 199052,
+ "n_nd_pos": 28962,
+ "1_premise": {
+  "by_llr_bin": {
+   "near_dup_all": [
+    {
+     "llr_max_bin": "[-99,-2)",
+     "pairs": 30284,
+     "P_match": 0.316,
+     "accepted": 9281,
+     "acc_FP": 20,
+     "FN": 308
+    },
+    {
+     "llr_max_bin": "[-2,-1)",
+     "pairs": 34629,
+     "P_match": 0.1949,
+     "accepted": 6536,
+     "acc_FP": 14,
+     "FN": 227
+    },
+    {
+     "llr_max_bin": "[-1,0)",
+     "pairs": 27608,
+     "P_match": 0.1466,
+     "accepted": 3835,
+     "acc_FP": 7,
+     "FN": 218
+    },
+    {
+     "llr_max_bin": "[0,1)",
+     "pairs": 40156,
+     "P_match": 0.1152,
+     "accepted": 4483,
+     "acc_FP": 18,
+     "FN": 160
+    },
+    {
+     "llr_max_bin": "[1,2)",
+     "pairs": 36945,
+     "P_match": 0.069,
+     "accepted": 2459,
+     "acc_FP": 6,
+     "FN": 97
+    },
+    {
+     "llr_max_bin": "[2,99)",
+     "pairs": 24161,
+     "P_match": 0.0312,
+     "accepted": 738,
+     "acc_FP": 5,
+     "FN": 22
+    }
+   ],
+   "near_dup_same_addr": [
+    {
+     "llr_max_bin": "[-99,-2)",
+     "pairs": 4500,
+     "P_match": 0.9756,
+     "accepted": 4387,
+     "acc_FP": 1,
+     "FN": 4
+    },
+    {
+     "llr_max_bin": "[-2,-1)",
+     "pairs": 4316,
+     "P_match": 0.9893,
+     "accepted": 4266,
+     "acc_FP": 0,
+     "FN": 4
+    },
+    {
+     "llr_max_bin": "[-1,0)",
+     "pairs": 2171,
+     "P_match": 0.9424,
+     "accepted": 2045,
+     "acc_FP": 2,
+     "FN": 3
+    },
+    {
+     "llr_max_bin": "[0,1)",
+     "pairs": 2964,
+     "P_match": 0.9501,
+     "accepted": 2811,
+     "acc_FP": 3,
+     "FN": 8
+    },
+    {
+     "llr_max_bin": "[1,2)",
+     "pairs": 1541,
+     "P_match": 0.9163,
+     "accepted": 1404,
+     "acc_FP": 2,
+     "FN": 10
+    },
+    {
+     "llr_max_bin": "[2,99)",
+     "pairs": 441,
+     "P_match": 0.9025,
+     "accepted": 399,
+     "acc_FP": 2,
+     "FN": 1
+    }
+   ],
+   "near_dup_band_p>=0.3": [
+    {
+     "llr_max_bin": "[-99,-2)",
+     "pairs": 9545,
+     "P_match": 0.9836,
+     "accepted": 9281,
+     "acc_FP": 20,
+     "FN": 127
+    },
+    {
+     "llr_max_bin": "[-2,-1)",
+     "pairs": 6748,
+     "P_match": 0.9806,
+     "accepted": 6536,
+     "acc_FP": 14,
+     "FN": 95
+    },
+    {
+     "llr_max_bin": "[-1,0)",
+     "pairs": 3950,
+     "P_match": 0.9833,
+     "accepted": 3835,
+     "acc_FP": 7,
+     "FN": 56
+    },
+    {
+     "llr_max_bin": "[0,1)",
+     "pairs": 4605,
+     "P_match": 0.9822,
+     "accepted": 4483,
+     "acc_FP": 18,
+     "FN": 58
+    },
+    {
+     "llr_max_bin": "[1,2)",
+     "pairs": 2532,
+     "P_match": 0.9846,
+     "accepted": 2459,
+     "acc_FP": 6,
+     "FN": 40
+    },
+    {
+     "llr_max_bin": "[2,99)",
+     "pairs": 762,
+     "P_match": 0.9724,
+     "accepted": 738,
+     "acc_FP": 5,
+     "FN": 8
+    }
+   ]
+  },
+  "token_level": {
+   "US": {
+    "n_tokens": 803,
+    "spearman_s_vs_Pmatch": -0.4447,
+    "top": [
+     [
+      "llc",
+      19016,
+      0.131,
+      0.223
+     ],
+     [
+      "inc",
+      15979,
+      0.16,
+      0.167
+     ],
+     [
+      "corp",
+      5532,
+      0.111,
+      0.101
+     ],
+     [
+      "center",
+      5213,
+      0.243,
+      0.219
+     ],
+     [
+      "co",
+      4766,
+      0.1,
+      0.032
+     ],
+     [
+      "partners",
+      3643,
+      0.121,
+      0.366
+     ],
+     [
+      "lp",
+      3428,
+      0.142,
+      0.087
+     ],
+     [
+      "ltd",
+      3412,
+      0.12,
+      0.016
+     ],
+     [
+      "services",
+      2736,
+      0.305,
+      0.026
+     ],
+     [
+      "enterprises",
+      2702,
+      0.024,
+      0.422
+     ],
+     [
+      "group",
+      2618,
+      0.077,
+      0.556
+     ],
+     [
+      "pc",
+      2261,
+      0.099,
+      0.214
+     ],
+     [
+      "pllc",
+      1961,
+      0.055,
+      0.305
+     ],
+     [
+      "corporation",
+      1898,
+      0.27,
+      0.06
+     ],
+     [
+      "holdings",
+      1866,
+      0.025,
+      0.29
+     ],
+     [
+      "service",
+      1462,
+      0.296,
+      0.007
+     ],
+     [
+      "care",
+      1415,
+      0.105,
+      0.694
+     ],
+     [
+      "the",
+      1341,
+      0.413,
+      0.0
+     ],
+     [
+      "trading",
+      1266,
+      0.015,
+      0.477
+     ],
+     [
+      "associates",
+      1177,
+      0.123,
+      0.698
+     ],
+     [
+      "clinic",
+      950,
+      0.107,
+      0.717
+     ],
+     [
+      "incorporated",
+      848,
+      0.409,
+      0.0
+     ],
+     [
+      "summit",
+      675,
+      0.019,
+      0.864
+     ],
+     [
+      "capital",
+      643,
+      0.039,
+      0.775
+     ],
+     [
+      "metro",
+      605,
+      0.026,
+      0.863
+     ]
+    ]
+   },
+   "India": {
+    "n_tokens": 245,
+    "spearman_s_vs_Pmatch": -0.6685,
+    "top": [
+     [
+      "limited",
+      10931,
+      0.348,
+      0.033
+     ],
+     [
+      "ltd",
+      5404,
+      0.457,
+      0.01
+     ],
+     [
+      "private",
+      4917,
+      0.182,
+      0.353
+     ],
+     [
+      "services",
+      2635,
+      0.231,
+      0.213
+     ],
+     [
+      "center",
+      2608,
+      0.298,
+      0.007
+     ],
+     [
+      "llp",
+      1853,
+      0.182,
+      0.176
+     ],
+     [
+      "co",
+      1842,
+      0.174,
+      0.149
+     ],
+     [
+      "enterprises",
+      1210,
+      0.036,
+      0.496
+     ],
+     [
+      "partners",
+      1045,
+      0.255,
+      0.054
+     ],
+     [
+      "service",
+      1008,
+      0.258,
+      0.014
+     ],
+     [
+      "pvt",
+      924,
+      0.0,
+      0.861
+     ],
+     [
+      "india",
+      871,
+      0.197,
+      0.376
+     ],
+     [
+      "trading",
+      793,
+      0.102,
+      0.648
+     ],
+     [
+      "industries",
+      667,
+      0.055,
+      0.473
+     ],
+     [
+      "corp",
+      667,
+      0.315,
+      0.04
+     ],
+     [
+      "group",
+      652,
+      0.113,
+      0.094
+     ],
+     [
+      "ventures",
+      637,
+      0.06,
+      0.504
+     ],
+     [
+      "solutions",
+      626,
+      0.081,
+      0.635
+     ],
+     [
+      "brothers",
+      622,
+      0.146,
+      0.49
+     ],
+     [
+      "company",
+      607,
+      0.328,
+      0.04
+     ],
+     [
+      "corporation",
+      593,
+      0.349,
+      0.04
+     ],
+     [
+      "consultancy",
+      525,
+      0.088,
+      0.728
+     ],
+     [
+      "technologies",
+      475,
+      0.093,
+      0.66
+     ],
+     [
+      "sri",
+      461,
+      0.43,
+      0.0
+     ],
+     [
+      "exports",
+      455,
+      0.044,
+      0.516
+     ]
+    ]
+   }
+  }
+ },
+ "2_LR_incremental": {
+  "V1": {
+   "n": 90086,
+   "n_pos": 69077,
+   "LR_chi2": 17.09,
+   "df": 9,
+   "p_value": 0.04731545113406629,
+   "coef": [
+    -0.1467,
+    1.0189,
+    0.0783,
+    0.0655,
+    0.1603,
+    -0.0362,
+    -0.0685,
+    -0.0197,
+    0.0227,
+    -0.124,
+    -0.0553,
+    0.1697,
+    0.0276,
+    -0.1638,
+    0.1965
+   ],
+   "US": {
+    "n": 54534,
+    "LR_chi2": 12.54,
+    "df": 8,
+    "p_value": 0.12874335766793205
+   },
+   "India": {
+    "n": 35552,
+    "LR_chi2": 10.19,
+    "df": 8,
+    "p_value": 0.25173445051670895
+   }
+  },
+  "V0": {
+   "n": 8979,
+   "n_pos": 6885,
+   "LR_chi2": 14.17,
+   "df": 9,
+   "p_value": 0.11632710509922506,
+   "coef": [
+    -0.0443,
+    0.9968,
+    0.2707,
+    0.6112,
+    -0.021,
+    -0.0676,
+    -0.2043,
+    -0.1189,
+    0.2401,
+    0.3977,
+    -1.4679,
+    0.5285,
+    0.0978,
+    0.2074,
+    -0.1444
+   ],
+   "US": {
+    "n": 5436,
+    "LR_chi2": 10.18,
+    "df": 8,
+    "p_value": 0.25271576361738174
+   },
+   "India": {
+    "n": 3543,
+    "LR_chi2": 11.87,
+    "df": 8,
+    "p_value": 0.15723323880249074
+   }
+  }
+ },
+ "2b_crossfit_decision_impact": {
+  "fit_V0_apply_V1": {
+   "th0.7": {
+    "NEW_raw": 98.8024,
+    "recal_base": 98.7914,
+    "recal_role": 98.7721,
+    "role_vs_base": {
+     "delta_pp": -0.0193,
+     "ci95_pp": [
+      -0.0544,
+      0.0146
+     ],
+     "p_delta_le0": 0.8706,
+     "n_s1_changed": 151
+    },
+    "role_vs_NEWraw": {
+     "delta_pp": -0.0303,
+     "ci95_pp": [
+      -0.0731,
+      0.0119
+     ],
+     "p_delta_le0": 0.9202,
+     "n_s1_changed": 238
+    },
+    "flips_acc_to_rej": 60,
+    "flips_rej_to_acc": 93,
+    "flips_acc_to_rej_TP": 46,
+    "flips_rej_to_acc_TP": 65
+   },
+   "th0.78": {
+    "NEW_raw": 98.8024,
+    "recal_base": 98.7926,
+    "recal_role": 98.7759,
+    "role_vs_base": {
+     "delta_pp": -0.0167,
+     "ci95_pp": [
+      -0.0478,
+      0.0144
+     ],
+     "p_delta_le0": 0.8533,
+     "n_s1_changed": 141
+    },
+    "role_vs_NEWraw": {
+     "delta_pp": -0.0265,
+     "ci95_pp": [
+      -0.06,
+      0.0056
+     ],
+     "p_delta_le0": 0.9462,
+     "n_s1_changed": 140
+    },
+    "flips_acc_to_rej": 66,
+    "flips_rej_to_acc": 77,
+    "flips_acc_to_rej_TP": 55,
+    "flips_rej_to_acc_TP": 59
+   },
+   "th0.85": {
+    "NEW_raw": 98.8024,
+    "recal_base": 98.7403,
+    "recal_role": 98.7321,
+    "role_vs_base": {
+     "delta_pp": -0.0081,
+     "ci95_pp": [
+      -0.0259,
+      0.0106
+     ],
+     "p_delta_le0": 0.8115,
+     "n_s1_changed": 151
+    },
+    "role_vs_NEWraw": {
+     "delta_pp": -0.0703,
+     "ci95_pp": [
+      -0.1035,
+      -0.0368
+     ],
+     "p_delta_le0": 0.9999,
+     "n_s1_changed": 265
+    },
+    "flips_acc_to_rej": 64,
+    "flips_rej_to_acc": 90,
+    "flips_acc_to_rej_TP": 57,
+    "flips_rej_to_acc_TP": 70
+   }
+  },
+  "fit_V1_apply_V0": {
+   "th0.7": {
+    "NEW_raw": 98.6887,
+    "recal_base": 98.6739,
+    "recal_role": 98.7216,
+    "role_vs_base": {
+     "delta_pp": 0.0476,
+     "ci95_pp": [
+      -0.0226,
+      0.1678
+     ],
+     "p_delta_le0": 0.2226,
+     "n_s1_changed": 4
+    },
+    "role_vs_NEWraw": {
+     "delta_pp": 0.0328,
+     "ci95_pp": [
+      -0.0146,
+      0.0779
+     ],
+     "p_delta_le0": 0.084,
+     "n_s1_changed": 18
+    },
+    "flips_acc_to_rej": 4,
+    "flips_rej_to_acc": 0,
+    "flips_acc_to_rej_TP": 2,
+    "flips_rej_to_acc_TP": 0
+   },
+   "th0.78": {
+    "NEW_raw": 98.6887,
+    "recal_base": 98.6956,
+    "recal_role": 98.7036,
+    "role_vs_base": {
+     "delta_pp": 0.008,
+     "ci95_pp": [
+      -0.017,
+      0.0378
+     ],
+     "p_delta_le0": 0.2995,
+     "n_s1_changed": 5
+    },
+    "role_vs_NEWraw": {
+     "delta_pp": 0.0149,
+     "ci95_pp": [
+      -0.0082,
+      0.0443
+     ],
+     "p_delta_le0": 0.1244,
+     "n_s1_changed": 5
+    },
+    "flips_acc_to_rej": 3,
+    "flips_rej_to_acc": 2,
+    "flips_acc_to_rej_TP": 2,
+    "flips_rej_to_acc_TP": 2
+   },
+   "th0.85": {
+    "NEW_raw": 98.6887,
+    "recal_base": 98.6278,
+    "recal_role": 98.6297,
+    "role_vs_base": {
+     "delta_pp": 0.0019,
+     "ci95_pp": [
+      -0.0081,
+      0.0138
+     ],
+     "p_delta_le0": 0.4029,
+     "n_s1_changed": 4
+    },
+    "role_vs_NEWraw": {
+     "delta_pp": -0.059,
+     "ci95_pp": [
+      -0.1933,
+      0.0492
+     ],
+     "p_delta_le0": 0.8373,
+     "n_s1_changed": 23
+    },
+    "flips_acc_to_rej": 3,
+    "flips_rej_to_acc": 1,
+    "flips_acc_to_rej_TP": 2,
+    "flips_rej_to_acc_TP": 1
+   }
+  }
+ },
+ "3_redundancy": {
+  "nonfinite": {
+   "tok_nonfinite": 0,
+   "rl27_nonfinite": 932715
+  },
+  "sanity_corr_n_s1_only": 0.7933,
+  "auc_by_NEW_band_in_near_dup": [
+   {
+    "band": "[0.0,0.01)",
+    "pairs": 157759,
+    "pos": 87,
+    "auc_p": 0.9481,
+    "auc_neg_rl_sum": 0.6767,
+    "auc_neg_rl_max": 0.618,
+    "auc_neg_idf_s1_only_sum": 0.6065,
+    "auc_neg_idf_c_only_sum": 0.5358,
+    "auc_neg_idf_c_only_max": 0.5358,
+    "auc_neg_idf_s1_only_max": 0.6108,
+    "auc_neg_idf_s1_only_soft": 0.6151,
+    "auc_neg_idf_c_only_soft": 0.5563,
+    "auc_nf_n": 0.6048,
+    "auc_coloc": 0.4918,
+    "auc_dupf": 0.6946,
+    "auc_rv_rank": 0.5321,
+    "auc_rv_gap": 0.5778
+   },
+   {
+    "band": "[0.01,0.3)",
+    "pairs": 12481,
+    "pos": 567,
+    "auc_p": 0.7625,
+    "auc_neg_rl_sum": 0.508,
+    "auc_neg_rl_max": 0.4956,
+    "auc_neg_idf_s1_only_sum": 0.4552,
+    "auc_neg_idf_c_only_sum": 0.5091,
+    "auc_neg_idf_c_only_max": 0.5087,
+    "auc_neg_idf_s1_only_max": 0.4546,
+    "auc_neg_idf_s1_only_soft": 0.4592,
+    "auc_neg_idf_c_only_soft": 0.5052,
+    "auc_nf_n": 0.4043,
+    "auc_coloc": 0.5011,
+    "auc_dupf": 0.3609,
+    "auc_rv_rank": 0.4153,
+    "auc_rv_gap": 0.5466
+   },
+   {
+    "band": "[0.3,0.78)",
+    "pairs": 828,
+    "pos": 395,
+    "auc_p": 0.6389,
+    "auc_neg_rl_sum": 0.502,
+    "auc_neg_rl_max": 0.5031,
+    "auc_neg_idf_s1_only_sum": 0.4788,
+    "auc_neg_idf_c_only_sum": 0.4785,
+    "auc_neg_idf_c_only_max": 0.4811,
+    "auc_neg_idf_s1_only_max": 0.4813,
+    "auc_neg_idf_s1_only_soft": 0.4757,
+    "auc_neg_idf_c_only_soft": 0.4717,
+    "auc_nf_n": 0.4936,
+    "auc_coloc": 0.5088,
+    "auc_dupf": 0.4933,
+    "auc_rv_rank": 0.4645,
+    "auc_rv_gap": 0.5276
+   },
+   {
+    "band": "[0.78,0.95)",
+    "pairs": 526,
+    "pos": 480,
+    "auc_p": 0.6725,
+    "auc_neg_rl_sum": 0.4626,
+    "auc_neg_rl_max": 0.4342,
+    "auc_neg_idf_s1_only_sum": 0.4133,
+    "auc_neg_idf_c_only_sum": 0.3965,
+    "auc_neg_idf_c_only_max": 0.4028,
+    "auc_neg_idf_s1_only_max": 0.417,
+    "auc_neg_idf_s1_only_soft": 0.4572,
+    "auc_neg_idf_c_only_soft": 0.434,
+    "auc_nf_n": 0.4383,
+    "auc_coloc": 0.463,
+    "auc_dupf": 0.4289,
+    "auc_rv_rank": 0.5105,
+    "auc_rv_gap": 0.4953
+   },
+   {
+    "band": "[0.95,0.999)",
+    "pairs": 3643,
+    "pos": 3621,
+    "auc_p": 0.7986,
+    "auc_neg_rl_sum": 0.5323,
+    "auc_neg_rl_max": 0.633,
+    "auc_neg_idf_s1_only_sum": 0.6425,
+    "auc_neg_idf_c_only_sum": 0.5642,
+    "auc_neg_idf_c_only_max": 0.5681,
+    "auc_neg_idf_s1_only_max": 0.634,
+    "auc_neg_idf_s1_only_soft": 0.5671,
+    "auc_neg_idf_c_only_soft": 0.4961,
+    "auc_nf_n": 0.5313,
+    "auc_coloc": 0.4169,
+    "auc_dupf": 0.6179,
+    "auc_rv_rank": 0.3376,
+    "auc_rv_gap": 0.6181
+   },
+   {
+    "band": "[0.999,1.01)",
+    "pairs": 23815,
+    "pos": 23812,
+    "auc_p": 0.8514,
+    "auc_neg_rl_sum": 0.3401,
+    "auc_neg_rl_max": 0.5345,
+    "auc_neg_idf_s1_only_sum": 0.7428,
+    "auc_neg_idf_c_only_sum": 0.82,
+    "auc_neg_idf_c_only_max": 0.7799,
+    "auc_neg_idf_s1_only_max": 0.6703,
+    "auc_neg_idf_s1_only_soft": 0.5996,
+    "auc_neg_idf_c_only_soft": 0.6624,
+    "auc_nf_n": 0.2878,
+    "auc_coloc": 0.3577,
+    "auc_dupf": 0.2802,
+    "auc_rv_rank": 0.1843,
+    "auc_rv_gap": 0.8649
+   }
+  ],
+  "R2_rl_sum_on_TOK16_RL27": 0.5078,
+  "R2_rl_sum_on_TOK16": 0.3249,
+  "R2_rl_max_on_TOK16_RL27": 0.5029,
+  "R2_rl_max_on_TOK16": 0.3827,
+  "spearman_rl_sum_vs_idf_diff_sum": 0.477
+ },
+ "4_NEW_error_census_V1": {
+  "all_pairs": {
+   "pairs": 2550505,
+   "pos": 69232,
+   "accepted": 67353,
+   "FP": 167,
+   "FN": 2046,
+   "FN_p03": 834,
+   "error_rate_pairs": 0.00087,
+   "oracle_fix_all_errors_pp": 1.1312
+  },
+  "near_dup": {
+   "pairs": 199052,
+   "pos": 28962,
+   "accepted": 27984,
+   "FP": 71,
+   "FN": 1049,
+   "FN_p03": 395,
+   "error_rate_pairs": 0.00563,
+   "oracle_fix_all_errors_pp": 0.5996
+  },
+  "near_dup_llrmax>=1": {
+   "pairs": 61106,
+   "pos": 3305,
+   "accepted": 3197,
+   "FP": 11,
+   "FN": 119,
+   "FN_p03": 48,
+   "error_rate_pairs": 0.00213,
+   "oracle_fix_all_errors_pp": 0.0749
+  },
+  "near_dup_llrmax>=2": {
+   "pairs": 24161,
+   "pos": 755,
+   "accepted": 738,
+   "FP": 5,
+   "FN": 22,
+   "FN_p03": 8,
+   "error_rate_pairs": 0.00112,
+   "oracle_fix_all_errors_pp": 0.0165
+  },
+  "near_dup_llrmax<0": {
+   "pairs": 92521,
+   "pos": 20364,
+   "accepted": 19652,
+   "FP": 41,
+   "FN": 753,
+   "FN_p03": 278,
+   "error_rate_pairs": 0.00858,
+   "oracle_fix_all_errors_pp": 0.4136
+  },
+  "near_dup_same_addr_llrmax>=1": {
+   "pairs": 1982,
+   "pos": 1810,
+   "accepted": 1803,
+   "FP": 4,
+   "FN": 11,
+   "FN_p03": 6,
+   "error_rate_pairs": 0.00757,
+   "oracle_fix_all_errors_pp": 0.0209
+  }
+ },
+ "examples": {
+  "acc_FP_nd_llr>=1": [
+   {
+    "s1_name": "Travue Group",
+    "s1_addr": "175 Sandusky Street, Tiffin, OH",
+    "rec_name": "Lumvio Group",
+    "rec_addr": "175 Sandusky Street, Tiffin, Ohio",
+    "p": 0.8441,
+    "rl_max": 3.33,
+    "y": false
+   },
+   {
+    "s1_name": "All Highland Horizon",
+    "s1_addr": "9348 Drake Avenue, Skokie, IL",
+    "rec_name": "All Horizon",
+    "rec_addr": "Drake Ave, Chicago, Illinois",
+    "p": 0.9855,
+    "rl_max": 1.81,
+    "y": false
+   },
+   {
+    "s1_name": "True Home Ltd",
+    "s1_addr": "Daliganj Near Police Station, Uttar Pradesh, Lucknow, 488/49",
+    "rec_name": "True Hrd Ltd.",
+    "rec_addr": "Uttar Pradesh, C-488/54, DALIGANJ NEAR POLICE STATION",
+    "p": 0.7838,
+    "rl_max": 2.19,
+    "y": false
+   },
+   {
+    "s1_name": "All Highland Horizon",
+    "s1_addr": "9348 Drake Avenue, Skokie, IL",
+    "rec_name": "All Horizon LLC",
+    "rec_addr": "DRAKE AVENUE, CHICAGOT OWNSHIP, IL",
+    "p": 0.8124,
+    "rl_max": 1.81,
+    "y": false
+   },
+   {
+    "s1_name": "Lumeon Saul LLC",
+    "s1_addr": "396 Rancho Seguro, Sahuarita, AZ",
+    "rec_name": "Lummeon LLC Saul",
+    "rec_addr": "403 Rancho Seguro, Sahuarita, Arizona",
+    "p": 0.9753,
+    "rl_max": 2.54,
+    "y": false
+   },
+   {
+    "s1_name": "Shaikpet Height Private Limited",
+    "s1_addr": "Floor 4, Advant Building, Plot 4, Kakatiya Hills, Shaikpet, Hyderabad, Telangana",
+    "rec_name": "Shaikpet Private Limited Center",
+    "rec_addr": "Door No 4Th Floor, Shaikpet, Hyderabad, TG",
+    "p": 0.9682,
+    "rl_max": 2.19,
+    "y": false
+   }
+  ],
+  "FN_nd_llr>=1": [
+   {
+    "s1_name": "Management Pavitra Management Pvt Ltd",
+    "s1_addr": "H No 1007 Kudewada, Vadgaon Tal Maval, Maval, Pune, Maharashtra",
+    "rec_name": "Management Pavita Management Pvt Ltd",
+    "rec_addr": "Door No 007 Kudewada, Vadgaon Tal Maval, Pune, Maval, MH",
+    "p": 0.5084,
+    "rl_max": 2.07,
+    "y": true
+   },
+   {
+    "s1_name": "FW Empire LLC",
+    "s1_addr": "1317 Laurelfield Court, Virginia Beach City, VA",
+    "rec_name": "FW LLC Center",
+    "rec_addr": "",
+    "p": 0.1596,
+    "rl_max": 1.99,
+    "y": true
+   },
+   {
+    "s1_name": "Sunrise Prime Enterprises",
+    "s1_addr": "Room No. .442A, Thoppans Swimming Academy, Meenachil, Kottayam, Kerala",
+    "rec_name": "SUNRISE PTRBIEM ENTERPRISES",
+    "rec_addr": "",
+    "p": 0.7314,
+    "rl_max": 3.22,
+    "y": true
+   },
+   {
+    "s1_name": "Bvm Hr Private Limited",
+    "s1_addr": "Prathvi Singh Gaharad Industrial Area Riico Road No.05 Near Cine Magic, Bikaner, Rajasthan",
+    "rec_name": "Bvm Private Limited Center",
+    "rec_addr": "",
+    "p": 0.2318,
+    "rl_max": 1.07,
+    "y": true
+   },
+   {
+    "s1_name": "Cobra Power",
+    "s1_addr": "Ratangarh, Near Vidur Ji Mandir, C/O Durga Dutt Jangir, Rajasthan, Churu",
+    "rec_name": "Cobra Cobra Services",
+    "rec_addr": "",
+    "p": 0.1136,
+    "rl_max": 1.48,
+    "y": true
+   },
+   {
+    "s1_name": "Delhi Tech Pvt Ltd",
+    "s1_addr": "House No.-128, Block-G, Pkt-4, Sector-11, Rohini, Delhi, North West Delhi, Delhi",
+    "rec_name": "Ltd Delhi Pvt (S\u00e9rvice)",
+    "rec_addr": "House No.-128/7, Delhi, North West Delhi, \u0926\u093f\u0932\u094d\u0932\u0940",
+    "p": 0.363,
+    "rl_max": 1.76,
+    "y": true
+   }
+  ],
+  "acc_TP_nd_same_addr_llr>=2": [
+   {
+    "s1_name": "MH Family Practice LLP",
+    "s1_addr": "1012 Meadow Creek Drive, Unit 2148, Irving, TX",
+    "rec_name": "MH Fimcary Practice LLP",
+    "rec_addr": "##1012 Meadow Creek Dr, Irving, Texas",
+    "p": 0.9995,
+    "rl_max": 2.27,
+    "y": true
+   },
+   {
+    "s1_name": "Brady American Investments",
+    "s1_addr": "3556 Nashville Highway, Lewisburg, TN",
+    "rec_name": "Brady Amehroiacn Investments",
+    "rec_addr": "3556 Nashville Hwy, Lewisburg, Tennessee",
+    "p": 0.9999,
+    "rl_max": 2.08,
+    "y": true
+   },
+   {
+    "s1_name": "Hetrick Oncology Inc",
+    "s1_addr": "14121 Three Lakes Road, Snohomish, WA",
+    "rec_name": "Hetrick Oncfoelyo Inc",
+    "rec_addr": "14121 Three Lakes Rd, Washington, Snohomish CP",
+    "p": 0.9999,
+    "rl_max": 3.02,
+    "y": true
+   },
+   {
+    "s1_name": "Delta Council LLP",
+    "s1_addr": "16937 Us 550, Aztec, NM",
+    "rec_name": "de1ta council llp",
+    "rec_addr": "16937 Us 550, Cedar Hill, New Mexico",
+    "p": 0.9999,
+    "rl_max": 2.01,
+    "y": true
+   },
+   {
+    "s1_name": "Seven Bright Infra Private Limited",
+    "s1_addr": "#1104 Sir Mv Layout, 3 Rd Blk, Bangalore South, Bangalore, Karnataka",
+    "rec_name": "Seven Brbcght Infra Private Limited",
+    "rec_addr": "#1104 SIR MV LAYOUT, 3 RD BLK, BANGALORE SOUTH, Karnataka",
+    "p": 1.0,
+    "rl_max": 3.27,
+    "y": true
+   },
+   {
+    "s1_name": "Lique American PC",
+    "s1_addr": "1640 Maco Road, Leland, NC",
+    "rec_name": "PC Lique Americcan",
+    "rec_addr": "NC, LELAND, 1640 1/2 MACO RD",
+    "p": 0.9998,
+    "rl_max": 2.08,
+    "y": true
+   }
+  ]
+ }
+}

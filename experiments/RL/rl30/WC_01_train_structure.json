@@ -1,0 +1,76 @@
+{
+ "train_n_s1": 2206821,
+ "train_n_rec": 10320219,
+ "train_gt_links": 7638365,
+ "train_singletons": 123247,
+ "train_s1_with_gt_share": 0.94415,
+ "train_rec_owned_share": 0.74014,
+ "train_rec_owned_share_by_country": {
+  "India": 0.74028,
+  "US": 0.74004
+ },
+ "train_rec_owned_share_by_src": {
+  "s2": 0.73364,
+  "s3": 0.74632
+ },
+ "train_rec_multi_owner_share": 0.0,
+ "train_links_per_s1_src_dist": {
+  "1": 1505525,
+  "2": 1321154,
+  "3": 706400,
+  "4": 264194,
+  "5": 59532,
+  "6": 2816
+ },
+ "train_links_per_s1_dist": {
+  "1": 119157,
+  "2": 375212,
+  "3": 530841,
+  "4": 484115,
+  "5": 321957,
+  "6": 164868,
+  "7": 63968,
+  "8": 18680,
+  "9": 4205,
+  "10": 534,
+  "11": 37
+ },
+ "train_n_gt_mean_by_country": {
+  "US": 3.4591,
+  "India": 3.4645
+ },
+ "train_zero_gt_share_by_country": {
+  "US": 0.05583,
+  "India": 0.05588
+ },
+ "rec_per_s1": {
+  "US": {
+   "train": 4.6742,
+   "test": 5.7563,
+   "test_n_s1": 663106,
+   "test_n_rec": 3817031
+  },
+  "India": {
+   "train": 4.68,
+   "test": 5.8243,
+   "test_n_s1": 809986,
+   "test_n_rec": 4717565
+  },
+  "France": {
+   "train": null,
+   "test": 5.5309,
+   "test_n_s1": 259452,
+   "test_n_rec": 1434993
+  }
+ },
+ "test_rec_country_values": {
+  "India": 4717565,
+  "US": 3817031,
+  "France": 1434993
+ },
+ "test_s1_country_values": {
+  "India": 809986,
+  "US": 663106,
+  "France": 259452
+ }
+}

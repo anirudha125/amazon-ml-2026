@@ -1,0 +1,48 @@
+{
+ "submission": "S005 (candidate)",
+ "model": "RL-27 NEW seed 42 (D2b columns + 10 record-centric competing-owner features), experiments/RL/rl27_model_NEW_s42.pkl, th 0.78, + max-claimer per country",
+ "validation": "V1 seed-avg NEW-BASE +0.269 [+0.216,+0.321] (98.540 -> 98.809); V0 +0.268; see experiments/RL/RL27_SEEDS_42_44.md",
+ "pipeline": "experiments/RL/rl29b_test_features.py (test-corpus features) + rl29_score.py (score/write); scorer parity vs S004 PASS (max|dp| 0)",
+ "candidate_pairs": "byte-identical to S004 (sha256 1e95e087...)",
+ "sha256": {
+  "experiments/RL/submissions/S005_RL27NEW_s42_mc/matching_results.tsv": "4ddacaa2375ab0238a46f21a20aef533e43aaef63eceae94817016de6e9be83f",
+  "experiments/RL/submissions/S005_RL27NEW_s42_mc/candidate_pairs.tsv": "1e95e08725eeb3d9425345758a01cca70573a582d4e96ed1b388033c99d0f0f3"
+ },
+ "validators": "official validate_submission.py PASS; tools/check_submission.py CHECK PASS",
+ "diff_vs_S004": {
+  "US": {
+   "rows": 663106,
+   "rows_changed": 26551,
+   "pairs_S004": 2226093,
+   "pairs_S005": 2236158,
+   "dropped": 8715,
+   "added": 18780,
+   "empty_S004": 38463,
+   "empty_S005": 38358,
+   "rows_changed_pct": 4.0
+  },
+  "India": {
+   "rows": 809986,
+   "rows_changed": 28556,
+   "pairs_S004": 2724546,
+   "pairs_S005": 2728351,
+   "dropped": 12891,
+   "added": 16696,
+   "empty_S004": 46951,
+   "empty_S005": 46825,
+   "rows_changed_pct": 3.53
+  },
+  "France": {
+   "rows": 259452,
+   "rows_changed": 24267,
+   "pairs_S004": 858979,
+   "pairs_S005": 854396,
+   "dropped": 15144,
+   "added": 10561,
+   "empty_S004": 14090,
+   "empty_S005": 14464,
+   "rows_changed_pct": 9.35
+  }
+ },
+ "status": "NOT SUBMITTED"
+}

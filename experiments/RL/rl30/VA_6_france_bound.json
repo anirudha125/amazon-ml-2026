@@ -1,0 +1,560 @@
+{
+ "F_only_st_rejected_vs_kept_top_columns": [
+  {
+   "col": "rrUb",
+   "auc": 0.9896,
+   "direction": "lower_in_rejected",
+   "median_kept": 5.0625,
+   "median_rejected": -1.9961
+  },
+  {
+   "col": "frac_idf_c_only",
+   "auc": 0.8014,
+   "direction": "higher_in_rejected",
+   "median_kept": 0.2189,
+   "median_rejected": 0.4334
+  },
+  {
+   "col": "idf_c_only_sum",
+   "auc": 0.7906,
+   "direction": "higher_in_rejected",
+   "median_kept": 5.0851,
+   "median_rejected": 15.0582
+  },
+  {
+   "col": "idf_c_only_soft",
+   "auc": 0.7809,
+   "direction": "higher_in_rejected",
+   "median_kept": 5.0851,
+   "median_rejected": 15.0582
+  },
+  {
+   "col": "idf_c_only_max",
+   "auc": 0.7749,
+   "direction": "higher_in_rejected",
+   "median_kept": 5.0851,
+   "median_rejected": 9.8165
+  },
+  {
+   "col": "name_token_sort",
+   "auc": 0.7743,
+   "direction": "lower_in_rejected",
+   "median_kept": 0.88,
+   "median_rejected": 0.7895
+  },
+  {
+   "col": "name_jw_sim",
+   "auc": 0.7622,
+   "direction": "lower_in_rejected",
+   "median_kept": 0.9561,
+   "median_rejected": 0.9273
+  },
+  {
+   "col": "dcos",
+   "auc": 0.7566,
+   "direction": "lower_in_rejected",
+   "median_kept": 0.8911,
+   "median_rejected": 0.8369
+  },
+  {
+   "col": "A11",
+   "auc": 0.7539,
+   "direction": "lower_in_rejected",
+   "median_kept": 0.8866,
+   "median_rejected": 0.5621
+  },
+  {
+   "col": "name_lev_sim",
+   "auc": 0.7525,
+   "direction": "lower_in_rejected",
+   "median_kept": 0.7826,
+   "median_rejected": 0.6626
+  },
+  {
+   "col": "A5",
+   "auc": 0.7407,
+   "direction": "lower_in_rejected",
+   "median_kept": -0.0932,
+   "median_rejected": -0.4106
+  },
+  {
+   "col": "A4",
+   "auc": 0.7248,
+   "direction": "lower_in_rejected",
+   "median_kept": -0.0433,
+   "median_rejected": -0.347
+  },
+  {
+   "col": "name_token_jaccard",
+   "auc": 0.7127,
+   "direction": "lower_in_rejected",
+   "median_kept": 0.75,
+   "median_rejected": 0.6
+  },
+  {
+   "col": "A2",
+   "auc": 0.6921,
+   "direction": "higher_in_rejected",
+   "median_kept": 3.0,
+   "median_rejected": 5.0
+  },
+  {
+   "col": "A3",
+   "auc": 0.6854,
+   "direction": "lower_in_rejected",
+   "median_kept": 0.9833,
+   "median_rejected": 0.9695
+  },
+  {
+   "col": "name_len_diff",
+   "auc": 0.6798,
+   "direction": "higher_in_rejected",
+   "median_kept": 5.0,
+   "median_rejected": 7.0
+  },
+  {
+   "col": "rank_dense",
+   "auc": 0.671,
+   "direction": "higher_in_rejected",
+   "median_kept": 2.0,
+   "median_rejected": 2.0
+  },
+  {
+   "col": "B5",
+   "auc": 0.6642,
+   "direction": "lower_in_rejected",
+   "median_kept": 0.8333,
+   "median_rejected": 0.5
+  },
+  {
+   "col": "n_c_only",
+   "auc": 0.6537,
+   "direction": "higher_in_rejected",
+   "median_kept": 1.0,
+   "median_rejected": 1.0
+  },
+  {
+   "col": "name_len_ratio",
+   "auc": 0.6509,
+   "direction": "lower_in_rejected",
+   "median_kept": 0.7917,
+   "median_rejected": 0.7222
+  },
+  {
+   "col": "rv_gap",
+   "auc": 0.6471,
+   "direction": "lower_in_rejected",
+   "median_kept": 0.3661,
+   "median_rejected": 0.2881
+  },
+  {
+   "col": "rv_so",
+   "auc": 0.647,
+   "direction": "higher_in_rejected",
+   "median_kept": 0.6339,
+   "median_rejected": 0.7119
+  },
+  {
+   "col": "n_c_only_soft",
+   "auc": 0.6431,
+   "direction": "higher_in_rejected",
+   "median_kept": 1.0,
+   "median_rejected": 1.0
+  },
+  {
+   "col": "inv_rank_addr",
+   "auc": 0.6321,
+   "direction": "lower_in_rejected",
+   "median_kept": 0.5,
+   "median_rejected": 0.3333
+  },
+  {
+   "col": "B0",
+   "auc": 0.6321,
+   "direction": "higher_in_rejected",
+   "median_kept": 2.0,
+   "median_rejected": 3.0
+  }
+ ],
+ "F_only_st_by_added_tokens": [
+  {
+   "added": "sci",
+   "n": 6347,
+   "rej_rate": 0.0134,
+   "median_p": 0.9956,
+   "n_05_078": 25
+  },
+  {
+   "added": "sasu",
+   "n": 6284,
+   "rej_rate": 0.0263,
+   "median_p": 0.9896,
+   "n_05_078": 55
+  },
+  {
+   "added": "eurl",
+   "n": 6249,
+   "rej_rate": 0.023,
+   "median_p": 0.9948,
+   "n_05_078": 27
+  },
+  {
+   "added": "sa",
+   "n": 6217,
+   "rej_rate": 0.0098,
+   "median_p": 0.999,
+   "n_05_078": 19
+  },
+  {
+   "added": "cie",
+   "n": 1875,
+   "rej_rate": 0.016,
+   "median_p": 0.9989,
+   "n_05_078": 5
+  },
+  {
+   "added": "et fils",
+   "n": 1615,
+   "rej_rate": 0.3195,
+   "median_p": 0.8911,
+   "n_05_078": 356
+  },
+  {
+   "added": "services",
+   "n": 1584,
+   "rej_rate": 0.0063,
+   "median_p": 0.9999,
+   "n_05_078": 1
+  },
+  {
+   "added": "developpement",
+   "n": 1560,
+   "rej_rate": 0.3192,
+   "median_p": 0.8856,
+   "n_05_078": 248
+  },
+  {
+   "added": "associes",
+   "n": 1420,
+   "rej_rate": 0.0268,
+   "median_p": 0.9863,
+   "n_05_078": 15
+  },
+  {
+   "added": "fils",
+   "n": 1336,
+   "rej_rate": 0.1108,
+   "median_p": 0.9617,
+   "n_05_078": 99
+  },
+  {
+   "added": "et",
+   "n": 869,
+   "rej_rate": 0.0012,
+   "median_p": 0.9999,
+   "n_05_078": 0
+  },
+  {
+   "added": "compagnie",
+   "n": 738,
+   "rej_rate": 0.019,
+   "median_p": 0.997,
+   "n_05_078": 5
+  },
+  {
+   "added": "frs",
+   "n": 593,
+   "rej_rate": 0.0,
+   "median_p": 0.9999,
+   "n_05_078": 0
+  },
+  {
+   "added": "associes et",
+   "n": 179,
+   "rej_rate": 0.0223,
+   "median_p": 0.9843,
+   "n_05_078": 2
+  }
+ ],
+ "F_sub1_st_by_added_tokens": [
+  {
+   "added": "et fils",
+   "n": 4785,
+   "rej_rate": 0.4332,
+   "median_p": 0.8649,
+   "n_05_078": 795
+  },
+  {
+   "added": "services",
+   "n": 4626,
+   "rej_rate": 0.032,
+   "median_p": 0.9998,
+   "n_05_078": 12
+  },
+  {
+   "added": "cie",
+   "n": 4498,
+   "rej_rate": 0.0654,
+   "median_p": 0.9971,
+   "n_05_078": 34
+  },
+  {
+   "added": "developpement",
+   "n": 4335,
+   "rej_rate": 0.7571,
+   "median_p": 0.4698,
+   "n_05_078": 1021
+  },
+  {
+   "added": "associes",
+   "n": 3948,
+   "rej_rate": 0.1748,
+   "median_p": 0.9697,
+   "n_05_078": 332
+  },
+  {
+   "added": "fils",
+   "n": 3926,
+   "rej_rate": 0.2496,
+   "median_p": 0.9715,
+   "n_05_078": 396
+  },
+  {
+   "added": "compagnie",
+   "n": 732,
+   "rej_rate": 0.3224,
+   "median_p": 0.9718,
+   "n_05_078": 41
+  },
+  {
+   "added": "associes et",
+   "n": 447,
+   "rej_rate": 0.2192,
+   "median_p": 0.9556,
+   "n_05_078": 40
+  },
+  {
+   "added": "service",
+   "n": 412,
+   "rej_rate": 0.1117,
+   "median_p": 0.9992,
+   "n_05_078": 0
+  },
+  {
+   "added": "st",
+   "n": 390,
+   "rej_rate": 0.0128,
+   "median_p": 0.9999,
+   "n_05_078": 0
+  }
+ ],
+ "bound_F_only_st_all_rejected": {
+  "n_pairs": 1818,
+  "n_s1": 1747,
+  "france_pp_if_all_true": 0.0738,
+  "lb_pp_if_all_true": 0.0111,
+  "france_pp_if_all_false": -0.1759,
+  "lb_pp_if_all_false": -0.0263,
+  "breakeven_precision_approx": 0.704
+ },
+ "bound_F_only_st_p0.5-0.78": {
+  "n_pairs": 874,
+  "n_s1": 861,
+  "france_pp_if_all_true": 0.0363,
+  "lb_pp_if_all_true": 0.0054,
+  "france_pp_if_all_false": -0.0866,
+  "lb_pp_if_all_false": -0.013,
+  "breakeven_precision_approx": 0.705
+ },
+ "bound_F_sub1_st_all_rejected": {
+  "n_pairs": 8604,
+  "n_s1": 8202,
+  "france_pp_if_all_true": 0.3099,
+  "lb_pp_if_all_true": 0.0464,
+  "france_pp_if_all_false": -0.801,
+  "lb_pp_if_all_false": -0.12,
+  "breakeven_precision_approx": 0.721
+ },
+ "bound_F_sub1_st_p0.5-0.78": {
+  "n_pairs": 2738,
+  "n_s1": 2707,
+  "france_pp_if_all_true": 0.1,
+  "lb_pp_if_all_true": 0.015,
+  "france_pp_if_all_false": -0.2619,
+  "lb_pp_if_all_false": -0.0392,
+  "breakeven_precision_approx": 0.724
+ },
+ "bound_F_only+F_sub1_all_rejected": {
+  "n_pairs": 10422,
+  "n_s1": 9900,
+  "france_pp_if_all_true": 0.383,
+  "lb_pp_if_all_true": 0.0574,
+  "france_pp_if_all_false": -0.9744,
+  "lb_pp_if_all_false": -0.1459,
+  "breakeven_precision_approx": 0.718
+ },
+ "accepted_lost_maxclaim_by_kind": {
+  "F_sub1_st": 112,
+  "F_only_st": 59,
+  "F_add_other_st": 15
+ },
+ "accepted_band_0.78_0.99_by_kind": {
+  "F_only_st": 10286,
+  "F_sub1_st": 9223,
+  "F_add_other_st": 333
+ },
+ "examples_F_only_rej_p0.5_0.78": [
+  {
+   "s1_name": "Fédération des Nature",
+   "rec_name": "Fédération des Nature (SASU)",
+   "p": 0.7103
+  },
+  {
+   "s1_name": "Clinique Joseph",
+   "rec_name": "Clinique Joseph Et Fils",
+   "p": 0.6672
+  },
+  {
+   "s1_name": "UI Service SAS",
+   "rec_name": "UI SAS Et Fils",
+   "p": 0.763
+  },
+  {
+   "s1_name": "Association des Musicale",
+   "rec_name": "Association des Musicale  Et Fils",
+   "p": 0.7025
+  },
+  {
+   "s1_name": "Union des Musiques",
+   "rec_name": "Union des Musiques Et Fils",
+   "p": 0.6724
+  },
+  {
+   "s1_name": "Collège de la Notre",
+   "rec_name": "Collège De La Notre Et Fils",
+   "p": 0.5767
+  },
+  {
+   "s1_name": "Karate & Frères SCI",
+   "rec_name": "Karate et SCI-Développement",
+   "p": 0.5381
+  },
+  {
+   "s1_name": "Maison Paddle SAS",
+   "rec_name": "Maison Paddle SAS Et Fils",
+   "p": 0.777
+  },
+  {
+   "s1_name": "Chasse Compagnie (France) SARL",
+   "rec_name": "Chasse (France) SARL & Fils",
+   "p": 0.7294
+  },
+  {
+   "s1_name": "Pharmacie Trait",
+   "rec_name": "Pharmacie Trait Et Fils",
+   "p": 0.6896
+  },
+  {
+   "s1_name": "Sup Union",
+   "rec_name": "Sup Union SA",
+   "p": 0.6351
+  },
+  {
+   "s1_name": "Lycée de la Aide",
+   "rec_name": "Lycée de la Aide Et Fils",
+   "p": 0.643
+  },
+  {
+   "s1_name": "Établissements Solidarite SARL",
+   "rec_name": "Établissements Solidarite SARL Et (Fils)",
+   "p": 0.7302
+  },
+  {
+   "s1_name": "Fédération de Edp",
+   "rec_name": "Fédération De Edp Et Fils",
+   "p": 0.6956
+  },
+  {
+   "s1_name": "Club du Evenement",
+   "rec_name": "Club du Evenement Et Fils",
+   "p": 0.6906
+  }
+ ],
+ "examples_F_only_rej_p_lt_0.05": [
+  {
+   "s1_name": "Team & Frères SARL",
+   "rec_name": "TEAM FRÈRES SARL DÉVELOPPEMENT",
+   "p": 0.0322
+  },
+  {
+   "s1_name": "Maison Boite SAS",
+   "rec_name": "Maison Boite Développement SAS",
+   "p": 0.001
+  },
+  {
+   "s1_name": "Ets Effervescence SARL",
+   "rec_name": "ETS EFFERVESCENCE SARL DÉVELOPPEMENT",
+   "p": 0.0243
+  },
+  {
+   "s1_name": "Bordeaux Compagnie SARL",
+   "rec_name": "(Développement) Bordeaux SARL",
+   "p": 0.0
+  },
+  {
+   "s1_name": "Bordeaux Club SARL",
+   "rec_name": "Bordeaux Club SCI",
+   "p": 0.0023
+  },
+  {
+   "s1_name": "Nantes Comite",
+   "rec_name": "NANTES COMITE SASU",
+   "p": 0.0481
+  },
+  {
+   "s1_name": "Collège du Martin",
+   "rec_name": "Collège du Martin Développement",
+   "p": 0.0481
+  },
+  {
+   "s1_name": "Altitude & Fils SAS",
+   "rec_name": "Altitude & Fîls Développement SAS",
+   "p": 0.0002
+  },
+  {
+   "s1_name": "Nantes Compagnie SARL",
+   "rec_name": "Nantes SCI Développement",
+   "p": 0.0023
+  },
+  {
+   "s1_name": "Fédération de Jumelage",
+   "rec_name": "Fédération De Jumelage SCI",
+   "p": 0.0156
+  },
+  {
+   "s1_name": "Lecole & Fils EURL",
+   "rec_name": "LECOLE + EURL DÉVELOPPEMENT",
+   "p": 0.014
+  },
+  {
+   "s1_name": "Medicale Residence SA",
+   "rec_name": "Medicale Residence SCI",
+   "p": 0.0007
+  },
+  {
+   "s1_name": "Mérignac Comite EURL",
+   "rec_name": "SCI Mérignac Comite",
+   "p": 0.0028
+  },
+  {
+   "s1_name": "Calais Comite",
+   "rec_name": "Calais Comite SCI",
+   "p": 0.0216
+  },
+  {
+   "s1_name": "QPW Compagnie SA",
+   "rec_name": "QPW SA Développement",
+   "p": 0.0072
+  }
+ ]
+}

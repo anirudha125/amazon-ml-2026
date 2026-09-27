@@ -1,0 +1,467 @@
+{
+ "S005_France": {
+  "accepted_pairs": 879329,
+  "kept_final_pairs": 854396,
+  "n_s1_country": 259452,
+  "F1r_dist": {
+   "pairs": 12496,
+   "rate_per_accepted_pair": 0.014211,
+   "s1": 11352,
+   "rate_s1_per_country_s1": 0.043754,
+   "kept_final_pairs": 10736,
+   "kept_final_s1": 10064,
+   "kept_rate_per_kept_pair": 0.012566,
+   "multi_claimed_pairs": 1954,
+   "p_quantiles": [
+    0.8799,
+    0.9987,
+    1.0
+   ]
+  },
+  "F1r_dist_sameaddr": {
+   "pairs": 9286,
+   "rate_per_accepted_pair": 0.01056,
+   "s1": 8732,
+   "rate_s1_per_country_s1": 0.033656,
+   "kept_final_pairs": 9141,
+   "kept_final_s1": 8638,
+   "kept_rate_per_kept_pair": 0.010699,
+   "multi_claimed_pairs": 278,
+   "p_quantiles": [
+    0.9383,
+    0.9997,
+    1.0
+   ]
+  },
+  "F1r_dist_subst": {
+   "pairs": 7288,
+   "rate_per_accepted_pair": 0.008288,
+   "s1": 6728,
+   "rate_s1_per_country_s1": 0.025932,
+   "kept_final_pairs": 6219,
+   "kept_final_s1": 5857,
+   "kept_rate_per_kept_pair": 0.007279,
+   "multi_claimed_pairs": 1146,
+   "p_quantiles": [
+    0.8508,
+    0.9888,
+    0.9999
+   ]
+  },
+  "F1r_dist_onesided": {
+   "pairs": 5208,
+   "rate_per_accepted_pair": 0.005923,
+   "s1": 4831,
+   "rate_s1_per_country_s1": 0.01862,
+   "kept_final_pairs": 4517,
+   "kept_final_s1": 4309,
+   "kept_rate_per_kept_pair": 0.005287,
+   "multi_claimed_pairs": 808,
+   "p_quantiles": [
+    0.9572,
+    0.9999,
+    1.0
+   ]
+  },
+  "F1r_filler": {
+   "pairs": 199679,
+   "rate_per_accepted_pair": 0.227081,
+   "s1": 139498,
+   "rate_s1_per_country_s1": 0.537664,
+   "kept_final_pairs": 192857,
+   "kept_final_s1": 136759,
+   "kept_rate_per_kept_pair": 0.225723,
+   "multi_claimed_pairs": 10414,
+   "p_quantiles": [
+    0.9509,
+    0.9994,
+    1.0
+   ]
+  },
+  "F1r_filler_sameaddr": {
+   "pairs": 159164,
+   "rate_per_accepted_pair": 0.181006,
+   "s1": 118257,
+   "rate_s1_per_country_s1": 0.455795,
+   "kept_final_pairs": 158570,
+   "kept_final_s1": 117988,
+   "kept_rate_per_kept_pair": 0.185593,
+   "multi_claimed_pairs": 3155,
+   "p_quantiles": [
+    0.9773,
+    0.9997,
+    1.0
+   ]
+  },
+  "F1_typo_only": {
+   "pairs": 42552,
+   "rate_per_accepted_pair": 0.048391,
+   "s1": 39269,
+   "rate_s1_per_country_s1": 0.151354,
+   "kept_final_pairs": 41315,
+   "kept_final_s1": 38294,
+   "kept_rate_per_kept_pair": 0.048356,
+   "multi_claimed_pairs": 2040,
+   "p_quantiles": [
+    0.9907,
+    0.9998,
+    0.9999
+   ]
+  },
+  "F3r_mismatch": {
+   "pairs": 6551,
+   "rate_per_accepted_pair": 0.00745,
+   "s1": 5204,
+   "rate_s1_per_country_s1": 0.020058,
+   "kept_final_pairs": 2217,
+   "kept_final_s1": 1760,
+   "kept_rate_per_kept_pair": 0.002595,
+   "multi_claimed_pairs": 4734,
+   "p_quantiles": [
+    0.8283,
+    0.9754,
+    0.9999
+   ]
+  },
+  "F3r_mismatch_numeq": {
+   "pairs": 3715,
+   "rate_per_accepted_pair": 0.004225,
+   "s1": 3112,
+   "rate_s1_per_country_s1": 0.011995,
+   "kept_final_pairs": 812,
+   "kept_final_s1": 788,
+   "kept_rate_per_kept_pair": 0.00095,
+   "multi_claimed_pairs": 3208,
+   "p_quantiles": [
+    0.8489,
+    0.9828,
+    0.9994
+   ]
+  },
+  "F3r_numeq_anyov": {
+   "pairs": 9047,
+   "rate_per_accepted_pair": 0.010289,
+   "s1": 6692,
+   "rate_s1_per_country_s1": 0.025793,
+   "kept_final_pairs": 2369,
+   "kept_final_s1": 2229,
+   "kept_rate_per_kept_pair": 0.002773,
+   "multi_claimed_pairs": 7280,
+   "p_quantiles": [
+    0.8428,
+    0.9754,
+    0.9991
+   ]
+  }
+ },
+ "S005_US": {
+  "accepted_pairs": 2236533,
+  "kept_final_pairs": 2236158,
+  "n_s1_country": 663106,
+  "F1r_dist": {
+   "pairs": 131190,
+   "rate_per_accepted_pair": 0.058658,
+   "s1": 107394,
+   "rate_s1_per_country_s1": 0.161956,
+   "kept_final_pairs": 131154,
+   "kept_final_s1": 107375,
+   "kept_rate_per_kept_pair": 0.058651,
+   "multi_claimed_pairs": 61,
+   "p_quantiles": [
+    0.9974,
+    0.9999,
+    0.9999
+   ]
+  },
+  "F1r_dist_sameaddr": {
+   "pairs": 91934,
+   "rate_per_accepted_pair": 0.041106,
+   "s1": 78196,
+   "rate_s1_per_country_s1": 0.117924,
+   "kept_final_pairs": 91926,
+   "kept_final_s1": 78192,
+   "kept_rate_per_kept_pair": 0.041109,
+   "multi_claimed_pairs": 24,
+   "p_quantiles": [
+    0.9991,
+    0.9999,
+    0.9999
+   ]
+  },
+  "F1r_dist_subst": {
+   "pairs": 84672,
+   "rate_per_accepted_pair": 0.037859,
+   "s1": 76166,
+   "rate_s1_per_country_s1": 0.114862,
+   "kept_final_pairs": 84649,
+   "kept_final_s1": 76152,
+   "kept_rate_per_kept_pair": 0.037855,
+   "multi_claimed_pairs": 37,
+   "p_quantiles": [
+    0.9966,
+    0.9998,
+    0.9999
+   ]
+  },
+  "F1r_dist_onesided": {
+   "pairs": 46518,
+   "rate_per_accepted_pair": 0.020799,
+   "s1": 38503,
+   "rate_s1_per_country_s1": 0.058065,
+   "kept_final_pairs": 46505,
+   "kept_final_s1": 38493,
+   "kept_rate_per_kept_pair": 0.020797,
+   "multi_claimed_pairs": 24,
+   "p_quantiles": [
+    0.9987,
+    0.9999,
+    1.0
+   ]
+  },
+  "F1r_filler": {
+   "pairs": 523188,
+   "rate_per_accepted_pair": 0.233928,
+   "s1": 354553,
+   "rate_s1_per_country_s1": 0.534685,
+   "kept_final_pairs": 523111,
+   "kept_final_s1": 354518,
+   "kept_rate_per_kept_pair": 0.233933,
+   "multi_claimed_pairs": 121,
+   "p_quantiles": [
+    0.9978,
+    0.9999,
+    1.0
+   ]
+  },
+  "F1r_filler_sameaddr": {
+   "pairs": 360765,
+   "rate_per_accepted_pair": 0.161305,
+   "s1": 264218,
+   "rate_s1_per_country_s1": 0.398455,
+   "kept_final_pairs": 360758,
+   "kept_final_s1": 264215,
+   "kept_rate_per_kept_pair": 0.161329,
+   "multi_claimed_pairs": 27,
+   "p_quantiles": [
+    0.9994,
+    0.9999,
+    1.0
+   ]
+  },
+  "F1_typo_only": {
+   "pairs": 300242,
+   "rate_per_accepted_pair": 0.134244,
+   "s1": 241490,
+   "rate_s1_per_country_s1": 0.36418,
+   "kept_final_pairs": 300207,
+   "kept_final_s1": 241469,
+   "kept_rate_per_kept_pair": 0.134251,
+   "multi_claimed_pairs": 103,
+   "p_quantiles": [
+    0.997,
+    0.9999,
+    0.9999
+   ]
+  },
+  "F3r_mismatch": {
+   "pairs": 14929,
+   "rate_per_accepted_pair": 0.006675,
+   "s1": 10601,
+   "rate_s1_per_country_s1": 0.015987,
+   "kept_final_pairs": 14926,
+   "kept_final_s1": 10600,
+   "kept_rate_per_kept_pair": 0.006675,
+   "multi_claimed_pairs": 6,
+   "p_quantiles": [
+    0.9984,
+    0.9999,
+    1.0
+   ]
+  },
+  "F3r_mismatch_numeq": {
+   "pairs": 10595,
+   "rate_per_accepted_pair": 0.004737,
+   "s1": 7784,
+   "rate_s1_per_country_s1": 0.011739,
+   "kept_final_pairs": 10595,
+   "kept_final_s1": 7784,
+   "kept_rate_per_kept_pair": 0.004738,
+   "multi_claimed_pairs": 2,
+   "p_quantiles": [
+    0.9992,
+    0.9999,
+    1.0
+   ]
+  },
+  "F3r_numeq_anyov": {
+   "pairs": 26506,
+   "rate_per_accepted_pair": 0.011851,
+   "s1": 15559,
+   "rate_s1_per_country_s1": 0.023464,
+   "kept_final_pairs": 26498,
+   "kept_final_s1": 15555,
+   "kept_rate_per_kept_pair": 0.01185,
+   "multi_claimed_pairs": 14,
+   "p_quantiles": [
+    0.9991,
+    0.9999,
+    1.0
+   ]
+  }
+ },
+ "S005_India": {
+  "accepted_pairs": 2730863,
+  "kept_final_pairs": 2728351,
+  "n_s1_country": 809986,
+  "F1r_dist": {
+   "pairs": 95434,
+   "rate_per_accepted_pair": 0.034946,
+   "s1": 86572,
+   "rate_s1_per_country_s1": 0.106881,
+   "kept_final_pairs": 95265,
+   "kept_final_s1": 86435,
+   "kept_rate_per_kept_pair": 0.034917,
+   "multi_claimed_pairs": 327,
+   "p_quantiles": [
+    0.9924,
+    0.9998,
+    0.9999
+   ]
+  },
+  "F1r_dist_sameaddr": {
+   "pairs": 33166,
+   "rate_per_accepted_pair": 0.012145,
+   "s1": 30618,
+   "rate_s1_per_country_s1": 0.037801,
+   "kept_final_pairs": 33142,
+   "kept_final_s1": 30597,
+   "kept_rate_per_kept_pair": 0.012147,
+   "multi_claimed_pairs": 64,
+   "p_quantiles": [
+    0.9979,
+    0.9998,
+    0.9999
+   ]
+  },
+  "F1r_dist_subst": {
+   "pairs": 78846,
+   "rate_per_accepted_pair": 0.028872,
+   "s1": 72301,
+   "rate_s1_per_country_s1": 0.089262,
+   "kept_final_pairs": 78698,
+   "kept_final_s1": 72178,
+   "kept_rate_per_kept_pair": 0.028845,
+   "multi_claimed_pairs": 287,
+   "p_quantiles": [
+    0.9904,
+    0.9997,
+    0.9999
+   ]
+  },
+  "F1r_dist_onesided": {
+   "pairs": 16588,
+   "rate_per_accepted_pair": 0.006074,
+   "s1": 15889,
+   "rate_s1_per_country_s1": 0.019616,
+   "kept_final_pairs": 16567,
+   "kept_final_s1": 15870,
+   "kept_rate_per_kept_pair": 0.006072,
+   "multi_claimed_pairs": 40,
+   "p_quantiles": [
+    0.9988,
+    0.9999,
+    1.0
+   ]
+  },
+  "F1r_filler": {
+   "pairs": 694952,
+   "rate_per_accepted_pair": 0.254481,
+   "s1": 450939,
+   "rate_s1_per_country_s1": 0.556724,
+   "kept_final_pairs": 694543,
+   "kept_final_s1": 450762,
+   "kept_rate_per_kept_pair": 0.254565,
+   "multi_claimed_pairs": 776,
+   "p_quantiles": [
+    0.9976,
+    0.9999,
+    1.0
+   ]
+  },
+  "F1r_filler_sameaddr": {
+   "pairs": 237326,
+   "rate_per_accepted_pair": 0.086905,
+   "s1": 167791,
+   "rate_s1_per_country_s1": 0.207153,
+   "kept_final_pairs": 237309,
+   "kept_final_s1": 167782,
+   "kept_rate_per_kept_pair": 0.086979,
+   "multi_claimed_pairs": 63,
+   "p_quantiles": [
+    0.9995,
+    0.9999,
+    1.0
+   ]
+  },
+  "F1_typo_only": {
+   "pairs": 302826,
+   "rate_per_accepted_pair": 0.11089,
+   "s1": 249637,
+   "rate_s1_per_country_s1": 0.308199,
+   "kept_final_pairs": 302572,
+   "kept_final_s1": 249463,
+   "kept_rate_per_kept_pair": 0.110899,
+   "multi_claimed_pairs": 558,
+   "p_quantiles": [
+    0.9949,
+    0.9999,
+    0.9999
+   ]
+  },
+  "F3r_mismatch": {
+   "pairs": 51791,
+   "rate_per_accepted_pair": 0.018965,
+   "s1": 32248,
+   "rate_s1_per_country_s1": 0.039813,
+   "kept_final_pairs": 51748,
+   "kept_final_s1": 32231,
+   "kept_rate_per_kept_pair": 0.018967,
+   "multi_claimed_pairs": 60,
+   "p_quantiles": [
+    0.996,
+    0.9999,
+    1.0
+   ]
+  },
+  "F3r_mismatch_numeq": {
+   "pairs": 11505,
+   "rate_per_accepted_pair": 0.004213,
+   "s1": 10104,
+   "rate_s1_per_country_s1": 0.012474,
+   "kept_final_pairs": 11492,
+   "kept_final_s1": 10096,
+   "kept_rate_per_kept_pair": 0.004212,
+   "multi_claimed_pairs": 14,
+   "p_quantiles": [
+    0.9991,
+    0.9999,
+    1.0
+   ]
+  },
+  "F3r_numeq_anyov": {
+   "pairs": 17696,
+   "rate_per_accepted_pair": 0.00648,
+   "s1": 15169,
+   "rate_s1_per_country_s1": 0.018727,
+   "kept_final_pairs": 17657,
+   "kept_final_s1": 15143,
+   "kept_rate_per_kept_pair": 0.006472,
+   "multi_claimed_pairs": 62,
+   "p_quantiles": [
+    0.9976,
+    0.9999,
+    1.0
+   ]
+  }
+ }
+}

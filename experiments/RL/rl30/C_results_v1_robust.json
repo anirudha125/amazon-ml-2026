@@ -1,0 +1,623 @@
+{
+ "defined": {
+  "both": 2203659,
+  "rs_defined": 1495879,
+  "pos_rs_defined": 52179,
+  "pos_both": 66310,
+  "rs_defined_US": 0.8687653917108731,
+  "rs_defined_India": 0.42403608121460673
+ },
+ "auc": {
+  "all_both": {
+   "n": 2203659,
+   "pos_rate": 0.0301,
+   "rs_robust": 0.7541,
+   "so_token": 0.6984,
+   "rs_plus_hn2": 0.8593,
+   "full": 0.9022,
+   "addr_tset14": 0.958,
+   "house_agree57": 0.7357,
+   "p_NEW": 1.0
+  },
+  "same_core": {
+   "n": 106396,
+   "pos_rate": 0.3302,
+   "rs_robust": 0.8064,
+   "so_token": 0.7227,
+   "rs_plus_hn2": 0.9169,
+   "full": 0.9621,
+   "addr_tset14": 0.9811,
+   "house_agree57": 0.7684,
+   "p_NEW": 1.0
+  },
+  "hn2_eq": {
+   "n": 229034,
+   "pos_rate": 0.1817,
+   "rs_robust": 0.8758,
+   "so_token": 0.8471,
+   "rs_plus_hn2": 0.8758,
+   "full": 0.8972,
+   "addr_tset14": 0.9345,
+   "house_agree57": 0.5622,
+   "p_NEW": 1.0
+  },
+  "full>=0.8": {
+   "n": 282598,
+   "pos_rate": 0.1676,
+   "rs_robust": 0.6703,
+   "so_token": 0.6646,
+   "rs_plus_hn2": 0.7677,
+   "full": 0.5861,
+   "addr_tset14": 0.8674,
+   "house_agree57": 0.7127,
+   "p_NEW": 1.0
+  },
+  "same_core&full>=0.8&hn2_eq": {
+   "n": 14573,
+   "pos_rate": 0.9849,
+   "rs_robust": 0.5198,
+   "so_token": 0.5827,
+   "rs_plus_hn2": 0.5198,
+   "full": 0.5208,
+   "addr_tset14": 0.6894,
+   "house_agree57": 0.6991,
+   "p_NEW": 1.0
+  },
+  "band": {
+   "n": 1661,
+   "pos_rate": 0.6532,
+   "rs_robust": 0.5031,
+   "so_token": 0.5196,
+   "rs_plus_hn2": 0.4965,
+   "full": 0.4814,
+   "addr_tset14": 0.4592,
+   "house_agree57": 0.5122,
+   "p_NEW": 0.8151
+  },
+  "accepted": {
+   "n": 65772,
+   "pos_rate": 0.9982,
+   "rs_robust": 0.5431,
+   "so_token": 0.5274,
+   "rs_plus_hn2": 0.6686,
+   "full": 0.5032,
+   "addr_tset14": 0.6009,
+   "house_agree57": 0.6673,
+   "p_NEW": 0.9785
+  },
+  "rejected_p>=0.2": {
+   "n": 947,
+   "pos_rate": 0.4646,
+   "rs_robust": 0.5104,
+   "so_token": 0.5256,
+   "rs_plus_hn2": 0.4905,
+   "full": 0.4642,
+   "addr_tset14": 0.4467,
+   "house_agree57": 0.4858,
+   "p_NEW": 0.6834
+  }
+ },
+ "table_all_pairs": {
+  "full_hi|street=match|hn2=eq": {
+   "n": 49667,
+   "pos": 27637,
+   "pos_rate": 0.5564,
+   "n_acc": 27552,
+   "acc_prec": 0.9991,
+   "acc_mean_p": 0.9988,
+   "recall": 0.9961
+  },
+  "full_hi|street=match|hn2=neq": {
+   "n": 47502,
+   "pos": 1761,
+   "pos_rate": 0.0371,
+   "n_acc": 1675,
+   "acc_prec": 0.9863,
+   "acc_mean_p": 0.9889,
+   "recall": 0.9381
+  },
+  "full_hi|street=match|hn2=miss": {
+   "n": 28167,
+   "pos": 5833,
+   "pos_rate": 0.2071,
+   "n_acc": 5792,
+   "acc_prec": 0.9986,
+   "acc_mean_p": 0.9983,
+   "recall": 0.9916
+  },
+  "full_hi|street=mid|hn2=eq": {
+   "n": 553,
+   "pos": 16,
+   "pos_rate": 0.0289,
+   "n_acc": 16,
+   "acc_prec": 1.0,
+   "acc_mean_p": 0.9987,
+   "recall": 1.0
+  },
+  "full_hi|street=mid|hn2=neq": {
+   "n": 2745,
+   "pos": 3,
+   "pos_rate": 0.0011,
+   "n_acc": 2,
+   "acc_prec": 1.0,
+   "acc_mean_p": 0.9996,
+   "recall": 0.6667
+  },
+  "full_hi|street=mid|hn2=miss": {
+   "n": 1757,
+   "pos": 0,
+   "pos_rate": 0.0,
+   "n_acc": 0,
+   "acc_prec": null,
+   "acc_mean_p": null,
+   "recall": null
+  },
+  "full_hi|street=diff|hn2=eq": {
+   "n": 1693,
+   "pos": 19,
+   "pos_rate": 0.0112,
+   "n_acc": 18,
+   "acc_prec": 1.0,
+   "acc_mean_p": 0.9995,
+   "recall": 0.9474
+  },
+  "full_hi|street=diff|hn2=neq": {
+   "n": 17576,
+   "pos": 31,
+   "pos_rate": 0.0018,
+   "n_acc": 29,
+   "acc_prec": 1.0,
+   "acc_mean_p": 0.9878,
+   "recall": 0.9355
+  },
+  "full_hi|street=diff|hn2=miss": {
+   "n": 6304,
+   "pos": 44,
+   "pos_rate": 0.007,
+   "n_acc": 43,
+   "acc_prec": 1.0,
+   "acc_mean_p": 0.9968,
+   "recall": 0.9773
+  },
+  "full_hi|street=undef|hn2=miss": {
+   "n": 126634,
+   "pos": 12009,
+   "pos_rate": 0.0948,
+   "n_acc": 11917,
+   "acc_prec": 0.9977,
+   "acc_mean_p": 0.9975,
+   "recall": 0.99
+  },
+  "full_lo|street=match|hn2=eq": {
+   "n": 40238,
+   "pos": 13836,
+   "pos_rate": 0.3439,
+   "n_acc": 13766,
+   "acc_prec": 0.9993,
+   "acc_mean_p": 0.9987,
+   "recall": 0.9943
+  },
+  "full_lo|street=match|hn2=neq": {
+   "n": 214802,
+   "pos": 1268,
+   "pos_rate": 0.0059,
+   "n_acc": 1196,
+   "acc_prec": 0.9883,
+   "acc_mean_p": 0.9884,
+   "recall": 0.9322
+  },
+  "full_lo|street=match|hn2=miss": {
+   "n": 48964,
+   "pos": 1571,
+   "pos_rate": 0.0321,
+   "n_acc": 1544,
+   "acc_prec": 0.9981,
+   "acc_mean_p": 0.9978,
+   "recall": 0.9809
+  },
+  "full_lo|street=mid|hn2=eq": {
+   "n": 6952,
+   "pos": 61,
+   "pos_rate": 0.0088,
+   "n_acc": 60,
+   "acc_prec": 1.0,
+   "acc_mean_p": 0.9974,
+   "recall": 0.9836
+  },
+  "full_lo|street=mid|hn2=neq": {
+   "n": 37127,
+   "pos": 0,
+   "pos_rate": 0.0,
+   "n_acc": 1,
+   "acc_prec": 0.0,
+   "acc_mean_p": 0.9153,
+   "recall": null
+  },
+  "full_lo|street=mid|hn2=miss": {
+   "n": 11774,
+   "pos": 0,
+   "pos_rate": 0.0,
+   "n_acc": 0,
+   "acc_prec": null,
+   "acc_mean_p": null,
+   "recall": null
+  },
+  "full_lo|street=diff|hn2=eq": {
+   "n": 129931,
+   "pos": 37,
+   "pos_rate": 0.0003,
+   "n_acc": 37,
+   "acc_prec": 1.0,
+   "acc_mean_p": 0.9997,
+   "recall": 1.0
+  },
+  "full_lo|street=diff|hn2=neq": {
+   "n": 674878,
+   "pos": 33,
+   "pos_rate": 0.0,
+   "n_acc": 31,
+   "acc_prec": 1.0,
+   "acc_mean_p": 0.9923,
+   "recall": 0.9394
+  },
+  "full_lo|street=diff|hn2=miss": {
+   "n": 175249,
+   "pos": 29,
+   "pos_rate": 0.0002,
+   "n_acc": 28,
+   "acc_prec": 0.9643,
+   "acc_mean_p": 0.9924,
+   "recall": 0.931
+  },
+  "full_lo|street=undef|hn2=miss": {
+   "n": 581146,
+   "pos": 2122,
+   "pos_rate": 0.0037,
+   "n_acc": 2065,
+   "acc_prec": 0.9961,
+   "acc_mean_p": 0.9948,
+   "recall": 0.9694
+  }
+ },
+ "accepted_precision": {
+  "accepted_all": {
+   "n": 67353,
+   "fp": 167,
+   "precision": 0.9975,
+   "ci": [
+    0.9971,
+    0.9979
+   ],
+   "mean_p": 0.997
+  },
+  "accepted_street_match": {
+   "n": 51525,
+   "fp": 81,
+   "precision": 0.9984,
+   "ci": [
+    0.9981,
+    0.9988
+   ],
+   "mean_p": 0.9981
+  },
+  "KEY2": {
+   "n": 90,
+   "fp": 0,
+   "precision": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ],
+   "mean_p": 0.9944
+  },
+  "KEY2|hn2=eq": {
+   "n": 18,
+   "fp": 0,
+   "precision": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ],
+   "mean_p": 0.9995
+  },
+  "KEY2|hn2=neq": {
+   "n": 29,
+   "fp": 0,
+   "precision": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ],
+   "mean_p": 0.9878
+  },
+  "KEY2|same_core": {
+   "n": 43,
+   "fp": 0,
+   "precision": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ],
+   "mean_p": 0.9979
+  },
+  "KEY2|same_core&hn2=eq": {
+   "n": 8,
+   "fp": 0,
+   "precision": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ],
+   "mean_p": 0.9999
+  },
+  "accepted street=diff (any full)": {
+   "n": 186,
+   "fp": 1,
+   "precision": 0.9946,
+   "ci": [
+    0.9826,
+    1.0
+   ],
+   "mean_p": 0.9948
+  },
+  "accepted street=diff & hn2=neq": {
+   "n": 60,
+   "fp": 0,
+   "precision": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ],
+   "mean_p": 0.9901
+  },
+  "accepted street=diff & hn2=eq": {
+   "n": 55,
+   "fp": 0,
+   "precision": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ],
+   "mean_p": 0.9996
+  },
+  "KEY2|US": {
+   "n": 8,
+   "fp": 0,
+   "precision": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ],
+   "mean_p": 0.9996
+  },
+  "KEY2|India": {
+   "n": 82,
+   "fp": 0,
+   "precision": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ],
+   "mean_p": 0.9939
+  }
+ },
+ "rival": {
+  "accepted": {
+   "n": 65772,
+   "fp": 119,
+   "pos_rate": 0.9982,
+   "ci": [
+    0.9978,
+    0.9985
+   ],
+   "mean_p": 0.9979
+  },
+  "accepted&rival": {
+   "n": 2,
+   "fp": 1,
+   "pos_rate": 0.5,
+   "ci": [
+    0.0,
+    1.0
+   ],
+   "mean_p": 0.9576
+  },
+  "accepted&~rival": {
+   "n": 65770,
+   "fp": 118,
+   "pos_rate": 0.9982,
+   "ci": [
+    0.9978,
+    0.9985
+   ],
+   "mean_p": 0.9979
+  },
+  "KEY2&rival": {
+   "n": 0
+  },
+  "KEY2&~rival": {
+   "n": 90,
+   "fp": 0,
+   "pos_rate": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ],
+   "mean_p": 0.9944
+  },
+  "band&rival": {
+   "n": 2,
+   "fp": 2,
+   "pos_rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "mean_p": 0.5905
+  },
+  "band&~rival": {
+   "n": 1659,
+   "fp": 574,
+   "pos_rate": 0.654,
+   "ci": [
+    0.6292,
+    0.6794
+   ],
+   "mean_p": 0.6478
+  },
+  "rej_p>=0.2&rival": {
+   "n": 1,
+   "fp": 1,
+   "pos_rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "mean_p": 0.2657
+  }
+ },
+ "rl27_means": {
+  "accepted": {
+   "nf_n": 202.532,
+   "nf_a": 0.701,
+   "af_n": 19.452,
+   "af_a": 0.472,
+   "coloc": 0.19,
+   "dupf": 7.979,
+   "rv_rank": 1.325,
+   "rv_sa": 0.986,
+   "rv_so": 0.565,
+   "rv_gap": 0.42
+  },
+  "KEY2": {
+   "nf_n": 190.117,
+   "nf_a": 0.833,
+   "af_n": 94.089,
+   "af_a": 0.067,
+   "coloc": 0.189,
+   "dupf": 8.178,
+   "rv_rank": 2.289,
+   "rv_sa": 0.929,
+   "rv_so": 0.698,
+   "rv_gap": 0.231
+  },
+  "accepted&rival": {
+   "nf_n": 84.5,
+   "nf_a": 1.0,
+   "af_n": 0.0,
+   "af_a": 0.0,
+   "coloc": 0.0,
+   "dupf": 26.5,
+   "rv_rank": 6.0,
+   "rv_sa": 0.699,
+   "rv_so": 0.822,
+   "rv_gap": -0.122
+  }
+ },
+ "examples": [
+  {
+   "kind": "KEY2_tp",
+   "y": 1,
+   "p": 0.9996,
+   "s1_name": "Shivam Infrastructure Private Limited",
+   "s1_addr": "169/2, Sarat Ghosh Garden Road, Kolkata, Kolkata, Howrah, West Bengal",
+   "rec_name": "\u09b6\u09bf\u09ac\u09ae \u0987\u09a8\u09ab\u09cd\u09b0\u09be\u09b8\u09cd\u099f\u09cd\u09b0\u09be\u0995\u099a\u09be\u09b0 \u09aa\u09cd\u09b0\u09be\u0987\u09ad\u09c7\u099f \u09b2\u09bf\u09ae\u09bf\u099f\u09c7\u09a1",
+   "rec_addr": "Hn 489 169/2, Kolkata, Howrah, WB",
+   "full": 1.0,
+   "rs": 0.1,
+   "hn2": -1,
+   "rival_best": 0.286
+  },
+  {
+   "kind": "KEY2_tp",
+   "y": 1,
+   "p": 0.9999,
+   "s1_name": "Great Coalition",
+   "s1_addr": "2005 7th Street, Omaha, NE",
+   "rec_name": "GREAT COALITION",
+   "rec_addr": "2005 SEVENEH STREET, OMAHA, NE",
+   "full": 1.0,
+   "rs": 0.0,
+   "hn2": 1,
+   "rival_best": NaN
+  },
+  {
+   "kind": "KEY2_tp",
+   "y": 1,
+   "p": 0.9997,
+   "s1_name": "Actuate & Associates",
+   "s1_addr": "Krs Towers, Ground Floor, Plot No. 146, Porur Gardens Phase-1, Vanagaram, Chennai, Tamil Nadu",
+   "rec_name": "Actuate &-[Associates]",
+   "rec_addr": "#801 Krs Towers, Chennai, TN",
+   "full": 1.0,
+   "rs": 0.345,
+   "hn2": 0,
+   "rival_best": NaN
+  },
+  {
+   "kind": "KEY2_tp",
+   "y": 1,
+   "p": 0.9998,
+   "s1_name": "Indrraj Solutions Limited",
+   "s1_addr": "302, Parnakuti Co Op Hsc Soc Ltd, Ram Ganesh Gadkari Rd, Ghantali Naupada, Thane, Maharashtra",
+   "rec_name": "Indrraj Solutions Ltd",
+   "rec_addr": "Hn 784 302, Thane, MH",
+   "full": 1.0,
+   "rs": 0.1,
+   "hn2": -1,
+   "rival_best": NaN
+  },
+  {
+   "kind": "KEY2_tp",
+   "y": 1,
+   "p": 0.9973,
+   "s1_name": "Legato Agro Private Limited",
+   "s1_addr": "Telangana, Shaikpet, Hyderabad, Quadrant 2, 7Th Floor, Cyber Towers, Madhapur, Unit No A3",
+   "rec_name": "Legato Agro Limited [Private]",
+   "rec_addr": "H.no 13 Unit No A3, Hyderabad, \u0c24\u0c46\u0c32\u0c02\u0c17\u0c3e\u0c23",
+   "full": 1.0,
+   "rs": 0.2,
+   "hn2": 0,
+   "rival_best": NaN
+  },
+  {
+   "kind": "KEY2_tp",
+   "y": 1,
+   "p": 0.9999,
+   "s1_name": "Hari Developers Private Limited",
+   "s1_addr": "Shopno28 Govind Complex, Salasar Road Ganeri, Lachhmangarh, Sikar, Rajasthan",
+   "rec_name": "Mr Hari Developers Private L\u00edmited",
+   "rec_addr": "Shopno#28 Govind Complex, Lachhmangarh, Sikar, RJ",
+   "full": 1.0,
+   "rs": 0.229,
+   "hn2": -1,
+   "rival_best": NaN
+  },
+  {
+   "kind": "acc_rival_fp",
+   "y": 0,
+   "p": 0.9153,
+   "s1_name": "Colonial Institute",
+   "s1_addr": "1307 80th Street, Lubbock, TX",
+   "rec_name": "Colonial  Institute",
+   "rec_addr": "2405 90th St, NULL, Lubbock, Texas",
+   "full": 0.5,
+   "rs": 0.667,
+   "hn2": 0,
+   "rival_best": 1.0
+  },
+  {
+   "kind": "acc_rival_tp",
+   "y": 1,
+   "p": 1.0,
+   "s1_name": "Digital Ventures Private Limited",
+   "s1_addr": "Plot No F-53 Ground Floor Pkt B Sec 4 Bawana Dsidc Landmark Near Ganga Toli Mandir Ne, W Delhi, Delhi, North West, Delhi",
+   "rec_name": "DIGITAL  VENTURES PRIVATE LIMITED",
+   "rec_addr": "PLOT NO F-53 GROUND FLOOR PKT B SEC 4 BAWANA DSIDC LANDMARK NEAR GANLA TOLI MANDIR NE, W DELHI, DELHI, Delhi",
+   "full": 0.923,
+   "rs": 0.984,
+   "hn2": 1,
+   "rival_best": 1.0
+  }
+ ]
+}

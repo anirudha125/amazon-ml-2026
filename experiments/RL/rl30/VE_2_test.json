@@ -1,0 +1,135 @@
+{
+ "France": {
+  "summary": {
+   "accepted": 879329,
+   "F2_ge": 791,
+   "F2_gt": 356,
+   "F2_ge_s1": 388,
+   "F2_ge_multi": 696,
+   "F2_ge_kept": 225,
+   "F2_ge_kept_s1": 178,
+   "F2_gt_kept": 11,
+   "flagged_sibling_claims": 631,
+   "flagged_dropped_by_mc": 566,
+   "dropped_and_sibling_claims": 510,
+   "kept_sibling_claims_lower_p": 121,
+   "kept_sibling_no_claim": 104,
+   "kept_single_claim": 95,
+   "kept_js_eq_1": 5,
+   "kept_gt": 11,
+   "kept_p_quantiles": [
+    0.9763,
+    0.9945,
+    0.9992,
+    0.9997,
+    0.9999
+   ],
+   "kept_sibclaim_p_minus_sibp_quantiles": [
+    3e-05,
+    0.00107,
+    0.04201
+   ],
+   "kept_sibling_has_any_accepted": 222
+  },
+  "kept_rl27": {
+   "kept_self_found": 225,
+   "kept_sibling_is_candidate": 211,
+   "kept_self_rv_rank1": 111,
+   "kept_self_rv_rank_gt1": 114,
+   "kept_self_rv_rank_hist": {
+    "2.0": 34,
+    "1.0": 111,
+    "11.0": 34,
+    "3.0": 14,
+    "9.0": 4,
+    "5.0": 6,
+    "6.0": 4,
+    "10.0": 2,
+    "4.0": 7,
+    "7.0": 6,
+    "8.0": 3
+   },
+   "dropped_self_rv_rank_hist": {
+    "2.0": 167,
+    "4.0": 39,
+    "11.0": 143,
+    "3.0": 70,
+    "6.0": 22,
+    "8.0": 10,
+    "5.0": 21,
+    "9.0": 9,
+    "1.0": 61,
+    "7.0": 14,
+    "10.0": 10
+   },
+   "n_kept": 225,
+   "n_dropped": 566
+  }
+ },
+ "US": {
+  "summary": {
+   "accepted": 2236533,
+   "F2_ge": 30,
+   "F2_gt": 16,
+   "F2_ge_s1": 12,
+   "F2_ge_multi": 22,
+   "F2_ge_kept": 13,
+   "F2_ge_kept_s1": 9,
+   "F2_gt_kept": 2,
+   "flagged_sibling_claims": 22,
+   "flagged_dropped_by_mc": 17,
+   "dropped_and_sibling_claims": 17,
+   "kept_sibling_claims_lower_p": 5,
+   "kept_sibling_no_claim": 8,
+   "kept_single_claim": 8,
+   "kept_js_eq_1": 0,
+   "kept_gt": 2,
+   "kept_p_quantiles": [
+    0.9706,
+    0.9941,
+    0.9998,
+    0.9999,
+    0.9999
+   ],
+   "kept_sibclaim_p_minus_sibp_quantiles": [
+    0.00013,
+    0.00035,
+    0.00319
+   ],
+   "kept_sibling_has_any_accepted": 13
+  }
+ },
+ "India": {
+  "summary": {
+   "accepted": 2730863,
+   "F2_ge": 168,
+   "F2_gt": 19,
+   "F2_ge_s1": 129,
+   "F2_ge_multi": 109,
+   "F2_ge_kept": 98,
+   "F2_ge_kept_s1": 82,
+   "F2_gt_kept": 0,
+   "flagged_sibling_claims": 105,
+   "flagged_dropped_by_mc": 70,
+   "dropped_and_sibling_claims": 66,
+   "kept_sibling_claims_lower_p": 39,
+   "kept_sibling_no_claim": 59,
+   "kept_single_claim": 59,
+   "kept_js_eq_1": 0,
+   "kept_gt": 0,
+   "kept_p_quantiles": [
+    0.9552,
+    0.9957,
+    0.9995,
+    0.9999,
+    0.9999
+   ],
+   "kept_sibclaim_p_minus_sibp_quantiles": [
+    0.00044,
+    0.00686,
+    0.14641
+   ],
+   "kept_sibling_has_any_accepted": 93
+  }
+ }
+}

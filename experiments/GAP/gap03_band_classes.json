@@ -1,0 +1,1288 @@
+{
+ "France_p5_band_per1kS1": {
+  "A=num&street|acronym": 13.06,
+  "A=num&street|disjoint": 24.16,
+  "A=num&street|other": 10.09,
+  "A=num&street|rec_adds": 2.15,
+  "A=num&street|rec_adds2+": 1.88,
+  "A=num&street|rec_drops": 1.22,
+  "A=num&street|rec_drops2+": 1.03,
+  "A=num&street|same_core": 5.58,
+  "A=num&street|swap1": 42.35,
+  "A~nonum|acronym": 0.37,
+  "A~nonum|disjoint": 7.95,
+  "A~nonum|other": 2.01,
+  "A~nonum|rec_adds": 0.52,
+  "A~nonum|rec_adds2+": 0.58,
+  "A~nonum|rec_drops": 0.65,
+  "A~nonum|rec_drops2+": 0.14,
+  "A~nonum|same_core": 6.92,
+  "A~nonum|swap1": 6.77,
+  "D:num_diff|acronym": 0.1,
+  "D:num_diff|disjoint": 7.08,
+  "D:num_diff|other": 1.87,
+  "D:num_diff|rec_adds": 1.78,
+  "D:num_diff|rec_adds2+": 3.38,
+  "D:num_diff|rec_drops": 3.43,
+  "D:num_diff|rec_drops2+": 1.25,
+  "D:num_diff|same_core": 50.24,
+  "D:num_diff|swap1": 17.17,
+  "D:street_diff|acronym": 1.35,
+  "D:street_diff|disjoint": 4.2,
+  "D:street_diff|other": 2.72,
+  "D:street_diff|rec_adds": 1.29,
+  "D:street_diff|rec_adds2+": 1.75,
+  "D:street_diff|rec_drops": 1.7,
+  "D:street_diff|rec_drops2+": 0.17,
+  "D:street_diff|same_core": 25.35,
+  "D:street_diff|swap1": 13.37,
+  "E|disjoint": 0.08,
+  "E|other": 0.68,
+  "E|rec_adds": 3.99,
+  "E|rec_adds2+": 5.33,
+  "E|rec_drops": 3.41,
+  "E|rec_drops2+": 0.04,
+  "E|same_core": 79.65,
+  "E|swap1": 8.8
+ },
+ "France_p5_band_total_per1kS1": 367.63,
+ "France_p5_rej_p05_th_per1kS1": {
+  "A=num&street|acronym": 20.41,
+  "A=num&street|disjoint": 63.96,
+  "A=num&street|other": 18.2,
+  "A=num&street|rec_adds": 3.6,
+  "A=num&street|rec_adds2+": 2.74,
+  "A=num&street|rec_drops": 2.52,
+  "A=num&street|rec_drops2+": 1.95,
+  "A=num&street|same_core": 10.1,
+  "A=num&street|swap1": 78.37,
+  "A~nonum|acronym": 1.21,
+  "A~nonum|disjoint": 29.28,
+  "A~nonum|other": 4.64,
+  "A~nonum|rec_adds": 1.21,
+  "A~nonum|rec_adds2+": 1.13,
+  "A~nonum|rec_drops": 2.12,
+  "A~nonum|rec_drops2+": 0.39,
+  "A~nonum|same_core": 15.28,
+  "A~nonum|swap1": 14.13,
+  "D:num_diff|acronym": 0.51,
+  "D:num_diff|disjoint": 44.57,
+  "D:num_diff|other": 6.34,
+  "D:num_diff|rec_adds": 12.96,
+  "D:num_diff|rec_adds2+": 7.71,
+  "D:num_diff|rec_drops": 9.64,
+  "D:num_diff|rec_drops2+": 3.36,
+  "D:num_diff|same_core": 131.6,
+  "D:num_diff|swap1": 45.87,
+  "D:street_diff|acronym": 2.46,
+  "D:street_diff|disjoint": 12.06,
+  "D:street_diff|other": 6.15,
+  "D:street_diff|rec_adds": 4.12,
+  "D:street_diff|rec_adds2+": 3.67,
+  "D:street_diff|rec_drops": 5.06,
+  "D:street_diff|rec_drops2+": 0.56,
+  "D:street_diff|same_core": 61.75,
+  "D:street_diff|swap1": 29.32,
+  "E|acronym": 0.0,
+  "E|disjoint": 0.27,
+  "E|other": 3.56,
+  "E|rec_adds": 27.59,
+  "E|rec_adds2+": 12.33,
+  "E|rec_drops": 21.61,
+  "E|rec_drops2+": 0.87,
+  "E|same_core": 224.34,
+  "E|swap1": 35.46
+ },
+ "France_p5_rej_p05_th_total_per1kS1": 984.98,
+ "France_p6_band_per1kS1": {
+  "A=num&street|acronym": 12.7,
+  "A=num&street|disjoint": 24.59,
+  "A=num&street|other": 8.66,
+  "A=num&street|rec_adds": 4.52,
+  "A=num&street|rec_adds2+": 1.77,
+  "A=num&street|rec_drops": 0.96,
+  "A=num&street|rec_drops2+": 0.75,
+  "A=num&street|same_core": 6.31,
+  "A=num&street|swap1": 40.88,
+  "A~nonum|acronym": 0.5,
+  "A~nonum|disjoint": 8.46,
+  "A~nonum|other": 1.67,
+  "A~nonum|rec_adds": 0.5,
+  "A~nonum|rec_adds2+": 0.44,
+  "A~nonum|rec_drops": 1.21,
+  "A~nonum|rec_drops2+": 0.1,
+  "A~nonum|same_core": 5.8,
+  "A~nonum|swap1": 5.43,
+  "D:num_diff|acronym": 0.1,
+  "D:num_diff|disjoint": 6.99,
+  "D:num_diff|other": 1.04,
+  "D:num_diff|rec_adds": 0.56,
+  "D:num_diff|rec_adds2+": 1.88,
+  "D:num_diff|rec_drops": 2.34,
+  "D:num_diff|rec_drops2+": 0.88,
+  "D:num_diff|same_core": 22.79,
+  "D:num_diff|swap1": 12.41,
+  "D:street_diff|acronym": 1.11,
+  "D:street_diff|disjoint": 3.51,
+  "D:street_diff|other": 1.8,
+  "D:street_diff|rec_adds": 1.23,
+  "D:street_diff|rec_adds2+": 1.17,
+  "D:street_diff|rec_drops": 0.97,
+  "D:street_diff|rec_drops2+": 0.07,
+  "D:street_diff|same_core": 16.65,
+  "D:street_diff|swap1": 10.19,
+  "E|disjoint": 0.06,
+  "E|other": 0.55,
+  "E|rec_adds": 2.73,
+  "E|rec_adds2+": 4.21,
+  "E|rec_drops": 3.65,
+  "E|rec_drops2+": 0.03,
+  "E|same_core": 78.08,
+  "E|swap1": 8.98
+ },
+ "France_p6_band_total_per1kS1": 309.27,
+ "France_p6_rej_p05_th_per1kS1": {
+  "A=num&street|acronym": 17.38,
+  "A=num&street|disjoint": 61.45,
+  "A=num&street|other": 15.41,
+  "A=num&street|rec_adds": 6.96,
+  "A=num&street|rec_adds2+": 2.58,
+  "A=num&street|rec_drops": 2.18,
+  "A=num&street|rec_drops2+": 1.68,
+  "A=num&street|same_core": 11.43,
+  "A=num&street|swap1": 76.92,
+  "A~nonum|acronym": 1.13,
+  "A~nonum|disjoint": 29.49,
+  "A~nonum|other": 3.98,
+  "A~nonum|rec_adds": 1.08,
+  "A~nonum|rec_adds2+": 0.84,
+  "A~nonum|rec_drops": 2.09,
+  "A~nonum|rec_drops2+": 0.38,
+  "A~nonum|same_core": 14.87,
+  "A~nonum|swap1": 11.98,
+  "D:num_diff|acronym": 0.36,
+  "D:num_diff|disjoint": 58.55,
+  "D:num_diff|other": 3.62,
+  "D:num_diff|rec_adds": 6.01,
+  "D:num_diff|rec_adds2+": 4.17,
+  "D:num_diff|rec_drops": 5.64,
+  "D:num_diff|rec_drops2+": 2.43,
+  "D:num_diff|same_core": 65.32,
+  "D:num_diff|swap1": 34.2,
+  "D:street_diff|acronym": 2.02,
+  "D:street_diff|disjoint": 10.02,
+  "D:street_diff|other": 4.27,
+  "D:street_diff|rec_adds": 3.28,
+  "D:street_diff|rec_adds2+": 2.46,
+  "D:street_diff|rec_drops": 2.76,
+  "D:street_diff|rec_drops2+": 0.29,
+  "D:street_diff|same_core": 42.38,
+  "D:street_diff|swap1": 22.72,
+  "E|acronym": 0.0,
+  "E|disjoint": 0.21,
+  "E|other": 2.85,
+  "E|rec_adds": 26.22,
+  "E|rec_adds2+": 10.25,
+  "E|rec_drops": 22.1,
+  "E|rec_drops2+": 0.86,
+  "E|same_core": 211.26,
+  "E|swap1": 35.11
+ },
+ "France_p6_rej_p05_th_total_per1kS1": 841.15,
+ "V1_US_p_RRL_band_per1kS1": {
+  "A=num&street|acronym": [
+   0.08,
+   1.0
+  ],
+  "A=num&street|disjoint": [
+   7.48,
+   0.467
+  ],
+  "A=num&street|other": [
+   0.08,
+   0.0
+  ],
+  "A=num&street|same_core": [
+   0.33,
+   1.0
+  ],
+  "A=num&street|swap1": [
+   1.16,
+   0.5
+  ],
+  "A~nonum|disjoint": [
+   3.32,
+   0.25
+  ],
+  "A~nonum|other": [
+   0.17,
+   0.0
+  ],
+  "A~nonum|same_core": [
+   0.08,
+   0.0
+  ],
+  "A~nonum|swap1": [
+   0.25,
+   1.0
+  ],
+  "D:num_diff|disjoint": [
+   1.83,
+   0.409
+  ],
+  "D:num_diff|other": [
+   0.42,
+   0.6
+  ],
+  "D:num_diff|rec_adds": [
+   0.91,
+   0.364
+  ],
+  "D:num_diff|rec_drops": [
+   0.58,
+   0.571
+  ],
+  "D:num_diff|rec_drops2+": [
+   0.66,
+   0.75
+  ],
+  "D:num_diff|same_core": [
+   7.06,
+   0.529
+  ],
+  "D:num_diff|swap1": [
+   1.91,
+   0.826
+  ],
+  "D:street_diff|disjoint": [
+   3.24,
+   0.641
+  ],
+  "D:street_diff|rec_adds": [
+   0.25,
+   0.333
+  ],
+  "D:street_diff|rec_drops": [
+   0.25,
+   0.333
+  ],
+  "D:street_diff|same_core": [
+   1.33,
+   0.562
+  ],
+  "D:street_diff|swap1": [
+   1.25,
+   0.533
+  ],
+  "E|other": [
+   1.33,
+   0.375
+  ],
+  "E|rec_adds": [
+   3.74,
+   0.4
+  ],
+  "E|rec_adds2+": [
+   1.83,
+   0.364
+  ],
+  "E|rec_drops": [
+   3.99,
+   0.25
+  ],
+  "E|rec_drops2+": [
+   0.75,
+   0.222
+  ],
+  "E|same_core": [
+   42.11,
+   0.41
+  ],
+  "E|swap1": [
+   14.12,
+   0.412
+  ]
+ },
+ "V1_US_p_RRL_band_total_per1kS1": [
+  100.51,
+  0.434
+ ],
+ "V1_India_p_RRL_band_per1kS1": {
+  "A=num&street|acronym": [
+   0.13,
+   1.0
+  ],
+  "A=num&street|disjoint": [
+   6.03,
+   0.312
+  ],
+  "A=num&street|other": [
+   0.13,
+   0.0
+  ],
+  "A=num&street|swap1": [
+   1.13,
+   0.444
+  ],
+  "A~nonum|disjoint": [
+   1.38,
+   0.636
+  ],
+  "A~nonum|same_core": [
+   0.25,
+   0.0
+  ],
+  "A~nonum|swap1": [
+   0.63,
+   0.6
+  ],
+  "D:num_diff|disjoint": [
+   1.38,
+   0.727
+  ],
+  "D:num_diff|other": [
+   0.13,
+   0.0
+  ],
+  "D:num_diff|rec_adds": [
+   0.13,
+   1.0
+  ],
+  "D:num_diff|rec_drops": [
+   0.13,
+   0.0
+  ],
+  "D:num_diff|rec_drops2+": [
+   0.38,
+   0.0
+  ],
+  "D:num_diff|same_core": [
+   0.88,
+   0.429
+  ],
+  "D:num_diff|swap1": [
+   0.88,
+   0.286
+  ],
+  "D:street_diff|disjoint": [
+   5.9,
+   0.404
+  ],
+  "D:street_diff|other": [
+   0.38,
+   0.667
+  ],
+  "D:street_diff|rec_adds": [
+   1.13,
+   0.444
+  ],
+  "D:street_diff|rec_drops2+": [
+   2.14,
+   0.471
+  ],
+  "D:street_diff|same_core": [
+   3.27,
+   0.769
+  ],
+  "D:street_diff|swap1": [
+   2.01,
+   0.438
+  ],
+  "E|other": [
+   2.14,
+   0.529
+  ],
+  "E|rec_adds": [
+   6.91,
+   0.4
+  ],
+  "E|rec_adds2+": [
+   1.76,
+   0.5
+  ],
+  "E|rec_drops": [
+   1.63,
+   0.308
+  ],
+  "E|same_core": [
+   33.41,
+   0.395
+  ],
+  "E|swap1": [
+   11.43,
+   0.363
+  ]
+ },
+ "V1_India_p_RRL_band_total_per1kS1": [
+  85.67,
+  0.416
+ ],
+ "V1_US_p_RRL_rej_p05_th_per1kS1": {
+  "A=num&street|acronym": [
+   0.08,
+   1.0
+  ],
+  "A=num&street|disjoint": [
+   16.53,
+   0.271
+  ],
+  "A=num&street|other": [
+   0.66,
+   0.125
+  ],
+  "A=num&street|rec_drops": [
+   0.08,
+   1.0
+  ],
+  "A=num&street|same_core": [
+   0.58,
+   0.571
+  ],
+  "A=num&street|swap1": [
+   3.07,
+   0.243
+  ],
+  "A~nonum|disjoint": [
+   7.89,
+   0.189
+  ],
+  "A~nonum|other": [
+   0.33,
+   0.0
+  ],
+  "A~nonum|rec_drops": [
+   0.08,
+   1.0
+  ],
+  "A~nonum|same_core": [
+   0.17,
+   0.5
+  ],
+  "A~nonum|swap1": [
+   0.5,
+   0.5
+  ],
+  "D:num_diff|acronym": [
+   0.08,
+   1.0
+  ],
+  "D:num_diff|disjoint": [
+   6.73,
+   0.198
+  ],
+  "D:num_diff|other": [
+   1.08,
+   0.308
+  ],
+  "D:num_diff|rec_adds": [
+   1.25,
+   0.267
+  ],
+  "D:num_diff|rec_drops": [
+   0.75,
+   0.556
+  ],
+  "D:num_diff|rec_drops2+": [
+   1.33,
+   0.438
+  ],
+  "D:num_diff|same_core": [
+   19.85,
+   0.23
+  ],
+  "D:num_diff|swap1": [
+   3.9,
+   0.426
+  ],
+  "D:street_diff|disjoint": [
+   6.65,
+   0.35
+  ],
+  "D:street_diff|other": [
+   0.5,
+   0.333
+  ],
+  "D:street_diff|rec_adds": [
+   0.75,
+   0.111
+  ],
+  "D:street_diff|rec_drops": [
+   0.5,
+   0.167
+  ],
+  "D:street_diff|rec_drops2+": [
+   0.25,
+   0.333
+  ],
+  "D:street_diff|same_core": [
+   4.32,
+   0.212
+  ],
+  "D:street_diff|swap1": [
+   2.82,
+   0.324
+  ],
+  "E|disjoint": [
+   0.08,
+   0.0
+  ],
+  "E|other": [
+   4.49,
+   0.204
+  ],
+  "E|rec_adds": [
+   18.52,
+   0.202
+  ],
+  "E|rec_adds2+": [
+   3.57,
+   0.209
+  ],
+  "E|rec_drops": [
+   36.22,
+   0.087
+  ],
+  "E|rec_drops2+": [
+   6.4,
+   0.104
+  ],
+  "E|same_core": [
+   130.58,
+   0.226
+  ],
+  "E|swap1": [
+   50.09,
+   0.199
+  ]
+ },
+ "V1_US_p_RRL_rej_p05_th_total_per1kS1": [
+  330.68,
+  0.213
+ ],
+ "V1_India_p_RRL_rej_p05_th_per1kS1": {
+  "A=num&street|acronym": [
+   0.13,
+   1.0
+  ],
+  "A=num&street|disjoint": [
+   14.19,
+   0.177
+  ],
+  "A=num&street|other": [
+   0.25,
+   0.0
+  ],
+  "A=num&street|rec_adds": [
+   0.13,
+   0.0
+  ],
+  "A=num&street|rec_drops": [
+   0.13,
+   0.0
+  ],
+  "A=num&street|rec_drops2+": [
+   0.13,
+   0.0
+  ],
+  "A=num&street|same_core": [
+   0.25,
+   0.0
+  ],
+  "A=num&street|swap1": [
+   2.01,
+   0.312
+  ],
+  "A~nonum|disjoint": [
+   2.64,
+   0.429
+  ],
+  "A~nonum|other": [
+   0.38,
+   0.0
+  ],
+  "A~nonum|rec_drops2+": [
+   0.13,
+   1.0
+  ],
+  "A~nonum|same_core": [
+   0.63,
+   0.0
+  ],
+  "A~nonum|swap1": [
+   0.63,
+   0.6
+  ],
+  "D:num_diff|disjoint": [
+   3.01,
+   0.417
+  ],
+  "D:num_diff|other": [
+   0.25,
+   0.0
+  ],
+  "D:num_diff|rec_adds": [
+   0.38,
+   0.667
+  ],
+  "D:num_diff|rec_adds2+": [
+   0.13,
+   0.0
+  ],
+  "D:num_diff|rec_drops": [
+   0.13,
+   0.0
+  ],
+  "D:num_diff|rec_drops2+": [
+   0.88,
+   0.143
+  ],
+  "D:num_diff|same_core": [
+   2.39,
+   0.316
+  ],
+  "D:num_diff|swap1": [
+   2.64,
+   0.095
+  ],
+  "D:street_diff|disjoint": [
+   19.47,
+   0.187
+  ],
+  "D:street_diff|other": [
+   1.26,
+   0.3
+  ],
+  "D:street_diff|rec_adds": [
+   1.63,
+   0.231
+  ],
+  "D:street_diff|rec_adds2+": [
+   0.25,
+   0.0
+  ],
+  "D:street_diff|rec_drops": [
+   0.25,
+   0.0
+  ],
+  "D:street_diff|rec_drops2+": [
+   6.03,
+   0.292
+  ],
+  "D:street_diff|same_core": [
+   6.41,
+   0.431
+  ],
+  "D:street_diff|swap1": [
+   5.4,
+   0.279
+  ],
+  "E|disjoint": [
+   0.5,
+   0.0
+  ],
+  "E|other": [
+   7.03,
+   0.25
+  ],
+  "E|rec_adds": [
+   34.04,
+   0.137
+  ],
+  "E|rec_adds2+": [
+   5.28,
+   0.167
+  ],
+  "E|rec_drops": [
+   7.16,
+   0.158
+  ],
+  "E|rec_drops2+": [
+   0.5,
+   0.0
+  ],
+  "E|same_core": [
+   122.97,
+   0.178
+  ],
+  "E|swap1": [
+   48.61,
+   0.15
+  ]
+ },
+ "V1_India_p_RRL_rej_p05_th_total_per1kS1": [
+  298.2,
+  0.186
+ ],
+ "V1_US_p_NEW_band_per1kS1": {
+  "A=num&street|disjoint": [
+   7.06,
+   0.518
+  ],
+  "A=num&street|other": [
+   0.58,
+   0.143
+  ],
+  "A=num&street|rec_drops": [
+   0.08,
+   1.0
+  ],
+  "A=num&street|same_core": [
+   0.42,
+   0.6
+  ],
+  "A=num&street|swap1": [
+   1.99,
+   0.417
+  ],
+  "A~nonum|disjoint": [
+   3.82,
+   0.326
+  ],
+  "A~nonum|other": [
+   0.08,
+   0.0
+  ],
+  "A~nonum|rec_adds": [
+   0.08,
+   1.0
+  ],
+  "A~nonum|same_core": [
+   0.25,
+   0.667
+  ],
+  "A~nonum|swap1": [
+   0.17,
+   1.0
+  ],
+  "D:num_diff|disjoint": [
+   1.99,
+   0.417
+  ],
+  "D:num_diff|other": [
+   0.75,
+   0.333
+  ],
+  "D:num_diff|rec_adds": [
+   0.66,
+   0.125
+  ],
+  "D:num_diff|rec_drops": [
+   0.33,
+   0.75
+  ],
+  "D:num_diff|rec_drops2+": [
+   0.75,
+   0.444
+  ],
+  "D:num_diff|same_core": [
+   6.4,
+   0.519
+  ],
+  "D:num_diff|swap1": [
+   2.08,
+   0.8
+  ],
+  "D:street_diff|disjoint": [
+   3.41,
+   0.512
+  ],
+  "D:street_diff|other": [
+   0.25,
+   0.0
+  ],
+  "D:street_diff|rec_adds": [
+   0.33,
+   0.5
+  ],
+  "D:street_diff|rec_drops": [
+   0.42,
+   0.4
+  ],
+  "D:street_diff|rec_drops2+": [
+   0.17,
+   0.5
+  ],
+  "D:street_diff|same_core": [
+   2.33,
+   0.357
+  ],
+  "D:street_diff|swap1": [
+   1.41,
+   0.706
+  ],
+  "E|other": [
+   1.16,
+   0.357
+  ],
+  "E|rec_adds": [
+   4.4,
+   0.34
+  ],
+  "E|rec_adds2+": [
+   1.5,
+   0.333
+  ],
+  "E|rec_drops": [
+   3.82,
+   0.217
+  ],
+  "E|rec_drops2+": [
+   0.75,
+   0.222
+  ],
+  "E|same_core": [
+   42.28,
+   0.426
+  ],
+  "E|swap1": [
+   13.95,
+   0.387
+  ]
+ },
+ "V1_US_p_NEW_band_total_per1kS1": [
+  103.66,
+  0.425
+ ],
+ "V1_India_p_NEW_band_per1kS1": {
+  "A=num&street|acronym": [
+   0.25,
+   1.0
+  ],
+  "A=num&street|disjoint": [
+   6.28,
+   0.32
+  ],
+  "A=num&street|rec_drops": [
+   0.13,
+   0.0
+  ],
+  "A=num&street|rec_drops2+": [
+   0.13,
+   0.0
+  ],
+  "A=num&street|same_core": [
+   0.63,
+   0.4
+  ],
+  "A=num&street|swap1": [
+   2.26,
+   0.444
+  ],
+  "A~nonum|disjoint": [
+   1.38,
+   0.636
+  ],
+  "A~nonum|other": [
+   0.13,
+   0.0
+  ],
+  "A~nonum|rec_adds2+": [
+   0.13,
+   1.0
+  ],
+  "A~nonum|rec_drops2+": [
+   0.13,
+   1.0
+  ],
+  "A~nonum|same_core": [
+   0.63,
+   0.4
+  ],
+  "A~nonum|swap1": [
+   0.5,
+   0.25
+  ],
+  "D:num_diff|disjoint": [
+   1.63,
+   0.692
+  ],
+  "D:num_diff|other": [
+   0.38,
+   0.333
+  ],
+  "D:num_diff|rec_adds": [
+   0.5,
+   1.0
+  ],
+  "D:num_diff|rec_adds2+": [
+   0.25,
+   0.5
+  ],
+  "D:num_diff|rec_drops2+": [
+   0.75,
+   0.5
+  ],
+  "D:num_diff|same_core": [
+   2.01,
+   0.438
+  ],
+  "D:num_diff|swap1": [
+   2.64,
+   0.381
+  ],
+  "D:street_diff|disjoint": [
+   5.78,
+   0.413
+  ],
+  "D:street_diff|other": [
+   0.88,
+   0.429
+  ],
+  "D:street_diff|rec_adds": [
+   1.38,
+   0.545
+  ],
+  "D:street_diff|rec_adds2+": [
+   0.25,
+   0.5
+  ],
+  "D:street_diff|rec_drops": [
+   0.13,
+   0.0
+  ],
+  "D:street_diff|rec_drops2+": [
+   4.02,
+   0.438
+  ],
+  "D:street_diff|same_core": [
+   4.4,
+   0.571
+  ],
+  "D:street_diff|swap1": [
+   3.39,
+   0.481
+  ],
+  "E|other": [
+   2.01,
+   0.438
+  ],
+  "E|rec_adds": [
+   8.29,
+   0.394
+  ],
+  "E|rec_adds2+": [
+   1.38,
+   0.455
+  ],
+  "E|rec_drops": [
+   2.01,
+   0.312
+  ],
+  "E|same_core": [
+   35.05,
+   0.419
+  ],
+  "E|swap1": [
+   12.56,
+   0.4
+  ]
+ },
+ "V1_India_p_NEW_band_total_per1kS1": [
+  102.25,
+  0.429
+ ],
+ "V1_US_p_NEW_rej_p05_th_per1kS1": {
+  "A=num&street|acronym": [
+   0.08,
+   1.0
+  ],
+  "A=num&street|disjoint": [
+   17.11,
+   0.301
+  ],
+  "A=num&street|other": [
+   1.25,
+   0.067
+  ],
+  "A=num&street|rec_drops": [
+   0.08,
+   1.0
+  ],
+  "A=num&street|rec_drops2+": [
+   0.08,
+   1.0
+  ],
+  "A=num&street|same_core": [
+   1.0,
+   0.333
+  ],
+  "A=num&street|swap1": [
+   4.65,
+   0.339
+  ],
+  "A~nonum|disjoint": [
+   8.39,
+   0.238
+  ],
+  "A~nonum|other": [
+   0.33,
+   0.0
+  ],
+  "A~nonum|rec_adds": [
+   0.08,
+   1.0
+  ],
+  "A~nonum|rec_drops": [
+   0.08,
+   1.0
+  ],
+  "A~nonum|same_core": [
+   0.33,
+   0.75
+  ],
+  "A~nonum|swap1": [
+   0.5,
+   0.5
+  ],
+  "D:num_diff|acronym": [
+   0.08,
+   1.0
+  ],
+  "D:num_diff|disjoint": [
+   7.48,
+   0.233
+  ],
+  "D:num_diff|other": [
+   1.5,
+   0.222
+  ],
+  "D:num_diff|rec_adds": [
+   1.58,
+   0.316
+  ],
+  "D:num_diff|rec_drops": [
+   0.5,
+   0.5
+  ],
+  "D:num_diff|rec_drops2+": [
+   1.33,
+   0.5
+  ],
+  "D:num_diff|same_core": [
+   23.26,
+   0.214
+  ],
+  "D:num_diff|swap1": [
+   5.23,
+   0.444
+  ],
+  "D:street_diff|acronym": [
+   0.08,
+   1.0
+  ],
+  "D:street_diff|disjoint": [
+   7.39,
+   0.36
+  ],
+  "D:street_diff|other": [
+   1.0,
+   0.167
+  ],
+  "D:street_diff|rec_adds": [
+   0.75,
+   0.222
+  ],
+  "D:street_diff|rec_drops": [
+   0.91,
+   0.455
+  ],
+  "D:street_diff|rec_drops2+": [
+   0.33,
+   0.5
+  ],
+  "D:street_diff|same_core": [
+   6.56,
+   0.241
+  ],
+  "D:street_diff|swap1": [
+   4.15,
+   0.4
+  ],
+  "E|disjoint": [
+   0.17,
+   0.0
+  ],
+  "E|other": [
+   4.9,
+   0.22
+  ],
+  "E|rec_adds": [
+   20.85,
+   0.183
+  ],
+  "E|rec_adds2+": [
+   3.74,
+   0.222
+  ],
+  "E|rec_drops": [
+   37.13,
+   0.085
+  ],
+  "E|rec_drops2+": [
+   6.06,
+   0.11
+  ],
+  "E|same_core": [
+   132.74,
+   0.231
+  ],
+  "E|swap1": [
+   50.09,
+   0.212
+  ]
+ },
+ "V1_US_p_NEW_rej_p05_th_total_per1kS1": [
+  351.77,
+  0.224
+ ],
+ "V1_India_p_NEW_rej_p05_th_per1kS1": {
+  "A=num&street|acronym": [
+   0.25,
+   1.0
+  ],
+  "A=num&street|disjoint": [
+   17.84,
+   0.197
+  ],
+  "A=num&street|other": [
+   0.5,
+   0.0
+  ],
+  "A=num&street|rec_drops": [
+   0.13,
+   0.0
+  ],
+  "A=num&street|rec_drops2+": [
+   0.63,
+   0.2
+  ],
+  "A=num&street|same_core": [
+   1.0,
+   0.25
+  ],
+  "A=num&street|swap1": [
+   3.89,
+   0.419
+  ],
+  "A~nonum|disjoint": [
+   2.51,
+   0.45
+  ],
+  "A~nonum|other": [
+   0.25,
+   0.0
+  ],
+  "A~nonum|rec_adds2+": [
+   0.13,
+   1.0
+  ],
+  "A~nonum|rec_drops2+": [
+   0.25,
+   0.5
+  ],
+  "A~nonum|same_core": [
+   0.88,
+   0.286
+  ],
+  "A~nonum|swap1": [
+   0.75,
+   0.333
+  ],
+  "D:num_diff|disjoint": [
+   4.15,
+   0.455
+  ],
+  "D:num_diff|other": [
+   1.0,
+   0.375
+  ],
+  "D:num_diff|rec_adds": [
+   1.0,
+   0.75
+  ],
+  "D:num_diff|rec_adds2+": [
+   0.25,
+   0.5
+  ],
+  "D:num_diff|rec_drops2+": [
+   2.14,
+   0.176
+  ],
+  "D:num_diff|same_core": [
+   3.39,
+   0.37
+  ],
+  "D:num_diff|swap1": [
+   4.65,
+   0.216
+  ],
+  "D:street_diff|disjoint": [
+   21.23,
+   0.213
+  ],
+  "D:street_diff|other": [
+   1.76,
+   0.286
+  ],
+  "D:street_diff|rec_adds": [
+   1.88,
+   0.467
+  ],
+  "D:street_diff|rec_adds2+": [
+   0.38,
+   0.333
+  ],
+  "D:street_diff|rec_drops": [
+   0.38,
+   0.333
+  ],
+  "D:street_diff|rec_drops2+": [
+   10.68,
+   0.306
+  ],
+  "D:street_diff|same_core": [
+   8.54,
+   0.368
+  ],
+  "D:street_diff|swap1": [
+   8.79,
+   0.343
+  ],
+  "E|disjoint": [
+   0.5,
+   0.0
+  ],
+  "E|other": [
+   5.9,
+   0.319
+  ],
+  "E|rec_adds": [
+   37.68,
+   0.14
+  ],
+  "E|rec_adds2+": [
+   5.78,
+   0.217
+  ],
+  "E|rec_drops": [
+   7.66,
+   0.164
+  ],
+  "E|rec_drops2+": [
+   0.25,
+   0.0
+  ],
+  "E|same_core": [
+   127.37,
+   0.187
+  ],
+  "E|swap1": [
+   48.24,
+   0.177
+  ]
+ },
+ "V1_India_p_NEW_rej_p05_th_total_per1kS1": [
+  332.62,
+  0.214
+ ]
+}

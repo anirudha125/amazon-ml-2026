@@ -1,0 +1,21 @@
+{
+ "init": "intfloat/multilingual-e5-large",
+ "rev": "3d7cfbdacd47fdda877c5cd8a79fbcc4f2a574f3",
+ "n_pairs": 1000000,
+ "epochs": 1.0,
+ "bs": 256,
+ "micro": 128,
+ "lr": 5e-05,
+ "seed": 42,
+ "wd": 0.01,
+ "steps": 3907,
+ "t_train": 1840.8,
+ "pairs_per_s": 543,
+ "vram_peak_gb": 25.2,
+ "gpu_util_mean": 96.93612334801762,
+ "gpu_mem_used_max_mb": 38963.0,
+ "final_loss": 0.03856759721483104,
+ "attn": "sdpa",
+ "n_tok": 3,
+ "n_params": 559891457
+}

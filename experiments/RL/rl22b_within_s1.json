@@ -1,0 +1,26 @@
+{
+ "C1_pairs": 31046,
+ "C1_pos": 1324,
+ "strict": {
+  "pairs": 29289,
+  "pos": 956,
+  "s1_with_both": 576,
+  "within_s1_auc_mean": 0.669,
+  "accepted_pos": 6,
+  "accepted_neg": 20,
+  "pos_accept_rate": 0.006,
+  "suffix_agree_pos": 0.508,
+  "suffix_agree_neg": 0.282
+ },
+ "loose": {
+  "pairs": 1757,
+  "pos": 368,
+  "s1_with_both": 114,
+  "within_s1_auc_mean": 0.877,
+  "accepted_pos": 236,
+  "accepted_neg": 58,
+  "pos_accept_rate": 0.641,
+  "suffix_agree_pos": 0.546,
+  "suffix_agree_neg": 0.037
+ }
+}

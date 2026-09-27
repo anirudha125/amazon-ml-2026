@@ -1,0 +1,10 @@
+# GPU / neural dependencies (reranker E018, frozen embeddings E017). Versions used on Kaggle 2xT4.
+# Install torch with the CUDA build matching the machine (H200: CUDA 12.x), e.g.
+#   pip install torch==2.10.0 --index-url https://download.pytorch.org/whl/cu128
+torch==2.10.0
+transformers==5.0.0
+sentence-transformers==5.4.1
+# Models (download once, pinned commits, both MIT; see DOWNLOAD_LOG.md):
+#   intfloat/multilingual-e5-small @ 614241f622f53c4eeff9890bdc4f31cfecc418b3  (117,653,760 params; E017/E018)
+#   intfloat/multilingual-e5-base  @ d128750597153bb5987e10b1c3493a34e5a4502a  (~278M; E018b aborted, no results)
+# The fine-tuned production reranker is experiments/E017_embed/reranker_e5small_full.zip (fp16 weights + tokenizer).

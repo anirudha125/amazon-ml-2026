@@ -1,0 +1,21 @@
+{
+ "tag": "S005_RL27NEW_s42",
+ "maxclaim": true,
+ "stats": {
+  "US": {
+   "n_s1": 663106,
+   "pred_pairs": 2236158,
+   "maxclaim_removed": 375
+  },
+  "India": {
+   "n_s1": 809986,
+   "pred_pairs": 2728351,
+   "maxclaim_removed": 2512
+  },
+  "France": {
+   "n_s1": 259452,
+   "pred_pairs": 854396,
+   "maxclaim_removed": 24933
+  }
+ }
+}

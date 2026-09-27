@@ -1,0 +1,3802 @@
+{
+ "S005_France": {
+  "F1_dist_s0.5": [
+   {
+    "s1": "S1-986951896",
+    "s1_name": "Maison Generations SAS",
+    "s1_addr": "32 Avenue du Bassin, L\u00e8ge-Cap-Ferret, Nouvelle-Aquitaine",
+    "rec": "S3-709533409",
+    "rec_name": "Maison Gngarltinos SAS",
+    "rec_addr": "32 - Avenue Du Bassin, L\u00e8ge-cap-ferret",
+    "p": 0.9999,
+    "smax": 0.946
+   },
+   {
+    "s1": "S1-175934808",
+    "s1_name": "Terres Federation SARL",
+    "s1_addr": "Hauts-de-France, 18 Cour Lenfant, Lille",
+    "rec": "S3-662005598",
+    "rec_name": "Terres  SARL Cie",
+    "rec_addr": "18 Cour Lenfant, Lille, Nord",
+    "p": 0.9994,
+    "smax": 0.5
+   },
+   {
+    "s1": "S1-950261834",
+    "s1_name": "Promotion Sport SARL",
+    "s1_addr": "73 Bis Rue Edison, Nantes, Pays de la Loire",
+    "rec": "S2-540901610",
+    "rec_name": "Sarl Promotion Lycee",
+    "rec_addr": "73 BIS RUE EDISON, Nantes",
+    "p": 0.9846,
+    "smax": 0.515
+   },
+   {
+    "s1": "S1-765416626",
+    "s1_name": "F\u00e9d\u00e9ration du Clinadent",
+    "s1_addr": "23 Rue Carpenteyre, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "S2-411047470",
+    "rec_name": "F\u00c9D\u00c9RATION CLINADENT",
+    "rec_addr": "23 RUE CARPENTEYRE, BORDEAUX, Nouvelle-Aquitaine",
+    "p": 1.0,
+    "smax": 0.749
+   },
+   {
+    "s1": "S1-582749121",
+    "s1_name": "UD Medical",
+    "s1_addr": "Bordeaux, Nouvelle-Aquitaine, 94 Rue Malbec",
+    "rec": "S2-351587400",
+    "rec_name": "UD MHCFNCAL",
+    "rec_addr": "94 RUE MALBEC, BORDEAUX, Nouvelle-Aquitaine",
+    "p": 0.9999,
+    "smax": 0.563
+   },
+   {
+    "s1": "S1-409032390",
+    "s1_name": "Club de Citoyen",
+    "s1_addr": "34 Rue Lino Ventura, Pessac, Nouvelle-Aquitaine",
+    "rec": "S3-800617260",
+    "rec_name": "Club  de Citoyen Federation",
+    "rec_addr": "34 Rue Lino Ventra, Pessac, Nouvelle-Aquitaine",
+    "p": 0.9998,
+    "smax": 0.5
+   },
+   {
+    "s1": "S1-927673220",
+    "s1_name": "Amicale du Futsal",
+    "s1_addr": "1 t avenue de l'oc\u00e9an, L\u00e8ge-Cap-Ferret, Nouvelle-Aquitaine",
+    "rec": "S3-103731589",
+    "rec_name": "Amicale du Futsml",
+    "rec_addr": "1 T Avenue De L'oc\u00e9an, L\u00e8ge-cap-ferret, Nouvelle-Aquitaine",
+    "p": 0.9998,
+    "smax": 0.938
+   },
+   {
+    "s1": "S1-942047408",
+    "s1_name": "Associations Institut EURL",
+    "s1_addr": "30 All\u00e9e Julien Duvivier, Saint-Nazaire, Pays de la Loire",
+    "rec": "S3-612305541",
+    "rec_name": "Associations Loisirs EURL",
+    "rec_addr": "30 Allee Julien Duvvier, Saint-nazaire",
+    "p": 0.9606,
+    "smax": 0.558
+   }
+  ],
+  "F1_dist_s0.7": [
+   {
+    "s1": "S1-459802715",
+    "s1_name": "\u00c9cole primaire du Citoyen",
+    "s1_addr": "39 Rue des \u00c9coles, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "S2-864112466",
+    "rec_name": "\u00c9cole primaire du Ctioyen",
+    "rec_addr": "BORDEAUX, NO 39 R DES \u00c9COLES, Nouvelle-Aquitaine",
+    "p": 0.9998,
+    "smax": 0.946
+   },
+   {
+    "s1": "S1-524156687",
+    "s1_name": "Maison Moulins SAS",
+    "s1_addr": "10 Passage Robin, Nantes, Pays de la Loire",
+    "rec": "S3-325373570",
+    "rec_name": "Maison Momns  SAS",
+    "rec_addr": "10 Passage Robin, Nantes, Pays de la Loire",
+    "p": 0.9999,
+    "smax": 0.797
+   },
+   {
+    "s1": "S1-55154567",
+    "s1_name": "\u00c9tablissements 4l EI",
+    "s1_addr": "17 Rue Bourignon, Lille, Hauts-de-France",
+    "rec": "S3-489723032",
+    "rec_name": "\u00c9tablissements 4l El",
+    "rec_addr": "",
+    "p": 0.9426,
+    "smax": 0.781
+   },
+   {
+    "s1": "S1-725162559",
+    "s1_name": "\u00c9tablissements Arcades SAS",
+    "s1_addr": "Nouvelle-Aquitaine, La Teste-de-Buch, 50 Avenue de Biscarrosse Pyla",
+    "rec": "S2-590108838",
+    "rec_name": "SAS \u00c9tablissements Ardaces",
+    "rec_addr": "50 AVENUE DE BISCARROSSE PYLA, La Teste-de-Buch, Nouvelle-Aquitaine",
+    "p": 0.9995,
+    "smax": 0.751
+   },
+   {
+    "s1": "S1-365855405",
+    "s1_name": "EHPAD du Shotokan",
+    "s1_addr": "27 Rue de la Commune de Paris, Saint-Nazaire, Pays de la Loire",
+    "rec": "S2-466374393",
+    "rec_name": "EHPAD Shotokan",
+    "rec_addr": "NO 27 RUE DE LA COMMUNE DE PARIS, SAINT-NAZAIRE, Pays de la Loire",
+    "p": 1.0,
+    "smax": 0.749
+   },
+   {
+    "s1": "S1-515242506",
+    "s1_name": "Maison Filles SARL",
+    "s1_addr": "67 Rue du Luxembourg, Tourcoing, Hauts-de-France",
+    "rec": "S3-810363282",
+    "rec_name": "Maison  Fille SARL",
+    "rec_addr": "67 Rue Du Luxecbourg, Nord, Tourcoing",
+    "p": 0.9989,
+    "smax": 1.0
+   },
+   {
+    "s1": "S1-667840013",
+    "s1_name": "Union des Sapeurs",
+    "s1_addr": "152 Avenue Arthur Notebart, Hauts-de-France, Lille",
+    "rec": "S2-188995987",
+    "rec_name": "Union des Sepurs",
+    "rec_addr": "152 AV. ARTHUR NOTEBART, LILLE",
+    "p": 0.9999,
+    "smax": 0.936
+   },
+   {
+    "s1": "S1-165864887",
+    "s1_name": "Centre M\u00e9dical Sainte Lassociation",
+    "s1_addr": "19 bis Rue Lebrix Mesmin, M\u00e9rignac, Nouvelle-Aquitaine",
+    "rec": "S3-369055086",
+    "rec_name": "Centre M\u00e9dical Sainte Lasociaiion",
+    "rec_addr": "19 Bis Rue Lebrix Mesmin, Merignac",
+    "p": 0.9999,
+    "smax": 0.967
+   }
+  ],
+  "F1_dist_s0.9": [
+   {
+    "s1": "S1-725671432",
+    "s1_name": "Depot Diaspora Ecole SARL",
+    "s1_addr": "11 Impasse Chanau, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "S3-900066719",
+    "rec_name": "Depot Dasra Ecole SARL",
+    "rec_addr": "11 Imp Chanau, Bordeaux, Nouvelle-Aquitaine",
+    "p": 0.9996,
+    "smax": 1.0
+   },
+   {
+    "s1": "S1-240268167",
+    "s1_name": "Centre Hospitalier du Infirmiers",
+    "s1_addr": "37 Rue de l'Abb\u00e9 Lemire, Tourcoing, Hauts-de-France",
+    "rec": "S3-479869127",
+    "rec_name": "Centre Hospitalier du Iisfirmiebsr",
+    "rec_addr": "37 Rue De L'abbe Lemire, Tourcoing",
+    "p": 0.9999,
+    "smax": 0.95
+   },
+   {
+    "s1": "S1-129647296",
+    "s1_name": "Club des Albert",
+    "s1_addr": "Saint-Herblain, 10 All\u00e9e Pablo Picasso, Pays de la Loire",
+    "rec": "S2-31224013",
+    "rec_name": "Club des  Albrt",
+    "rec_addr": "N\u00b010 ALL\u00c9E PABLO PIASSO, SAINT-HERBLAIN, Loire-Atlantique",
+    "p": 0.9996,
+    "smax": 1.0
+   },
+   {
+    "s1": "S1-852089178",
+    "s1_name": "Loco Culture EURL",
+    "s1_addr": "70 h Rue de la Pomme d'Or, Calais, Hauts-de-France",
+    "rec": "S2-567863120",
+    "rec_name": "L0co  Culture EURL",
+    "rec_addr": "N\u00b070 H RUE DE LA POMME D'OR, Calais",
+    "p": 0.9999,
+    "smax": 1.0
+   },
+   {
+    "s1": "S1-515822065",
+    "s1_name": "Club de Ensemble",
+    "s1_addr": "12 Rue de Wagram, Tourcoing, Hauts-de-France",
+    "rec": "S3-930533276",
+    "rec_name": "Club De Enbsemble",
+    "rec_addr": "12 R. De Wagram, Tourcoing",
+    "p": 0.9998,
+    "smax": 0.914
+   },
+   {
+    "s1": "S1-778721398",
+    "s1_name": "\u00c9tablissements Classe SAS",
+    "s1_addr": "60 Quai des Chartrons, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "S2-120058666",
+    "rec_name": "\u00c9tablissements  Ctlade SAS",
+    "rec_addr": "60 QUAI DES CHARTRONS, BORDEAUX, Gironde",
+    "p": 0.9999,
+    "smax": 0.93
+   },
+   {
+    "s1": "S1-325020326",
+    "s1_name": "Amicale des Vivre",
+    "s1_addr": "8 PL des Quinconces, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "S3-218782422",
+    "rec_name": "Amicale des Vceer",
+    "rec_addr": "Bordeaux, 8 Pl Des Quinconces",
+    "p": 0.9998,
+    "smax": 0.932
+   },
+   {
+    "s1": "S1-81684052",
+    "s1_name": "\u00c9tablissements Nationale EURL",
+    "s1_addr": "48 Route de la Ville aux F\u00e8ves, La Baule-Escoublac, Pays de la Loire",
+    "rec": "S2-761896740",
+    "rec_name": "\u00c9tablissements Naatinale  EURL",
+    "rec_addr": "48 ROUTE DE LA VILLE AUX F\u00c8VES, LA BAULE-ESCOUBLAC, Pays de la Loire",
+    "p": 0.9998,
+    "smax": 0.93
+   }
+  ],
+  "F1_dist_s0.5_sameaddr": [
+   {
+    "s1": "S1-975005713",
+    "s1_name": "Pause Loisirs SARL",
+    "s1_addr": "303 Rue J F et Maurice Delannoy, Calais, Hauts-de-France",
+    "rec": "S2-678516764",
+    "rec_name": "PAUSE  LOISIR SARL",
+    "rec_addr": "CALAIS, 303 RUE J F ET MAURICE DELANNOY, Hauts-de-France",
+    "p": 0.9999,
+    "smax": 0.666
+   },
+   {
+    "s1": "S1-719673921",
+    "s1_name": "Sincerite Tournemire Lyc\u00e9e EURL",
+    "s1_addr": "27 RUE de Brigode, Lille, Hauts-de-France",
+    "rec": "S2-174095985",
+    "rec_name": "SINCERITE TOURNEMIRE EURL  FRANCE",
+    "rec_addr": "27 RUE DE BRIGODE, LILLE, Hauts-de-France",
+    "p": 0.9953,
+    "smax": 0.515
+   },
+   {
+    "s1": "S1-453601713",
+    "s1_name": "Choeur & Cie SARL",
+    "s1_addr": "15 Rue Louis Garneray, Calais, Hauts-de-France",
+    "rec": "S2-528424811",
+    "rec_name": "Cgcour & Cie SARL",
+    "rec_addr": "15 R. LOUIS GARNERAY, Pas-de-Calais, Calais",
+    "p": 0.9982,
+    "smax": 0.943
+   },
+   {
+    "s1": "S1-784657285",
+    "s1_name": "Institut Kmg",
+    "s1_addr": "68 Rue Jean Bart, Lille, Hauts-de-France",
+    "rec": "S3-719976854",
+    "rec_name": "Iosttut Kmg",
+    "rec_addr": "68 Rue Jean Bart, Lille",
+    "p": 0.9997,
+    "smax": 0.558
+   },
+   {
+    "s1": "S1-412117133",
+    "s1_name": "Bordeaux Comite SAS",
+    "s1_addr": "62 Boulevard Albert 1er, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "S3-820282708",
+    "rec_name": "(Sas) 8ordeaux Comite",
+    "rec_addr": "62 Bd Albret 1er, Bordeaux",
+    "p": 0.9996,
+    "smax": 0.985
+   },
+   {
+    "s1": "S1-859836550",
+    "s1_name": "Mcm Communale Maison SAS",
+    "s1_addr": "18 Rue de Bruges, Tourcoing, Hauts-de-France",
+    "rec": "S2-41712",
+    "rec_name": "Mcm Communale Automobile SAS",
+    "rec_addr": "N\u00b0 18 RUE DE BRUGES, TOURCOING, Nord",
+    "p": 0.9287,
+    "smax": 0.565
+   },
+   {
+    "s1": "S1-473945716",
+    "s1_name": "\u00c9cole primaire Saint Marie",
+    "s1_addr": "52 Avenue Alice Milliat, Nantes, Pays de la Loire",
+    "rec": "S3-318332825",
+    "rec_name": "\u00c9cole primaire St Marie",
+    "rec_addr": "52 - Avenue Alice Milliat, Nantes",
+    "p": 0.9999,
+    "smax": 0.569
+   },
+   {
+    "s1": "S1-238393927",
+    "s1_name": "Ancien Dynamique Comite SAS",
+    "s1_addr": "100 Rue Mass\u00e9na, Lille, Hauts-de-France",
+    "rec": "S3-16214618",
+    "rec_name": "Ancien Dynamiqlge Comite SAS",
+    "rec_addr": "100 R. Mass\u00e9na, Nord, Lille",
+    "p": 0.9996,
+    "smax": 0.916
+   }
+  ],
+  "F1_dist_s0.5_subst": [
+   {
+    "s1": "S1-715736988",
+    "s1_name": "Personnel & Fr\u00e8res EURL",
+    "s1_addr": "101 Rue Baudry Lacantinerie, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "S2-526593706",
+    "rec_name": "EURL Personnel & Frs",
+    "rec_addr": "101 - R. BAUDRY LACANTINERIE, Bordeaux, Gironde",
+    "p": 0.9999,
+    "smax": 0.503
+   },
+   {
+    "s1": "S1-510940698",
+    "s1_name": "Employeurs Maison EURL",
+    "s1_addr": "33 Avenue Phenix Haut-Brion, Pessac, Nouvelle-Aquitaine",
+    "rec": "S3-808304969",
+    "rec_name": "Employeurs Main EURL",
+    "rec_addr": "33 Avenue Phenix Haut-brion, Pessac, Gironde",
+    "p": 0.9778,
+    "smax": 0.887
+   },
+   {
+    "s1": "S1-267915406",
+    "s1_name": "Nou Federation SARL",
+    "s1_addr": "5 La Fontaine Brisset, Pornic, Pays de la Loire",
+    "rec": "S2-332340973",
+    "rec_name": "NOU SARL  FRANCE",
+    "rec_addr": "PORNIC, 5 LA FONTAINE BRISSET",
+    "p": 0.9139,
+    "smax": 0.5
+   },
+   {
+    "s1": "S1-469882943",
+    "s1_name": "Temple Lyc\u00e9e SARL",
+    "s1_addr": "38 Rue des Sabli\u00e8res, Nouvelle-Aquitaine, Bordeaux",
+    "rec": "S2-650268660",
+    "rec_name": "SARL Temple Le",
+    "rec_addr": "Bordeaux, 38 R. DES SABLIERES",
+    "p": 0.998,
+    "smax": 0.515
+   },
+   {
+    "s1": "S1-451666904",
+    "s1_name": "Maison A&c SARL",
+    "s1_addr": "2 Rue Viala, Calais, Hauts-de-France",
+    "rec": "S3-506513723",
+    "rec_name": "Maaisnn A&C SARL",
+    "rec_addr": "2 R. Viala, Calais",
+    "p": 0.9988,
+    "smax": 0.565
+   },
+   {
+    "s1": "S1-717841886",
+    "s1_name": "Protection (France) Maison SAS",
+    "s1_addr": "65 Rue du Touquet, Tourcoing, Hauts-de-France",
+    "rec": "S3-768766539",
+    "rec_name": "Protection (France) Societe SAS",
+    "rec_addr": "(67) Rue Du Touquet, Tourcoing, Hauts-de-France",
+    "p": 0.9306,
+    "smax": 0.565
+   },
+   {
+    "s1": "S1-511719650",
+    "s1_name": "EHPAD de Sainte",
+    "s1_addr": "18 Place Am\u00e9d\u00e9e Larrieu, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "S3-957186140",
+    "rec_name": "EHPAL de  Sainte",
+    "rec_addr": "0018 Pl Am\u00e9d\u00e9e Larrieu, Bordeaux, Nouvelle-Aquitaine",
+    "p": 0.902,
+    "smax": 0.565
+   },
+   {
+    "s1": "S1-204533436",
+    "s1_name": "Karate Amis SARL",
+    "s1_addr": "39 ALL Nicolas Copernic, residence du Mousquet, Pessac, Nouvelle-Aquitaine",
+    "rec": "S2-581412118",
+    "rec_name": "SARL KARATE AS",
+    "rec_addr": "39 ALL NICOLAS COPERNIC, Pessac",
+    "p": 0.9991,
+    "smax": 0.666
+   }
+  ],
+  "F1_dist_s0.5_onesided": [
+   {
+    "s1": "S1-591951601",
+    "s1_name": "Amicale de Football",
+    "s1_addr": "172 Rue d'Esquermes, Lille, Hauts-de-France",
+    "rec": "S3-620256756",
+    "rec_name": "Football Amicale",
+    "rec_addr": "172 Rue d'Esquermes, Lille, Hauts-de-France",
+    "p": 1.0,
+    "smax": 0.683
+   },
+   {
+    "s1": "S1-250644834",
+    "s1_name": "F\u00e9d\u00e9ration du Pagney",
+    "s1_addr": "7 ter Rue des Ecureuils, La Teste-de-Buch, Nouvelle-Aquitaine",
+    "rec": "S2-93166946",
+    "rec_name": "F\u00e9d\u00e9ration Pagney",
+    "rec_addr": "7 TER RUE DES ECUREUILS, LA TESTE-DE-BUCH, Nouvelle-Aquitaine",
+    "p": 1.0,
+    "smax": 0.749
+   },
+   {
+    "s1": "S1-643608446",
+    "s1_name": "Amicale de Lei",
+    "s1_addr": "31 Avenue Albert de Mun, Saint-Nazaire, Pays de la Loire",
+    "rec": "S3-850237438",
+    "rec_name": "Amicale Lei",
+    "rec_addr": "No. 31 Av Albret De Mun, Saint-nazaire, Pays de la Loire",
+    "p": 0.9999,
+    "smax": 0.683
+   },
+   {
+    "s1": "S1-380319410",
+    "s1_name": "F\u00e9d\u00e9ration des Passeurs",
+    "s1_addr": "5 All\u00e9e les Boutons d'Or, Pessac, Nouvelle-Aquitaine",
+    "rec": "S2-442367575",
+    "rec_name": "F\u00e9d\u00e9ration Passeurs",
+    "rec_addr": "5 ALL\u00c9E LES BOUTONS D'OR, PESSAC, Gironde",
+    "p": 0.9999,
+    "smax": 0.681
+   },
+   {
+    "s1": "S1-349752452",
+    "s1_name": "Comit\u00e9 du Team",
+    "s1_addr": "8 Rue du 28 F\u00e9vrier 1943, Saint-Nazaire, Pays de la Loire",
+    "rec": "S3-295516794",
+    "rec_name": "Comit\u00e9 du Team (Federation)",
+    "rec_addr": "Loire-Atlantique, Saint-nazaire, 8 Rue Du 28 F\u00e9vrier 1943",
+    "p": 0.9994,
+    "smax": 0.5
+   },
+   {
+    "s1": "S1-360199022",
+    "s1_name": "\u00c9cole maternelle de Sainte",
+    "s1_addr": "34 Rue de Tourte, Pornic, Pays de la Loire",
+    "rec": "S3-638032444",
+    "rec_name": "\u00c9cole  maternelle Sainte",
+    "rec_addr": "No 34 Rue De Tourte, Pornic, Pays de la Loire",
+    "p": 0.9999,
+    "smax": 0.683
+   },
+   {
+    "s1": "S1-640749552",
+    "s1_name": "Cadres Federation (France)",
+    "s1_addr": "21 Rue Cast\u00e9ja, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "S3-624126567",
+    "rec_name": "Cadres-(France) France",
+    "rec_addr": "21 R. Cast\u00e9ja, Bordeaux",
+    "p": 0.9998,
+    "smax": 0.5
+   },
+   {
+    "s1": "S1-566985817",
+    "s1_name": "Union de Lecole",
+    "s1_addr": "182 Rue Naujac, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "S2-981482377",
+    "rec_name": "Union Lecole",
+    "rec_addr": "182 RUE NAUJAC, BORDEAUX",
+    "p": 0.9999,
+    "smax": 0.683
+   }
+  ],
+  "F1_coloc_Dc": [
+   {
+    "s1": "S1-943730187",
+    "s1_name": "Vivre & Cie SARL",
+    "s1_addr": "50 Rue du Cheval Gris, Calais, Hauts-de-France",
+    "rec": "S3-517303977",
+    "rec_name": "SARL Vivre & Compagnie",
+    "rec_addr": "50 R. Du Cheval Gris, Calais",
+    "p": 0.99,
+    "smax": 0.274
+   },
+   {
+    "s1": "S1-383432482",
+    "s1_name": "Professionnels Collectif SA",
+    "s1_addr": "41 Rue Jordaens, Lille, Hauts-de-France",
+    "rec": "S3-576498065",
+    "rec_name": "Professionnels Collectif",
+    "rec_addr": "41 R. Jordaens, Lille",
+    "p": 0.9999,
+    "smax": 0.191
+   },
+   {
+    "s1": "S1-611606218",
+    "s1_name": "\u00c9tablissements Femmes",
+    "s1_addr": "3 Rue Massena, M\u00e9rignac, Nouvelle-Aquitaine",
+    "rec": "S3-487259517",
+    "rec_name": "\u00e9tablissements Femmes SARL",
+    "rec_addr": "M\u00e9rignac, 3 - R Massena",
+    "p": 0.9684,
+    "smax": 0.281
+   },
+   {
+    "s1": "S1-689878876",
+    "s1_name": "Protection Amicale (France) SARL",
+    "s1_addr": "11 Rue de Rouen, Lille, Hauts-de-France",
+    "rec": "S3-346903781",
+    "rec_name": "Protection Amicale (France)",
+    "rec_addr": "N\u00ba 11 R De Rouen, Lille",
+    "p": 0.9999,
+    "smax": 0.281
+   },
+   {
+    "s1": "S1-178095605",
+    "s1_name": "Medecins & Cie SARL",
+    "s1_addr": "4 Cour Leclercq, 17 rue de la potennerie, Roubaix, Hauts-de-France",
+    "rec": "S3-956052870",
+    "rec_name": "Medecins & Cie",
+    "rec_addr": "4 Cour Leclercq, Roubaix",
+    "p": 0.9999,
+    "smax": 0.281
+   },
+   {
+    "s1": "S1-305528569",
+    "s1_name": "Artair Club",
+    "s1_addr": "Bordeaux, Nouvelle-Aquitaine, 22 RUE des Caperans",
+    "rec": "S3-701060530",
+    "rec_name": "Artair Club SARL",
+    "rec_addr": "22 Rue Des Caperans, Bordeaux, Gironde",
+    "p": 0.9991,
+    "smax": 0.281
+   },
+   {
+    "s1": "S1-861887980",
+    "s1_name": "Club du Pole",
+    "s1_addr": "Tourcoing, Hauts-de-France, 261 Rue de la Latte",
+    "rec": "S2-464281726",
+    "rec_name": "Club du Pole EURL",
+    "rec_addr": "261 R DE LA LATTE, TOURCOING, Hauts-de-France",
+    "p": 0.9979,
+    "smax": 0.212
+   },
+   {
+    "s1": "S1-270386961",
+    "s1_name": "Calais Amicale",
+    "s1_addr": "84 Rue de Phalsbourg, Calais, Hauts-de-France",
+    "rec": "S2-649219276",
+    "rec_name": "Calais Amicale SARL",
+    "rec_addr": "CALAIS, (84) RUE DE PHALSBOURG",
+    "p": 0.9983,
+    "smax": 0.281
+   }
+  ],
+  "F1_coloc_Dc_sameaddr": [
+   {
+    "s1": "S1-912981773",
+    "s1_name": "Maison Alliance",
+    "s1_addr": "Tourcoing, 23 Rue de Bondues, Hauts-de-France",
+    "rec": "S2-140477528",
+    "rec_name": "Maison Alliance EURL",
+    "rec_addr": "23 RUE DE BONDUES, TOURCOING, Hauts-de-France",
+    "p": 0.991,
+    "smax": 0.212
+   },
+   {
+    "s1": "S1-816991435",
+    "s1_name": "Relais Culturelle SARL",
+    "s1_addr": "4 Cour Lebrun 230bis Rue de Fleurus, Tourcoing, Hauts-de-France",
+    "rec": "S2-880657071",
+    "rec_name": "Relais Culturelle",
+    "rec_addr": "4 COUR LEBRUN 230BIS RUE DE FLEURUS, TOURCOING, Hauts-de-France",
+    "p": 0.9999,
+    "smax": 0.281
+   },
+   {
+    "s1": "S1-641044768",
+    "s1_name": "Recherches Run Groupement",
+    "s1_addr": "27 Rue Paul Bert, Lille, Hauts-de-France",
+    "rec": "S2-878528555",
+    "rec_name": "Recherches Run",
+    "rec_addr": "27 RUE PAUL BERT, LILLE",
+    "p": 0.9999,
+    "smax": 0.376
+   },
+   {
+    "s1": "S1-915228924",
+    "s1_name": "HEM Comite",
+    "s1_addr": "7 Rue Charly, Nantes, Pays de la Loire",
+    "rec": "S2-631597076",
+    "rec_name": "HEM Comite SAS",
+    "rec_addr": "7 RUE CHARLY, NANTES",
+    "p": 0.9997,
+    "smax": 0.271
+   },
+   {
+    "s1": "S1-340102670",
+    "s1_name": "F\u00e9d\u00e9ration du Promotion",
+    "s1_addr": "26 Rue Gensan, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "S2-311147513",
+    "rec_name": "F\u00e9d\u00e9ration du Pootmtiln",
+    "rec_addr": "26 R GENSAN, BORDEAUX",
+    "p": 0.9999,
+    "smax": 0.932
+   },
+   {
+    "s1": "S1-592316496",
+    "s1_name": "Club de Intercommunale",
+    "s1_addr": "153 Boulevard Auguste P\u00e9neau, Nantes, Pays de la Loire",
+    "rec": "S2-568067433",
+    "rec_name": "Club de Intercommunale SASU",
+    "rec_addr": "153 BD AUGUSTE P\u00c9NEAU, NANTES",
+    "p": 0.9876,
+    "smax": 0.175
+   },
+   {
+    "s1": "S1-384277313",
+    "s1_name": "Boite Clinique SAS",
+    "s1_addr": "45 C Rue Paul Doumer, M\u00e9rignac, Nouvelle-Aquitaine",
+    "rec": "S2-643169436",
+    "rec_name": "Boite Clinique",
+    "rec_addr": "45 C R. PAUL DOUMER, MERIGNAC",
+    "p": 0.9999,
+    "smax": 0.271
+   },
+   {
+    "s1": "S1-66573624",
+    "s1_name": "Racines Loisirs SAS",
+    "s1_addr": "9 Impasse du Clos des Orangers, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "S3-404175770",
+    "rec_name": "Racines Loisirs",
+    "rec_addr": "Bordeaux, Gironde, # 9 Impasse Du Clos Des Orangers",
+    "p": 0.9999,
+    "smax": 0.271
+   }
+  ],
+  "F1_filler_all": [
+   {
+    "s1": "S1-713285630",
+    "s1_name": "Specialises Ponts Club SAS",
+    "s1_addr": "22 Rue Georges Villebois Mareuil, Saint-Nazaire, Pays de la Loire",
+    "rec": "S3-585409299",
+    "rec_name": "Specialises Ponts Club",
+    "rec_addr": "22 Rue Georges Villebois Mareuil, Saint-nazaire, Pays de la Loire",
+    "p": 1.0,
+    "smax": 0.271
+   },
+   {
+    "s1": "S1-962826204",
+    "s1_name": "Voyageur Entraide Primaire SARL",
+    "s1_addr": "Bordeaux, 18 Rue du Temps Pass\u00e9, Nouvelle-Aquitaine",
+    "rec": "S2-351665699",
+    "rec_name": "Voyageur Entraide Primaire",
+    "rec_addr": "18 RUE DU TEMPS PASSE, BORDEAUX, Nouvelle-Aquitaine",
+    "p": 0.9999,
+    "smax": 0.281
+   },
+   {
+    "s1": "S1-486288202",
+    "s1_name": "Cap Amicale SAS",
+    "s1_addr": "8 Rue Bouffard, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "S2-307960781",
+    "rec_name": "Cap Amicale",
+    "rec_addr": "8 RUE BOUFFARD, BORDEAUX",
+    "p": 1.0,
+    "smax": 0.271
+   },
+   {
+    "s1": "S1-368712800",
+    "s1_name": "Cmp Sante SCI",
+    "s1_addr": "1299 bis Grande Rue du Petit Courgain, Calais, Hauts-de-France",
+    "rec": "S3-383631103",
+    "rec_name": "Cmp Sante",
+    "rec_addr": "1299bis Grande R. Du Petit Courgain, Calais, Hauts-de-France",
+    "p": 0.9998,
+    "smax": 0.154
+   },
+   {
+    "s1": "S1-303454625",
+    "s1_name": "Fumeurs & Cie SAS",
+    "s1_addr": "25 Rue des Arts, M\u00e9rignac, Nouvelle-Aquitaine",
+    "rec": "S3-751110551",
+    "rec_name": "Fumeurs & \u00c7ie SA",
+    "rec_addr": "26 Rue Des Arts, M\u00e9rignac, Gironde",
+    "p": 0.8897,
+    "smax": 0.271
+   },
+   {
+    "s1": "S1-418322958",
+    "s1_name": "F\u00e9d\u00e9ration des Bonheur",
+    "s1_addr": "4 bis Avenue de Provence, La Baule-Escoublac, Pays de la Loire",
+    "rec": "S3-767549910",
+    "rec_name": "F\u00e9d\u00e9ration des Bonheur EURL",
+    "rec_addr": "La Baule-escoublac, 4B Ave De Provence, Loire-Atlantique",
+    "p": 0.9613,
+    "smax": 0.212
+   },
+   {
+    "s1": "S1-643287854",
+    "s1_name": "Joueurs Foyer SA",
+    "s1_addr": "10 Rue Jules Romains, Saint-Nazaire, Pays de la Loire",
+    "rec": "S3-601699158",
+    "rec_name": "Joueurs Club SA",
+    "rec_addr": "St-nazaire, 10 R Jules Romains",
+    "p": 0.9499,
+    "smax": 0.398
+   },
+   {
+    "s1": "S1-929369538",
+    "s1_name": "Aroa Maison SAS",
+    "s1_addr": "26 Rue Montesquieu, Calais, Hauts-de-France",
+    "rec": "S3-119240018",
+    "rec_name": "Aroa Maison",
+    "rec_addr": "No 26 R. Monesquieu, Calais, Hauts-de-France",
+    "p": 0.9998,
+    "smax": 0.271
+   }
+  ],
+  "F1_filler_all_sameaddr": [
+   {
+    "s1": "S1-219709201",
+    "s1_name": "Association de Main",
+    "s1_addr": "32 Rue des Ontines, M\u00e9rignac, Nouvelle-Aquitaine",
+    "rec": "S2-793209096",
+    "rec_name": "Association de Main SCI",
+    "rec_addr": "N\u00ba 32 R DES ONTINES, MERIGNAC, Nouvelle-Aquitaine",
+    "p": 0.9923,
+    "smax": 0.154
+   },
+   {
+    "s1": "S1-293327039",
+    "s1_name": "Cap Institut (France)",
+    "s1_addr": "461 Avenue du Mar\u00e9chal de Lattre de Tassigny, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "S3-977083778",
+    "rec_name": "Cap Institut (France) SAS",
+    "rec_addr": "461 Avenue Du Mar\u00e9chal De Lattre De Tassigny, Bordeaux",
+    "p": 0.9999,
+    "smax": 0.271
+   },
+   {
+    "s1": "S1-747496705",
+    "s1_name": "Coll\u00e8ge Louis",
+    "s1_addr": "31 Rue du Moulin des Carmes, Nantes, Pays de la Loire",
+    "rec": "S3-361836545",
+    "rec_name": "Coll\u00e8ge Louis SASU",
+    "rec_addr": "31 Rue Du Moulin Des Carmes, Nantes, Loire-Atlantique",
+    "p": 0.997,
+    "smax": 0.175
+   },
+   {
+    "s1": "S1-36037211",
+    "s1_name": "UPB Amis",
+    "s1_addr": "16 Rue de Port la Blanche, Nantes, Pays de la Loire",
+    "rec": "S3-420481013",
+    "rec_name": "UPB Services",
+    "rec_addr": "16 Rue De Port La Blanche, Nantes",
+    "p": 0.9999,
+    "smax": 0.378
+   },
+   {
+    "s1": "S1-889292385",
+    "s1_name": "Bureau Sportive SAS",
+    "s1_addr": "284 Rue de Lannoy, Roubaix, Hauts-de-France",
+    "rec": "S3-240273167",
+    "rec_name": "Bureau Centre [SAS]",
+    "rec_addr": "284 Rue De Lannoy, Roubaix, Nord",
+    "p": 0.9643,
+    "smax": 0.382
+   },
+   {
+    "s1": "S1-358750149",
+    "s1_name": "Ouest Centre SA",
+    "s1_addr": "68 Rue Gambetta, Dunkerque, Hauts-de-France",
+    "rec": "S2-185978606",
+    "rec_name": "OUEST CENTRE",
+    "rec_addr": "68 RUE GAMBETTA, DUNKERQUE, Nord",
+    "p": 0.9998,
+    "smax": 0.191
+   },
+   {
+    "s1": "S1-346307279",
+    "s1_name": "Calais Lycee SARL",
+    "s1_addr": "149 Boulevard Curie, Calais, Hauts-de-France",
+    "rec": "S2-22429860",
+    "rec_name": "Calais Lycee",
+    "rec_addr": "149 BD CURIE, CALAIS",
+    "p": 0.9997,
+    "smax": 0.281
+   },
+   {
+    "s1": "S1-597094319",
+    "s1_name": "Clinique Pierre",
+    "s1_addr": "187 Rue de Pornichet, Saint-Nazaire, Pays de la Loire",
+    "rec": "S2-739622555",
+    "rec_name": "Clinique Pierre SA",
+    "rec_addr": "NO 187 R. DE PORNICHET, SAINT-NAZAIRE",
+    "p": 0.9989,
+    "smax": 0.191
+   }
+  ],
+  "F2_sib_ge": [
+   {
+    "s1": "S1-656357809",
+    "s1_name": "Lille Sante SAS",
+    "s1_addr": "12 Rue de la Paix d'Utrecht, Lille, Hauts-de-France",
+    "rec": "S2-215686023",
+    "rec_name": "LILLE SANTE",
+    "rec_addr": "Hauts-de-France, 12 RUE DE LA PAIX D'UTRECHT, LILLE",
+    "p": 0.9997,
+    "smax": 0.271
+   },
+   {
+    "s1": "S1-669328716",
+    "s1_name": "Lille Compagnie SAS",
+    "s1_addr": "1 RUE du Professeur Calmette, Campus Pasteur de Lille, Lille, Hauts-de-France",
+    "rec": "S2-69443732",
+    "rec_name": "SAS Lille Ciaglu",
+    "rec_addr": "1 RUE DU PROFESSEUR CALMETTE, Lille, CAMPUS PASTEUR DE LILLE",
+    "p": 0.9935,
+    "smax": 0.274
+   },
+   {
+    "s1": "S1-652568285",
+    "s1_name": "Nantes Sportive SARL",
+    "s1_addr": "29 Boulevard de Longchamp, Nantes, Pays de la Loire",
+    "rec": "S2-71965043",
+    "rec_name": "Nantes Sportive",
+    "rec_addr": "29 BOULEVARD DE LONGCHAMP, NANTES",
+    "p": 0.9999,
+    "smax": 0.281
+   },
+   {
+    "s1": "S1-516616234",
+    "s1_name": "Lille Culture SARL",
+    "s1_addr": "27 RUE Jean Bart, Lille, Hauts-de-France",
+    "rec": "S2-664907165",
+    "rec_name": "Lille \u00c7lub SARL",
+    "rec_addr": "27 RUE JEAN BART, LILLE",
+    "p": 0.9997,
+    "smax": 0.398
+   },
+   {
+    "s1": "S1-435227463",
+    "s1_name": "Dunkerque Culturelle SARL",
+    "s1_addr": "70 Rue des \u00c9glantines, Dunkerque, Hauts-de-France",
+    "rec": "S3-396999789",
+    "rec_name": "Dunkerque Cumoturelel  SARL",
+    "rec_addr": "Rue Des Eglantines, Dunkerque",
+    "p": 0.9993,
+    "smax": 0.376
+   },
+   {
+    "s1": "S1-927266901",
+    "s1_name": "Pornic Club SCI",
+    "s1_addr": "28 Route de la Giraudi\u00e8re, Pornic, Pays de la Loire",
+    "rec": "S3-163914337",
+    "rec_name": "Pornic Club",
+    "rec_addr": "Pornic, Pays de la Loire, (28) Route De La Giraudi\u00e8re",
+    "p": 0.9819,
+    "smax": 0.154
+   },
+   {
+    "s1": "S1-72476238",
+    "s1_name": "Saint-Nazaire Union SA",
+    "s1_addr": "71 Chemin de Bert, Saint-Nazaire, Pays de la Loire",
+    "rec": "S3-79409347",
+    "rec_name": "Saint-Nazaire Union S.A.",
+    "rec_addr": "Saint-nazaire, N\u00ba 71 Ch. De Bert",
+    "p": 0.9995,
+    "smax": null
+   },
+   {
+    "s1": "S1-211273408",
+    "s1_name": "Nantes Sportive SAS",
+    "s1_addr": "Nantes, 29 Boulevard de Longchamp, Pays de la Loire",
+    "rec": "S3-610274424",
+    "rec_name": "Nantes Sportive S.A.S.",
+    "rec_addr": "29 Boulevard De Longchamp, Nantes, Pays de la Loire",
+    "p": 0.9999,
+    "smax": null
+   }
+  ],
+  "F2_sib_gt": [
+   {
+    "s1": "S1-435040338",
+    "s1_name": "Lille Club SARL Enterprises",
+    "s1_addr": "30 RUE des Meuniers, Lille, Hauts-de-France",
+    "rec": "S3-472200104",
+    "rec_name": "Lille Club",
+    "rec_addr": "30 Rue Des Meuniers, Lille, Nord",
+    "p": 0.9951,
+    "smax": null
+   },
+   {
+    "s1": "S1-58321790",
+    "s1_name": "Lille Sportive SARL",
+    "s1_addr": "16 Rue du Quai, Lille, Hauts-de-France",
+    "rec": "S2-801718521",
+    "rec_name": "Lille Sport",
+    "rec_addr": "#16 R. DU QUAI, Hauts-de-France, LILLE",
+    "p": 0.9864,
+    "smax": null
+   },
+   {
+    "s1": "S1-112806202",
+    "s1_name": "Dunkerque Jeunes SARL Enterprises",
+    "s1_addr": "21 Place de la Gare, Dunkerque, Hauts-de-France",
+    "rec": "S2-665011402",
+    "rec_name": "DUNKERQUE JEUNES",
+    "rec_addr": "21 PL DE LA GARE, DUNKERQUE",
+    "p": 0.9977,
+    "smax": null
+   },
+   {
+    "s1": "S1-957460860",
+    "s1_name": "Lille Conseil SAS",
+    "s1_addr": "16 Rue des Ecoles, Lille, Hauts-de-France",
+    "rec": "S2-839006021",
+    "rec_name": "Lille \u00c7lub SAS",
+    "rec_addr": "16 RUE DES ECOLES, LILLE, Hauts-de-France",
+    "p": 0.9998,
+    "smax": 0.398
+   },
+   {
+    "s1": "S1-258703490",
+    "s1_name": "Dunkerque Ecole SARL Enterprises",
+    "s1_addr": "206 Rue de l\u2019Ancienne RN 40, Dunkerque, Hauts-de-France",
+    "rec": "S2-138893145",
+    "rec_name": "SARL DUNKERQUE ECOLE",
+    "rec_addr": "206 RUE DE L\u2019ANCIENE RN 40, Dunkerque, Hauts-de-France",
+    "p": 0.9992,
+    "smax": 1.0
+   },
+   {
+    "s1": "S1-921554309",
+    "s1_name": "Lille Club SAS",
+    "s1_addr": "27 RUE Jean Bart, Maison des Associations, Lille, Hauts-de-France",
+    "rec": "S3-585844099",
+    "rec_name": "Lille Club  SASU",
+    "rec_addr": "#27 Rue Jean Bart, Maison Des Associations, Lille, Hauts-de-France",
+    "p": 0.9932,
+    "smax": 0.271
+   },
+   {
+    "s1": "S1-280497077",
+    "s1_name": "Lille Club SARL Trading",
+    "s1_addr": "27 RUE Jean Bart, Lille, Hauts-de-France",
+    "rec": "S2-768244444",
+    "rec_name": "Lille Club SARL",
+    "rec_addr": "27 RUE JEAN BART, LILLE",
+    "p": 0.9999,
+    "smax": null
+   },
+   {
+    "s1": "S1-280497077",
+    "s1_name": "Lille Club SARL Trading",
+    "s1_addr": "27 RUE Jean Bart, Lille, Hauts-de-France",
+    "rec": "S3-658902525",
+    "rec_name": "Lille Club S\u00e0rl",
+    "rec_addr": "27 Rue Jean Bart, Lille, Nord",
+    "p": 0.9998,
+    "smax": null
+   }
+  ],
+  "F2_has_sib": [
+   {
+    "s1": "S1-975336302",
+    "s1_name": "Locale & Fr\u00e8res SAS",
+    "s1_addr": "12 RUE Lyderic, Hauts-de-France, Lille",
+    "rec": "S2-801469588",
+    "rec_name": "Locale + Fr\u00e8res (S.A.S.)",
+    "rec_addr": "R LYDREIC, LILLE",
+    "p": 0.9845,
+    "smax": null
+   },
+   {
+    "s1": "S1-816245275",
+    "s1_name": "Comit\u00e9 des Financement",
+    "s1_addr": "3 RUE Eugene Thomas, La Mano, Nantes, Pays de la Loire",
+    "rec": "S3-883696476",
+    "rec_name": "comitdesfinancement.com",
+    "rec_addr": "3 R. Eugene Thomas, Nantes, Loire-Atlantique",
+    "p": 0.9997,
+    "smax": null
+   },
+   {
+    "s1": "S1-460594485",
+    "s1_name": "Vache Club SAS",
+    "s1_addr": "12 RUE Lyderic, Lille, Hauts-de-France",
+    "rec": "S3-168903261",
+    "rec_name": "Veovera formerly Vache Club SAS",
+    "rec_addr": "12 RUE Lyderic, Lille, Hauts-de-France",
+    "p": 0.9999,
+    "smax": null
+   },
+   {
+    "s1": "S1-838750728",
+    "s1_name": "EZ Ecole SARL",
+    "s1_addr": "20 bis Avenue des Chenes, La Teste-de-Buch, Nouvelle-Aquitaine",
+    "rec": "S3-546941569",
+    "rec_name": "Ez Ecole Sarl",
+    "rec_addr": "La Teste De Buch, 20 Bis Avenue Des Chenes, Gironde",
+    "p": 0.9999,
+    "smax": null
+   },
+   {
+    "s1": "S1-120568451",
+    "s1_name": "Jogging Comite SARL",
+    "s1_addr": "3 RUE de la Digue, Lille, Hauts-de-France",
+    "rec": "S2-774177444",
+    "rec_name": "Jogging Comite",
+    "rec_addr": "3 RUE DE LA DIGUE, LILLE, Hauts-de-France",
+    "p": 1.0,
+    "smax": 0.281
+   },
+   {
+    "s1": "S1-557538611",
+    "s1_name": "Ets Francaise SAS",
+    "s1_addr": "8 Avenue Est Cap Ferret, L\u00e8ge-Cap-Ferret, Nouvelle-Aquitaine",
+    "rec": "S3-842426398",
+    "rec_name": "Ets-Francaise SAS",
+    "rec_addr": "8 Ave Est Cap Ferret, L\u00e8ge-cap-ferret",
+    "p": 1.0,
+    "smax": null
+   },
+   {
+    "s1": "S1-624389180",
+    "s1_name": "M\u00e9rignac Centre SAS",
+    "s1_addr": "2 Place Emile Augier, M\u00e9rignac, Nouvelle-Aquitaine",
+    "rec": "S2-974897017",
+    "rec_name": "M\u00c9RIGNAC CENTRE SAS",
+    "rec_addr": "PL EMILE AUGIER, MERIGNAC, Nouvelle-Aquitaine",
+    "p": 0.9898,
+    "smax": null
+   },
+   {
+    "s1": "S1-313069407",
+    "s1_name": "Qi Amis SARL",
+    "s1_addr": "12 RUE Lyderic, Lille, Hauts-de-France",
+    "rec": "S2-584895934",
+    "rec_name": "Qi Anciens SARL",
+    "rec_addr": "12 RUE LYDERIC, LILLE",
+    "p": 0.9652,
+    "smax": 0.378
+   }
+  ],
+  "F3_street_mismatch": [
+   {
+    "s1": "S1-845193346",
+    "s1_name": "Run Lycee SASU",
+    "s1_addr": "Lille, 20 Rue Saint-Nicolas, Hauts-de-France",
+    "rec": "S2-932011692",
+    "rec_name": "Run Lycee",
+    "rec_addr": "20 RUE SAINTNICOLAS, LILLE, Hauts-de-France",
+    "p": 0.9999,
+    "smax": 0.175
+   },
+   {
+    "s1": "S1-472440097",
+    "s1_name": "Amicale du Carros",
+    "s1_addr": "10 Rue des N\u00e8fliers, Nantes, Pays de la Loire",
+    "rec": "S3-655325811",
+    "rec_name": "amicaleducarros.com",
+    "rec_addr": "10 Rue Des Neflirs, Nantes, Pays de la Loire",
+    "p": 0.9702,
+    "smax": null
+   },
+   {
+    "s1": "S1-514451886",
+    "s1_name": "Gendrey Aines Maison SAS",
+    "s1_addr": "13 Avenue d'Alsace, La Baule-Escoublac, Pays de la Loire",
+    "rec": "S2-937998740",
+    "rec_name": "Gendrey Aes Maison SAS",
+    "rec_addr": "13 AVENUE D'ASACE, LA BAULE-ESCOUBLAC, Pays de la Loire",
+    "p": 0.9999,
+    "smax": 0.947
+   },
+   {
+    "s1": "S1-684841663",
+    "s1_name": "45 Commerciale \u00c9l\u00e9mentaire SAS",
+    "s1_addr": "18 Rue de la Tannerie, Nantes, Pays de la Loire",
+    "rec": "S3-197278973",
+    "rec_name": "45 Commerciale \u00c9l\u00e9mentaire",
+    "rec_addr": "18 Rue De La Tannerei, Nantes, Pays de la Loire",
+    "p": 0.9999,
+    "smax": 0.271
+   },
+   {
+    "s1": "S1-696565124",
+    "s1_name": "Departemental Etablissement",
+    "s1_addr": "Dunkerque, 2 Rue Nouvelle, Hauts-de-France",
+    "rec": "S2-57293040",
+    "rec_name": "Departemental \u00c9tablissement",
+    "rec_addr": "NO 2 RUE NOUVELE, DUNKERQUE, Hauts-de-France",
+    "p": 0.9999,
+    "smax": null
+   },
+   {
+    "s1": "S1-883186433",
+    "s1_name": "Nationale Culture",
+    "s1_addr": "140 bis Rue du Pile, Roubaix, Hauts-de-France",
+    "rec": "S2-274244332",
+    "rec_name": "NATIONALE CULTURE",
+    "rec_addr": "140 BIS RUE DU PIEL, ROUBAIX, Hauts-de-France",
+    "p": 1.0,
+    "smax": null
+   },
+   {
+    "s1": "S1-93301833",
+    "s1_name": "\u00c9tablissements Parfum SAS",
+    "s1_addr": "26 Rue Gu\u00e9pin, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "S3-240349822",
+    "rec_name": "\u00c9tablissements-Parfum SAS",
+    "rec_addr": "26 Rue Gu\u00e9nin, Bordeaux, Nouvelle-Aquitaine",
+    "p": 0.9999,
+    "smax": null
+   },
+   {
+    "s1": "S1-139720372",
+    "s1_name": "Gwada Primaire SAS",
+    "s1_addr": "24 Rue du Cancera, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "S3-639379392",
+    "rec_name": "Gwada Primaire Sas",
+    "rec_addr": "24 Rue Du Cacnera, Bordeaux, Nouvelle-Aquitaine",
+    "p": 1.0,
+    "smax": null
+   }
+  ],
+  "F3_street_mismatch_numeq": [
+   {
+    "s1": "S1-478906824",
+    "s1_name": "Voix (France) Musique SAS",
+    "s1_addr": "30 Rue de B\u00e9thune, Lille, Hauts-de-France",
+    "rec": "S3-710490459",
+    "rec_name": "VOIX (France) Musique SAS",
+    "rec_addr": "30 Rue De B\u00e9thbne, Lille, Hauts-de-France",
+    "p": 1.0,
+    "smax": null
+   },
+   {
+    "s1": "S1-938839478",
+    "s1_name": "Ets Deleves SARL",
+    "s1_addr": "8 Allee des Grives, L\u00e8ge-Cap-Ferret, Nouvelle-Aquitaine",
+    "rec": "S2-555273902",
+    "rec_name": "Ets Deleves SARL",
+    "rec_addr": "8 ALLEE DES GRIEVS, L\u00c8GE-CAP-FERRET, Nouvelle-Aquitaine",
+    "p": 1.0,
+    "smax": null
+   },
+   {
+    "s1": "S1-200980305",
+    "s1_name": "Centre Hospitalier Saint Tennis",
+    "s1_addr": "42 Avenue Chambrelent, La Teste-de-Buch, Nouvelle-Aquitaine",
+    "rec": "S3-730195493",
+    "rec_name": "centre hospitalier saint tennis",
+    "rec_addr": "42 Avenue Chambreletn, La Teste-de-buch, Nouvelle-Aquitaine",
+    "p": 1.0,
+    "smax": null
+   },
+   {
+    "s1": "S1-418387860",
+    "s1_name": "Ies Loisirs SARL",
+    "s1_addr": "44 Place du Minck, Dunkerque, Hauts-de-France",
+    "rec": "S3-778420219",
+    "rec_name": "Ies L\u00f4isirs SARL",
+    "rec_addr": "44 Place Du Minuk, Dunkerque, Hauts-de-France",
+    "p": 0.9999,
+    "smax": null
+   },
+   {
+    "s1": "S1-64387058",
+    "s1_name": "Policiers Culture SARL",
+    "s1_addr": "4 Rue Bocquillon, Lille, Hauts-de-France",
+    "rec": "S2-167919309",
+    "rec_name": "Policiers Culture Sarl",
+    "rec_addr": "4 RUE BOCQILLON, LILLE, Hauts-de-France",
+    "p": 1.0,
+    "smax": null
+   },
+   {
+    "s1": "S1-115964315",
+    "s1_name": "\u00c9cole maternelle Saint Pierre",
+    "s1_addr": "106 Rue Montgolfier, Roubaix, Hauts-de-France",
+    "rec": "S3-330377124",
+    "rec_name": "\u00c9cole m\u00e0ternelle Saint Pierre",
+    "rec_addr": "106 Rue Montgolier, Roubaix, Hauts-de-France",
+    "p": 0.9998,
+    "smax": null
+   },
+   {
+    "s1": "S1-5574447",
+    "s1_name": "Sapeurs Groupe SAS",
+    "s1_addr": "41 Rue Copernic, Calais, Hauts-de-France",
+    "rec": "S3-939363128",
+    "rec_name": "Sapeurs Groupe Sas",
+    "rec_addr": "41 Rue Coperntc, Calais, Hauts-de-France",
+    "p": 1.0,
+    "smax": null
+   },
+   {
+    "s1": "S1-889477287",
+    "s1_name": "\u00c9cole maternelle Saint Plein",
+    "s1_addr": "10 Rue de la Dermurie, Saint-Nazaire, Pays de la Loire",
+    "rec": "S2-651220064",
+    "rec_name": "\u00c9COLE MATERNELLE SAINT PLEIN",
+    "rec_addr": "10 R DE LA DMRMURIE, SAINT-NAZAIRE, Pays de la Loire",
+    "p": 0.9999,
+    "smax": null
+   }
+  ],
+  "ND_any": [
+   {
+    "s1": "S1-763375157",
+    "s1_name": "Roubaix Sport SASU",
+    "s1_addr": "1 Rue de la Communaute Urbaine, Roubaix, Hauts-de-France",
+    "rec": "S2-783401327",
+    "rec_name": "Roubaix Sport",
+    "rec_addr": "1 R DE LA COMMUNAUTE URBAINE, ROUBAIX",
+    "p": 0.9998,
+    "smax": 0.175
+   },
+   {
+    "s1": "S1-188595292",
+    "s1_name": "Comit\u00e9 du Xiii",
+    "s1_addr": "15 Rue Saint-Andr\u00e9, Pornic, Pays de la Loire",
+    "rec": "S2-616980912",
+    "rec_name": "Comit\u00e9 du Xiii SASU",
+    "rec_addr": "N\u00ba 15 R SAINT-ANDR\u00c9, PORNIC, Loire-Atlantique",
+    "p": 0.9763,
+    "smax": 0.175
+   },
+   {
+    "s1": "S1-742253894",
+    "s1_name": "Passe Lycee SARL",
+    "s1_addr": "Nouvelle-Aquitaine, 15 Avenue Louis Gaume Pyla, La Teste-de-Buch",
+    "rec": "S3-85710845",
+    "rec_name": "Passe Lycee",
+    "rec_addr": "15 Avenue Louis Gume Pyla, La Teste-de-buch, Gironde",
+    "p": 0.9998,
+    "smax": 0.281
+   },
+   {
+    "s1": "S1-936154380",
+    "s1_name": "Te Residence",
+    "s1_addr": "6 Rue de Bapaume, Tourcoing, Hauts-de-France",
+    "rec": "S2-783227426",
+    "rec_name": "TE",
+    "rec_addr": "Tourcoing, Hauts-de-France, 6 RUE DE RIVOLI",
+    "p": 0.9904,
+    "smax": 0.395
+   },
+   {
+    "s1": "S1-268853154",
+    "s1_name": "Confluences Sante",
+    "s1_addr": "14 Rue Eric Tabarly, Saint-Herblain, Pays de la Loire",
+    "rec": "S3-652015011",
+    "rec_name": "Confluences",
+    "rec_addr": "14 Rue Eric Tabarly, Saint-Herblain, Pays de la Loire",
+    "p": 0.9999,
+    "smax": 0.347
+   },
+   {
+    "s1": "S1-509909773",
+    "s1_name": "Denseignement College (France) EURL",
+    "s1_addr": "10 Avenue des Pinsons Pyla, La Teste-de-Buch, Nouvelle-Aquitaine",
+    "rec": "S2-864259786",
+    "rec_name": "Denseignement College (France)",
+    "rec_addr": "10 AVENUE DES PINSONS PYLA, LA TESTE-DE-BUCH",
+    "p": 1.0,
+    "smax": 0.212
+   },
+   {
+    "s1": "S1-756886524",
+    "s1_name": "Savoirs (France) Maison",
+    "s1_addr": "34 Rue Gabriel Leglise, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "S3-972882475",
+    "rec_name": "Savoirs (France) Maison SCI",
+    "rec_addr": "N\u00b0 34 Rue Gabriel Leglise, Bordeaux, Nouvelle-Aquitaine",
+    "p": 0.994,
+    "smax": 0.154
+   },
+   {
+    "s1": "S1-124915642",
+    "s1_name": "Veolia & Fils SASU",
+    "s1_addr": "22 Avenue Sud du Phare Cap Ferret, L\u00e8ge-Cap-Ferret, Nouvelle-Aquitaine",
+    "rec": "S3-488628249",
+    "rec_name": "Veolia + Fils 5ASU",
+    "rec_addr": "22 Avenue Sud Du Phare Cap Ferret, L\u00e8ge-cap-ferret, Gironde",
+    "p": 0.9999,
+    "smax": 0.175
+   }
+  ]
+ },
+ "S005_US": {
+  "F1_dist_s0.5": [
+   {
+    "s1": "S1-421592117",
+    "s1_name": "FY Pacific Association Inc",
+    "s1_addr": "3430 Mccurley Drive, Abingdon, MD",
+    "rec": "S2-63436782",
+    "rec_name": "FY PACIFIC PACIFIC ASSTOICRTAILON INC",
+    "rec_addr": "3430 MCCURLEY DRIVE, ABINGDON, MD",
+    "p": 0.9999,
+    "smax": 0.759
+   },
+   {
+    "s1": "S1-382779212",
+    "s1_name": "Continental Environmental Services Corp",
+    "s1_addr": "2567 20th Street, Clarkston, WA",
+    "rec": "S2-339079302",
+    "rec_name": "Continental Services Corp [Service]",
+    "rec_addr": "2567  20TH ST, CLARKSTON, WA",
+    "p": 0.9997,
+    "smax": 0.817
+   },
+   {
+    "s1": "S1-944410300",
+    "s1_name": "Tapia Summit Music PC",
+    "s1_addr": "2236 Washington Road, Washington, IL",
+    "rec": "S3-194318805",
+    "rec_name": "Tapia  5ummit Music PC",
+    "rec_addr": "Washington Rd, Washington, Illinois",
+    "p": 0.9998,
+    "smax": 0.856
+   },
+   {
+    "s1": "S1-454426533",
+    "s1_name": "Lawson, Cole and Bradley Polestar",
+    "s1_addr": "2657 Ridgeville Road, Tullahoma, TN",
+    "rec": "S2-689320537",
+    "rec_name": "Laws0n, Cole and Bradley Polestar",
+    "rec_addr": "2657 RIDGEVILLE ROAD, PMB 9103, TUULLAHOMA, TN",
+    "p": 0.9999,
+    "smax": 0.783
+   },
+   {
+    "s1": "S1-92354638",
+    "s1_name": "Theis Dynamic LLC",
+    "s1_addr": "4274 Scheller Lane, Scheller, IL",
+    "rec": "S2-764242888",
+    "rec_name": "Theis Dnyamrc LLC",
+    "rec_addr": "SCHELLER LN, SCHELLER, IL",
+    "p": 0.9999,
+    "smax": 0.605
+   },
+   {
+    "s1": "S1-398669703",
+    "s1_name": "Heritage Dental Co",
+    "s1_addr": "472 24 Street, City Of Buffalo City, WI",
+    "rec": "S2-746015385",
+    "rec_name": "HERITAGE CO SERVICES",
+    "rec_addr": "472- 24 ST, CITY OF BUFFALO CITY, WI",
+    "p": 0.9989,
+    "smax": 0.89
+   },
+   {
+    "s1": "S1-691548498",
+    "s1_name": "Blue Yoga, Inc",
+    "s1_addr": "1220 Washington Avenue, Fl Floor 5, Albany, NY",
+    "rec": "S3-34599615",
+    "rec_name": "Blue Yosa, Inc",
+    "rec_addr": "1220 Washington Avenue, Floor Floor 5, Albany, New York",
+    "p": 0.9998,
+    "smax": 0.878
+   },
+   {
+    "s1": "S1-520755014",
+    "s1_name": "Zarate Newtekone PC",
+    "s1_addr": "150 9th, Kettle Falls, WA",
+    "rec": "S3-668624000",
+    "rec_name": "Zarate Ncewsele PC",
+    "rec_addr": "15 9th, Kettle Falls, Washington",
+    "p": 0.9993,
+    "smax": 0.684
+   }
+  ],
+  "F1_dist_s0.7": [
+   {
+    "s1": "S1-545839217",
+    "s1_name": "Internal Medicine Specialists",
+    "s1_addr": "1618 Constitution Avenue, Unit 1, Washington, DC",
+    "rec": "S2-789927303",
+    "rec_name": "Internal Specialists (Service)",
+    "rec_addr": "1618 CONSTITUTION AVE, WASHINGTON, DC",
+    "p": 0.9998,
+    "smax": 0.792
+   },
+   {
+    "s1": "S1-145122996",
+    "s1_name": "Portillo Atlantic Freight",
+    "s1_addr": "7046 5th Street, Tucson, AZ",
+    "rec": "S3-706988976",
+    "rec_name": "Portillo Services Freight",
+    "rec_addr": "7046 Fifth St, Tucson, Arizona",
+    "p": 0.9994,
+    "smax": 0.874
+   },
+   {
+    "s1": "S1-831491567",
+    "s1_name": "Express Wen Inc",
+    "s1_addr": "316 Laura Street, Springdale, AR",
+    "rec": "S2-625201211",
+    "rec_name": "Express Inc Services",
+    "rec_addr": "AR, SPRINGDALE, LAURA ST",
+    "p": 0.9989,
+    "smax": 0.744
+   },
+   {
+    "s1": "S1-730576359",
+    "s1_name": "Auric Capital Clinic",
+    "s1_addr": "4078 Timberland Drive, Rancho Cordova, CA",
+    "rec": "S2-287378920",
+    "rec_name": "AURIC CAPITA1 CLINIC",
+    "rec_addr": "4078 TIMBERLAND DRIVE, RANCHO CORDOVA, CA",
+    "p": 1.0,
+    "smax": 0.752
+   },
+   {
+    "s1": "S1-178239502",
+    "s1_name": "North Endocrinology",
+    "s1_addr": "401 3rd Street, Honey Grove, TX",
+    "rec": "S3-797502262",
+    "rec_name": "North Services",
+    "rec_addr": "401 Third St, Honey Grove, Texas",
+    "p": 0.9996,
+    "smax": 0.781
+   },
+   {
+    "s1": "S1-589513325",
+    "s1_name": "First Chapel",
+    "s1_addr": "4364 Slater Road, Annsville, NY",
+    "rec": "S3-375664924",
+    "rec_name": "First Chlaoael",
+    "rec_addr": "4364- Slater Rd, Taberg, New York",
+    "p": 0.9999,
+    "smax": 0.773
+   },
+   {
+    "s1": "S1-712823293",
+    "s1_name": "007 Golden P.C.",
+    "s1_addr": "21700 Clarksburg Road, Boyds, MD",
+    "rec": "S3-325346240",
+    "rec_name": "007 Grdldne P.C.",
+    "rec_addr": "21700 Clarksburg Road, Boyds, Maryland",
+    "p": 0.9997,
+    "smax": 0.868
+   },
+   {
+    "s1": "S1-343176742",
+    "s1_name": "Temple Community Church",
+    "s1_addr": "3798 Sonne Court, Unit L204, Herriman Town, UT",
+    "rec": "S2-169820963",
+    "rec_name": "Temple Church Center",
+    "rec_addr": "3798 SONNE COURT, HERRIMAN TOWN, UT",
+    "p": 0.9999,
+    "smax": 0.939
+   }
+  ],
+  "F1_dist_s0.9": [
+   {
+    "s1": "S1-884468097",
+    "s1_name": "Southern Skin Care LLC",
+    "s1_addr": "6739 28th Street, Tulsa, OK",
+    "rec": "S2-529493784",
+    "rec_name": "S0UTHERN SKIN CARE LLC",
+    "rec_addr": "6739 28TH ST, TULSA, OK",
+    "p": 0.9999,
+    "smax": 0.918
+   },
+   {
+    "s1": "S1-901279647",
+    "s1_name": "Summit Trinity, Inc",
+    "s1_addr": "6124 Albury Drive, Indianapolis, IN",
+    "rec": "S3-583917319",
+    "rec_name": "Inc Summit Tirnity,",
+    "rec_addr": "6124 Albury Dr, Indianapolis, Indiana",
+    "p": 0.9999,
+    "smax": 0.942
+   },
+   {
+    "s1": "S1-499944534",
+    "s1_name": "EMU Midwest Prudential Inc",
+    "s1_addr": "7745 Montebello Avenue, Fl 1, AZ, Scottsdale",
+    "rec": "S2-302613926",
+    "rec_name": "EMU MWSSI PRUDENTIAL INC",
+    "rec_addr": "MONTEBELLO AVE, SCOTTSDALE HOPI, AZ",
+    "p": 0.9994,
+    "smax": 0.916
+   },
+   {
+    "s1": "S1-109336084",
+    "s1_name": "Lemons Preparatory Academy LLC",
+    "s1_addr": "7116 Whipple Street, Chicago, IL",
+    "rec": "S3-113898794",
+    "rec_name": "Lem0ns  Preparatory Academy LLC",
+    "rec_addr": "7116 Whipple Street, Chicago, Illinois",
+    "p": 0.9998,
+    "smax": 0.968
+   },
+   {
+    "s1": "S1-826468004",
+    "s1_name": "Saint Community Church",
+    "s1_addr": "467 Martin Terrace, State College, PA",
+    "rec": "S3-737163168",
+    "rec_name": "Saint Communfty Church",
+    "rec_addr": "467 Martin Ter, State College, Pennsylvania",
+    "p": 0.9999,
+    "smax": 0.939
+   },
+   {
+    "s1": "S1-63401099",
+    "s1_name": "Bel Air Scholarship Guild",
+    "s1_addr": "202 Burkwood Court, Unit D, Bel Air, MD",
+    "rec": "S3-265208935",
+    "rec_name": "Bel Air Schlsrafhip Guild",
+    "rec_addr": "202. Burkwood Court, # D, Bel Air, Maryland",
+    "p": 0.9999,
+    "smax": 0.936
+   },
+   {
+    "s1": "S1-513463758",
+    "s1_name": "South Cardiology",
+    "s1_addr": "10821 Deaf Smith Street, La Porte, TX",
+    "rec": "S2-525596018",
+    "rec_name": "South-Service",
+    "rec_addr": "10821 DEAF SMITH ST, LA PORTE, TX",
+    "p": 0.9999,
+    "smax": 0.922
+   },
+   {
+    "s1": "S1-614518390",
+    "s1_name": "Blue Sui",
+    "s1_addr": "206 D Street, Sergeant Bluff, IA",
+    "rec": "S2-180391073",
+    "rec_name": "BSEL [SUI]",
+    "rec_addr": "206- D ST, PO BOX 5367, SERGEANT BLUFF, IA",
+    "p": 0.9266,
+    "smax": 0.905
+   }
+  ],
+  "F1_dist_s0.5_sameaddr": [
+   {
+    "s1": "S1-844543737",
+    "s1_name": "Harris Management",
+    "s1_addr": "624 S 39th St, Louisville, KY",
+    "rec": "S2-697074725",
+    "rec_name": "Harris Service",
+    "rec_addr": "624 S 39TH ST, LOOUISVILLE CITY, KY",
+    "p": 0.9999,
+    "smax": 0.515
+   },
+   {
+    "s1": "S1-450001513",
+    "s1_name": "Twomey Crystal Genesis LLC",
+    "s1_addr": "85 Ripley Street, Newton, MA",
+    "rec": "S2-826398940",
+    "rec_name": "Twomey Crystal Gonmftis LLC",
+    "rec_addr": "NEWTON, MA, 85 RIPLEY STREET",
+    "p": 0.9999,
+    "smax": 0.587
+   },
+   {
+    "s1": "S1-213098026",
+    "s1_name": "RT Sim, LLC",
+    "s1_addr": "124 Mountain Village Drive, Evanston City, WY",
+    "rec": "S3-524896597",
+    "rec_name": "RT Ssim, LLC",
+    "rec_addr": "124. Mountain Village Dr, Evanston City, Wyoming",
+    "p": 0.9997,
+    "smax": 0.643
+   },
+   {
+    "s1": "S1-959783060",
+    "s1_name": "Valley Charities",
+    "s1_addr": "314 Beaver Lake Road, Ware, MA",
+    "rec": "S2-19861519",
+    "rec_name": "Valley Services",
+    "rec_addr": "314 BEAVER LAKE RD, MA, WAARE",
+    "p": 0.9999,
+    "smax": 0.883
+   },
+   {
+    "s1": "S1-980063836",
+    "s1_name": "Cardiology Clinic Corp",
+    "s1_addr": "19 Pluss Drive, Springfield, VT",
+    "rec": "S2-788878699",
+    "rec_name": "Corp Cardiology Clnic",
+    "rec_addr": "SPRINGFIELD, N/A, VT, 19 PLUSS DRIVE",
+    "p": 0.9999,
+    "smax": 0.722
+   },
+   {
+    "s1": "S1-841107111",
+    "s1_name": "Commission on Environmental Protection Clinic",
+    "s1_addr": "20 Main Street, Unit 2, Hanson, MA",
+    "rec": "S2-784377694",
+    "rec_name": "Commission on Environmental Protection Clinic Board",
+    "rec_addr": "20  MAIN ST, HANSON, MA",
+    "p": 0.9999,
+    "smax": 0.705
+   },
+   {
+    "s1": "S1-134404608",
+    "s1_name": "Jacobs Interstate Transalta",
+    "s1_addr": "Norman, 3250 168th Avenue, OK",
+    "rec": "S3-927146345",
+    "rec_name": "Jacobs Interstate",
+    "rec_addr": "3250 168th Avenue, Norman, Oklahoma",
+    "p": 0.9999,
+    "smax": 0.614
+   },
+   {
+    "s1": "S1-858803669",
+    "s1_name": "Iveniq Greenland Inc",
+    "s1_addr": "2020 17th Street, Bessemer, AL",
+    "rec": "S3-31964068",
+    "rec_name": "Iveniq Grheenland Inc",
+    "rec_addr": "2020 17th Street, Bessemer, Alabama",
+    "p": 0.9996,
+    "smax": 0.69
+   }
+  ],
+  "F1_dist_s0.5_subst": [
+   {
+    "s1": "S1-799503523",
+    "s1_name": "Shanta Sawyer Signature Properties",
+    "s1_addr": "1792 Lillyben Avenue, Gresham, OR",
+    "rec": "S3-775116087",
+    "rec_name": "Syr, Shanta Signature Properties",
+    "rec_addr": "1792- Lillyben Ave, Gresham, Oregon",
+    "p": 0.9962,
+    "smax": 0.819
+   },
+   {
+    "s1": "S1-400325178",
+    "s1_name": "Pinnacle Innovative Inc",
+    "s1_addr": "1065 Beatrice Street, Eagan, MN",
+    "rec": "S3-276676019",
+    "rec_name": "Pinnacle Inc [Center]",
+    "rec_addr": "1065 Beatrice Street, Eagan, Minnesota",
+    "p": 0.9999,
+    "smax": 0.534
+   },
+   {
+    "s1": "S1-316803299",
+    "s1_name": "GO Global Medical LLC",
+    "s1_addr": "575 Brown Ridge Road, Maggie Valley, NC",
+    "rec": "S2-184585287",
+    "rec_name": "GO MEDICAL LLC PARTNERS",
+    "rec_addr": "575 BROWN RIDGE RD, NC, MAGGIE VALLEY",
+    "p": 0.9999,
+    "smax": 0.756
+   },
+   {
+    "s1": "S1-342162630",
+    "s1_name": "Nicky Miller, Esq., DDS PC PC",
+    "s1_addr": "35315 Stevens Boulevard, Eastlake, OH",
+    "rec": "S3-859713630",
+    "rec_name": "Nicky Mifdllter, Esq., DDS PC PC",
+    "rec_addr": "35315 Stevens Blvd, null, Eastlake, Ohio",
+    "p": 0.9999,
+    "smax": 0.646
+   },
+   {
+    "s1": "S1-88483494",
+    "s1_name": "Gratiana Flores Cascade Range Inc",
+    "s1_addr": "389 Henry Street, Martinsville, IN",
+    "rec": "S3-211558950",
+    "rec_name": "Gratiana Flores Range Inc Center",
+    "rec_addr": "389 Henry St, Martisville, Indiana",
+    "p": 0.9999,
+    "smax": 0.915
+   },
+   {
+    "s1": "S1-913413583",
+    "s1_name": "Vision Specialists Inc",
+    "s1_addr": "Fairfax County, 5301 Cedar Court, VA",
+    "rec": "S2-136174970",
+    "rec_name": "Vision Specialiisds Inc",
+    "rec_addr": "5301. CEDAR CT, FAIRFAX COUNTY, VA",
+    "p": 0.9999,
+    "smax": 0.823
+   },
+   {
+    "s1": "S1-587253788",
+    "s1_name": "Sweet Pilates",
+    "s1_addr": "4231 Melissa Lane, Dallas, TX",
+    "rec": "S2-734341937",
+    "rec_name": "Sweet Pibatse",
+    "rec_addr": "MELISSA LN, DALLAS, TX",
+    "p": 0.9999,
+    "smax": 0.892
+   },
+   {
+    "s1": "S1-466311531",
+    "s1_name": "Schaffer Modern Intercontinental LP",
+    "s1_addr": "Warren, AR, 1123 Luther Street",
+    "rec": "S2-726046203",
+    "rec_name": "SCHAFFER MODERN ICTRCONTIENNTAL LP",
+    "rec_addr": "1123 LUTLER ST, WARREN, AR",
+    "p": 0.9999,
+    "smax": 0.579
+   }
+  ],
+  "F1_dist_s0.5_onesided": [
+   {
+    "s1": "S1-630112044",
+    "s1_name": "B/N Rithm Group",
+    "s1_addr": "OH, Martinsville, 644 Cumberland Road",
+    "rec": "S2-579298695",
+    "rec_name": "B/N [Rithm]",
+    "rec_addr": "644 CUMBERLAND ROAD, MARTINSVILLE, OH",
+    "p": 1.0,
+    "smax": 0.551
+   },
+   {
+    "s1": "S1-10671261",
+    "s1_name": "Pauline Bailey Signs",
+    "s1_addr": "11 New Street, Walton, NY",
+    "rec": "S3-341449621",
+    "rec_name": "Pauline Bailey",
+    "rec_addr": "11 New St, NULL, Walton, New York",
+    "p": 0.9999,
+    "smax": 0.505
+   },
+   {
+    "s1": "S1-584357638",
+    "s1_name": "Federica Sim Integrated Chile",
+    "s1_addr": "1106 Ruger Avenue, City Of Janesville, WI",
+    "rec": "S2-73360367",
+    "rec_name": "Federica Sim Integrated",
+    "rec_addr": "1106B RUGER AVENUE, CITY OF JANESVILLE, WI",
+    "p": 0.9998,
+    "smax": 0.538
+   },
+   {
+    "s1": "S1-332984517",
+    "s1_name": "Kevyn Eads Golden",
+    "s1_addr": "9041 Fenner Road, Ludlow Falls, OH",
+    "rec": "S3-49100913",
+    "rec_name": "Kevyn Eads Eads",
+    "rec_addr": "9041 Fenner Rd, Ludlow Falls, Ohio",
+    "p": 0.9998,
+    "smax": 0.868
+   },
+   {
+    "s1": "S1-892530312",
+    "s1_name": "Chiropractic Heartland Group",
+    "s1_addr": "3031 Bonney Briar Drive, Missouri City, TX",
+    "rec": "S2-389982617",
+    "rec_name": "Chiropractic H\u00e9artland",
+    "rec_addr": "TX, BONNEY BRIAR DR, MISSOURI CITY",
+    "p": 0.9999,
+    "smax": 0.551
+   },
+   {
+    "s1": "S1-601204520",
+    "s1_name": "Autism Assistance Council",
+    "s1_addr": "3706 Kettering Court, Unit 301, Fairborn, OH",
+    "rec": "S3-62188438",
+    "rec_name": "Autism Assistance",
+    "rec_addr": "Ohio, Kettering Ct, Fairborn",
+    "p": 0.9999,
+    "smax": 0.751
+   },
+   {
+    "s1": "S1-347924752",
+    "s1_name": "Babylon Youth Allied Association",
+    "s1_addr": "91 Friendly Court, Babylon, NY",
+    "rec": "S2-882508810",
+    "rec_name": "BABYLON YOUTH ALLIED",
+    "rec_addr": "FRIENDLY CT, BABYLON, NY",
+    "p": 0.9999,
+    "smax": 0.759
+   },
+   {
+    "s1": "S1-133925583",
+    "s1_name": "Pomeroy School of Medicine",
+    "s1_addr": "3064 Seven Mile Tree Road, Montgomery County, VA",
+    "rec": "S2-181158775",
+    "rec_name": "POMEROY SCHOOL OF",
+    "rec_addr": "VA, MONTGOMERY COUNTY, 3064 SEVEN MILE TREE RD",
+    "p": 0.9999,
+    "smax": 0.792
+   }
+  ],
+  "F1_coloc_Dc": [
+   {
+    "s1": "S1-919745236",
+    "s1_name": "Direct Armour",
+    "s1_addr": "2300 Old Settlers Boulevard, Unit 1113, Round Rock, TX",
+    "rec": "S3-44282030",
+    "rec_name": "Direct Armour Inc.",
+    "rec_addr": "2300 Old Settlers Boulevard, Round Rock, Texas",
+    "p": 0.9997,
+    "smax": 0.159
+   },
+   {
+    "s1": "S1-385869288",
+    "s1_name": "Diaz Choice Egh Inc",
+    "s1_addr": "191 John Matthews Road, Limestone, TN",
+    "rec": "S3-488867086",
+    "rec_name": "Diaz Choice Egh",
+    "rec_addr": "198 John Matthews Rd, Limestone CDP, Tennessee",
+    "p": 0.9724,
+    "smax": 0.159
+   },
+   {
+    "s1": "S1-631890900",
+    "s1_name": "Aureus Duration LLC",
+    "s1_addr": "137 Main Street, Unit Apartment 2, Delhi, NY",
+    "rec": "S3-472162735",
+    "rec_name": "Aureus  Duration",
+    "rec_addr": "137-139 Main Street, Delhi, New York, # Apartment 2",
+    "p": 0.9998,
+    "smax": 0.212
+   },
+   {
+    "s1": "S1-894048175",
+    "s1_name": "Legacy Design Union LLC",
+    "s1_addr": "19260 Azure Road, Deephaven, MN",
+    "rec": "S2-52055612",
+    "rec_name": "Legacy Design Union",
+    "rec_addr": "19260-B AZURE ROAD, DEEPHAVEN, MN",
+    "p": 1.0,
+    "smax": 0.212
+   },
+   {
+    "s1": "S1-589528285",
+    "s1_name": "Hetzel Intermediate Inc",
+    "s1_addr": "1215 Main Street, Fl 1, Galesburg, IL",
+    "rec": "S2-939990569",
+    "rec_name": "Hetzel Intermediate",
+    "rec_addr": "1215B MAIN SAINT, GALESBURG, IL",
+    "p": 0.9999,
+    "smax": 0.159
+   },
+   {
+    "s1": "S1-346762785",
+    "s1_name": "Yao Anchor Pattana Inc",
+    "s1_addr": "6119 Fairview Drive, King George County, VA",
+    "rec": "S2-205872745",
+    "rec_name": "Yao Anchor Pattana Pattana Incorporated",
+    "rec_addr": "6119 FAIRVIEW DR, KING GEORGE COUNTY, VA",
+    "p": 0.9999,
+    "smax": 0.159
+   },
+   {
+    "s1": "S1-637335708",
+    "s1_name": "Aureus Wintergreen Inc",
+    "s1_addr": "3702 Shadycreek Drive, Arlington, TX",
+    "rec": "S2-664781433",
+    "rec_name": "AUREUS WINTERGREEN",
+    "rec_addr": "ARLINGTON, TX, <NULL>, 3702 SHADYCREEK DRIVE",
+    "p": 0.9999,
+    "smax": 0.159
+   },
+   {
+    "s1": "S1-948323709",
+    "s1_name": "City Of Madison Cancer Peak League Inc.",
+    "s1_addr": "54 Bryan Street, City Of Madison, WI",
+    "rec": "S2-153652635",
+    "rec_name": "CITY OF MADISON CANCER PEAK LEAGUE",
+    "rec_addr": "54- BRYAN ST, null, CITY OF MADISON, WI",
+    "p": 0.9998,
+    "smax": 0.159
+   }
+  ],
+  "F1_coloc_Dc_sameaddr": [
+   {
+    "s1": "S1-160342973",
+    "s1_name": "Hephzibah's Apparel, LLC",
+    "s1_addr": "1701 Boulder Circle, Gallup, NM",
+    "rec": "S3-808385723",
+    "rec_name": "Hephzibah's \u00c1pparel,",
+    "rec_addr": "1701 Boulder Circle, Gallup, New Mexico",
+    "p": 0.9999,
+    "smax": 0.212
+   },
+   {
+    "s1": "S1-82739945",
+    "s1_name": "Levin Guardian LLC",
+    "s1_addr": "326 Greenlow Road, Catonsville, MD",
+    "rec": "S3-884256593",
+    "rec_name": "Levin Guardian",
+    "rec_addr": "326 Greenlow Rd, Maryland, Catonsville CITY",
+    "p": 0.9999,
+    "smax": 0.212
+   },
+   {
+    "s1": "S1-30125416",
+    "s1_name": "Alvarez Mines LLC",
+    "s1_addr": "342 Adams, Howard, KS",
+    "rec": "S3-645229692",
+    "rec_name": "Alvarez Mines",
+    "rec_addr": "342 Adams, Howard, Kansas",
+    "p": 0.9999,
+    "smax": 0.212
+   },
+   {
+    "s1": "S1-898356210",
+    "s1_name": "Advanced Commercial Associates LLC",
+    "s1_addr": "195 Holston View Drive, Unit 203, Weaverville, NC",
+    "rec": "S2-950848091",
+    "rec_name": "Advanced Commercial Associates",
+    "rec_addr": "195 HOLSTON VIEW DRIVE, <NULL>, WEAVERVILLE, NC",
+    "p": 0.9999,
+    "smax": 0.212
+   },
+   {
+    "s1": "S1-933882900",
+    "s1_name": "Ferrify Pharmaceuticals Inc",
+    "s1_addr": "242 Alder Lane, Paulden, AZ",
+    "rec": "S3-897411189",
+    "rec_name": "Ferrify (Ph\u00e1rmaceuticals)",
+    "rec_addr": "Paulden, Arizona, 242 Alder Lane",
+    "p": 0.9999,
+    "smax": 0.159
+   },
+   {
+    "s1": "S1-608459207",
+    "s1_name": "Isa's Transport",
+    "s1_addr": "945 Roberto Avenue, Baker, LA",
+    "rec": "S2-316685298",
+    "rec_name": "Isa's-Transport LLC",
+    "rec_addr": "945  ROBERTO AVENUE, BAKER, LA",
+    "p": 0.9999,
+    "smax": 0.212
+   },
+   {
+    "s1": "S1-251862221",
+    "s1_name": "Ember LLC",
+    "s1_addr": "21 Overlook Ridge Terrace, Unit 121, Revere, MA",
+    "rec": "S3-957885693",
+    "rec_name": "Ember",
+    "rec_addr": "021 Overlook Ridge Ter, Unit 121, Revere, Massachusetts",
+    "p": 0.9999,
+    "smax": 0.212
+   },
+   {
+    "s1": "S1-726767715",
+    "s1_name": "Norry's Seafood LLC",
+    "s1_addr": "2635 Roy Dodson Road, Columbia, TN",
+    "rec": "S2-982667745",
+    "rec_name": "Norry's Seafood",
+    "rec_addr": "2635  Roy Dodson Road, COLUMBIA, TN",
+    "p": 1.0,
+    "smax": 0.212
+   }
+  ],
+  "F1_filler_all": [
+   {
+    "s1": "S1-590827936",
+    "s1_name": "Z Z & Y Home LLC",
+    "s1_addr": "402 Oakland Avenue, Indianapolis, IN",
+    "rec": "S3-213885140",
+    "rec_name": "Z Z  and Y Home LLC",
+    "rec_addr": "401 Oakland Ave, Indianapolis, Indiana",
+    "p": 0.9837,
+    "smax": 0.007
+   },
+   {
+    "s1": "S1-86234489",
+    "s1_name": "Kara-Lynn Chang Technology Inc",
+    "s1_addr": "9315 Pinkerton Lane, Cordova, TN",
+    "rec": "S2-9515013",
+    "rec_name": "Kara-Lynn Chang Technology Incorporated",
+    "rec_addr": "9315 Pinkerton Ln, CORDOA, TN",
+    "p": 0.9999,
+    "smax": 0.159
+   },
+   {
+    "s1": "S1-408914169",
+    "s1_name": "Frontier Cross, LLC",
+    "s1_addr": "Harlingen, 2213 Jackson Avenue, TX",
+    "rec": "S2-102225687",
+    "rec_name": "FRONTIER CROSS,",
+    "rec_addr": "2213 JACKSON AVE, HARLINGEN, TX",
+    "p": 1.0,
+    "smax": 0.212
+   },
+   {
+    "s1": "S1-236325604",
+    "s1_name": "Cavaque LLC",
+    "s1_addr": "3190 Old Columbus Road, Salem, AL",
+    "rec": "S3-968475091",
+    "rec_name": "Cavaque",
+    "rec_addr": "3190 Old Columbus Road, Salem, AL",
+    "p": 1.0,
+    "smax": 0.212
+   },
+   {
+    "s1": "S1-158611375",
+    "s1_name": "Regional Analytics Brands Inc",
+    "s1_addr": "410 Woodbine Drive, Sherman, TX",
+    "rec": "S3-291192860",
+    "rec_name": "Regional Analytics 8rands Inc",
+    "rec_addr": "0410 Woodbine Drive, Sherman, Texas",
+    "p": 0.9999,
+    "smax": 0.293
+   },
+   {
+    "s1": "S1-884292450",
+    "s1_name": "RN Innovative LLC",
+    "s1_addr": "301 Melody Circle, Kaufman, TX",
+    "rec": "S3-639032950",
+    "rec_name": "RN Innovative",
+    "rec_addr": "Texas, 301 Melody Circle, Kaufman",
+    "p": 0.9999,
+    "smax": 0.212
+   },
+   {
+    "s1": "S1-625088315",
+    "s1_name": "Matilde's Sciences",
+    "s1_addr": "14350 62, Minnetonka, MN",
+    "rec": "S3-82293671",
+    "rec_name": "Matilde's Sciences LP",
+    "rec_addr": "62, Minnnetonka CITY, Minnesota",
+    "p": 0.9999,
+    "smax": 0.081
+   },
+   {
+    "s1": "S1-881529903",
+    "s1_name": "Colonial Investors LLC",
+    "s1_addr": "70 Brown Road, Oakfield, ME",
+    "rec": "S2-294224911",
+    "rec_name": "Colonial (Investors)",
+    "rec_addr": "70 BROWN RD, OAKFIELD, ME",
+    "p": 1.0,
+    "smax": 0.212
+   }
+  ],
+  "F1_filler_all_sameaddr": [
+   {
+    "s1": "S1-713449634",
+    "s1_name": "Rocky Consumer LLC",
+    "s1_addr": "6820 Redspire Lane, Village Of Deforest, WI",
+    "rec": "S3-773674428",
+    "rec_name": "... Rocky (Consumer)",
+    "rec_addr": "##6820 Redspire Ln, Village Of Deforest, Wisconsin",
+    "p": 0.9999,
+    "smax": 0.212
+   },
+   {
+    "s1": "S1-309562831",
+    "s1_name": "Sariix Inc",
+    "s1_addr": "1100 Magnolia Street, Opelika, AL",
+    "rec": "S2-215268042",
+    "rec_name": "Sariix",
+    "rec_addr": "AL, 1100 MAGNOLIA ST, OPELIKA",
+    "p": 1.0,
+    "smax": 0.159
+   },
+   {
+    "s1": "S1-906775712",
+    "s1_name": "Barlage Ameren Inc",
+    "s1_addr": "2001 Humboldt Lake Road, Gadsden, TN",
+    "rec": "S3-626001805",
+    "rec_name": "The Barlage Ameren Inc",
+    "rec_addr": "2001c Humboldt Lake Rd, Gadsden, Tennessee",
+    "p": 0.9999,
+    "smax": 0.0
+   },
+   {
+    "s1": "S1-979110713",
+    "s1_name": "Wang, Trudey, O.D.",
+    "s1_addr": "34 David Avenue, Jackson, OH",
+    "rec": "S3-44296524",
+    "rec_name": "Wang, Trudey, O.D. Corporation",
+    "rec_addr": "34-C David Avenue, Jackson, Ohio",
+    "p": 0.9999,
+    "smax": 0.058
+   },
+   {
+    "s1": "S1-829703260",
+    "s1_name": "Valley League IV PC",
+    "s1_addr": "2485 Lights Chapel Road, Greenbrier, TN",
+    "rec": "S2-959427405",
+    "rec_name": "Valley League [IV]",
+    "rec_addr": "2485 LIGHTS CHAPEL ROAD, GREENBRIER, TN",
+    "p": 0.9998,
+    "smax": 0.212
+   },
+   {
+    "s1": "S1-471849017",
+    "s1_name": "Corner Pub!",
+    "s1_addr": "260 Warren Street, Needham, MA",
+    "rec": "S3-484174232",
+    "rec_name": "Corner Pub! Corporation",
+    "rec_addr": "Needham, Massachusetts, 260 Warren Street",
+    "p": 0.9999,
+    "smax": 0.058
+   },
+   {
+    "s1": "S1-438727465",
+    "s1_name": "Wine Supreme Vulcan LLC",
+    "s1_addr": "12496 Hall Shop Road, Fulton, MD",
+    "rec": "S3-508994197",
+    "rec_name": "The Wine Supreme Vulcan LLC",
+    "rec_addr": "012496 Hall Shop Rd, Fulton, Maryland",
+    "p": 0.9999,
+    "smax": 0.0
+   },
+   {
+    "s1": "S1-737204573",
+    "s1_name": "Midwest Institute",
+    "s1_addr": "69 Palisade Avenue, Yonkers, NY",
+    "rec": "S2-549602496",
+    "rec_name": "MIDWEST  INSTITUTE CORP",
+    "rec_addr": "69 PALISADE AVENUE, YONKERS, NY",
+    "p": 0.9998,
+    "smax": 0.107
+   }
+  ],
+  "F2_sib_ge": [
+   {
+    "s1": "S1-408461091",
+    "s1_name": "Lantern Inc",
+    "s1_addr": "535 Aweigh Drive, Crosby, TX",
+    "rec": "S2-414440615",
+    "rec_name": "Inc Lanetgn",
+    "rec_addr": "535 1/2 AWEIGH DR, CROSBY, TX",
+    "p": 0.9939,
+    "smax": null
+   },
+   {
+    "s1": "S1-479515975",
+    "s1_name": "Summit Clinic",
+    "s1_addr": "AL, 24233 48, Woodland",
+    "rec": "S3-132189420",
+    "rec_name": "Summit Partners",
+    "rec_addr": "##24233 48, Alabama, Woodland",
+    "p": 0.9941,
+    "smax": 0.722
+   },
+   {
+    "s1": "S1-545525574",
+    "s1_name": "Sinaque, Inc",
+    "s1_addr": "601 Alma School Road, Unit 311, Mesa, AZ",
+    "rec": "S3-350071707",
+    "rec_name": "Ssinqtbue, Inc",
+    "rec_addr": "#601 Alma School Rd, # 311, Mesa, Arizona",
+    "p": 0.9953,
+    "smax": null
+   },
+   {
+    "s1": "S1-479515975",
+    "s1_name": "Summit Clinic",
+    "s1_addr": "AL, 24233 48, Woodland",
+    "rec": "S3-195533977",
+    "rec_name": "Summit Chclinic",
+    "rec_addr": "##24233 48, Alabama, Woodland",
+    "p": 0.9998,
+    "smax": 0.722
+   },
+   {
+    "s1": "S1-127047096",
+    "s1_name": "Orthopedic Center LLC",
+    "s1_addr": "158 Travelers Way, Lillington, NC",
+    "rec": "S2-785065211",
+    "rec_name": "Orthopedic  Center",
+    "rec_addr": "15 TRAVELERS WAY, LILINGTON, NC",
+    "p": 0.9998,
+    "smax": 0.212
+   },
+   {
+    "s1": "S1-156139899",
+    "s1_name": "Boque LLC",
+    "s1_addr": "1732 Farm Road 56, Springfield, MO",
+    "rec": "S2-638649747",
+    "rec_name": "Bsnoee LLC",
+    "rec_addr": "1732 FARM ROAD 56, SPRINGFIELD, MO",
+    "p": 0.9647,
+    "smax": null
+   },
+   {
+    "s1": "S1-453903649",
+    "s1_name": "Surgical Clinic",
+    "s1_addr": "259 Country Club Drive, Warren, OH",
+    "rec": "S2-337885940",
+    "rec_name": "5urgical Clinic",
+    "rec_addr": "259 COUNTRY CLUB DRIVE, WARREN, OH",
+    "p": 0.9999,
+    "smax": 0.963
+   },
+   {
+    "s1": "S1-127047096",
+    "s1_name": "Orthopedic Center LLC",
+    "s1_addr": "158 Travelers Way, Lillington, NC",
+    "rec": "S3-390310702",
+    "rec_name": "Orthopedic  Center",
+    "rec_addr": "158 Travelers Way, Lillington, North Carolina",
+    "p": 0.9999,
+    "smax": 0.212
+   }
+  ],
+  "F2_sib_gt": [
+   {
+    "s1": "S1-479515975",
+    "s1_name": "Summit Clinic",
+    "s1_addr": "AL, 24233 48, Woodland",
+    "rec": "S3-132189420",
+    "rec_name": "Summit Partners",
+    "rec_addr": "##24233 48, Alabama, Woodland",
+    "p": 0.9941,
+    "smax": 0.722
+   },
+   {
+    "s1": "S1-479515975",
+    "s1_name": "Summit Clinic",
+    "s1_addr": "AL, 24233 48, Woodland",
+    "rec": "S3-195533977",
+    "rec_name": "Summit Chclinic",
+    "rec_addr": "##24233 48, Alabama, Woodland",
+    "p": 0.9998,
+    "smax": 0.722
+   }
+  ],
+  "F2_has_sib": [
+   {
+    "s1": "S1-136319641",
+    "s1_name": "Southern Armada LLC",
+    "s1_addr": "306 Fulton Street, Fayette, OH",
+    "rec": "S2-726929446",
+    "rec_name": "SOUTHERN ARMADA LLC",
+    "rec_addr": "306 FULTON ST, FAYETTE, OH",
+    "p": 1.0,
+    "smax": null
+   },
+   {
+    "s1": "S1-366485601",
+    "s1_name": "Western Technology, LLC",
+    "s1_addr": "201 Pear Street, Unit LOT 21, Bethesda, OH",
+    "rec": "S2-561683107",
+    "rec_name": "Western LLC Service",
+    "rec_addr": "PEAR SAINT, BETHESDA, OH",
+    "p": 0.9975,
+    "smax": 0.117
+   },
+   {
+    "s1": "S1-142375899",
+    "s1_name": "Rate LLC",
+    "s1_addr": "1503 Gallatin Street, Washington, DC",
+    "rec": "S2-352223051",
+    "rec_name": "Rate LLC",
+    "rec_addr": "1503 GALLATIN ST, WASHINGTON, DC",
+    "p": 1.0,
+    "smax": null
+   },
+   {
+    "s1": "S1-257233674",
+    "s1_name": "Summit",
+    "s1_addr": "24233 48, Woodland, AL",
+    "rec": "S2-365046073",
+    "rec_name": "summit",
+    "rec_addr": "WOODLAND, AL, 24233-24237 48",
+    "p": 0.9999,
+    "smax": null
+   },
+   {
+    "s1": "S1-881002850",
+    "s1_name": "Urology Group",
+    "s1_addr": "210 Mt Vernon Pike, Cynthiana, KY",
+    "rec": "S2-829682434",
+    "rec_name": "Urology",
+    "rec_addr": "KY, #210 MT VERNON PIKE, CYNTHIANA CITY",
+    "p": 0.9995,
+    "smax": 0.551
+   },
+   {
+    "s1": "S1-601804015",
+    "s1_name": "Polaris LLC",
+    "s1_addr": "4420 Sarazen Drive, Mesquite, TX",
+    "rec": "S3-194967496",
+    "rec_name": "Polaris",
+    "rec_addr": "4420 Sarazen Drive, Mesquite, TX",
+    "p": 1.0,
+    "smax": 0.212
+   },
+   {
+    "s1": "S1-881002850",
+    "s1_name": "Urology Group",
+    "s1_addr": "210 Mt Vernon Pike, Cynthiana, KY",
+    "rec": "S3-269473526",
+    "rec_name": "Urology Group Authority",
+    "rec_addr": "210 Mt Vernon Pike, Cynthiana, Kentucky",
+    "p": 0.9994,
+    "smax": 0.0
+   },
+   {
+    "s1": "S1-860063006",
+    "s1_name": "Downtown Bistro",
+    "s1_addr": "512 Morningside Drive, Yukon, OK",
+    "rec": "S3-149989900",
+    "rec_name": "bistrodowntown.com",
+    "rec_addr": "512 Morningside Drive, Yukon, Oklahoma",
+    "p": 0.9998,
+    "smax": null
+   }
+  ],
+  "F3_street_mismatch": [
+   {
+    "s1": "S1-765681575",
+    "s1_name": "Global Pizza, L.L.C.",
+    "s1_addr": "500 6th Avenue, Unit Apartment 200, Junction City, OR",
+    "rec": "S3-232733779",
+    "rec_name": "Global Pizza,",
+    "rec_addr": "Sixth Avenue, Unit Apartment 200, Junction City, Oregon",
+    "p": 0.9999,
+    "smax": null
+   },
+   {
+    "s1": "S1-272951398",
+    "s1_name": "Carpenters Local 541 Center",
+    "s1_addr": "706 2nd Street, Auburn, WA",
+    "rec": "S3-796462960",
+    "rec_name": "Carpenters Local",
+    "rec_addr": "706-D Second Street, Washington, Auburn",
+    "p": 0.9997,
+    "smax": null
+   },
+   {
+    "s1": "S1-141223073",
+    "s1_name": "Rausch Bay Technology LLC",
+    "s1_addr": "2203 7th Avenue, Austin, MN",
+    "rec": "S3-567955410",
+    "rec_name": "Rausch Bay Technology L.L.C.",
+    "rec_addr": "02203 Seventh Avenue, Austin CCDP, Minnesota",
+    "p": 0.9999,
+    "smax": null
+   },
+   {
+    "s1": "S1-812756381",
+    "s1_name": "Callihan Harbors LLC",
+    "s1_addr": "205 12th Street, Lafollette, TN",
+    "rec": "S3-542192770",
+    "rec_name": "Callihan Harb0rs LLC",
+    "rec_addr": "205 Twelfth Street, Lafollette, Tennessee",
+    "p": 0.9999,
+    "smax": 0.404
+   },
+   {
+    "s1": "S1-331438686",
+    "s1_name": "287 Center Drive Management",
+    "s1_addr": "1202 2nd Avenue, Fort Dodge, IA",
+    "rec": "S3-215492266",
+    "rec_name": "287 Center Dvei (Management)",
+    "rec_addr": "Iowa, Fort Dodge, 1202 2th Avenue",
+    "p": 0.9999,
+    "smax": 0.404
+   },
+   {
+    "s1": "S1-271838783",
+    "s1_name": "Smith California Inc.",
+    "s1_addr": "NC, 2408 5th Street, Washington",
+    "rec": "S2-789568456",
+    "rec_name": "Smith California Incorporated",
+    "rec_addr": "2408 FIFTH STREET, WASHINGTON, NC",
+    "p": 0.9999,
+    "smax": 0.159
+   },
+   {
+    "s1": "S1-829781069",
+    "s1_name": "Laverna Williamson Dynamic Holdings",
+    "s1_addr": "OR, Portland, 5815 12th Avenue",
+    "rec": "S3-210951616",
+    "rec_name": "Laverna Williamson Dyn\u00e1mic Holdings",
+    "rec_addr": "5815 Twelfth Avenue, Portland, Oregon",
+    "p": 0.9999,
+    "smax": null
+   },
+   {
+    "s1": "S1-449716124",
+    "s1_name": "Betti Kirkendall Rocket, Inc",
+    "s1_addr": "1900 8th Avenue, Helena, MT",
+    "rec": "S3-955963835",
+    "rec_name": "Betti Kirkendall Rocket, [Inc]",
+    "rec_addr": "1900-B Eighth Avenue, Helena, Montana",
+    "p": 0.9999,
+    "smax": null
+   }
+  ],
+  "F3_street_mismatch_numeq": [
+   {
+    "s1": "S1-546909751",
+    "s1_name": "Enex LLC",
+    "s1_addr": "3650 177th Street, Country Club Hills, IL",
+    "rec": "S2-522665032",
+    "rec_name": "ENEX",
+    "rec_addr": "IL, 3650 177ND STREET, COUNTRY CLUB HILLS",
+    "p": 1.0,
+    "smax": 0.212
+   },
+   {
+    "s1": "S1-233552160",
+    "s1_name": "Redwood Staffing",
+    "s1_addr": "1435 Taylor Avenue, Unit APARTMENT 1, Parkville, MD",
+    "rec": "S3-34769967",
+    "rec_name": "Redwood  Staffing - 9067382137",
+    "rec_addr": "1435 Talor Avenue, Parkville CITY, Unit Apartment 1, Maryland",
+    "p": 0.9999,
+    "smax": null
+   },
+   {
+    "s1": "S1-322858772",
+    "s1_name": "Sue Jo Natural LLC",
+    "s1_addr": "1519 4th Street, Pittsburg, KS",
+    "rec": "S2-979268523",
+    "rec_name": "SUE JO NATURAL  (LLC)",
+    "rec_addr": "1519 FOURTH STREET, PITTSBURG, KS",
+    "p": 1.0,
+    "smax": null
+   },
+   {
+    "s1": "S1-51015198",
+    "s1_name": "Horizon Valley Teucrium",
+    "s1_addr": "616 5th Street, Washington, IN",
+    "rec": "S2-21384801",
+    "rec_name": "HORIZON VALLEY",
+    "rec_addr": "616 5ND STREET, WASHINGTON, IN",
+    "p": 0.9999,
+    "smax": 0.616
+   },
+   {
+    "s1": "S1-944077452",
+    "s1_name": "Trusted Realty Consultants LLC",
+    "s1_addr": "18701 Coastal Highway, Unit 12, Rehoboth Beach, DE",
+    "rec": "S3-482641855",
+    "rec_name": "Trusted Realty (Consultants)",
+    "rec_addr": "18701 Castal Highway, Unit 12, Rehoboth Beach, Delaware",
+    "p": 0.9999,
+    "smax": 0.212
+   },
+   {
+    "s1": "S1-924418674",
+    "s1_name": "Longshoremen Local 836",
+    "s1_addr": "301 10th Street, Unit 301, Charlotte, NC",
+    "rec": "S3-931582992",
+    "rec_name": "Longshoremen  Local 836",
+    "rec_addr": "301- Tenth Street, Unit 301, Charlotte, North Carolina",
+    "p": 0.9999,
+    "smax": null
+   },
+   {
+    "s1": "S1-388352313",
+    "s1_name": "Olivia's First Biotech",
+    "s1_addr": "424 7th Street, Rockford, IL",
+    "rec": "S3-630953193",
+    "rec_name": "Olivia's First Biotech LLC LLC",
+    "rec_addr": "#424 Seventh Street, Rockford ITY, Illinois",
+    "p": 0.9997,
+    "smax": 0.212
+   },
+   {
+    "s1": "S1-616514169",
+    "s1_name": "Mountain Initiative III",
+    "s1_addr": "1464 10th, Paris, TX",
+    "rec": "S3-991275345",
+    "rec_name": "Mountain Initiative  III Corp",
+    "rec_addr": "1464 Tnth, Paris, Texas",
+    "p": 0.9983,
+    "smax": 0.107
+   }
+  ],
+  "ND_any": [
+   {
+    "s1": "S1-592898379",
+    "s1_name": "Christ Methodist Church",
+    "s1_addr": "610 Oak Street, Hood River, OR",
+    "rec": "S2-462635284",
+    "rec_name": "Christ Methodist",
+    "rec_addr": "610 OAK ST, HOOD RIVER, OR",
+    "p": 0.9999,
+    "smax": 0.541
+   },
+   {
+    "s1": "S1-293432749",
+    "s1_name": "Rinet Heritage Corp",
+    "s1_addr": "4008 King Street, Portsmouth City, VA",
+    "rec": "S2-604430929",
+    "rec_name": "Rinet Heritage",
+    "rec_addr": "4008 KING STREET, PORTSMOUTH CITY, VA",
+    "p": 1.0,
+    "smax": 0.107
+   },
+   {
+    "s1": "S1-741049577",
+    "s1_name": "4261 Main Drive Properties, Inc",
+    "s1_addr": "4425 Brandywine Street, Washington, DC",
+    "rec": "S2-886253306",
+    "rec_name": "4261 Main Drive Properties,",
+    "rec_addr": "BRANDYWINE STREET, WASHINGTON, DC",
+    "p": 0.9999,
+    "smax": 0.159
+   },
+   {
+    "s1": "S1-544493994",
+    "s1_name": "Beacon Monte LLC",
+    "s1_addr": "5387 Delft Way, Bozeman, MT",
+    "rec": "S2-224387806",
+    "rec_name": "Beacon Monte",
+    "rec_addr": "5387 DELFT WAY, MT, BOZEMA CITY",
+    "p": 0.9999,
+    "smax": 0.212
+   },
+   {
+    "s1": "S1-803851322",
+    "s1_name": "Metropolitan Network V",
+    "s1_addr": "36 Chickadee Lane, Hempstead, NY",
+    "rec": "S2-915856685",
+    "rec_name": "Metropolitan Naetsrrk V",
+    "rec_addr": "36. CHICKADEE LN, HEMPSTEAD, NY",
+    "p": 0.9999,
+    "smax": 0.804
+   },
+   {
+    "s1": "S1-145822520",
+    "s1_name": "A Fresh Brokerage",
+    "s1_addr": "NC, Cary, 451 Pebble Creek Drive",
+    "rec": "S2-60170464",
+    "rec_name": "A Fresh Brokerage Inc.",
+    "rec_addr": "NC, 451 Pebble Creek Drive, CARY TOWNSHIP",
+    "p": 0.9999,
+    "smax": 0.159
+   },
+   {
+    "s1": "S1-222939225",
+    "s1_name": "1 800 Movers",
+    "s1_addr": "1985 11800, Riverton, UT",
+    "rec": "S3-292435784",
+    "rec_name": "1 800 Center",
+    "rec_addr": "1985B 11800, Riverton, Utah",
+    "p": 0.9993,
+    "smax": 0.218
+   },
+   {
+    "s1": "S1-629433779",
+    "s1_name": "Paa Sunstone",
+    "s1_addr": "115 Bridge Street, West Haverstraw, NY",
+    "rec": "S3-55794561",
+    "rec_name": "Paa Suntsoe",
+    "rec_addr": "116 Bridge St, West Haverstraw, New York",
+    "p": 0.9904,
+    "smax": 0.676
+   }
+  ]
+ },
+ "S005_India": {
+  "F1_dist_s0.5": [
+   {
+    "s1": "S1-333280524",
+    "s1_name": "Proact Solutions Private Limited",
+    "s1_addr": "No.5, Warren Road Mylapore, Chennai, Tamil Nadu",
+    "rec": "S2-367973542",
+    "rec_name": "Proact Siluions Private Limited",
+    "rec_addr": "NO.5  , WARREN ROAD MYLAPORE, CHENNAI, Tamil Nadu",
+    "p": 1.0,
+    "smax": 0.605
+   },
+   {
+    "s1": "S1-949969594",
+    "s1_name": "Foods Shiv Solutions Private Limited",
+    "s1_addr": "159/301/A, Kp Towers, Second Floor, Arcot Road, Vadapalani, Chennai, Tamil Nadu",
+    "rec": "S3-397502325",
+    "rec_name": "Foods Shciv Solutions Private Limited",
+    "rec_addr": "159/301/A, Chennai, \u0ba4\u0bae\u0bbf\u0bb4\u0bcd\u0ba8\u0bbe\u0b9f\u0bc1",
+    "p": 0.9999,
+    "smax": 0.96
+   },
+   {
+    "s1": "S1-148346007",
+    "s1_name": "Ghaziabad Estate Private Limited",
+    "s1_addr": "505, Nanda Tower Kaushambi, Ghaziabad, Uttar Pradesh",
+    "rec": "S2-542609494",
+    "rec_name": "Ghaziabad Esiarscte Private Limited",
+    "rec_addr": "#505, NANDA TOWER KAUSHAMBI, GHAZIABAD, Uttar Pradesh",
+    "p": 1.0,
+    "smax": 0.804
+   },
+   {
+    "s1": "S1-51252457",
+    "s1_name": "Dyna Metals Mumbai Private Limited",
+    "s1_addr": "Maharashtra, Mumbai, 907, Mumbai City, Hubtown Viva Shankarwadi, W.E Highway, Jogeshwari (East)",
+    "rec": "S3-270211087",
+    "rec_name": "Private Dyna Metals Mullbai Limited",
+    "rec_addr": "A-907, Mumbai, Mumbai City, MH",
+    "p": 0.9983,
+    "smax": 0.97
+   },
+   {
+    "s1": "S1-760783821",
+    "s1_name": "Indrraj Engineers Ltd",
+    "s1_addr": "5-91-25 4Th Line Lakshmipuram Lakshmipuram, Guntur, Andhra Pradesh",
+    "rec": "S3-901011637",
+    "rec_name": "Indrraj Engineer Ltd (Ltd)",
+    "rec_addr": "5-91-25 4Th Line Lakshmipuram Lakshmipuram, Guntur, AP",
+    "p": 0.9999,
+    "smax": 0.546
+   },
+   {
+    "s1": "S1-132055760",
+    "s1_name": "Digital Consulting Pvt Ltd",
+    "s1_addr": "Tulip Violet, Sec 69, C/O Kavita Singh, Gurgaon, Badshahpur, Haryana",
+    "rec": "S2-388895494",
+    "rec_name": "DIGITAL PVT LTD PARTNERS",
+    "rec_addr": "C/O KAVITA SINGH, TULIP VIOLET, SEC 69, BADSHAHPUR, Haryana",
+    "p": 0.9999,
+    "smax": 0.782
+   },
+   {
+    "s1": "S1-83432358",
+    "s1_name": "Chennai City Corporation Fragrances Corp",
+    "s1_addr": "Old No 15 New No. 7, Chennai, Tamil Nadu, Perumal Koil, West Mada Street, Saidapet, Chennai City Corporation",
+    "rec": "S3-971507748",
+    "rec_name": "Chennai City Corporation  Fdsranacs Corp",
+    "rec_addr": "15 New No. 7, Perumal Koil, West Mada Street, Saidapet, Chennai City Corporation, Maraimalainagar, TN",
+    "p": 0.9994,
+    "smax": 0.778
+   },
+   {
+    "s1": "S1-455521477",
+    "s1_name": "Hindusthan Tech Clinic",
+    "s1_addr": "8021, Vaake, Varsha Palace Lohagal Road, Ajmer, Rajasthan",
+    "rec": "S2-191292636",
+    "rec_name": "Hindusthan Trhc Cl\u00ednic",
+    "rec_addr": "8021, VAAKE, VARSHA PALACE LOHAGAL ROAD, AJMER, \u0930\u093e\u091c\u0938\u094d\u0925\u093e\u0928",
+    "p": 0.9999,
+    "smax": 0.836
+   }
+  ],
+  "F1_dist_s0.7": [
+   {
+    "s1": "S1-11940584",
+    "s1_name": "Chamundeshwari Healthcare Private Limited",
+    "s1_addr": "Kh. No. 860 Ff Extn Lal Dora Street No. 3 25 Foota Road Blk-C Sant Nagar, Delhi, North Delhi, Delhi",
+    "rec": "S2-225142693",
+    "rec_name": "CHAMUNDESHWARI HEA1THCARE PRIVATE LIMITED",
+    "rec_addr": "KH. NO. 0860 FF EXTN LAL DORA STREET NO. 3 25 FOOTA ROAD BLK-C SANT NAGAR, DELHI, Delhi",
+    "p": 0.9999,
+    "smax": 0.774
+   },
+   {
+    "s1": "S1-356760813",
+    "s1_name": "Shyam Exports Limited",
+    "s1_addr": "Hindustan Park, Kolkata, Kolkata, Howrah, West Bengal, A/P-411/23A/3",
+    "rec": "S3-783547209",
+    "rec_name": "\u09b6\u09cd\u09af\u09be\u09ae Exports Limited",
+    "rec_addr": "A/p-##411/23a/3, Hindustan Park, Kolkata, Kolkata, Howrah, WB",
+    "p": 0.9999,
+    "smax": 0.947
+   },
+   {
+    "s1": "S1-57780045",
+    "s1_name": "Mds Green (India) Care",
+    "s1_addr": "Secunderabad-094., E-70, Telangana, Andhra Pradesh, Sainikpuri, Kapra Municipality",
+    "rec": "S3-613277478",
+    "rec_name": "Mds Grmhlen (India) Care",
+    "rec_addr": "Andhra Pradesh, E-70, Secunderabad-094., Sainikpuri, Kapra Municipality, TG",
+    "p": 0.9999,
+    "smax": 0.908
+   },
+   {
+    "s1": "S1-857286279",
+    "s1_name": "Abyss Zinc Limited",
+    "s1_addr": "308 Chhabra Complex8 Veer Savarkar Block Shakarpur, New Delhi, East Delhi, Delhi",
+    "rec": "S2-615826116",
+    "rec_name": "ABYSS  ZC LIMITED",
+    "rec_addr": "308 CHHABRA COMPLEX8 VEER SAVARKAR BLOCK SHAKARPUR, NEW DELHI, Delhi",
+    "p": 0.9997,
+    "smax": 0.906
+   },
+   {
+    "s1": "S1-706079201",
+    "s1_name": "Services Bright Ventures Private Limited",
+    "s1_addr": "Gala No.4, 5, 6, Gat No.232/41/42, Waliwade Road, Karvir, Kolhapur, Maharashtra",
+    "rec": "S3-244619433",
+    "rec_name": "Services 8right Ventures Private  Limited",
+    "rec_addr": "No 4, 5, 6, Gat No.232/41/42, Waliwade Road, Karvir, Kolhapur, MH",
+    "p": 0.9998,
+    "smax": 0.955
+   },
+   {
+    "s1": "S1-459553622",
+    "s1_name": "Jai Square Pvt Ltd",
+    "s1_addr": "C-22, Navratna Apartments, 17Thcross Malleswram, Bangalore-55, Malleswram, Karnataka",
+    "rec": "S3-698470170",
+    "rec_name": "Jai Pvt Ltd Center",
+    "rec_addr": "C-a-22, Navratna Apartments, 17Thcross Malleswram, Bangalore-55, Malleswram, KA",
+    "p": 0.9999,
+    "smax": 0.821
+   },
+   {
+    "s1": "S1-463752416",
+    "s1_name": "Mauryan Shanti",
+    "s1_addr": "Shop 9 Shreenath Complex, Khambalpada Road, Kalyan, Thane, Maharashtra",
+    "rec": "S2-189557948",
+    "rec_name": "Mauryan Center",
+    "rec_addr": "Maharashtra, SHOP 9 SHREENATH COMPLEX, KHAMBALPADA ROAD, KALYAN",
+    "p": 0.9999,
+    "smax": 0.801
+   },
+   {
+    "s1": "S1-279280935",
+    "s1_name": "Saltlake Consulting Private Limited",
+    "s1_addr": "Regus, Rdb Boulevard, 5Th Floor, Sector-V, Salt Lake, Saltlake, Office No Rescowork09, North 24 Parganas, West Bengal",
+    "rec": "S2-325360116",
+    "rec_name": "Saltlake Private Limited S\u00e9rvices",
+    "rec_addr": "West Bengal, OFFICE NO RESCOWORK09, REGUS, RDB BOULEVARD, 5TH FLOOR, SECTOR-V, SALT LAKE, SALTLAKE",
+    "p": 0.9982,
+    "smax": 0.782
+   }
+  ],
+  "F1_dist_s0.9": [
+   {
+    "s1": "S1-258662085",
+    "s1_name": "Peach Win Limited",
+    "s1_addr": "No. 42/1, 22Nd Cross, 3Rd Block, Jayanagar, Bangalore South, Bangalore, Karnataka",
+    "rec": "S2-643183567",
+    "rec_name": "*** Peach Limited Service",
+    "rec_addr": "22ND CROSS, 3RD BLOCK, JAYANAGAR, NO. 42/1., BANGALORE SOUTH, BANGALORE, \u0c95\u0cb0\u0ccd\u0ca8\u0cbe\u0c9f\u0c95",
+    "p": 0.9895,
+    "smax": 1.0
+   },
+   {
+    "s1": "S1-395875303",
+    "s1_name": "Devtech Vita Ltd",
+    "s1_addr": "204, Mhatre Pen Building, Senapati Bapat Marg, Dadar West, Mumbai, Mumbai City, Maharashtra",
+    "rec": "S3-102225419",
+    "rec_name": "Center Devtech Ltd",
+    "rec_addr": "204, Mumbai, Mumbai City, MH",
+    "p": 0.9835,
+    "smax": 1.0
+   },
+   {
+    "s1": "S1-414568557",
+    "s1_name": "Unique International Limited",
+    "s1_addr": "Officeunit No 204 2 Floor, Solitaire Business Hub, Pune City, Pune, Maharashtra",
+    "rec": "S3-926378164",
+    "rec_name": "\u092f\u0942\u0928\u093f\u0915 International Limited",
+    "rec_addr": "Officeunit No 204 2 Floor, Pune Region, Solitaire Business Hub, Pune, MH",
+    "p": 0.9999,
+    "smax": 0.969
+   },
+   {
+    "s1": "S1-757617082",
+    "s1_name": "First Infra",
+    "s1_addr": "3 Jai Bhavani Sadan, Next To Peninsula Business Park, Lower P, Arel, Mumbai, Mumbai City, Maharashtra",
+    "rec": "S3-139340865",
+    "rec_name": "\u092b\u0930\u094d\u0938\u094d\u091f Infra",
+    "rec_addr": "No 3. Jai Bhavani Sadan, Next To Peninsula Business Park, Lower P, Arel, Mumbai, Mumbai City, \u092e\u0939\u093e\u0930\u093e\u0937\u094d\u091f\u094d\u0930",
+    "p": 1.0,
+    "smax": 0.96
+   },
+   {
+    "s1": "S1-44003297",
+    "s1_name": "Seven Logistics Private Limited",
+    "s1_addr": "6/130/E Chandrika Bhavan, Navaikulam, Po, Chirayinkeezhu, Thiruvananthapuram, Trivandrum, Kerala",
+    "rec": "S2-636227503",
+    "rec_name": "\u0d38\u0d46\u0d35\u0d7b Logistics Private Limited",
+    "rec_addr": "#6/130/E CHANDRIKA BHAVAN, NAVAIKULAM, PO, CHIRAYINKEEZHU, THIRUVANANTHAPURAM, TRIVANDRUM, Keralam",
+    "p": 0.9999,
+    "smax": 0.958
+   },
+   {
+    "s1": "S1-760352995",
+    "s1_name": "LWQ Foundation Corp",
+    "s1_addr": "L-181, Sector-25 Jalvayu Vihar, Gautam Buddha Nagar, Uttar Pradesh",
+    "rec": "S2-573253072",
+    "rec_name": "WQ Foundation Corp",
+    "rec_addr": "L-181, SECTOR-25 JALVAYU VIHAR, GAUTAM BUDDHA NAGAR, Uttar Pradesh",
+    "p": 0.9855,
+    "smax": 1.0
+   },
+   {
+    "s1": "S1-609695554",
+    "s1_name": "Metropolitan Moon Private Limited",
+    "s1_addr": "First Floor, Commercial Plaza, Radisson Hotel, Mahipalpur, Nh-8, New Delhi, South Delhi, Delhi",
+    "rec": "S2-824212008",
+    "rec_name": "Metropo1itan Moon Private (Limited)",
+    "rec_addr": "HN 779/5 FIRST FLOOR, COMMERCIAL PLAZA, RADISSON HOTEL, MAHIPALPUR, NH-8, NEW DELHI, \u0926\u093f\u0932\u094d\u0932\u0940",
+    "p": 0.9997,
+    "smax": 1.0
+   },
+   {
+    "s1": "S1-59040274",
+    "s1_name": "OB India Pvt Ltd",
+    "s1_addr": "Noida, Uttar Pradesh, Pocket - Vi, Sector - 82, C-49",
+    "rec": "S2-728724579",
+    "rec_name": "OB Isa Pvt (Ltd)",
+    "rec_addr": "C-49, POCKET - VI, SECTOR - 82, Uttar Pradesh",
+    "p": 0.9897,
+    "smax": 1.0
+   }
+  ],
+  "F1_dist_s0.5_sameaddr": [
+   {
+    "s1": "S1-933780172",
+    "s1_name": "Bsd Soft LLP",
+    "s1_addr": "Shop No.379, Ground Floor, Sector B Scheme No. 136, Indore, Madhya Pradesh",
+    "rec": "S2-785060296",
+    "rec_name": "Bsd Sff LLP",
+    "rec_addr": "SHOP NO.379, GROUND FLOOR, SECTOR B SCHEME NO. 136, INDORE, Madhya Pradesh",
+    "p": 0.9998,
+    "smax": 0.551
+   },
+   {
+    "s1": "S1-601699751",
+    "s1_name": "New Trading Limited",
+    "s1_addr": "63/5 7Th Main Road Ceedeeyes Meenakshi Apts Ramnagar, North Extn, Velachery, Chennai, Tamil Nadu",
+    "rec": "S3-871829832",
+    "rec_name": "Center New Limited",
+    "rec_addr": "TN, 63/ 7Th Main Road Ceedeeyes Meenakshi Apts Ramnagar, Velachery, Chennai, North Extn",
+    "p": 0.994,
+    "smax": 0.645
+   },
+   {
+    "s1": "S1-795660691",
+    "s1_name": "Shree Alpha Enterprises Private Limited",
+    "s1_addr": "Plot No 208 East Wardhman Nagar, Near Balaji Steel Industries, Nagpur, Maharashtra",
+    "rec": "S3-658678649",
+    "rec_name": "Private Shree Apdtah Enterprises Limited",
+    "rec_addr": "H.no 208 East Wardhman Nagar, Near Balaji Steel Industries, Nagpur, \u092e\u0939\u093e\u0930\u093e\u0937\u094d\u091f\u094d\u0930",
+    "p": 0.9995,
+    "smax": 0.965
+   },
+   {
+    "s1": "S1-420572871",
+    "s1_name": "Vijay Solutions Pvt Ltd",
+    "s1_addr": "Kolkata, 29A Tiljala Masjid Bari Lanep S Tiljala, West Bengal, Calcutta",
+    "rec": "S3-236019544",
+    "rec_name": "Pvt Vijay Sgtmoins Ltd",
+    "rec_addr": "29A Tiljala Masjid Bari Lanep S Tiljala, Kolkata, Calcutta, WB",
+    "p": 0.9998,
+    "smax": 0.605
+   },
+   {
+    "s1": "S1-83282567",
+    "s1_name": "Khed Cranes Limited",
+    "s1_addr": "C/O. Ashok Govindrao Tapkir, Milkat No.11/4/799, In Front Of Amba Bus Stop, Wadmukhwadi, Pune, Khed, Pune, Maharashtra",
+    "rec": "S3-426565694",
+    "rec_name": "Khed Limited Services",
+    "rec_addr": "C/o. Ashok Govindrao Tapkir, Milkat No.11/4/799, In Front Of Amba Bus Stop, Wadmukhwadi, Pune, Khed, Pune, MH",
+    "p": 0.9989,
+    "smax": 0.505
+   },
+   {
+    "s1": "S1-94798636",
+    "s1_name": "Dynamic Alloy Private Limited",
+    "s1_addr": "Plot No - 7, Flat No S-2, Shriji Nagar, Goliyawas, Jaipur, Rajasthan",
+    "rec": "S2-914111950",
+    "rec_name": "Private Dynamic Ally Limited",
+    "rec_addr": "PLOT NO - #7, JAIPUR, FLAT NO S-2, SHRIJI NAGAR, GOLIYAWAS, Rajasthan",
+    "p": 0.9995,
+    "smax": 0.754
+   },
+   {
+    "s1": "S1-469763982",
+    "s1_name": "HZV Care Limited",
+    "s1_addr": "Plot No. - 65, 3Rd Floor Block-A, Pandav Nagar, New Delhi, East Delhi, Delhi",
+    "rec": "S3-819899938",
+    "rec_name": "HZV  Crsea Limited",
+    "rec_addr": "Plot No. - 65, 3Rd Floor Block-a, Pandav Nagar, New Delhi, East Delhi, DL",
+    "p": 0.9999,
+    "smax": 0.728
+   },
+   {
+    "s1": "S1-801619548",
+    "s1_name": "Galaxy Mine (India) Pvt. Ltd.",
+    "s1_addr": "C - 17 Syndicate Enclave Raghu Nagar, New Delhi, West Delhi, Delhi",
+    "rec": "S2-251332640",
+    "rec_name": "GALAXY ME (INDIA) PVT. LTD.",
+    "rec_addr": "C - 17 SYNDICATE ENCLAVE RAGHU NAGAR, NEW DELHI, Delhi",
+    "p": 0.9998,
+    "smax": 0.895
+   }
+  ],
+  "F1_dist_s0.5_subst": [
+   {
+    "s1": "S1-568380736",
+    "s1_name": "Bangalore South Producer Private Limited",
+    "s1_addr": "Karnataka, East Anjaneya Temple, Street, 97/1, Bangalore, Bangalore South",
+    "rec": "S3-565572596",
+    "rec_name": "Banga1ore South Producer Private Limited",
+    "rec_addr": "97/1, Bangalore South, Bangalore, KA",
+    "p": 0.9999,
+    "smax": 0.941
+   },
+   {
+    "s1": "S1-762085292",
+    "s1_name": "Nagendra Impex Private Limited",
+    "s1_addr": "9/61 Rcc, Bc Colony, Govindavada, Anantapur, Andhra Pradesh",
+    "rec": "S2-301921366",
+    "rec_name": "Private Nagendra Irx Limited",
+    "rec_addr": "#9/61 RCC, BC COLONY, GOVINDAVADA, ANANTAPUR, Andhra Pradesh",
+    "p": 0.9991,
+    "smax": 0.799
+   },
+   {
+    "s1": "S1-838547524",
+    "s1_name": "Apg Pharmaceuticals Private Limited",
+    "s1_addr": "No. 1106/9, A.M. Industrial Estate, Garebhavi Palya, 7Th Mile, Hosur Road, Bangalore, Karnataka",
+    "rec": "S2-483239520",
+    "rec_name": "APG PHARMACEUTICA1S  PRIVATE LIMITED",
+    "rec_addr": "NO. 8-1106/9 , A.M. INDUSTRIAL ESTATE, GAREBHAVI PALYA, 7TH MILE, HOSUR ROAD, Karnataka",
+    "p": 0.9999,
+    "smax": 0.51
+   },
+   {
+    "s1": "S1-865982524",
+    "s1_name": "Ace Hospitality Pvt Ltd",
+    "s1_addr": "602, Fine House Anandji Lane, M. G. Road, Ghatkopar, Mumbai, Mumbai City, Maharashtra",
+    "rec": "S3-181891302",
+    "rec_name": "Ace Hoeoiatflity Pvt Ltd",
+    "rec_addr": "602., MH, Mumbai, Fine House Anandji Lane, M. G. Road, Ghatkopar, Mumbai City",
+    "p": 0.9998,
+    "smax": 0.788
+   },
+   {
+    "s1": "S1-338514833",
+    "s1_name": "Vista Project Ltd",
+    "s1_addr": "Maharashtra, Mumbai City, Mumbai, Keshavrao Khadye Marg Opp Race Course Icici Bank Tardeo, Zenith House",
+    "rec": "S2-247060504",
+    "rec_name": "Vista  Posect Ltd",
+    "rec_addr": "",
+    "p": 0.8521,
+    "smax": 0.508
+   },
+   {
+    "s1": "S1-176250157",
+    "s1_name": "Fortune & Sons",
+    "s1_addr": "31, Pratham Bunglow Kudasan, Gandhinagar, Gandhinagar, Gandhi Nagar, Gujarat",
+    "rec": "S3-526686322",
+    "rec_name": "Fortune & Sso",
+    "rec_addr": "31, Gandhi Nagar, GJ",
+    "p": 0.9999,
+    "smax": 0.528
+   },
+   {
+    "s1": "S1-793175713",
+    "s1_name": "Oxford Constructions Private Limited",
+    "s1_addr": "H.No.7-12, Kothapeta Street Chinnathippasamudram, Grampanchayat, Madanapalle, Chittoor, Andhra Pradesh",
+    "rec": "S3-301376206",
+    "rec_name": "Limited Oxford Private Center",
+    "rec_addr": "H.no.b3/7-12, AP, Madanapalle, Chittoor",
+    "p": 0.9986,
+    "smax": 0.72
+   },
+   {
+    "s1": "S1-983774438",
+    "s1_name": "Oriental Shilpa Pvt. Ltd.",
+    "s1_addr": "208, Mohid Heights, Lokhandwala Road, Mumbai, Maharashtra",
+    "rec": "S2-129094850",
+    "rec_name": "Ltd. Oriental Pvt. Partners",
+    "rec_addr": "MUMBAI, \u092e\u0939\u093e\u0930\u093e\u0937\u094d\u091f\u094d\u0930, MUMBAI, 208",
+    "p": 0.998,
+    "smax": 0.875
+   }
+  ],
+  "F1_dist_s0.5_onesided": [
+   {
+    "s1": "S1-174805089",
+    "s1_name": "Vision Producer Private Limited",
+    "s1_addr": "At 73/6, Songirwadi, Songirwadi Rural, Wai, Satara, Maharashtra",
+    "rec": "S3-307629454",
+    "rec_name": "\u0935\u093f\u091c\u0928 Producer Private Limited",
+    "rec_addr": "At 73/6, Songirwadi, Songirwadi Rural, Wai, Satara, MH",
+    "p": 1.0,
+    "smax": 0.933
+   },
+   {
+    "s1": "S1-432864663",
+    "s1_name": "Maa Management Pvt Ltd",
+    "s1_addr": "C/O Brijesh Singh, Hanumaan Gang Salem Pur Kakhara, Allahabad, Uttar Pradesh",
+    "rec": "S3-861187896",
+    "rec_name": "Maa \u092e\u0948\u0928\u0947\u091c\u092e\u0947\u0902\u091f Pvt Ltd",
+    "rec_addr": "C/o Brijesh Singh, Hanumaan Gang Salem Pur Kakhara, Allahabad, \u0909\u0924\u094d\u0924\u0930 \u092a\u094d\u0930\u0926\u0947\u0936",
+    "p": 0.9999,
+    "smax": 0.753
+   },
+   {
+    "s1": "S1-178104936",
+    "s1_name": "Real Agro Private Limited",
+    "s1_addr": "Omm Muruga Complex, No.18/76, T.V.K Road Municipal Colony, Erode, Tamil Nadu",
+    "rec": "S2-866941679",
+    "rec_name": "\u0bb0\u0bbf\u0baf\u0bb2\u0bcd Agro Private Limited",
+    "rec_addr": "OMM MURUGA COMPLEX, NO.18/76, T.V.K ROAD MUNICIPAL COLONY, ERODE, \u0ba4\u0bae\u0bbf\u0bb4\u0bcd\u0ba8\u0bbe\u0b9f\u0bc1",
+    "p": 1.0,
+    "smax": 0.867
+   },
+   {
+    "s1": "S1-182267575",
+    "s1_name": "Wind Industries Group Care",
+    "s1_addr": "Sy No 14P, 57P Izzathnagar Kondapur, Seri Lingampally, K.V.Rangareddy, Telangana",
+    "rec": "S3-69632045",
+    "rec_name": "-- Wind Industries Group",
+    "rec_addr": "Sy No 14P, 57P Izzathnagar Kondapur, K.v.rangareddy, Sangareddy, TG",
+    "p": 0.9985,
+    "smax": 0.728
+   },
+   {
+    "s1": "S1-621932575",
+    "s1_name": "Green Infra Private Limited",
+    "s1_addr": "1185, Sadashiv Peth, Laxmiprasad Apartment, Flat No. 8, 4Th Floor, Behind Maharashtr, A Mandal, Pune, Maharashtra",
+    "rec": "S3-868666227",
+    "rec_name": "\u0917\u094d\u0930\u0940\u0928 Infra Private Limited",
+    "rec_addr": "1185, Sadashiv Peth, Laxmiprasad Apartment, Flat No. 8, 4Th Floor, Behind Maharashtr, A Mandal, Pune, Mumbai, MH",
+    "p": 0.9999,
+    "smax": 0.908
+   },
+   {
+    "s1": "S1-3849535",
+    "s1_name": "Baha Instruments",
+    "s1_addr": "3, Harshadbhavani Society, P T College Road Vasna, Ahmedabad, Gujarat",
+    "rec": "S3-384596978",
+    "rec_name": "Baha",
+    "rec_addr": "3, Harshadbhavani Society, P T College Road Vasna, Ahmedabad, Gujarat",
+    "p": 0.9999,
+    "smax": 0.613
+   },
+   {
+    "s1": "S1-991726531",
+    "s1_name": "Blue Builders Private Limited",
+    "s1_addr": "Krishna, 76-8/6-5/1 Dwarakamayi Ni, Vijayawada (Urban), Gudivada Rama Rao Street, Andhra Pradesh",
+    "rec": "S3-387377874",
+    "rec_name": "\u0c2c\u0c4d\u0c32\u0c42 Builders Private Limited",
+    "rec_addr": "Vijayawada (Urban), No 76-8/6-5/1- Dwarakamayi Ni, Gudivada Rama Rao Street, AP, Vijayawada Region",
+    "p": 0.9999,
+    "smax": 0.952
+   },
+   {
+    "s1": "S1-699275178",
+    "s1_name": "My Technologies Private Limited",
+    "s1_addr": "Maharashtra, Phase- I, Oxford, Mohan Suburbia, Chinchpada, A/604, Ambarnath, Thane",
+    "rec": "S3-110935233",
+    "rec_name": "My \u091f\u0947\u0915\u094d\u0928\u094b\u0932\u0949\u091c\u0940\u091c Private Limited",
+    "rec_addr": "A/604, Phase- I, Oxford, Mohan Suburbia, Chinchpada, Ambarnath, Thane, MH",
+    "p": 1.0,
+    "smax": 0.625
+   }
+  ],
+  "F1_coloc_Dc": [
+   {
+    "s1": "S1-718258352",
+    "s1_name": "Real Properties Private Limited",
+    "s1_addr": "G 4, Baid Metha Comples 183 Mount Road, Little Mount, Saidapet, Chennai, Tamil Nadu",
+    "rec": "S2-86369091",
+    "rec_name": "Real Properties Private Ltd",
+    "rec_addr": "NO 911 G 4, BAID METHA COMPLES 183 MOUNT ROAD, LITTLE MOUNT, SAIDAPET, CHENNAI, \u0ba4\u0bae\u0bbf\u0bb4\u0bcd\u0ba8\u0bbe\u0b9f\u0bc1",
+    "p": 0.9999,
+    "smax": 0.032
+   },
+   {
+    "s1": "S1-152429672",
+    "s1_name": "Msb Management Private Limited",
+    "s1_addr": "38A, Kh. No. 2785 3Rd Floor, Blk-Wz, Village Basai, Darapu, R Landmark, Delhi, West Delhi, Delhi",
+    "rec": "S2-895850596",
+    "rec_name": "LIMITED MSB MANAGEMENT SERVICES",
+    "rec_addr": "38A, KH. NO. 2785 3RD FLOOR, BLK-WZ, VILLAGE BASAI, DARAPU, R LANDMARK, DELHI, WEST DELHI, Delhi",
+    "p": 0.9984,
+    "smax": 0.336
+   },
+   {
+    "s1": "S1-602727140",
+    "s1_name": "UU Estate",
+    "s1_addr": "Plot No- 4735/5162 Near Gl Colony, Vss Nagar, Bhubaneswar, Khordha, Orissa",
+    "rec": "S3-960605982",
+    "rec_name": "UU-Etlsttate",
+    "rec_addr": "Plot No- 4735/516 Near Gl Colony, Vss Nagar, Khordha, Bhubaneswar, OD",
+    "p": 0.9985,
+    "smax": 0.804
+   },
+   {
+    "s1": "S1-991513999",
+    "s1_name": "Jaj Commercial Private Limited",
+    "s1_addr": "8B Jadunath Sarkar Road, Kolkata, Howrah, West Bengal",
+    "rec": "S2-296229754",
+    "rec_name": "Jaj C0mmercial Private Limited",
+    "rec_addr": "8B JADUNATH SARKAR ROAD, KOLKATA, KOLKATA, West Bengal",
+    "p": 0.9999,
+    "smax": 0.511
+   },
+   {
+    "s1": "S1-188891168",
+    "s1_name": "Share Indiaprivate Limited",
+    "s1_addr": "Ward No. 21, Opp. Gayatri Mandir Main Road, Tibbi, Tibbi, Hanumangarh, Rajasthan",
+    "rec": "S3-499548243",
+    "rec_name": "Share Limited S\u00e9rvice",
+    "rec_addr": "Wamd No. 21, Hanumangarh, RJ, Tibbi",
+    "p": 0.9947,
+    "smax": 0.492
+   },
+   {
+    "s1": "S1-549062150",
+    "s1_name": "FN Technology Limited",
+    "s1_addr": "21/B, Deep, Street No. 1, Vidhyakunj Soc. Amin Marg, Rajkot, Gujarat",
+    "rec": "S3-792769778",
+    "rec_name": "Ltd FN Technology",
+    "rec_addr": "21/B, Rajkot, \u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4",
+    "p": 0.9999,
+    "smax": 0.032
+   },
+   {
+    "s1": "S1-194329806",
+    "s1_name": "Mumbai Balaji Private Limited",
+    "s1_addr": "503, The Woodland Heights, Plot No. 23 Dr Raghunath Road, Nr Siddhart Hotel, Ba, Ndra West, Mumbai, Mumbai City, Maharashtra",
+    "rec": "S3-971386829",
+    "rec_name": "Mumbai Balaji Limited Services",
+    "rec_addr": "Mumbai, 00503, Mumbai City, MH, The Woodland Heights, Plot No. 23 Dr Raghunath Road, Nr Siddhart Hotel, Ba, Ndra West",
+    "p": 0.9991,
+    "smax": 0.336
+   },
+   {
+    "s1": "S1-531730923",
+    "s1_name": "Neuron & Sons Private Limited",
+    "s1_addr": "Plot No. Q - 9, Bhagwati Garden Ext. Uttam Nagar, New Delhi, Central Delhi, Delhi",
+    "rec": "S2-529077504",
+    "rec_name": "Neuron &  Sons Private",
+    "rec_addr": "#702 PLOT NO. Q - 9, BHAGWATI GARDEN EXT. UTTAM NAGAR, CENTRAL DELHI, Delhi",
+    "p": 0.9999,
+    "smax": 0.032
+   }
+  ],
+  "F1_coloc_Dc_sameaddr": [
+   {
+    "s1": "S1-157587761",
+    "s1_name": "Universal Builders Private Limited",
+    "s1_addr": "Delhi, E 46 Shiv Ram Park, West Delhi, New Delhi, Gali No 13",
+    "rec": "S3-38711121",
+    "rec_name": "Universal Builders Private Ltd",
+    "rec_addr": "E 46 Shiv Ram Park, Delhi, DL",
+    "p": 0.9999,
+    "smax": 0.032
+   },
+   {
+    "s1": "S1-521634988",
+    "s1_name": "Innovative Software Private Limited",
+    "s1_addr": "10/11 F.F. Rivera 30, Nr., Paras Bung. Prahladnagar, Ahmadabad City, Ahmedabad, Gujarat",
+    "rec": "S3-703673569",
+    "rec_name": "Innovative Software Private",
+    "rec_addr": "10/11 F.f. Rivera 30, Ahmedabad, Ahmadabad City, GJ",
+    "p": 1.0,
+    "smax": 0.032
+   },
+   {
+    "s1": "S1-598466331",
+    "s1_name": "Pune City Electronics Limited",
+    "s1_addr": "Pune City, Chandradeep, Mukund Nagar, Pune, D Bl Fl303 S707 Narali Bg, Maharashtra",
+    "rec": "S3-600584223",
+    "rec_name": "Pune Cyt Electronics Limited",
+    "rec_addr": "D Bl Fl303 S707 Narali Bg, Chandradeep, Mukund Nagar, Pune, MH",
+    "p": 0.9999,
+    "smax": 0.888
+   },
+   {
+    "s1": "S1-551098736",
+    "s1_name": "Barkha (India) Systems Private Limited",
+    "s1_addr": "1A Radhika App26 Syed Amir Ali Ave, Kolkata, Calcutta, West Bengal",
+    "rec": "S3-513319775",
+    "rec_name": "Barkha (India) Systems Private Ltd",
+    "rec_addr": "WB, No 1A Radhika App26 Syed Amir Ali Ave, Calcutta",
+    "p": 1.0,
+    "smax": 0.032
+   },
+   {
+    "s1": "S1-547234102",
+    "s1_name": "Ns Technologies Limited",
+    "s1_addr": "H.No. 2234 Bhagat Pura, Jagadhri, Ambala, Haryana",
+    "rec": "S3-751273237",
+    "rec_name": "Limited Ns Tecoologise",
+    "rec_addr": "No 2234 Bhagat Pura, Jagadhri, Yamuna Nagar, HR",
+    "p": 0.9997,
+    "smax": 0.625
+   },
+   {
+    "s1": "S1-420013701",
+    "s1_name": "Mody Krishna Limited",
+    "s1_addr": "Dsidc Shed No:79, Ground Floor Scheme-1, Okhla Industrial Area Phase-2, New Delhi, South Delhi, Delhi",
+    "rec": "S2-781430078",
+    "rec_name": "MODY KLORIHDAN LIMITED",
+    "rec_addr": "DSIDC SHED NO:#79, GROUND FLOOR SCHEME-1, OKHLA INDUSTRIAL AREA PHASE-2, NEW DELHI, Delhi",
+    "p": 0.9997,
+    "smax": 0.964
+   },
+   {
+    "s1": "S1-987062878",
+    "s1_name": "Narsingh Consulting Private Limited",
+    "s1_addr": "Pune, Office No 5 Akshay Complex156 Mangalwar Peth, Maharashtra, Pune",
+    "rec": "S2-398089799",
+    "rec_name": "Narsingh Consulting Private",
+    "rec_addr": "Maharashtra, OFFICE NO 5 AKSHAY COMPLEX156 MANGALWAR PETH, PUNE",
+    "p": 1.0,
+    "smax": 0.032
+   },
+   {
+    "s1": "S1-294527452",
+    "s1_name": "Harmony & Co Private Limited",
+    "s1_addr": "81 Maker Chambers Iii, 8Th Floor 223 Nariman Point, Mumbai, Maharashtra",
+    "rec": "S2-20689043",
+    "rec_name": "Harmony & Co Private",
+    "rec_addr": "81 MAKER CHAMBERS III, 8TH FLOOR 223 NARIMAN POINT, Maharashtra",
+    "p": 1.0,
+    "smax": 0.032
+   }
+  ],
+  "F1_filler_all": [
+   {
+    "s1": "S1-139415738",
+    "s1_name": "Nasa Housekeeping Company",
+    "s1_addr": "Bareilly, Uttar Pradesh, Bareilly, Lg 2/35C, Krishna Janki Complex Civil Lines",
+    "rec": "S2-168768416",
+    "rec_name": "Smt NASA HOUSEKEEPING",
+    "rec_addr": "LG 2/35C., KRISHNA JANKI COMPLEX CIVIL LINES, BAREILLY, \u0909\u0924\u094d\u0924\u0930 \u092a\u094d\u0930\u0926\u0947\u0936",
+    "p": 0.9999,
+    "smax": 0.044
+   },
+   {
+    "s1": "S1-445021812",
+    "s1_name": "Nrg Business Ltd",
+    "s1_addr": "A-1, Skylark Apartment Satellite Road, Satellite, Ahmedabad, Gujarat",
+    "rec": "S3-449925380",
+    "rec_name": "Nrg Business",
+    "rec_addr": "",
+    "p": 0.9507,
+    "smax": 0.01
+   },
+   {
+    "s1": "S1-350245436",
+    "s1_name": "Supreme Tirupati Foods Private Limited",
+    "s1_addr": "C/O Afrajul Hoque, Nutantofi, Rajnagar, Englishbazar, Malda, West Bengal",
+    "rec": "S3-288383315",
+    "rec_name": "Supreme Tirupati Foods Limited Partners",
+    "rec_addr": "C/o Afrajul Hoque, Nutantofi, Rajnagar, Englishbazar, Malda, WB",
+    "p": 0.9999,
+    "smax": 0.336
+   },
+   {
+    "s1": "S1-476907405",
+    "s1_name": "Black Enterprises Private Limited",
+    "s1_addr": "307Ramnimi, 8 Mandalik Road Colaba, Mumbai, Maharashtra",
+    "rec": "S2-288168447",
+    "rec_name": "Limited Black Enterprises (Center)",
+    "rec_addr": "BLOCK B-922 307RAMNIMI, 8 MANDALIK ROAD COLABA, MUMBAI, Maharashtra",
+    "p": 0.9986,
+    "smax": 0.336
+   },
+   {
+    "s1": "S1-295510525",
+    "s1_name": "Consultants Nine Broker Private Limited",
+    "s1_addr": "No. 211/06/04, Tc 14/2608, Marivanios Vidya Nagar, Nalanchira, Thiruvananthapuram, Trivandrum, Kerala",
+    "rec": "S3-408764140",
+    "rec_name": "Consultants Nine Broker Private Ltd",
+    "rec_addr": "Door No 211/06/04/3, Thiruvananthapuram, Trivandrum, \u0d15\u0d47\u0d30\u0d33\u0d02",
+    "p": 0.989,
+    "smax": 0.032
+   },
+   {
+    "s1": "S1-499797581",
+    "s1_name": "Hyderabad Profiles Limited",
+    "s1_addr": "Plot No 2 & 3, Sy .No 6 White Fields, Kondapur, Hyderabad, Rangareddy, Telangana",
+    "rec": "S3-650827801",
+    "rec_name": "Hyderabad Profiles Ltd",
+    "rec_addr": "Plot No ##2 & 3, Hyderabad, Rangareddy, \u0c24\u0c46\u0c32\u0c02\u0c17\u0c3e\u0c23",
+    "p": 0.9999,
+    "smax": 0.032
+   },
+   {
+    "s1": "S1-20609426",
+    "s1_name": "Pratishtha Hospital",
+    "s1_addr": "Ground Floor, Selvam Apartment, No.38/18, North Park Street, Venkatapuram, Tiruvallur, Ambattur, Tamil Nadu, Flat E",
+    "rec": "S2-856630423",
+    "rec_name": ">> Pratishtha Hospital Company",
+    "rec_addr": "FLAT E, GROUND FLOOR, SELVAM APARTMENT, NO.38/18, NORTH PARK STREET, VENKATAPURAM, TIRUVALLUR, AMBATTUR, Tamil Nadu",
+    "p": 1.0,
+    "smax": 0.044
+   },
+   {
+    "s1": "S1-13068974",
+    "s1_name": "Greentech Brothers LLP",
+    "s1_addr": "Flat No. 306, Third Floor, Chiranjiv Tower, 43, Nehru Place, New Delhi, South Delhi, Delhi",
+    "rec": "S2-765514064",
+    "rec_name": "Greentech Brothers",
+    "rec_addr": "FLAT NO. 06 , THIRD FLOOR, CHIRANJIV TOWER, 43, NEHRU PLACE, NEW DELHI, \u0926\u093f\u0932\u094d\u0932\u0940",
+    "p": 0.9997,
+    "smax": 0.168
+   }
+  ],
+  "F1_filler_all_sameaddr": [
+   {
+    "s1": "S1-779547412",
+    "s1_name": "International Care Private Limited",
+    "s1_addr": "Fl 6 Bld 1 Nr Pratik Ngr, Surya Teres Mohan Wadi, Pune City, Pune, Maharashtra",
+    "rec": "S3-761875610",
+    "rec_name": "Dr International Care  Private Limited",
+    "rec_addr": "Fl 6 Bld 1 Nr Pratik Ngr, Pune City, Pune, MH",
+    "p": 0.9999,
+    "smax": 0.002
+   },
+   {
+    "s1": "S1-761234290",
+    "s1_name": "Retina Power Private Limited",
+    "s1_addr": "Shp-121/B, Sai Prabhat-02, Mayekar Wadi, Vasai, Thane, Maharashtra",
+    "rec": "S2-678102575",
+    "rec_name": "Retina Power Private",
+    "rec_addr": "Maharashtra, SHP-G-121/B, SAI PRABHAT-02, MAYEKAR WADI, VASAI",
+    "p": 0.9999,
+    "smax": 0.032
+   },
+   {
+    "s1": "S1-277425373",
+    "s1_name": "Blue Software Private Limited",
+    "s1_addr": "Block B.S.F Office-201 Navratna Corporate Park, Ambli Bopal Road, Opp Jayantilal Park, Ahmadabad City, Ahmedabad, Gujarat",
+    "rec": "S3-662872698",
+    "rec_name": "Blue Software Limited Services",
+    "rec_addr": "Block B.s.f Office-201 Navratna Corporate Park, Ambli Bopal Road, Opp Jayantilal Park, Ahmedabad, Ahmadabad City, GJ",
+    "p": 0.9995,
+    "smax": 0.336
+   },
+   {
+    "s1": "S1-561300909",
+    "s1_name": "Shree Infra Private Limited",
+    "s1_addr": "Shop No 412, 413, Marathon Max, Mulund Goregaon Link Road, Mulund (W), Mumbai, Maharashtra",
+    "rec": "S3-513240111",
+    "rec_name": "Shree Infra Private Ltd",
+    "rec_addr": "Shop No 412., 413, Marathon Max, Mulund Goregaon Link Road, Mulund (W), Mumbai, MH",
+    "p": 1.0,
+    "smax": 0.032
+   },
+   {
+    "s1": "S1-604595104",
+    "s1_name": "Royal Properties Private Limited",
+    "s1_addr": "Shed No 2 S No 2/1 Anand Vihar, Ii Behind Aba Jaga Pune, Pune, Maharashtra",
+    "rec": "S2-839032855",
+    "rec_name": "ROYAL PROPERTIES PRIVATE [LTD]",
+    "rec_addr": "SHED NO 2 S NO 2/1 ANAND VIHAR, II BEHIND ABA JAGA PUNE, PUNE, Maharashtra",
+    "p": 1.0,
+    "smax": 0.032
+   },
+   {
+    "s1": "S1-468582605",
+    "s1_name": "Aarthi (India) Promoters Private Limited",
+    "s1_addr": "Flat No:4306 Floor 43, Wing A, Oberoi Exquisite Chsl, Oberoi Garden City, Aba Karmarkar Road, Near Oberoi Int. School, Goregaon (E), Goregaon East, Mumbai, Maharashtra",
+    "rec": "S2-854578963",
+    "rec_name": "Aarthi (India)-Promoters Private Ltd",
+    "rec_addr": "FLAT NO:4306 FLOOR 43, WING A, OBEROI EXQUISITE CHSL, OBEROI GARDEN CITY, ABA KARMARKAR ROAD, NEAR OBEROI INT. SCHOOL, GOREGAON (E), GOREGAON EAST, Maharashtra",
+    "p": 1.0,
+    "smax": 0.032
+   },
+   {
+    "s1": "S1-272293155",
+    "s1_name": "Sunrise Technologies Private Limited",
+    "s1_addr": "D-235/A Ground Floor, Punjabi Basti Baljeet Nagar, Near Shiv Mandir, Delhi, Central Delhi, Delhi",
+    "rec": "S2-447339957",
+    "rec_name": "Shri Sunrise Technologies Private",
+    "rec_addr": "D-0235/A GROUND FLOOR, PUNJABI BASTI BALJEET NAGAR, NEAR SHIV MANDIR, DELHI, Delhi",
+    "p": 0.9976,
+    "smax": 0.032
+   },
+   {
+    "s1": "S1-982961564",
+    "s1_name": "MFJ It Private Limited",
+    "s1_addr": "Old No.6, New No.7&8 South Rd, West Cit Nagar Nandanam, Chennai, Tamil Nadu",
+    "rec": "S2-830161373",
+    "rec_name": "The MFJ It Private Limited",
+    "rec_addr": "OLD NO.6, NEW NO.7&8 SOUTH RD, WEST CIT NAGAR NANDANAM, Tamil Nadu",
+    "p": 1.0,
+    "smax": 0.0
+   }
+  ],
+  "F2_sib_ge": [
+   {
+    "s1": "S1-671084804",
+    "s1_name": "Kozhikode Foundation Private Limited",
+    "s1_addr": "No.60/1387/A2, 3Rd Floor, Sea Shell Arcade, Ram Mohan Road, Kozhikode, Kerala",
+    "rec": "S3-95815992",
+    "rec_name": "K0zhikode Private Limited Center",
+    "rec_addr": "No.60/1387/a2, Kozhikode, KL",
+    "p": 0.9054,
+    "smax": null
+   },
+   {
+    "s1": "S1-764005549",
+    "s1_name": "North Software Private Limited",
+    "s1_addr": "2Nanabhai Lane Manek Mansionfort, Mumbai, Maharashtra",
+    "rec": "S2-334102004",
+    "rec_name": "\u0928\u0949\u0930\u094d\u0925 Software Private Limited",
+    "rec_addr": "GREATER MUMBAI, 2NANABHAI LANE MANEK MANSIONFORT, MUMBAI, Maharashtra",
+    "p": 0.9999,
+    "smax": 0.936
+   },
+   {
+    "s1": "S1-695819661",
+    "s1_name": "Bangalore Foundation Private Limited",
+    "s1_addr": "Karnataka, #1294, Bangalore, 3Rd Cross, 13Th Main, Judicial Layout, G.K.V.K (P.O.)",
+    "rec": "S2-540147062",
+    "rec_name": "BANGALORE PRIVATE LIMITED CENTER",
+    "rec_addr": "DOOR NO 1294 , 3RD CROSS, 13TH MAIN, JUDICIAL LAYOUT, G.K.V.K (P.O.), BANGALORE, \u0c95\u0cb0\u0ccd\u0ca8\u0cbe\u0c9f\u0c95",
+    "p": 0.9851,
+    "smax": 0.693
+   },
+   {
+    "s1": "S1-362423847",
+    "s1_name": "South Consultancy Private Limited",
+    "s1_addr": "138, (Old No.716-732) 1St Street Extension, 100 Feet Road, Gandhipuram, Coimbatore, Tamil Nadu",
+    "rec": "S3-356941073",
+    "rec_name": "South Ccndutlancy Private Limited",
+    "rec_addr": "Block G-50 138, Gandhipuram, Coimbatore, TN",
+    "p": 0.9997,
+    "smax": 0.717
+   },
+   {
+    "s1": "S1-53235466",
+    "s1_name": "New Delhi Services Private Limited",
+    "s1_addr": "C Ii- 125 G/F Raju Park, Khanpur, New Delhi, Delhi",
+    "rec": "S2-97643635",
+    "rec_name": ">> NEW DELHI PRIVATE LIMITED SERVICE",
+    "rec_addr": "HN 21 C II- 125 G/F RAJU PARK, NEW DELHI, Delhi",
+    "p": 0.9998,
+    "smax": 0.218
+   },
+   {
+    "s1": "S1-553930707",
+    "s1_name": "Krishna It Private Limited",
+    "s1_addr": "Bl-A, 5Th-Fr, Fl-2, Utkarshini Apartments, D B Nagar, North 24 Parganas, West Bengal",
+    "rec": "S3-213818153",
+    "rec_name": "\u0995\u09c3\u09b7\u09cd\u09a3 \u0986\u0987\u099f\u09bf Private Limited",
+    "rec_addr": "Bl-a, D B Nagar, WB",
+    "p": 0.9995,
+    "smax": null
+   },
+   {
+    "s1": "S1-571730632",
+    "s1_name": "Ugrasenpur Education Private Limited",
+    "s1_addr": "Ground Floor, Allahabad, Sarai Hariram Prayagraj, Ugrasenpur, Uttar Pradesh",
+    "rec": "S2-760695003",
+    "rec_name": "Ugrasenpur Edaio Private Limited",
+    "rec_addr": "",
+    "p": 0.9102,
+    "smax": 0.486
+   },
+   {
+    "s1": "S1-971941657",
+    "s1_name": "Hilsa Awards Private Limited",
+    "s1_addr": "Amirak Prasad, S/O Lt. Karu Gope, Town/Vill - Haribigha, Anchal - Hilsa, Hilsa, Jahanabad, Bihar",
+    "rec": "S2-243502996",
+    "rec_name": "Hilsa Afwrds Private Limited",
+    "rec_addr": "AMIRAK PRASAD, S/O LT. KARU GOPE, TOWN/VILL - HARIBIGHA, ANCHAL - HILSA, HILSA, \u092c\u093f\u0939\u093e\u0930",
+    "p": 0.9993,
+    "smax": null
+   }
+  ],
+  "F2_has_sib": [
+   {
+    "s1": "S1-423189783",
+    "s1_name": "Uttar Pradesh Technologies Private Limited",
+    "s1_addr": "1 Canning Streetsubhash Marg Lucknow, Uttar Pradesh, Lucknow, Uttar Pradesh",
+    "rec": "S3-83325778",
+    "rec_name": "pradeshtechnologies.com",
+    "rec_addr": "UP, Lucknow, ##1 Canning Streetsubhash Marg Lucknow, Uttar Pradesh",
+    "p": 0.9997,
+    "smax": null
+   },
+   {
+    "s1": "S1-474810906",
+    "s1_name": "Bhattad Services Corporation",
+    "s1_addr": "66/D K.N.C Road, Barendra Para, Barasat, Parganas North, West Bengal",
+    "rec": "S2-127240350",
+    "rec_name": "Bhattad Services Corp",
+    "rec_addr": "#66/D K.N.C ROAD, BARENDRA PARA, BARASAT, West Bengal",
+    "p": 0.9999,
+    "smax": 0.039
+   },
+   {
+    "s1": "S1-717834427",
+    "s1_name": "Ernakulam Minds Private Limited",
+    "s1_addr": "Building No. 49/1174 B4 Edappally Raghavan Pillai Road, Edappall, Y, Ernakulam, Kerala",
+    "rec": "S2-904324320",
+    "rec_name": "Ernakulam  Minds Private",
+    "rec_addr": "BUILDING NO. 49/1174/3 B4 EDAPPALLY RAGHAVAN PILLAI ROAD, EDAPPALL, Y, ERNAKULAM, \u0d15\u0d47\u0d30\u0d33\u0d02",
+    "p": 0.9999,
+    "smax": 0.032
+   },
+   {
+    "s1": "S1-260581863",
+    "s1_name": "Retail Traders Center",
+    "s1_addr": "Kh No. 137/5/2 & 137/6, Ground Floor Gali Number 4B, Sant Nagar, Delhi, North Delhi, Delhi",
+    "rec": "S3-912808590",
+    "rec_name": "Retail Traders Center Co",
+    "rec_addr": "Kh No. 137/5/2. & 137/6, Ground Floor Gali Number 4B, Sant Nagar, Delhi, North Delhi, DL",
+    "p": 0.9999,
+    "smax": 0.156
+   },
+   {
+    "s1": "S1-606255591",
+    "s1_name": "Bangalore. Skilled Private Limited",
+    "s1_addr": "6/1, First Floor, 'Rajamandira', 14Th Cross Off.Sampi Ge/Margosa Rd, Malleswaram, Bangalore., Bangalore, Karnataka",
+    "rec": "S2-189194663",
+    "rec_name": "Bangalore. Skilled Private",
+    "rec_addr": "6/1, FIRST FLOOR, 'RAJAMANDIRA', 14TH CROSS OFF.SAMPI GE/MARGOSA RD, MALLESWARAM, BANGALORE., Karnataka",
+    "p": 1.0,
+    "smax": 0.032
+   },
+   {
+    "s1": "S1-719328490",
+    "s1_name": "ZM Investments Private Limited",
+    "s1_addr": "76.10.19/1 Gandhi Bomma Road, Bhavanipuram, Vijayawada, Krishna, Andhra Pradesh",
+    "rec": "S2-944134773",
+    "rec_name": "Private ZM Investments Ltd",
+    "rec_addr": "76.10.19/1 GANDHI BOMMA ROAD, KRISHNA, VIJAYAWADA, \u0c06\u0c02\u0c27\u0c4d\u0c30\u0c2a\u0c4d\u0c30\u0c26\u0c47\u0c36\u0c4d",
+    "p": 0.9999,
+    "smax": 0.032
+   },
+   {
+    "s1": "S1-397006548",
+    "s1_name": "Soham Marketing Private Limited",
+    "s1_addr": "Mehak Garden Office, 10 Milestone, Hisar Road, Sirsa, Haryana",
+    "rec": "S2-890933329",
+    "rec_name": "SOHAM MARKETING PR\u00cdVATE LIMITED",
+    "rec_addr": "MEHAK GARDEN OFFICE, 10 MILESTONE, HISAR ROAD, SIRSA, null, Haryana",
+    "p": 1.0,
+    "smax": null
+   },
+   {
+    "s1": "S1-489823084",
+    "s1_name": "Gold Tech Private Limited",
+    "s1_addr": "12/9, 1St Floor, East Patel Nagar, New Delhi, Central Delhi, Delhi",
+    "rec": "S2-314441531",
+    "rec_name": "GOLD TECH PRIVATE-LTD",
+    "rec_addr": "12/9, 1ST FLOOR, EAST PATEL NAGAR, NEW DELHI, \u0926\u093f\u0932\u094d\u0932\u0940",
+    "p": 0.9999,
+    "smax": 0.032
+   }
+  ],
+  "F3_street_mismatch": [
+   {
+    "s1": "S1-329360644",
+    "s1_name": "Big Builders Pvt Ltd",
+    "s1_addr": "Shed-1, Plot No.A11 & A12/1 Ida Nacharam, Medchal, Hyderabad, Telangana",
+    "rec": "S2-853401593",
+    "rec_name": "\u0c2c\u0c3f\u0c17\u0c4d \u0c2c\u0c3f\u0c32\u0c4d\u0c21\u0c30\u0c4d\u0c38\u0c4d \u0c2a\u0c4d\u0c30\u0c48\u0c35\u0c47\u0c1f\u0c4d \u0c32\u0c3f\u0c2e\u0c3f\u0c1f\u0c46\u0c21\u0c4d",
+    "rec_addr": "HYDERABAD, PLOT NO.A11 & A12/1 IDA NACHARAM, MEDCHAL, Andhra Pradesh, SHED-1, RANGAREDDY",
+    "p": 0.9999,
+    "smax": null
+   },
+   {
+    "s1": "S1-7095556",
+    "s1_name": "Creative Services",
+    "s1_addr": "Block No. 1, Saregama Society, Plot No. 53, Midc Phase 11, Dombivli East, Kalyan, Thane, Maharashtra",
+    "rec": "S3-834751648",
+    "rec_name": "Creative Services",
+    "rec_addr": "Kalyan, Thane, Saregama Society, Plot No. 53, Midc Phase 11, Dombivli East, Block No. ##1, MH",
+    "p": 1.0,
+    "smax": null
+   },
+   {
+    "s1": "S1-570591583",
+    "s1_name": "Aps & Sons Private Limited",
+    "s1_addr": "Pune, Shop 4, Sajyog Apt, Keshav Ngr, Sn 36/13, Maharashtra, Pune City",
+    "rec": "S3-679544430",
+    "rec_name": "Aps & Sons Private",
+    "rec_addr": "Sn 6/13, Shop 4, Sajyog Apt, Keshav Ngr, Pune City, Pune, MH",
+    "p": 0.9999,
+    "smax": 0.032
+   },
+   {
+    "s1": "S1-706693636",
+    "s1_name": "Black It Private Limited",
+    "s1_addr": "Maharashtra, Sr.No. 36, Mozeswadi, Vadgaonsheri, Pune, Pune City, House No. 5",
+    "rec": "S3-202389659",
+    "rec_name": "Black  It Private [Limited]",
+    "rec_addr": "House No. 5, Sr.no. 36, Mozeswadi, Vadgaonsheri, Pune City, Pune, MH",
+    "p": 1.0,
+    "smax": null
+   },
+   {
+    "s1": "S1-773287527",
+    "s1_name": "Yamuansh Logistic Private Limited",
+    "s1_addr": "St, 5Th Floor, Crescent Business Park Andheri Kurla Road, Sakinaka, Andheri Ea, Maharashtra, Mumbai, 508",
+    "rec": "S3-36007541",
+    "rec_name": "Yamuansh Logistic Private",
+    "rec_addr": "Hn 580 508, 5Th Floor, Crescent Business Park Andheri Kurla Road, Sakinaka, Andheri Ea, St, Mumbai, MH",
+    "p": 0.9737,
+    "smax": 0.032
+   },
+   {
+    "s1": "S1-153527598",
+    "s1_name": "Amtech Trading Corporation",
+    "s1_addr": "Plot No. 137, Sector-4, Imt Manesar, Gurugram, Haryana, Gurugram, Gurgaon, Haryana",
+    "rec": "S2-710064993",
+    "rec_name": "Amtech Trading",
+    "rec_addr": "DOOR NO 137 , SECTOR-4, IMT MANESAR, GURUGRAM, HARYANA, GURUGRAM, Haryana",
+    "p": 1.0,
+    "smax": 0.039
+   },
+   {
+    "s1": "S1-854033080",
+    "s1_name": "Gautam Buddha Nagar Optical Private Limited",
+    "s1_addr": "Gautam Buddha Nagar, Uttar Pradesh, Galleria Market Gaur City-2, Sec-16C, Greater Noida West Up, Shop No. Ff-07, Gautam Buddha Nagar",
+    "rec": "S3-593332425",
+    "rec_name": "Gautam Buddha Nagar Optical Private Ltd",
+    "rec_addr": "Shop No. Ff-07, Galleria Market Gaur City-2, Sec-16c, Greater Noida West Up, UP",
+    "p": 0.9999,
+    "smax": 0.032
+   },
+   {
+    "s1": "S1-102788732",
+    "s1_name": "Classic Infra Private Limited",
+    "s1_addr": "Unique Collection, Shop No. U.G.F. 6-7, Gyanganga Market, Habibullah State, Hazaratganj, Lucknow, Uttar Pradesh",
+    "rec": "S2-401662511",
+    "rec_name": "Private Classic Infra Ltd",
+    "rec_addr": "LUCKNOW, Uttar Pradesh, #522 UNIQUE COLLECTION",
+    "p": 0.9963,
+    "smax": 0.032
+   }
+  ],
+  "F3_street_mismatch_numeq": [
+   {
+    "s1": "S1-948048199",
+    "s1_name": "Ardent Memorial Trust",
+    "s1_addr": "Plot.No 2915, Chemical, Lane, Mohammadia Bazar, Cuttack Sadar, Cuttack, Orissa",
+    "rec": "S3-938911731",
+    "rec_name": "Ardent Trust Memorial",
+    "rec_addr": "Door No 02915, Chemical, Lane, Mohammadia Bazar, Cuttack Sadar, Cuttack, OD",
+    "p": 1.0,
+    "smax": null
+   },
+   {
+    "s1": "S1-365177780",
+    "s1_name": "Vijay Trading Limited",
+    "s1_addr": "Miicr 65, Phase 1, Chhend Colony, Near Bank Of India, Rourkela, Sundargarh, Orissa",
+    "rec": "S3-528636316",
+    "rec_name": "\u0b2c\u0b3f\u0b1c\u0b5f \u0b1f\u0b4d\u0b30\u0b47\u0b21\u0b3f\u0b02 \u0b32\u0b3f\u0b2e\u0b3f\u0b1f\u0b47\u0b21\u0b4d",
+    "rec_addr": "Miilr 65, Phase 1, Chhend Colony, Near Bank Of India, Rourkela, Sundargarh, OD",
+    "p": 0.9992,
+    "smax": null
+   },
+   {
+    "s1": "S1-309520811",
+    "s1_name": "Best Consultants Private Limited",
+    "s1_addr": "Plot No. 17/18, Vijay Park Near Lord Jesus School, Gurugram, Gurgaon, Haryana",
+    "rec": "S3-367473256",
+    "rec_name": "\u092c\u0947\u0938\u094d\u091f \u0915\u0902\u0938\u0932\u094d\u091f\u0947\u0902\u091f\u094d\u0938 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+    "rec_addr": "Door No 17/18, Vijay Park Near Lord Jesus School, Gurgaon, Gurugram, \u0939\u0930\u093f\u092f\u093e\u0923\u093e",
+    "p": 0.9999,
+    "smax": null
+   },
+   {
+    "s1": "S1-310942905",
+    "s1_name": "Sangam Homes (India) Private Limited",
+    "s1_addr": "Mumbai City, 10Th Floor, Bakhtawar, Nariman Point, Maharashtra, Flat No. 10-B, Mumbai",
+    "rec": "S3-338422145",
+    "rec_name": "Sangam Homes (India) [Private]",
+    "rec_addr": "Flat No. 10-B, 10Th Floor, Bakhtawar, Nariman Point, Mumbai City, Bombay, MH",
+    "p": 0.9999,
+    "smax": 0.032
+   },
+   {
+    "s1": "S1-477783992",
+    "s1_name": "Ss East Consultancy Private Limited",
+    "s1_addr": "Flat No 201/202, Sai Plaza, Opp-Parshwanath Bank Shahupuri 3Rd Lane, Kolhapur, Maharashtra",
+    "rec": "S2-420654792",
+    "rec_name": "SS \u00c9AST CONSULTANCY PRIVATE LIMITED",
+    "rec_addr": "DOOR NO 201/202 , SAI PLAZA, OPP-PARSHWANATH BANK SHAHUPURI 3RD LANE, KOLHAPUR, Maharashtra",
+    "p": 1.0,
+    "smax": null
+   },
+   {
+    "s1": "S1-92162511",
+    "s1_name": "Biyani Enterprises Private Limited",
+    "s1_addr": "Flat No.703, Tower 1, Pinnacle Residency, Ayyanthole P.O, Thrissur, Kerala",
+    "rec": "S3-664412828",
+    "rec_name": "Biyani Enterprises Private",
+    "rec_addr": "Door No 703, Tower 1, Pinnacle Residency, Ayyanthole P.o, Thrissur, KL",
+    "p": 1.0,
+    "smax": 0.032
+   },
+   {
+    "s1": "S1-614975074",
+    "s1_name": "Rab Networks (India) Ltd",
+    "s1_addr": "Plot No. 383, Phase-1, Sector - 4, Kasez, Gandhidham, Kandla, Kachchh, Gujarat",
+    "rec": "S2-306742663",
+    "rec_name": "Rab Networks (India) Ltd.",
+    "rec_addr": "DOOR NO 383/7 , PHASE-1, SECTOR - 4, KASEZ, GANDHIDHAM, KANDLA, Gujarat",
+    "p": 0.9999,
+    "smax": null
+   },
+   {
+    "s1": "S1-70112698",
+    "s1_name": "Indian Investment LLP",
+    "s1_addr": "Plot No. 1134, Ajmer Road, Rani Sati Nagar, Jaipur, Rajasthan",
+    "rec": "S2-26982995",
+    "rec_name": "\u0907\u0902\u0921\u093f\u092f\u0928 \u0907\u0928\u094d\u0935\u0947\u0938\u094d\u091f\u092e\u0947\u0902\u091f \u090f\u0932\u090f\u0932\u092a\u0940",
+    "rec_addr": "DOOR NO 1134, AJMER ROAD, RANI SATI NAGAR, DIVREPORTINGCIRCLE, JAIPUR, Rajasthan",
+    "p": 0.9999,
+    "smax": null
+   }
+  ],
+  "ND_any": [
+   {
+    "s1": "S1-550370978",
+    "s1_name": "Kottarakkara Big Private Limited",
+    "s1_addr": "Ward No.7, Sneha Tower, Second Floor, Kottarakkara, Kollam, Kerala",
+    "rec": "S3-113167844",
+    "rec_name": "Kottarakkara Big Limited Services",
+    "rec_addr": "Wad No.7, Kottarakkara, Kollam, KL",
+    "p": 0.9991,
+    "smax": 0.336
+   },
+   {
+    "s1": "S1-368842283",
+    "s1_name": "Mumbai Finance Private Limited",
+    "s1_addr": "Avior, Nirmal Galaxy, Near Deep Mandir, L B S Road, Mulund West, Mumbai City, 525, Maharashtra, Mumbai",
+    "rec": "S2-573541642",
+    "rec_name": "Mumbai Finance Private",
+    "rec_addr": "BLOCK F-656 525, AVIOR, NIRMAL GALAXY, NEAR DEEP MANDIR, L B S ROAD, MULUND WEST, MUMBAI, Maharashtra",
+    "p": 0.9999,
+    "smax": 0.032
+   },
+   {
+    "s1": "S1-498254081",
+    "s1_name": "Urban Enterprises Private Limited",
+    "s1_addr": "130, 8Th Main, 17Th Cross, Malleshwaram, Bangalore, Karnataka",
+    "rec": "S2-167437387",
+    "rec_name": "Urban Enterprises  Private",
+    "rec_addr": "130, 8TH MAIN, 17TH CROSS, MALLESHWARAM, BANGALORE, \u0c95\u0cb0\u0ccd\u0ca8\u0cbe\u0c9f\u0c95",
+    "p": 1.0,
+    "smax": 0.032
+   },
+   {
+    "s1": "S1-630317646",
+    "s1_name": "Bhiwandi Technologies Ltd",
+    "s1_addr": "Maharashtra, Flat314 Aom Building, Thane, Bhiwandi, Aman, -Tra Housing Complex",
+    "rec": "S2-185895466",
+    "rec_name": "BHIWANDI LTD SERVICES",
+    "rec_addr": "FLAT31 AOM BUILDING, AMAN, -TRA HOUSING COMPLEX, BHIWANDI, Maharashtra",
+    "p": 0.9901,
+    "smax": 0.625
+   },
+   {
+    "s1": "S1-59030553",
+    "s1_name": "Alpha Tech Private Limited",
+    "s1_addr": "3B, Third Floor, 70B/1, Salimpur Road, Kolkata, Kolkata, Howrah, West Bengal",
+    "rec": "S3-591527627",
+    "rec_name": "Limited Alpha Tech Center",
+    "rec_addr": "3B, Third Floor, 70B/1, Salimpur Road, Kolkata, Kolkata, Howrah, WB",
+    "p": 0.9993,
+    "smax": 0.336
+   },
+   {
+    "s1": "S1-997639863",
+    "s1_name": "Dynamic It Private Limited",
+    "s1_addr": "G/6 Suryoday Chs Ltd, C-Wing, Andheri (E), Gautam Nagar Road, No. 8, M, Idc, Mumbai, Mumbai City, Maharashtra",
+    "rec": "S2-495623654",
+    "rec_name": "Dynamic It Private Ltd",
+    "rec_addr": "G/6 SURYODAY CHS LTD, C-WING, ANDHERI (E), GAUTAM NAGAR ROAD, NO. 8, M, IDC, MUMBAI, Maharashtra",
+    "p": 1.0,
+    "smax": 0.032
+   },
+   {
+    "s1": "S1-907445581",
+    "s1_name": "Eeshan Charitable Trust Group",
+    "s1_addr": "Near Water Tank Rajwada, Building No 27, Room No 15/16, Sec No 2, Indrayani Nagar, Bhosar, I, Pune, Maharashtra",
+    "rec": "S2-508295628",
+    "rec_name": "Eeshan Ch\u00e1ritable Trust",
+    "rec_addr": "#925 NEAR WATER TANK RAJWADA, BUILDING NO 27, ROOM NO 15/16, SEC NO 2, INDRAYANI NAGAR, BHOSAR, I, PUNE, Maharashtra",
+    "p": 0.9999,
+    "smax": 0.066
+   },
+   {
+    "s1": "S1-20797479",
+    "s1_name": "Upgrade Traders Private Limited",
+    "s1_addr": "Trimurti Mobile Shop, Near State Bank Shivaji Chowk, Kmahankal, Sangli, Maharashtra",
+    "rec": "S3-130645139",
+    "rec_name": "Upgrade  Traders Private Ltd",
+    "rec_addr": "Sangli, Near State Bank Shivaji Chowk, MH, Trimurti Mobile Shop, Sangli",
+    "p": 0.9999,
+    "smax": 0.032
+   }
+  ]
+ }
+}

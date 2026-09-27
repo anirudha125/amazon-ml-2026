@@ -1,0 +1,112 @@
+{
+ "France": {
+  "detail": {
+   "dropped|gt|neither": 311,
+   "dropped|gt|self_typo": 34,
+   "dropped|tie|neither": 182,
+   "dropped|tie|self_typo": 16,
+   "dropped|tie|sib_typo": 23,
+   "kept|gt|neither": 7,
+   "kept|gt|self_typo": 4,
+   "kept|tie|neither": 140,
+   "kept|tie|self_typo": 71,
+   "kept|tie|sib_typo": 3
+  },
+  "by_state": {
+   "dropped|neither": 493,
+   "dropped|self_typo": 50,
+   "dropped|sib_typo": 23,
+   "kept|neither": 147,
+   "kept|self_typo": 75,
+   "kept|sib_typo": 3
+  },
+  "kept_examples": {
+   "tie|self_typo": [
+    "Maison Coeur SARL  <>  Maison Cmuer SARL  (p=0.9999)",
+    "Ets Sica SARL  <>  ETS SIAA  SARL  (p=0.9969)",
+    "Saint-Nazaire College EI  <>  Saint-Nazaire Ecole EI  (p=0.9915)",
+    "Communale Sportive SARL  <>  Communale Sprovei SARL  (p=0.9999)",
+    "Nantes Maternelle SARL  <>  Nantes-Materdelle SARL  (p=0.9995)",
+    "Nantes Sportive SARL  <>  Nantes Spitrive SARL  (p=0.9993)"
+   ],
+   "tie|neither": [
+    "Bordeaux Club SARL  <>  Bordeaux Club  (p=0.9999)",
+    "Bordeaux Transport SARL  <>  Bordeaux  SARL Services  (p=0.9994)",
+    "Comit\u00e9 du Fete  <>  Comit\u00e9 du Fe  (p=0.9997)",
+    "Nantes Centre SAS  <>  Nantes SAS Et Fils  (p=0.9593)",
+    "Pessac Comite SAS  <>  Pessac Cie SAS  (p=0.9882)",
+    "Calais Coll\u00e8ge SA  <>  Calais-Coll\u00e8ge  (p=0.9998)"
+   ],
+   "gt|neither": [
+    "Dunkerque Jeunes SARL Enterprises  <>  DUNKERQUE JEUNES  (p=0.9977)",
+    "Dunkerque Ecole SARL Enterprises  <>  SARL DUNKERQUE ECOLE  (p=0.9992)",
+    "Lille Conseil SAS  <>  Lille \u00c7lub SAS  (p=0.9998)",
+    "Lille Club SARL Enterprises  <>  Lille Club  (p=0.9951)",
+    "Lille Culture SARL  <>  Lille \u00c7lub SARL  (p=0.9997)",
+    "Lille Club SARL Trading  <>  Lille Club SARL  (p=0.9999)"
+   ],
+   "gt|self_typo": [
+    "Lille Sportive SARL  <>  Lille Sport  (p=0.9864)",
+    "Lille Sport SARL  <>  Lille [Sportive]  (p=0.9884)",
+    "Lille Sport SARL  <>  LILLE SPORTIVE  (p=0.9977)",
+    "Lille Club SAS  <>  Lille Club  SASU  (p=0.9932)"
+   ],
+   "tie|sib_typo": [
+    "Dunkerque Amis SARL  <>  Dunkerque SARL & Associ\u00e9s  (p=0.9966)",
+    "Union du Communale  <>  Union du Mle  (p=0.9996)",
+    "Lille Centre SARL  <>  Lille Ctcub SARL  (p=0.9997)"
+   ]
+  }
+ },
+ "V1_accepted_flagged": [
+  {
+   "s1": "Orthopedic Partners Inc",
+   "rec": "ORTHOPEDIC \u00cdNC CENTER",
+   "y": false,
+   "cls": "neither",
+   "strict": false
+  },
+  {
+   "s1": "Orthopedic Partners Inc",
+   "rec": "Orthopedic Parcners Inc",
+   "y": true,
+   "cls": "self_typo",
+   "strict": false
+  },
+  {
+   "s1": "Pediatric Dental Premier Associates",
+   "rec": "Pediatric Dental \u00c1ssociates",
+   "y": false,
+   "cls": "neither",
+   "strict": true
+  },
+  {
+   "s1": "Pediatric Dental Premier Associates",
+   "rec": "Pediatric Denta1 Associates Board",
+   "y": false,
+   "cls": "neither",
+   "strict": true
+  },
+  {
+   "s1": "Pediatric Dental Premier Associates",
+   "rec": "Pediatric Deeall Associates",
+   "y": false,
+   "cls": "neither",
+   "strict": true
+  },
+  {
+   "s1": "Pediatric Dental Premier Associates",
+   "rec": "The Pediatric Dental Ass0ciates",
+   "y": false,
+   "cls": "neither",
+   "strict": true
+  },
+  {
+   "s1": "Kolkata Technologies Pvt Ltd",
+   "rec": "Kolkata Kolkata Ifraltsruoctmures Pvt. Ltd.",
+   "y": false,
+   "cls": "sib_typo",
+   "strict": false
+  }
+ ]
+}

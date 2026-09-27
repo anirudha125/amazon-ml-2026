@@ -1,0 +1,1427 @@
+{
+ "A_numshift_samename_samestreet": {
+  "V1": {
+   "US": {
+    "H_D1": {
+     "n_hard": 249.0,
+     "n_pos": 96.0,
+     "p_match": 0.3855,
+     "n_acc": 87.0,
+     "prec": 0.9655,
+     "rec": 0.875,
+     "FP": 3.0,
+     "FN": 12.0
+    },
+    "H_D2": {
+     "n_hard": 248.0,
+     "n_pos": 87.0,
+     "p_match": 0.3508,
+     "n_acc": 79.0,
+     "prec": 0.9494,
+     "rec": 0.8621,
+     "FP": 4.0,
+     "FN": 12.0
+    },
+    "H_D3_10_EVEN": {
+     "n_hard": 65.0,
+     "n_pos": 10.0,
+     "p_match": 0.1538,
+     "n_acc": 8.0,
+     "prec": 1.0,
+     "rec": 0.8,
+     "FP": 0.0,
+     "FN": 2.0
+    },
+    "H_D3_10_ODD": {
+     "n_hard": 308.0,
+     "n_pos": 14.0,
+     "p_match": 0.0455,
+     "n_acc": 11.0,
+     "prec": 1.0,
+     "rec": 0.7857,
+     "FP": 0.0,
+     "FN": 3.0
+    },
+    "H_DIGINDEL": {
+     "n_hard": 863.0,
+     "n_pos": 829.0,
+     "p_match": 0.9606,
+     "n_acc": 815.0,
+     "prec": 0.9951,
+     "rec": 0.9783,
+     "FP": 4.0,
+     "FN": 18.0
+    },
+    "H_DIGSUB": {
+     "n_hard": 534.0,
+     "n_pos": 174.0,
+     "p_match": 0.3258,
+     "n_acc": 164.0,
+     "prec": 0.9878,
+     "rec": 0.931,
+     "FP": 2.0,
+     "FN": 12.0
+    },
+    "H_GT10_EVEN": {
+     "n_hard": 334.0,
+     "n_pos": 298.0,
+     "p_match": 0.8922,
+     "n_acc": 285.0,
+     "prec": 0.9895,
+     "rec": 0.9463,
+     "FP": 3.0,
+     "FN": 16.0
+    },
+    "H_GT10_ODD": {
+     "n_hard": 662.0,
+     "n_pos": 229.0,
+     "p_match": 0.3459,
+     "n_acc": 211.0,
+     "prec": 0.9905,
+     "rec": 0.9127,
+     "FP": 2.0,
+     "FN": 20.0
+    },
+    "H_PERM": {
+     "n_hard": 21.0,
+     "n_pos": 2.0,
+     "p_match": 0.0952,
+     "n_acc": 2.0,
+     "prec": 1.0,
+     "rec": 1.0,
+     "FP": 0.0,
+     "FN": 0.0
+    },
+    "H_SAME": {
+     "n_hard": 16745.0,
+     "n_pos": 16732.0,
+     "p_match": 0.9992,
+     "n_acc": 16725.0,
+     "prec": 1.0,
+     "rec": 0.9996,
+     "FP": 0.0,
+     "FN": 7.0
+    }
+   },
+   "India": {
+    "H_D1": {
+     "n_hard": 44.0,
+     "n_pos": 41.0,
+     "p_match": 0.9318,
+     "n_acc": 40.0,
+     "prec": 0.975,
+     "rec": 0.9512,
+     "FP": 1.0,
+     "FN": 2.0
+    },
+    "H_D2": {
+     "n_hard": 43.0,
+     "n_pos": 40.0,
+     "p_match": 0.9302,
+     "n_acc": 37.0,
+     "prec": 1.0,
+     "rec": 0.925,
+     "FP": 0.0,
+     "FN": 3.0
+    },
+    "H_D3_10_EVEN": {
+     "n_hard": 1.0,
+     "n_pos": 1.0,
+     "p_match": 1.0,
+     "n_acc": 1.0,
+     "prec": 1.0,
+     "rec": 1.0,
+     "FP": 0.0,
+     "FN": 0.0
+    },
+    "H_D3_10_ODD": {
+     "n_hard": 9.0,
+     "n_pos": 5.0,
+     "p_match": 0.5556,
+     "n_acc": 5.0,
+     "prec": 1.0,
+     "rec": 1.0,
+     "FP": 0.0,
+     "FN": 0.0
+    },
+    "H_DIGINDEL": {
+     "n_hard": 168.0,
+     "n_pos": 166.0,
+     "p_match": 0.9881,
+     "n_acc": 166.0,
+     "prec": 1.0,
+     "rec": 1.0,
+     "FP": 0.0,
+     "FN": 0.0
+    },
+    "H_DIGSUB": {
+     "n_hard": 65.0,
+     "n_pos": 59.0,
+     "p_match": 0.9077,
+     "n_acc": 59.0,
+     "prec": 0.9831,
+     "rec": 0.9831,
+     "FP": 1.0,
+     "FN": 1.0
+    },
+    "H_GT10_EVEN": {
+     "n_hard": 266.0,
+     "n_pos": 257.0,
+     "p_match": 0.9662,
+     "n_acc": 257.0,
+     "prec": 1.0,
+     "rec": 1.0,
+     "FP": 0.0,
+     "FN": 0.0
+    },
+    "H_GT10_ODD": {
+     "n_hard": 265.0,
+     "n_pos": 257.0,
+     "p_match": 0.9698,
+     "n_acc": 257.0,
+     "prec": 1.0,
+     "rec": 1.0,
+     "FP": 0.0,
+     "FN": 0.0
+    },
+    "H_PERM": {
+     "n_hard": 1.0,
+     "n_pos": 1.0,
+     "p_match": 1.0,
+     "n_acc": 1.0,
+     "prec": 1.0,
+     "rec": 1.0,
+     "FP": 0.0,
+     "FN": 0.0
+    },
+    "H_SAME": {
+     "n_hard": 5101.0,
+     "n_pos": 5081.0,
+     "p_match": 0.9961,
+     "n_acc": 5078.0,
+     "prec": 1.0,
+     "rec": 0.9994,
+     "FP": 0.0,
+     "FN": 3.0
+    }
+   }
+  },
+  "test": {
+   "FR5": {
+    "H_SAME": 0.64069,
+    "H_GT10_ODD": 0.00591,
+    "H_GT10_EVEN": 0.00394,
+    "H_DIGSUB": 0.003,
+    "H_D3_10_ODD": 0.0016,
+    "H_D2": 0.0014,
+    "H_D1": 0.00129,
+    "H_DIGINDEL": 0.00117,
+    "H_D3_10_EVEN": 0.00055,
+    "H_PERM": 8e-05
+   },
+   "FR5_final_counts": {
+    "H_SAME": 563009,
+    "H_GT10_ODD": 4067,
+    "H_GT10_EVEN": 2258,
+    "H_DIGSUB": 2256,
+    "H_D3_10_ODD": 1291,
+    "H_D2": 1125,
+    "H_D1": 1042,
+    "H_DIGINDEL": 865,
+    "H_D3_10_EVEN": 375,
+    "H_PERM": 46
+   },
+   "FR5_mean_p": {
+    "H_D1": 0.9332,
+    "H_D2": 0.9337,
+    "H_D3_10_EVEN": 0.9182,
+    "H_D3_10_ODD": 0.9026,
+    "H_DIGINDEL": 0.9745,
+    "H_DIGSUB": 0.9308,
+    "H_GT10_EVEN": 0.9614,
+    "H_GT10_ODD": 0.9441,
+    "H_PERM": 0.9115,
+    "H_SAME": 0.9991
+   },
+   "US5": {
+    "H_SAME": 0.40956,
+    "H_DIGINDEL": 0.02121,
+    "H_GT10_EVEN": 0.00719,
+    "H_GT10_ODD": 0.00543,
+    "H_DIGSUB": 0.00423,
+    "H_D1": 0.0025,
+    "H_D2": 0.00235,
+    "H_D3_10_ODD": 0.00041,
+    "H_D3_10_EVEN": 0.00022,
+    "H_PERM": 6e-05
+   },
+   "IN5": {
+    "H_SAME": 0.18521,
+    "H_GT10_EVEN": 0.00987,
+    "H_GT10_ODD": 0.00967,
+    "H_DIGINDEL": 0.00551,
+    "H_DIGSUB": 0.00242,
+    "H_D1": 0.00171,
+    "H_D2": 0.00162,
+    "H_D3_10_ODD": 0.0003,
+    "H_D3_10_EVEN": 0.00022,
+    "H_PERM": 5e-05
+   }
+  }
+ },
+ "noise_suffix_sets": {
+  "France": [
+   "fils",
+   "services",
+   "associes",
+   "developpement",
+   "france",
+   "compagnie",
+   "fka",
+   "labs",
+   "one"
+  ],
+  "US": [
+   "incorporated",
+   "center",
+   "services",
+   "www",
+   "com",
+   "service",
+   "fka",
+   "partners"
+  ],
+  "India": [
+   "center",
+   "services",
+   "service",
+   "www",
+   "com",
+   "partners",
+   "fka"
+  ]
+ },
+ "B_swap_V1": {
+  "US": {
+   "content_word|exact_addr": {
+    "n_hard": 22.0,
+    "n_pos": 15.0,
+    "p_match": 0.6818,
+    "n_acc": 16.0,
+    "prec": 0.9375,
+    "rec": 1.0,
+    "FP": 1.0,
+    "FN": 0.0
+   },
+   "content_word|num_shift_same_street": {
+    "n_hard": 51.0,
+    "n_pos": 8.0,
+    "p_match": 0.1569,
+    "n_acc": 5.0,
+    "prec": 1.0,
+    "rec": 0.625,
+    "FP": 0.0,
+    "FN": 3.0
+   },
+   "content_word|other": {
+    "n_hard": 1655.0,
+    "n_pos": 26.0,
+    "p_match": 0.0157,
+    "n_acc": 13.0,
+    "prec": 1.0,
+    "rec": 0.5,
+    "FP": 0.0,
+    "FN": 13.0
+   },
+   "content_word|rec_num_missing": {
+    "n_hard": 15.0,
+    "n_pos": 7.0,
+    "p_match": 0.4667,
+    "n_acc": 7.0,
+    "prec": 1.0,
+    "rec": 1.0,
+    "FP": 0.0,
+    "FN": 0.0
+   },
+   "content_word|same_num_street": {
+    "n_hard": 104.0,
+    "n_pos": 77.0,
+    "p_match": 0.7404,
+    "n_acc": 76.0,
+    "prec": 1.0,
+    "rec": 0.987,
+    "FP": 0.0,
+    "FN": 1.0
+   },
+   "content_word|street_sub_same_num": {
+    "n_hard": 3.0,
+    "n_pos": 1.0,
+    "p_match": 0.3333,
+    "n_acc": 1.0,
+    "prec": 1.0,
+    "rec": 1.0,
+    "FP": 0.0,
+    "FN": 0.0
+   },
+   "garble_or_rare|exact_addr": {
+    "n_hard": 134.0,
+    "n_pos": 129.0,
+    "p_match": 0.9627,
+    "n_acc": 129.0,
+    "prec": 1.0,
+    "rec": 1.0,
+    "FP": 0.0,
+    "FN": 0.0
+   },
+   "garble_or_rare|num_shift_same_street": {
+    "n_hard": 233.0,
+    "n_pos": 83.0,
+    "p_match": 0.3562,
+    "n_acc": 82.0,
+    "prec": 0.9878,
+    "rec": 0.9759,
+    "FP": 1.0,
+    "FN": 2.0
+   },
+   "garble_or_rare|other": {
+    "n_hard": 1585.0,
+    "n_pos": 203.0,
+    "p_match": 0.1281,
+    "n_acc": 158.0,
+    "prec": 1.0,
+    "rec": 0.7783,
+    "FP": 0.0,
+    "FN": 45.0
+   },
+   "garble_or_rare|rec_num_missing": {
+    "n_hard": 109.0,
+    "n_pos": 99.0,
+    "p_match": 0.9083,
+    "n_acc": 99.0,
+    "prec": 0.9899,
+    "rec": 0.9899,
+    "FP": 1.0,
+    "FN": 1.0
+   },
+   "garble_or_rare|same_num_street": {
+    "n_hard": 857.0,
+    "n_pos": 812.0,
+    "p_match": 0.9475,
+    "n_acc": 812.0,
+    "prec": 0.9988,
+    "rec": 0.9988,
+    "FP": 1.0,
+    "FN": 1.0
+   },
+   "garble_or_rare|street_sub_same_num": {
+    "n_hard": 18.0,
+    "n_pos": 17.0,
+    "p_match": 0.9444,
+    "n_acc": 17.0,
+    "prec": 1.0,
+    "rec": 1.0,
+    "FP": 0.0,
+    "FN": 0.0
+   },
+   "to_noise_suffix|exact_addr": {
+    "n_hard": 214.0,
+    "n_pos": 212.0,
+    "p_match": 0.9907,
+    "n_acc": 213.0,
+    "prec": 0.9953,
+    "rec": 1.0,
+    "FP": 1.0,
+    "FN": 0.0
+   },
+   "to_noise_suffix|num_shift_same_street": {
+    "n_hard": 199.0,
+    "n_pos": 146.0,
+    "p_match": 0.7337,
+    "n_acc": 138.0,
+    "prec": 0.9855,
+    "rec": 0.9315,
+    "FP": 2.0,
+    "FN": 10.0
+   },
+   "to_noise_suffix|other": {
+    "n_hard": 3030.0,
+    "n_pos": 344.0,
+    "p_match": 0.1135,
+    "n_acc": 265.0,
+    "prec": 0.9925,
+    "rec": 0.7645,
+    "FP": 2.0,
+    "FN": 81.0
+   },
+   "to_noise_suffix|rec_num_missing": {
+    "n_hard": 197.0,
+    "n_pos": 179.0,
+    "p_match": 0.9086,
+    "n_acc": 177.0,
+    "prec": 1.0,
+    "rec": 0.9888,
+    "FP": 0.0,
+    "FN": 2.0
+   },
+   "to_noise_suffix|same_num_street": {
+    "n_hard": 1431.0,
+    "n_pos": 1425.0,
+    "p_match": 0.9958,
+    "n_acc": 1423.0,
+    "prec": 1.0,
+    "rec": 0.9986,
+    "FP": 0.0,
+    "FN": 2.0
+   },
+   "to_noise_suffix|street_sub_same_num": {
+    "n_hard": 29.0,
+    "n_pos": 29.0,
+    "p_match": 1.0,
+    "n_acc": 29.0,
+    "prec": 1.0,
+    "rec": 1.0,
+    "FP": 0.0,
+    "FN": 0.0
+   }
+  },
+  "India": {
+   "content_word|exact_addr": {
+    "n_hard": 6.0,
+    "n_pos": 6.0,
+    "p_match": 1.0,
+    "n_acc": 6.0,
+    "prec": 1.0,
+    "rec": 1.0,
+    "FP": 0.0,
+    "FN": 0.0
+   },
+   "content_word|num_shift_same_street": {
+    "n_hard": 33.0,
+    "n_pos": 3.0,
+    "p_match": 0.0909,
+    "n_acc": 3.0,
+    "prec": 1.0,
+    "rec": 1.0,
+    "FP": 0.0,
+    "FN": 0.0
+   },
+   "content_word|other": {
+    "n_hard": 610.0,
+    "n_pos": 20.0,
+    "p_match": 0.0328,
+    "n_acc": 19.0,
+    "prec": 1.0,
+    "rec": 0.95,
+    "FP": 0.0,
+    "FN": 1.0
+   },
+   "content_word|rec_num_missing": {
+    "n_hard": 9.0,
+    "n_pos": 0.0,
+    "p_match": 0.0,
+    "n_acc": 0.0,
+    "prec": NaN,
+    "rec": NaN,
+    "FP": 0.0,
+    "FN": 0.0
+   },
+   "content_word|same_num_street": {
+    "n_hard": 37.0,
+    "n_pos": 16.0,
+    "p_match": 0.4324,
+    "n_acc": 14.0,
+    "prec": 1.0,
+    "rec": 0.875,
+    "FP": 0.0,
+    "FN": 2.0
+   },
+   "content_word|street_sub_same_num": {
+    "n_hard": 3.0,
+    "n_pos": 0.0,
+    "p_match": 0.0,
+    "n_acc": 0.0,
+    "prec": NaN,
+    "rec": NaN,
+    "FP": 0.0,
+    "FN": 0.0
+   },
+   "garble_or_rare|exact_addr": {
+    "n_hard": 34.0,
+    "n_pos": 34.0,
+    "p_match": 1.0,
+    "n_acc": 33.0,
+    "prec": 1.0,
+    "rec": 0.9706,
+    "FP": 0.0,
+    "FN": 1.0
+   },
+   "garble_or_rare|num_shift_same_street": {
+    "n_hard": 45.0,
+    "n_pos": 28.0,
+    "p_match": 0.6222,
+    "n_acc": 27.0,
+    "prec": 1.0,
+    "rec": 0.9643,
+    "FP": 0.0,
+    "FN": 1.0
+   },
+   "garble_or_rare|other": {
+    "n_hard": 1300.0,
+    "n_pos": 309.0,
+    "p_match": 0.2377,
+    "n_acc": 291.0,
+    "prec": 0.9828,
+    "rec": 0.9256,
+    "FP": 5.0,
+    "FN": 23.0
+   },
+   "garble_or_rare|rec_num_missing": {
+    "n_hard": 15.0,
+    "n_pos": 8.0,
+    "p_match": 0.5333,
+    "n_acc": 8.0,
+    "prec": 1.0,
+    "rec": 1.0,
+    "FP": 0.0,
+    "FN": 0.0
+   },
+   "garble_or_rare|same_num_street": {
+    "n_hard": 185.0,
+    "n_pos": 178.0,
+    "p_match": 0.9622,
+    "n_acc": 177.0,
+    "prec": 0.9944,
+    "rec": 0.9888,
+    "FP": 1.0,
+    "FN": 2.0
+   },
+   "garble_or_rare|street_sub_same_num": {
+    "n_hard": 4.0,
+    "n_pos": 4.0,
+    "p_match": 1.0,
+    "n_acc": 4.0,
+    "prec": 1.0,
+    "rec": 1.0,
+    "FP": 0.0,
+    "FN": 0.0
+   },
+   "to_noise_suffix|exact_addr": {
+    "n_hard": 85.0,
+    "n_pos": 85.0,
+    "p_match": 1.0,
+    "n_acc": 85.0,
+    "prec": 1.0,
+    "rec": 1.0,
+    "FP": 0.0,
+    "FN": 0.0
+   },
+   "to_noise_suffix|num_shift_same_street": {
+    "n_hard": 106.0,
+    "n_pos": 85.0,
+    "p_match": 0.8019,
+    "n_acc": 84.0,
+    "prec": 0.9881,
+    "rec": 0.9765,
+    "FP": 1.0,
+    "FN": 2.0
+   },
+   "to_noise_suffix|other": {
+    "n_hard": 3073.0,
+    "n_pos": 768.0,
+    "p_match": 0.2499,
+    "n_acc": 702.0,
+    "prec": 0.9943,
+    "rec": 0.9089,
+    "FP": 4.0,
+    "FN": 70.0
+   },
+   "to_noise_suffix|rec_num_missing": {
+    "n_hard": 30.0,
+    "n_pos": 11.0,
+    "p_match": 0.3667,
+    "n_acc": 11.0,
+    "prec": 1.0,
+    "rec": 1.0,
+    "FP": 0.0,
+    "FN": 0.0
+   },
+   "to_noise_suffix|same_num_street": {
+    "n_hard": 467.0,
+    "n_pos": 455.0,
+    "p_match": 0.9743,
+    "n_acc": 452.0,
+    "prec": 0.9956,
+    "rec": 0.989,
+    "FP": 2.0,
+    "FN": 5.0
+   },
+   "to_noise_suffix|street_sub_same_num": {
+    "n_hard": 14.0,
+    "n_pos": 11.0,
+    "p_match": 0.7857,
+    "n_acc": 11.0,
+    "prec": 1.0,
+    "rec": 1.0,
+    "FP": 0.0,
+    "FN": 0.0
+   }
+  }
+ },
+ "B_swap_test_rates": {
+  "content_word|exact_addr": {
+   "FR5": 0.00312,
+   "FR5_final": 0.00307,
+   "FR4only": 0.00749,
+   "US5": 0.00018,
+   "IN5": 0.00013
+  },
+  "content_word|num_shift_same_street": {
+   "FR5": 0.00119,
+   "FR5_final": 0.00107,
+   "FR4only": 0.02489,
+   "US5": 0.00012,
+   "IN5": 0.0001
+  },
+  "content_word|other": {
+   "FR5": 0.00038,
+   "FR5_final": 0.00032,
+   "FR4only": 0.00873,
+   "US5": 0.00011,
+   "IN5": 0.00102
+  },
+  "content_word|rec_num_missing": {
+   "FR5": 0.00064,
+   "FR5_final": 0.0001,
+   "FR4only": 0.01363,
+   "US5": 0.0001,
+   "IN5": 2e-05
+  },
+  "content_word|same_num_street": {
+   "FR5": 0.01477,
+   "FR5_final": 0.01486,
+   "FR4only": 0.04665,
+   "US5": 0.00077,
+   "IN5": 0.00059
+  },
+  "content_word|street_sub_same_num": {
+   "FR5": 0.00054,
+   "FR5_final": 0.00014,
+   "FR4only": 0.01794,
+   "US5": 2e-05,
+   "IN5": 1e-05
+  },
+  "garble_or_rare|exact_addr": {
+   "FR5": 0.00195,
+   "FR5_final": 0.00196,
+   "FR4only": 0.00048,
+   "US5": 0.00325,
+   "IN5": 0.00151
+  },
+  "garble_or_rare|num_shift_same_street": {
+   "FR5": 0.00037,
+   "FR5_final": 0.0002,
+   "FR4only": 0.01198,
+   "US5": 0.00237,
+   "IN5": 0.00124
+  },
+  "garble_or_rare|other": {
+   "FR5": 0.00066,
+   "FR5_final": 0.00057,
+   "FR4only": 0.0084,
+   "US5": 0.00396,
+   "IN5": 0.01057
+  },
+  "garble_or_rare|rec_num_missing": {
+   "FR5": 0.00137,
+   "FR5_final": 0.00081,
+   "FR4only": 0.0084,
+   "US5": 0.00256,
+   "IN5": 0.00025
+  },
+  "garble_or_rare|same_num_street": {
+   "FR5": 0.01125,
+   "FR5_final": 0.01142,
+   "FR4only": 0.00286,
+   "US5": 0.02051,
+   "IN5": 0.00662
+  },
+  "garble_or_rare|street_sub_same_num": {
+   "FR5": 0.00053,
+   "FR5_final": 0.00011,
+   "FR4only": 0.01803,
+   "US5": 0.00046,
+   "IN5": 0.00013
+  },
+  "to_noise_suffix|exact_addr": {
+   "FR5": 0.00367,
+   "FR5_final": 0.00377,
+   "FR4only": 0.00713,
+   "US5": 0.00542,
+   "IN5": 0.00324
+  },
+  "to_noise_suffix|num_shift_same_street": {
+   "FR5": 0.0004,
+   "FR5_final": 0.00028,
+   "FR4only": 0.00653,
+   "US5": 0.00406,
+   "IN5": 0.00339
+  },
+  "to_noise_suffix|other": {
+   "FR5": 0.00049,
+   "FR5_final": 0.00047,
+   "FR4only": 0.00358,
+   "US5": 0.00614,
+   "IN5": 0.02641
+  },
+  "to_noise_suffix|rec_num_missing": {
+   "FR5": 0.00126,
+   "FR5_final": 0.00105,
+   "FR4only": 0.00596,
+   "US5": 0.00428,
+   "IN5": 0.00064
+  },
+  "to_noise_suffix|same_num_street": {
+   "FR5": 0.01875,
+   "FR5_final": 0.01925,
+   "FR4only": 0.04837,
+   "US5": 0.03604,
+   "IN5": 0.01728
+  },
+  "to_noise_suffix|street_sub_same_num": {
+   "FR5": 0.00016,
+   "FR5_final": 7e-05,
+   "FR4only": 0.00178,
+   "US5": 0.00091,
+   "IN5": 0.0004
+  }
+ },
+ "B2_US_zero_pos_swaps": [
+  [
+   "center",
+   "enterprises",
+   32,
+   0,
+   0,
+   0.0,
+   0.0
+  ],
+  [
+   "partners",
+   "enterprises",
+   26,
+   0,
+   0,
+   0.0,
+   0.0
+  ],
+  [
+   "care",
+   "enterprises",
+   17,
+   0,
+   0,
+   0.0,
+   0.0
+  ],
+  [
+   "foundation",
+   "fund",
+   15,
+   0,
+   0,
+   0.0,
+   0.0
+  ],
+  [
+   "ii",
+   "enterprises",
+   13,
+   0,
+   0,
+   0.0,
+   0.0
+  ],
+  [
+   "group",
+   "enterprises",
+   12,
+   0,
+   0,
+   0.0,
+   0.0
+  ],
+  [
+   "clinic",
+   "enterprises",
+   11,
+   0,
+   0,
+   0.0,
+   0.0
+  ],
+  [
+   "v",
+   "enterprises",
+   11,
+   0,
+   0,
+   0.0,
+   0.0
+  ],
+  [
+   "associates",
+   "enterprises",
+   10,
+   0,
+   0,
+   0.0,
+   0.0
+  ],
+  [
+   "fund",
+   "foundation",
+   10,
+   0,
+   0,
+   0.0,
+   0.0
+  ],
+  [
+   "iii",
+   "enterprises",
+   10,
+   0,
+   0,
+   0.0,
+   0.0
+  ],
+  [
+   "buildings",
+   "enterprises",
+   9,
+   0,
+   0,
+   0.0,
+   0.0
+  ],
+  [
+   "church",
+   "enterprises",
+   9,
+   0,
+   0,
+   0.0,
+   0.0
+  ],
+  [
+   "industries",
+   "enterprises",
+   9,
+   0,
+   0,
+   0.0,
+   0.0
+  ],
+  [
+   "vi",
+   "enterprises",
+   8,
+   0,
+   0,
+   0.0,
+   0.0
+  ]
+ ],
+ "B2_India_zero_pos_swaps": [
+  [
+   "trading",
+   "traders",
+   14,
+   0,
+   0,
+   0.0,
+   0.0
+  ],
+  [
+   "laxmi",
+   "lakshmi",
+   13,
+   0,
+   0,
+   0.0,
+   0.0
+  ],
+  [
+   "lakshmi",
+   "laxmi",
+   12,
+   0,
+   0,
+   0.0,
+   0.0
+  ],
+  [
+   "industries",
+   "enterprises",
+   10,
+   0,
+   0,
+   0.0,
+   0.1
+  ]
+ ],
+ "C_fr_content_swaps": {
+  "n": 18154,
+  "n_final": 16715,
+  "arel": {
+   "same_num_street": 12992,
+   "exact_addr": 2744,
+   "num_shift_same_street": 1045,
+   "rec_num_missing": 564,
+   "street_sub_same_num": 479,
+   "other": 330
+  },
+  "top": [
+   [
+    "saint",
+    "st",
+    487
+   ],
+   [
+    "club",
+    "cb",
+    260
+   ],
+   [
+    "club",
+    "comite",
+    245
+   ],
+   [
+    "amicale",
+    "amis",
+    232
+   ],
+   [
+    "club",
+    "centre",
+    191
+   ],
+   [
+    "club",
+    "amicale",
+    147
+   ],
+   [
+    "comite",
+    "club",
+    145
+   ],
+   [
+    "centre",
+    "club",
+    130
+   ],
+   [
+    "amicale",
+    "comite",
+    117
+   ],
+   [
+    "college",
+    "ecole",
+    111
+   ],
+   [
+    "amis",
+    "amicale",
+    108
+   ],
+   [
+    "college",
+    "club",
+    106
+   ],
+   [
+    "club",
+    "ecole",
+    103
+   ],
+   [
+    "club",
+    "amis",
+    99
+   ],
+   [
+    "sportive",
+    "club",
+    96
+   ],
+   [
+    "ecole",
+    "comite",
+    93
+   ],
+   [
+    "amicale",
+    "club",
+    93
+   ],
+   [
+    "centre",
+    "comite",
+    91
+   ],
+   [
+    "club",
+    "service",
+    89
+   ],
+   [
+    "fils",
+    "fs",
+    89
+   ],
+   [
+    "ecole",
+    "club",
+    88
+   ],
+   [
+    "club",
+    "societe",
+    88
+   ],
+   [
+    "comite",
+    "amicale",
+    87
+   ],
+   [
+    "comite",
+    "centre",
+    86
+   ],
+   [
+    "amis",
+    "as",
+    80
+   ],
+   [
+    "compagnie",
+    "comite",
+    79
+   ],
+   [
+    "club",
+    "fetes",
+    75
+   ],
+   [
+    "club",
+    "college",
+    73
+   ],
+   [
+    "college",
+    "comite",
+    71
+   ],
+   [
+    "amis",
+    "club",
+    70
+   ],
+   [
+    "amicale",
+    "centre",
+    67
+   ],
+   [
+    "sportive",
+    "amicale",
+    65
+   ],
+   [
+    "amis",
+    "comite",
+    64
+   ],
+   [
+    "club",
+    "parents",
+    64
+   ],
+   [
+    "ecole",
+    "amis",
+    63
+   ],
+   [
+    "sportive",
+    "comite",
+    62
+   ],
+   [
+    "sportive",
+    "amis",
+    60
+   ],
+   [
+    "comite",
+    "amis",
+    58
+   ],
+   [
+    "primaire",
+    "amicale",
+    57
+   ],
+   [
+    "amicale",
+    "societe",
+    53
+   ]
+  ],
+  "n_distinct": 2530
+ },
+ "C_fr_swap_symmetry": 0.7631,
+ "C_fr_swap_sibling": {
+  "exact_addr": {
+   "sib_at_addr": 0.0259,
+   "sib_anywhere": 0.4023,
+   "kept_final": 0.9563,
+   "n": 2744
+  },
+  "num_shift_same_street": {
+   "sib_at_addr": 0.001,
+   "sib_anywhere": 0.3675,
+   "kept_final": 0.8746,
+   "n": 1045
+  },
+  "other": {
+   "sib_at_addr": 0.0121,
+   "sib_anywhere": 0.4667,
+   "kept_final": 0.8333,
+   "n": 330
+  },
+  "rec_num_missing": {
+   "sib_at_addr": 0.0177,
+   "sib_anywhere": 0.8422,
+   "kept_final": 0.1578,
+   "n": 564
+  },
+  "same_num_street": {
+   "sib_at_addr": 0.0109,
+   "sib_anywhere": 0.3552,
+   "kept_final": 0.9771,
+   "n": 12992
+  },
+  "street_sub_same_num": {
+   "sib_at_addr": 0.0021,
+   "sib_anywhere": 0.9019,
+   "kept_final": 0.2484,
+   "n": 479
+  }
+ },
+ "C_fr_swap_agreement": {
+  "n_s1b": 17902,
+  "n_agree2": 213
+ },
+ "C_US_swap_agreement": {
+  "groups": 1698,
+  "k2": 136,
+  "p_k2": 0.007352941176470588,
+  "p_k1": 0.08450704225352113
+ },
+ "C_India_swap_agreement": {
+  "groups": 661,
+  "k2": 33,
+  "p_k2": 0.030303030303030304,
+  "p_k1": 0.06847133757961783
+ },
+ "D_US_cedit": {
+  "del1": {
+   "n_hard": 258.0,
+   "n_pos": 174.0,
+   "p_match": 0.6744,
+   "n_acc": 167.0,
+   "prec": 1.0,
+   "rec": 0.9598,
+   "FP": 0.0,
+   "FN": 7.0
+  },
+  "double_del": {
+   "n_hard": 13.0,
+   "n_pos": 10.0,
+   "p_match": 0.7692,
+   "n_acc": 10.0,
+   "prec": 0.9,
+   "rec": 0.9,
+   "FP": 1.0,
+   "FN": 1.0
+  },
+  "double_ins": {
+   "n_hard": 66.0,
+   "n_pos": 23.0,
+   "p_match": 0.3485,
+   "n_acc": 25.0,
+   "prec": 0.88,
+   "rec": 0.9565,
+   "FP": 3.0,
+   "FN": 1.0
+  },
+  "ins1": {
+   "n_hard": 240.0,
+   "n_pos": 160.0,
+   "p_match": 0.6667,
+   "n_acc": 161.0,
+   "prec": 0.9814,
+   "rec": 0.9875,
+   "FP": 3.0,
+   "FN": 2.0
+  },
+  "leet": {
+   "n_hard": 1175.0,
+   "n_pos": 929.0,
+   "p_match": 0.7906,
+   "n_acc": 917.0,
+   "prec": 0.9978,
+   "rec": 0.9849,
+   "FP": 2.0,
+   "FN": 14.0
+  },
+  "multi": {
+   "n_hard": 2604.0,
+   "n_pos": 1957.0,
+   "p_match": 0.7515,
+   "n_acc": 1897.0,
+   "prec": 0.9979,
+   "rec": 0.9673,
+   "FP": 4.0,
+   "FN": 64.0
+  },
+  "scramble": {
+   "n_hard": 248.0,
+   "n_pos": 202.0,
+   "p_match": 0.8145,
+   "n_acc": 196.0,
+   "prec": 1.0,
+   "rec": 0.9703,
+   "FP": 0.0,
+   "FN": 6.0
+  },
+  "sub1": {
+   "n_hard": 573.0,
+   "n_pos": 374.0,
+   "p_match": 0.6527,
+   "n_acc": 364.0,
+   "prec": 0.9945,
+   "rec": 0.9679,
+   "FP": 2.0,
+   "FN": 12.0
+  },
+  "transpose": {
+   "n_hard": 238.0,
+   "n_pos": 174.0,
+   "p_match": 0.7311,
+   "n_acc": 173.0,
+   "prec": 1.0,
+   "rec": 0.9943,
+   "FP": 0.0,
+   "FN": 1.0
+  }
+ },
+ "D_India_cedit": {
+  "del1": {
+   "n_hard": 123.0,
+   "n_pos": 78.0,
+   "p_match": 0.6341,
+   "n_acc": 76.0,
+   "prec": 1.0,
+   "rec": 0.9744,
+   "FP": 0.0,
+   "FN": 2.0
+  },
+  "double_del": {
+   "n_hard": 10.0,
+   "n_pos": 4.0,
+   "p_match": 0.4,
+   "n_acc": 4.0,
+   "prec": 1.0,
+   "rec": 1.0,
+   "FP": 0.0,
+   "FN": 0.0
+  },
+  "double_ins": {
+   "n_hard": 25.0,
+   "n_pos": 11.0,
+   "p_match": 0.44,
+   "n_acc": 11.0,
+   "prec": 1.0,
+   "rec": 1.0,
+   "FP": 0.0,
+   "FN": 0.0
+  },
+  "ins1": {
+   "n_hard": 129.0,
+   "n_pos": 66.0,
+   "p_match": 0.5116,
+   "n_acc": 65.0,
+   "prec": 1.0,
+   "rec": 0.9848,
+   "FP": 0.0,
+   "FN": 1.0
+  },
+  "leet": {
+   "n_hard": 585.0,
+   "n_pos": 456.0,
+   "p_match": 0.7795,
+   "n_acc": 449.0,
+   "prec": 0.9978,
+   "rec": 0.9825,
+   "FP": 1.0,
+   "FN": 8.0
+  },
+  "multi": {
+   "n_hard": 1475.0,
+   "n_pos": 978.0,
+   "p_match": 0.6631,
+   "n_acc": 956.0,
+   "prec": 0.9969,
+   "rec": 0.9744,
+   "FP": 3.0,
+   "FN": 25.0
+  },
+  "scramble": {
+   "n_hard": 130.0,
+   "n_pos": 106.0,
+   "p_match": 0.8154,
+   "n_acc": 104.0,
+   "prec": 1.0,
+   "rec": 0.9811,
+   "FP": 0.0,
+   "FN": 2.0
+  },
+  "sub1": {
+   "n_hard": 326.0,
+   "n_pos": 201.0,
+   "p_match": 0.6166,
+   "n_acc": 196.0,
+   "prec": 0.9847,
+   "rec": 0.9602,
+   "FP": 3.0,
+   "FN": 8.0
+  },
+  "transpose": {
+   "n_hard": 85.0,
+   "n_pos": 59.0,
+   "p_match": 0.6941,
+   "n_acc": 59.0,
+   "prec": 1.0,
+   "rec": 1.0,
+   "FP": 0.0,
+   "FN": 0.0
+  }
+ }
+}

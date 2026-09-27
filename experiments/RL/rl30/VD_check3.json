@@ -1,0 +1,398 @@
+{
+ "France": {
+  "RULE3": {
+   "n": 3458,
+   "neff": 3458.0,
+   "f_p1": 0.521,
+   "se": 0.097
+  },
+  "all_nonflagged_raw": {
+   "n": 841071,
+   "neff": 841071.0,
+   "f_p1": -0.003,
+   "se": 0.007
+  },
+  "all_nonflagged_pmatched": {
+   "n": 841071,
+   "neff": 79004.2,
+   "f_p1": 0.236,
+   "se": 0.021
+  },
+  "N_SAME_same_num_street_raw": {
+   "n": 563009,
+   "neff": 563009.0,
+   "f_p1": -0.071,
+   "se": 0.008
+  },
+  "N_SAME_same_num_street_pmatched": {
+   "n": 563009,
+   "neff": 3157.8,
+   "f_p1": -0.096,
+   "se": 0.11
+  },
+  "N_SAME_exact_addr_raw": {
+   "n": 82261,
+   "neff": 82261.0,
+   "f_p1": -0.007,
+   "se": 0.021
+  },
+  "N_SAME_exact_addr_pmatched": {
+   "n": 82261,
+   "neff": 176.8,
+   "f_p1": 0.235,
+   "se": 0.446
+  },
+  "any_type_not_numshift_raw": {
+   "n": 835753,
+   "neff": 835753.0,
+   "f_p1": -0.005,
+   "se": 0.007
+  },
+  "any_type_not_numshift_pmatched": {
+   "n": 835753,
+   "neff": 74052.1,
+   "f_p1": 0.222,
+   "se": 0.022
+  },
+  "N_SAME_GT10_or_DIGINDEL_samestreet_raw": {
+   "n": 7190,
+   "neff": 7190.0,
+   "f_p1": 0.014,
+   "se": 0.072
+  },
+  "N_SAME_GT10_or_DIGINDEL_samestreet_pmatched": {
+   "n": 7190,
+   "neff": 4244.4,
+   "f_p1": 0.35,
+   "se": 0.09
+  },
+  "band[0.78,0.9)_RULE3": {
+   "n": 1153,
+   "neff": 1153.0,
+   "f_p1": 0.993,
+   "se": 0.155
+  },
+  "band[0.78,0.9)_nonflagged": {
+   "n": 17731,
+   "neff": 17731.0,
+   "f_p1": 0.195,
+   "se": 0.045
+  },
+  "band[0.9,0.98)_RULE3": {
+   "n": 1593,
+   "neff": 1593.0,
+   "f_p1": 0.572,
+   "se": 0.142
+  },
+  "band[0.9,0.98)_nonflagged": {
+   "n": 39417,
+   "neff": 39417.0,
+   "f_p1": 0.326,
+   "se": 0.03
+  },
+  "band[0.98,1.0001)_RULE3": {
+   "n": 712,
+   "neff": 712.0,
+   "f_p1": -0.355,
+   "se": 0.238
+  },
+  "band[0.98,1.0001)_nonflagged": {
+   "n": 783923,
+   "neff": 783923.0,
+   "f_p1": -0.025,
+   "se": 0.007
+  }
+ },
+ "US": {
+  "RULE3": {
+   "n": 1578,
+   "neff": 1578.0,
+   "f_p1": -0.563,
+   "se": 0.155
+  },
+  "all_nonflagged_raw": {
+   "n": 286876,
+   "neff": 286876.0,
+   "f_p1": 0.006,
+   "se": 0.011
+  },
+  "all_nonflagged_pmatched": {
+   "n": 286876,
+   "neff": 40679.4,
+   "f_p1": -0.007,
+   "se": 0.029
+  },
+  "N_SAME_same_num_street_raw": {
+   "n": 122868,
+   "neff": 122868.0,
+   "f_p1": -0.053,
+   "se": 0.017
+  },
+  "N_SAME_same_num_street_pmatched": {
+   "n": 122868,
+   "neff": 3074.7,
+   "f_p1": -0.163,
+   "se": 0.106
+  },
+  "N_SAME_exact_addr_raw": {
+   "n": 17085,
+   "neff": 17085.0,
+   "f_p1": -0.183,
+   "se": 0.045
+  },
+  "N_SAME_exact_addr_pmatched": {
+   "n": 17085,
+   "neff": 112.1,
+   "f_p1": 0.263,
+   "se": 0.526
+  },
+  "any_type_not_numshift_raw": {
+   "n": 271929,
+   "neff": 271929.0,
+   "f_p1": 0.013,
+   "se": 0.011
+  },
+  "any_type_not_numshift_pmatched": {
+   "n": 271929,
+   "neff": 32398.7,
+   "f_p1": 0.036,
+   "se": 0.032
+  },
+  "N_SAME_GT10_or_DIGINDEL_samestreet_raw": {
+   "n": 10145,
+   "neff": 10145.0,
+   "f_p1": -0.2,
+   "se": 0.059
+  },
+  "N_SAME_GT10_or_DIGINDEL_samestreet_pmatched": {
+   "n": 10145,
+   "neff": 3970.5,
+   "f_p1": -0.233,
+   "se": 0.094
+  },
+  "band[0.78,0.9)_RULE3": {
+   "n": 112,
+   "neff": 112.0,
+   "f_p1": -0.129,
+   "se": 0.554
+  },
+  "band[0.78,0.9)_nonflagged": {
+   "n": 1901,
+   "neff": 1901.0,
+   "f_p1": 0.174,
+   "se": 0.129
+  },
+  "band[0.9,0.98)_RULE3": {
+   "n": 267,
+   "neff": 267.0,
+   "f_p1": -1.563,
+   "se": 0.406
+  },
+  "band[0.9,0.98)_nonflagged": {
+   "n": 5430,
+   "neff": 5430.0,
+   "f_p1": -0.204,
+   "se": 0.08
+  },
+  "band[0.98,1.0001)_RULE3": {
+   "n": 1199,
+   "neff": 1199.0,
+   "f_p1": -0.38,
+   "se": 0.174
+  },
+  "band[0.98,1.0001)_nonflagged": {
+   "n": 279545,
+   "neff": 279545.0,
+   "f_p1": 0.008,
+   "se": 0.011
+  }
+ },
+ "India": {
+  "RULE3": {
+   "n": 1088,
+   "neff": 1088.0,
+   "f_p1": -0.141,
+   "se": 0.176
+  },
+  "all_nonflagged_raw": {
+   "n": 290325,
+   "neff": 290325.0,
+   "f_p1": -0.008,
+   "se": 0.011
+  },
+  "all_nonflagged_pmatched": {
+   "n": 290325,
+   "neff": 116490.6,
+   "f_p1": 0.002,
+   "se": 0.017
+  },
+  "N_SAME_same_num_street_raw": {
+   "n": 55562,
+   "neff": 55562.0,
+   "f_p1": 0.134,
+   "se": 0.024
+  },
+  "N_SAME_same_num_street_pmatched": {
+   "n": 55562,
+   "neff": 3323.1,
+   "f_p1": 0.152,
+   "se": 0.097
+  },
+  "N_SAME_exact_addr_raw": {
+   "n": 10869,
+   "neff": 10869.0,
+   "f_p1": 0.284,
+   "se": 0.053
+  },
+  "N_SAME_exact_addr_pmatched": {
+   "n": 10869,
+   "neff": 130.1,
+   "f_p1": 1.116,
+   "se": 0.413
+  },
+  "any_type_not_numshift_raw": {
+   "n": 239459,
+   "neff": 239459.0,
+   "f_p1": 0.014,
+   "se": 0.012
+  },
+  "any_type_not_numshift_pmatched": {
+   "n": 239459,
+   "neff": 79309.5,
+   "f_p1": 0.068,
+   "se": 0.02
+  },
+  "N_SAME_GT10_or_DIGINDEL_samestreet_raw": {
+   "n": 7515,
+   "neff": 7515.0,
+   "f_p1": 0.124,
+   "se": 0.065
+  },
+  "N_SAME_GT10_or_DIGINDEL_samestreet_pmatched": {
+   "n": 7515,
+   "neff": 2643.7,
+   "f_p1": 0.048,
+   "se": 0.111
+  },
+  "band[0.78,0.9)_RULE3": {
+   "n": 30,
+   "neff": 30.0,
+   "f_p1": 1.028,
+   "se": 0.878
+  },
+  "band[0.78,0.9)_nonflagged": {
+   "n": 2460,
+   "neff": 2460.0,
+   "f_p1": 0.125,
+   "se": 0.113
+  },
+  "band[0.9,0.98)_RULE3": {
+   "n": 141,
+   "neff": 141.0,
+   "f_p1": -0.296,
+   "se": 0.499
+  },
+  "band[0.9,0.98)_nonflagged": {
+   "n": 7564,
+   "neff": 7564.0,
+   "f_p1": -0.097,
+   "se": 0.067
+  },
+  "band[0.98,1.0001)_RULE3": {
+   "n": 917,
+   "neff": 917.0,
+   "f_p1": -0.156,
+   "se": 0.193
+  },
+  "band[0.98,1.0001)_nonflagged": {
+   "n": 280301,
+   "neff": 280301.0,
+   "f_p1": -0.007,
+   "se": 0.011
+  }
+ },
+ "V1_pmatched_FP": {
+  "US": {
+   "RULE3_n": 177,
+   "RULE3_FP_rate": 0.0395,
+   "RULE3_expected_FP_from_p": 3.52,
+   "RULE3_FP": 7,
+   "control_pmatched_FP_rate": 0.014,
+   "control_raw_FP_rate": 0.0019
+  },
+  "India": {
+   "RULE3_n": 82,
+   "RULE3_FP_rate": 0.0122,
+   "RULE3_expected_FP_from_p": 0.97,
+   "RULE3_FP": 1,
+   "control_pmatched_FP_rate": 0.01,
+   "control_raw_FP_rate": 0.0028
+  }
+ },
+ "V1_pairweighted_calibration": {
+  "US": {
+   "all_TP": {
+    "n": 40271,
+    "neff": 40271.0,
+    "f_p1": -0.002,
+    "se": 0.028
+   },
+   "all_FP": {
+    "n": 91,
+    "neff": 91.0,
+    "f_p1": 0.748,
+    "se": 0.515
+   },
+   "RULE3": {
+    "n": 177,
+    "neff": 177.0,
+    "f_p1": -1.388,
+    "se": 0.474
+   },
+   "RULE3_TP": {
+    "n": 170,
+    "neff": 170.0,
+    "f_p1": -1.482,
+    "se": 0.486
+   },
+   "nonflag_pmatched": {
+    "n": 38700,
+    "neff": 5150.8,
+    "f_p1": -0.065,
+    "se": 0.078
+   }
+  },
+  "India": {
+   "all_TP": {
+    "n": 26915,
+    "neff": 26915.0,
+    "f_p1": 0.001,
+    "se": 0.034
+   },
+   "all_FP": {
+    "n": 76,
+    "neff": 76.0,
+    "f_p1": -0.45,
+    "se": 0.674
+   },
+   "RULE3": {
+    "n": 82,
+    "neff": 82.0,
+    "f_p1": -0.211,
+    "se": 0.632
+   },
+   "RULE3_TP": {
+    "n": 81,
+    "neff": 81.0,
+    "f_p1": -0.248,
+    "se": 0.638
+   },
+   "nonflag_pmatched": {
+    "n": 26168,
+    "neff": 10915.2,
+    "f_p1": -0.115,
+    "se": 0.054
+   }
+  }
+ }
+}

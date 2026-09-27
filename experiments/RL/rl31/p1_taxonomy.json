@@ -1,0 +1,512 @@
+{
+ "RRL": {
+  "macro": 98.947,
+  "loss_pp": 1.053,
+  "tp": 67437,
+  "fp": 170,
+  "fn": 1941,
+  "budget": [
+   {
+    "category": "SYM-C1s",
+    "stage": "scorer FN",
+    "links": 947,
+    "s1": 891,
+    "pp_if_fixed": 0.4195,
+    "reducible": false
+   },
+   {
+    "category": "L2 empty-addr, unique name",
+    "stage": "scorer FN",
+    "links": 207,
+    "s1": 202,
+    "pp_if_fixed": 0.0882,
+    "reducible": true
+   },
+   {
+    "category": "F-unlinked decoy",
+    "stage": "scorer FP",
+    "links": 57,
+    "s1": 57,
+    "pp_if_fixed": 0.0833,
+    "reducible": true,
+    "singleton_s1": 5
+   },
+   {
+    "category": "SYM-C1l",
+    "stage": "scorer FN",
+    "links": 161,
+    "s1": 156,
+    "pp_if_fixed": 0.0799,
+    "reducible": true
+   },
+   {
+    "category": "F-owned, owner distinguishable",
+    "stage": "scorer FP",
+    "links": 59,
+    "s1": 48,
+    "pp_if_fixed": 0.0628,
+    "reducible": true,
+    "singleton_s1": 0
+   },
+   {
+    "category": "L5 house-number perturbed",
+    "stage": "scorer FN",
+    "links": 126,
+    "s1": 113,
+    "pp_if_fixed": 0.0605,
+    "reducible": true
+   },
+   {
+    "category": "L4 substituted name",
+    "stage": "scorer FN",
+    "links": 139,
+    "s1": 139,
+    "pp_if_fixed": 0.0547,
+    "reducible": true
+   },
+   {
+    "category": "SYM-C1s",
+    "stage": "retrieval miss",
+    "links": 88,
+    "s1": 88,
+    "pp_if_fixed": 0.0513,
+    "reducible": false
+   },
+   {
+    "category": "L6 other",
+    "stage": "scorer FN",
+    "links": 111,
+    "s1": 104,
+    "pp_if_fixed": 0.0505,
+    "reducible": true
+   },
+   {
+    "category": "F-owned SYM-C1 (same name, empty addr)",
+    "stage": "scorer FP",
+    "links": 39,
+    "s1": 38,
+    "pp_if_fixed": 0.0424,
+    "reducible": true,
+    "singleton_s1": 1
+   },
+   {
+    "category": "SYM-C2",
+    "stage": "scorer FN",
+    "links": 78,
+    "s1": 77,
+    "pp_if_fixed": 0.0299,
+    "reducible": false
+   },
+   {
+    "category": "L4 substituted name",
+    "stage": "retrieval miss",
+    "links": 24,
+    "s1": 24,
+    "pp_if_fixed": 0.0092,
+    "reducible": true
+   },
+   {
+    "category": "L3 Indic name",
+    "stage": "scorer FN",
+    "links": 19,
+    "s1": 17,
+    "pp_if_fixed": 0.0075,
+    "reducible": true
+   },
+   {
+    "category": "F-unlinked empty addr",
+    "stage": "scorer FP",
+    "links": 8,
+    "s1": 7,
+    "pp_if_fixed": 0.0062,
+    "reducible": true,
+    "singleton_s1": 0
+   },
+   {
+    "category": "F-owned SYM-C2 (co-located, substituted name)",
+    "stage": "scorer FP",
+    "links": 5,
+    "s1": 5,
+    "pp_if_fixed": 0.0043,
+    "reducible": true,
+    "singleton_s1": 0
+   },
+   {
+    "category": "L2 empty-addr, unique name",
+    "stage": "retrieval miss",
+    "links": 8,
+    "s1": 8,
+    "pp_if_fixed": 0.0041,
+    "reducible": true
+   },
+   {
+    "category": "SYM-C1l",
+    "stage": "retrieval miss",
+    "links": 10,
+    "s1": 10,
+    "pp_if_fixed": 0.0025,
+    "reducible": true
+   },
+   {
+    "category": "L3 Indic name",
+    "stage": "retrieval miss",
+    "links": 6,
+    "s1": 6,
+    "pp_if_fixed": 0.0021,
+    "reducible": true
+   },
+   {
+    "category": "SYM-C3",
+    "stage": "scorer FN",
+    "links": 4,
+    "s1": 3,
+    "pp_if_fixed": 0.0021,
+    "reducible": false
+   },
+   {
+    "category": "L6 other",
+    "stage": "retrieval miss",
+    "links": 3,
+    "s1": 3,
+    "pp_if_fixed": 0.0018,
+    "reducible": true
+   },
+   {
+    "category": "F-owned SYM-C3 (same name, no number)",
+    "stage": "scorer FP",
+    "links": 2,
+    "s1": 1,
+    "pp_if_fixed": 0.0017,
+    "reducible": true,
+    "singleton_s1": 0
+   },
+   {
+    "category": "SYM-C2",
+    "stage": "retrieval miss",
+    "links": 5,
+    "s1": 5,
+    "pp_if_fixed": 0.0016,
+    "reducible": false
+   },
+   {
+    "category": "L7 record without house number",
+    "stage": "scorer FN",
+    "links": 3,
+    "s1": 3,
+    "pp_if_fixed": 0.0014,
+    "reducible": true
+   },
+   {
+    "category": "L7 record without house number",
+    "stage": "retrieval miss",
+    "links": 1,
+    "s1": 1,
+    "pp_if_fixed": 0.0005,
+    "reducible": true
+   },
+   {
+    "category": "L5 house-number perturbed",
+    "stage": "retrieval miss",
+    "links": 1,
+    "s1": 1,
+    "pp_if_fixed": 0.0004,
+    "reducible": true
+   }
+  ],
+  "fix_all_FP": 0.2017,
+  "fix_all_FN_inpool": 0.787,
+  "fix_all_FN_inpool_reducible": 0.341,
+  "fix_all_miss": 0.0734,
+  "fix_all_miss_reducible": 0.0205,
+  "fix_all_reducible": 0.5599,
+  "ceiling_after_fix_all_reducible": 99.507,
+  "s1_with_error": 1933,
+  "s1_fp_only": 140,
+  "s1_fn_only": 1779,
+  "s1_fp_and_fn": 14,
+  "loss_pp_fp_only_s1": 0.1857,
+  "loss_pp_fn_only_s1": 0.8461,
+  "loss_pp_fp_and_fn_s1": 0.0216,
+  "s1_zero_score": 42,
+  "loss_pp_zero_score_s1": 0.21,
+  "s1_pred_empty_nonsingleton": 36,
+  "singleton_fp_s1": 6,
+  "s1_irreducible_only": 1020,
+  "loss_pp_irreducible_only_s1": 0.4823,
+  "ceiling_symmetric_strict": 99.474,
+  "sym_links_accepted_as_TP": {
+   "SYM-C1s": 9,
+   "SYM-C1l": 207,
+   "SYM-C2": 48,
+   "SYM-C3": 26
+  },
+  "by_country": {
+   "US": {
+    "macro": 98.904,
+    "loss_pp": 1.096,
+    "ceiling": 99.417
+   },
+   "India": {
+    "macro": 99.012,
+    "loss_pp": 0.988,
+    "ceiling": 99.56
+   }
+  },
+  "oracle_per_s1_topk_on_ranking": 99.73
+ },
+ "NEW": {
+  "macro": 98.802,
+  "loss_pp": 1.198,
+  "tp": 67186,
+  "fp": 167,
+  "fn": 2192,
+  "budget": [
+   {
+    "category": "SYM-C1s",
+    "stage": "scorer FN",
+    "links": 949,
+    "s1": 893,
+    "pp_if_fixed": 0.4214,
+    "reducible": false
+   },
+   {
+    "category": "L6 other",
+    "stage": "scorer FN",
+    "links": 182,
+    "s1": 173,
+    "pp_if_fixed": 0.1107,
+    "reducible": true
+   },
+   {
+    "category": "L2 empty-addr, unique name",
+    "stage": "scorer FN",
+    "links": 238,
+    "s1": 232,
+    "pp_if_fixed": 0.1049,
+    "reducible": true
+   },
+   {
+    "category": "SYM-C1l",
+    "stage": "scorer FN",
+    "links": 199,
+    "s1": 189,
+    "pp_if_fixed": 0.0982,
+    "reducible": true
+   },
+   {
+    "category": "F-unlinked decoy",
+    "stage": "scorer FP",
+    "links": 67,
+    "s1": 67,
+    "pp_if_fixed": 0.0899,
+    "reducible": true,
+    "singleton_s1": 4
+   },
+   {
+    "category": "L5 house-number perturbed",
+    "stage": "scorer FN",
+    "links": 161,
+    "s1": 145,
+    "pp_if_fixed": 0.0808,
+    "reducible": true
+   },
+   {
+    "category": "L4 substituted name",
+    "stage": "scorer FN",
+    "links": 180,
+    "s1": 180,
+    "pp_if_fixed": 0.0741,
+    "reducible": true
+   },
+   {
+    "category": "F-owned, owner distinguishable",
+    "stage": "scorer FP",
+    "links": 57,
+    "s1": 47,
+    "pp_if_fixed": 0.0654,
+    "reducible": true,
+    "singleton_s1": 1
+   },
+   {
+    "category": "SYM-C1s",
+    "stage": "retrieval miss",
+    "links": 88,
+    "s1": 88,
+    "pp_if_fixed": 0.0518,
+    "reducible": false
+   },
+   {
+    "category": "F-owned SYM-C1 (same name, empty addr)",
+    "stage": "scorer FP",
+    "links": 30,
+    "s1": 29,
+    "pp_if_fixed": 0.0349,
+    "reducible": true,
+    "singleton_s1": 1
+   },
+   {
+    "category": "SYM-C2",
+    "stage": "scorer FN",
+    "links": 83,
+    "s1": 81,
+    "pp_if_fixed": 0.0321,
+    "reducible": false
+   },
+   {
+    "category": "L3 Indic name",
+    "stage": "scorer FN",
+    "links": 38,
+    "s1": 34,
+    "pp_if_fixed": 0.0136,
+    "reducible": true
+   },
+   {
+    "category": "L4 substituted name",
+    "stage": "retrieval miss",
+    "links": 24,
+    "s1": 24,
+    "pp_if_fixed": 0.0102,
+    "reducible": true
+   },
+   {
+    "category": "F-unlinked empty addr",
+    "stage": "scorer FP",
+    "links": 7,
+    "s1": 7,
+    "pp_if_fixed": 0.0058,
+    "reducible": true,
+    "singleton_s1": 0
+   },
+   {
+    "category": "F-owned SYM-C2 (co-located, substituted name)",
+    "stage": "scorer FP",
+    "links": 5,
+    "s1": 5,
+    "pp_if_fixed": 0.0043,
+    "reducible": true,
+    "singleton_s1": 0
+   },
+   {
+    "category": "L2 empty-addr, unique name",
+    "stage": "retrieval miss",
+    "links": 8,
+    "s1": 8,
+    "pp_if_fixed": 0.0041,
+    "reducible": true
+   },
+   {
+    "category": "SYM-C3",
+    "stage": "scorer FN",
+    "links": 7,
+    "s1": 6,
+    "pp_if_fixed": 0.0041,
+    "reducible": false
+   },
+   {
+    "category": "L7 record without house number",
+    "stage": "scorer FN",
+    "links": 9,
+    "s1": 9,
+    "pp_if_fixed": 0.0026,
+    "reducible": true
+   },
+   {
+    "category": "SYM-C1l",
+    "stage": "retrieval miss",
+    "links": 10,
+    "s1": 10,
+    "pp_if_fixed": 0.0025,
+    "reducible": true
+   },
+   {
+    "category": "L3 Indic name",
+    "stage": "retrieval miss",
+    "links": 6,
+    "s1": 6,
+    "pp_if_fixed": 0.0022,
+    "reducible": true
+   },
+   {
+    "category": "L6 other",
+    "stage": "retrieval miss",
+    "links": 3,
+    "s1": 3,
+    "pp_if_fixed": 0.0017,
+    "reducible": true
+   },
+   {
+    "category": "SYM-C2",
+    "stage": "retrieval miss",
+    "links": 5,
+    "s1": 5,
+    "pp_if_fixed": 0.0016,
+    "reducible": false
+   },
+   {
+    "category": "F-owned SYM-C3 (same name, no number)",
+    "stage": "scorer FP",
+    "links": 1,
+    "s1": 1,
+    "pp_if_fixed": 0.0011,
+    "reducible": true,
+    "singleton_s1": 0
+   },
+   {
+    "category": "L7 record without house number",
+    "stage": "retrieval miss",
+    "links": 1,
+    "s1": 1,
+    "pp_if_fixed": 0.0005,
+    "reducible": true
+   },
+   {
+    "category": "L5 house-number perturbed",
+    "stage": "retrieval miss",
+    "links": 1,
+    "s1": 1,
+    "pp_if_fixed": 0.0004,
+    "reducible": true
+   }
+  ],
+  "fix_all_FP": 0.2022,
+  "fix_all_FN_inpool": 0.931,
+  "fix_all_FN_inpool_reducible": 0.4798,
+  "fix_all_miss": 0.0749,
+  "fix_all_miss_reducible": 0.0215,
+  "fix_all_reducible": 0.6991,
+  "ceiling_after_fix_all_reducible": 99.502,
+  "s1_with_error": 2155,
+  "s1_fp_only": 137,
+  "s1_fn_only": 2001,
+  "s1_fp_and_fn": 17,
+  "loss_pp_fp_only_s1": 0.1849,
+  "loss_pp_fn_only_s1": 0.9885,
+  "loss_pp_fp_and_fn_s1": 0.0242,
+  "s1_zero_score": 52,
+  "loss_pp_zero_score_s1": 0.26,
+  "s1_pred_empty_nonsingleton": 46,
+  "singleton_fp_s1": 6,
+  "s1_irreducible_only": 1020,
+  "loss_pp_irreducible_only_s1": 0.4847,
+  "ceiling_symmetric_strict": 99.474,
+  "sym_links_accepted_as_TP": {
+   "SYM-C1s": 7,
+   "SYM-C1l": 169,
+   "SYM-C2": 43,
+   "SYM-C3": 23
+  },
+  "by_country": {
+   "US": {
+    "macro": 98.774,
+    "loss_pp": 1.226,
+    "ceiling": 99.417
+   },
+   "India": {
+    "macro": 98.846,
+    "loss_pp": 1.154,
+    "ceiling": 99.56
+   }
+  },
+  "oracle_per_s1_topk_on_ranking": 99.709
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "n_pairs": 32635,
+ "n_pos": 2913,
+ "n_neg": 29722,
+ "auc_p": 0.937,
+ "accepted_pos": 1471,
+ "accepted_neg": 78,
+ "precision_of_acceptance": 0.95,
+ "strict_identical_names": {
+  "n": 29289,
+  "pos": 956,
+  "auc_p": 0.859,
+  "accepted_pos": 6,
+  "accepted_neg": 20
+ },
+ "loose_suffix_differs": {
+  "n": 3346,
+  "pos": 1957,
+  "auc_p": 0.948,
+  "accepted_pos": 1465,
+  "accepted_neg": 58
+ },
+ "suffix_agree_rate_pos_vs_neg": [
+  0.55,
+  0.271
+ ],
+ "auc_suffix_agree": 0.64,
+ "auc_fewer_other_accepted_same_src": 0.531,
+ "P(pos | other accepted in source = k)": {
+  "0": [
+   4982,
+   0.117
+  ],
+  "1": [
+   12189,
+   0.085
+  ],
+  "2": [
+   9417,
+   0.087
+  ],
+  "3": [
+   4270,
+   0.087
+  ],
+  "4": [
+   1777,
+   0.059
+  ]
+ }
+}

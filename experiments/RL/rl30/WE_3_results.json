@@ -1,0 +1,48 @@
+{
+ "n_pairs": 225,
+ "n_s1": 178,
+ "composition": {
+  "gt|S1": 1,
+  "gt|sib": 10,
+  "tie|S1": 163,
+  "tie|eq": 9,
+  "tie|sib": 42
+ },
+ "q_used": {
+  "gt|S1": 0.5,
+  "gt|sib": 0.9939,
+  "gt|eq": 0.5,
+  "tie|S1": 0.1969,
+  "tie|sib": 0.809,
+  "tie|eq": 0.5
+ },
+ "expected_FP_fraction_label_analog": 0.3601,
+ "EV_E_uniform_6of7": {
+  "S1eq_mean": 46.63,
+  "S1eq_p05_p95": [
+   41.44,
+   51.18
+  ],
+  "France_pp": 0.01797,
+  "LB_pp": 0.00269
+ },
+ "EV_label_analog": {
+  "S1eq_mean": 6.22,
+  "S1eq_p05_p95": [
+   1.73,
+   10.93
+  ],
+  "France_pp": 0.0024,
+  "LB_pp": 0.00036
+ },
+ "EV_label_analog_veto_only_q_gt_0_5": {
+  "n_vetoed": 52,
+  "S1eq_mean": 12.17,
+  "S1eq_p05_p95": [
+   9.94,
+   13.79
+  ],
+  "France_pp": 0.00469,
+  "LB_pp": 0.0007
+ }
+}

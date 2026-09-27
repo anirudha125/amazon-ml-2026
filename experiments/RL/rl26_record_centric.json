@@ -1,0 +1,110 @@
+{
+ "US_empty_address_name_side": {
+  "n=0": {
+   "records": 47444,
+   "share": 0.215,
+   "P_linked": 0.936,
+   "P_owner_is_the_unique_compatible_S1": null,
+   "P_owner_in_compatible_set": 0.0
+  },
+  "n=1": {
+   "records": 76852,
+   "share": 0.349,
+   "P_linked": 0.995,
+   "P_owner_is_the_unique_compatible_S1": 0.99,
+   "P_owner_in_compatible_set": 0.99
+  },
+  "n=2": {
+   "records": 15805,
+   "share": 0.072,
+   "P_linked": 0.981,
+   "P_owner_is_the_unique_compatible_S1": null,
+   "P_owner_in_compatible_set": 0.973
+  },
+  "n=3-9": {
+   "records": 35317,
+   "share": 0.16,
+   "P_linked": 0.982,
+   "P_owner_is_the_unique_compatible_S1": null,
+   "P_owner_in_compatible_set": 0.971
+  },
+  "n>=10": {
+   "records": 44846,
+   "share": 0.204,
+   "P_linked": 0.982,
+   "P_owner_is_the_unique_compatible_S1": null,
+   "P_owner_in_compatible_set": 0.941
+  }
+ },
+ "US_substituted_name_address_side": {
+  "n=1": {
+   "records": 1445,
+   "P_linked_to_a_compatible_S1": 0.628,
+   "P_unlinked": 0.233
+  },
+  "n=2": {
+   "records": 306,
+   "P_linked_to_a_compatible_S1": 0.242,
+   "P_unlinked": 0.369
+  },
+  "n>=3": {
+   "records": 573,
+   "P_linked_to_a_compatible_S1": 0.326,
+   "P_unlinked": 0.291
+  }
+ },
+ "India_empty_address_name_side": {
+  "n=0": {
+   "records": 26407,
+   "share": 0.218,
+   "P_linked": 0.94,
+   "P_owner_is_the_unique_compatible_S1": null,
+   "P_owner_in_compatible_set": 0.0
+  },
+  "n=1": {
+   "records": 42386,
+   "share": 0.349,
+   "P_linked": 0.995,
+   "P_owner_is_the_unique_compatible_S1": 0.991,
+   "P_owner_in_compatible_set": 0.991
+  },
+  "n=2": {
+   "records": 8986,
+   "share": 0.074,
+   "P_linked": 0.986,
+   "P_owner_is_the_unique_compatible_S1": null,
+   "P_owner_in_compatible_set": 0.977
+  },
+  "n=3-9": {
+   "records": 15237,
+   "share": 0.126,
+   "P_linked": 0.982,
+   "P_owner_is_the_unique_compatible_S1": null,
+   "P_owner_in_compatible_set": 0.972
+  },
+  "n>=10": {
+   "records": 28269,
+   "share": 0.233,
+   "P_linked": 0.983,
+   "P_owner_is_the_unique_compatible_S1": null,
+   "P_owner_in_compatible_set": 0.919
+  }
+ },
+ "India_substituted_name_address_side": {
+  "n=1": {
+   "records": 3149,
+   "P_linked_to_a_compatible_S1": 0.527,
+   "P_unlinked": 0.241
+  },
+  "n=2": {
+   "records": 776,
+   "P_linked_to_a_compatible_S1": 0.2,
+   "P_unlinked": 0.433
+  },
+  "n>=3": {
+   "records": 6305,
+   "P_linked_to_a_compatible_S1": 0.407,
+   "P_unlinked": 0.328
+  }
+ }
+}

@@ -1,0 +1,4551 @@
+{
+ "part1_colocation": {
+  "France": {
+   "n_s1": 259452,
+   "n_groups": 13040,
+   "n_s1_in_groups": 36647,
+   "frac_s1_in_groups": 0.1412477067049011,
+   "pairs": 60304,
+   "pairs_noshare": 49267,
+   "frac_noshare": 0.8169773149376492,
+   "pairs_neardup": 454,
+   "pairs_ident": 2,
+   "pairs_core_ident": 36,
+   "pairs_core_neardup": 1708,
+   "null_pairs": 58210,
+   "null_frac_noshare": 0.8167668785432056,
+   "null_neardup": 483,
+   "null_ident": 12,
+   "null_core_ident": 46,
+   "null_core_neardup": 1722,
+   "neardup_rate": 0.007528522154417618,
+   "null_neardup_rate": 0.00829754337742656,
+   "n_distinct_tokens": 34434,
+   "mean_tokens_per_name": 3.081537240028984
+  },
+  "US": {
+   "n_s1": 663106,
+   "n_groups": 13248,
+   "n_s1_in_groups": 35306,
+   "frac_s1_in_groups": 0.05324337285441543,
+   "pairs": 37243,
+   "pairs_noshare": 32513,
+   "frac_noshare": 0.8729962677550144,
+   "pairs_neardup": 21,
+   "pairs_ident": 1,
+   "pairs_core_ident": 2,
+   "pairs_core_neardup": 25,
+   "null_pairs": 36585,
+   "null_frac_noshare": 0.8723247232472324,
+   "null_neardup": 14,
+   "null_ident": 2,
+   "null_core_ident": 2,
+   "null_core_neardup": 25,
+   "neardup_rate": 0.0005638643503477163,
+   "null_neardup_rate": 0.0003826704933716004,
+   "n_distinct_tokens": 56841,
+   "mean_tokens_per_name": 3.405900414111771
+  },
+  "India": {
+   "n_s1": 809986,
+   "n_groups": 17469,
+   "n_s1_in_groups": 49313,
+   "frac_s1_in_groups": 0.06088129918294884,
+   "pairs": 60580,
+   "pairs_noshare": 36759,
+   "frac_noshare": 0.6067844172994388,
+   "pairs_neardup": 264,
+   "pairs_ident": 0,
+   "pairs_core_ident": 1,
+   "pairs_core_neardup": 768,
+   "null_pairs": 20811,
+   "null_frac_noshare": 0.610206140983134,
+   "null_neardup": 91,
+   "null_ident": 0,
+   "null_core_ident": 3,
+   "null_core_neardup": 276,
+   "neardup_rate": 0.004357873885770881,
+   "null_neardup_rate": 0.004372687521022536,
+   "n_distinct_tokens": 49781,
+   "mean_tokens_per_name": 3.6960614134071452
+  }
+ },
+ "part2_noise_aggregates": {
+  "France_testPP": {
+   "accepted_hi": 750903,
+   "pseudo_pos": 595690,
+   "street_pass": 0.7932982022977668,
+   "pairs": 595690,
+   "frac_name_identical": 0.6186069935704813,
+   "frac_core_identical": 0.786299921099901,
+   "frac_no_pure_diff": 0.6345263475969044,
+   "frac_pure_drop1": 0.12683274857728014,
+   "frac_pure_add1": 0.05812754956437073,
+   "frac_one_subst_word": 0.06349947120146385,
+   "frac_one_subst_typo": 0.015885779516191308
+  },
+  "France_testLO": {
+   "accepted_lo": 87278,
+   "lo_street": 49677,
+   "street_pass": 0.5691812369669332,
+   "pairs": 49677,
+   "frac_name_identical": 0.024498258751534916,
+   "frac_core_identical": 0.16426112687964248,
+   "frac_no_pure_diff": 0.03440223846045454,
+   "frac_pure_drop1": 0.006783823499808764,
+   "frac_pure_add1": 0.20210560219014836,
+   "frac_one_subst_word": 0.32371117418523665,
+   "frac_one_subst_typo": 0.009662419228214264
+  },
+  "US_testPP": {
+   "accepted_hi": 1145925,
+   "pseudo_pos": 789752,
+   "street_pass": 0.6891829744529528,
+   "pairs": 789752,
+   "frac_name_identical": 0.3938400915730508,
+   "frac_core_identical": 0.5711856380230756,
+   "frac_no_pure_diff": 0.4420286368378934,
+   "frac_pure_drop1": 0.1385536218964941,
+   "frac_pure_add1": 0.10563316078971627,
+   "frac_one_subst_word": 0.15302018861617317,
+   "frac_one_subst_typo": 0.04748199434759266
+  },
+  "US_testLO": {
+   "accepted_lo": 53955,
+   "lo_street": 14093,
+   "street_pass": 0.2611991474376795,
+   "pairs": 14093,
+   "frac_name_identical": 0.04087135457319237,
+   "frac_core_identical": 0.1781026041297098,
+   "frac_no_pure_diff": 0.11700844390832328,
+   "frac_pure_drop1": 0.0226353508834173,
+   "frac_pure_add1": 0.1297807422124459,
+   "frac_one_subst_word": 0.28049386220109274,
+   "frac_one_subst_typo": 0.07301497197190095
+  },
+  "India_testPP": {
+   "accepted_hi": 1133965,
+   "pseudo_pos": 372140,
+   "street_pass": 0.3281759137186774,
+   "pairs": 372140,
+   "frac_name_identical": 0.24726178319987102,
+   "frac_core_identical": 0.5106760896436825,
+   "frac_no_pure_diff": 0.2836432525393669,
+   "frac_pure_drop1": 0.11042349653356263,
+   "frac_pure_add1": 0.061178588703176225,
+   "frac_one_subst_word": 0.1968613962487236,
+   "frac_one_subst_typo": 0.03588434460149406
+  },
+  "India_testLO": {
+   "accepted_lo": 65315,
+   "lo_street": 6730,
+   "street_pass": 0.10303911811988058,
+   "pairs": 6730,
+   "frac_name_identical": 0.036404160475482915,
+   "frac_core_identical": 0.1188707280832095,
+   "frac_no_pure_diff": 0.1037147102526003,
+   "frac_pure_drop1": 0.027340267459138187,
+   "frac_pure_add1": 0.048291233283803865,
+   "frac_one_subst_word": 0.22600297176820208,
+   "frac_one_subst_typo": 0.06508172362555721
+  },
+  "US_trainGT": {
+   "gt_links_sampled": 959813,
+   "street_pass": 0.6546295997241129,
+   "pairs": 628322,
+   "frac_name_identical": 0.38774386381505027,
+   "frac_core_identical": 0.5650558153303561,
+   "frac_no_pure_diff": 0.436495936796738,
+   "frac_pure_drop1": 0.13724332428277222,
+   "frac_pure_add1": 0.10554142621140115,
+   "frac_one_subst_word": 0.15475345443896601,
+   "frac_one_subst_typo": 0.04801518966389845
+  },
+  "India_trainGT": {
+   "gt_links_sampled": 640187,
+   "street_pass": 0.3100719008664656,
+   "pairs": 198504,
+   "frac_name_identical": 0.2425240801192923,
+   "frac_core_identical": 0.5017531132873897,
+   "frac_no_pure_diff": 0.27910268810704064,
+   "frac_pure_drop1": 0.1083504614516584,
+   "frac_pure_add1": 0.06090557369121025,
+   "frac_one_subst_word": 0.19677689114577035,
+   "frac_one_subst_typo": 0.03612017893845968
+  },
+  "US_V1pos": {
+   "pairs": 27255,
+   "frac_name_identical": 0.38998348926802423,
+   "frac_core_identical": 0.5661713447073932,
+   "frac_no_pure_diff": 0.44006604292790313,
+   "frac_pure_drop1": 0.1340671436433682,
+   "frac_pure_add1": 0.1059622087690332,
+   "frac_one_subst_word": 0.1544670702623372,
+   "frac_one_subst_typo": 0.04905521922583012
+  },
+  "US_V1pos_p99": {
+   "pairs": 26720,
+   "frac_name_identical": 0.3971931137724551,
+   "frac_core_identical": 0.573877245508982,
+   "frac_no_pure_diff": 0.4471931137724551,
+   "frac_pure_drop1": 0.13633982035928144,
+   "frac_pure_add1": 0.10550149700598803,
+   "frac_one_subst_word": 0.1530688622754491,
+   "frac_one_subst_typo": 0.04898952095808383
+  },
+  "India_V1pos": {
+   "pairs": 8673,
+   "frac_name_identical": 0.2481263691917445,
+   "frac_core_identical": 0.5113570852069641,
+   "frac_no_pure_diff": 0.2841000807102502,
+   "frac_pure_drop1": 0.10999654098927707,
+   "frac_pure_add1": 0.062492793727660555,
+   "frac_one_subst_word": 0.1890925861870172,
+   "frac_one_subst_typo": 0.03562781044621238
+  },
+  "India_V1pos_p99": {
+   "pairs": 8463,
+   "frac_name_identical": 0.2534562211981567,
+   "frac_core_identical": 0.521800779865296,
+   "frac_no_pure_diff": 0.28866832092638545,
+   "frac_pure_drop1": 0.11260782228524165,
+   "frac_pure_add1": 0.0629800307219662,
+   "frac_one_subst_word": 0.1879948008980267,
+   "frac_one_subst_typo": 0.034857615502776794
+  }
+ },
+ "part2_validation_pp_vs_gt": {
+  "US": {
+   "n_tok": 776,
+   "spearman_drop": 0.9350842661279266,
+   "spearman_addrel": 0.8413264684677358,
+   "spearman_add_per_pair": 0.8594310102948377,
+   "median_drop_pp": 0.1528384279475982,
+   "median_drop_gt": 0.1600435492651061,
+   "median_ratio_drop_pp_over_gt": 0.9642162996630531,
+   "v1_n_tok": 37,
+   "v1_spearman_drop_all_vs_p99": 0.9944996180290298,
+   "v1_median_ratio_drop_p99_over_all": 0.9734514621127366,
+   "top_adders_pp": [
+    [
+     "com",
+     45546,
+     NaN,
+     12045.667
+    ],
+    [
+     "center",
+     23720,
+     1.252,
+     1.228
+    ],
+    [
+     "inc",
+     17220,
+     0.121,
+     0.124
+    ],
+    [
+     "services",
+     17163,
+     3.911,
+     3.987
+    ],
+    [
+     "the",
+     10767,
+     9.078,
+     9.132
+    ],
+    [
+     "llc",
+     10007,
+     0.044,
+     0.045
+    ],
+    [
+     "co",
+     8550,
+     1.723,
+     1.724
+    ],
+    [
+     "service",
+     8334,
+     3.24,
+     3.167
+    ],
+    [
+     "corporation",
+     8190,
+     1.82,
+     1.85
+    ],
+    [
+     "a",
+     7987,
+     1.701,
+     1.725
+    ],
+    [
+     "corp",
+     7633,
+     0.453,
+     0.451
+    ],
+    [
+     "lp",
+     7628,
+     0.771,
+     0.758
+    ],
+    [
+     "ltd",
+     7323,
+     4.824,
+     4.667
+    ],
+    [
+     "incorporated",
+     7137,
+     3568.5,
+     1906.333
+    ],
+    [
+     "dba",
+     6948,
+     3474.0,
+     NaN
+    ]
+   ]
+  },
+  "India": {
+   "n_tok": 228,
+   "spearman_drop": 0.936951148992834,
+   "spearman_addrel": 0.8954425980946731,
+   "spearman_add_per_pair": 0.9062465379138145,
+   "median_drop_pp": 0.45391913199482703,
+   "median_drop_gt": 0.4636742248958815,
+   "median_ratio_drop_pp_over_gt": 0.9871852969960326,
+   "v1_n_tok": 13,
+   "v1_spearman_drop_all_vs_p99": 0.9860139860139862,
+   "v1_median_ratio_drop_p99_over_all": 0.9778193484228268,
+   "top_adders_pp": [
+    [
+     "ltd",
+     25307,
+     0.414,
+     0.401
+    ],
+    [
+     "com",
+     16913,
+     469.806,
+     309.138
+    ],
+    [
+     "center",
+     11609,
+     8.073,
+     8.117
+    ],
+    [
+     "services",
+     7894,
+     0.774,
+     0.796
+    ],
+    [
+     "limited",
+     5243,
+     0.024,
+     0.025
+    ],
+    [
+     "shri",
+     4849,
+     1616.333,
+     2595.0
+    ],
+    [
+     "sri",
+     4836,
+     1612.0,
+     510.0
+    ],
+    [
+     "mr",
+     4819,
+     535.444,
+     427.833
+    ],
+    [
+     "smt",
+     4817,
+     NaN,
+     1333.0
+    ],
+    [
+     "dr",
+     4812,
+     687.429,
+     221.667
+    ],
+    [
+     "s",
+     4737,
+     91.096,
+     128.05
+    ],
+    [
+     "m",
+     4732,
+     147.875,
+     142.333
+    ],
+    [
+     "service",
+     3865,
+     11.235,
+     12.781
+    ],
+    [
+     "partners",
+     3028,
+     1.238,
+     1.251
+    ],
+    [
+     "a",
+     2663,
+     70.079,
+     76.263
+    ]
+   ]
+  }
+ },
+ "part2_france_roles": {
+  "counts": {
+   "C": 96846,
+   "B": 294,
+   "A": 40,
+   "B_weak": 29,
+   "M": 12
+  },
+  "occ_share": {
+   "A": 0.2855,
+   "B": 0.4087,
+   "B_weak": 0.0049,
+   "C": 0.2327,
+   "M": 0.0682
+  },
+  "spearman_addLR_vs_pooled_idf": -0.3701125503026814,
+  "share_lift_quantiles": {
+   "0.05": 0.0,
+   "0.25": 0.627,
+   "0.5": 0.944,
+   "0.75": 1.104,
+   "0.95": NaN
+  },
+  "top_A": [
+   {
+    "tok": "com",
+    "role": "A",
+    "legal": false,
+    "occ": 35128,
+    "drop_rate": 0.0,
+    "add_per_pair": 0.0588,
+    "add_LR": 848.0375,
+    "idf_pooled": 9.427,
+    "per10k_FR": 0.6938,
+    "per10k_US": 0.0,
+    "per10k_IN": 1.4939,
+    "co_one": 9.0,
+    "co_two": 0.0,
+    "co_share_lift": NaN,
+    "co_contrast": 0.0,
+    "co_null_contrast": 0.0,
+    "co_nd_one": 0.0,
+    "co_core_swap": 0.0,
+    "lo_drop_rate": 0.2,
+    "lo_add_per_pair": 0.0208,
+    "US_drop": NaN,
+    "US_add_per_pair": 0.0577,
+    "IN_drop": 0.1111,
+    "IN_add_per_pair": 0.0454
+   },
+   {
+    "tok": "sas",
+    "role": "A",
+    "legal": true,
+    "occ": 128102,
+    "drop_rate": 0.2655,
+    "add_per_pair": 0.01,
+    "add_LR": 0.0498,
+    "idf_pooled": 3.4986,
+    "per10k_FR": 2014.9392,
+    "per10k_US": 0.0151,
+    "per10k_IN": 1.4074,
+    "co_one": 19518.0,
+    "co_two": 2491.0,
+    "co_share_lift": 1.0117,
+    "co_contrast": 22.0,
+    "co_null_contrast": 18.0,
+    "co_nd_one": 22.0,
+    "co_core_swap": 0.0,
+    "lo_drop_rate": 0.4206,
+    "lo_add_per_pair": 0.0048,
+    "US_drop": 0.0,
+    "US_add_per_pair": 0.0,
+    "IN_drop": 0.0357,
+    "IN_add_per_pair": 0.0
+   },
+   {
+    "tok": "sa",
+    "role": "A",
+    "legal": true,
+    "occ": 35888,
+    "drop_rate": 0.2624,
+    "add_per_pair": 0.0099,
+    "add_LR": 0.2021,
+    "idf_pooled": 4.9024,
+    "per10k_FR": 492.0371,
+    "per10k_US": 0.1659,
+    "per10k_IN": 1.1482,
+    "co_one": 5500.0,
+    "co_two": 141.0,
+    "co_share_lift": 0.8677,
+    "co_contrast": 5.0,
+    "co_null_contrast": 3.0,
+    "co_nd_one": 5.0,
+    "co_core_swap": 0.0,
+    "lo_drop_rate": 0.3735,
+    "lo_add_per_pair": 0.0056,
+    "US_drop": 0.1667,
+    "US_add_per_pair": 0.0,
+    "IN_drop": 0.05,
+    "IN_add_per_pair": 0.0001
+   },
+   {
+    "tok": "services",
+    "role": "A",
+    "legal": false,
+    "occ": 8768,
+    "drop_rate": 0.1623,
+    "add_per_pair": 0.0098,
+    "add_LR": 2.0743,
+    "idf_pooled": 4.1585,
+    "per10k_FR": 47.3691,
+    "per10k_US": 54.5011,
+    "per10k_IN": 274.548,
+    "co_one": 591.0,
+    "co_two": 2.0,
+    "co_share_lift": 0.9798,
+    "co_contrast": 2.0,
+    "co_null_contrast": 2.0,
+    "co_nd_one": 2.0,
+    "co_core_swap": 14.0,
+    "lo_drop_rate": 0.8496,
+    "lo_add_per_pair": 0.0019,
+    "US_drop": 0.2331,
+    "US_add_per_pair": 0.0217,
+    "IN_drop": 0.2614,
+    "IN_add_per_pair": 0.0212
+   },
+   {
+    "tok": "sarl",
+    "role": "A",
+    "legal": true,
+    "occ": 175746,
+    "drop_rate": 0.2637,
+    "add_per_pair": 0.0093,
+    "add_LR": 0.0327,
+    "idf_pooled": 3.1602,
+    "per10k_FR": 2832.3543,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 24295.0,
+    "co_two": 4907.0,
+    "co_share_lift": 1.0192,
+    "co_contrast": 21.0,
+    "co_null_contrast": 16.0,
+    "co_nd_one": 21.0,
+    "co_core_swap": 0.0,
+    "lo_drop_rate": 0.4128,
+    "lo_add_per_pair": 0.0096,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "cie",
+    "role": "A",
+    "legal": false,
+    "occ": 18095,
+    "drop_rate": 0.1922,
+    "add_per_pair": 0.0086,
+    "add_LR": 0.3906,
+    "idf_pooled": 5.72,
+    "per10k_FR": 218.923,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0247,
+    "co_one": 2481.0,
+    "co_two": 27.0,
+    "co_share_lift": 1.1173,
+    "co_contrast": 2.0,
+    "co_null_contrast": 1.0,
+    "co_nd_one": 2.0,
+    "co_core_swap": 8.0,
+    "lo_drop_rate": 0.5892,
+    "lo_add_per_pair": 0.0189,
+    "US_drop": NaN,
+    "US_add_per_pair": 0.0,
+    "IN_drop": 0.0,
+    "IN_add_per_pair": 0.0
+   },
+   {
+    "tok": "sci",
+    "role": "A",
+    "legal": true,
+    "occ": 24819,
+    "drop_rate": 0.2628,
+    "add_per_pair": 0.0084,
+    "add_LR": 0.2593,
+    "idf_pooled": 5.3318,
+    "per10k_FR": 322.2176,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.2099,
+    "co_one": 3625.0,
+    "co_two": 50.0,
+    "co_share_lift": 0.7884,
+    "co_contrast": 3.0,
+    "co_null_contrast": 1.0,
+    "co_nd_one": 3.0,
+    "co_core_swap": 0.0,
+    "lo_drop_rate": 0.3824,
+    "lo_add_per_pair": 0.0264,
+    "US_drop": NaN,
+    "US_add_per_pair": 0.0,
+    "IN_drop": 0.0,
+    "IN_add_per_pair": 0.0
+   },
+   {
+    "tok": "eurl",
+    "role": "A",
+    "legal": true,
+    "occ": 44192,
+    "drop_rate": 0.2597,
+    "add_per_pair": 0.0075,
+    "add_LR": 0.1153,
+    "idf_pooled": 4.6253,
+    "per10k_FR": 654.4563,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 7370.0,
+    "co_two": 247.0,
+    "co_share_lift": 0.9499,
+    "co_contrast": 6.0,
+    "co_null_contrast": 7.0,
+    "co_nd_one": 6.0,
+    "co_core_swap": 0.0,
+    "lo_drop_rate": 0.3834,
+    "lo_add_per_pair": 0.0326,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "a",
+    "role": "A",
+    "legal": false,
+    "occ": 4065,
+    "drop_rate": 0.0882,
+    "add_per_pair": 0.0067,
+    "add_LR": 39.2291,
+    "idf_pooled": 6.0764,
+    "per10k_FR": 1.6959,
+    "per10k_US": 57.9093,
+    "per10k_IN": 1.1605,
+    "co_one": 13.0,
+    "co_two": 0.0,
+    "co_share_lift": NaN,
+    "co_contrast": 0.0,
+    "co_null_contrast": 0.0,
+    "co_nd_one": 0.0,
+    "co_core_swap": 0.0,
+    "lo_drop_rate": 0.6364,
+    "lo_add_per_pair": 0.0,
+    "US_drop": 0.0973,
+    "US_add_per_pair": 0.0101,
+    "IN_drop": 0.0263,
+    "IN_add_per_pair": 0.0072
+   },
+   {
+    "tok": "dba",
+    "role": "A",
+    "legal": false,
+    "occ": 3906,
+    "drop_rate": NaN,
+    "add_per_pair": 0.0066,
+    "add_LR": 1701.2532,
+    "idf_pooled": 11.9228,
+    "per10k_FR": 0.0,
+    "per10k_US": 0.0151,
+    "per10k_IN": 0.1235,
+    "co_one": 0.0,
+    "co_two": 0.0,
+    "co_share_lift": NaN,
+    "co_contrast": NaN,
+    "co_null_contrast": NaN,
+    "co_nd_one": NaN,
+    "co_core_swap": NaN,
+    "lo_drop_rate": NaN,
+    "lo_add_per_pair": 0.0,
+    "US_drop": 0.0,
+    "US_add_per_pair": 0.0088,
+    "IN_drop": 0.2,
+    "IN_add_per_pair": 0.0068
+   },
+   {
+    "tok": "sasu",
+    "role": "A",
+    "legal": true,
+    "occ": 28105,
+    "drop_rate": 0.2587,
+    "add_per_pair": 0.0051,
+    "add_LR": 0.1239,
+    "idf_pooled": 5.0851,
+    "per10k_FR": 413.2171,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 4711.0,
+    "co_two": 104.0,
+    "co_share_lift": 1.1127,
+    "co_contrast": 3.0,
+    "co_null_contrast": 3.0,
+    "co_nd_one": 3.0,
+    "co_core_swap": 0.0,
+    "lo_drop_rate": 0.4029,
+    "lo_add_per_pair": 0.0623,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "as",
+    "role": "A",
+    "legal": false,
+    "occ": 3139,
+    "drop_rate": 0.0848,
+    "add_per_pair": 0.0045,
+    "add_LR": 6.1045,
+    "idf_pooled": 8.3118,
+    "per10k_FR": 7.3617,
+    "per10k_US": 0.4524,
+    "per10k_IN": 2.5186,
+    "co_one": 79.0,
+    "co_two": 0.0,
+    "co_share_lift": NaN,
+    "co_contrast": 0.0,
+    "co_null_contrast": 1.0,
+    "co_nd_one": 0.0,
+    "co_core_swap": 0.0,
+    "lo_drop_rate": 0.2979,
+    "lo_add_per_pair": 0.001,
+    "US_drop": 0.0698,
+    "US_add_per_pair": 0.0061,
+    "IN_drop": 0.1262,
+    "IN_add_per_pair": 0.0045
+   },
+   {
+    "tok": "formerly",
+    "role": "A",
+    "legal": false,
+    "occ": 2161,
+    "drop_rate": NaN,
+    "add_per_pair": 0.0036,
+    "add_LR": 941.2207,
+    "idf_pooled": 15.0582,
+    "per10k_FR": 0.0,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 0.0,
+    "co_two": 0.0,
+    "co_share_lift": NaN,
+    "co_contrast": NaN,
+    "co_null_contrast": NaN,
+    "co_nd_one": NaN,
+    "co_core_swap": NaN,
+    "lo_drop_rate": NaN,
+    "lo_add_per_pair": 0.0,
+    "US_drop": NaN,
+    "US_add_per_pair": 0.0071,
+    "IN_drop": NaN,
+    "IN_add_per_pair": 0.004
+   },
+   {
+    "tok": "k",
+    "role": "A",
+    "legal": false,
+    "occ": 2022,
+    "drop_rate": NaN,
+    "add_per_pair": 0.0034,
+    "add_LR": 880.6795,
+    "idf_pooled": 7.1539,
+    "per10k_FR": 0.0,
+    "per10k_US": 19.6349,
+    "per10k_IN": 0.642,
+    "co_one": 0.0,
+    "co_two": 0.0,
+    "co_share_lift": NaN,
+    "co_contrast": NaN,
+    "co_null_contrast": NaN,
+    "co_nd_one": NaN,
+    "co_core_swap": NaN,
+    "lo_drop_rate": NaN,
+    "lo_add_per_pair": 0.0,
+    "US_drop": 0.098,
+    "US_add_per_pair": 0.0057,
+    "IN_drop": 0.0952,
+    "IN_add_per_pair": 0.0036
+   },
+   {
+    "tok": "fils",
+    "role": "A",
+    "legal": false,
+    "occ": 14108,
+    "drop_rate": 0.176,
+    "add_per_pair": 0.0031,
+    "add_LR": 0.1592,
+    "idf_pooled": 5.8288,
+    "per10k_FR": 196.3754,
+    "per10k_US": 0.0151,
+    "per10k_IN": 0.0,
+    "co_one": 2327.0,
+    "co_two": 19.0,
+    "co_share_lift": 1.1014,
+    "co_contrast": 0.0,
+    "co_null_contrast": 1.0,
+    "co_nd_one": 0.0,
+    "co_core_swap": 0.0,
+    "lo_drop_rate": 0.7138,
+    "lo_add_per_pair": 0.1225,
+    "US_drop": 0.0,
+    "US_add_per_pair": 0.0,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "et",
+    "role": "A",
+    "legal": false,
+    "occ": 1893,
+    "drop_rate": 0.1429,
+    "add_per_pair": 0.0031,
+    "add_LR": 47.0393,
+    "idf_pooled": 9.8165,
+    "per10k_FR": 0.6552,
+    "per10k_US": 0.2262,
+    "per10k_IN": 0.7654,
+    "co_one": 12.0,
+    "co_two": 0.0,
+    "co_share_lift": NaN,
+    "co_contrast": 0.0,
+    "co_null_contrast": 0.0,
+    "co_nd_one": 0.0,
+    "co_core_swap": 0.0,
+    "lo_drop_rate": 0.0,
+    "lo_add_per_pair": 0.0776,
+    "US_drop": 0.0,
+    "US_add_per_pair": 0.0,
+    "IN_drop": 0.0286,
+    "IN_add_per_pair": 0.0
+   },
+   {
+    "tok": "associes",
+    "role": "A",
+    "legal": false,
+    "occ": 1759,
+    "drop_rate": 0.0435,
+    "add_per_pair": 0.0029,
+    "add_LR": 29.8438,
+    "idf_pooled": 11.1264,
+    "per10k_FR": 0.9636,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 10.0,
+    "co_two": 0.0,
+    "co_share_lift": NaN,
+    "co_contrast": 0.0,
+    "co_null_contrast": 0.0,
+    "co_nd_one": 0.0,
+    "co_core_swap": 0.0,
+    "lo_drop_rate": 0.0,
+    "lo_add_per_pair": 0.0696,
+    "US_drop": NaN,
+    "US_add_per_pair": 0.0,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "f",
+    "role": "A",
+    "legal": false,
+    "occ": 1032,
+    "drop_rate": 0.0,
+    "add_per_pair": 0.0017,
+    "add_LR": 449.0507,
+    "idf_pooled": 7.1977,
+    "per10k_FR": 0.0385,
+    "per10k_US": 19.2729,
+    "per10k_IN": 0.2099,
+    "co_one": 5.0,
+    "co_two": 0.0,
+    "co_share_lift": NaN,
+    "co_contrast": 0.0,
+    "co_null_contrast": 0.0,
+    "co_nd_one": 0.0,
+    "co_core_swap": 0.0,
+    "lo_drop_rate": 1.0,
+    "lo_add_per_pair": 0.0,
+    "US_drop": 0.109,
+    "US_add_per_pair": 0.0035,
+    "IN_drop": 0.0,
+    "IN_add_per_pair": 0.002
+   },
+   {
+    "tok": "trading",
+    "role": "A",
+    "legal": false,
+    "occ": 1033,
+    "drop_rate": 0.3333,
+    "add_per_pair": 0.0017,
+    "add_LR": 224.3076,
+    "idf_pooled": 4.4616,
+    "per10k_FR": 0.0771,
+    "per10k_US": 20.3135,
+    "per10k_IN": 230.2632,
+    "co_one": 0.0,
+    "co_two": 0.0,
+    "co_share_lift": NaN,
+    "co_contrast": NaN,
+    "co_null_contrast": NaN,
+    "co_nd_one": NaN,
+    "co_core_swap": NaN,
+    "lo_drop_rate": NaN,
+    "lo_add_per_pair": 0.0,
+    "US_drop": 0.1962,
+    "US_add_per_pair": 0.0022,
+    "IN_drop": 0.3378,
+    "IN_add_per_pair": 0.0017
+   },
+   {
+    "tok": "business",
+    "role": "A",
+    "legal": false,
+    "occ": 1132,
+    "drop_rate": 0.1043,
+    "add_per_pair": 0.0017,
+    "add_LR": 8.2028,
+    "idf_pooled": 5.2748,
+    "per10k_FR": 2.0813,
+    "per10k_US": 17.8704,
+    "per10k_IN": 94.1868,
+    "co_one": 22.0,
+    "co_two": 0.0,
+    "co_share_lift": NaN,
+    "co_contrast": 0.0,
+    "co_null_contrast": 0.0,
+    "co_nd_one": 0.0,
+    "co_core_swap": 0.0,
+    "lo_drop_rate": 0.3,
+    "lo_add_per_pair": 0.0,
+    "US_drop": 0.1466,
+    "US_add_per_pair": 0.0021,
+    "IN_drop": 0.5105,
+    "IN_add_per_pair": 0.0017
+   },
+   {
+    "tok": "doing",
+    "role": "A",
+    "legal": false,
+    "occ": 1017,
+    "drop_rate": NaN,
+    "add_per_pair": 0.0017,
+    "add_LR": 442.953,
+    "idf_pooled": 15.0582,
+    "per10k_FR": 0.0,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 0.0,
+    "co_two": 0.0,
+    "co_share_lift": NaN,
+    "co_contrast": NaN,
+    "co_null_contrast": NaN,
+    "co_nd_one": NaN,
+    "co_core_swap": NaN,
+    "lo_drop_rate": NaN,
+    "lo_add_per_pair": 0.0,
+    "US_drop": NaN,
+    "US_add_per_pair": 0.0021,
+    "IN_drop": NaN,
+    "IN_add_per_pair": 0.0017
+   },
+   {
+    "tok": "t",
+    "role": "A",
+    "legal": false,
+    "occ": 978,
+    "drop_rate": 0.0,
+    "add_per_pair": 0.0016,
+    "add_LR": 424.2244,
+    "idf_pooled": 7.069,
+    "per10k_FR": 0.0385,
+    "per10k_US": 21.0072,
+    "per10k_IN": 0.9877,
+    "co_one": 0.0,
+    "co_two": 0.0,
+    "co_share_lift": NaN,
+    "co_contrast": NaN,
+    "co_null_contrast": NaN,
+    "co_nd_one": NaN,
+    "co_core_swap": NaN,
+    "lo_drop_rate": NaN,
+    "lo_add_per_pair": 0.0,
+    "US_drop": 0.0849,
+    "US_add_per_pair": 0.0023,
+    "IN_drop": 0.0263,
+    "IN_add_per_pair": 0.0017
+   },
+   {
+    "tok": "aka",
+    "role": "A",
+    "legal": false,
+    "occ": 975,
+    "drop_rate": 0.0,
+    "add_per_pair": 0.0016,
+    "add_LR": 140.6822,
+    "idf_pooled": 11.3947,
+    "per10k_FR": 0.1156,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.1975,
+    "co_one": 0.0,
+    "co_two": 0.0,
+    "co_share_lift": NaN,
+    "co_contrast": NaN,
+    "co_null_contrast": NaN,
+    "co_nd_one": NaN,
+    "co_core_swap": NaN,
+    "lo_drop_rate": NaN,
+    "lo_add_per_pair": 0.0,
+    "US_drop": NaN,
+    "US_add_per_pair": 0.0022,
+    "IN_drop": 0.1667,
+    "IN_add_per_pair": 0.0017
+   },
+   {
+    "tok": "d",
+    "role": "A",
+    "legal": false,
+    "occ": 975,
+    "drop_rate": 0.0,
+    "add_per_pair": 0.0016,
+    "add_LR": 104.9672,
+    "idf_pooled": 6.4423,
+    "per10k_FR": 0.1542,
+    "per10k_US": 40.7326,
+    "per10k_IN": 0.6667,
+    "co_one": 0.0,
+    "co_two": 0.0,
+    "co_share_lift": NaN,
+    "co_contrast": NaN,
+    "co_null_contrast": NaN,
+    "co_nd_one": NaN,
+    "co_core_swap": NaN,
+    "lo_drop_rate": NaN,
+    "lo_add_per_pair": 0.0,
+    "US_drop": 0.1913,
+    "US_add_per_pair": 0.0022,
+    "IN_drop": 0.1154,
+    "IN_add_per_pair": 0.0016
+   },
+   {
+    "tok": "b",
+    "role": "A",
+    "legal": false,
+    "occ": 968,
+    "drop_rate": 0.0,
+    "add_per_pair": 0.0016,
+    "add_LR": 209.9345,
+    "idf_pooled": 7.0979,
+    "per10k_FR": 0.0771,
+    "per10k_US": 20.5246,
+    "per10k_IN": 0.8519,
+    "co_one": 4.0,
+    "co_two": 0.0,
+    "co_share_lift": NaN,
+    "co_contrast": 0.0,
+    "co_null_contrast": 0.0,
+    "co_nd_one": 0.0,
+    "co_core_swap": 0.0,
+    "lo_drop_rate": NaN,
+    "lo_add_per_pair": 0.0,
+    "US_drop": 0.1215,
+    "US_add_per_pair": 0.0022,
+    "IN_drop": 0.125,
+    "IN_add_per_pair": 0.0016
+   },
+   {
+    "tok": "compagnie",
+    "role": "A",
+    "legal": false,
+    "occ": 8977,
+    "drop_rate": 0.189,
+    "add_per_pair": 0.0015,
+    "add_LR": 0.1078,
+    "idf_pooled": 6.2004,
+    "per10k_FR": 135.4393,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 1683.0,
+    "co_two": 9.0,
+    "co_share_lift": 1.0858,
+    "co_contrast": 7.0,
+    "co_null_contrast": 5.0,
+    "co_nd_one": 7.0,
+    "co_core_swap": 39.0,
+    "lo_drop_rate": 0.8092,
+    "lo_add_per_pair": 0.0075,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "frs",
+    "role": "A",
+    "legal": false,
+    "occ": 678,
+    "drop_rate": 0.0,
+    "add_per_pair": 0.0011,
+    "add_LR": 97.1274,
+    "idf_pooled": 12.0137,
+    "per10k_FR": 0.1156,
+    "per10k_US": 0.0151,
+    "per10k_IN": 0.0741,
+    "co_one": 2.0,
+    "co_two": 0.0,
+    "co_share_lift": NaN,
+    "co_contrast": 0.0,
+    "co_null_contrast": 0.0,
+    "co_nd_one": 0.0,
+    "co_core_swap": 0.0,
+    "lo_drop_rate": NaN,
+    "lo_add_per_pair": 0.0,
+    "US_drop": NaN,
+    "US_add_per_pair": 0.0,
+    "IN_drop": 0.0,
+    "IN_add_per_pair": 0.0
+   },
+   {
+    "tok": "nee",
+    "role": "A",
+    "legal": false,
+    "occ": 565,
+    "drop_rate": 0.0,
+    "add_per_pair": 0.0009,
+    "add_LR": 121.9536,
+    "idf_pooled": 11.7624,
+    "per10k_FR": 0.0771,
+    "per10k_US": 0.0754,
+    "per10k_IN": 0.0741,
+    "co_one": 1.0,
+    "co_two": 0.0,
+    "co_share_lift": NaN,
+    "co_contrast": 0.0,
+    "co_null_contrast": 0.0,
+    "co_nd_one": 0.0,
+    "co_core_swap": 0.0,
+    "lo_drop_rate": NaN,
+    "lo_add_per_pair": 0.0,
+    "US_drop": 0.1667,
+    "US_add_per_pair": 0.0017,
+    "IN_drop": 0.0,
+    "IN_add_per_pair": 0.001
+   },
+   {
+    "tok": "known",
+    "role": "A",
+    "legal": false,
+    "occ": 556,
+    "drop_rate": NaN,
+    "add_per_pair": 0.0009,
+    "add_LR": 242.1651,
+    "idf_pooled": 12.861,
+    "per10k_FR": 0.0,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0494,
+    "co_one": 0.0,
+    "co_two": 0.0,
+    "co_share_lift": NaN,
+    "co_contrast": NaN,
+    "co_null_contrast": NaN,
+    "co_nd_one": NaN,
+    "co_core_swap": NaN,
+    "lo_drop_rate": NaN,
+    "lo_add_per_pair": 0.0,
+    "US_drop": NaN,
+    "US_add_per_pair": 0.0017,
+    "IN_drop": 1.0,
+    "IN_add_per_pair": 0.001
+   },
+   {
+    "tok": "fka",
+    "role": "A",
+    "legal": false,
+    "occ": 540,
+    "drop_rate": NaN,
+    "add_per_pair": 0.0009,
+    "add_LR": 235.1963,
+    "idf_pooled": 13.1123,
+    "per10k_FR": 0.0385,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0247,
+    "co_one": 0.0,
+    "co_two": 0.0,
+    "co_share_lift": NaN,
+    "co_contrast": NaN,
+    "co_null_contrast": NaN,
+    "co_nd_one": NaN,
+    "co_core_swap": NaN,
+    "lo_drop_rate": NaN,
+    "lo_add_per_pair": 0.0,
+    "US_drop": NaN,
+    "US_add_per_pair": 0.0017,
+    "IN_drop": 0.0,
+    "IN_add_per_pair": 0.0011
+   }
+  ],
+  "top_B": [
+   {
+    "tok": "club",
+    "role": "B",
+    "legal": false,
+    "occ": 51590,
+    "drop_rate": 0.1445,
+    "add_per_pair": 0.0006,
+    "add_LR": 0.0064,
+    "idf_pooled": 4.3249,
+    "per10k_FR": 873.8418,
+    "per10k_US": 0.0603,
+    "per10k_IN": 3.1359,
+    "co_one": 9877.0,
+    "co_two": 450.0,
+    "co_share_lift": 0.9305,
+    "co_contrast": 27.0,
+    "co_null_contrast": 45.0,
+    "co_nd_one": 27.0,
+    "co_core_swap": 152.0,
+    "lo_drop_rate": 0.7333,
+    "lo_add_per_pair": 0.0246,
+    "US_drop": 0.0,
+    "US_add_per_pair": 0.0,
+    "IN_drop": 0.2033,
+    "IN_add_per_pair": 0.0
+   },
+   {
+    "tok": "france",
+    "role": "B",
+    "legal": false,
+    "occ": 49881,
+    "drop_rate": 0.1442,
+    "add_per_pair": 0.0005,
+    "add_LR": 0.0059,
+    "idf_pooled": 4.4219,
+    "per10k_FR": 801.4199,
+    "per10k_US": 0.2262,
+    "per10k_IN": 0.0123,
+    "co_one": 8836.0,
+    "co_two": 339.0,
+    "co_share_lift": 1.0234,
+    "co_contrast": 0.0,
+    "co_null_contrast": 1.0,
+    "co_nd_one": 0.0,
+    "co_core_swap": 0.0,
+    "lo_drop_rate": 0.4863,
+    "lo_add_per_pair": 0.0406,
+    "US_drop": 0.125,
+    "US_add_per_pair": 0.0,
+    "IN_drop": 0.0,
+    "IN_add_per_pair": 0.0
+   },
+   {
+    "tok": "de",
+    "role": "B",
+    "legal": false,
+    "occ": 38119,
+    "drop_rate": 0.1118,
+    "add_per_pair": 0.0,
+    "add_LR": 0.0003,
+    "idf_pooled": 4.5949,
+    "per10k_FR": 665.5566,
+    "per10k_US": 0.8747,
+    "per10k_IN": 2.1852,
+    "co_one": 7096.0,
+    "co_two": 261.0,
+    "co_share_lift": 0.8657,
+    "co_contrast": 0.0,
+    "co_null_contrast": 1.0,
+    "co_nd_one": 0.0,
+    "co_core_swap": 0.0,
+    "lo_drop_rate": 0.2922,
+    "lo_add_per_pair": 0.0005,
+    "US_drop": 0.1351,
+    "US_add_per_pair": 0.0,
+    "IN_drop": 0.1045,
+    "IN_add_per_pair": 0.0
+   },
+   {
+    "tok": "ecole",
+    "role": "B",
+    "legal": false,
+    "occ": 34864,
+    "drop_rate": 0.1171,
+    "add_per_pair": 0.0001,
+    "add_LR": 0.0019,
+    "idf_pooled": 4.7057,
+    "per10k_FR": 603.8882,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 6877.0,
+    "co_two": 225.0,
+    "co_share_lift": 1.0673,
+    "co_contrast": 35.0,
+    "co_null_contrast": 18.0,
+    "co_nd_one": 35.0,
+    "co_core_swap": 125.0,
+    "lo_drop_rate": 0.7004,
+    "lo_add_per_pair": 0.0083,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "amicale",
+    "role": "B",
+    "legal": false,
+    "occ": 32969,
+    "drop_rate": 0.1349,
+    "add_per_pair": 0.0003,
+    "add_LR": 0.0054,
+    "idf_pooled": 4.7908,
+    "per10k_FR": 554.592,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 6540.0,
+    "co_two": 195.0,
+    "co_share_lift": 1.0653,
+    "co_contrast": 31.0,
+    "co_null_contrast": 32.0,
+    "co_nd_one": 31.0,
+    "co_core_swap": 116.0,
+    "lo_drop_rate": 0.6716,
+    "lo_add_per_pair": 0.0147,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "maison",
+    "role": "B",
+    "legal": false,
+    "occ": 24760,
+    "drop_rate": 0.0996,
+    "add_per_pair": 0.0,
+    "add_LR": 0.0009,
+    "idf_pooled": 5.072,
+    "per10k_FR": 417.7651,
+    "per10k_US": 0.0302,
+    "per10k_IN": 0.2593,
+    "co_one": 4841.0,
+    "co_two": 112.0,
+    "co_share_lift": 0.9156,
+    "co_contrast": 7.0,
+    "co_null_contrast": 6.0,
+    "co_nd_one": 7.0,
+    "co_core_swap": 23.0,
+    "lo_drop_rate": 0.5499,
+    "lo_add_per_pair": 0.0022,
+    "US_drop": 0.2857,
+    "US_add_per_pair": 0.0,
+    "IN_drop": 0.0,
+    "IN_add_per_pair": 0.0
+   },
+   {
+    "tok": "du",
+    "role": "B",
+    "legal": false,
+    "occ": 23927,
+    "drop_rate": 0.1216,
+    "add_per_pair": 0.0,
+    "add_LR": 0.0,
+    "idf_pooled": 5.0775,
+    "per10k_FR": 413.4869,
+    "per10k_US": 0.5881,
+    "per10k_IN": 0.4445,
+    "co_one": 4794.0,
+    "co_two": 105.0,
+    "co_share_lift": 0.9085,
+    "co_contrast": 1.0,
+    "co_null_contrast": 0.0,
+    "co_nd_one": 1.0,
+    "co_core_swap": 1.0,
+    "lo_drop_rate": 0.2552,
+    "lo_add_per_pair": 0.0001,
+    "US_drop": 0.0976,
+    "US_add_per_pair": 0.0,
+    "IN_drop": 0.0625,
+    "IN_add_per_pair": 0.0
+   },
+   {
+    "tok": "union",
+    "role": "B",
+    "legal": false,
+    "occ": 20005,
+    "drop_rate": 0.1227,
+    "add_per_pair": 0.0,
+    "add_LR": 0.0011,
+    "idf_pooled": 4.9334,
+    "per10k_FR": 332.6241,
+    "per10k_US": 57.291,
+    "per10k_IN": 0.5926,
+    "co_one": 3689.0,
+    "co_two": 57.0,
+    "co_share_lift": 1.1555,
+    "co_contrast": 13.0,
+    "co_null_contrast": 9.0,
+    "co_nd_one": 13.0,
+    "co_core_swap": 57.0,
+    "lo_drop_rate": 0.6217,
+    "lo_add_per_pair": 0.0032,
+    "US_drop": 0.2059,
+    "US_add_per_pair": 0.0,
+    "IN_drop": 0.1481,
+    "IN_add_per_pair": 0.0
+   },
+   {
+    "tok": "sportive",
+    "role": "B",
+    "legal": false,
+    "occ": 19179,
+    "drop_rate": 0.1508,
+    "add_per_pair": 0.0,
+    "add_LR": 0.0014,
+    "idf_pooled": 5.349,
+    "per10k_FR": 317.3612,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 3476.0,
+    "co_two": 56.0,
+    "co_share_lift": 1.0306,
+    "co_contrast": 26.0,
+    "co_null_contrast": 15.0,
+    "co_nd_one": 26.0,
+    "co_core_swap": 90.0,
+    "lo_drop_rate": 0.8968,
+    "lo_add_per_pair": 0.0018,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "des",
+    "role": "B",
+    "legal": false,
+    "occ": 17686,
+    "drop_rate": 0.1245,
+    "add_per_pair": 0.0,
+    "add_LR": 0.0,
+    "idf_pooled": 5.3917,
+    "per10k_FR": 301.9826,
+    "per10k_US": 0.7088,
+    "per10k_IN": 0.0988,
+    "co_one": 3407.0,
+    "co_two": 52.0,
+    "co_share_lift": 1.0857,
+    "co_contrast": 0.0,
+    "co_null_contrast": 0.0,
+    "co_nd_one": 0.0,
+    "co_core_swap": 0.0,
+    "lo_drop_rate": 0.2726,
+    "lo_add_per_pair": 0.0,
+    "US_drop": 0.2,
+    "US_add_per_pair": 0.0,
+    "IN_drop": 0.3333,
+    "IN_add_per_pair": 0.0
+   },
+   {
+    "tok": "college",
+    "role": "B",
+    "legal": false,
+    "occ": 16399,
+    "drop_rate": 0.1241,
+    "add_per_pair": 0.0001,
+    "add_LR": 0.0045,
+    "idf_pooled": 5.106,
+    "per10k_FR": 272.0734,
+    "per10k_US": 14.8091,
+    "per10k_IN": 30.3462,
+    "co_one": 3256.0,
+    "co_two": 43.0,
+    "co_share_lift": 0.9142,
+    "co_contrast": 11.0,
+    "co_null_contrast": 11.0,
+    "co_nd_one": 11.0,
+    "co_core_swap": 47.0,
+    "lo_drop_rate": 0.6473,
+    "lo_add_per_pair": 0.0046,
+    "US_drop": 0.2115,
+    "US_add_per_pair": 0.0,
+    "IN_drop": 0.2463,
+    "IN_add_per_pair": 0.0
+   },
+   {
+    "tok": "primaire",
+    "role": "B",
+    "legal": false,
+    "occ": 15200,
+    "drop_rate": 0.13,
+    "add_per_pair": 0.0,
+    "add_LR": 0.0005,
+    "idf_pooled": 5.5528,
+    "per10k_FR": 258.8533,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 3138.0,
+    "co_two": 44.0,
+    "co_share_lift": 1.0626,
+    "co_contrast": 9.0,
+    "co_null_contrast": 10.0,
+    "co_nd_one": 9.0,
+    "co_core_swap": 32.0,
+    "lo_drop_rate": 0.7602,
+    "lo_add_per_pair": 0.0025,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "pharmacie",
+    "role": "B",
+    "legal": false,
+    "occ": 13456,
+    "drop_rate": 0.1117,
+    "add_per_pair": 0.0,
+    "add_LR": 0.0001,
+    "idf_pooled": 5.6719,
+    "per10k_FR": 229.792,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 2783.0,
+    "co_two": 30.0,
+    "co_share_lift": 0.9677,
+    "co_contrast": 5.0,
+    "co_null_contrast": 7.0,
+    "co_nd_one": 5.0,
+    "co_core_swap": 23.0,
+    "lo_drop_rate": 0.56,
+    "lo_add_per_pair": 0.0001,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "lille",
+    "role": "B",
+    "legal": false,
+    "occ": 8303,
+    "drop_rate": 0.0784,
+    "add_per_pair": 0.0,
+    "add_LR": 0.0,
+    "idf_pooled": 6.0212,
+    "per10k_FR": 162.0338,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 2699.0,
+    "co_two": 210.0,
+    "co_share_lift": 0.8938,
+    "co_contrast": 6.0,
+    "co_null_contrast": 12.0,
+    "co_nd_one": 6.0,
+    "co_core_swap": 51.0,
+    "lo_drop_rate": 0.3993,
+    "lo_add_per_pair": 0.0,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "etablissements",
+    "role": "B",
+    "legal": false,
+    "occ": 12512,
+    "drop_rate": 0.0755,
+    "add_per_pair": 0.0,
+    "add_LR": 0.0001,
+    "idf_pooled": 5.7725,
+    "per10k_FR": 207.7841,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 2572.0,
+    "co_two": 24.0,
+    "co_share_lift": 0.9317,
+    "co_contrast": 1.0,
+    "co_null_contrast": 0.0,
+    "co_nd_one": 1.0,
+    "co_core_swap": 1.0,
+    "lo_drop_rate": 0.358,
+    "lo_add_per_pair": 0.0002,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "maternelle",
+    "role": "B",
+    "legal": false,
+    "occ": 11030,
+    "drop_rate": 0.1047,
+    "add_per_pair": 0.0001,
+    "add_LR": 0.0026,
+    "idf_pooled": 5.8516,
+    "per10k_FR": 191.9816,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 2456.0,
+    "co_two": 21.0,
+    "co_share_lift": 0.8991,
+    "co_contrast": 8.0,
+    "co_null_contrast": 4.0,
+    "co_nd_one": 8.0,
+    "co_core_swap": 28.0,
+    "lo_drop_rate": 0.7137,
+    "lo_add_per_pair": 0.0023,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "parents",
+    "role": "B",
+    "legal": false,
+    "occ": 12498,
+    "drop_rate": 0.1661,
+    "add_per_pair": 0.0002,
+    "add_LR": 0.0075,
+    "idf_pooled": 5.7858,
+    "per10k_FR": 205.009,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0123,
+    "co_one": 2427.0,
+    "co_two": 29.0,
+    "co_share_lift": 1.1754,
+    "co_contrast": 7.0,
+    "co_null_contrast": 19.0,
+    "co_nd_one": 7.0,
+    "co_core_swap": 52.0,
+    "lo_drop_rate": 0.8658,
+    "lo_add_per_pair": 0.0073,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "saint",
+    "role": "B",
+    "legal": false,
+    "occ": 12301,
+    "drop_rate": 0.1232,
+    "add_per_pair": 0.0,
+    "add_LR": 0.0009,
+    "idf_pooled": 5.608,
+    "per10k_FR": 216.2635,
+    "per10k_US": 10.7524,
+    "per10k_IN": 0.3827,
+    "co_one": 2370.0,
+    "co_two": 78.0,
+    "co_share_lift": 0.9912,
+    "co_contrast": 0.0,
+    "co_null_contrast": 0.0,
+    "co_nd_one": 0.0,
+    "co_core_swap": 0.0,
+    "lo_drop_rate": 0.4972,
+    "lo_add_per_pair": 0.0,
+    "US_drop": 0.1016,
+    "US_add_per_pair": 0.0,
+    "IN_drop": 0.3333,
+    "IN_add_per_pair": 0.0
+   },
+   {
+    "tok": "ets",
+    "role": "B",
+    "legal": false,
+    "occ": 12184,
+    "drop_rate": 0.0762,
+    "add_per_pair": 0.0,
+    "add_LR": 0.0001,
+    "idf_pooled": 5.786,
+    "per10k_FR": 204.5465,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.1482,
+    "co_one": 2368.0,
+    "co_two": 22.0,
+    "co_share_lift": 0.7059,
+    "co_contrast": 1.0,
+    "co_null_contrast": 1.0,
+    "co_nd_one": 1.0,
+    "co_core_swap": 1.0,
+    "lo_drop_rate": 0.3282,
+    "lo_add_per_pair": 0.0001,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": 0.1,
+    "IN_add_per_pair": 0.0
+   },
+   {
+    "tok": "nantes",
+    "role": "B",
+    "legal": false,
+    "occ": 8846,
+    "drop_rate": 0.0876,
+    "add_per_pair": 0.0,
+    "add_LR": 0.0,
+    "idf_pooled": 5.961,
+    "per10k_FR": 172.0935,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 2329.0,
+    "co_two": 179.0,
+    "co_share_lift": 0.9278,
+    "co_contrast": 13.0,
+    "co_null_contrast": 12.0,
+    "co_nd_one": 13.0,
+    "co_core_swap": 39.0,
+    "lo_drop_rate": 0.402,
+    "lo_add_per_pair": 0.0,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "lycee",
+    "role": "B",
+    "legal": false,
+    "occ": 11875,
+    "drop_rate": 0.1178,
+    "add_per_pair": 0.0001,
+    "add_LR": 0.0056,
+    "idf_pooled": 5.8286,
+    "per10k_FR": 196.4525,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 2230.0,
+    "co_two": 19.0,
+    "co_share_lift": 0.6426,
+    "co_contrast": 2.0,
+    "co_null_contrast": 4.0,
+    "co_nd_one": 2.0,
+    "co_core_swap": 17.0,
+    "lo_drop_rate": 0.6047,
+    "lo_add_per_pair": 0.0045,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "bordeaux",
+    "role": "B",
+    "legal": false,
+    "occ": 10303,
+    "drop_rate": 0.0848,
+    "add_per_pair": 0.0,
+    "add_LR": 0.0,
+    "idf_pooled": 5.8138,
+    "per10k_FR": 199.2276,
+    "per10k_US": 0.0603,
+    "per10k_IN": 0.0,
+    "co_one": 2116.0,
+    "co_two": 119.0,
+    "co_share_lift": 0.8987,
+    "co_contrast": 11.0,
+    "co_null_contrast": 10.0,
+    "co_nd_one": 11.0,
+    "co_core_swap": 34.0,
+    "lo_drop_rate": 0.3272,
+    "lo_add_per_pair": 0.0,
+    "US_drop": 0.0,
+    "US_add_per_pair": 0.0,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "institut",
+    "role": "B",
+    "legal": false,
+    "occ": 8614,
+    "drop_rate": 0.1086,
+    "add_per_pair": 0.0,
+    "add_LR": 0.0012,
+    "idf_pooled": 6.1256,
+    "per10k_FR": 145.9615,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 2008.0,
+    "co_two": 16.0,
+    "co_share_lift": 0.7393,
+    "co_contrast": 0.0,
+    "co_null_contrast": 5.0,
+    "co_nd_one": 0.0,
+    "co_core_swap": 13.0,
+    "lo_drop_rate": 0.4814,
+    "lo_add_per_pair": 0.0018,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "la",
+    "role": "B",
+    "legal": false,
+    "occ": 11616,
+    "drop_rate": 0.0853,
+    "add_per_pair": 0.0,
+    "add_LR": 0.0007,
+    "idf_pooled": 5.7115,
+    "per10k_FR": 207.3216,
+    "per10k_US": 1.7795,
+    "per10k_IN": 2.8766,
+    "co_one": 1940.0,
+    "co_two": 54.0,
+    "co_share_lift": 0.7479,
+    "co_contrast": 0.0,
+    "co_null_contrast": 0.0,
+    "co_nd_one": 0.0,
+    "co_core_swap": 0.0,
+    "lo_drop_rate": 0.3191,
+    "lo_add_per_pair": 0.0008,
+    "US_drop": 0.0805,
+    "US_add_per_pair": 0.0,
+    "IN_drop": 0.1368,
+    "IN_add_per_pair": 0.0
+   },
+   {
+    "tok": "sainte",
+    "role": "B",
+    "legal": false,
+    "occ": 9101,
+    "drop_rate": 0.1037,
+    "add_per_pair": 0.0,
+    "add_LR": 0.0,
+    "idf_pooled": 6.0267,
+    "per10k_FR": 161.1473,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 1914.0,
+    "co_two": 15.0,
+    "co_share_lift": 0.8649,
+    "co_contrast": 3.0,
+    "co_null_contrast": 2.0,
+    "co_nd_one": 3.0,
+    "co_core_swap": 3.0,
+    "lo_drop_rate": 0.4853,
+    "lo_add_per_pair": 0.0,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "anciens",
+    "role": "B",
+    "legal": false,
+    "occ": 8345,
+    "drop_rate": 0.1568,
+    "add_per_pair": 0.0,
+    "add_LR": 0.0035,
+    "idf_pooled": 6.1874,
+    "per10k_FR": 137.2123,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 1736.0,
+    "co_two": 16.0,
+    "co_share_lift": 0.917,
+    "co_contrast": 7.0,
+    "co_null_contrast": 20.0,
+    "co_nd_one": 7.0,
+    "co_core_swap": 29.0,
+    "lo_drop_rate": 0.8438,
+    "lo_add_per_pair": 0.0044,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "association",
+    "role": "B",
+    "legal": false,
+    "occ": 8879,
+    "drop_rate": 0.0852,
+    "add_per_pair": 0.0001,
+    "add_LR": 0.0072,
+    "idf_pooled": 5.471,
+    "per10k_FR": 154.4794,
+    "per10k_US": 42.6025,
+    "per10k_IN": 5.6174,
+    "co_one": 1700.0,
+    "co_two": 14.0,
+    "co_share_lift": 1.0403,
+    "co_contrast": 0.0,
+    "co_null_contrast": 0.0,
+    "co_nd_one": 0.0,
+    "co_core_swap": 0.0,
+    "lo_drop_rate": 0.2772,
+    "lo_add_per_pair": 0.0,
+    "US_drop": 0.2258,
+    "US_add_per_pair": 0.0004,
+    "IN_drop": 0.16,
+    "IN_add_per_pair": 0.0
+   },
+   {
+    "tok": "loisirs",
+    "role": "B",
+    "legal": false,
+    "occ": 8084,
+    "drop_rate": 0.148,
+    "add_per_pair": 0.0001,
+    "add_LR": 0.0044,
+    "idf_pooled": 6.2139,
+    "per10k_FR": 133.6278,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 1367.0,
+    "co_two": 5.0,
+    "co_share_lift": 0.7174,
+    "co_contrast": 5.0,
+    "co_null_contrast": 8.0,
+    "co_nd_one": 5.0,
+    "co_core_swap": 35.0,
+    "lo_drop_rate": 0.8697,
+    "lo_add_per_pair": 0.0041,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "groupement",
+    "role": "B",
+    "legal": false,
+    "occ": 6328,
+    "drop_rate": 0.1407,
+    "add_per_pair": 0.0,
+    "add_LR": 0.0013,
+    "idf_pooled": 6.4551,
+    "per10k_FR": 104.9905,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 1350.0,
+    "co_two": 11.0,
+    "co_share_lift": 2.0513,
+    "co_contrast": 5.0,
+    "co_null_contrast": 5.0,
+    "co_nd_one": 5.0,
+    "co_core_swap": 26.0,
+    "lo_drop_rate": 0.8396,
+    "lo_add_per_pair": 0.0005,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "jeunes",
+    "role": "B",
+    "legal": false,
+    "occ": 6326,
+    "drop_rate": 0.1493,
+    "add_per_pair": 0.0,
+    "add_LR": 0.0014,
+    "idf_pooled": 6.4499,
+    "per10k_FR": 105.5301,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 1330.0,
+    "co_two": 2.0,
+    "co_share_lift": 0.4718,
+    "co_contrast": 4.0,
+    "co_null_contrast": 4.0,
+    "co_nd_one": 4.0,
+    "co_core_swap": 27.0,
+    "lo_drop_rate": 0.8973,
+    "lo_add_per_pair": 0.0018,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   }
+  ],
+  "top_M": [
+   {
+    "tok": "comite",
+    "role": "M",
+    "legal": false,
+    "occ": 32128,
+    "drop_rate": 0.1351,
+    "add_per_pair": 0.0011,
+    "add_LR": 0.0214,
+    "idf_pooled": 4.8303,
+    "per10k_FR": 533.1237,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 5967.0,
+    "co_two": 150.0,
+    "co_share_lift": 0.9402,
+    "co_contrast": 16.0,
+    "co_null_contrast": 20.0,
+    "co_nd_one": 16.0,
+    "co_core_swap": 98.0,
+    "lo_drop_rate": 0.6194,
+    "lo_add_per_pair": 0.0157,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "centre",
+    "role": "M",
+    "legal": false,
+    "occ": 23863,
+    "drop_rate": 0.1236,
+    "add_per_pair": 0.0007,
+    "add_LR": 0.0181,
+    "idf_pooled": 4.8305,
+    "per10k_FR": 405.3929,
+    "per10k_US": 0.0603,
+    "per10k_IN": 40.8279,
+    "co_one": 4727.0,
+    "co_two": 97.0,
+    "co_share_lift": 1.0584,
+    "co_contrast": 23.0,
+    "co_null_contrast": 18.0,
+    "co_nd_one": 23.0,
+    "co_core_swap": 71.0,
+    "lo_drop_rate": 0.6579,
+    "lo_add_per_pair": 0.0097,
+    "US_drop": 0.3333,
+    "US_add_per_pair": 0.0003,
+    "IN_drop": 0.2275,
+    "IN_add_per_pair": 0.0
+   },
+   {
+    "tok": "amis",
+    "role": "M",
+    "legal": false,
+    "occ": 16509,
+    "drop_rate": 0.162,
+    "add_per_pair": 0.0007,
+    "add_LR": 0.0251,
+    "idf_pooled": 5.522,
+    "per10k_FR": 266.5233,
+    "per10k_US": 0.0754,
+    "per10k_IN": 0.0741,
+    "co_one": 3149.0,
+    "co_two": 44.0,
+    "co_share_lift": 0.8977,
+    "co_contrast": 12.0,
+    "co_null_contrast": 25.0,
+    "co_nd_one": 12.0,
+    "co_core_swap": 67.0,
+    "lo_drop_rate": 0.8441,
+    "lo_add_per_pair": 0.0111,
+    "US_drop": 0.2,
+    "US_add_per_pair": 0.0,
+    "IN_drop": 0.0,
+    "IN_add_per_pair": 0.0
+   },
+   {
+    "tok": "federation",
+    "role": "M",
+    "legal": false,
+    "occ": 15232,
+    "drop_rate": 0.1133,
+    "add_per_pair": 0.0003,
+    "add_LR": 0.0115,
+    "idf_pooled": 5.2973,
+    "per10k_FR": 257.0803,
+    "per10k_US": 28.3816,
+    "per10k_IN": 1.4692,
+    "co_one": 2922.0,
+    "co_two": 30.0,
+    "co_share_lift": 0.7297,
+    "co_contrast": 5.0,
+    "co_null_contrast": 8.0,
+    "co_nd_one": 5.0,
+    "co_core_swap": 37.0,
+    "lo_drop_rate": 0.4279,
+    "lo_add_per_pair": 0.0048,
+    "US_drop": 0.2392,
+    "US_add_per_pair": 0.0004,
+    "IN_drop": 0.1136,
+    "IN_add_per_pair": 0.0
+   },
+   {
+    "tok": "sante",
+    "role": "M",
+    "legal": false,
+    "occ": 13027,
+    "drop_rate": 0.1343,
+    "add_per_pair": 0.0002,
+    "add_LR": 0.0113,
+    "idf_pooled": 5.729,
+    "per10k_FR": 216.726,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0988,
+    "co_one": 2598.0,
+    "co_two": 23.0,
+    "co_share_lift": 0.7004,
+    "co_contrast": 9.0,
+    "co_null_contrast": 6.0,
+    "co_nd_one": 9.0,
+    "co_core_swap": 40.0,
+    "lo_drop_rate": 0.8279,
+    "lo_add_per_pair": 0.0045,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": 0.0,
+    "IN_add_per_pair": 0.0
+   },
+   {
+    "tok": "societe",
+    "role": "M",
+    "legal": false,
+    "occ": 9982,
+    "drop_rate": 0.1695,
+    "add_per_pair": 0.0007,
+    "add_LR": 0.0445,
+    "idf_pooled": 6.0501,
+    "per10k_FR": 157.4087,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 1896.0,
+    "co_two": 15.0,
+    "co_share_lift": 1.1013,
+    "co_contrast": 10.0,
+    "co_null_contrast": 11.0,
+    "co_nd_one": 10.0,
+    "co_core_swap": 42.0,
+    "lo_drop_rate": 0.8491,
+    "lo_add_per_pair": 0.0057,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "fetes",
+    "role": "M",
+    "legal": false,
+    "occ": 9258,
+    "drop_rate": 0.161,
+    "add_per_pair": 0.0005,
+    "add_LR": 0.0323,
+    "idf_pooled": 6.1099,
+    "per10k_FR": 148.2741,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 1615.0,
+    "co_two": 12.0,
+    "co_share_lift": 0.9475,
+    "co_contrast": 8.0,
+    "co_null_contrast": 4.0,
+    "co_nd_one": 8.0,
+    "co_core_swap": 34.0,
+    "lo_drop_rate": 0.8308,
+    "lo_add_per_pair": 0.0059,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "ehpad",
+    "role": "M",
+    "legal": false,
+    "occ": 7955,
+    "drop_rate": 0.0963,
+    "add_per_pair": 0.0002,
+    "add_LR": 0.0123,
+    "idf_pooled": 6.2128,
+    "per10k_FR": 133.782,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 1470.0,
+    "co_two": 10.0,
+    "co_share_lift": 1.3404,
+    "co_contrast": 1.0,
+    "co_null_contrast": 1.0,
+    "co_nd_one": 1.0,
+    "co_core_swap": 7.0,
+    "lo_drop_rate": 0.4133,
+    "lo_add_per_pair": 0.0014,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "section",
+    "role": "M",
+    "legal": false,
+    "occ": 5402,
+    "drop_rate": 0.17,
+    "add_per_pair": 0.0003,
+    "add_LR": 0.0348,
+    "idf_pooled": 6.6852,
+    "per10k_FR": 83.4066,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 1144.0,
+    "co_two": 6.0,
+    "co_share_lift": 0.7938,
+    "co_contrast": 4.0,
+    "co_null_contrast": 8.0,
+    "co_nd_one": 4.0,
+    "co_core_swap": 22.0,
+    "lo_drop_rate": 0.8212,
+    "lo_add_per_pair": 0.0044,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "groupe",
+    "role": "M",
+    "legal": false,
+    "occ": 5058,
+    "drop_rate": 0.1474,
+    "add_per_pair": 0.0001,
+    "add_LR": 0.0153,
+    "idf_pooled": 6.7286,
+    "per10k_FR": 79.8606,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 1025.0,
+    "co_two": 6.0,
+    "co_share_lift": 1.7536,
+    "co_contrast": 7.0,
+    "co_null_contrast": 9.0,
+    "co_nd_one": 7.0,
+    "co_core_swap": 31.0,
+    "lo_drop_rate": 0.766,
+    "lo_add_per_pair": 0.0018,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": NaN
+   },
+   {
+    "tok": "hopital",
+    "role": "M",
+    "legal": false,
+    "occ": 706,
+    "drop_rate": 0.1735,
+    "add_per_pair": 0.0,
+    "add_LR": 0.03,
+    "idf_pooled": 8.6935,
+    "per10k_FR": 11.1774,
+    "per10k_US": 0.0,
+    "per10k_IN": 0.0,
+    "co_one": 186.0,
+    "co_two": 0.0,
+    "co_share_lift": NaN,
+    "co_contrast": 2.0,
+    "co_null_contrast": 1.0,
+    "co_nd_one": 2.0,
+    "co_core_swap": 4.0,
+    "lo_drop_rate": 0.806,
+    "lo_add_per_pair": 0.0003,
+    "US_drop": NaN,
+    "US_add_per_pair": NaN,
+    "IN_drop": NaN,
+    "IN_add_per_pair": 0.0
+   },
+   {
+    "tok": "te",
+    "role": "M",
+    "legal": false,
+    "occ": 369,
+    "drop_rate": 0.0922,
+    "add_per_pair": 0.0,
+    "add_LR": 0.014,
+    "idf_pooled": 8.9692,
+    "per10k_FR": 5.9741,
+    "per10k_US": 0.377,
+    "per10k_IN": 0.4938,
+    "co_one": 87.0,
+    "co_two": 0.0,
+    "co_share_lift": NaN,
+    "co_contrast": 1.0,
+    "co_null_contrast": 0.0,
+    "co_nd_one": 1.0,
+    "co_core_swap": 2.0,
+    "lo_drop_rate": 0.1818,
+    "lo_add_per_pair": 0.0002,
+    "US_drop": 0.1053,
+    "US_add_per_pair": 0.0,
+    "IN_drop": 0.0667,
+    "IN_add_per_pair": 0.0
+   }
+  ]
+ },
+ "part2_france_accepted_role_volume": {
+  "HI_n": 767118,
+  "HI_rec_only_all_A": 61629,
+  "LO_n": 87278,
+  "LO_rec_only_all_A": 30606,
+  "HI_rec_only_B": 1825,
+  "HI_B_for_B_swap": 996,
+  "LO_rec_only_B": 8921,
+  "LO_B_for_B_swap": 5358
+ },
+ "part2_substitution_kinds": {
+  "France_HI_subst_kind_share(top3000 pairs)": {
+   "content": 0.1718,
+   "generic": 0.6441,
+   "rare": 0.1841
+  },
+  "France_HI_subst_kind_n": {
+   "content": 3859,
+   "generic": 14467,
+   "rare": 4135
+  },
+  "France_HI_top_content_subst": [
+   [
+    "club",
+    "comite",
+    142
+   ],
+   [
+    "club",
+    "centre",
+    87
+   ],
+   [
+    "amicale",
+    "amis",
+    70
+   ],
+   [
+    "groupement",
+    "groupe",
+    64
+   ],
+   [
+    "club",
+    "societe",
+    57
+   ],
+   [
+    "amis",
+    "amicale",
+    47
+   ],
+   [
+    "amicale",
+    "comite",
+    47
+   ],
+   [
+    "comite",
+    "centre",
+    40
+   ],
+   [
+    "college",
+    "ecole",
+    37
+   ],
+   [
+    "compagnie",
+    "comite",
+    33
+   ],
+   [
+    "centre",
+    "comite",
+    32
+   ],
+   [
+    "amicale",
+    "centre",
+    31
+   ],
+   [
+    "club",
+    "fetes",
+    30
+   ],
+   [
+    "centre",
+    "club",
+    30
+   ],
+   [
+    "college",
+    "club",
+    29
+   ],
+   [
+    "comite",
+    "societe",
+    29
+   ],
+   [
+    "sportive",
+    "societe",
+    28
+   ],
+   [
+    "college",
+    "comite",
+    27
+   ],
+   [
+    "ecole",
+    "comite",
+    26
+   ],
+   [
+    "anciens",
+    "amis",
+    26
+   ],
+   [
+    "comite",
+    "club",
+    26
+   ],
+   [
+    "club",
+    "section",
+    25
+   ],
+   [
+    "parents",
+    "amis",
+    25
+   ],
+   [
+    "section",
+    "comite",
+    24
+   ],
+   [
+    "sportive",
+    "amis",
+    24
+   ]
+  ],
+  "France_LO_subst_kind_share(top3000 pairs)": {
+   "content": 0.5491,
+   "generic": 0.4022,
+   "rare": 0.0487
+  },
+  "France_LO_subst_kind_n": {
+   "content": 9497,
+   "generic": 6956,
+   "rare": 843
+  },
+  "France_LO_top_content_subst": [
+   [
+    "club",
+    "amicale",
+    129
+   ],
+   [
+    "club",
+    "france",
+    129
+   ],
+   [
+    "comite",
+    "club",
+    92
+   ],
+   [
+    "sportive",
+    "club",
+    82
+   ],
+   [
+    "club",
+    "amis",
+    82
+   ],
+   [
+    "club",
+    "ecole",
+    77
+   ],
+   [
+    "ecole",
+    "club",
+    72
+   ],
+   [
+    "club",
+    "comite",
+    71
+   ],
+   [
+    "centre",
+    "club",
+    64
+   ],
+   [
+    "amicale",
+    "club",
+    63
+   ],
+   [
+    "sante",
+    "france",
+    57
+   ],
+   [
+    "comite",
+    "amicale",
+    55
+   ],
+   [
+    "sportive",
+    "france",
+    50
+   ],
+   [
+    "ecole",
+    "comite",
+    50
+   ],
+   [
+    "sportive",
+    "amicale",
+    50
+   ],
+   [
+    "club",
+    "parents",
+    50
+   ],
+   [
+    "amicale",
+    "comite",
+    50
+   ],
+   [
+    "amis",
+    "club",
+    49
+   ],
+   [
+    "ecole",
+    "amis",
+    46
+   ],
+   [
+    "primaire",
+    "france",
+    46
+   ],
+   [
+    "club",
+    "centre",
+    45
+   ],
+   [
+    "college",
+    "club",
+    45
+   ],
+   [
+    "parents",
+    "france",
+    45
+   ],
+   [
+    "maison",
+    "france",
+    43
+   ],
+   [
+    "ecole",
+    "france",
+    43
+   ]
+  ],
+  "US_HI_subst_kind_share(top3000 pairs)": {
+   "content": 0.0021,
+   "generic": 0.9555,
+   "rare": 0.0424
+  },
+  "US_HI_subst_kind_n": {
+   "content": 58,
+   "generic": 26090,
+   "rare": 1157
+  },
+  "US_HI_top_content_subst": [
+   [
+    "b",
+    "8",
+    10
+   ],
+   [
+    "center",
+    "and",
+    8
+   ],
+   [
+    "g",
+    "6",
+    8
+   ],
+   [
+    "associates",
+    "and",
+    7
+   ],
+   [
+    "5",
+    "five",
+    7
+   ],
+   [
+    "4",
+    "four",
+    5
+   ],
+   [
+    "motors",
+    "auto",
+    5
+   ],
+   [
+    "partners",
+    "and",
+    4
+   ],
+   [
+    "health",
+    "and",
+    4
+   ]
+  ],
+  "US_LO_subst_kind_share(top3000 pairs)": {
+   "content": 0.0249,
+   "generic": 0.1762,
+   "rare": 0.7989
+  },
+  "US_LO_subst_kind_n": {
+   "content": 71,
+   "generic": 502,
+   "rare": 2276
+  },
+  "US_LO_top_content_subst": [
+   [
+    "b",
+    "8",
+    9
+   ],
+   [
+    "g",
+    "6",
+    5
+   ],
+   [
+    "associates",
+    "and",
+    2
+   ],
+   [
+    "summit",
+    "st",
+    2
+   ],
+   [
+    "pavla",
+    "p",
+    2
+   ],
+   [
+    "christean",
+    "c",
+    1
+   ],
+   [
+    "first",
+    "fifth",
+    1
+   ],
+   [
+    "lettie",
+    "l",
+    1
+   ],
+   [
+    "maid",
+    "md",
+    1
+   ],
+   [
+    "jerde",
+    "lee",
+    1
+   ],
+   [
+    "first",
+    "third",
+    1
+   ],
+   [
+    "2",
+    "two",
+    1
+   ],
+   [
+    "green",
+    "gen",
+    1
+   ],
+   [
+    "market",
+    "malt",
+    1
+   ],
+   [
+    "odelle",
+    "o",
+    1
+   ],
+   [
+    "lindie",
+    "l",
+    1
+   ],
+   [
+    "crystal",
+    "cola",
+    1
+   ],
+   [
+    "obrien",
+    "on",
+    1
+   ],
+   [
+    "cari",
+    "c",
+    1
+   ],
+   [
+    "cody",
+    "c",
+    1
+   ],
+   [
+    "chanda",
+    "c",
+    1
+   ],
+   [
+    "verla",
+    "v",
+    1
+   ],
+   [
+    "grazia",
+    "g",
+    1
+   ],
+   [
+    "charles",
+    "jackson",
+    1
+   ],
+   [
+    "warren",
+    "nguyen",
+    1
+   ]
+  ],
+  "US_trainGT_subst_kind_n": {
+   "content": 62,
+   "generic": 17480,
+   "rare": 914
+  },
+  "US_trainGT_top_content_subst": [
+   [
+    "systems",
+    "technologies",
+    6
+   ],
+   [
+    "b",
+    "8",
+    6
+   ],
+   [
+    "4",
+    "four",
+    6
+   ],
+   [
+    "specialists",
+    "and",
+    5
+   ],
+   [
+    "g",
+    "6",
+    5
+   ],
+   [
+    "associates",
+    "and",
+    4
+   ],
+   [
+    "physicians",
+    "and",
+    4
+   ],
+   [
+    "2",
+    "two",
+    4
+   ],
+   [
+    "care",
+    "and",
+    4
+   ],
+   [
+    "clinic",
+    "and",
+    4
+   ],
+   [
+    "smith",
+    "st",
+    3
+   ],
+   [
+    "5",
+    "five",
+    3
+   ],
+   [
+    "wellness",
+    "and",
+    2
+   ],
+   [
+    "nose",
+    "no",
+    2
+   ],
+   [
+    "one",
+    "1",
+    2
+   ],
+   [
+    "tactical",
+    "and",
+    2
+   ]
+  ],
+  "India_HI_subst_kind_share(top3000 pairs)": {
+   "content": 0.0028,
+   "generic": 0.8514,
+   "rare": 0.1457
+  },
+  "India_HI_subst_kind_n": {
+   "content": 38,
+   "generic": 11417,
+   "rare": 1954
+  },
+  "India_HI_top_content_subst": [
+   [
+    "sons",
+    "ss",
+    27
+   ],
+   [
+    "center",
+    "centre",
+    11
+   ]
+  ],
+  "India_LO_subst_kind_share(top3000 pairs)": {
+   "content": 0.0033,
+   "generic": 0.4126,
+   "rare": 0.584
+  },
+  "India_LO_subst_kind_n": {
+   "content": 4,
+   "generic": 496,
+   "rare": 702
+  },
+  "India_LO_top_content_subst": [
+   [
+    "swati",
+    "sai",
+    1
+   ],
+   [
+    "engineering",
+    "energy",
+    1
+   ],
+   [
+    "sons",
+    "ss",
+    1
+   ],
+   [
+    "college",
+    "centre",
+    1
+   ]
+  ],
+  "India_trainGT_subst_kind_n": {
+   "content": 20,
+   "generic": 5227,
+   "rare": 1948
+  },
+  "India_trainGT_top_content_subst": [
+   [
+    "sons",
+    "ss",
+    19
+   ],
+   [
+    "samiti",
+    "sai",
+    1
+   ]
+  ],
+  "US_V1_accepted_core_sub": {
+   "content": {
+    "n": 24,
+    "fp": 0,
+    "fp_rate": 0.0,
+    "n_street": 17,
+    "fp_rate_street": 0.0
+   },
+   "generic": {
+    "n": 2380,
+    "fp": 8,
+    "fp_rate": 0.0034,
+    "n_street": 1617,
+    "fp_rate_street": 0.0019
+   },
+   "rare": {
+    "n": 3267,
+    "fp": 9,
+    "fp_rate": 0.0028,
+    "n_street": 2189,
+    "fp_rate_street": 0.0018
+   }
+  },
+  "US_V1_pool(p>=0.3)_core_sub_street_P(match)": {
+   "content": {
+    "n": 17,
+    "p_match": 1.0,
+    "mean_p": 0.9966
+   },
+   "generic": {
+    "n": 1620,
+    "p_match": 0.9981,
+    "mean_p": 0.9982
+   },
+   "rare": {
+    "n": 2209,
+    "p_match": 0.995,
+    "mean_p": 0.9938
+   }
+  },
+  "India_V1_accepted_core_sub": {
+   "content": {
+    "n": 4,
+    "fp": 0,
+    "fp_rate": 0.0,
+    "n_street": 2,
+    "fp_rate_street": 0.0
+   },
+   "generic": {
+    "n": 1492,
+    "fp": 8,
+    "fp_rate": 0.0054,
+    "n_street": 464,
+    "fp_rate_street": 0.0022
+   },
+   "rare": {
+    "n": 1443,
+    "fp": 6,
+    "fp_rate": 0.0042,
+    "n_street": 405,
+    "fp_rate_street": 0.0
+   }
+  },
+  "India_V1_pool(p>=0.3)_core_sub_street_P(match)": {
+   "content": {
+    "n": 2,
+    "p_match": 1.0,
+    "mean_p": 0.9997
+   },
+   "generic": {
+    "n": 466,
+    "p_match": 0.9979,
+    "mean_p": 0.9957
+   },
+   "rare": {
+    "n": 409,
+    "p_match": 0.9951,
+    "mean_p": 0.9931
+   }
+  },
+  "France_accepted_volume": {
+   "HI_n": 767118,
+   "HI_sub_generic": 16200,
+   "LO_n": 87278,
+   "HI_drop_content": 13183,
+   "HI_sub_rare": 37295,
+   "LO_add_generic": 3413,
+   "LO_sub_generic": 9298,
+   "LO_sub_rare": 3214,
+   "HI_sub_content": 4931,
+   "HI_sub_content_for_content": 4620,
+   "LO_drop_content": 526,
+   "HI_add_generic": 4851,
+   "LO_sub_content": 12009,
+   "LO_sub_content_for_content": 11292,
+   "HI_drop_generic": 2192,
+   "HI_add_content": 775,
+   "HI_add_rare": 1262,
+   "LO_add_content": 1118,
+   "HI_drop_rare": 377,
+   "LO_drop_rare": 142,
+   "LO_add_rare": 135,
+   "LO_drop_generic": 50
+  }
+ },
+ "part2_substitution_pair_lift": {
+  "HI": {
+   "N_content_subs_in_top3000": 3627,
+   "frac_on_pairs_lift_gt3": 0.2164,
+   "weighted_mean_log2_lift": 0.944,
+   "top": [
+    [
+     "club",
+     "comite",
+     142,
+     1.77
+    ],
+    [
+     "club",
+     "centre",
+     87,
+     1.67
+    ],
+    [
+     "amicale",
+     "amis",
+     70,
+     3.01
+    ],
+    [
+     "groupement",
+     "groupe",
+     64,
+     30.48
+    ],
+    [
+     "club",
+     "societe",
+     57,
+     1.16
+    ],
+    [
+     "amicale",
+     "comite",
+     47,
+     1.23
+    ],
+    [
+     "amis",
+     "amicale",
+     47,
+     6.66
+    ],
+    [
+     "comite",
+     "centre",
+     40,
+     1.76
+    ],
+    [
+     "college",
+     "ecole",
+     37,
+     16.97
+    ],
+    [
+     "centre",
+     "comite",
+     32,
+     1.4
+    ],
+    [
+     "amicale",
+     "centre",
+     31,
+     1.24
+    ],
+    [
+     "centre",
+     "club",
+     30,
+     2.68
+    ],
+    [
+     "club",
+     "fetes",
+     30,
+     0.88
+    ],
+    [
+     "comite",
+     "societe",
+     29,
+     1.36
+    ],
+    [
+     "college",
+     "club",
+     29,
+     2.63
+    ],
+    [
+     "sportive",
+     "societe",
+     28,
+     1.2
+    ],
+    [
+     "college",
+     "comite",
+     27,
+     1.2
+    ],
+    [
+     "anciens",
+     "amis",
+     26,
+     2.62
+    ],
+    [
+     "ecole",
+     "comite",
+     26,
+     1.17
+    ],
+    [
+     "comite",
+     "club",
+     26,
+     1.52
+    ],
+    [
+     "club",
+     "section",
+     25,
+     1.25
+    ],
+    [
+     "parents",
+     "amis",
+     25,
+     1.6
+    ],
+    [
+     "section",
+     "comite",
+     24,
+     2.04
+    ],
+    [
+     "sportive",
+     "amis",
+     24,
+     1.04
+    ],
+    [
+     "club",
+     "college",
+     22,
+     2.94
+    ]
+   ],
+   "top_by_lift_n_ge_15": [
+    [
+     "sport",
+     "sportive",
+     21,
+     32.15
+    ],
+    [
+     "groupement",
+     "groupe",
+     64,
+     30.48
+    ],
+    [
+     "college",
+     "ecole",
+     37,
+     16.97
+    ],
+    [
+     "sportive",
+     "sport",
+     19,
+     16.05
+    ],
+    [
+     "fetes",
+     "parents",
+     17,
+     9.17
+    ],
+    [
+     "sportive",
+     "loisirs",
+     16,
+     8.56
+    ],
+    [
+     "amis",
+     "amicale",
+     47,
+     6.66
+    ],
+    [
+     "maison",
+     "amicale",
+     19,
+     3.92
+    ],
+    [
+     "sportive",
+     "parents",
+     20,
+     3.91
+    ],
+    [
+     "jeunes",
+     "amis",
+     21,
+     3.8
+    ],
+    [
+     "amicale",
+     "amis",
+     70,
+     3.01
+    ],
+    [
+     "club",
+     "college",
+     22,
+     2.94
+    ],
+    [
+     "sportive",
+     "sante",
+     22,
+     2.76
+    ],
+    [
+     "centre",
+     "club",
+     30,
+     2.68
+    ],
+    [
+     "college",
+     "club",
+     29,
+     2.63
+    ]
+   ]
+  },
+  "LO": {
+   "N_content_subs_in_top3000": 8974,
+   "frac_on_pairs_lift_gt3": 0.0842,
+   "weighted_mean_log2_lift": 0.453,
+   "top": [
+    [
+     "club",
+     "amicale",
+     129,
+     1.63
+    ],
+    [
+     "club",
+     "france",
+     129,
+     1.02
+    ],
+    [
+     "comite",
+     "club",
+     92,
+     1.57
+    ],
+    [
+     "sportive",
+     "club",
+     82,
+     1.36
+    ],
+    [
+     "club",
+     "amis",
+     82,
+     1.41
+    ],
+    [
+     "club",
+     "ecole",
+     77,
+     1.7
+    ],
+    [
+     "ecole",
+     "club",
+     72,
+     1.1
+    ],
+    [
+     "club",
+     "comite",
+     71,
+     0.85
+    ],
+    [
+     "centre",
+     "club",
+     64,
+     1.5
+    ],
+    [
+     "amicale",
+     "club",
+     63,
+     0.98
+    ],
+    [
+     "sante",
+     "france",
+     57,
+     2.01
+    ],
+    [
+     "comite",
+     "amicale",
+     55,
+     1.52
+    ],
+    [
+     "sportive",
+     "france",
+     50,
+     0.84
+    ],
+    [
+     "amicale",
+     "comite",
+     50,
+     1.19
+    ],
+    [
+     "sportive",
+     "amicale",
+     50,
+     1.35
+    ],
+    [
+     "club",
+     "parents",
+     50,
+     1.27
+    ],
+    [
+     "ecole",
+     "comite",
+     50,
+     1.17
+    ],
+    [
+     "amis",
+     "club",
+     49,
+     1.05
+    ],
+    [
+     "primaire",
+     "france",
+     46,
+     1.46
+    ],
+    [
+     "ecole",
+     "amis",
+     46,
+     1.54
+    ],
+    [
+     "club",
+     "centre",
+     45,
+     0.91
+    ],
+    [
+     "parents",
+     "france",
+     45,
+     1.32
+    ],
+    [
+     "college",
+     "club",
+     45,
+     1.34
+    ],
+    [
+     "ecole",
+     "france",
+     43,
+     0.66
+    ],
+    [
+     "maison",
+     "france",
+     43,
+     1.59
+    ]
+   ],
+   "top_by_lift_n_ge_15": [
+    [
+     "loisirs",
+     "sportive",
+     15,
+     8.99
+    ],
+    [
+     "freres",
+     "france",
+     32,
+     8.07
+    ],
+    [
+     "saint",
+     "france",
+     22,
+     8.07
+    ],
+    [
+     "societe",
+     "sportive",
+     17,
+     8.05
+    ],
+    [
+     "sainte",
+     "france",
+     31,
+     7.58
+    ],
+    [
+     "amicale",
+     "maison",
+     23,
+     3.77
+    ],
+    [
+     "ecole",
+     "elementaire",
+     18,
+     3.68
+    ],
+    [
+     "sportive",
+     "primaire",
+     20,
+     3.14
+    ],
+    [
+     "club",
+     "groupe",
+     17,
+     2.98
+    ],
+    [
+     "lycee",
+     "comite",
+     31,
+     2.92
+    ],
+    [
+     "club",
+     "collectif",
+     24,
+     2.88
+    ],
+    [
+     "musique",
+     "amicale",
+     15,
+     2.77
+    ],
+    [
+     "amicale",
+     "maternelle",
+     17,
+     2.74
+    ],
+    [
+     "college",
+     "ecole",
+     32,
+     2.69
+    ],
+    [
+     "sport",
+     "parents",
+     15,
+     2.65
+    ]
+   ]
+  },
+  "COLOC_S1_swaps": {
+   "N": 412,
+   "frac_on_pairs_lift_gt3": 0.665,
+   "weighted_mean_log2_lift": 3.065
+  },
+  "HI_direction": [
+   [
+    "club",
+    "comite",
+    142,
+    26
+   ],
+   [
+    "club",
+    "centre",
+    87,
+    30
+   ],
+   [
+    "amicale",
+    "amis",
+    70,
+    47
+   ],
+   [
+    "groupement",
+    "groupe",
+    64,
+    8
+   ],
+   [
+    "club",
+    "societe",
+    57,
+    12
+   ],
+   [
+    "amicale",
+    "comite",
+    47,
+    18
+   ],
+   [
+    "amis",
+    "amicale",
+    47,
+    70
+   ],
+   [
+    "comite",
+    "centre",
+    40,
+    32
+   ],
+   [
+    "college",
+    "ecole",
+    37,
+    9
+   ],
+   [
+    "centre",
+    "comite",
+    32,
+    40
+   ],
+   [
+    "amicale",
+    "centre",
+    31,
+    2
+   ],
+   [
+    "centre",
+    "club",
+    30,
+    87
+   ],
+   [
+    "club",
+    "fetes",
+    30,
+    5
+   ],
+   [
+    "comite",
+    "societe",
+    29,
+    21
+   ],
+   [
+    "college",
+    "club",
+    29,
+    22
+   ]
+  ]
+ },
+ "part2_extra_record_count_test": {
+  "V1_US_calibration": {
+   "n_s1": 12039,
+   "mean_n": 3.459589666915857,
+   "var_n": 2.870511701383384,
+   "pred_noise_sizebiased_minus1": 3.289315726290516,
+   "pred_extra": 3.459589666915857,
+   "TRUE_sub_other": {
+    "n_s1": 1986,
+    "mean_other": 3.0398,
+    "se": 0.0341,
+    "position_0noise_1extra": -1.466
+   },
+   "TRUE_drop_content": {
+    "n_s1": 1026,
+    "mean_other": 3.0117,
+    "se": 0.047,
+    "position_0noise_1extra": -1.63
+   },
+   "TRUE_sub_generic": {
+    "n_s1": 1454,
+    "mean_other": 3.218,
+    "se": 0.0398,
+    "position_0noise_1extra": -0.419
+   },
+   "TRUE_drop_rare": {
+    "n_s1": 302,
+    "mean_other": 3.1424,
+    "se": 0.0892,
+    "position_0noise_1extra": -0.863
+   },
+   "TRUE_add_generic": {
+    "n_s1": 954,
+    "mean_other": 3.0482,
+    "se": 0.0478,
+    "position_0noise_1extra": -1.416
+   },
+   "TRUE_add_rare": {
+    "n_s1": 161,
+    "mean_other": 3.354,
+    "se": 0.1183,
+    "position_0noise_1extra": 0.38
+   },
+   "TRUE_drop_generic": {
+    "n_s1": 99,
+    "mean_other": 2.9596,
+    "se": 0.1442,
+    "position_0noise_1extra": -1.936
+   },
+   "TRUE_add_content": {
+    "n_s1": 35,
+    "mean_other": 3.4571,
+    "se": 0.2534,
+    "position_0noise_1extra": 0.986
+   },
+   "DECOY_y0_sub_other": {
+    "n_s1": 161,
+    "mean_other": 3.236,
+    "se": 0.139,
+    "position_0noise_1extra": -0.313
+   }
+  },
+  "V1_India_calibration": {
+   "n_s1": 7961,
+   "mean_n": 3.482979525185278,
+   "var_n": 2.855161879872203,
+   "pred_noise_sizebiased_minus1": 3.3027264858626664,
+   "pred_extra": 3.482979525185278,
+   "TRUE_sub_other": {
+    "n_s1": 378,
+    "mean_other": 3.1667,
+    "se": 0.0755,
+    "position_0noise_1extra": -0.755
+   },
+   "TRUE_sub_generic": {
+    "n_s1": 395,
+    "mean_other": 3.2127,
+    "se": 0.0774,
+    "position_0noise_1extra": -0.5
+   },
+   "TRUE_add_generic": {
+    "n_s1": 154,
+    "mean_other": 3.1948,
+    "se": 0.1246,
+    "position_0noise_1extra": -0.599
+   },
+   "TRUE_add_rare": {
+    "n_s1": 208,
+    "mean_other": 3.1106,
+    "se": 0.0952,
+    "position_0noise_1extra": -1.066
+   },
+   "TRUE_drop_content": {
+    "n_s1": 170,
+    "mean_other": 3.1706,
+    "se": 0.1107,
+    "position_0noise_1extra": -0.733
+   },
+   "TRUE_drop_rare": {
+    "n_s1": 31,
+    "mean_other": 3.0323,
+    "se": 0.2477,
+    "position_0noise_1extra": -1.5
+   },
+   "DECOY_y0_sub_other": {
+    "n_s1": 126,
+    "mean_other": 3.4286,
+    "se": 0.1377,
+    "position_0noise_1extra": 0.698
+   },
+   "DECOY_y0_add_content": {
+    "n_s1": 290,
+    "mean_other": 3.3931,
+    "se": 0.1089,
+    "position_0noise_1extra": 0.501
+   },
+   "DECOY_y0_sub_content": {
+    "n_s1": 78,
+    "mean_other": 3.1667,
+    "se": 0.1956,
+    "position_0noise_1extra": -0.755
+   },
+   "DECOY_y0_sub_generic": {
+    "n_s1": 34,
+    "mean_other": 3.7941,
+    "se": 0.2875,
+    "position_0noise_1extra": 2.726
+   },
+   "DECOY_y0_add_rare": {
+    "n_s1": 31,
+    "mean_other": 3.9677,
+    "se": 0.3577,
+    "position_0noise_1extra": 3.689
+   }
+  },
+  "TEST_France": {
+   "n_s1": 244988,
+   "mean_n": 3.487501428641403,
+   "var_n": 2.270734604856156,
+   "pred_noise_sizebiased_minus1": 3.1386078586510235,
+   "pred_extra": 3.487501428641403,
+   "HI_nodiff": {
+    "n_s1": 234100,
+    "mean_other": 0.9126,
+    "se": 0.0019,
+    "position_0noise_1extra": -6.38
+   },
+   "HI_sub_generic": {
+    "n_s1": 17964,
+    "mean_other": 3.0581,
+    "se": 0.0112,
+    "position_0noise_1extra": -0.231
+   },
+   "LO_nodiff": {
+    "n_s1": 32046,
+    "mean_other": 2.9463,
+    "se": 0.0086,
+    "position_0noise_1extra": -0.551
+   },
+   "HI_multi": {
+    "n_s1": 62564,
+    "mean_other": 2.9455,
+    "se": 0.0059,
+    "position_0noise_1extra": -0.554
+   },
+   "HI_drop_content": {
+    "n_s1": 12620,
+    "mean_other": 3.1109,
+    "se": 0.0133,
+    "position_0noise_1extra": -0.08
+   },
+   "LO_multi": {
+    "n_s1": 21027,
+    "mean_other": 3.0885,
+    "se": 0.0104,
+    "position_0noise_1extra": -0.144
+   },
+   "HI_sub_other": {
+    "n_s1": 25178,
+    "mean_other": 3.0566,
+    "se": 0.0095,
+    "position_0noise_1extra": -0.235
+   },
+   "LO_add_generic": {
+    "n_s1": 3325,
+    "mean_other": 3.0177,
+    "se": 0.0258,
+    "position_0noise_1extra": -0.346
+   },
+   "LO_sub_generic": {
+    "n_s1": 9433,
+    "mean_other": 3.1336,
+    "se": 0.0159,
+    "position_0noise_1extra": -0.014
+   },
+   "LO_sub_other": {
+    "n_s1": 2805,
+    "mean_other": 3.1201,
+    "se": 0.0289,
+    "position_0noise_1extra": -0.053
+   },
+   "HI_sub_content": {
+    "n_s1": 4491,
+    "mean_other": 3.2806,
+    "se": 0.0244,
+    "position_0noise_1extra": 0.407
+   },
+   "LO_drop_content": {
+    "n_s1": 1049,
+    "mean_other": 3.1382,
+    "se": 0.0466,
+    "position_0noise_1extra": -0.001
+   },
+   "HI_add_generic": {
+    "n_s1": 4714,
+    "mean_other": 2.9941,
+    "se": 0.0217,
+    "position_0noise_1extra": -0.414
+   },
+   "LO_sub_content": {
+    "n_s1": 10974,
+    "mean_other": 3.1862,
+    "se": 0.0157,
+    "position_0noise_1extra": 0.136
+   },
+   "HI_drop_generic": {
+    "n_s1": 2021,
+    "mean_other": 2.9871,
+    "se": 0.0326,
+    "position_0noise_1extra": -0.434
+   },
+   "HI_drop_rare": {
+    "n_s1": 692,
+    "mean_other": 3.2341,
+    "se": 0.0564,
+    "position_0noise_1extra": 0.274
+   },
+   "HI_add_content": {
+    "n_s1": 769,
+    "mean_other": 3.0845,
+    "se": 0.0537,
+    "position_0noise_1extra": -0.155
+   },
+   "HI_add_rare": {
+    "n_s1": 1259,
+    "mean_other": 3.2025,
+    "se": 0.0424,
+    "position_0noise_1extra": 0.183
+   },
+   "LO_add_content": {
+    "n_s1": 1111,
+    "mean_other": 3.0045,
+    "se": 0.0424,
+    "position_0noise_1extra": -0.384
+   },
+   "LO_drop_generic": {
+    "n_s1": 76,
+    "mean_other": 3.3553,
+    "se": 0.1849,
+    "position_0noise_1extra": 0.621
+   },
+   "LO_drop_rare": {
+    "n_s1": 183,
+    "mean_other": 3.3989,
+    "se": 0.1106,
+    "position_0noise_1extra": 0.746
+   },
+   "LO_add_rare": {
+    "n_s1": 138,
+    "mean_other": 3.0362,
+    "se": 0.1306,
+    "position_0noise_1extra": -0.293
+   }
+  },
+  "TEST_US": {
+   "n_s1": 624748,
+   "mean_n": 3.579295972135965,
+   "var_n": 2.2919716070165643,
+   "pred_noise_sizebiased_minus1": 3.2196374317020533,
+   "pred_extra": 3.579295972135965,
+   "LO_sub_generic": {
+    "n_s1": 6503,
+    "mean_other": 3.1964,
+    "se": 0.0192,
+    "position_0noise_1extra": -0.065
+   },
+   "HI_nodiff": {
+    "n_s1": 574102,
+    "mean_other": 1.3344,
+    "se": 0.0015,
+    "position_0noise_1extra": -5.242
+   },
+   "HI_sub_other": {
+    "n_s1": 145618,
+    "mean_other": 3.001,
+    "se": 0.0039,
+    "position_0noise_1extra": -0.608
+   },
+   "HI_sub_generic": {
+    "n_s1": 115497,
+    "mean_other": 3.0274,
+    "se": 0.0044,
+    "position_0noise_1extra": -0.534
+   },
+   "HI_drop_rare": {
+    "n_s1": 20816,
+    "mean_other": 3.012,
+    "se": 0.0103,
+    "position_0noise_1extra": -0.577
+   },
+   "LO_multi": {
+    "n_s1": 17364,
+    "mean_other": 3.2277,
+    "se": 0.0118,
+    "position_0noise_1extra": 0.022
+   },
+   "HI_multi": {
+    "n_s1": 208944,
+    "mean_other": 2.9389,
+    "se": 0.0032,
+    "position_0noise_1extra": -0.781
+   },
+   "LO_sub_other": {
+    "n_s1": 16472,
+    "mean_other": 3.1164,
+    "se": 0.0118,
+    "position_0noise_1extra": -0.287
+   },
+   "HI_drop_content": {
+    "n_s1": 83197,
+    "mean_other": 2.9103,
+    "se": 0.0052,
+    "position_0noise_1extra": -0.86
+   },
+   "HI_add_generic": {
+    "n_s1": 73767,
+    "mean_other": 3.0219,
+    "se": 0.0055,
+    "position_0noise_1extra": -0.55
+   },
+   "LO_add_generic": {
+    "n_s1": 3962,
+    "mean_other": 3.1514,
+    "se": 0.0247,
+    "position_0noise_1extra": -0.19
+   },
+   "LO_add_rare": {
+    "n_s1": 1067,
+    "mean_other": 3.1575,
+    "se": 0.0477,
+    "position_0noise_1extra": -0.173
+   },
+   "HI_add_content": {
+    "n_s1": 2159,
+    "mean_other": 3.2256,
+    "se": 0.0325,
+    "position_0noise_1extra": 0.016
+   },
+   "LO_nodiff": {
+    "n_s1": 44205,
+    "mean_other": 3.0529,
+    "se": 0.0073,
+    "position_0noise_1extra": -0.464
+   },
+   "HI_add_rare": {
+    "n_s1": 11958,
+    "mean_other": 3.1673,
+    "se": 0.0139,
+    "position_0noise_1extra": -0.146
+   },
+   "LO_drop_content": {
+    "n_s1": 3440,
+    "mean_other": 3.0846,
+    "se": 0.0271,
+    "position_0noise_1extra": -0.375
+   },
+   "LO_drop_generic": {
+    "n_s1": 295,
+    "mean_other": 3.0881,
+    "se": 0.0907,
+    "position_0noise_1extra": -0.366
+   },
+   "HI_drop_generic": {
+    "n_s1": 9583,
+    "mean_other": 2.9307,
+    "se": 0.0152,
+    "position_0noise_1extra": -0.803
+   },
+   "HI_sub_content": {
+    "n_s1": 635,
+    "mean_other": 3.1732,
+    "se": 0.0597,
+    "position_0noise_1extra": -0.129
+   },
+   "LO_drop_rare": {
+    "n_s1": 887,
+    "mean_other": 3.2187,
+    "se": 0.0538,
+    "position_0noise_1extra": -0.003
+   },
+   "LO_sub_content": {
+    "n_s1": 150,
+    "mean_other": 3.24,
+    "se": 0.1319,
+    "position_0noise_1extra": 0.057
+   },
+   "LO_add_content": {
+    "n_s1": 140,
+    "mean_other": 3.2214,
+    "se": 0.1363,
+    "position_0noise_1extra": 0.005
+   }
+  },
+  "TEST_India": {
+   "n_s1": 763161,
+   "mean_n": 3.575066073869079,
+   "var_n": 2.2874280817458255,
+   "pred_noise_sizebiased_minus1": 3.2148942713016027,
+   "pred_extra": 3.575066073869079,
+   "HI_drop_generic": {
+    "n_s1": 3255,
+    "mean_other": 3.1505,
+    "se": 0.0266,
+    "position_0noise_1extra": -0.179
+   },
+   "HI_sub_other": {
+    "n_s1": 117501,
+    "mean_other": 3.0619,
+    "se": 0.0044,
+    "position_0noise_1extra": -0.425
+   },
+   "HI_multi": {
+    "n_s1": 389594,
+    "mean_other": 2.1378,
+    "se": 0.0024,
+    "position_0noise_1extra": -2.99
+   },
+   "LO_nodiff": {
+    "n_s1": 56019,
+    "mean_other": 3.029,
+    "se": 0.0064,
+    "position_0noise_1extra": -0.516
+   },
+   "HI_nodiff": {
+    "n_s1": 650608,
+    "mean_other": 1.5133,
+    "se": 0.0015,
+    "position_0noise_1extra": -4.724
+   },
+   "LO_multi": {
+    "n_s1": 39297,
+    "mean_other": 2.9835,
+    "se": 0.0077,
+    "position_0noise_1extra": -0.642
+   },
+   "HI_sub_generic": {
+    "n_s1": 126947,
+    "mean_other": 3.0411,
+    "se": 0.0042,
+    "position_0noise_1extra": -0.482
+   },
+   "HI_add_generic": {
+    "n_s1": 49494,
+    "mean_other": 3.1022,
+    "se": 0.0068,
+    "position_0noise_1extra": -0.313
+   },
+   "HI_drop_content": {
+    "n_s1": 46806,
+    "mean_other": 3.1184,
+    "se": 0.0069,
+    "position_0noise_1extra": -0.268
+   },
+   "HI_add_rare": {
+    "n_s1": 58278,
+    "mean_other": 3.1142,
+    "se": 0.0063,
+    "position_0noise_1extra": -0.279
+   },
+   "LO_sub_other": {
+    "n_s1": 14439,
+    "mean_other": 3.156,
+    "se": 0.0126,
+    "position_0noise_1extra": -0.163
+   },
+   "LO_add_generic": {
+    "n_s1": 5460,
+    "mean_other": 3.1987,
+    "se": 0.0209,
+    "position_0noise_1extra": -0.045
+   },
+   "HI_drop_rare": {
+    "n_s1": 5615,
+    "mean_other": 3.2917,
+    "se": 0.0205,
+    "position_0noise_1extra": 0.213
+   },
+   "LO_sub_generic": {
+    "n_s1": 12863,
+    "mean_other": 3.2014,
+    "se": 0.0135,
+    "position_0noise_1extra": -0.037
+   },
+   "LO_drop_content": {
+    "n_s1": 2217,
+    "mean_other": 3.1443,
+    "se": 0.032,
+    "position_0noise_1extra": -0.196
+   },
+   "LO_add_rare": {
+    "n_s1": 4558,
+    "mean_other": 3.1828,
+    "se": 0.0222,
+    "position_0noise_1extra": -0.089
+   },
+   "LO_drop_rare": {
+    "n_s1": 548,
+    "mean_other": 3.4179,
+    "se": 0.0681,
+    "position_0noise_1extra": 0.564
+   },
+   "HI_sub_content": {
+    "n_s1": 271,
+    "mean_other": 3.0996,
+    "se": 0.0957,
+    "position_0noise_1extra": -0.32
+   },
+   "LO_drop_generic": {
+    "n_s1": 104,
+    "mean_other": 3.2308,
+    "se": 0.1402,
+    "position_0noise_1extra": 0.044
+   },
+   "LO_sub_content": {
+    "n_s1": 103,
+    "mean_other": 3.2621,
+    "se": 0.1659,
+    "position_0noise_1extra": 0.131
+   },
+   "LO_add_content": {
+    "n_s1": 93,
+    "mean_other": 3.6237,
+    "se": 0.1727,
+    "position_0noise_1extra": 1.135
+   }
+  }
+ },
+ "part2_replication_test": {
+  "V1_US": {
+   "y1_sub": {
+    "n": 3793,
+    "frac_rep_ge1": 0.0166,
+    "mean_rep": 0.017
+   },
+   "y0_sub": {
+    "n": 195,
+    "frac_rep_ge1": 0.0513,
+    "mean_rep": 0.077
+   },
+   "y1_drop": {
+    "n": 1639,
+    "frac_rep_ge1": 0.2288,
+    "mean_rep": 0.272
+   },
+   "y1_add": {
+    "n": 1242,
+    "frac_rep_ge1": 0.0548,
+    "mean_rep": 0.055
+   },
+   "y0_add": {
+    "n": 37,
+    "frac_rep_ge1": 0.0,
+    "mean_rep": 0.0
+   },
+   "y0_drop": {
+    "n": 2,
+    "frac_rep_ge1": 0.0,
+    "mean_rep": 0.0
+   }
+  },
+  "V1_India": {
+   "y1_sub": {
+    "n": 847,
+    "frac_rep_ge1": 0.0354,
+    "mean_rep": 0.039
+   },
+   "y0_sub": {
+    "n": 270,
+    "frac_rep_ge1": 0.2111,
+    "mean_rep": 0.426
+   },
+   "y0_add": {
+    "n": 326,
+    "frac_rep_ge1": 0.0,
+    "mean_rep": 0.0
+   },
+   "y1_add": {
+    "n": 379,
+    "frac_rep_ge1": 0.0158,
+    "mean_rep": 0.016
+   },
+   "y1_drop": {
+    "n": 237,
+    "frac_rep_ge1": 0.1519,
+    "mean_rep": 0.186
+   },
+   "y0_drop": {
+    "n": 22,
+    "frac_rep_ge1": 0.7273,
+    "mean_rep": 79.545
+   }
+  },
+  "France_TEST": {
+   "HI_add": {
+    "n": 5631,
+    "frac_rep_ge1": 0.0229,
+    "mean_rep": 0.023
+   },
+   "HI_drop": {
+    "n": 13631,
+    "frac_rep_ge1": 0.0923,
+    "mean_rep": 0.101
+   },
+   "HI_multi": {
+    "n": 60735,
+    "frac_rep_ge1": 0.0547,
+    "mean_rep": 0.057
+   },
+   "HI_nodiff": {
+    "n": 486020,
+    "frac_rep_ge1": 0.8473,
+    "mean_rep": 1.819
+   },
+   "HI_sub_content": {
+    "n": 3938,
+    "frac_rep_ge1": 0.0046,
+    "mean_rep": 0.006
+   },
+   "HI_sub_generic": {
+    "n": 36263,
+    "frac_rep_ge1": 0.0153,
+    "mean_rep": 0.016
+   },
+   "HI_sub_other": {
+    "n": 716,
+    "frac_rep_ge1": 0.0056,
+    "mean_rep": 0.006
+   },
+   "LO_add": {
+    "n": 3387,
+    "frac_rep_ge1": 0.0186,
+    "mean_rep": 0.019
+   },
+   "LO_drop": {
+    "n": 780,
+    "frac_rep_ge1": 0.0577,
+    "mean_rep": 0.062
+   },
+   "LO_multi": {
+    "n": 19427,
+    "frac_rep_ge1": 0.0322,
+    "mean_rep": 0.034
+   },
+   "LO_nodiff": {
+    "n": 8664,
+    "frac_rep_ge1": 0.801,
+    "mean_rep": 1.787
+   },
+   "LO_sub_content": {
+    "n": 9005,
+    "frac_rep_ge1": 0.0056,
+    "mean_rep": 0.006
+   },
+   "LO_sub_generic": {
+    "n": 7155,
+    "frac_rep_ge1": 0.0197,
+    "mean_rep": 0.02
+   },
+   "LO_sub_other": {
+    "n": 1259,
+    "frac_rep_ge1": 0.0048,
+    "mean_rep": 0.005
+   }
+  },
+  "France_examples_replicated_content_sub": {
+   "HI": [
+    {
+     "s1": "Nantes Societe EURL",
+     "rec": "Nantes Comite EURL",
+     "p": 0.996,
+     "n_other_records_same_name_same_street": 1
+    },
+    {
+     "s1": "HRI Sante",
+     "rec": "HRI  France",
+     "p": 0.9942,
+     "n_other_records_same_name_same_street": 1
+    },
+    {
+     "s1": "Tourcoing Ecole EURL",
+     "rec": "TOURCOING EURL FRANCE",
+     "p": 0.9924,
+     "n_other_records_same_name_same_street": 1
+    },
+    {
+     "s1": "Retro Ecole SARL",
+     "rec": "Retro SARL France",
+     "p": 0.9939,
+     "n_other_records_same_name_same_street": 1
+    }
+   ],
+   "LO": [
+    {
+     "s1": "Kine Peinture SARL",
+     "rec": "KINE SARL FRANCE",
+     "p": 0.9622,
+     "n_other_records_same_name_same_street": 1
+    },
+    {
+     "s1": "Tourcoing Sante SAS",
+     "rec": "TOURCOING SAS FRANCE",
+     "p": 0.9872,
+     "n_other_records_same_name_same_street": 1
+    },
+    {
+     "s1": "Blue Club",
+     "rec": "BLUE GROUPE",
+     "p": 0.8567,
+     "n_other_records_same_name_same_street": 1
+    },
+    {
+     "s1": "LRJ Amis",
+     "rec": "LRJ Lycee",
+     "p": 0.9426,
+     "n_other_records_same_name_same_street": 1
+    },
+    {
+     "s1": "Village Ecole SARL",
+     "rec": "VILLAGE SARL FRANCE",
+     "p": 0.8573,
+     "n_other_records_same_name_same_street": 1
+    },
+    {
+     "s1": "GU Sport SARL",
+     "rec": "GU SARL France",
+     "p": 0.9864,
+     "n_other_records_same_name_same_street": 1
+    }
+   ]
+  }
+ },
+ "part2_V1_same_street_one_word_subs_by_kind": {
+  "US": {
+   "y1_in_rare_out_rare": 609,
+   "y1_in_rare_out_content": 1467,
+   "y0_in_rare_out_rare": 107,
+   "y1_in_generic_out_rare": 286,
+   "y1_in_generic_out_content": 1222,
+   "y1_in_rare_out_generic": 121,
+   "y0_in_content_out_rare": 29,
+   "y1_in_generic_out_generic": 71,
+   "y0_in_rare_out_content": 36,
+   "y1_in_content_out_content": 12,
+   "y0_in_content_out_content": 12,
+   "y0_in_generic_out_generic": 1,
+   "y0_in_generic_out_rare": 3,
+   "y0_in_generic_out_content": 7,
+   "y1_in_content_out_rare": 3,
+   "y1_in_content_out_generic": 2
+  },
+  "India": {
+   "y1_in_rare_out_content": 252,
+   "y1_in_generic_out_content": 287,
+   "y0_in_rare_out_content": 39,
+   "y1_in_generic_out_generic": 32,
+   "y1_in_rare_out_generic": 31,
+   "y1_in_rare_out_rare": 122,
+   "y1_in_generic_out_rare": 119,
+   "y0_in_rare_out_rare": 53,
+   "y0_in_content_out_content": 87,
+   "y0_in_content_out_rare": 43,
+   "y0_in_generic_out_content": 19,
+   "y0_in_generic_out_rare": 16,
+   "y0_in_rare_out_generic": 2,
+   "y0_in_content_out_generic": 9,
+   "y1_in_content_out_content": 4,
+   "y0_in_generic_out_generic": 2
+  }
+ },
+ "part2_decision_value_remove_content_subs": {
+  "LO": {
+   "n_pairs": 11213,
+   "n_s1": 10974,
+   "dLB_if_all_FP_pp": 0.1688,
+   "dLB_if_all_TP_pp": -0.077,
+   "dFrance_if_all_FP_pp": 1.127,
+   "dFrance_if_all_TP_pp": -0.514,
+   "breakeven_FP_fraction": 0.313
+  },
+  "HI": {
+   "n_pairs": 4548,
+   "n_s1": 4491,
+   "dLB_if_all_FP_pp": 0.0661,
+   "dLB_if_all_TP_pp": -0.0289,
+   "dFrance_if_all_FP_pp": 0.441,
+   "dFrance_if_all_TP_pp": -0.193,
+   "breakeven_FP_fraction": 0.304
+  },
+  "HI+LO": {
+   "n_pairs": 15761,
+   "n_s1": 15256,
+   "dLB_if_all_FP_pp": 0.2352,
+   "dLB_if_all_TP_pp": -0.1067,
+   "dFrance_if_all_FP_pp": 1.57,
+   "dFrance_if_all_TP_pp": -0.713,
+   "breakeven_FP_fraction": 0.312
+  }
+ },
+ "files": [
+  "A_compile_results.py",
+  "A_p1_pairs_France.pkl",
+  "A_p1_phrases_France.csv",
+  "A_p1_phrases_India.csv",
+  "A_p1_phrases_US.csv",
+  "A_p1_spans_France.csv",
+  "A_p1_spans_India.csv",
+  "A_p1_spans_US.csv",
+  "A_p1_summary.json",
+  "A_p1_swaps_France.csv",
+  "A_p1_swaps_India.csv",
+  "A_p1_swaps_US.csv",
+  "A_p1_tokens_France.csv",
+  "A_p1_tokens_India.csv",
+  "A_p1_tokens_US.csv",
+  "A_p2_noise_France_testLO.csv",
+  "A_p2_noise_France_testPP.csv",
+  "A_p2_noise_India_V1pos.csv",
+  "A_p2_noise_India_V1pos_p99.csv",
+  "A_p2_noise_India_testLO.csv",
+  "A_p2_noise_India_testPP.csv",
+  "A_p2_noise_India_trainGT.csv",
+  "A_p2_noise_US_V1pos.csv",
+  "A_p2_noise_US_V1pos_p99.csv",
+  "A_p2_noise_US_testLO.csv",
+  "A_p2_noise_US_testPP.csv",
+  "A_p2_noise_US_trainGT.csv",
+  "A_p2_subst_France.csv",
+  "A_p2_subst_India.csv",
+  "A_p2_subst_US.csv",
+  "A_p2_summary.json",
+  "A_p2_typosubst_France.csv",
+  "A_p2_typosubst_India.csv",
+  "A_p2_typosubst_US.csv",
+  "A_p2b_V1_pairs.pkl",
+  "A_p2b_examples_France.json",
+  "A_p2b_subst_France_HI.csv",
+  "A_p2b_subst_France_LO.csv",
+  "A_p2b_subst_India_HI.csv",
+  "A_p2b_subst_India_LO.csv",
+  "A_p2b_subst_India_trainGT.csv",
+  "A_p2b_subst_US_HI.csv",
+  "A_p2b_subst_US_LO.csv",
+  "A_p2b_subst_US_trainGT.csv",
+  "A_p2b_summary.json",
+  "A_p2c_summary.json",
+  "A_p2d_summary.json",
+  "A_p2e_summary.json",
+  "A_p2f_summary.json",
+  "A_p2h_summary.json",
+  "A_p2i_summary.json",
+  "A_p2j_summary.json",
+  "A_part1_coloc_tokens.py",
+  "A_part2_noise_rates.py",
+  "A_part2b_france_subst.py",
+  "A_part2c_roles.py",
+  "A_part2d_swaps.py",
+  "A_part2e_count_test.py",
+  "A_part2f_subst_lift.py",
+  "A_part2h_probe_value.py",
+  "A_part2i_replication.py",
+  "A_part2j_v1_decoy_subs.py",
+  "A_roles_France.csv"
+ ]
+}

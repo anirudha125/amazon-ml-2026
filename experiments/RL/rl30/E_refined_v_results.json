@@ -1,0 +1,6145 @@
+{
+ "V1": {
+  "baseline": {
+   "n_s1": 20000,
+   "macro": 98.8024,
+   "macro_mc": 98.8046,
+   "accepted": 67353,
+   "FP": 167,
+   "TP": 67186
+  },
+  "F1_dist_s0.5": {
+   "pairs": 100675,
+   "s1": 16220,
+   "pos_pairs": 7851,
+   "P_match_flag": 0.07798,
+   "P_match_noflag": 0.02506,
+   "P_match_flag_p03": 0.98172,
+   "P_match_noflag_p03": 0.98456,
+   "accepted": 7607,
+   "acc_TP": 7578,
+   "acc_FP": 29,
+   "acc_precision_in_flag": 0.99619,
+   "acc_precision_outside": 0.99769,
+   "NEW_recall_in_flag": 0.96523,
+   "NEW_recall_outside": 0.97111,
+   "rejected_p03": 217,
+   "rejected_p03_pos": 103,
+   "firing_rate_among_accepted": 0.112942,
+   "by_country": {
+    "US": {
+     "pairs": 71779,
+     "accepted": 5337,
+     "acc_FP": 16
+    },
+    "India": {
+     "pairs": 28896,
+     "accepted": 2270,
+     "acc_FP": 13
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     178,
+     0.08989,
+     0.10115
+    ],
+    "[0.95,0.999)": [
+     1126,
+     0.01066,
+     0.00521
+    ],
+    "[0.999,1.01)": [
+     6303,
+     0.00016,
+     8e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 90086,
+    "n_flag": 10518,
+    "coef_flag": -0.0245,
+    "se": 0.0769,
+    "z": -0.32,
+    "LR_chi2": 0.1,
+    "coef_logit_p": 1.0083
+   },
+   "veto": {
+    "delta_pp": -4.094,
+    "ci95_pp": [
+     -4.2573,
+     -3.9288
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 5800,
+    "US_pp": -4.9532,
+    "India_pp": -2.7946
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0346,
+    "ci95_pp": [
+     0.0202,
+     0.0519
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 28
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -4.094,
+    "ci95_pp": [
+     -4.2573,
+     -3.9288
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 5800
+   },
+   "single_veto_loss_if_TP": 0.09065,
+   "single_veto_gain_if_FP": 0.2383,
+   "break_even_false_fraction": 0.2756,
+   "rescue_p03": {
+    "delta_pp": -0.0782,
+    "ci95_pp": [
+     -0.1172,
+     -0.0382
+    ],
+    "p_delta_le0": 0.9999,
+    "n_s1_changed": 213,
+    "added_TP": 103,
+    "added_FP": 114
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0646,
+    "ci95_pp": [
+     0.0433,
+     0.0905
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 103
+   }
+  },
+  "F1_dist_s0.5_sameaddr": {
+   "pairs": 4881,
+   "s1": 3871,
+   "pos_pairs": 4562,
+   "P_match_flag": 0.93464,
+   "P_match_noflag": 0.0254,
+   "P_match_flag_p03": 0.99759,
+   "P_match_noflag_p03": 0.9833,
+   "accepted": 4550,
+   "acc_TP": 4543,
+   "acc_FP": 7,
+   "acc_precision_in_flag": 0.99846,
+   "acc_precision_outside": 0.99745,
+   "NEW_recall_in_flag": 0.99584,
+   "NEW_recall_outside": 0.96866,
+   "rejected_p03": 15,
+   "rejected_p03_pos": 11,
+   "firing_rate_among_accepted": 0.067555,
+   "by_country": {
+    "US": {
+     "pairs": 3856,
+     "accepted": 3754,
+     "acc_FP": 4
+    },
+    "India": {
+     "pairs": 1025,
+     "accepted": 796,
+     "acc_FP": 3
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     21,
+     0.19048,
+     0.09767
+    ],
+    "[0.95,0.999)": [
+     373,
+     0.00804,
+     0.00586
+    ],
+    "[0.999,1.01)": [
+     4156,
+     0.0,
+     9e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 90086,
+    "n_flag": 4607,
+    "coef_flag": 0.3426,
+    "se": 0.316,
+    "z": 1.08,
+    "LR_chi2": 1.2,
+    "coef_logit_p": 1.0072
+   },
+   "veto": {
+    "delta_pp": -2.4,
+    "ci95_pp": [
+     -2.5274,
+     -2.2789
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 3623,
+    "US_pp": -3.3491,
+    "India_pp": -0.9648
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0105,
+    "ci95_pp": [
+     0.0022,
+     0.0233
+    ],
+    "p_delta_le0": 0.0007,
+    "n_s1_changed": 7
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -2.4,
+    "ci95_pp": [
+     -2.5274,
+     -2.2789
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 3623
+   },
+   "single_veto_loss_if_TP": 0.0911,
+   "single_veto_gain_if_FP": 0.29919,
+   "break_even_false_fraction": 0.2334,
+   "rescue_p03": {
+    "delta_pp": 0.0092,
+    "ci95_pp": [
+     -0.003,
+     0.0255
+    ],
+    "p_delta_le0": 0.0926,
+    "n_s1_changed": 15,
+    "added_TP": 11,
+    "added_FP": 4
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0131,
+    "ci95_pp": [
+     0.0021,
+     0.0289
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 11
+   }
+  },
+  "F1_filler_all": {
+   "pairs": 86102,
+   "s1": 17411,
+   "pos_pairs": 18069,
+   "P_match_flag": 0.20986,
+   "P_match_noflag": 0.02076,
+   "P_match_flag_p03": 0.98293,
+   "P_match_noflag_p03": 0.9847,
+   "accepted": 17411,
+   "acc_TP": 17377,
+   "acc_FP": 34,
+   "acc_precision_in_flag": 0.99805,
+   "acc_precision_outside": 0.99734,
+   "NEW_recall_in_flag": 0.9617,
+   "NEW_recall_outside": 0.97354,
+   "rejected_p03": 519,
+   "rejected_p03_pos": 247,
+   "firing_rate_among_accepted": 0.258504,
+   "by_country": {
+    "US": {
+     "pairs": 60277,
+     "accepted": 9980,
+     "acc_FP": 18
+    },
+    "India": {
+     "pairs": 25825,
+     "accepted": 7431,
+     "acc_FP": 16
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     259,
+     0.09653,
+     0.10023
+    ],
+    "[0.95,0.999)": [
+     2089,
+     0.00383,
+     0.00668
+    ],
+    "[0.999,1.01)": [
+     15063,
+     7e-05,
+     9e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 90086,
+    "n_flag": 27008,
+    "coef_flag": -0.037,
+    "se": 0.0552,
+    "z": -0.67,
+    "LR_chi2": 0.45,
+    "coef_logit_p": 1.0072
+   },
+   "veto": {
+    "delta_pp": -10.6776,
+    "ci95_pp": [
+     -10.9529,
+     -10.4055
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 11279,
+    "US_pp": -10.0859,
+    "India_pp": -11.5724
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0449,
+    "ci95_pp": [
+     0.0283,
+     0.0635
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 33
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -10.6798,
+    "ci95_pp": [
+     -10.9567,
+     -10.4069
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 11279
+   },
+   "single_veto_loss_if_TP": 0.09037,
+   "single_veto_gain_if_FP": 0.26288,
+   "break_even_false_fraction": 0.2558,
+   "rescue_p03": {
+    "delta_pp": -0.2538,
+    "ci95_pp": [
+     -0.3182,
+     -0.1915
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 498,
+    "added_TP": 247,
+    "added_FP": 272
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.1182,
+    "ci95_pp": [
+     0.0943,
+     0.1463
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 238
+   }
+  },
+  "F1_filler_all_sameaddr": {
+   "pairs": 9833,
+   "s1": 6891,
+   "pos_pairs": 9567,
+   "P_match_flag": 0.97295,
+   "P_match_noflag": 0.02348,
+   "P_match_flag_p03": 0.99948,
+   "P_match_noflag_p03": 0.98179,
+   "accepted": 9559,
+   "acc_TP": 9557,
+   "acc_FP": 2,
+   "acc_precision_in_flag": 0.99979,
+   "acc_precision_outside": 0.99715,
+   "NEW_recall_in_flag": 0.99895,
+   "NEW_recall_outside": 0.96588,
+   "rejected_p03": 13,
+   "rejected_p03_pos": 10,
+   "firing_rate_among_accepted": 0.141924,
+   "by_country": {
+    "US": {
+     "pairs": 7045,
+     "accepted": 6994,
+     "acc_FP": 2
+    },
+    "India": {
+     "pairs": 2788,
+     "accepted": 2565,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     39,
+     0.0,
+     0.10291
+    ],
+    "[0.95,0.999)": [
+     579,
+     0.00173,
+     0.00628
+    ],
+    "[0.999,1.01)": [
+     8941,
+     0.00011,
+     8e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 90086,
+    "n_flag": 9587,
+    "coef_flag": 0.7741,
+    "se": 0.3759,
+    "z": 2.06,
+    "LR_chi2": 4.85,
+    "coef_logit_p": 1.0051
+   },
+   "veto": {
+    "delta_pp": -5.5961,
+    "ci95_pp": [
+     -5.7941,
+     -5.3943
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 6754,
+    "US_pp": -6.8571,
+    "India_pp": -3.6891
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0037,
+    "ci95_pp": [
+     0.0,
+     0.0095
+    ],
+    "p_delta_le0": 0.1271,
+    "n_s1_changed": 2
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -5.5961,
+    "ci95_pp": [
+     -5.7941,
+     -5.3943
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 6754
+   },
+   "single_veto_loss_if_TP": 0.09176,
+   "single_veto_gain_if_FP": 0.36508,
+   "break_even_false_fraction": 0.2009,
+   "rescue_p03": {
+    "delta_pp": -0.0011,
+    "ci95_pp": [
+     -0.0139,
+     0.0072
+    ],
+    "p_delta_le0": 0.5427,
+    "n_s1_changed": 13,
+    "added_TP": 10,
+    "added_FP": 3
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0055,
+    "ci95_pp": [
+     0.0021,
+     0.0097
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 10
+   }
+  },
+  "F2_sib_ge": {
+   "pairs": 155,
+   "s1": 6,
+   "pos_pairs": 1,
+   "P_match_flag": 0.00645,
+   "P_match_noflag": 0.02715,
+   "P_match_flag_p03": 0.125,
+   "P_match_noflag_p03": 0.98434,
+   "accepted": 7,
+   "acc_TP": 1,
+   "acc_FP": 6,
+   "acc_precision_in_flag": 0.14286,
+   "acc_precision_outside": 0.99761,
+   "NEW_recall_in_flag": 1.0,
+   "NEW_recall_outside": 0.97045,
+   "rejected_p03": 1,
+   "rejected_p03_pos": 0,
+   "firing_rate_among_accepted": 0.000104,
+   "by_country": {
+    "US": {
+     "pairs": 57,
+     "accepted": 6,
+     "acc_FP": 5
+    },
+    "India": {
+     "pairs": 98,
+     "accepted": 1,
+     "acc_FP": 1
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     0,
+     null,
+     0.09938
+    ],
+    "[0.95,0.999)": [
+     4,
+     1.0,
+     0.00548
+    ],
+    "[0.999,1.01)": [
+     3,
+     0.66667,
+     5e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 90086,
+    "n_flag": 13,
+    "coef_flag": -9.5107,
+    "se": 1.2914,
+    "z": -7.36,
+    "LR_chi2": 70.91,
+    "coef_logit_p": 1.0146
+   },
+   "veto": {
+    "delta_pp": 0.0048,
+    "ci95_pp": [
+     0.0,
+     0.0114
+    ],
+    "p_delta_le0": 0.0445,
+    "n_s1_changed": 3,
+    "US_pp": 0.0042,
+    "India_pp": 0.0056
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0056,
+    "ci95_pp": [
+     0.0,
+     0.0129
+    ],
+    "p_delta_le0": 0.0445,
+    "n_s1_changed": 3
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": 0.0048,
+    "ci95_pp": [
+     0.0,
+     0.0114
+    ],
+    "p_delta_le0": 0.0445,
+    "n_s1_changed": 3
+   },
+   "single_veto_loss_if_TP": 0.21429,
+   "single_veto_gain_if_FP": 0.16564,
+   "break_even_false_fraction": 0.564,
+   "rescue_p03": {
+    "delta_pp": -0.0008,
+    "ci95_pp": [
+     -0.0024,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 1,
+    "added_TP": 0,
+    "added_FP": 1
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 0
+   },
+   "record_owner": {
+    "this_s1": 1,
+    "a_sibling": 20,
+    "other_or_none": 134,
+    "accepted_FP_owned_by_sibling": 6,
+    "accepted_FP": 6
+   }
+  },
+  "F2_sib_gt": {
+   "pairs": 33,
+   "s1": 6,
+   "pos_pairs": 0,
+   "P_match_flag": 0.0,
+   "P_match_noflag": 0.02714,
+   "P_match_flag_p03": 0.0,
+   "P_match_noflag_p03": 0.98431,
+   "accepted": 4,
+   "acc_TP": 0,
+   "acc_FP": 4,
+   "acc_precision_in_flag": 0.0,
+   "acc_precision_outside": 0.99758,
+   "NEW_recall_in_flag": null,
+   "NEW_recall_outside": 0.97045,
+   "rejected_p03": 1,
+   "rejected_p03_pos": 0,
+   "firing_rate_among_accepted": 5.9e-05,
+   "by_country": {
+    "US": {
+     "pairs": 28,
+     "accepted": 4,
+     "acc_FP": 4
+    },
+    "India": {
+     "pairs": 5,
+     "accepted": 0,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     0,
+     null,
+     0.09938
+    ],
+    "[0.95,0.999)": [
+     3,
+     1.0,
+     0.0056
+    ],
+    "[0.999,1.01)": [
+     1,
+     1.0,
+     7e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 90086,
+    "n_flag": 8,
+    "coef_flag": -30.0576,
+    "se": 9819.8689,
+    "z": -0.0,
+    "LR_chi2": 45.46,
+    "coef_logit_p": 1.0122
+   },
+   "veto": {
+    "delta_pp": 0.002,
+    "ci95_pp": [
+     0.0,
+     0.0059
+    ],
+    "p_delta_le0": 0.3685,
+    "n_s1_changed": 1,
+    "US_pp": 0.0032,
+    "India_pp": 0.0
+   },
+   "veto_oracle": {
+    "delta_pp": 0.002,
+    "ci95_pp": [
+     0.0,
+     0.0059
+    ],
+    "p_delta_le0": 0.3685,
+    "n_s1_changed": 1
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": 0.002,
+    "ci95_pp": [
+     0.0,
+     0.0059
+    ],
+    "p_delta_le0": 0.3685,
+    "n_s1_changed": 1
+   },
+   "single_veto_loss_if_TP": null,
+   "single_veto_gain_if_FP": 0.06592,
+   "break_even_false_fraction": null,
+   "rescue_p03": {
+    "delta_pp": -0.0008,
+    "ci95_pp": [
+     -0.0024,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 1,
+    "added_TP": 0,
+    "added_FP": 1
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 0
+   },
+   "record_owner": {
+    "this_s1": 0,
+    "a_sibling": 16,
+    "other_or_none": 17,
+    "accepted_FP_owned_by_sibling": 4,
+    "accepted_FP": 4
+   }
+  },
+  "F2_has_sib": {
+   "pairs": 772,
+   "s1": 6,
+   "pos_pairs": 22,
+   "P_match_flag": 0.0285,
+   "P_match_noflag": 0.02714,
+   "P_match_flag_p03": 0.75,
+   "P_match_noflag_p03": 0.98434,
+   "accepted": 27,
+   "acc_TP": 21,
+   "acc_FP": 6,
+   "acc_precision_in_flag": 0.77778,
+   "acc_precision_outside": 0.99761,
+   "NEW_recall_in_flag": 0.95455,
+   "NEW_recall_outside": 0.97045,
+   "rejected_p03": 1,
+   "rejected_p03_pos": 0,
+   "firing_rate_among_accepted": 0.000401,
+   "by_country": {
+    "US": {
+     "pairs": 368,
+     "accepted": 17,
+     "acc_FP": 5
+    },
+    "India": {
+     "pairs": 404,
+     "accepted": 10,
+     "acc_FP": 1
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     0,
+     null,
+     0.09938
+    ],
+    "[0.95,0.999)": [
+     4,
+     1.0,
+     0.00548
+    ],
+    "[0.999,1.01)": [
+     23,
+     0.08696,
+     5e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 90086,
+    "n_flag": 50,
+    "coef_flag": -6.5308,
+    "se": 0.7308,
+    "z": -8.94,
+    "LR_chi2": 49.93,
+    "coef_logit_p": 1.0133
+   },
+   "veto": {
+    "delta_pp": -0.0242,
+    "ci95_pp": [
+     -0.0457,
+     -0.0066
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 6,
+    "US_pp": -0.019,
+    "India_pp": -0.0321
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0056,
+    "ci95_pp": [
+     0.0,
+     0.0129
+    ],
+    "p_delta_le0": 0.0445,
+    "n_s1_changed": 3
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -0.0242,
+    "ci95_pp": [
+     -0.0457,
+     -0.0066
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 6
+   },
+   "single_veto_loss_if_TP": 0.10016,
+   "single_veto_gain_if_FP": 0.16564,
+   "break_even_false_fraction": 0.3768,
+   "rescue_p03": {
+    "delta_pp": -0.0008,
+    "ci95_pp": [
+     -0.0024,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 1,
+    "added_TP": 0,
+    "added_FP": 1
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 0
+   },
+   "record_owner": {
+    "this_s1": 22,
+    "a_sibling": 23,
+    "other_or_none": 727,
+    "accepted_FP_owned_by_sibling": 6,
+    "accepted_FP": 6
+   }
+  },
+  "F3_street_mismatch": {
+   "pairs": 24380,
+   "s1": 4676,
+   "pos_pairs": 1046,
+   "P_match_flag": 0.0429,
+   "P_match_noflag": 0.02699,
+   "P_match_flag_p03": 0.99143,
+   "P_match_noflag_p03": 0.98413,
+   "accepted": 1037,
+   "acc_TP": 1035,
+   "acc_FP": 2,
+   "acc_precision_in_flag": 0.99807,
+   "acc_precision_outside": 0.99751,
+   "NEW_recall_in_flag": 0.98948,
+   "NEW_recall_outside": 0.97016,
+   "rejected_p03": 13,
+   "rejected_p03_pos": 6,
+   "firing_rate_among_accepted": 0.015396,
+   "by_country": {
+    "US": {
+     "pairs": 8580,
+     "accepted": 273,
+     "acc_FP": 1
+    },
+    "India": {
+     "pairs": 15800,
+     "accepted": 764,
+     "acc_FP": 1
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     19,
+     0.05263,
+     0.10018
+    ],
+    "[0.95,0.999)": [
+     175,
+     0.00571,
+     0.00596
+    ],
+    "[0.999,1.01)": [
+     843,
+     0.0,
+     9e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 90086,
+    "n_flag": 1092,
+    "coef_flag": 0.0973,
+    "se": 0.3603,
+    "z": 0.27,
+    "LR_chi2": 0.07,
+    "coef_logit_p": 1.0081
+   },
+   "veto": {
+    "delta_pp": -0.7693,
+    "ci95_pp": [
+     -0.8654,
+     -0.675
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 664,
+    "US_pp": -0.2861,
+    "India_pp": -1.5
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0017,
+    "ci95_pp": [
+     0.0,
+     0.0045
+    ],
+    "p_delta_le0": 0.1271,
+    "n_s1_changed": 2
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -0.7693,
+    "ci95_pp": [
+     -0.8654,
+     -0.675
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 664
+   },
+   "single_veto_loss_if_TP": 0.09368,
+   "single_veto_gain_if_FP": 0.17423,
+   "break_even_false_fraction": 0.3497,
+   "rescue_p03": {
+    "delta_pp": -0.0064,
+    "ci95_pp": [
+     -0.0129,
+     -0.0009
+    ],
+    "p_delta_le0": 0.991,
+    "n_s1_changed": 13,
+    "added_TP": 6,
+    "added_FP": 7
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0014,
+    "ci95_pp": [
+     0.0004,
+     0.0026
+    ],
+    "p_delta_le0": 0.0024,
+    "n_s1_changed": 6
+   }
+  },
+  "F3_street_mismatch_numeq": {
+   "pairs": 1138,
+   "s1": 649,
+   "pos_pairs": 382,
+   "P_match_flag": 0.33568,
+   "P_match_noflag": 0.02701,
+   "P_match_flag_p03": 0.99738,
+   "P_match_noflag_p03": 0.98417,
+   "accepted": 380,
+   "acc_TP": 380,
+   "acc_FP": 0,
+   "acc_precision_in_flag": 1.0,
+   "acc_precision_outside": 0.99751,
+   "NEW_recall_in_flag": 0.99476,
+   "NEW_recall_outside": 0.97031,
+   "rejected_p03": 2,
+   "rejected_p03_pos": 1,
+   "firing_rate_among_accepted": 0.005642,
+   "by_country": {
+    "US": {
+     "pairs": 298,
+     "accepted": 198,
+     "acc_FP": 0
+    },
+    "India": {
+     "pairs": 840,
+     "accepted": 182,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     5,
+     0.0,
+     0.09982
+    ],
+    "[0.95,0.999)": [
+     38,
+     0.0,
+     0.00599
+    ],
+    "[0.999,1.01)": [
+     337,
+     0.0,
+     9e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 90086,
+    "n_flag": 392,
+    "coef_flag": 0.0123,
+    "se": 0.7754,
+    "z": 0.02,
+    "LR_chi2": 0.0,
+    "coef_logit_p": 1.0083
+   },
+   "veto": {
+    "delta_pp": -0.2334,
+    "ci95_pp": [
+     -0.2806,
+     -0.1899
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 306,
+    "US_pp": -0.2139,
+    "India_pp": -0.263
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 0
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -0.2334,
+    "ci95_pp": [
+     -0.2806,
+     -0.1899
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 306
+   },
+   "single_veto_loss_if_TP": 0.10301,
+   "single_veto_gain_if_FP": null,
+   "break_even_false_fraction": null,
+   "rescue_p03": {
+    "delta_pp": -0.0004,
+    "ci95_pp": [
+     -0.0015,
+     0.0005
+    ],
+    "p_delta_le0": 0.7566,
+    "n_s1_changed": 2,
+    "added_TP": 1,
+    "added_FP": 1
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0002,
+    "ci95_pp": [
+     0.0,
+     0.0005
+    ],
+    "p_delta_le0": 0.3685,
+    "n_s1_changed": 1
+   }
+  },
+  "F1r_dist": {
+   "pairs": 84795,
+   "s1": 14895,
+   "pos_pairs": 3462,
+   "P_match_flag": 0.04083,
+   "P_match_noflag": 0.02667,
+   "P_match_flag_p03": 0.98098,
+   "P_match_noflag_p03": 0.98441,
+   "accepted": 3329,
+   "acc_TP": 3313,
+   "acc_FP": 16,
+   "acc_precision_in_flag": 0.99519,
+   "acc_precision_outside": 0.99764,
+   "NEW_recall_in_flag": 0.95696,
+   "NEW_recall_outside": 0.97116,
+   "rejected_p03": 88,
+   "rejected_p03_pos": 39,
+   "firing_rate_among_accepted": 0.049426,
+   "by_country": {
+    "US": {
+     "pairs": 61061,
+     "accepted": 2367,
+     "acc_FP": 10
+    },
+    "India": {
+     "pairs": 23734,
+     "accepted": 962,
+     "acc_FP": 6
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     66,
+     0.12121,
+     0.09804
+    ],
+    "[0.95,0.999)": [
+     596,
+     0.01174,
+     0.00551
+    ],
+    "[0.999,1.01)": [
+     2667,
+     0.00037,
+     7e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 90086,
+    "n_flag": 5052,
+    "coef_flag": -0.0471,
+    "se": 0.1017,
+    "z": -0.46,
+    "LR_chi2": 0.22,
+    "coef_logit_p": 1.0081
+   },
+   "veto": {
+    "delta_pp": -1.6666,
+    "ci95_pp": [
+     -1.7729,
+     -1.5637
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 2829,
+    "US_pp": -2.0,
+    "India_pp": -1.1624
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0171,
+    "ci95_pp": [
+     0.0083,
+     0.0276
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 15
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -1.6666,
+    "ci95_pp": [
+     -1.7729,
+     -1.5637
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 2829
+   },
+   "single_veto_loss_if_TP": 0.09199,
+   "single_veto_gain_if_FP": 0.21243,
+   "break_even_false_fraction": 0.3022,
+   "rescue_p03": {
+    "delta_pp": -0.0463,
+    "ci95_pp": [
+     -0.0735,
+     -0.0218
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 88,
+    "added_TP": 39,
+    "added_FP": 49
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0211,
+    "ci95_pp": [
+     0.0119,
+     0.0336
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 39
+   }
+  },
+  "F1r_dist_sameaddr": {
+   "pairs": 2281,
+   "s1": 1965,
+   "pos_pairs": 2027,
+   "P_match_flag": 0.88865,
+   "P_match_noflag": 0.02637,
+   "P_match_flag_p03": 0.99852,
+   "P_match_noflag_p03": 0.98381,
+   "accepted": 2020,
+   "acc_TP": 2017,
+   "acc_FP": 3,
+   "acc_precision_in_flag": 0.99851,
+   "acc_precision_outside": 0.99749,
+   "NEW_recall_in_flag": 0.99507,
+   "NEW_recall_outside": 0.9697,
+   "rejected_p03": 5,
+   "rejected_p03_pos": 5,
+   "firing_rate_among_accepted": 0.029991,
+   "by_country": {
+    "US": {
+     "pairs": 1722,
+     "accepted": 1668,
+     "acc_FP": 2
+    },
+    "India": {
+     "pairs": 559,
+     "accepted": 352,
+     "acc_FP": 1
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     8,
+     0.125,
+     0.0992
+    ],
+    "[0.95,0.999)": [
+     205,
+     0.00976,
+     0.00586
+    ],
+    "[0.999,1.01)": [
+     1807,
+     0.0,
+     9e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 90086,
+    "n_flag": 2037,
+    "coef_flag": 1.0848,
+    "se": 0.6046,
+    "z": 1.79,
+    "LR_chi2": 3.43,
+    "coef_logit_p": 1.0073
+   },
+   "veto": {
+    "delta_pp": -0.9875,
+    "ci95_pp": [
+     -1.0675,
+     -0.9117
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 1749,
+    "US_pp": -1.3645,
+    "India_pp": -0.4173
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0025,
+    "ci95_pp": [
+     0.0,
+     0.0061
+    ],
+    "p_delta_le0": 0.0445,
+    "n_s1_changed": 3
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -0.9875,
+    "ci95_pp": [
+     -1.0675,
+     -0.9117
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 1749
+   },
+   "single_veto_loss_if_TP": 0.08986,
+   "single_veto_gain_if_FP": 0.168,
+   "break_even_false_fraction": 0.3485,
+   "rescue_p03": {
+    "delta_pp": 0.002,
+    "ci95_pp": [
+     0.0003,
+     0.0043
+    ],
+    "p_delta_le0": 0.0061,
+    "n_s1_changed": 5,
+    "added_TP": 5,
+    "added_FP": 0
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.002,
+    "ci95_pp": [
+     0.0003,
+     0.0043
+    ],
+    "p_delta_le0": 0.0061,
+    "n_s1_changed": 5
+   }
+  },
+  "F1r_dist_subst": {
+   "pairs": 72044,
+   "s1": 13197,
+   "pos_pairs": 2469,
+   "P_match_flag": 0.03427,
+   "P_match_noflag": 0.02694,
+   "P_match_flag_p03": 0.98065,
+   "P_match_noflag_p03": 0.98437,
+   "accepted": 2360,
+   "acc_TP": 2349,
+   "acc_FP": 11,
+   "acc_precision_in_flag": 0.99534,
+   "acc_precision_outside": 0.9976,
+   "NEW_recall_in_flag": 0.9514,
+   "NEW_recall_outside": 0.97115,
+   "rejected_p03": 69,
+   "rejected_p03_pos": 33,
+   "firing_rate_among_accepted": 0.035039,
+   "by_country": {
+    "US": {
+     "pairs": 50976,
+     "accepted": 1544,
+     "acc_FP": 5
+    },
+    "India": {
+     "pairs": 21068,
+     "accepted": 816,
+     "acc_FP": 6
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     53,
+     0.11321,
+     0.09871
+    ],
+    "[0.95,0.999)": [
+     491,
+     0.00815,
+     0.00582
+    ],
+    "[0.999,1.01)": [
+     1816,
+     0.00055,
+     7e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 90086,
+    "n_flag": 3623,
+    "coef_flag": 0.0418,
+    "se": 0.1154,
+    "z": 0.36,
+    "LR_chi2": 0.13,
+    "coef_logit_p": 1.0084
+   },
+   "veto": {
+    "delta_pp": -1.1238,
+    "ci95_pp": [
+     -1.2103,
+     -1.0444
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 2140,
+    "US_pp": -1.2056,
+    "India_pp": -1.0
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0131,
+    "ci95_pp": [
+     0.0053,
+     0.0224
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 11
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -1.1238,
+    "ci95_pp": [
+     -1.2103,
+     -1.0444
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 2140
+   },
+   "single_veto_loss_if_TP": 0.09115,
+   "single_veto_gain_if_FP": 0.23775,
+   "break_even_false_fraction": 0.2771,
+   "rescue_p03": {
+    "delta_pp": -0.035,
+    "ci95_pp": [
+     -0.0564,
+     -0.0162
+    ],
+    "p_delta_le0": 0.9999,
+    "n_s1_changed": 69,
+    "added_TP": 33,
+    "added_FP": 36
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0138,
+    "ci95_pp": [
+     0.0088,
+     0.0193
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 33
+   }
+  },
+  "F1r_dist_onesided": {
+   "pairs": 12751,
+   "s1": 6053,
+   "pos_pairs": 993,
+   "P_match_flag": 0.07788,
+   "P_match_noflag": 0.02689,
+   "P_match_flag_p03": 0.98178,
+   "P_match_noflag_p03": 0.98428,
+   "accepted": 969,
+   "acc_TP": 964,
+   "acc_FP": 5,
+   "acc_precision_in_flag": 0.99484,
+   "acc_precision_outside": 0.99756,
+   "NEW_recall_in_flag": 0.9708,
+   "NEW_recall_outside": 0.97044,
+   "rejected_p03": 19,
+   "rejected_p03_pos": 6,
+   "firing_rate_among_accepted": 0.014387,
+   "by_country": {
+    "US": {
+     "pairs": 10085,
+     "accepted": 823,
+     "acc_FP": 5
+    },
+    "India": {
+     "pairs": 2666,
+     "accepted": 146,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     13,
+     0.15385,
+     0.09875
+    ],
+    "[0.95,0.999)": [
+     105,
+     0.02857,
+     0.00567
+    ],
+    "[0.999,1.01)": [
+     851,
+     0.0,
+     9e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 90086,
+    "n_flag": 1429,
+    "coef_flag": -0.3014,
+    "se": 0.2058,
+    "z": -1.46,
+    "LR_chi2": 2.26,
+    "coef_logit_p": 1.0079
+   },
+   "veto": {
+    "delta_pp": -0.4927,
+    "ci95_pp": [
+     -0.5515,
+     -0.4365
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 823,
+    "US_pp": -0.7142,
+    "India_pp": -0.1578
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0039,
+    "ci95_pp": [
+     0.0007,
+     0.0082
+    ],
+    "p_delta_le0": 0.0061,
+    "n_s1_changed": 5
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -0.4927,
+    "ci95_pp": [
+     -0.5515,
+     -0.4365
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 823
+   },
+   "single_veto_loss_if_TP": 0.09403,
+   "single_veto_gain_if_FP": 0.15671,
+   "break_even_false_fraction": 0.375,
+   "rescue_p03": {
+    "delta_pp": -0.0113,
+    "ci95_pp": [
+     -0.0278,
+     0.0051
+    ],
+    "p_delta_le0": 0.9235,
+    "n_s1_changed": 19,
+    "added_TP": 6,
+    "added_FP": 13
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0074,
+    "ci95_pp": [
+     0.0008,
+     0.0194
+    ],
+    "p_delta_le0": 0.0024,
+    "n_s1_changed": 6
+   }
+  },
+  "F1r_filler": {
+   "pairs": 83343,
+   "s1": 17202,
+   "pos_pairs": 17378,
+   "P_match_flag": 0.20851,
+   "P_match_noflag": 0.02102,
+   "P_match_flag_p03": 0.98289,
+   "P_match_noflag_p03": 0.98469,
+   "accepted": 16734,
+   "acc_TP": 16701,
+   "acc_FP": 33,
+   "acc_precision_in_flag": 0.99803,
+   "acc_precision_outside": 0.99735,
+   "NEW_recall_in_flag": 0.96104,
+   "NEW_recall_outside": 0.9736,
+   "rejected_p03": 506,
+   "rejected_p03_pos": 244,
+   "firing_rate_among_accepted": 0.248452,
+   "by_country": {
+    "US": {
+     "pairs": 58365,
+     "accepted": 9675,
+     "acc_FP": 18
+    },
+    "India": {
+     "pairs": 24978,
+     "accepted": 7059,
+     "acc_FP": 15
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     248,
+     0.09677,
+     0.10011
+    ],
+    "[0.95,0.999)": [
+     2027,
+     0.00395,
+     0.00662
+    ],
+    "[0.999,1.01)": [
+     14459,
+     7e-05,
+     9e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 90086,
+    "n_flag": 26072,
+    "coef_flag": -0.0325,
+    "se": 0.0555,
+    "z": -0.58,
+    "LR_chi2": 0.34,
+    "coef_logit_p": 1.0074
+   },
+   "veto": {
+    "delta_pp": -10.1199,
+    "ci95_pp": [
+     -10.3911,
+     -9.8511
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 11010,
+    "US_pp": -9.6692,
+    "India_pp": -10.8014
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0434,
+    "ci95_pp": [
+     0.0272,
+     0.0624
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 32
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -10.1221,
+    "ci95_pp": [
+     -10.3936,
+     -9.8527
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 11010
+   },
+   "single_veto_loss_if_TP": 0.09036,
+   "single_veto_gain_if_FP": 0.26219,
+   "break_even_false_fraction": 0.2563,
+   "rescue_p03": {
+    "delta_pp": -0.2459,
+    "ci95_pp": [
+     -0.3084,
+     -0.1841
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 486,
+    "added_TP": 244,
+    "added_FP": 262
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.117,
+    "ci95_pp": [
+     0.0931,
+     0.1448
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 235
+   }
+  },
+  "F1r_filler_sameaddr": {
+   "pairs": 9487,
+   "s1": 6736,
+   "pos_pairs": 9231,
+   "P_match_flag": 0.97302,
+   "P_match_noflag": 0.02361,
+   "P_match_flag_p03": 0.99946,
+   "P_match_noflag_p03": 0.9819,
+   "accepted": 9223,
+   "acc_TP": 9221,
+   "acc_FP": 2,
+   "acc_precision_in_flag": 0.99978,
+   "acc_precision_outside": 0.99716,
+   "NEW_recall_in_flag": 0.99892,
+   "NEW_recall_outside": 0.96607,
+   "rejected_p03": 13,
+   "rejected_p03_pos": 10,
+   "firing_rate_among_accepted": 0.136935,
+   "by_country": {
+    "US": {
+     "pairs": 6816,
+     "accepted": 6775,
+     "acc_FP": 2
+    },
+    "India": {
+     "pairs": 2671,
+     "accepted": 2448,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     39,
+     0.0,
+     0.10291
+    ],
+    "[0.95,0.999)": [
+     567,
+     0.00176,
+     0.00627
+    ],
+    "[0.999,1.01)": [
+     8617,
+     0.00012,
+     8e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 90086,
+    "n_flag": 9250,
+    "coef_flag": 0.7718,
+    "se": 0.3778,
+    "z": 2.04,
+    "LR_chi2": 4.77,
+    "coef_logit_p": 1.0051
+   },
+   "veto": {
+    "delta_pp": -5.3313,
+    "ci95_pp": [
+     -5.5284,
+     -5.1351
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 6600,
+    "US_pp": -6.5531,
+    "India_pp": -3.4837
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0037,
+    "ci95_pp": [
+     0.0,
+     0.0095
+    ],
+    "p_delta_le0": 0.1271,
+    "n_s1_changed": 2
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -5.3313,
+    "ci95_pp": [
+     -5.5284,
+     -5.1351
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 6600
+   },
+   "single_veto_loss_if_TP": 0.09181,
+   "single_veto_gain_if_FP": 0.36508,
+   "break_even_false_fraction": 0.2009,
+   "rescue_p03": {
+    "delta_pp": -0.0011,
+    "ci95_pp": [
+     -0.0139,
+     0.0072
+    ],
+    "p_delta_le0": 0.5427,
+    "n_s1_changed": 13,
+    "added_TP": 10,
+    "added_FP": 3
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0055,
+    "ci95_pp": [
+     0.0021,
+     0.0097
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 10
+   }
+  },
+  "F1_typo_only": {
+   "pairs": 26949,
+   "s1": 12312,
+   "pos_pairs": 8038,
+   "P_match_flag": 0.29827,
+   "P_match_noflag": 0.02425,
+   "P_match_flag_p03": 0.9824,
+   "P_match_noflag_p03": 0.98449,
+   "accepted": 7839,
+   "acc_TP": 7817,
+   "acc_FP": 22,
+   "acc_precision_in_flag": 0.99719,
+   "acc_precision_outside": 0.99756,
+   "NEW_recall_in_flag": 0.97251,
+   "NEW_recall_outside": 0.97018,
+   "rejected_p03": 231,
+   "rejected_p03_pos": 111,
+   "firing_rate_among_accepted": 0.116387,
+   "by_country": {
+    "US": {
+     "pairs": 18011,
+     "accepted": 5022,
+     "acc_FP": 10
+    },
+    "India": {
+     "pairs": 8938,
+     "accepted": 2817,
+     "acc_FP": 12
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     210,
+     0.06667,
+     0.1068
+    ],
+    "[0.95,0.999)": [
+     1003,
+     0.00698,
+     0.00582
+    ],
+    "[0.999,1.01)": [
+     6626,
+     0.00015,
+     8e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 90086,
+    "n_flag": 10011,
+    "coef_flag": 0.0387,
+    "se": 0.0823,
+    "z": 0.47,
+    "LR_chi2": 0.22,
+    "coef_logit_p": 1.0079
+   },
+   "veto": {
+    "delta_pp": -3.9296,
+    "ci95_pp": [
+     -4.0849,
+     -3.7809
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 6509,
+    "US_pp": -4.3033,
+    "India_pp": -3.3645
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0272,
+    "ci95_pp": [
+     0.0147,
+     0.0423
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 22
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -3.9296,
+    "ci95_pp": [
+     -4.0849,
+     -3.7809
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 6509
+   },
+   "single_veto_loss_if_TP": 0.08892,
+   "single_veto_gain_if_FP": 0.24723,
+   "break_even_false_fraction": 0.2645,
+   "rescue_p03": {
+    "delta_pp": -0.0707,
+    "ci95_pp": [
+     -0.1079,
+     -0.0341
+    ],
+    "p_delta_le0": 0.9999,
+    "n_s1_changed": 227,
+    "added_TP": 111,
+    "added_FP": 120
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0663,
+    "ci95_pp": [
+     0.0449,
+     0.0919
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 111
+   }
+  },
+  "F3r_mismatch": {
+   "pairs": 20984,
+   "s1": 4021,
+   "pos_pairs": 801,
+   "P_match_flag": 0.03817,
+   "P_match_noflag": 0.02705,
+   "P_match_flag_p03": 0.99129,
+   "P_match_noflag_p03": 0.98416,
+   "accepted": 794,
+   "acc_TP": 793,
+   "acc_FP": 1,
+   "acc_precision_in_flag": 0.99874,
+   "acc_precision_outside": 0.99751,
+   "NEW_recall_in_flag": 0.99001,
+   "NEW_recall_outside": 0.97022,
+   "rejected_p03": 10,
+   "rejected_p03_pos": 4,
+   "firing_rate_among_accepted": 0.011789,
+   "by_country": {
+    "US": {
+     "pairs": 7806,
+     "accepted": 255,
+     "acc_FP": 1
+    },
+    "India": {
+     "pairs": 13178,
+     "accepted": 539,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     12,
+     0.0,
+     0.10044
+    ],
+    "[0.95,0.999)": [
+     126,
+     0.00794,
+     0.00593
+    ],
+    "[0.999,1.01)": [
+     656,
+     0.0,
+     9e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 90086,
+    "n_flag": 835,
+    "coef_flag": 0.0435,
+    "se": 0.4174,
+    "z": 0.1,
+    "LR_chi2": 0.01,
+    "coef_logit_p": 1.0082
+   },
+   "veto": {
+    "delta_pp": -0.5809,
+    "ci95_pp": [
+     -0.6648,
+     -0.5014
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 525,
+    "US_pp": -0.2561,
+    "India_pp": -1.0721
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0011,
+    "ci95_pp": [
+     0.0,
+     0.0032
+    ],
+    "p_delta_le0": 0.3685,
+    "n_s1_changed": 1
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -0.5809,
+    "ci95_pp": [
+     -0.6648,
+     -0.5014
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 525
+   },
+   "single_veto_loss_if_TP": 0.09575,
+   "single_veto_gain_if_FP": 0.21053,
+   "break_even_false_fraction": 0.3126,
+   "rescue_p03": {
+    "delta_pp": -0.0053,
+    "ci95_pp": [
+     -0.0112,
+     -0.0006
+    ],
+    "p_delta_le0": 0.9889,
+    "n_s1_changed": 10,
+    "added_TP": 4,
+    "added_FP": 6
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.001,
+    "ci95_pp": [
+     0.0002,
+     0.002
+    ],
+    "p_delta_le0": 0.017,
+    "n_s1_changed": 4
+   }
+  },
+  "F3r_mismatch_numeq": {
+   "pairs": 947,
+   "s1": 541,
+   "pos_pairs": 323,
+   "P_match_flag": 0.34108,
+   "P_match_noflag": 0.02703,
+   "P_match_flag_p03": 0.9969,
+   "P_match_noflag_p03": 0.98418,
+   "accepted": 322,
+   "acc_TP": 322,
+   "acc_FP": 0,
+   "acc_precision_in_flag": 1.0,
+   "acc_precision_outside": 0.99751,
+   "NEW_recall_in_flag": 0.9969,
+   "NEW_recall_outside": 0.97032,
+   "rejected_p03": 1,
+   "rejected_p03_pos": 0,
+   "firing_rate_among_accepted": 0.004781,
+   "by_country": {
+    "US": {
+     "pairs": 275,
+     "accepted": 186,
+     "acc_FP": 0
+    },
+    "India": {
+     "pairs": 672,
+     "accepted": 136,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     5,
+     0.0,
+     0.09982
+    ],
+    "[0.95,0.999)": [
+     34,
+     0.0,
+     0.00598
+    ],
+    "[0.999,1.01)": [
+     283,
+     0.0,
+     9e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 90086,
+    "n_flag": 330,
+    "coef_flag": 0.0635,
+    "se": 0.9075,
+    "z": 0.07,
+    "LR_chi2": 0.0,
+    "coef_logit_p": 1.0083
+   },
+   "veto": {
+    "delta_pp": -0.1898,
+    "ci95_pp": [
+     -0.2316,
+     -0.1528
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 255,
+    "US_pp": -0.1975,
+    "India_pp": -0.1783
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 0
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -0.1898,
+    "ci95_pp": [
+     -0.2316,
+     -0.1528
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 255
+   },
+   "single_veto_loss_if_TP": 0.09728,
+   "single_veto_gain_if_FP": null,
+   "break_even_false_fraction": null,
+   "rescue_p03": {
+    "delta_pp": -0.0005,
+    "ci95_pp": [
+     -0.0015,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 1,
+    "added_TP": 0,
+    "added_FP": 1
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 0
+   }
+  },
+  "F3r_numeq_anyov": {
+   "pairs": 89743,
+   "s1": 7553,
+   "pos_pairs": 649,
+   "P_match_flag": 0.00723,
+   "P_match_noflag": 0.02787,
+   "P_match_flag_p03": 0.99692,
+   "P_match_noflag_p03": 0.98412,
+   "accepted": 643,
+   "acc_TP": 642,
+   "acc_FP": 1,
+   "acc_precision_in_flag": 0.99844,
+   "acc_precision_outside": 0.99751,
+   "NEW_recall_in_flag": 0.98921,
+   "NEW_recall_outside": 0.97027,
+   "rejected_p03": 7,
+   "rejected_p03_pos": 6,
+   "firing_rate_among_accepted": 0.009547,
+   "by_country": {
+    "US": {
+     "pairs": 82279,
+     "accepted": 445,
+     "acc_FP": 1
+    },
+    "India": {
+     "pairs": 7464,
+     "accepted": 198,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     11,
+     0.09091,
+     0.09947
+    ],
+    "[0.95,0.999)": [
+     70,
+     0.0,
+     0.00601
+    ],
+    "[0.999,1.01)": [
+     562,
+     0.0,
+     9e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 90086,
+    "n_flag": 675,
+    "coef_flag": 0.5712,
+    "se": 0.4897,
+    "z": 1.17,
+    "LR_chi2": 1.36,
+    "coef_logit_p": 1.0079
+   },
+   "veto": {
+    "delta_pp": -0.4189,
+    "ci95_pp": [
+     -0.4854,
+     -0.3584
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 436,
+    "US_pp": -0.5287,
+    "India_pp": -0.2529
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0011,
+    "ci95_pp": [
+     0.0,
+     0.0032
+    ],
+    "p_delta_le0": 0.3685,
+    "n_s1_changed": 1
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -0.4189,
+    "ci95_pp": [
+     -0.4854,
+     -0.3584
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 436
+   },
+   "single_veto_loss_if_TP": 0.09449,
+   "single_veto_gain_if_FP": 0.21053,
+   "break_even_false_fraction": 0.3098,
+   "rescue_p03": {
+    "delta_pp": 0.0026,
+    "ci95_pp": [
+     -0.0001,
+     0.0057
+    ],
+    "p_delta_le0": 0.0308,
+    "n_s1_changed": 7,
+    "added_TP": 6,
+    "added_FP": 1
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0031,
+    "ci95_pp": [
+     0.0008,
+     0.0061
+    ],
+    "p_delta_le0": 0.0024,
+    "n_s1_changed": 6
+   }
+  }
+ },
+ "V0": {
+  "baseline": {
+   "n_s1": 2001,
+   "macro": 98.6887,
+   "macro_mc": 98.6887,
+   "accepted": 6702,
+   "FP": 17,
+   "TP": 6685
+  },
+  "F1_dist_s0.5": {
+   "pairs": 10577,
+   "s1": 1598,
+   "pos_pairs": 779,
+   "P_match_flag": 0.07365,
+   "P_match_noflag": 0.02503,
+   "P_match_flag_p03": 0.98462,
+   "P_match_noflag_p03": 0.98572,
+   "accepted": 754,
+   "acc_TP": 752,
+   "acc_FP": 2,
+   "acc_precision_in_flag": 0.99735,
+   "acc_precision_outside": 0.99748,
+   "NEW_recall_in_flag": 0.96534,
+   "NEW_recall_outside": 0.96834,
+   "rejected_p03": 26,
+   "rejected_p03_pos": 16,
+   "firing_rate_among_accepted": 0.112504,
+   "by_country": {
+    "US": {
+     "pairs": 7688,
+     "accepted": 530,
+     "acc_FP": 1
+    },
+    "India": {
+     "pairs": 2889,
+     "accepted": 224,
+     "acc_FP": 1
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     16,
+     0.0625,
+     0.12371
+    ],
+    "[0.95,0.999)": [
+     119,
+     0.0084,
+     0.00437
+    ],
+    "[0.999,1.01)": [
+     619,
+     0.0,
+     0.0
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 8979,
+    "n_flag": 1077,
+    "coef_flag": -0.144,
+    "se": 0.2342,
+    "z": -0.61,
+    "LR_chi2": 0.38,
+    "coef_logit_p": 0.9945
+   },
+   "veto": {
+    "delta_pp": -4.1764,
+    "ci95_pp": [
+     -4.7442,
+     -3.6459
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 566,
+    "US_pp": -4.8214,
+    "India_pp": -3.2101
+   },
+   "veto_oracle": {
+    "delta_pp": 0.021,
+    "ci95_pp": [
+     0.0,
+     0.0526
+    ],
+    "p_delta_le0": 0.127,
+    "n_s1_changed": 2
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -4.1764,
+    "ci95_pp": [
+     -4.7442,
+     -3.6459
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 566
+   },
+   "single_veto_loss_if_TP": 0.09175,
+   "single_veto_gain_if_FP": 0.21053,
+   "break_even_false_fraction": 0.3035,
+   "rescue_p03": {
+    "delta_pp": -0.1471,
+    "ci95_pp": [
+     -0.3239,
+     -0.0086
+    ],
+    "p_delta_le0": 0.9831,
+    "n_s1_changed": 26,
+    "added_TP": 16,
+    "added_FP": 10
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0525,
+    "ci95_pp": [
+     0.0246,
+     0.0868
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 16
+   }
+  },
+  "F1_dist_s0.5_sameaddr": {
+   "pairs": 489,
+   "s1": 373,
+   "pos_pairs": 454,
+   "P_match_flag": 0.92843,
+   "P_match_noflag": 0.02531,
+   "P_match_flag_p03": 0.9978,
+   "P_match_noflag_p03": 0.98473,
+   "accepted": 450,
+   "acc_TP": 450,
+   "acc_FP": 0,
+   "acc_precision_in_flag": 1.0,
+   "acc_precision_outside": 0.99728,
+   "NEW_recall_in_flag": 0.99119,
+   "NEW_recall_outside": 0.96637,
+   "rejected_p03": 5,
+   "rejected_p03_pos": 4,
+   "firing_rate_among_accepted": 0.067144,
+   "by_country": {
+    "US": {
+     "pairs": 390,
+     "accepted": 371,
+     "acc_FP": 0
+    },
+    "India": {
+     "pairs": 99,
+     "accepted": 79,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     2,
+     0.0,
+     0.11712
+    ],
+    "[0.95,0.999)": [
+     42,
+     0.0,
+     0.00524
+    ],
+    "[0.999,1.01)": [
+     406,
+     0.0,
+     0.0
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 8979,
+    "n_flag": 459,
+    "coef_flag": 0.4509,
+    "se": 0.7469,
+    "z": 0.6,
+    "LR_chi2": 0.37,
+    "coef_logit_p": 0.9918
+   },
+   "veto": {
+    "delta_pp": -2.6393,
+    "ci95_pp": [
+     -3.1243,
+     -2.183
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 347,
+    "US_pp": -3.5205,
+    "India_pp": -1.3191
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 0
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -2.6393,
+    "ci95_pp": [
+     -3.1243,
+     -2.183
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 347
+   },
+   "single_veto_loss_if_TP": 0.09603,
+   "single_veto_gain_if_FP": null,
+   "break_even_false_fraction": null,
+   "rescue_p03": {
+    "delta_pp": -0.0014,
+    "ci95_pp": [
+     -0.0273,
+     0.0167
+    ],
+    "p_delta_le0": 0.4986,
+    "n_s1_changed": 5,
+    "added_TP": 4,
+    "added_FP": 1
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0092,
+    "ci95_pp": [
+     0.0017,
+     0.0194
+    ],
+    "p_delta_le0": 0.0169,
+    "n_s1_changed": 4
+   }
+  },
+  "F1_filler_all": {
+   "pairs": 8831,
+   "s1": 1740,
+   "pos_pairs": 1790,
+   "P_match_flag": 0.2027,
+   "P_match_noflag": 0.02075,
+   "P_match_flag_p03": 0.98354,
+   "P_match_noflag_p03": 0.9863,
+   "accepted": 1709,
+   "acc_TP": 1705,
+   "acc_FP": 4,
+   "acc_precision_in_flag": 0.99766,
+   "acc_precision_outside": 0.9974,
+   "NEW_recall_in_flag": 0.95251,
+   "NEW_recall_outside": 0.97342,
+   "rejected_p03": 53,
+   "rejected_p03_pos": 28,
+   "firing_rate_among_accepted": 0.254999,
+   "by_country": {
+    "US": {
+     "pairs": 6229,
+     "accepted": 961,
+     "acc_FP": 4
+    },
+    "India": {
+     "pairs": 2602,
+     "accepted": 748,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     23,
+     0.08696,
+     0.12222
+    ],
+    "[0.95,0.999)": [
+     189,
+     0.01058,
+     0.00325
+    ],
+    "[0.999,1.01)": [
+     1497,
+     0.0,
+     0.0
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 8979,
+    "n_flag": 2658,
+    "coef_flag": 0.1881,
+    "se": 0.1697,
+    "z": 1.11,
+    "LR_chi2": 1.23,
+    "coef_logit_p": 1.0006
+   },
+   "veto": {
+    "delta_pp": -10.2325,
+    "ci95_pp": [
+     -11.0645,
+     -9.4131
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 1100,
+    "US_pp": -9.8544,
+    "India_pp": -10.7988
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0415,
+    "ci95_pp": [
+     0.0041,
+     0.0985
+    ],
+    "p_delta_le0": 0.0169,
+    "n_s1_changed": 4
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -10.2325,
+    "ci95_pp": [
+     -11.0645,
+     -9.4131
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 1100
+   },
+   "single_veto_loss_if_TP": 0.08745,
+   "single_veto_gain_if_FP": 0.20767,
+   "break_even_false_fraction": 0.2963,
+   "rescue_p03": {
+    "delta_pp": -0.2074,
+    "ci95_pp": [
+     -0.4025,
+     -0.0441
+    ],
+    "p_delta_le0": 0.9944,
+    "n_s1_changed": 51,
+    "added_TP": 28,
+    "added_FP": 25
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.1237,
+    "ci95_pp": [
+     0.0738,
+     0.1782
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 27
+   }
+  },
+  "F1_filler_all_sameaddr": {
+   "pairs": 1008,
+   "s1": 694,
+   "pos_pairs": 975,
+   "P_match_flag": 0.96726,
+   "P_match_noflag": 0.02332,
+   "P_match_flag_p03": 0.99898,
+   "P_match_noflag_p03": 0.98338,
+   "accepted": 975,
+   "acc_TP": 975,
+   "acc_FP": 0,
+   "acc_precision_in_flag": 1.0,
+   "acc_precision_outside": 0.99703,
+   "NEW_recall_in_flag": 1.0,
+   "NEW_recall_outside": 0.96274,
+   "rejected_p03": 1,
+   "rejected_p03_pos": 0,
+   "firing_rate_among_accepted": 0.145479,
+   "by_country": {
+    "US": {
+     "pairs": 695,
+     "accepted": 690,
+     "acc_FP": 0
+    },
+    "India": {
+     "pairs": 313,
+     "accepted": 285,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     4,
+     0.0,
+     0.11927
+    ],
+    "[0.95,0.999)": [
+     63,
+     0.0,
+     0.00539
+    ],
+    "[0.999,1.01)": [
+     908,
+     0.0,
+     0.0
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 8979,
+    "n_flag": 979,
+    "coef_flag": 0.0921,
+    "se": 0.8974,
+    "z": 0.1,
+    "LR_chi2": 0.01,
+    "coef_logit_p": 0.9934
+   },
+   "veto": {
+    "delta_pp": -5.4846,
+    "ci95_pp": [
+     -6.099,
+     -4.8794
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 677,
+    "US_pp": -6.7246,
+    "India_pp": -3.627
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 0
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -5.4846,
+    "ci95_pp": [
+     -6.099,
+     -4.8794
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 677
+   },
+   "single_veto_loss_if_TP": 0.08672,
+   "single_veto_gain_if_FP": null,
+   "break_even_false_fraction": null,
+   "rescue_p03": {
+    "delta_pp": -0.0094,
+    "ci95_pp": [
+     -0.0281,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 1,
+    "added_TP": 0,
+    "added_FP": 1
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 0
+   }
+  },
+  "F2_sib_ge": {
+   "pairs": 3,
+   "s1": 1,
+   "pos_pairs": 0,
+   "P_match_flag": 0.0,
+   "P_match_noflag": 0.02704,
+   "P_match_flag_p03": null,
+   "P_match_noflag_p03": 0.98559,
+   "accepted": 0,
+   "acc_TP": 0,
+   "acc_FP": 0,
+   "acc_precision_in_flag": null,
+   "acc_precision_outside": 0.99746,
+   "NEW_recall_in_flag": null,
+   "NEW_recall_outside": 0.968,
+   "rejected_p03": 0,
+   "rejected_p03_pos": 0,
+   "firing_rate_among_accepted": 0.0,
+   "by_country": {
+    "US": {
+     "pairs": 3,
+     "accepted": 0,
+     "acc_FP": 0
+    },
+    "India": {
+     "pairs": 0,
+     "accepted": 0,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     0,
+     null,
+     0.11504
+    ],
+    "[0.95,0.999)": [
+     0,
+     null,
+     0.00497
+    ],
+    "[0.999,1.01)": [
+     0,
+     null,
+     0.0
+    ]
+   },
+   "logit_incremental_p>=0.01": null,
+   "record_owner": {
+    "this_s1": 0,
+    "a_sibling": 2,
+    "other_or_none": 1,
+    "accepted_FP_owned_by_sibling": 0,
+    "accepted_FP": 0
+   }
+  },
+  "F2_sib_gt": {
+   "pairs": 3,
+   "s1": 1,
+   "pos_pairs": 0,
+   "P_match_flag": 0.0,
+   "P_match_noflag": 0.02704,
+   "P_match_flag_p03": null,
+   "P_match_noflag_p03": 0.98559,
+   "accepted": 0,
+   "acc_TP": 0,
+   "acc_FP": 0,
+   "acc_precision_in_flag": null,
+   "acc_precision_outside": 0.99746,
+   "NEW_recall_in_flag": null,
+   "NEW_recall_outside": 0.968,
+   "rejected_p03": 0,
+   "rejected_p03_pos": 0,
+   "firing_rate_among_accepted": 0.0,
+   "by_country": {
+    "US": {
+     "pairs": 3,
+     "accepted": 0,
+     "acc_FP": 0
+    },
+    "India": {
+     "pairs": 0,
+     "accepted": 0,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     0,
+     null,
+     0.11504
+    ],
+    "[0.95,0.999)": [
+     0,
+     null,
+     0.00497
+    ],
+    "[0.999,1.01)": [
+     0,
+     null,
+     0.0
+    ]
+   },
+   "logit_incremental_p>=0.01": null,
+   "record_owner": {
+    "this_s1": 0,
+    "a_sibling": 2,
+    "other_or_none": 1,
+    "accepted_FP_owned_by_sibling": 0,
+    "accepted_FP": 0
+   }
+  },
+  "F2_has_sib": {
+   "pairs": 125,
+   "s1": 1,
+   "pos_pairs": 2,
+   "P_match_flag": 0.016,
+   "P_match_noflag": 0.02705,
+   "P_match_flag_p03": 1.0,
+   "P_match_noflag_p03": 0.98559,
+   "accepted": 2,
+   "acc_TP": 2,
+   "acc_FP": 0,
+   "acc_precision_in_flag": 1.0,
+   "acc_precision_outside": 0.99746,
+   "NEW_recall_in_flag": 1.0,
+   "NEW_recall_outside": 0.96799,
+   "rejected_p03": 0,
+   "rejected_p03_pos": 0,
+   "firing_rate_among_accepted": 0.000298,
+   "by_country": {
+    "US": {
+     "pairs": 125,
+     "accepted": 2,
+     "acc_FP": 0
+    },
+    "India": {
+     "pairs": 0,
+     "accepted": 0,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     0,
+     null,
+     0.11504
+    ],
+    "[0.95,0.999)": [
+     1,
+     0.0,
+     0.00498
+    ],
+    "[0.999,1.01)": [
+     1,
+     0.0,
+     0.0
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 8979,
+    "n_flag": 8,
+    "coef_flag": -1.1427,
+    "se": 3.3499,
+    "z": -0.34,
+    "LR_chi2": 0.13,
+    "coef_logit_p": 0.9939
+   },
+   "veto": {
+    "delta_pp": -0.05,
+    "ci95_pp": [
+     -0.1499,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 1,
+    "US_pp": -0.0833,
+    "India_pp": 0.0
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 0
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -0.05,
+    "ci95_pp": [
+     -0.1499,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 1
+   },
+   "single_veto_loss_if_TP": 0.16667,
+   "single_veto_gain_if_FP": null,
+   "break_even_false_fraction": null,
+   "record_owner": {
+    "this_s1": 2,
+    "a_sibling": 3,
+    "other_or_none": 120,
+    "accepted_FP_owned_by_sibling": 0,
+    "accepted_FP": 0
+   }
+  },
+  "F3_street_mismatch": {
+   "pairs": 2626,
+   "s1": 515,
+   "pos_pairs": 125,
+   "P_match_flag": 0.0476,
+   "P_match_noflag": 0.02683,
+   "P_match_flag_p03": 1.0,
+   "P_match_noflag_p03": 0.98533,
+   "accepted": 123,
+   "acc_TP": 123,
+   "acc_FP": 0,
+   "acc_precision_in_flag": 1.0,
+   "acc_precision_outside": 0.99742,
+   "NEW_recall_in_flag": 0.984,
+   "NEW_recall_outside": 0.9677,
+   "rejected_p03": 1,
+   "rejected_p03_pos": 1,
+   "firing_rate_among_accepted": 0.018353,
+   "by_country": {
+    "US": {
+     "pairs": 949,
+     "accepted": 28,
+     "acc_FP": 0
+    },
+    "India": {
+     "pairs": 1677,
+     "accepted": 95,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     3,
+     0.0,
+     0.11818
+    ],
+    "[0.95,0.999)": [
+     18,
+     0.0,
+     0.00508
+    ],
+    "[0.999,1.01)": [
+     102,
+     0.0,
+     0.0
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 8979,
+    "n_flag": 131,
+    "coef_flag": 1.3879,
+    "se": 0.9204,
+    "z": 1.51,
+    "LR_chi2": 2.12,
+    "coef_logit_p": 0.9929
+   },
+   "veto": {
+    "delta_pp": -0.9965,
+    "ci95_pp": [
+     -1.3659,
+     -0.6673
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 75,
+    "US_pp": -0.3184,
+    "India_pp": -2.0123
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 0
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -0.9965,
+    "ci95_pp": [
+     -1.3659,
+     -0.6673
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 75
+   },
+   "single_veto_loss_if_TP": 0.09992,
+   "single_veto_gain_if_FP": null,
+   "break_even_false_fraction": null,
+   "rescue_p03": {
+    "delta_pp": 0.0045,
+    "ci95_pp": [
+     0.0,
+     0.0136
+    ],
+    "p_delta_le0": 0.3683,
+    "n_s1_changed": 1,
+    "added_TP": 1,
+    "added_FP": 0
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0045,
+    "ci95_pp": [
+     0.0,
+     0.0136
+    ],
+    "p_delta_le0": 0.3683,
+    "n_s1_changed": 1
+   }
+  },
+  "F3_street_mismatch_numeq": {
+   "pairs": 109,
+   "s1": 65,
+   "pos_pairs": 30,
+   "P_match_flag": 0.27523,
+   "P_match_noflag": 0.02694,
+   "P_match_flag_p03": 1.0,
+   "P_match_noflag_p03": 0.98553,
+   "accepted": 30,
+   "acc_TP": 30,
+   "acc_FP": 0,
+   "acc_precision_in_flag": 1.0,
+   "acc_precision_outside": 0.99745,
+   "NEW_recall_in_flag": 1.0,
+   "NEW_recall_outside": 0.96786,
+   "rejected_p03": 0,
+   "rejected_p03_pos": 0,
+   "firing_rate_among_accepted": 0.004476,
+   "by_country": {
+    "US": {
+     "pairs": 26,
+     "accepted": 17,
+     "acc_FP": 0
+    },
+    "India": {
+     "pairs": 83,
+     "accepted": 13,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     0,
+     null,
+     0.11504
+    ],
+    "[0.95,0.999)": [
+     4,
+     0.0,
+     0.00499
+    ],
+    "[0.999,1.01)": [
+     26,
+     0.0,
+     0.0
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 8979,
+    "n_flag": 31,
+    "coef_flag": -0.7831,
+    "se": 2.341,
+    "z": -0.33,
+    "LR_chi2": 0.11,
+    "coef_logit_p": 0.9943
+   },
+   "veto": {
+    "delta_pp": -0.1614,
+    "ci95_pp": [
+     -0.2744,
+     -0.0807
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 27,
+    "US_pp": -0.1251,
+    "India_pp": -0.2158
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 0
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -0.1614,
+    "ci95_pp": [
+     -0.2744,
+     -0.0807
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 27
+   },
+   "single_veto_loss_if_TP": 0.10204,
+   "single_veto_gain_if_FP": null,
+   "break_even_false_fraction": null
+  },
+  "F1r_dist": {
+   "pairs": 8874,
+   "s1": 1486,
+   "pos_pairs": 347,
+   "P_match_flag": 0.0391,
+   "P_match_noflag": 0.02661,
+   "P_match_flag_p03": 0.97983,
+   "P_match_noflag_p03": 0.9859,
+   "accepted": 334,
+   "acc_TP": 333,
+   "acc_FP": 1,
+   "acc_precision_in_flag": 0.99701,
+   "acc_precision_outside": 0.99749,
+   "NEW_recall_in_flag": 0.95965,
+   "NEW_recall_outside": 0.96844,
+   "rejected_p03": 13,
+   "rejected_p03_pos": 7,
+   "firing_rate_among_accepted": 0.049836,
+   "by_country": {
+    "US": {
+     "pairs": 6519,
+     "accepted": 234,
+     "acc_FP": 0
+    },
+    "India": {
+     "pairs": 2355,
+     "accepted": 100,
+     "acc_FP": 1
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     5,
+     0.0,
+     0.12037
+    ],
+    "[0.95,0.999)": [
+     65,
+     0.01538,
+     0.00405
+    ],
+    "[0.999,1.01)": [
+     264,
+     0.0,
+     0.0
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 8979,
+    "n_flag": 528,
+    "coef_flag": -0.2566,
+    "se": 0.3077,
+    "z": -0.83,
+    "LR_chi2": 0.72,
+    "coef_logit_p": 0.9937
+   },
+   "veto": {
+    "delta_pp": -1.5511,
+    "ci95_pp": [
+     -1.8758,
+     -1.2661
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 292,
+    "US_pp": -1.863,
+    "India_pp": -1.0838
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0105,
+    "ci95_pp": [
+     0.0,
+     0.0316
+    ],
+    "p_delta_le0": 0.3683,
+    "n_s1_changed": 1
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -1.5511,
+    "ci95_pp": [
+     -1.8758,
+     -1.2661
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 292
+   },
+   "single_veto_loss_if_TP": 0.08767,
+   "single_veto_gain_if_FP": 0.21053,
+   "break_even_false_fraction": 0.294,
+   "rescue_p03": {
+    "delta_pp": -0.1223,
+    "ci95_pp": [
+     -0.2914,
+     0.005
+    ],
+    "p_delta_le0": 0.9674,
+    "n_s1_changed": 13,
+    "added_TP": 7,
+    "added_FP": 6
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0289,
+    "ci95_pp": [
+     0.0062,
+     0.0587
+    ],
+    "p_delta_le0": 0.0007,
+    "n_s1_changed": 7
+   }
+  },
+  "F1r_dist_sameaddr": {
+   "pairs": 232,
+   "s1": 205,
+   "pos_pairs": 206,
+   "P_match_flag": 0.88793,
+   "P_match_noflag": 0.02626,
+   "P_match_flag_p03": 1.0,
+   "P_match_noflag_p03": 0.98515,
+   "accepted": 204,
+   "acc_TP": 204,
+   "acc_FP": 0,
+   "acc_precision_in_flag": 1.0,
+   "acc_precision_outside": 0.99738,
+   "NEW_recall_in_flag": 0.99029,
+   "NEW_recall_outside": 0.96731,
+   "rejected_p03": 2,
+   "rejected_p03_pos": 2,
+   "firing_rate_among_accepted": 0.030439,
+   "by_country": {
+    "US": {
+     "pairs": 180,
+     "accepted": 168,
+     "acc_FP": 0
+    },
+    "India": {
+     "pairs": 52,
+     "accepted": 36,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     0,
+     null,
+     0.11504
+    ],
+    "[0.95,0.999)": [
+     26,
+     0.0,
+     0.00513
+    ],
+    "[0.999,1.01)": [
+     178,
+     0.0,
+     0.0
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 8979,
+    "n_flag": 207,
+    "coef_flag": 1.8858,
+    "se": 1.5029,
+    "z": 1.25,
+    "LR_chi2": 1.86,
+    "coef_logit_p": 0.9919
+   },
+   "veto": {
+    "delta_pp": -0.9549,
+    "ci95_pp": [
+     -1.2215,
+     -0.7271
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 180,
+    "US_pp": -1.377,
+    "India_pp": -0.3224
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 0
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -0.9549,
+    "ci95_pp": [
+     -1.2215,
+     -0.7271
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 180
+   },
+   "single_veto_loss_if_TP": 0.08674,
+   "single_veto_gain_if_FP": null,
+   "break_even_false_fraction": null,
+   "rescue_p03": {
+    "delta_pp": 0.0037,
+    "ci95_pp": [
+     0.0,
+     0.0092
+    ],
+    "p_delta_le0": 0.127,
+    "n_s1_changed": 2,
+    "added_TP": 2,
+    "added_FP": 0
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0037,
+    "ci95_pp": [
+     0.0,
+     0.0092
+    ],
+    "p_delta_le0": 0.127,
+    "n_s1_changed": 2
+   }
+  },
+  "F1r_dist_subst": {
+   "pairs": 7620,
+   "s1": 1323,
+   "pos_pairs": 243,
+   "P_match_flag": 0.03189,
+   "P_match_noflag": 0.02689,
+   "P_match_flag_p03": 0.97131,
+   "P_match_noflag_p03": 0.98612,
+   "accepted": 231,
+   "acc_TP": 230,
+   "acc_FP": 1,
+   "acc_precision_in_flag": 0.99567,
+   "acc_precision_outside": 0.99753,
+   "NEW_recall_in_flag": 0.9465,
+   "NEW_recall_outside": 0.96878,
+   "rejected_p03": 13,
+   "rejected_p03_pos": 7,
+   "firing_rate_among_accepted": 0.034467,
+   "by_country": {
+    "US": {
+     "pairs": 5536,
+     "accepted": 151,
+     "acc_FP": 0
+    },
+    "India": {
+     "pairs": 2084,
+     "accepted": 80,
+     "acc_FP": 1
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     5,
+     0.0,
+     0.12037
+    ],
+    "[0.95,0.999)": [
+     59,
+     0.01695,
+     0.00402
+    ],
+    "[0.999,1.01)": [
+     167,
+     0.0,
+     0.0
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 8979,
+    "n_flag": 376,
+    "coef_flag": -0.0749,
+    "se": 0.3338,
+    "z": -0.22,
+    "LR_chi2": 0.05,
+    "coef_logit_p": 0.994
+   },
+   "veto": {
+    "delta_pp": -0.9666,
+    "ci95_pp": [
+     -1.191,
+     -0.7736
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 215,
+    "US_pp": -1.0011,
+    "India_pp": -0.9149
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0105,
+    "ci95_pp": [
+     0.0,
+     0.0316
+    ],
+    "p_delta_le0": 0.3683,
+    "n_s1_changed": 1
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -0.9666,
+    "ci95_pp": [
+     -1.191,
+     -0.7736
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 215
+   },
+   "single_veto_loss_if_TP": 0.08282,
+   "single_veto_gain_if_FP": 0.21053,
+   "break_even_false_fraction": 0.2823,
+   "rescue_p03": {
+    "delta_pp": -0.1223,
+    "ci95_pp": [
+     -0.2914,
+     0.005
+    ],
+    "p_delta_le0": 0.9674,
+    "n_s1_changed": 13,
+    "added_TP": 7,
+    "added_FP": 6
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0289,
+    "ci95_pp": [
+     0.0062,
+     0.0587
+    ],
+    "p_delta_le0": 0.0007,
+    "n_s1_changed": 7
+   }
+  },
+  "F1r_dist_onesided": {
+   "pairs": 1254,
+   "s1": 605,
+   "pos_pairs": 104,
+   "P_match_flag": 0.08293,
+   "P_match_noflag": 0.02677,
+   "P_match_flag_p03": 1.0,
+   "P_match_noflag_p03": 0.98537,
+   "accepted": 103,
+   "acc_TP": 103,
+   "acc_FP": 0,
+   "acc_precision_in_flag": 1.0,
+   "acc_precision_outside": 0.99742,
+   "NEW_recall_in_flag": 0.99038,
+   "NEW_recall_outside": 0.96766,
+   "rejected_p03": 0,
+   "rejected_p03_pos": 0,
+   "firing_rate_among_accepted": 0.015369,
+   "by_country": {
+    "US": {
+     "pairs": 983,
+     "accepted": 83,
+     "acc_FP": 0
+    },
+    "India": {
+     "pairs": 271,
+     "accepted": 20,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     0,
+     null,
+     0.11504
+    ],
+    "[0.95,0.999)": [
+     6,
+     0.0,
+     0.00501
+    ],
+    "[0.999,1.01)": [
+     97,
+     0.0,
+     0.0
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 8979,
+    "n_flag": 152,
+    "coef_flag": -1.1015,
+    "se": 0.8683,
+    "z": -1.27,
+    "LR_chi2": 2.09,
+    "coef_logit_p": 0.9923
+   },
+   "veto": {
+    "delta_pp": -0.5197,
+    "ci95_pp": [
+     -0.7254,
+     -0.3522
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 94,
+    "US_pp": -0.7569,
+    "India_pp": -0.1643
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 0
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -0.5197,
+    "ci95_pp": [
+     -0.7254,
+     -0.3522
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 94
+   },
+   "single_veto_loss_if_TP": 0.0985,
+   "single_veto_gain_if_FP": null,
+   "break_even_false_fraction": null
+  },
+  "F1r_filler": {
+   "pairs": 8557,
+   "s1": 1723,
+   "pos_pairs": 1732,
+   "P_match_flag": 0.20241,
+   "P_match_noflag": 0.02096,
+   "P_match_flag_p03": 0.98416,
+   "P_match_noflag_p03": 0.98606,
+   "accepted": 1655,
+   "acc_TP": 1651,
+   "acc_FP": 4,
+   "acc_precision_in_flag": 0.99758,
+   "acc_precision_outside": 0.99742,
+   "NEW_recall_in_flag": 0.95323,
+   "NEW_recall_outside": 0.97294,
+   "rejected_p03": 50,
+   "rejected_p03_pos": 27,
+   "firing_rate_among_accepted": 0.246941,
+   "by_country": {
+    "US": {
+     "pairs": 6057,
+     "accepted": 943,
+     "acc_FP": 4
+    },
+    "India": {
+     "pairs": 2500,
+     "accepted": 712,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     22,
+     0.09091,
+     0.12088
+    ],
+    "[0.95,0.999)": [
+     185,
+     0.01081,
+     0.00323
+    ],
+    "[0.999,1.01)": [
+     1448,
+     0.0,
+     0.0
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 8979,
+    "n_flag": 2572,
+    "coef_flag": 0.1649,
+    "se": 0.1711,
+    "z": 0.96,
+    "LR_chi2": 0.93,
+    "coef_logit_p": 0.9996
+   },
+   "veto": {
+    "delta_pp": -9.8251,
+    "ci95_pp": [
+     -10.6759,
+     -9.0178
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 1076,
+    "US_pp": -9.5509,
+    "India_pp": -10.2358
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0415,
+    "ci95_pp": [
+     0.0041,
+     0.0985
+    ],
+    "p_delta_le0": 0.0169,
+    "n_s1_changed": 4
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -9.8251,
+    "ci95_pp": [
+     -10.6759,
+     -9.0178
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 1076
+   },
+   "single_veto_loss_if_TP": 0.08727,
+   "single_veto_gain_if_FP": 0.20767,
+   "break_even_false_fraction": 0.2959,
+   "rescue_p03": {
+    "delta_pp": -0.1896,
+    "ci95_pp": [
+     -0.3833,
+     -0.032
+    ],
+    "p_delta_le0": 0.993,
+    "n_s1_changed": 48,
+    "added_TP": 27,
+    "added_FP": 23
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.1214,
+    "ci95_pp": [
+     0.072,
+     0.1753
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 26
+   }
+  },
+  "F1r_filler_sameaddr": {
+   "pairs": 978,
+   "s1": 679,
+   "pos_pairs": 945,
+   "P_match_flag": 0.96626,
+   "P_match_noflag": 0.02343,
+   "P_match_flag_p03": 0.99894,
+   "P_match_noflag_p03": 0.98346,
+   "accepted": 945,
+   "acc_TP": 945,
+   "acc_FP": 0,
+   "acc_precision_in_flag": 1.0,
+   "acc_precision_outside": 0.99705,
+   "NEW_recall_in_flag": 1.0,
+   "NEW_recall_outside": 0.96293,
+   "rejected_p03": 1,
+   "rejected_p03_pos": 0,
+   "firing_rate_among_accepted": 0.141003,
+   "by_country": {
+    "US": {
+     "pairs": 681,
+     "accepted": 676,
+     "acc_FP": 0
+    },
+    "India": {
+     "pairs": 297,
+     "accepted": 269,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     4,
+     0.0,
+     0.11927
+    ],
+    "[0.95,0.999)": [
+     62,
+     0.0,
+     0.00538
+    ],
+    "[0.999,1.01)": [
+     879,
+     0.0,
+     0.0
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 8979,
+    "n_flag": 949,
+    "coef_flag": 0.0871,
+    "se": 0.8989,
+    "z": 0.1,
+    "LR_chi2": 0.01,
+    "coef_logit_p": 0.9935
+   },
+   "veto": {
+    "delta_pp": -5.2313,
+    "ci95_pp": [
+     -5.8526,
+     -4.6484
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 662,
+    "US_pp": -6.4973,
+    "India_pp": -3.3348
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 0
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -5.2313,
+    "ci95_pp": [
+     -5.8526,
+     -4.6484
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 662
+   },
+   "single_veto_loss_if_TP": 0.08625,
+   "single_veto_gain_if_FP": null,
+   "break_even_false_fraction": null,
+   "rescue_p03": {
+    "delta_pp": -0.0094,
+    "ci95_pp": [
+     -0.0281,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 1,
+    "added_TP": 0,
+    "added_FP": 1
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 0
+   }
+  },
+  "F1_typo_only": {
+   "pairs": 2843,
+   "s1": 1211,
+   "pos_pairs": 785,
+   "P_match_flag": 0.27612,
+   "P_match_noflag": 0.02424,
+   "P_match_flag_p03": 0.9898,
+   "P_match_noflag_p03": 0.98505,
+   "accepted": 760,
+   "acc_TP": 759,
+   "acc_FP": 1,
+   "acc_precision_in_flag": 0.99868,
+   "acc_precision_outside": 0.99731,
+   "NEW_recall_in_flag": 0.96688,
+   "NEW_recall_outside": 0.96814,
+   "rejected_p03": 24,
+   "rejected_p03_pos": 17,
+   "firing_rate_among_accepted": 0.113399,
+   "by_country": {
+    "US": {
+     "pairs": 1914,
+     "accepted": 486,
+     "acc_FP": 1
+    },
+    "India": {
+     "pairs": 929,
+     "accepted": 274,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     16,
+     0.0625,
+     0.12371
+    ],
+    "[0.95,0.999)": [
+     101,
+     0.0,
+     0.00568
+    ],
+    "[0.999,1.01)": [
+     643,
+     0.0,
+     0.0
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 8979,
+    "n_flag": 993,
+    "coef_flag": 0.1801,
+    "se": 0.2521,
+    "z": 0.71,
+    "LR_chi2": 0.5,
+    "coef_logit_p": 0.9931
+   },
+   "veto": {
+    "delta_pp": -4.1496,
+    "ci95_pp": [
+     -4.6963,
+     -3.6221
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 624,
+    "US_pp": -4.4052,
+    "India_pp": -3.7668
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0105,
+    "ci95_pp": [
+     0.0,
+     0.0316
+    ],
+    "p_delta_le0": 0.3683,
+    "n_s1_changed": 1
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -4.1496,
+    "ci95_pp": [
+     -4.6963,
+     -3.6221
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 624
+   },
+   "single_veto_loss_if_TP": 0.09643,
+   "single_veto_gain_if_FP": 0.21053,
+   "break_even_false_fraction": 0.3142,
+   "rescue_p03": {
+    "delta_pp": -0.0252,
+    "ci95_pp": [
+     -0.0954,
+     0.0356
+    ],
+    "p_delta_le0": 0.7756,
+    "n_s1_changed": 24,
+    "added_TP": 17,
+    "added_FP": 7
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0528,
+    "ci95_pp": [
+     0.0283,
+     0.0808
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 17
+   }
+  },
+  "F3r_mismatch": {
+   "pairs": 2202,
+   "s1": 437,
+   "pos_pairs": 89,
+   "P_match_flag": 0.04042,
+   "P_match_noflag": 0.02692,
+   "P_match_flag_p03": 1.0,
+   "P_match_noflag_p03": 0.9854,
+   "accepted": 87,
+   "acc_TP": 87,
+   "acc_FP": 0,
+   "acc_precision_in_flag": 1.0,
+   "acc_precision_outside": 0.99743,
+   "NEW_recall_in_flag": 0.97753,
+   "NEW_recall_outside": 0.96787,
+   "rejected_p03": 1,
+   "rejected_p03_pos": 1,
+   "firing_rate_among_accepted": 0.012981,
+   "by_country": {
+    "US": {
+     "pairs": 900,
+     "accepted": 28,
+     "acc_FP": 0
+    },
+    "India": {
+     "pairs": 1302,
+     "accepted": 59,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     2,
+     0.0,
+     0.11712
+    ],
+    "[0.95,0.999)": [
+     13,
+     0.0,
+     0.00505
+    ],
+    "[0.999,1.01)": [
+     72,
+     0.0,
+     0.0
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 8979,
+    "n_flag": 92,
+    "coef_flag": 1.7719,
+    "se": 1.0745,
+    "z": 1.65,
+    "LR_chi2": 2.63,
+    "coef_logit_p": 0.993
+   },
+   "veto": {
+    "delta_pp": -0.6875,
+    "ci95_pp": [
+     -0.9987,
+     -0.4264
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 57,
+    "US_pp": -0.3184,
+    "India_pp": -1.2405
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 0
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -0.6875,
+    "ci95_pp": [
+     -0.9987,
+     -0.4264
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 57
+   },
+   "single_veto_loss_if_TP": 0.09249,
+   "single_veto_gain_if_FP": null,
+   "break_even_false_fraction": null,
+   "rescue_p03": {
+    "delta_pp": 0.0045,
+    "ci95_pp": [
+     0.0,
+     0.0136
+    ],
+    "p_delta_le0": 0.3683,
+    "n_s1_changed": 1,
+    "added_TP": 1,
+    "added_FP": 0
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0045,
+    "ci95_pp": [
+     0.0,
+     0.0136
+    ],
+    "p_delta_le0": 0.3683,
+    "n_s1_changed": 1
+   }
+  },
+  "F3r_mismatch_numeq": {
+   "pairs": 98,
+   "s1": 56,
+   "pos_pairs": 28,
+   "P_match_flag": 0.28571,
+   "P_match_noflag": 0.02694,
+   "P_match_flag_p03": 1.0,
+   "P_match_noflag_p03": 0.98553,
+   "accepted": 28,
+   "acc_TP": 28,
+   "acc_FP": 0,
+   "acc_precision_in_flag": 1.0,
+   "acc_precision_outside": 0.99745,
+   "NEW_recall_in_flag": 1.0,
+   "NEW_recall_outside": 0.96787,
+   "rejected_p03": 0,
+   "rejected_p03_pos": 0,
+   "firing_rate_among_accepted": 0.004178,
+   "by_country": {
+    "US": {
+     "pairs": 22,
+     "accepted": 17,
+     "acc_FP": 0
+    },
+    "India": {
+     "pairs": 76,
+     "accepted": 11,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     0,
+     null,
+     0.11504
+    ],
+    "[0.95,0.999)": [
+     4,
+     0.0,
+     0.00499
+    ],
+    "[0.999,1.01)": [
+     24,
+     0.0,
+     0.0
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 8979,
+    "n_flag": 29,
+    "coef_flag": -0.7923,
+    "se": 2.3511,
+    "z": -0.34,
+    "LR_chi2": 0.11,
+    "coef_logit_p": 0.9943
+   },
+   "veto": {
+    "delta_pp": -0.1507,
+    "ci95_pp": [
+     -0.2577,
+     -0.0706
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 25,
+    "US_pp": -0.1251,
+    "India_pp": -0.189
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 0
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -0.1507,
+    "ci95_pp": [
+     -0.2577,
+     -0.0706
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 25
+   },
+   "single_veto_loss_if_TP": 0.10168,
+   "single_veto_gain_if_FP": null,
+   "break_even_false_fraction": null
+  },
+  "F3r_numeq_anyov": {
+   "pairs": 9126,
+   "s1": 758,
+   "pos_pairs": 60,
+   "P_match_flag": 0.00657,
+   "P_match_noflag": 0.0278,
+   "P_match_flag_p03": 1.0,
+   "P_match_noflag_p03": 0.98546,
+   "accepted": 60,
+   "acc_TP": 60,
+   "acc_FP": 0,
+   "acc_precision_in_flag": 1.0,
+   "acc_precision_outside": 0.99744,
+   "NEW_recall_in_flag": 1.0,
+   "NEW_recall_outside": 0.96772,
+   "rejected_p03": 0,
+   "rejected_p03_pos": 0,
+   "firing_rate_among_accepted": 0.008953,
+   "by_country": {
+    "US": {
+     "pairs": 8313,
+     "accepted": 45,
+     "acc_FP": 0
+    },
+    "India": {
+     "pairs": 813,
+     "accepted": 15,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     0,
+     null,
+     0.11504
+    ],
+    "[0.95,0.999)": [
+     9,
+     0.0,
+     0.00503
+    ],
+    "[0.999,1.01)": [
+     51,
+     0.0,
+     0.0
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 8979,
+    "n_flag": 62,
+    "coef_flag": -0.4702,
+    "se": 1.9762,
+    "z": -0.24,
+    "LR_chi2": 0.06,
+    "coef_logit_p": 0.9943
+   },
+   "veto": {
+    "delta_pp": -0.4015,
+    "ci95_pp": [
+     -0.5977,
+     -0.2397
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 47,
+    "US_pp": -0.519,
+    "India_pp": -0.2255
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 0
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -0.4015,
+    "ci95_pp": [
+     -0.5977,
+     -0.2397
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 47
+   },
+   "single_veto_loss_if_TP": 0.11959,
+   "single_veto_gain_if_FP": null,
+   "break_even_false_fraction": null
+  }
+ },
+ "V0+V1": {
+  "baseline": {
+   "n_s1": 22001,
+   "macro": 98.7921,
+   "macro_mc": 98.7941,
+   "accepted": 74055,
+   "FP": 184,
+   "TP": 73871
+  },
+  "F1_dist_s0.5": {
+   "pairs": 111252,
+   "s1": 17818,
+   "pos_pairs": 8630,
+   "P_match_flag": 0.07757,
+   "P_match_noflag": 0.02505,
+   "P_match_flag_p03": 0.98199,
+   "P_match_noflag_p03": 0.98467,
+   "accepted": 8361,
+   "acc_TP": 8330,
+   "acc_FP": 31,
+   "acc_precision_in_flag": 0.99629,
+   "acc_precision_outside": 0.99767,
+   "NEW_recall_in_flag": 0.96524,
+   "NEW_recall_outside": 0.97086,
+   "rejected_p03": 243,
+   "rejected_p03_pos": 119,
+   "firing_rate_among_accepted": 0.112903,
+   "by_country": {
+    "US": {
+     "pairs": 79467,
+     "accepted": 5867,
+     "acc_FP": 17
+    },
+    "India": {
+     "pairs": 31785,
+     "accepted": 2494,
+     "acc_FP": 14
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     194,
+     0.08763,
+     0.10322
+    ],
+    "[0.95,0.999)": [
+     1245,
+     0.01044,
+     0.00514
+    ],
+    "[0.999,1.01)": [
+     6922,
+     0.00014,
+     7e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 99065,
+    "n_flag": 11595,
+    "coef_flag": -0.0357,
+    "se": 0.073,
+    "z": -0.49,
+    "LR_chi2": 0.24,
+    "coef_logit_p": 1.007
+   },
+   "veto": {
+    "delta_pp": -4.1015,
+    "ci95_pp": [
+     -4.2626,
+     -3.9415
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 6366,
+    "US_pp": -4.9413,
+    "India_pp": -2.8326
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0334,
+    "ci95_pp": [
+     0.0202,
+     0.0491
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 30
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -4.1015,
+    "ci95_pp": [
+     -4.2626,
+     -3.9415
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 6366
+   },
+   "single_veto_loss_if_TP": 0.09075,
+   "single_veto_gain_if_FP": 0.23651,
+   "break_even_false_fraction": 0.2773,
+   "rescue_p03": {
+    "delta_pp": -0.0844,
+    "ci95_pp": [
+     -0.1238,
+     -0.0465
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 239,
+    "added_TP": 119,
+    "added_FP": 124
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0635,
+    "ci95_pp": [
+     0.0443,
+     0.0871
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 119
+   }
+  },
+  "F1_dist_s0.5_sameaddr": {
+   "pairs": 5370,
+   "s1": 4244,
+   "pos_pairs": 5016,
+   "P_match_flag": 0.93408,
+   "P_match_noflag": 0.0254,
+   "P_match_flag_p03": 0.99761,
+   "P_match_noflag_p03": 0.98343,
+   "accepted": 5000,
+   "acc_TP": 4993,
+   "acc_FP": 7,
+   "acc_precision_in_flag": 0.9986,
+   "acc_precision_outside": 0.99744,
+   "NEW_recall_in_flag": 0.99541,
+   "NEW_recall_outside": 0.96845,
+   "rejected_p03": 20,
+   "rejected_p03_pos": 15,
+   "firing_rate_among_accepted": 0.067517,
+   "by_country": {
+    "US": {
+     "pairs": 4246,
+     "accepted": 4125,
+     "acc_FP": 4
+    },
+    "India": {
+     "pairs": 1124,
+     "accepted": 875,
+     "acc_FP": 3
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     23,
+     0.17391,
+     0.09943
+    ],
+    "[0.95,0.999)": [
+     415,
+     0.00723,
+     0.00581
+    ],
+    "[0.999,1.01)": [
+     4562,
+     0.0,
+     8e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 99065,
+    "n_flag": 5066,
+    "coef_flag": 0.3626,
+    "se": 0.2908,
+    "z": 1.25,
+    "LR_chi2": 1.58,
+    "coef_logit_p": 1.0057
+   },
+   "veto": {
+    "delta_pp": -2.4218,
+    "ci95_pp": [
+     -2.5434,
+     -2.2984
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 3970,
+    "US_pp": -3.3646,
+    "India_pp": -0.9972
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0095,
+    "ci95_pp": [
+     0.002,
+     0.0211
+    ],
+    "p_delta_le0": 0.0007,
+    "n_s1_changed": 7
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -2.4218,
+    "ci95_pp": [
+     -2.5434,
+     -2.2984
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 3970
+   },
+   "single_veto_loss_if_TP": 0.09155,
+   "single_veto_gain_if_FP": 0.29919,
+   "break_even_false_fraction": 0.2343,
+   "rescue_p03": {
+    "delta_pp": 0.0082,
+    "ci95_pp": [
+     -0.0031,
+     0.0234
+    ],
+    "p_delta_le0": 0.1041,
+    "n_s1_changed": 20,
+    "added_TP": 15,
+    "added_FP": 5
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0127,
+    "ci95_pp": [
+     0.0026,
+     0.0274
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 15
+   }
+  },
+  "F1_filler_all": {
+   "pairs": 94933,
+   "s1": 19151,
+   "pos_pairs": 19859,
+   "P_match_flag": 0.20919,
+   "P_match_noflag": 0.02076,
+   "P_match_flag_p03": 0.98299,
+   "P_match_noflag_p03": 0.98485,
+   "accepted": 19120,
+   "acc_TP": 19082,
+   "acc_FP": 38,
+   "acc_precision_in_flag": 0.99801,
+   "acc_precision_outside": 0.99734,
+   "NEW_recall_in_flag": 0.96087,
+   "NEW_recall_outside": 0.97352,
+   "rejected_p03": 572,
+   "rejected_p03_pos": 275,
+   "firing_rate_among_accepted": 0.258186,
+   "by_country": {
+    "US": {
+     "pairs": 66506,
+     "accepted": 10941,
+     "acc_FP": 22
+    },
+    "India": {
+     "pairs": 28427,
+     "accepted": 8179,
+     "acc_FP": 16
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     282,
+     0.09574,
+     0.10227
+    ],
+    "[0.95,0.999)": [
+     2278,
+     0.00439,
+     0.00637
+    ],
+    "[0.999,1.01)": [
+     16560,
+     6e-05,
+     8e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 99065,
+    "n_flag": 29666,
+    "coef_flag": -0.0154,
+    "se": 0.0525,
+    "z": -0.29,
+    "LR_chi2": 0.09,
+    "coef_logit_p": 1.0064
+   },
+   "veto": {
+    "delta_pp": -10.6371,
+    "ci95_pp": [
+     -10.8913,
+     -10.3747
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 12379,
+    "US_pp": -10.0649,
+    "India_pp": -11.5017
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0446,
+    "ci95_pp": [
+     0.0291,
+     0.0624
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 37
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -10.6392,
+    "ci95_pp": [
+     -10.8934,
+     -10.3769
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 12379
+   },
+   "single_veto_loss_if_TP": 0.09011,
+   "single_veto_gain_if_FP": 0.25707,
+   "break_even_false_fraction": 0.2595,
+   "rescue_p03": {
+    "delta_pp": -0.2496,
+    "ci95_pp": [
+     -0.3101,
+     -0.1927
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 549,
+    "added_TP": 275,
+    "added_FP": 297
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.1187,
+    "ci95_pp": [
+     0.0963,
+     0.1444
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 265
+   }
+  },
+  "F1_filler_all_sameaddr": {
+   "pairs": 10841,
+   "s1": 7585,
+   "pos_pairs": 10542,
+   "P_match_flag": 0.97242,
+   "P_match_noflag": 0.02347,
+   "P_match_flag_p03": 0.99943,
+   "P_match_noflag_p03": 0.98194,
+   "accepted": 10534,
+   "acc_TP": 10532,
+   "acc_FP": 2,
+   "acc_precision_in_flag": 0.99981,
+   "acc_precision_outside": 0.99713,
+   "NEW_recall_in_flag": 0.99905,
+   "NEW_recall_outside": 0.96559,
+   "rejected_p03": 14,
+   "rejected_p03_pos": 10,
+   "firing_rate_among_accepted": 0.142246,
+   "by_country": {
+    "US": {
+     "pairs": 7740,
+     "accepted": 7684,
+     "acc_FP": 2
+    },
+    "India": {
+     "pairs": 3101,
+     "accepted": 2850,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     43,
+     0.0,
+     0.10439
+    ],
+    "[0.95,0.999)": [
+     642,
+     0.00156,
+     0.0062
+    ],
+    "[0.999,1.01)": [
+     9849,
+     0.0001,
+     7e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 99065,
+    "n_flag": 10566,
+    "coef_flag": 0.6827,
+    "se": 0.3431,
+    "z": 1.99,
+    "LR_chi2": 4.42,
+    "coef_logit_p": 1.0039
+   },
+   "veto": {
+    "delta_pp": -5.5859,
+    "ci95_pp": [
+     -5.7828,
+     -5.3931
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 7431,
+    "US_pp": -6.8451,
+    "India_pp": -3.6835
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0033,
+    "ci95_pp": [
+     0.0,
+     0.0087
+    ],
+    "p_delta_le0": 0.1271,
+    "n_s1_changed": 2
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -5.5859,
+    "ci95_pp": [
+     -5.7828,
+     -5.3931
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 7431
+   },
+   "single_veto_loss_if_TP": 0.09129,
+   "single_veto_gain_if_FP": 0.36508,
+   "break_even_false_fraction": 0.2,
+   "rescue_p03": {
+    "delta_pp": -0.0018,
+    "ci95_pp": [
+     -0.0133,
+     0.0059
+    ],
+    "p_delta_le0": 0.6101,
+    "n_s1_changed": 14,
+    "added_TP": 10,
+    "added_FP": 4
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.005,
+    "ci95_pp": [
+     0.0019,
+     0.0088
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 10
+   }
+  },
+  "F2_sib_ge": {
+   "pairs": 158,
+   "s1": 7,
+   "pos_pairs": 1,
+   "P_match_flag": 0.00633,
+   "P_match_noflag": 0.02714,
+   "P_match_flag_p03": 0.125,
+   "P_match_noflag_p03": 0.98445,
+   "accepted": 7,
+   "acc_TP": 1,
+   "acc_FP": 6,
+   "acc_precision_in_flag": 0.14286,
+   "acc_precision_outside": 0.9976,
+   "NEW_recall_in_flag": 1.0,
+   "NEW_recall_outside": 0.97022,
+   "rejected_p03": 1,
+   "rejected_p03_pos": 0,
+   "firing_rate_among_accepted": 9.5e-05,
+   "by_country": {
+    "US": {
+     "pairs": 60,
+     "accepted": 6,
+     "acc_FP": 5
+    },
+    "India": {
+     "pairs": 98,
+     "accepted": 1,
+     "acc_FP": 1
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     0,
+     null,
+     0.1008
+    ],
+    "[0.95,0.999)": [
+     4,
+     1.0,
+     0.00543
+    ],
+    "[0.999,1.01)": [
+     3,
+     0.66667,
+     5e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 99065,
+    "n_flag": 13,
+    "coef_flag": -9.498,
+    "se": 1.2903,
+    "z": -7.36,
+    "LR_chi2": 70.85,
+    "coef_logit_p": 1.0126
+   },
+   "veto": {
+    "delta_pp": 0.0043,
+    "ci95_pp": [
+     0.0,
+     0.0104
+    ],
+    "p_delta_le0": 0.0445,
+    "n_s1_changed": 3,
+    "US_pp": 0.0038,
+    "India_pp": 0.0051
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0051,
+    "ci95_pp": [
+     0.0,
+     0.0117
+    ],
+    "p_delta_le0": 0.0445,
+    "n_s1_changed": 3
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": 0.0043,
+    "ci95_pp": [
+     0.0,
+     0.0104
+    ],
+    "p_delta_le0": 0.0445,
+    "n_s1_changed": 3
+   },
+   "single_veto_loss_if_TP": 0.21429,
+   "single_veto_gain_if_FP": 0.16564,
+   "break_even_false_fraction": 0.564,
+   "rescue_p03": {
+    "delta_pp": -0.0007,
+    "ci95_pp": [
+     -0.0022,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 1,
+    "added_TP": 0,
+    "added_FP": 1
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 0
+   },
+   "record_owner": {
+    "this_s1": 1,
+    "a_sibling": 22,
+    "other_or_none": 135,
+    "accepted_FP_owned_by_sibling": 6,
+    "accepted_FP": 6
+   }
+  },
+  "F2_sib_gt": {
+   "pairs": 36,
+   "s1": 7,
+   "pos_pairs": 0,
+   "P_match_flag": 0.0,
+   "P_match_noflag": 0.02714,
+   "P_match_flag_p03": 0.0,
+   "P_match_noflag_p03": 0.98443,
+   "accepted": 4,
+   "acc_TP": 0,
+   "acc_FP": 4,
+   "acc_precision_in_flag": 0.0,
+   "acc_precision_outside": 0.99757,
+   "NEW_recall_in_flag": null,
+   "NEW_recall_outside": 0.97023,
+   "rejected_p03": 1,
+   "rejected_p03_pos": 0,
+   "firing_rate_among_accepted": 5.4e-05,
+   "by_country": {
+    "US": {
+     "pairs": 31,
+     "accepted": 4,
+     "acc_FP": 4
+    },
+    "India": {
+     "pairs": 5,
+     "accepted": 0,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     0,
+     null,
+     0.1008
+    ],
+    "[0.95,0.999)": [
+     3,
+     1.0,
+     0.00554
+    ],
+    "[0.999,1.01)": [
+     1,
+     1.0,
+     6e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 99065,
+    "n_flag": 8,
+    "coef_flag": -30.0483,
+    "se": 9819.8722,
+    "z": -0.0,
+    "LR_chi2": 45.44,
+    "coef_logit_p": 1.0104
+   },
+   "veto": {
+    "delta_pp": 0.0018,
+    "ci95_pp": [
+     0.0,
+     0.0053
+    ],
+    "p_delta_le0": 0.3685,
+    "n_s1_changed": 1,
+    "US_pp": 0.0029,
+    "India_pp": 0.0
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0018,
+    "ci95_pp": [
+     0.0,
+     0.0053
+    ],
+    "p_delta_le0": 0.3685,
+    "n_s1_changed": 1
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": 0.0018,
+    "ci95_pp": [
+     0.0,
+     0.0053
+    ],
+    "p_delta_le0": 0.3685,
+    "n_s1_changed": 1
+   },
+   "single_veto_loss_if_TP": null,
+   "single_veto_gain_if_FP": 0.06592,
+   "break_even_false_fraction": null,
+   "rescue_p03": {
+    "delta_pp": -0.0007,
+    "ci95_pp": [
+     -0.0022,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 1,
+    "added_TP": 0,
+    "added_FP": 1
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 0
+   },
+   "record_owner": {
+    "this_s1": 0,
+    "a_sibling": 18,
+    "other_or_none": 18,
+    "accepted_FP_owned_by_sibling": 4,
+    "accepted_FP": 4
+   }
+  },
+  "F2_has_sib": {
+   "pairs": 897,
+   "s1": 7,
+   "pos_pairs": 24,
+   "P_match_flag": 0.02676,
+   "P_match_noflag": 0.02714,
+   "P_match_flag_p03": 0.76667,
+   "P_match_noflag_p03": 0.98445,
+   "accepted": 29,
+   "acc_TP": 23,
+   "acc_FP": 6,
+   "acc_precision_in_flag": 0.7931,
+   "acc_precision_outside": 0.9976,
+   "NEW_recall_in_flag": 0.95833,
+   "NEW_recall_outside": 0.97023,
+   "rejected_p03": 1,
+   "rejected_p03_pos": 0,
+   "firing_rate_among_accepted": 0.000392,
+   "by_country": {
+    "US": {
+     "pairs": 493,
+     "accepted": 19,
+     "acc_FP": 5
+    },
+    "India": {
+     "pairs": 404,
+     "accepted": 10,
+     "acc_FP": 1
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     0,
+     null,
+     0.1008
+    ],
+    "[0.95,0.999)": [
+     5,
+     0.8,
+     0.00543
+    ],
+    "[0.999,1.01)": [
+     24,
+     0.08333,
+     5e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 99065,
+    "n_flag": 58,
+    "coef_flag": -6.0056,
+    "se": 0.7536,
+    "z": -7.97,
+    "LR_chi2": 45.74,
+    "coef_logit_p": 1.0111
+   },
+   "veto": {
+    "delta_pp": -0.0265,
+    "ci95_pp": [
+     -0.0483,
+     -0.0088
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 7,
+    "US_pp": -0.0248,
+    "India_pp": -0.0292
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0051,
+    "ci95_pp": [
+     0.0,
+     0.0117
+    ],
+    "p_delta_le0": 0.0445,
+    "n_s1_changed": 3
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -0.0265,
+    "ci95_pp": [
+     -0.0483,
+     -0.0088
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 7
+   },
+   "single_veto_loss_if_TP": 0.10594,
+   "single_veto_gain_if_FP": 0.16564,
+   "break_even_false_fraction": 0.3901,
+   "rescue_p03": {
+    "delta_pp": -0.0007,
+    "ci95_pp": [
+     -0.0022,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 1,
+    "added_TP": 0,
+    "added_FP": 1
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 0
+   },
+   "record_owner": {
+    "this_s1": 24,
+    "a_sibling": 26,
+    "other_or_none": 847,
+    "accepted_FP_owned_by_sibling": 6,
+    "accepted_FP": 6
+   }
+  },
+  "F3_street_mismatch": {
+   "pairs": 27006,
+   "s1": 5191,
+   "pos_pairs": 1171,
+   "P_match_flag": 0.04336,
+   "P_match_noflag": 0.02698,
+   "P_match_flag_p03": 0.99233,
+   "P_match_noflag_p03": 0.98424,
+   "accepted": 1160,
+   "acc_TP": 1158,
+   "acc_FP": 2,
+   "acc_precision_in_flag": 0.99828,
+   "acc_precision_outside": 0.9975,
+   "NEW_recall_in_flag": 0.9889,
+   "NEW_recall_outside": 0.96993,
+   "rejected_p03": 14,
+   "rejected_p03_pos": 7,
+   "firing_rate_among_accepted": 0.015664,
+   "by_country": {
+    "US": {
+     "pairs": 9529,
+     "accepted": 301,
+     "acc_FP": 1
+    },
+    "India": {
+     "pairs": 17477,
+     "accepted": 859,
+     "acc_FP": 1
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     22,
+     0.04545,
+     0.10179
+    ],
+    "[0.95,0.999)": [
+     193,
+     0.00518,
+     0.00589
+    ],
+    "[0.999,1.01)": [
+     945,
+     0.0,
+     8e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 99065,
+    "n_flag": 1223,
+    "coef_flag": 0.2599,
+    "se": 0.3414,
+    "z": 0.76,
+    "LR_chi2": 0.58,
+    "coef_logit_p": 1.0064
+   },
+   "veto": {
+    "delta_pp": -0.7899,
+    "ci95_pp": [
+     -0.8827,
+     -0.699
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 739,
+    "US_pp": -0.289,
+    "India_pp": -1.5468
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0016,
+    "ci95_pp": [
+     0.0,
+     0.0041
+    ],
+    "p_delta_le0": 0.1271,
+    "n_s1_changed": 2
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -0.7899,
+    "ci95_pp": [
+     -0.8827,
+     -0.699
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 739
+   },
+   "single_veto_loss_if_TP": 0.09435,
+   "single_veto_gain_if_FP": 0.17423,
+   "break_even_false_fraction": 0.3513,
+   "rescue_p03": {
+    "delta_pp": -0.0054,
+    "ci95_pp": [
+     -0.0112,
+     -0.0002
+    ],
+    "p_delta_le0": 0.9821,
+    "n_s1_changed": 14,
+    "added_TP": 7,
+    "added_FP": 7
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0017,
+    "ci95_pp": [
+     0.0005,
+     0.0031
+    ],
+    "p_delta_le0": 0.0007,
+    "n_s1_changed": 7
+   }
+  },
+  "F3_street_mismatch_numeq": {
+   "pairs": 1247,
+   "s1": 714,
+   "pos_pairs": 412,
+   "P_match_flag": 0.33039,
+   "P_match_noflag": 0.027,
+   "P_match_flag_p03": 0.99757,
+   "P_match_noflag_p03": 0.98429,
+   "accepted": 410,
+   "acc_TP": 410,
+   "acc_FP": 0,
+   "acc_precision_in_flag": 1.0,
+   "acc_precision_outside": 0.9975,
+   "NEW_recall_in_flag": 0.99515,
+   "NEW_recall_outside": 0.97009,
+   "rejected_p03": 2,
+   "rejected_p03_pos": 1,
+   "firing_rate_among_accepted": 0.005536,
+   "by_country": {
+    "US": {
+     "pairs": 324,
+     "accepted": 215,
+     "acc_FP": 0
+    },
+    "India": {
+     "pairs": 923,
+     "accepted": 195,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     5,
+     0.0,
+     0.1012
+    ],
+    "[0.95,0.999)": [
+     42,
+     0.0,
+     0.0059
+    ],
+    "[0.999,1.01)": [
+     363,
+     0.0,
+     8e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 99065,
+    "n_flag": 423,
+    "coef_flag": -0.0657,
+    "se": 0.7301,
+    "z": -0.09,
+    "LR_chi2": 0.01,
+    "coef_logit_p": 1.0069
+   },
+   "veto": {
+    "delta_pp": -0.2269,
+    "ci95_pp": [
+     -0.2701,
+     -0.1871
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 333,
+    "US_pp": -0.2059,
+    "India_pp": -0.2587
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 0
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -0.2269,
+    "ci95_pp": [
+     -0.2701,
+     -0.1871
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 333
+   },
+   "single_veto_loss_if_TP": 0.10294,
+   "single_veto_gain_if_FP": null,
+   "break_even_false_fraction": null,
+   "rescue_p03": {
+    "delta_pp": -0.0003,
+    "ci95_pp": [
+     -0.0014,
+     0.0004
+    ],
+    "p_delta_le0": 0.7566,
+    "n_s1_changed": 2,
+    "added_TP": 1,
+    "added_FP": 1
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0001,
+    "ci95_pp": [
+     0.0,
+     0.0004
+    ],
+    "p_delta_le0": 0.3685,
+    "n_s1_changed": 1
+   }
+  },
+  "F1r_dist": {
+   "pairs": 93669,
+   "s1": 16381,
+   "pos_pairs": 3809,
+   "P_match_flag": 0.04066,
+   "P_match_noflag": 0.02667,
+   "P_match_flag_p03": 0.98087,
+   "P_match_noflag_p03": 0.98455,
+   "accepted": 3663,
+   "acc_TP": 3646,
+   "acc_FP": 17,
+   "acc_precision_in_flag": 0.99536,
+   "acc_precision_outside": 0.99763,
+   "NEW_recall_in_flag": 0.95721,
+   "NEW_recall_outside": 0.97091,
+   "rejected_p03": 101,
+   "rejected_p03_pos": 46,
+   "firing_rate_among_accepted": 0.049463,
+   "by_country": {
+    "US": {
+     "pairs": 67580,
+     "accepted": 2601,
+     "acc_FP": 10
+    },
+    "India": {
+     "pairs": 26089,
+     "accepted": 1062,
+     "acc_FP": 7
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     71,
+     0.11268,
+     0.10008
+    ],
+    "[0.95,0.999)": [
+     661,
+     0.0121,
+     0.00538
+    ],
+    "[0.999,1.01)": [
+     2931,
+     0.00034,
+     7e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 99065,
+    "n_flag": 5580,
+    "coef_flag": -0.0676,
+    "se": 0.0966,
+    "z": -0.7,
+    "LR_chi2": 0.49,
+    "coef_logit_p": 1.0067
+   },
+   "veto": {
+    "delta_pp": -1.6561,
+    "ci95_pp": [
+     -1.758,
+     -1.5601
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 3121,
+    "US_pp": -1.9876,
+    "India_pp": -1.1552
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0165,
+    "ci95_pp": [
+     0.0083,
+     0.026
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 16
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -1.6561,
+    "ci95_pp": [
+     -1.758,
+     -1.5601
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 3121
+   },
+   "single_veto_loss_if_TP": 0.0916,
+   "single_veto_gain_if_FP": 0.21231,
+   "break_even_false_fraction": 0.3014,
+   "rescue_p03": {
+    "delta_pp": -0.0532,
+    "ci95_pp": [
+     -0.0815,
+     -0.0275
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 101,
+    "added_TP": 46,
+    "added_FP": 55
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0218,
+    "ci95_pp": [
+     0.0129,
+     0.0342
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 46
+   }
+  },
+  "F1r_dist_sameaddr": {
+   "pairs": 2513,
+   "s1": 2170,
+   "pos_pairs": 2233,
+   "P_match_flag": 0.88858,
+   "P_match_noflag": 0.02636,
+   "P_match_flag_p03": 0.99866,
+   "P_match_noflag_p03": 0.98393,
+   "accepted": 2224,
+   "acc_TP": 2221,
+   "acc_FP": 3,
+   "acc_precision_in_flag": 0.99865,
+   "acc_precision_outside": 0.99748,
+   "NEW_recall_in_flag": 0.99463,
+   "NEW_recall_outside": 0.96949,
+   "rejected_p03": 7,
+   "rejected_p03_pos": 7,
+   "firing_rate_among_accepted": 0.030032,
+   "by_country": {
+    "US": {
+     "pairs": 1902,
+     "accepted": 1836,
+     "acc_FP": 2
+    },
+    "India": {
+     "pairs": 611,
+     "accepted": 388,
+     "acc_FP": 1
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     8,
+     0.125,
+     0.10064
+    ],
+    "[0.95,0.999)": [
+     231,
+     0.00866,
+     0.0058
+    ],
+    "[0.999,1.01)": [
+     1985,
+     0.0,
+     8e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 99065,
+    "n_flag": 2244,
+    "coef_flag": 1.2088,
+    "se": 0.5549,
+    "z": 2.18,
+    "LR_chi2": 5.07,
+    "coef_logit_p": 1.0058
+   },
+   "veto": {
+    "delta_pp": -0.9845,
+    "ci95_pp": [
+     -1.0591,
+     -0.9118
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 1929,
+    "US_pp": -1.3656,
+    "India_pp": -0.4086
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0023,
+    "ci95_pp": [
+     0.0,
+     0.0056
+    ],
+    "p_delta_le0": 0.0445,
+    "n_s1_changed": 3
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -0.9845,
+    "ci95_pp": [
+     -1.0591,
+     -0.9118
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 1929
+   },
+   "single_veto_loss_if_TP": 0.08957,
+   "single_veto_gain_if_FP": 0.168,
+   "break_even_false_fraction": 0.3477,
+   "rescue_p03": {
+    "delta_pp": 0.0022,
+    "ci95_pp": [
+     0.0006,
+     0.0043
+    ],
+    "p_delta_le0": 0.0007,
+    "n_s1_changed": 7,
+    "added_TP": 7,
+    "added_FP": 0
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0022,
+    "ci95_pp": [
+     0.0006,
+     0.0043
+    ],
+    "p_delta_le0": 0.0007,
+    "n_s1_changed": 7
+   }
+  },
+  "F1r_dist_subst": {
+   "pairs": 79664,
+   "s1": 14520,
+   "pos_pairs": 2712,
+   "P_match_flag": 0.03404,
+   "P_match_noflag": 0.02693,
+   "P_match_flag_p03": 0.9798,
+   "P_match_noflag_p03": 0.98453,
+   "accepted": 2591,
+   "acc_TP": 2579,
+   "acc_FP": 12,
+   "acc_precision_in_flag": 0.99537,
+   "acc_precision_outside": 0.99759,
+   "NEW_recall_in_flag": 0.95096,
+   "NEW_recall_outside": 0.97094,
+   "rejected_p03": 82,
+   "rejected_p03_pos": 40,
+   "firing_rate_among_accepted": 0.034988,
+   "by_country": {
+    "US": {
+     "pairs": 56512,
+     "accepted": 1695,
+     "acc_FP": 5
+    },
+    "India": {
+     "pairs": 23152,
+     "accepted": 896,
+     "acc_FP": 7
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     58,
+     0.10345,
+     0.10067
+    ],
+    "[0.95,0.999)": [
+     550,
+     0.00909,
+     0.00566
+    ],
+    "[0.999,1.01)": [
+     1983,
+     0.0005,
+     6e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 99065,
+    "n_flag": 3999,
+    "coef_flag": 0.0302,
+    "se": 0.1091,
+    "z": 0.28,
+    "LR_chi2": 0.08,
+    "coef_logit_p": 1.0069
+   },
+   "veto": {
+    "delta_pp": -1.1095,
+    "ci95_pp": [
+     -1.1884,
+     -1.0339
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 2355,
+    "US_pp": -1.1871,
+    "India_pp": -0.9923
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0128,
+    "ci95_pp": [
+     0.0055,
+     0.0218
+    ],
+    "p_delta_le0": 0.0001,
+    "n_s1_changed": 12
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -1.1095,
+    "ci95_pp": [
+     -1.1884,
+     -1.0339
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 2355
+   },
+   "single_veto_loss_if_TP": 0.09041,
+   "single_veto_gain_if_FP": 0.23548,
+   "break_even_false_fraction": 0.2774,
+   "rescue_p03": {
+    "delta_pp": -0.0429,
+    "ci95_pp": [
+     -0.0677,
+     -0.0215
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 82,
+    "added_TP": 40,
+    "added_FP": 42
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0151,
+    "ci95_pp": [
+     0.01,
+     0.0209
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 40
+   }
+  },
+  "F1r_dist_onesided": {
+   "pairs": 14005,
+   "s1": 6658,
+   "pos_pairs": 1097,
+   "P_match_flag": 0.07833,
+   "P_match_noflag": 0.02688,
+   "P_match_flag_p03": 0.9835,
+   "P_match_noflag_p03": 0.98438,
+   "accepted": 1072,
+   "acc_TP": 1067,
+   "acc_FP": 5,
+   "acc_precision_in_flag": 0.99534,
+   "acc_precision_outside": 0.99755,
+   "NEW_recall_in_flag": 0.97265,
+   "NEW_recall_outside": 0.97019,
+   "rejected_p03": 19,
+   "rejected_p03_pos": 6,
+   "firing_rate_among_accepted": 0.014476,
+   "by_country": {
+    "US": {
+     "pairs": 11068,
+     "accepted": 906,
+     "acc_FP": 5
+    },
+    "India": {
+     "pairs": 2937,
+     "accepted": 166,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     13,
+     0.15385,
+     0.10024
+    ],
+    "[0.95,0.999)": [
+     111,
+     0.02703,
+     0.00561
+    ],
+    "[0.999,1.01)": [
+     948,
+     0.0,
+     8e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 99065,
+    "n_flag": 1581,
+    "coef_flag": -0.3562,
+    "se": 0.1994,
+    "z": -1.79,
+    "LR_chi2": 3.4,
+    "coef_logit_p": 1.0064
+   },
+   "veto": {
+    "delta_pp": -0.4952,
+    "ci95_pp": [
+     -0.5521,
+     -0.44
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 917,
+    "US_pp": -0.7181,
+    "India_pp": -0.1584
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0036,
+    "ci95_pp": [
+     0.0006,
+     0.0074
+    ],
+    "p_delta_le0": 0.0061,
+    "n_s1_changed": 5
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -0.4952,
+    "ci95_pp": [
+     -0.5521,
+     -0.44
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 917
+   },
+   "single_veto_loss_if_TP": 0.09446,
+   "single_veto_gain_if_FP": 0.15671,
+   "break_even_false_fraction": 0.3761,
+   "rescue_p03": {
+    "delta_pp": -0.0103,
+    "ci95_pp": [
+     -0.0253,
+     0.0046
+    ],
+    "p_delta_le0": 0.9235,
+    "n_s1_changed": 19,
+    "added_TP": 6,
+    "added_FP": 13
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0067,
+    "ci95_pp": [
+     0.0008,
+     0.0176
+    ],
+    "p_delta_le0": 0.0024,
+    "n_s1_changed": 6
+   }
+  },
+  "F1r_filler": {
+   "pairs": 91900,
+   "s1": 18925,
+   "pos_pairs": 19110,
+   "P_match_flag": 0.20794,
+   "P_match_noflag": 0.02101,
+   "P_match_flag_p03": 0.983,
+   "P_match_noflag_p03": 0.98482,
+   "accepted": 18389,
+   "acc_TP": 18352,
+   "acc_FP": 37,
+   "acc_precision_in_flag": 0.99799,
+   "acc_precision_outside": 0.99736,
+   "NEW_recall_in_flag": 0.96033,
+   "NEW_recall_outside": 0.97354,
+   "rejected_p03": 556,
+   "rejected_p03_pos": 271,
+   "firing_rate_among_accepted": 0.248315,
+   "by_country": {
+    "US": {
+     "pairs": 64422,
+     "accepted": 10618,
+     "acc_FP": 22
+    },
+    "India": {
+     "pairs": 27478,
+     "accepted": 7771,
+     "acc_FP": 15
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     270,
+     0.0963,
+     0.10204
+    ],
+    "[0.95,0.999)": [
+     2212,
+     0.00452,
+     0.00631
+    ],
+    "[0.999,1.01)": [
+     15907,
+     6e-05,
+     8e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 99065,
+    "n_flag": 28644,
+    "coef_flag": -0.0138,
+    "se": 0.0528,
+    "z": -0.26,
+    "LR_chi2": 0.07,
+    "coef_logit_p": 1.0065
+   },
+   "veto": {
+    "delta_pp": -10.0931,
+    "ci95_pp": [
+     -10.3466,
+     -9.8392
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 12086,
+    "US_pp": -9.6585,
+    "India_pp": -10.7497
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0433,
+    "ci95_pp": [
+     0.0278,
+     0.0613
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 36
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -10.0951,
+    "ci95_pp": [
+     -10.3482,
+     -9.8404
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 12086
+   },
+   "single_veto_loss_if_TP": 0.09008,
+   "single_veto_gain_if_FP": 0.25629,
+   "break_even_false_fraction": 0.2601,
+   "rescue_p03": {
+    "delta_pp": -0.2408,
+    "ci95_pp": [
+     -0.3002,
+     -0.1837
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 534,
+    "added_TP": 271,
+    "added_FP": 285
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.1174,
+    "ci95_pp": [
+     0.0953,
+     0.1432
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 261
+   }
+  },
+  "F1r_filler_sameaddr": {
+   "pairs": 10465,
+   "s1": 7415,
+   "pos_pairs": 10176,
+   "P_match_flag": 0.97238,
+   "P_match_noflag": 0.0236,
+   "P_match_flag_p03": 0.99941,
+   "P_match_noflag_p03": 0.98204,
+   "accepted": 10168,
+   "acc_TP": 10166,
+   "acc_FP": 2,
+   "acc_precision_in_flag": 0.9998,
+   "acc_precision_outside": 0.99715,
+   "NEW_recall_in_flag": 0.99902,
+   "NEW_recall_outside": 0.96578,
+   "rejected_p03": 14,
+   "rejected_p03_pos": 10,
+   "firing_rate_among_accepted": 0.137303,
+   "by_country": {
+    "US": {
+     "pairs": 7497,
+     "accepted": 7451,
+     "acc_FP": 2
+    },
+    "India": {
+     "pairs": 2968,
+     "accepted": 2717,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     43,
+     0.0,
+     0.10439
+    ],
+    "[0.95,0.999)": [
+     629,
+     0.00159,
+     0.00619
+    ],
+    "[0.999,1.01)": [
+     9496,
+     0.00011,
+     7e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 99065,
+    "n_flag": 10199,
+    "coef_flag": 0.6796,
+    "se": 0.3445,
+    "z": 1.97,
+    "LR_chi2": 4.34,
+    "coef_logit_p": 1.004
+   },
+   "veto": {
+    "delta_pp": -5.3222,
+    "ci95_pp": [
+     -5.5148,
+     -5.1373
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 7262,
+    "US_pp": -6.548,
+    "India_pp": -3.4701
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0033,
+    "ci95_pp": [
+     0.0,
+     0.0087
+    ],
+    "p_delta_le0": 0.1271,
+    "n_s1_changed": 2
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -5.3222,
+    "ci95_pp": [
+     -5.5148,
+     -5.1373
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 7262
+   },
+   "single_veto_loss_if_TP": 0.09129,
+   "single_veto_gain_if_FP": 0.36508,
+   "break_even_false_fraction": 0.2,
+   "rescue_p03": {
+    "delta_pp": -0.0018,
+    "ci95_pp": [
+     -0.0133,
+     0.0059
+    ],
+    "p_delta_le0": 0.6101,
+    "n_s1_changed": 14,
+    "added_TP": 10,
+    "added_FP": 4
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.005,
+    "ci95_pp": [
+     0.0019,
+     0.0088
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 10
+   }
+  },
+  "F1_typo_only": {
+   "pairs": 29792,
+   "s1": 13523,
+   "pos_pairs": 8823,
+   "P_match_flag": 0.29615,
+   "P_match_noflag": 0.02425,
+   "P_match_flag_p03": 0.98306,
+   "P_match_noflag_p03": 0.98454,
+   "accepted": 8599,
+   "acc_TP": 8576,
+   "acc_FP": 23,
+   "acc_precision_in_flag": 0.99733,
+   "acc_precision_outside": 0.99754,
+   "NEW_recall_in_flag": 0.972,
+   "NEW_recall_outside": 0.96999,
+   "rejected_p03": 255,
+   "rejected_p03_pos": 128,
+   "firing_rate_among_accepted": 0.116116,
+   "by_country": {
+    "US": {
+     "pairs": 19925,
+     "accepted": 5508,
+     "acc_FP": 11
+    },
+    "India": {
+     "pairs": 9867,
+     "accepted": 3091,
+     "acc_FP": 12
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     226,
+     0.06637,
+     0.1084
+    ],
+    "[0.95,0.999)": [
+     1104,
+     0.00634,
+     0.00581
+    ],
+    "[0.999,1.01)": [
+     7269,
+     0.00014,
+     7e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 99065,
+    "n_flag": 11004,
+    "coef_flag": 0.0522,
+    "se": 0.0782,
+    "z": 0.67,
+    "LR_chi2": 0.44,
+    "coef_logit_p": 1.0064
+   },
+   "veto": {
+    "delta_pp": -3.9496,
+    "ci95_pp": [
+     -4.0978,
+     -3.8017
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 7133,
+    "US_pp": -4.3125,
+    "India_pp": -3.4013
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0257,
+    "ci95_pp": [
+     0.0139,
+     0.0401
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 23
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -3.9496,
+    "ci95_pp": [
+     -4.0978,
+     -3.8017
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 7133
+   },
+   "single_veto_loss_if_TP": 0.08958,
+   "single_veto_gain_if_FP": 0.24564,
+   "break_even_false_fraction": 0.2672,
+   "rescue_p03": {
+    "delta_pp": -0.0665,
+    "ci95_pp": [
+     -0.1006,
+     -0.0322
+    ],
+    "p_delta_le0": 0.9999,
+    "n_s1_changed": 251,
+    "added_TP": 128,
+    "added_FP": 127
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.065,
+    "ci95_pp": [
+     0.0452,
+     0.0889
+    ],
+    "p_delta_le0": 0.0,
+    "n_s1_changed": 128
+   }
+  },
+  "F3r_mismatch": {
+   "pairs": 23186,
+   "s1": 4458,
+   "pos_pairs": 890,
+   "P_match_flag": 0.03839,
+   "P_match_noflag": 0.02704,
+   "P_match_flag_p03": 0.99215,
+   "P_match_noflag_p03": 0.98427,
+   "accepted": 881,
+   "acc_TP": 880,
+   "acc_FP": 1,
+   "acc_precision_in_flag": 0.99886,
+   "acc_precision_outside": 0.9975,
+   "NEW_recall_in_flag": 0.98876,
+   "NEW_recall_outside": 0.97001,
+   "rejected_p03": 11,
+   "rejected_p03_pos": 5,
+   "firing_rate_among_accepted": 0.011897,
+   "by_country": {
+    "US": {
+     "pairs": 8706,
+     "accepted": 283,
+     "acc_FP": 1
+    },
+    "India": {
+     "pairs": 14480,
+     "accepted": 598,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     14,
+     0.0,
+     0.10194
+    ],
+    "[0.95,0.999)": [
+     139,
+     0.00719,
+     0.00585
+    ],
+    "[0.999,1.01)": [
+     728,
+     0.0,
+     8e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 99065,
+    "n_flag": 927,
+    "coef_flag": 0.2656,
+    "se": 0.3933,
+    "z": 0.68,
+    "LR_chi2": 0.46,
+    "coef_logit_p": 1.0066
+   },
+   "veto": {
+    "delta_pp": -0.5906,
+    "ci95_pp": [
+     -0.6707,
+     -0.5143
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 582,
+    "US_pp": -0.2617,
+    "India_pp": -1.0875
+   },
+   "veto_oracle": {
+    "delta_pp": 0.001,
+    "ci95_pp": [
+     0.0,
+     0.0029
+    ],
+    "p_delta_le0": 0.3685,
+    "n_s1_changed": 1
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -0.5906,
+    "ci95_pp": [
+     -0.6707,
+     -0.5143
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 582
+   },
+   "single_veto_loss_if_TP": 0.09543,
+   "single_veto_gain_if_FP": 0.21053,
+   "break_even_false_fraction": 0.3119,
+   "rescue_p03": {
+    "delta_pp": -0.0044,
+    "ci95_pp": [
+     -0.0099,
+     -0.0
+    ],
+    "p_delta_le0": 0.9755,
+    "n_s1_changed": 11,
+    "added_TP": 5,
+    "added_FP": 6
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0013,
+    "ci95_pp": [
+     0.0002,
+     0.0026
+    ],
+    "p_delta_le0": 0.0061,
+    "n_s1_changed": 5
+   }
+  },
+  "F3r_mismatch_numeq": {
+   "pairs": 1045,
+   "s1": 597,
+   "pos_pairs": 351,
+   "P_match_flag": 0.33589,
+   "P_match_noflag": 0.02702,
+   "P_match_flag_p03": 0.99715,
+   "P_match_noflag_p03": 0.9843,
+   "accepted": 350,
+   "acc_TP": 350,
+   "acc_FP": 0,
+   "acc_precision_in_flag": 1.0,
+   "acc_precision_outside": 0.9975,
+   "NEW_recall_in_flag": 0.99715,
+   "NEW_recall_outside": 0.9701,
+   "rejected_p03": 1,
+   "rejected_p03_pos": 0,
+   "firing_rate_among_accepted": 0.004726,
+   "by_country": {
+    "US": {
+     "pairs": 297,
+     "accepted": 203,
+     "acc_FP": 0
+    },
+    "India": {
+     "pairs": 748,
+     "accepted": 147,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     5,
+     0.0,
+     0.1012
+    ],
+    "[0.95,0.999)": [
+     38,
+     0.0,
+     0.0059
+    ],
+    "[0.999,1.01)": [
+     307,
+     0.0,
+     8e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 99065,
+    "n_flag": 359,
+    "coef_flag": -0.0451,
+    "se": 0.8356,
+    "z": -0.05,
+    "LR_chi2": 0.0,
+    "coef_logit_p": 1.0069
+   },
+   "veto": {
+    "delta_pp": -0.1863,
+    "ci95_pp": [
+     -0.2253,
+     -0.1506
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 280,
+    "US_pp": -0.1909,
+    "India_pp": -0.1793
+   },
+   "veto_oracle": {
+    "delta_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 0
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -0.1863,
+    "ci95_pp": [
+     -0.2253,
+     -0.1506
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 280
+   },
+   "single_veto_loss_if_TP": 0.09764,
+   "single_veto_gain_if_FP": null,
+   "break_even_false_fraction": null,
+   "rescue_p03": {
+    "delta_pp": -0.0005,
+    "ci95_pp": [
+     -0.0014,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 1,
+    "added_TP": 0,
+    "added_FP": 1
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 0
+   }
+  },
+  "F3r_numeq_anyov": {
+   "pairs": 98869,
+   "s1": 8311,
+   "pos_pairs": 709,
+   "P_match_flag": 0.00717,
+   "P_match_noflag": 0.02786,
+   "P_match_flag_p03": 0.99718,
+   "P_match_noflag_p03": 0.98424,
+   "accepted": 703,
+   "acc_TP": 702,
+   "acc_FP": 1,
+   "acc_precision_in_flag": 0.99858,
+   "acc_precision_outside": 0.99751,
+   "NEW_recall_in_flag": 0.99013,
+   "NEW_recall_outside": 0.97004,
+   "rejected_p03": 7,
+   "rejected_p03_pos": 6,
+   "firing_rate_among_accepted": 0.009493,
+   "by_country": {
+    "US": {
+     "pairs": 90592,
+     "accepted": 490,
+     "acc_FP": 1
+    },
+    "India": {
+     "pairs": 8277,
+     "accepted": 213,
+     "acc_FP": 0
+    }
+   },
+   "acc_FP_rate_by_p_band_in_vs_out": {
+    "[0.78,0.95)": [
+     11,
+     0.09091,
+     0.10089
+    ],
+    "[0.95,0.999)": [
+     79,
+     0.0,
+     0.00592
+    ],
+    "[0.999,1.01)": [
+     613,
+     0.0,
+     8e-05
+    ]
+   },
+   "logit_incremental_p>=0.01": {
+    "n": 99065,
+    "n_flag": 737,
+    "coef_flag": 0.5081,
+    "se": 0.4743,
+    "z": 1.07,
+    "LR_chi2": 1.14,
+    "coef_logit_p": 1.0066
+   },
+   "veto": {
+    "delta_pp": -0.4173,
+    "ci95_pp": [
+     -0.4781,
+     -0.3596
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 483,
+    "US_pp": -0.5278,
+    "India_pp": -0.2504
+   },
+   "veto_oracle": {
+    "delta_pp": 0.001,
+    "ci95_pp": [
+     0.0,
+     0.0029
+    ],
+    "p_delta_le0": 0.3685,
+    "n_s1_changed": 1
+   },
+   "veto_then_maxclaim_vs_maxclaim": {
+    "delta_pp": -0.4173,
+    "ci95_pp": [
+     -0.4781,
+     -0.3596
+    ],
+    "p_delta_le0": 1.0,
+    "n_s1_changed": 483
+   },
+   "single_veto_loss_if_TP": 0.09663,
+   "single_veto_gain_if_FP": 0.21053,
+   "break_even_false_fraction": 0.3146,
+   "rescue_p03": {
+    "delta_pp": 0.0023,
+    "ci95_pp": [
+     -0.0001,
+     0.0052
+    ],
+    "p_delta_le0": 0.0308,
+    "n_s1_changed": 7,
+    "added_TP": 6,
+    "added_FP": 1
+   },
+   "rescue_p03_oracle": {
+    "delta_pp": 0.0028,
+    "ci95_pp": [
+     0.0007,
+     0.0055
+    ],
+    "p_delta_le0": 0.0024,
+    "n_s1_changed": 6
+   }
+  }
+ },
+ "F2_training_pool_audit_label_only": {
+  "T0": {
+   "pairs": 0
+  },
+  "E014": {
+   "f2_ge": {
+    "pairs": 128,
+    "s1": 4,
+    "P_match": 0.0,
+    "owner_this_s1": 0,
+    "owner_sibling": 12,
+    "owner_other_or_none": 116
+   },
+   "f2_gt": {
+    "pairs": 16,
+    "s1": 4,
+    "P_match": 0.0,
+    "owner_this_s1": 0,
+    "owner_sibling": 12,
+    "owner_other_or_none": 4
+   },
+   "has_sib": {
+    "pairs": 504,
+    "s1": 4,
+    "P_match": 0.0218,
+    "owner_this_s1": 11,
+    "owner_sibling": 14,
+    "owner_other_or_none": 479
+   }
+  },
+  "T2X": {
+   "f2_ge": {
+    "pairs": 382,
+    "s1": 16,
+    "P_match": 0.0079,
+    "owner_this_s1": 3,
+    "owner_sibling": 42,
+    "owner_other_or_none": 337
+   },
+   "f2_gt": {
+    "pairs": 47,
+    "s1": 15,
+    "P_match": 0.0,
+    "owner_this_s1": 0,
+    "owner_sibling": 37,
+    "owner_other_or_none": 10
+   },
+   "has_sib": {
+    "pairs": 2001,
+    "s1": 16,
+    "P_match": 0.0305,
+    "owner_this_s1": 61,
+    "owner_sibling": 51,
+    "owner_other_or_none": 1889
+   }
+  }
+ }
+}

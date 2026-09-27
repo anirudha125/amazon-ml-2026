@@ -1,0 +1,467 @@
+{
+ "US": {
+  "S002": {
+   "nonempty_pct": 94.1,
+   "preds_per_s1": 3.299,
+   "records_multi_claimed": 2969,
+   "claims_on_multi_claimed": 6143,
+   "maxclaim_removals": 3174,
+   "maxclaim_removals_per_1k": 1.45,
+   "s1_touching_conflict_pct": 0.83,
+   "hc_conflict_records": 358,
+   "hc_conflict_share_of_conflicts": 0.1206,
+   "p_quantiles_1_5_25_50": [
+    0.8087,
+    0.9537,
+    0.9984,
+    0.9994
+   ],
+   "frac_p_ge_95": 0.9526,
+   "frac_p_within_05_of_th": 0.0053,
+   "top1_q5_q25": [
+    0.9985,
+    0.9996
+   ]
+  },
+  "S003": {
+   "nonempty_pct": 94.07,
+   "preds_per_s1": 3.295,
+   "records_multi_claimed": 0,
+   "claims_on_multi_claimed": 0,
+   "maxclaim_removals": 0,
+   "maxclaim_removals_per_1k": 0.0,
+   "s1_touching_conflict_pct": 0.0,
+   "hc_conflict_records": 0,
+   "hc_conflict_share_of_conflicts": 0.0,
+   "p_quantiles_1_5_25_50": [
+    0.813,
+    0.9554,
+    0.9984,
+    0.9994
+   ],
+   "frac_p_ge_95": 0.9538,
+   "frac_p_within_05_of_th": 0.005,
+   "top1_q5_q25": [
+    0.9985,
+    0.9996
+   ]
+  },
+  "D2b_pre": {
+   "nonempty_pct": 94.22,
+   "preds_per_s1": 3.36,
+   "records_multi_claimed": 1947,
+   "claims_on_multi_claimed": 4181,
+   "maxclaim_removals": 2234,
+   "maxclaim_removals_per_1k": 1.0,
+   "s1_touching_conflict_pct": 0.58,
+   "hc_conflict_records": 219,
+   "hc_conflict_share_of_conflicts": 0.1125,
+   "p_quantiles_1_5_25_50": [
+    0.8369,
+    0.9762,
+    0.9998,
+    0.9999
+   ],
+   "frac_p_ge_95": 0.968,
+   "frac_p_within_05_of_th": 0.0038,
+   "top1_q5_q25": [
+    0.9998,
+    0.9999
+   ]
+  },
+  "S004": {
+   "nonempty_pct": 94.2,
+   "preds_per_s1": 3.357,
+   "records_multi_claimed": 0,
+   "claims_on_multi_claimed": 0,
+   "maxclaim_removals": 0,
+   "maxclaim_removals_per_1k": 0.0,
+   "s1_touching_conflict_pct": 0.0,
+   "hc_conflict_records": 0,
+   "hc_conflict_share_of_conflicts": 0.0,
+   "p_quantiles_1_5_25_50": [
+    0.8424,
+    0.9771,
+    0.9998,
+    0.9999
+   ],
+   "frac_p_ge_95": 0.9689,
+   "frac_p_within_05_of_th": 0.0035,
+   "top1_q5_q25": [
+    0.9998,
+    0.9999
+   ]
+  },
+  "changes_S004_vs_S002": {
+   "identical": {
+    "n": 582500,
+    "pct": 87.84
+   },
+   "superset": {
+    "n": 52473,
+    "pct": 7.91
+   },
+   "subset": {
+    "n": 22707,
+    "pct": 3.42
+   },
+   "overlap_changed": {
+    "n": 2006,
+    "pct": 0.3
+   },
+   "newly_filled": {
+    "n": 2004,
+    "pct": 0.3
+   },
+   "emptied": {
+    "n": 1331,
+    "pct": 0.2
+   },
+   "disjoint": {
+    "n": 85,
+    "pct": 0.01
+   }
+  },
+  "changes_S004_vs_S003": {
+   "identical": {
+    "n": 584639,
+    "pct": 88.17
+   },
+   "superset": {
+    "n": 52897,
+    "pct": 7.98
+   },
+   "subset": {
+    "n": 20491,
+    "pct": 3.09
+   },
+   "newly_filled": {
+    "n": 2021,
+    "pct": 0.3
+   },
+   "overlap_changed": {
+    "n": 1812,
+    "pct": 0.27
+   },
+   "emptied": {
+    "n": 1171,
+    "pct": 0.18
+   },
+   "disjoint": {
+    "n": 75,
+    "pct": 0.01
+   }
+  },
+  "n_s1": 663106
+ },
+ "India": {
+  "S002": {
+   "nonempty_pct": 93.06,
+   "preds_per_s1": 3.118,
+   "records_multi_claimed": 6685,
+   "claims_on_multi_claimed": 14641,
+   "maxclaim_removals": 7956,
+   "maxclaim_removals_per_1k": 3.15,
+   "s1_touching_conflict_pct": 1.58,
+   "hc_conflict_records": 1163,
+   "hc_conflict_share_of_conflicts": 0.174,
+   "p_quantiles_1_5_25_50": [
+    0.798,
+    0.9387,
+    0.9976,
+    0.9993
+   ],
+   "frac_p_ge_95": 0.9419,
+   "frac_p_within_05_of_th": 0.006,
+   "top1_q5_q25": [
+    0.9971,
+    0.9995
+   ]
+  },
+  "S003": {
+   "nonempty_pct": 93.0,
+   "preds_per_s1": 3.108,
+   "records_multi_claimed": 0,
+   "claims_on_multi_claimed": 0,
+   "maxclaim_removals": 0,
+   "maxclaim_removals_per_1k": 0.0,
+   "s1_touching_conflict_pct": 0.0,
+   "hc_conflict_records": 0,
+   "hc_conflict_share_of_conflicts": 0.0,
+   "p_quantiles_1_5_25_50": [
+    0.8047,
+    0.9424,
+    0.9976,
+    0.9993
+   ],
+   "frac_p_ge_95": 0.9444,
+   "frac_p_within_05_of_th": 0.0054,
+   "top1_q5_q25": [
+    0.9971,
+    0.9995
+   ]
+  },
+  "D2b_pre": {
+   "nonempty_pct": 94.25,
+   "preds_per_s1": 3.373,
+   "records_multi_claimed": 6493,
+   "claims_on_multi_claimed": 14315,
+   "maxclaim_removals": 7822,
+   "maxclaim_removals_per_1k": 2.86,
+   "s1_touching_conflict_pct": 1.57,
+   "hc_conflict_records": 960,
+   "hc_conflict_share_of_conflicts": 0.1479,
+   "p_quantiles_1_5_25_50": [
+    0.8299,
+    0.9714,
+    0.9997,
+    0.9999
+   ],
+   "frac_p_ge_95": 0.9641,
+   "frac_p_within_05_of_th": 0.0039,
+   "top1_q5_q25": [
+    0.9997,
+    0.9999
+   ]
+  },
+  "S004": {
+   "nonempty_pct": 94.2,
+   "preds_per_s1": 3.364,
+   "records_multi_claimed": 0,
+   "claims_on_multi_claimed": 0,
+   "maxclaim_removals": 0,
+   "maxclaim_removals_per_1k": 0.0,
+   "s1_touching_conflict_pct": 0.0,
+   "hc_conflict_records": 0,
+   "hc_conflict_share_of_conflicts": 0.0,
+   "p_quantiles_1_5_25_50": [
+    0.842,
+    0.9739,
+    0.9997,
+    0.9999
+   ],
+   "frac_p_ge_95": 0.9665,
+   "frac_p_within_05_of_th": 0.0033,
+   "top1_q5_q25": [
+    0.9997,
+    0.9999
+   ]
+  },
+  "changes_S004_vs_S002": {
+   "identical": {
+    "n": 609014,
+    "pct": 75.19
+   },
+   "superset": {
+    "n": 152064,
+    "pct": 18.77
+   },
+   "subset": {
+    "n": 28671,
+    "pct": 3.54
+   },
+   "newly_filled": {
+    "n": 11352,
+    "pct": 1.4
+   },
+   "overlap_changed": {
+    "n": 6335,
+    "pct": 0.78
+   },
+   "emptied": {
+    "n": 2092,
+    "pct": 0.26
+   },
+   "disjoint": {
+    "n": 458,
+    "pct": 0.06
+   }
+  },
+  "changes_S004_vs_S003": {
+   "identical": {
+    "n": 612931,
+    "pct": 75.67
+   },
+   "superset": {
+    "n": 154037,
+    "pct": 19.02
+   },
+   "subset": {
+    "n": 24388,
+    "pct": 3.01
+   },
+   "newly_filled": {
+    "n": 11503,
+    "pct": 1.42
+   },
+   "overlap_changed": {
+    "n": 5042,
+    "pct": 0.62
+   },
+   "emptied": {
+    "n": 1743,
+    "pct": 0.22
+   },
+   "disjoint": {
+    "n": 342,
+    "pct": 0.04
+   }
+  },
+  "n_s1": 809986
+ },
+ "France": {
+  "S002": {
+   "nonempty_pct": 94.79,
+   "preds_per_s1": 3.331,
+   "records_multi_claimed": 17291,
+   "claims_on_multi_claimed": 40099,
+   "maxclaim_removals": 22808,
+   "maxclaim_removals_per_1k": 26.39,
+   "s1_touching_conflict_pct": 9.4,
+   "hc_conflict_records": 6244,
+   "hc_conflict_share_of_conflicts": 0.3611,
+   "p_quantiles_1_5_25_50": [
+    0.7617,
+    0.8886,
+    0.9982,
+    0.9996
+   ],
+   "frac_p_ge_95": 0.9104,
+   "frac_p_within_05_of_th": 0.0121,
+   "top1_q5_q25": [
+    0.9986,
+    0.9997
+   ]
+  },
+  "S003": {
+   "nonempty_pct": 94.36,
+   "preds_per_s1": 3.243,
+   "records_multi_claimed": 0,
+   "claims_on_multi_claimed": 0,
+   "maxclaim_removals": 0,
+   "maxclaim_removals_per_1k": 0.0,
+   "s1_touching_conflict_pct": 0.0,
+   "hc_conflict_records": 0,
+   "hc_conflict_share_of_conflicts": 0.0,
+   "p_quantiles_1_5_25_50": [
+    0.7764,
+    0.9147,
+    0.9986,
+    0.9996
+   ],
+   "frac_p_ge_95": 0.9265,
+   "frac_p_within_05_of_th": 0.0088,
+   "top1_q5_q25": [
+    0.9988,
+    0.9997
+   ]
+  },
+  "D2b_pre": {
+   "nonempty_pct": 95.16,
+   "preds_per_s1": 3.478,
+   "records_multi_claimed": 29292,
+   "claims_on_multi_claimed": 72635,
+   "maxclaim_removals": 43343,
+   "maxclaim_removals_per_1k": 48.03,
+   "s1_touching_conflict_pct": 15.16,
+   "hc_conflict_records": 13571,
+   "hc_conflict_share_of_conflicts": 0.4633,
+   "p_quantiles_1_5_25_50": [
+    0.7587,
+    0.8847,
+    0.999,
+    0.9999
+   ],
+   "frac_p_ge_95": 0.9115,
+   "frac_p_within_05_of_th": 0.0129,
+   "top1_q5_q25": [
+    0.9994,
+    0.9999
+   ]
+  },
+  "S004": {
+   "nonempty_pct": 94.57,
+   "preds_per_s1": 3.311,
+   "records_multi_claimed": 0,
+   "claims_on_multi_claimed": 0,
+   "maxclaim_removals": 0,
+   "maxclaim_removals_per_1k": 0.0,
+   "s1_touching_conflict_pct": 0.0,
+   "hc_conflict_records": 0,
+   "hc_conflict_share_of_conflicts": 0.0,
+   "p_quantiles_1_5_25_50": [
+    0.7799,
+    0.9263,
+    0.9995,
+    0.9999
+   ],
+   "frac_p_ge_95": 0.936,
+   "frac_p_within_05_of_th": 0.0082,
+   "top1_q5_q25": [
+    0.9995,
+    0.9999
+   ]
+  },
+  "changes_S004_vs_S002": {
+   "identical": {
+    "n": 168504,
+    "pct": 64.95
+   },
+   "subset": {
+    "n": 38800,
+    "pct": 14.95
+   },
+   "superset": {
+    "n": 36436,
+    "pct": 14.04
+   },
+   "overlap_changed": {
+    "n": 10453,
+    "pct": 4.03
+   },
+   "emptied": {
+    "n": 2546,
+    "pct": 0.98
+   },
+   "newly_filled": {
+    "n": 1966,
+    "pct": 0.76
+   },
+   "disjoint": {
+    "n": 747,
+    "pct": 0.29
+   }
+  },
+  "changes_S004_vs_S003": {
+   "identical": {
+    "n": 176641,
+    "pct": 68.08
+   },
+   "superset": {
+    "n": 40088,
+    "pct": 15.45
+   },
+   "subset": {
+    "n": 30906,
+    "pct": 11.91
+   },
+   "overlap_changed": {
+    "n": 7271,
+    "pct": 2.8
+   },
+   "newly_filled": {
+    "n": 2311,
+    "pct": 0.89
+   },
+   "emptied": {
+    "n": 1780,
+    "pct": 0.69
+   },
+   "disjoint": {
+    "n": 455,
+    "pct": 0.18
+   }
+  },
+  "n_s1": 259452
+ }
+}

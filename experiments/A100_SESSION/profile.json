@@ -1,0 +1,90 @@
+{
+ "gpu": {
+  "name": "NVIDIA A100-SXM4-40GB",
+  "vram_gb": 39.5,
+  "sm": 108,
+  "torch": "2.8.0+cu128",
+  "cuda": "12.8",
+  "cpu_count": 30
+ },
+ "matmul_tflops": {
+  "fp32": 17.6,
+  "tf32": 137.9,
+  "fp16": 290.1,
+  "bf16": 295.9
+ },
+ "bandwidth_gbs": {
+  "hbm_copy": 1380,
+  "h2d_pinned": 25.8
+ },
+ "small": {
+  "tok_single_per_s": 32956,
+  "tok_pair_per_s": 20443,
+  "pair_len_p50_p95_max": [
+   60,
+   84,
+   126
+  ],
+  "single_len_p50_p95_max": [
+   31,
+   48,
+   64
+  ],
+  "n_params": 117653760,
+  "embed_fp16_L32_bs512_per_s": 36060,
+  "embed_fp16_L32_bs2048_per_s": 56888,
+  "embed_fp16_L48_bs512_per_s": 33337,
+  "embed_fp16_L48_bs2048_per_s": 43907,
+  "embed_fp16_L64_bs512_per_s": 30480,
+  "embed_fp16_L64_bs2048_per_s": 33767,
+  "embed_bf16_L32_bs512_per_s": 39995,
+  "embed_bf16_L32_bs2048_per_s": 60533,
+  "embed_bf16_L48_bs512_per_s": 36188,
+  "embed_bf16_L48_bs2048_per_s": 44661,
+  "embed_bf16_L64_bs512_per_s": 31547,
+  "embed_bf16_L64_bs2048_per_s": 34137,
+  "xenc_infer_L84_bs1024_per_s": 21052,
+  "xenc_infer_L84_bs4096_per_s": 21687,
+  "xenc_train_L84_bs64_per_s": 919,
+  "xenc_train_L84_bs64_peak_gb": 2.4,
+  "xenc_train_L84_bs256_per_s": 3932,
+  "xenc_train_L84_bs256_peak_gb": 5.4,
+  "xenc_train_L84_bs512_per_s": 4953,
+  "xenc_train_L84_bs512_peak_gb": 9.5
+ },
+ "base": {
+  "tok_single_per_s": 30382,
+  "tok_pair_per_s": 19612,
+  "pair_len_p50_p95_max": [
+   59,
+   83,
+   125
+  ],
+  "single_len_p50_p95_max": [
+   31,
+   48,
+   64
+  ],
+  "n_params": 278043648,
+  "embed_fp16_L32_bs512_per_s": 20455,
+  "embed_fp16_L32_bs2048_per_s": 25551,
+  "embed_fp16_L48_bs512_per_s": 17166,
+  "embed_fp16_L48_bs2048_per_s": 17751,
+  "embed_fp16_L64_bs512_per_s": 13301,
+  "embed_fp16_L64_bs2048_per_s": 13659,
+  "embed_bf16_L32_bs512_per_s": 24745,
+  "embed_bf16_L32_bs2048_per_s": 26204,
+  "embed_bf16_L48_bs512_per_s": 17426,
+  "embed_bf16_L48_bs2048_per_s": 18369,
+  "embed_bf16_L64_bs512_per_s": 13439,
+  "embed_bf16_L64_bs2048_per_s": 14130,
+  "xenc_infer_L83_bs1024_per_s": 8910,
+  "xenc_infer_L83_bs4096_per_s": 9089,
+  "xenc_train_L83_bs64_per_s": 868,
+  "xenc_train_L83_bs64_peak_gb": 5.3,
+  "xenc_train_L83_bs256_per_s": 2088,
+  "xenc_train_L83_bs256_peak_gb": 11.3,
+  "xenc_train_L83_bs512_per_s": 2372,
+  "xenc_train_L83_bs512_peak_gb": 19.4
+ }
+}

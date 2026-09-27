@@ -1,0 +1,502 @@
+{
+ "V0_flag_counts_same_addr": {
+  "India||0": 47,
+  "India||1": 1071,
+  "India|DIST|0": 1,
+  "India|DIST|1": 1,
+  "India|FILL|0": 1,
+  "India|FILL|1": 75,
+  "India|OTHER|1": 83,
+  "US||0": 58,
+  "US||1": 2611,
+  "US|DIST|0": 2,
+  "US|DIST|1": 4,
+  "US|FILL|1": 182,
+  "US|OTHER|0": 3,
+  "US|OTHER|1": 183
+ },
+ "offset_V1": {
+  "all|DIST|same_addr": {
+   "n": 155,
+   "n_pos": 43,
+   "sum_p": 42.57,
+   "sum_y": 43.0,
+   "delta": 0.23,
+   "ci95": [
+    -1.751,
+    1.943
+   ],
+   "ll_gain_nats": 0.05,
+   "errors_at_TH": 2,
+   "errors_after_offset": 2
+  },
+  "all|DIST|any_addr": {
+   "n": 19940,
+   "n_pos": 167,
+   "sum_p": 162.35,
+   "sum_y": 167.0,
+   "delta": 0.049,
+   "ci95": [
+    -0.174,
+    0.252
+   ],
+   "ll_gain_nats": 0.11,
+   "errors_at_TH": 104,
+   "errors_after_offset": 104
+  },
+  "all|FILL|same_addr": {
+   "n": 2858,
+   "n_pos": 2831,
+   "sum_p": 2827.67,
+   "sum_y": 2831.0,
+   "delta": 0.628,
+   "ci95": [
+    -0.224,
+    1.521
+   ],
+   "ll_gain_nats": 1.01,
+   "errors_at_TH": 12,
+   "errors_after_offset": 10
+  },
+  "all|FILL|any_addr": {
+   "n": 14066,
+   "n_pos": 4961,
+   "sum_p": 4932.61,
+   "sum_y": 4961.0,
+   "delta": 0.162,
+   "ci95": [
+    0.015,
+    0.301
+   ],
+   "ll_gain_nats": 2.33,
+   "errors_at_TH": 242,
+   "errors_after_offset": 239
+  },
+  "p>=0.5|DIST|same_addr": {
+   "n": 41,
+   "n_pos": 41,
+   "note": "degenerate"
+  },
+  "p>=0.5|DIST|any_addr": {
+   "n": 69,
+   "n_pos": 65,
+   "sum_p": 66.98,
+   "sum_y": 65.0,
+   "delta": -1.046,
+   "ci95": [
+    -1.919,
+    0.212
+   ],
+   "ll_gain_nats": 1.1,
+   "errors_at_TH": 2,
+   "errors_after_offset": 2
+  },
+  "p>=0.5|FILL|same_addr": {
+   "n": 2832,
+   "n_pos": 2828,
+   "sum_p": 2826.25,
+   "sum_y": 2828.0,
+   "delta": 0.428,
+   "ci95": [
+    -0.605,
+    1.918
+   ],
+   "ll_gain_nats": 0.35,
+   "errors_at_TH": 9,
+   "errors_after_offset": 7
+  },
+  "p>=0.5|FILL|any_addr": {
+   "n": 4820,
+   "n_pos": 4777,
+   "sum_p": 4775.21,
+   "sum_y": 4777.0,
+   "delta": 0.054,
+   "ci95": [
+    -0.311,
+    0.41
+   ],
+   "ll_gain_nats": 0.05,
+   "errors_at_TH": 58,
+   "errors_after_offset": 56
+  },
+  "0.01<=p<0.78|DIST|same_addr": {
+   "n": 21,
+   "n_pos": 0,
+   "note": "degenerate"
+  },
+  "0.01<=p<0.78|DIST|any_addr": {
+   "n": 2559,
+   "n_pos": 72,
+   "sum_p": 69.62,
+   "sum_y": 72.0,
+   "delta": 0.037,
+   "ci95": [
+    -0.253,
+    0.3
+   ],
+   "ll_gain_nats": 0.04,
+   "errors_at_TH": 72,
+   "errors_after_offset": 72
+  },
+  "0.01<=p<0.78|FILL|same_addr": {
+   "n": 23,
+   "n_pos": 8,
+   "sum_p": 4.56,
+   "sum_y": 8.0,
+   "delta": 1.283,
+   "ci95": [
+    0.545,
+    1.844
+   ],
+   "ll_gain_nats": 2.32,
+   "errors_at_TH": 8,
+   "errors_after_offset": 3
+  },
+  "0.01<=p<0.78|FILL|any_addr": {
+   "n": 2368,
+   "n_pos": 194,
+   "sum_p": 175.98,
+   "sum_y": 194.0,
+   "delta": 0.135,
+   "ci95": [
+    -0.039,
+    0.294
+   ],
+   "ll_gain_nats": 1.24,
+   "errors_at_TH": 194,
+   "errors_after_offset": 191
+  }
+ },
+ "offset_V0": {
+  "all|DIST|same_addr": {
+   "n": 8,
+   "n_pos": 5,
+   "sum_p": 5.04,
+   "sum_y": 5.0,
+   "delta": -0.961,
+   "ci95": [
+    -1.889,
+    0.614
+   ],
+   "ll_gain_nats": 0.02,
+   "errors_at_TH": 0,
+   "errors_after_offset": 0
+  },
+  "all|DIST|any_addr": {
+   "n": 822,
+   "n_pos": 12,
+   "sum_p": 14.43,
+   "sum_y": 12.0,
+   "delta": -0.322,
+   "ci95": [
+    -2.026,
+    0.313
+   ],
+   "ll_gain_nats": 0.37,
+   "errors_at_TH": 7,
+   "errors_after_offset": 7
+  },
+  "all|FILL|same_addr": {
+   "n": 258,
+   "n_pos": 257,
+   "sum_p": 257.16,
+   "sum_y": 257.0,
+   "delta": -0.253,
+   "ci95": [
+    -1.802,
+    0.855
+   ],
+   "ll_gain_nats": 0.02,
+   "errors_at_TH": 2,
+   "errors_after_offset": 1
+  },
+  "all|FILL|any_addr": {
+   "n": 1242,
+   "n_pos": 465,
+   "sum_p": 465.55,
+   "sum_y": 465.0,
+   "delta": -0.035,
+   "ci95": [
+    -0.603,
+    0.381
+   ],
+   "ll_gain_nats": 0.01,
+   "errors_at_TH": 20,
+   "errors_after_offset": 20
+  },
+  "p>=0.5|DIST|same_addr": {
+   "n": 5,
+   "n_pos": 5,
+   "note": "degenerate"
+  },
+  "p>=0.5|DIST|any_addr": {
+   "n": 6,
+   "n_pos": 5,
+   "sum_p": 5.53,
+   "sum_y": 5.0,
+   "delta": -2.517,
+   "ci95": [
+    -3.539,
+    -2.305
+   ],
+   "ll_gain_nats": 0.61,
+   "errors_at_TH": 0,
+   "errors_after_offset": 0
+  },
+  "p>=0.5|FILL|same_addr": {
+   "n": 258,
+   "n_pos": 257,
+   "sum_p": 257.16,
+   "sum_y": 257.0,
+   "delta": -0.253,
+   "ci95": [
+    -1.802,
+    0.855
+   ],
+   "ll_gain_nats": 0.02,
+   "errors_at_TH": 2,
+   "errors_after_offset": 1
+  },
+  "p>=0.5|FILL|any_addr": {
+   "n": 453,
+   "n_pos": 450,
+   "sum_p": 449.61,
+   "sum_y": 450.0,
+   "delta": 0.156,
+   "ci95": [
+    -0.981,
+    1.503
+   ],
+   "ll_gain_nats": 0.03,
+   "errors_at_TH": 5,
+   "errors_after_offset": 4
+  },
+  "0.01<=p<0.78|DIST|same_addr": {
+   "n": 1,
+   "n_pos": 0,
+   "note": "degenerate"
+  },
+  "0.01<=p<0.78|DIST|any_addr": {
+   "n": 248,
+   "n_pos": 5,
+   "sum_p": 7.35,
+   "sum_y": 5.0,
+   "delta": -0.426,
+   "ci95": [
+    -2.023,
+    0.268
+   ],
+   "ll_gain_nats": 0.47,
+   "errors_at_TH": 5,
+   "errors_after_offset": 5
+  },
+  "0.01<=p<0.78|FILL|same_addr": {
+   "n": 1,
+   "n_pos": 1,
+   "note": "degenerate"
+  },
+  "0.01<=p<0.78|FILL|any_addr": {
+   "n": 235,
+   "n_pos": 17,
+   "sum_p": 16.61,
+   "sum_y": 17.0,
+   "delta": 0.032,
+   "ci95": [
+    -0.577,
+    0.516
+   ],
+   "ll_gain_nats": 0.01,
+   "errors_at_TH": 17,
+   "errors_after_offset": 17
+  }
+ },
+ "offset_V1+V0": {
+  "all|DIST|same_addr": {
+   "n": 163,
+   "n_pos": 48,
+   "sum_p": 47.62,
+   "sum_y": 48.0,
+   "delta": 0.203,
+   "ci95": [
+    -1.628,
+    1.868
+   ],
+   "ll_gain_nats": 0.04,
+   "errors_at_TH": 2,
+   "errors_after_offset": 2
+  },
+  "all|DIST|any_addr": {
+   "n": 20762,
+   "n_pos": 179,
+   "sum_p": 176.78,
+   "sum_y": 179.0,
+   "delta": 0.021,
+   "ci95": [
+    -0.185,
+    0.207
+   ],
+   "ll_gain_nats": 0.02,
+   "errors_at_TH": 111,
+   "errors_after_offset": 111
+  },
+  "all|FILL|same_addr": {
+   "n": 3116,
+   "n_pos": 3088,
+   "sum_p": 3084.83,
+   "sum_y": 3088.0,
+   "delta": 0.538,
+   "ci95": [
+    -0.461,
+    1.473
+   ],
+   "ll_gain_nats": 0.82,
+   "errors_at_TH": 14,
+   "errors_after_offset": 12
+  },
+  "all|FILL|any_addr": {
+   "n": 15308,
+   "n_pos": 5426,
+   "sum_p": 5398.16,
+   "sum_y": 5426.0,
+   "delta": 0.145,
+   "ci95": [
+    -0.004,
+    0.276
+   ],
+   "ll_gain_nats": 2.05,
+   "errors_at_TH": 262,
+   "errors_after_offset": 259
+  },
+  "p>=0.5|DIST|same_addr": {
+   "n": 46,
+   "n_pos": 46,
+   "note": "degenerate"
+  },
+  "p>=0.5|DIST|any_addr": {
+   "n": 75,
+   "n_pos": 70,
+   "sum_p": 72.51,
+   "sum_y": 70.0,
+   "delta": -1.153,
+   "ci95": [
+    -1.814,
+    -0.074
+   ],
+   "ll_gain_nats": 1.54,
+   "errors_at_TH": 2,
+   "errors_after_offset": 2
+  },
+  "p>=0.5|FILL|same_addr": {
+   "n": 3090,
+   "n_pos": 3085,
+   "sum_p": 3083.41,
+   "sum_y": 3085.0,
+   "delta": 0.334,
+   "ci95": [
+    -0.484,
+    1.71
+   ],
+   "ll_gain_nats": 0.26,
+   "errors_at_TH": 11,
+   "errors_after_offset": 9
+  },
+  "p>=0.5|FILL|any_addr": {
+   "n": 5273,
+   "n_pos": 5227,
+   "sum_p": 5224.81,
+   "sum_y": 5227.0,
+   "delta": 0.062,
+   "ci95": [
+    -0.294,
+    0.381
+   ],
+   "ll_gain_nats": 0.07,
+   "errors_at_TH": 63,
+   "errors_after_offset": 60
+  },
+  "0.01<=p<0.78|DIST|same_addr": {
+   "n": 22,
+   "n_pos": 0,
+   "note": "degenerate"
+  },
+  "0.01<=p<0.78|DIST|any_addr": {
+   "n": 2807,
+   "n_pos": 77,
+   "sum_p": 76.97,
+   "sum_y": 77.0,
+   "delta": 0.0,
+   "ci95": [
+    -0.268,
+    0.188
+   ],
+   "ll_gain_nats": 0.0,
+   "errors_at_TH": 77,
+   "errors_after_offset": 77
+  },
+  "0.01<=p<0.78|FILL|same_addr": {
+   "n": 24,
+   "n_pos": 9,
+   "sum_p": 5.09,
+   "sum_y": 9.0,
+   "delta": 1.342,
+   "ci95": [
+    0.537,
+    2.023
+   ],
+   "ll_gain_nats": 2.73,
+   "errors_at_TH": 9,
+   "errors_after_offset": 3
+  },
+  "0.01<=p<0.78|FILL|any_addr": {
+   "n": 2603,
+   "n_pos": 211,
+   "sum_p": 192.58,
+   "sum_y": 211.0,
+   "delta": 0.126,
+   "ci95": [
+    -0.022,
+    0.277
+   ],
+   "ll_gain_nats": 1.18,
+   "errors_at_TH": 211,
+   "errors_after_offset": 208
+  }
+ },
+ "France_DIST_record_tokens_top30": {
+  "france": 2580,
+  "club": 1741,
+  "comite": 1649,
+  "amis": 1068,
+  "centre": 1035,
+  "amicale": 996,
+  "fetes": 647,
+  "ecole": 521,
+  "parents": 507,
+  "federation": 463,
+  "sante": 403,
+  "college": 325,
+  "lycee": 299,
+  "anciens": 274,
+  "loisirs": 272,
+  "foyer": 198,
+  "union": 194,
+  "ehpad": 181,
+  "maternelle": 159,
+  "maison": 149,
+  "primaire": 143,
+  "danse": 121,
+  "conseil": 113,
+  "jeunes": 112,
+  "groupe": 106,
+  "elementaire": 106,
+  "institut": 104,
+  "sportive": 98,
+  "soins": 98,
+  "collectif": 95
+ },
+ "France_DIST_with_D_NOISE_token": {
+  "n": 2580,
+  "share": 0.1668,
+  "n_france_token": 2580
+ }
+}

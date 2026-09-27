@@ -1,0 +1,15 @@
+{
+ "init": "intfloat/multilingual-e5-base",
+ "rev": "d128750597153bb5987e10b1c3493a34e5a4502a",
+ "n_pairs": 1000000,
+ "epochs": 1.0,
+ "bs": 256,
+ "lr": 5e-05,
+ "seed": 42,
+ "steps": 3907,
+ "t_train": 810.1,
+ "pairs_per_s": 1234,
+ "vram_peak_gb": 16.9,
+ "gpu_util_mean": 96.02763819095478,
+ "final_loss": 0.04508920660987496
+}

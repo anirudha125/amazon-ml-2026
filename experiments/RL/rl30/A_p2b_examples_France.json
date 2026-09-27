@@ -1,0 +1,1936 @@
+{
+ "HI": {
+  "cie->compagnie": [
+   {
+    "s1": "Kulture & Cie EURL",
+    "s1_addr": "6 Rue de Lyon, Mérignac, Nouvelle-Aquitaine",
+    "rec": "Kulture & Compagnie EURL",
+    "rec_addr": "Mérignac, Nouvelle-Aquitaine, N° 6 R De Lyon",
+    "p": 0.9985,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Feuilles & Cie SAS",
+    "s1_addr": "Pessac, Nouvelle-Aquitaine, 26 Avenue des Charmilles",
+    "rec": "Feuilles & Compagnie SAS",
+    "rec_addr": "26 Av. Des Charmilles, Pessac, Gironde",
+    "p": 0.9983,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Chahaignes & Cie",
+    "s1_addr": "104 Boulevard de Doulon, Nantes, Pays de la Loire",
+    "rec": "Chahaignes & Compagnie",
+    "rec_addr": "N° 104 Boulevard De Doulon, Nantes",
+    "p": 0.9987,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "freres->frs": [
+   {
+    "s1": "Roulotte & Frères SARL",
+    "s1_addr": "67 Avenue de l'Europe, Mérignac, Nouvelle-Aquitaine",
+    "rec": "Roulotte & Frs SARL",
+    "rec_addr": "67 AVENUE DE L'EUROPE, MÉRIGNAC, Gironde",
+    "p": 0.9999,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": [
+     "Kung Service EURL"
+    ]
+   },
+   {
+    "s1": "Fermiers & Frères",
+    "s1_addr": "24 Boulevard Emile Zola, Saint-Nazaire, Pays de la Loire",
+    "rec": "Fermiers & Frs",
+    "rec_addr": "24 BD. EMILE ZOLA, SAINT-NAZAIRE, Pays de la Loire",
+    "p": 0.9999,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Acces & Frères SARL",
+    "s1_addr": "21 Rue Proudhon, Lille, Hauts-de-France",
+    "rec": "Acces + Frs  SARL",
+    "rec_addr": "# 21 Rue Proudhon, Lille, Nord",
+    "p": 0.9999,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "compagnie->cie": [
+   {
+    "s1": "Immeubles Compagnie SAS",
+    "s1_addr": "54 Rue de l'Amiral Courbet, Tourcoing, Hauts-de-France",
+    "rec": "Immeubles SAS Cie",
+    "rec_addr": "NO 54 R DE L'AMIRAL COURBET, TOURCOING",
+    "p": 0.9981,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Tourcoing Compagnie SARL",
+    "s1_addr": "18 bis Rue de Mouvaux, Tourcoing, Hauts-de-France",
+    "rec": "Tourcoing Cie SARL",
+    "rec_addr": "18 Bis R. De Mouvaux, Tourcoing",
+    "p": 0.9973,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "KL Compagnie SARL",
+    "s1_addr": "6 Rue Camille Sauvageau, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "KL  SARL Cie",
+    "rec_addr": "6 R Camille Sauvageau, Bordeaux",
+    "p": 0.9981,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "club->services": [
+   {
+    "s1": "Nantes Club SA",
+    "s1_addr": "3 Avenue de Noroit, Nantes, Pays de la Loire",
+    "rec": "Nantes SA Services",
+    "rec_addr": "3 Avenue De Noroit, Nantes, Pays de la Loire",
+    "p": 0.9999,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "MHX Club",
+    "s1_addr": "15 Avenue des Abeilles, Lège-Cap-Ferret, Nouvelle-Aquitaine",
+    "rec": "MHX Services",
+    "rec_addr": "15 AVENUE DES ABEILLES, LÈGE-CAP-FERRET, Nouvelle-Aquitaine",
+    "p": 0.9999,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Multi Club SA",
+    "s1_addr": "44 Boulevard Auguste Caillaud, La Baule-Escoublac, Pays de la Loire",
+    "rec": "Multi SA Services",
+    "rec_addr": "(44) Boulevard Auguste Caillaud, La Baule-escoublac, Pays de la Loire",
+    "p": 0.9983,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "saint->st": [
+   {
+    "s1": "Clinique Saint Sawa",
+    "s1_addr": "74 Rue d'Agen, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "Clinique  St Sawa",
+    "rec_addr": "Nº 74 RUE D'AGEN, BORDEAUX, Nouvelle-Aquitaine",
+    "p": 0.9999,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": [
+     "VB Élémentaire SAS"
+    ]
+   },
+   {
+    "s1": "Lycée Saint Therese",
+    "s1_addr": "15 RUE Peres, Pessac, Nouvelle-Aquitaine",
+    "rec": "Lycée St  Therese",
+    "rec_addr": "PESSAC, 15 RUE PERES, Nouvelle-Aquitaine",
+    "p": 0.9999,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": [
+     "Daudenge Drac Comite EURL"
+    ]
+   },
+   {
+    "s1": "Clinique Saint Marcel",
+    "s1_addr": "3362 Avenue de Petite-Synthe, Dunkerque, Hauts-de-France",
+    "rec": "Clinique St Marcel",
+    "rec_addr": "3362 Avenue De Petite-synthe, Dunkerque, Nord",
+    "p": 0.9999,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "club->cie": [
+   {
+    "s1": "Aide Club SAS",
+    "s1_addr": "7 RUE Camille Guerin  Appt A419-2, Lille, Hauts-de-France",
+    "rec": "Aide SAS  Cie",
+    "rec_addr": "LILLE, Hauts-de-France, 7 RUE CAMILLE GUERIN  APPT A419-2",
+    "p": 0.9979,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Cercle Club SAS",
+    "s1_addr": "Lille, Hauts-de-France, 144 Rue de la Mitterie",
+    "rec": "Cercle SAS-Cie",
+    "rec_addr": "144 R DE LA MITTERIE, LILLE, Hauts-de-France",
+    "p": 0.9996,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Mobilites Club",
+    "s1_addr": "131 Rue de Bouvines, Tourcoing, Hauts-de-France",
+    "rec": "Mobilites Cie",
+    "rec_addr": "# 131 RUE DE BOUVINES, TOURCOING, Hauts-de-France",
+    "p": 0.9998,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "ecole->services": [
+   {
+    "s1": "MD Ecole SARL",
+    "s1_addr": "28 Rue Bertrand Andrieu, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "Services MD SARL",
+    "rec_addr": "28 RUE BERTRAND ANDRIEU, Bordeaux",
+    "p": 0.9995,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Don Ecole EURL",
+    "s1_addr": "82 Rue Fernand Leger, Calais, Hauts-de-France",
+    "rec": "Don EURL Services",
+    "rec_addr": "82 R. FERNAND LEGER, CALAIS",
+    "p": 0.9998,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Organisme Ecole SA",
+    "s1_addr": "26 Rue Léo Delibes, Pessac, Nouvelle-Aquitaine",
+    "rec": "Organisme SA Services",
+    "rec_addr": "#26 R. LÉO DELIBES, PESSAC, Gironde",
+    "p": 0.9997,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "france->services": [
+   {
+    "s1": "Synd Comite (France) SARL",
+    "s1_addr": "518 Rue Henri Dunant, Dunkerque, Hauts-de-France",
+    "rec": "SYND COMITE SARL SERVICES",
+    "rec_addr": "N° 518 R. HENRI DUNANT, DUNKERQUE, Nord",
+    "p": 0.9998,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Harmonie Ets (France) SAS",
+    "s1_addr": "20 Bis Boulevard de Launay, Nantes, Pays de la Loire",
+    "rec": "HARMONIE ETS SAS SERVICES",
+    "rec_addr": "20 BIS BD DE LAUNAY, NANTES, Loire-Atlantique",
+    "p": 0.9998,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Sociale (France) Loisirs SARL",
+    "s1_addr": "9 Rue Louis Auguste Blanqui, Dunkerque, Hauts-de-France",
+    "rec": "Sociale Loisirs SARL Services",
+    "rec_addr": "9 R Louis Auguste Blanqui, Dunkerque, Hauts-de-France",
+    "p": 0.9999,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "france->cie": [
+   {
+    "s1": "Defense Compagnie (France) SA",
+    "s1_addr": "67 Rue de la Benauge, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "Defense Compagnie SA [Cie]",
+    "rec_addr": "67 R. De La Benauge, Bordeaux, Nouvelle-Aquitaine",
+    "p": 0.9983,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": [
+     "Environs Briques Sport SARL"
+    ]
+   },
+   {
+    "s1": "Omega (France) Sportive EURL",
+    "s1_addr": "14 Rue du Moulin de La Noé, Saint-Nazaire, Pays de la Loire",
+    "rec": "Cie Omega Sportive EURL",
+    "rec_addr": "14 Rue Du Moulin De La Noe, Saint-Nazaire, Loire-Atlantique",
+    "p": 0.9998,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Bi (France) Ecole SASU",
+    "s1_addr": "62 Rue Jordaens, Lille, Hauts-de-France",
+    "rec": "Bi Ecole SASU Cie",
+    "rec_addr": "#62 Rue Jordaens, Lille, Nord",
+    "p": 0.9979,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "amicale->services": [
+   {
+    "s1": "Entreprises Amicale",
+    "s1_addr": "16 Rue de Lyon, Mérignac, Nouvelle-Aquitaine",
+    "rec": "Entreprises Services",
+    "rec_addr": "16 Rue De Lyon, Mérignac, Nouvelle-Aquitaine",
+    "p": 0.9999,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Departemental Amicale EI",
+    "s1_addr": "12 Allée du Levant, Pessac, Nouvelle-Aquitaine",
+    "rec": "Departemental EI (Services)",
+    "rec_addr": "12 All Du Levant, Pessac, Gironde",
+    "p": 0.9997,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Dirty (France) Amicale SAS",
+    "s1_addr": "10 Rue des Éperviers, Pornic, Pays de la Loire",
+    "rec": "(Services) Dirty (France) SAS",
+    "rec_addr": "10 Rue Des Éperviers, Pornic, Loire-Atlantique",
+    "p": 0.9999,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "comite->cie": [
+   {
+    "s1": "Planete Comite SARL",
+    "s1_addr": "29 Rue Félix Carme, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "Planete Cie SARL",
+    "rec_addr": "29 R Felix Carme, Bordeaux",
+    "p": 0.9974,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Recyclerie Comite SARL",
+    "s1_addr": "3 Impasse de l’Amiral Courbet, Lège-Cap-Ferret, Nouvelle-Aquitaine",
+    "rec": "Recyclerie SARL Cie",
+    "rec_addr": "3 IMPASSE DE L’AMIRAL COURBET, LEGE-CAP-FERRET",
+    "p": 0.9998,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Syndicat Comite SAS",
+    "s1_addr": "15 Rue du Petit Verger, Nantes, Pays de la Loire",
+    "rec": "Syndicat SAS Cie",
+    "rec_addr": "15 Rue Du Petit Verger, Nantes, Loire-Atlantique",
+    "p": 0.9986,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": [
+     "Mont Section SARL"
+    ]
+   }
+  ],
+  "ecole->cie": [
+   {
+    "s1": "Regionale Ecole",
+    "s1_addr": "Nouvelle-Aquitaine, 18 Rue Marcel Pagnol, Mérignac",
+    "rec": "Regionale Cie",
+    "rec_addr": "18 Rue Marcel Pagnol, Mérignac, Nouvelle-Aquitaine",
+    "p": 0.9978,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": [
+     "Ailes Amis SASU"
+    ]
+   },
+   {
+    "s1": "Chateauneuf Ecole SARL",
+    "s1_addr": "6 Rue de la Chicotière, Saint-Herblain, Pays de la Loire",
+    "rec": "Chateauneuf-SARL Cie",
+    "rec_addr": "6 RUE DE LA CHICOTIÈRE, SAINT-HERBLAIN, Pays de la Loire",
+    "p": 0.9988,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Supporters (France) Ecole SARL",
+    "s1_addr": "10 Avenue du Rouquet, Mérignac, Nouvelle-Aquitaine",
+    "rec": "Supporters (France) SARL Cie",
+    "rec_addr": "10 Av. Du Rouquet, Merignac",
+    "p": 0.9984,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "club->cb": [
+   {
+    "s1": "Banana (France) Club SARL",
+    "s1_addr": "Bordeaux, Nouvelle-Aquitaine, 28 Rue Huguerie",
+    "rec": "Banana (France) Cb SARL",
+    "rec_addr": "Nouvelle-Aquitaine, Bordeaux, 28 R. Huguerie",
+    "p": 0.9999,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "RAH Club SARL",
+    "s1_addr": "97 RUE Destailleurs, Lille, Hauts-de-France",
+    "rec": "SARL RAH Cb",
+    "rec_addr": "Nº 97 RUE DESTAILLEURS, Lille",
+    "p": 0.9997,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": [
+     "Lille Comite SAS"
+    ]
+   },
+   {
+    "s1": "QHJ Club SAS",
+    "s1_addr": "24 Chemin du Moulin, La Baule-Escoublac, Pays de la Loire",
+    "rec": "QHJ Cb SAS",
+    "rec_addr": "24 Ch Du Moulin, La Baule-escoublac",
+    "p": 0.9972,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "comite->services": [
+   {
+    "s1": "Viriat Bons Comite SARL",
+    "s1_addr": "81 Rue des Pins Francs, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "Viriat Bons SARL Services",
+    "rec_addr": "81 R. Des Pins Francs, Bordeaux, Gironde",
+    "p": 0.9998,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "RJ Comite SARL",
+    "s1_addr": "Bordeaux, 42 Rue de Caudéran, Nouvelle-Aquitaine",
+    "rec": "RJ SARL  Services",
+    "rec_addr": "No. 42 Rue De Cauderan, Bordeaux, Gironde",
+    "p": 0.9997,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Solidaire Ptits Comite SCI",
+    "s1_addr": "91 QUAI des Chartrons, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "SOLIDAIRE PTITS SCI SERVICES",
+    "rec_addr": "91 QUAI DES CHARTRONS, Nouvelle-Aquitaine, BORDEAUX",
+    "p": 0.9999,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": [
+     "Departementale Ecole SAS",
+     "Privée Comite",
+     "Amandiers Peinture SARL",
+     "Centre Médical Sainte Pierre",
+     "Critical Anciens SARL",
+     "Valenton Club SAS"
+    ]
+   }
+  ],
+  "amicale->cie": [
+   {
+    "s1": "Kermesse Amicale SA",
+    "s1_addr": "97 Avenue de la Chapelle Forestière Pyla, La Teste-de-Buch, Nouvelle-Aquitaine",
+    "rec": "Cie Kermesse SA",
+    "rec_addr": "97 AVE DE LA CHAPELLE FORESTIÈRE PYLA, La Teste-de-Buch",
+    "p": 0.9967,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Technique Domicile Amicale SASU",
+    "s1_addr": "252 RUE de Begles, etage 0 Appt E, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "Cie Technique Domicile SASU",
+    "rec_addr": "252 RUE DE BEGLES, ETAGE 0 APPT E, Bordeaux, Gironde",
+    "p": 0.9948,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Nantes Amicale EURL",
+    "s1_addr": "Pays de la Loire, 2 Bis Chemin de la Violerie, Nantes",
+    "rec": "Cie Nantes EURL",
+    "rec_addr": "2 BIS CHEMIN DE LA VIOLERIE, Nantes, Loire-Atlantique",
+    "p": 0.9951,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "sportive->services": [
+   {
+    "s1": "Longe Sportive SARL",
+    "s1_addr": "Hauts-de-France, 34 Rue Champollion, Lille",
+    "rec": "Longe Services SARL",
+    "rec_addr": "No 34 R. Champollion, Lille",
+    "p": 0.9993,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Tourcoing Sportive SARL",
+    "s1_addr": "Hauts-de-France, 107 Rue de la Potente, Tourcoing",
+    "rec": "Tourcoing SARL Services",
+    "rec_addr": "107 R DE LA POTENTE, TOURCOING",
+    "p": 0.9989,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Kart Sportive SAS",
+    "s1_addr": "9 Rue d'Eylau, Lille, Hauts-de-France",
+    "rec": "KART SAS SERVICES",
+    "rec_addr": "9 R D'EYLAU, LILLE, Hauts-de-France",
+    "p": 0.9926,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "france->fils": [
+   {
+    "s1": "Camerounaise Soins (France) SCI",
+    "s1_addr": "68 Avenue du Médoc, Lège-Cap-Ferret, Nouvelle-Aquitaine",
+    "rec": "Camerounaise Soins SCI & Fils",
+    "rec_addr": "68 AVENUE DU MÉDOC, LÈGE-CAP-FERRET, Nouvelle-Aquitaine",
+    "p": 0.9993,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Couserans (France) Societe SAS",
+    "s1_addr": "151 bis Rue de Kater, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "Couserans Societe SAS & Fils",
+    "rec_addr": "151bis Rue De Kater, Bordeaux",
+    "p": 0.9986,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Tilleul Pharmacie (France) EURL",
+    "s1_addr": "874 Avenue de Dunkerque, Lille, Hauts-de-France",
+    "rec": "Tilleul Pharmacie  EURL & Fils",
+    "rec_addr": "874 AVENUE DE DUNKERQUE, LILLE, Hauts-de-France",
+    "p": 0.9923,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "club->fils": [
+   {
+    "s1": "ZCV Club SARL",
+    "s1_addr": "Hauts-de-France, 49 Rue Dupetit Thouars, Calais",
+    "rec": "ZCV SARL & FILS",
+    "rec_addr": "49 R. DUPETIT THOUARS, CALAIS, Hauts-de-France",
+    "p": 0.9916,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Centres Club SARL",
+    "s1_addr": "28 Rue Paul Wante, Roubaix, Hauts-de-France",
+    "rec": "Centres SARL & Fils",
+    "rec_addr": "28 Rue Paul Wante, Roubaix",
+    "p": 0.9977,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Point Club SA",
+    "s1_addr": "5 Passage de la Villa, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "Point SA & Fils",
+    "rec_addr": "5 PASSAGE DE LA VILLA, BORDEAUX, Nouvelle-Aquitaine",
+    "p": 0.9912,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "amis->services": [
+   {
+    "s1": "Hospitaliere Amis SASU",
+    "s1_addr": "10 AV de Brivazac, Pessac, Nouvelle-Aquitaine",
+    "rec": "Hospitaliere SASU Services",
+    "rec_addr": "0010 Av De Brivazac, Pessac, Nouvelle-Aquitaine",
+    "p": 0.9999,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Slam Amis SA",
+    "s1_addr": "9 bis Rue Dumonteil, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "Slam SA Services",
+    "rec_addr": "9 Bis Rue Dumonteil, Bordeaux, Nouvelle-Aquitaine",
+    "p": 1.0,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Clos Amis SAS",
+    "s1_addr": "35 Rue de Bègles, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "Clos SAS Services",
+    "rec_addr": "35 R. DE BÈGLES, BORDEAUX, Nouvelle-Aquitaine",
+    "p": 0.9999,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "sportive->cie": [
+   {
+    "s1": "AUN Sportive SAS",
+    "s1_addr": "21 Impasse Fontaine de Guillot, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "Cie AUN SAS",
+    "rec_addr": "Bordeaux, Nouvelle-Aquitaine, N° 21 Impasse Fontaine De Guillot",
+    "p": 0.9981,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Classe Sportive SARL",
+    "s1_addr": "Hauts-de-France, Tourcoing, 13 Place de la Croix Rouge",
+    "rec": "Classe SARL Cie",
+    "rec_addr": "13 PLACE DE LA CROIX ROUGE, TOURCOING, Nord",
+    "p": 0.9951,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "QL Sportive SARL",
+    "s1_addr": "13 Rue Marcelin, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "QL SARL Cie",
+    "rec_addr": "# 13 Rue Marcelin, Bordeaux, Nouvelle-Aquitaine",
+    "p": 0.9987,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "primaire->services": [
+   {
+    "s1": "Copropriete Primaire (France) SAS",
+    "s1_addr": "73 Avenue Albert de Mun, Saint-Nazaire, Pays de la Loire",
+    "rec": "Copropriete (France) SAS  Services",
+    "rec_addr": "73 AVENUE ALBERT DE MUN, SAINT-NAZAIRE, Pays de la Loire",
+    "p": 0.9999,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "École primaire de la Orchestrale",
+    "s1_addr": "62 Rue de l'Eglise, Lille, Hauts-de-France",
+    "rec": "école De La Orchestrale Services",
+    "rec_addr": "62 Rue De L'eglise, Lille, Hauts-de-France",
+    "p": 0.9999,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Soutien Petillantes Primaire SASU",
+    "s1_addr": "14 Rue de Cassel, Lille, Hauts-de-France",
+    "rec": "SOUTIEN  PETILLANTES SASU SERVICES",
+    "rec_addr": "NO 14 RUE DE CASSEL, LILLE, Hauts-de-France",
+    "p": 0.9992,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "amicale->associes": [
+   {
+    "s1": "Reunionnaise Amicale SAS",
+    "s1_addr": "21 Avenue de la Prime, Nantes, Pays de la Loire",
+    "rec": "Reunionnaise SAS & Associés",
+    "rec_addr": "21 Avenue De La Prime, Nantes, Pays de la Loire",
+    "p": 0.9992,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Ensemble Deleves Amicale SAS",
+    "s1_addr": "94 Rue Hector Berlioz, Nantes, Pays de la Loire",
+    "rec": "Ensemble Deleves SAS & Associés",
+    "rec_addr": "94 Rue Hector Berlioz, Nantes, Pays de la Loire",
+    "p": 0.9994,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Melanie Amicale SAS",
+    "s1_addr": "6 Rue du Serporat, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "Melanie SAS & Associés",
+    "rec_addr": "6 RUE DU SERPORAT, BORDEAUX",
+    "p": 0.9966,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "club->comite": [
+   {
+    "s1": "YTD Club SAS",
+    "s1_addr": "6 Impasse Modot, Nantes, Pays de la Loire",
+    "rec": "Ytd Comite Sas",
+    "rec_addr": "6 Imp Modot, Nantes, Loire-Atlantique",
+    "p": 0.9915,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Mister (France) Club SCI",
+    "s1_addr": "20 BIS Rue Jules Lefebvre, Lille, Hauts-de-France",
+    "rec": "Mister (France) Comite SCI",
+    "rec_addr": "20 BIS RUE JULES LEFEBVRE, LILLE, Hauts-de-France",
+    "p": 0.9969,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": [
+     "Developpement Ecole (France) EURL"
+    ]
+   },
+   {
+    "s1": "Handball Club (France) SARL",
+    "s1_addr": "6 Rue Morvan Lebesque, Nantes, Pays de la Loire",
+    "rec": "Handball Comite (France)  SARL",
+    "rec_addr": "Nº 6 RUE MORVAN LEBESQUE, NANTES",
+    "p": 0.9996,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "sante->services": [
+   {
+    "s1": "Nantes Sante SARL",
+    "s1_addr": "23 Avenue René Bazin, Nantes, Pays de la Loire",
+    "rec": "Nantes SARL Services",
+    "rec_addr": "23 Avenue René Bazin, Nantes, Pays de la Loire",
+    "p": 0.9998,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Savoir Sante (France)",
+    "s1_addr": "Roubaix, 129 Rue de Lille, Hauts-de-France",
+    "rec": "Savoir (France) Services",
+    "rec_addr": "129 R DE LILLE, ROUBAIX, Nord",
+    "p": 0.9994,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Ptits Sante SASU",
+    "s1_addr": "11 RUE Gabriel Lippmann, Nantes, Pays de la Loire",
+    "rec": "Ptits SASU Services",
+    "rec_addr": "NANTES, N° 11 R. GABRIEL LIPPMANN",
+    "p": 0.9998,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": [
+     "Rural Amis SAS"
+    ]
+   }
+  ],
+  "centre->center": [
+   {
+    "s1": "Centre Médical Saint André",
+    "s1_addr": "10 Avenue Roger Chaumet, Pessac, Nouvelle-Aquitaine",
+    "rec": "Center Médical Saint André",
+    "rec_addr": "10 Avenue Roger Chaumet, Pessac, Nouvelle-Aquitaine",
+    "p": 1.0,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "AY Centre EURL",
+    "s1_addr": "Hauts-de-France, 19 Rue des Mouettes, Dunkerque",
+    "rec": "AY Center EURL",
+    "rec_addr": "# 19 RUE DES MOUETTES, DUNKERQUE, Hauts-de-France",
+    "p": 1.0,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": [
+     "Pleneuf Lycée",
+     "Dunkerque Sante SAS",
+     "Pirate & Frères SAS"
+    ]
+   },
+   {
+    "s1": "Amrita Centre (France) SAS",
+    "s1_addr": "116 AV Linne, Roubaix, Hauts-de-France",
+    "rec": "Amrita Center (France)  SAS",
+    "rec_addr": "No 116 Av Linne, Roubaix",
+    "p": 0.9999,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ]
+ },
+ "COLOC_OWNER_HI": [
+  {
+   "s1": "Saint-Herblain Amicale SAS",
+   "rec": "Saint-Herblain Amicale S.A.S.",
+   "addr": "33 Avenue du Docteur Laennec, Pays de la Loire, Saint-Herblain",
+   "rec_addr": "Pays de la Loire, ST-HERBLAIN, # 33 AV. DU DOCTEUR LAENNEC",
+   "p": 0.9996,
+   "n_claims": 1,
+   "coloc_names": [
+    "Saint-Herblain Etablissement SAS",
+    "Deleves Amis SARL",
+    "Power Club (France) EURL",
+    "Saint-Herblain Amicale SARL",
+    "Infirmiers (France) Club SARL",
+    "Ogec Club SARL"
+   ]
+  },
+  {
+   "s1": "Nantes Pharmacie SAS",
+   "rec": "Nantes Pharmacie S.A.S",
+   "addr": "2 Avenue Sarah Bernhardt, Nantes, Pays de la Loire",
+   "rec_addr": "NANTES, NO 2 AVE SARAH BERNHARDT, Loire-Atlantique",
+   "p": 0.9998,
+   "n_claims": 1,
+   "coloc_names": [
+    "Clinique Rochettoise",
+    "Locataires & Frères SARL",
+    "Nantes Pharmacie SARL"
+   ]
+  },
+  {
+   "s1": "Bordeaux Club EURL",
+   "rec": "EURL Bordeaux Club",
+   "addr": "13 RUE du Chai des Farines, Bordeaux, Nouvelle-Aquitaine",
+   "rec_addr": "Gironde, Bordeaux, 13 R. Du Chai Des Farines",
+   "p": 0.9993,
+   "n_claims": 1,
+   "coloc_names": [
+    "RZ Pharmacie SARL",
+    "Boutique Parents",
+    "Fractale Sportive SAS",
+    "Alexis Section (France)",
+    "Laboratoire Club SAS",
+    "Bordeaux Service"
+   ]
+  },
+  {
+   "s1": "Nantes Sportive SARL",
+   "rec": "Nantes Sportive SARL",
+   "addr": "29 Boulevard de Longchamp, Nantes, Pays de la Loire",
+   "rec_addr": "29 Bd De Longchamp, Nantes, Pays de la Loire",
+   "p": 0.9999,
+   "n_claims": 1,
+   "coloc_names": [
+    "Nantes Sportive SAS",
+    "Nantes Club SARL",
+    "Commercants Lycée SARL",
+    "Oiseaux (France) Amicale EURL",
+    "Maison de Santé Ove",
+    "Basketteurs Loisirs SAS"
+   ]
+  },
+  {
+   "s1": "Lille Amis SCI",
+   "rec": "Lille SCI Amis",
+   "addr": "30 RUE des Meuniers, Lille, Hauts-de-France",
+   "rec_addr": "30 R. DES MEUNIERS, LILLE",
+   "p": 0.9999,
+   "n_claims": 1,
+   "coloc_names": [
+    "Gaule Sportive SARL",
+    "Pension & Fils EURL",
+    "Ets Orpheon SA",
+    "Lille Club SARL",
+    "Diamond (France) Collectif SAS",
+    "Centre Médical Therese"
+   ]
+  },
+  {
+   "s1": "Lille Sportive EURL",
+   "rec": "Lille Sportive E.U.R.L.",
+   "addr": "23 RUE Delphin Petit, Lille, Hauts-de-France",
+   "rec_addr": "Nº 23 R. Delphin Petit, Lille",
+   "p": 0.9962,
+   "n_claims": 1,
+   "coloc_names": [
+    "Lille Ecole SAS",
+    "Bureau Foyer SARL",
+    "Lille Ecole SARL",
+    "YYF Club SARL",
+    "Gardes Loisirs",
+    "Creche & Frères EURL"
+   ]
+  },
+  {
+   "s1": "Pornic Club SCI",
+   "rec": "Pornic Club  SCI",
+   "addr": "28 Route de la Giraudière, Pornic, Pays de la Loire",
+   "rec_addr": "28 ROUTE DE LA GIRAUDIERE, PORNIC",
+   "p": 1.0,
+   "n_claims": 1,
+   "coloc_names": [
+    "WOE Primaire SARL",
+    "Arts College SAS",
+    "Pornic Patrimoine SARL",
+    "Bien (France) Culture SA",
+    "Mure Faya Sportive SARL",
+    "Honda Cafe SAS"
+   ]
+  },
+  {
+   "s1": "Lille Sante SARL",
+   "rec": "S.A.R.L. LILLE SANTE",
+   "addr": "12 RUE Lyderic, Lille, Hauts-de-France",
+   "rec_addr": "Lille, RUE LYDERIC",
+   "p": 0.9989,
+   "n_claims": 1,
+   "coloc_names": [
+    "Clinique du Paul",
+    "Chateau Collectif (France) EURL",
+    "Lille Primaire SARL",
+    "Montredon Defis Club SCI",
+    "Lbm & Frères SAS",
+    "Berry (France) Pharmacie SARL"
+   ]
+  },
+  {
+   "s1": "Lille Centre SARL",
+   "rec": "LILLE CENTRE SARL",
+   "addr": "58 RUE du port, Lille, Hauts-de-France",
+   "rec_addr": "Nº 58 RUE BLANCHE, LILLE, Hauts-de-France",
+   "p": 0.9991,
+   "n_claims": 1,
+   "coloc_names": [
+    "Boule Sportive SAS",
+    "Ligue & Fils EURL",
+    "Labo (France) Lycée SARL",
+    "MVJ Maternelle SA",
+    "Gensac Compagnie SCI",
+    "Hébergement Loisirs SASU"
+   ]
+  },
+  {
+   "s1": "Lille Loisirs SA",
+   "rec": "Lille  Loisirs SA",
+   "addr": "27 RUE Jean Bart, Lille, Hauts-de-France",
+   "rec_addr": "27 Rue Jan Bart, Lille",
+   "p": 0.9999,
+   "n_claims": 1,
+   "coloc_names": [
+    "Esprits Compagnie SARL",
+    "Laiques Pecheurs Ecole",
+    "Sud Groupement SARL",
+    "Lille Soins SARL",
+    "QH Ecole SARL",
+    "Club du Chasse"
+   ]
+  },
+  {
+   "s1": "Bordeaux Ecole SARL",
+   "rec": "bordeaux ecole sarl",
+   "addr": "10 Cité Dutrey, Bordeaux, Nouvelle-Aquitaine",
+   "rec_addr": "10 CITE DU PERIER, BORDEAUX, Gironde",
+   "p": 0.9933,
+   "n_claims": 1,
+   "coloc_names": [
+    "Association des Local",
+    "Handicapes Ecole SARL",
+    "Liaison Amis SAS",
+    "HAC Agricole",
+    "Bordeaux Ecole SAS"
+   ]
+  },
+  {
+   "s1": "Nantes Union EI",
+   "rec": "Nantes Union EI",
+   "addr": "2 Rue Paul Griveaud, Nantes, Pays de la Loire",
+   "rec_addr": "(1) RUE PAUL GRIVEAUD, NANTES",
+   "p": 0.9936,
+   "n_claims": 1,
+   "coloc_names": [
+    "Team Conseil SAS",
+    "Alcyon Union SAS",
+    "Nantes Union SARL",
+    "EXA Danse SARL",
+    "Institut Commercant",
+    "Nantes Anciens SAS"
+   ]
+  }
+ ],
+ "LO": {
+  "club->associes": [
+   {
+    "s1": "Dynamique Club SAS",
+    "s1_addr": "12 Rue Pierre Curie, Lille, Hauts-de-France",
+    "rec": "Dynamique SAS + Associés",
+    "rec_addr": "12 RUE PIERRE CURIE, LILLE, Nord",
+    "p": 0.9798,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": [
+     "Locataires Club SARL",
+     "Jardin Sport (France) SARL"
+    ]
+   },
+   {
+    "s1": "Aerobic Forme Club",
+    "s1_addr": "8 Rue Pierre et Marie Curie, Nantes, Pays de la Loire",
+    "rec": "AEROBIC FORME  & ASSOCIÉS",
+    "rec_addr": "N° 8 RUE PIERRE ET MARIE CURIE, NANTES, Loire-Atlantique",
+    "p": 0.9713,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Graine (France) Club SA",
+    "s1_addr": "58 Rue D'Inkermann, Roubaix, Hauts-de-France",
+    "rec": "Graine (France) SA & Associés",
+    "rec_addr": "58 R D'inkermann, Roubaix, Nord",
+    "p": 0.9677,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": [
+     "Établissements Lescadron SARL"
+    ]
+   }
+  ],
+  "france->associes": [
+   {
+    "s1": "Gaule Musique (France) SARL",
+    "s1_addr": "1 Rue Pascal, Roubaix, Hauts-de-France",
+    "rec": "GAULE MUSIQUE SARL + ASSOCIÉS",
+    "rec_addr": "1 R. PASCAL, ROUBAIX",
+    "p": 0.9882,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Cantine Centre (France) SARL",
+    "s1_addr": "143 Rue de Coulmiers, Nantes, Pays de la Loire",
+    "rec": "Cantine Centre SARL & [Associés]",
+    "rec_addr": "143 R De Coulmiers, Nantes, Pays de la Loire",
+    "p": 0.9828,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Football (France) Ecole",
+    "s1_addr": "238 Rue Pierre de Roubaix, Roubaix, Hauts-de-France",
+    "rec": "Football Ecole + Associés",
+    "rec_addr": "238 RUE PIERRE DE ROUBAIX, ROUBAIX, Hauts-de-France",
+    "p": 0.9796,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "ecole->associes": [
+   {
+    "s1": "Pommes Ecole EURL",
+    "s1_addr": "13 Cité Planckaert, 33b rue dampierre, Roubaix, Hauts-de-France",
+    "rec": "Pommes EURL & Associés",
+    "rec_addr": "13 CITÉ PLANCKAERT, ROUBAIX",
+    "p": 0.9557,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Dunkerque Ecole SA",
+    "s1_addr": "3 Rue du Docteur Pascalin, Dunkerque, Hauts-de-France",
+    "rec": "Dunkerque SA &  Associés",
+    "rec_addr": "3 Rue Du Docteur Pascalin, Dunkerque",
+    "p": 0.8659,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Lamitie Ecole SA",
+    "s1_addr": "15 Rue des Amethystes, Pornic, Pays de la Loire",
+    "rec": "Lamitie SA & Associés",
+    "rec_addr": "15 Rue Des Amethystes, Pornic, Pays de la Loire",
+    "p": 0.9634,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "club->fils": [
+   {
+    "s1": "Departementale Club SAS",
+    "s1_addr": "83 Rue de la Durantière, Nantes, Pays de la Loire",
+    "rec": "Departementale SAS & Fils",
+    "rec_addr": "83 RUE DE LA DURANTIERE, NANTES, Loire-Atlantique",
+    "p": 0.9567,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Saint-Nazaire Club SAS",
+    "s1_addr": "40 Rue des Peupliers, Saint-Nazaire, Pays de la Loire",
+    "rec": "Saint-Nazaire SAS & [Fils]",
+    "rec_addr": "40 Rue Des Peupliers, St-nazaire, Loire-Atlantique",
+    "p": 0.8635,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Co Club SA",
+    "s1_addr": "85 Rue Francis de Pressensé, Nantes, Pays de la Loire",
+    "rec": "Co SA & Fils",
+    "rec_addr": "85 RUE FRANCIS DE PRESSENSÉ, NANTES",
+    "p": 0.9774,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "ecole->fils": [
+   {
+    "s1": "Telegraphe Ecole SAS",
+    "s1_addr": "6 Rue Yves Kartel, Nantes, Pays de la Loire",
+    "rec": "Telegraphe SAS & Fils",
+    "rec_addr": "6 R Yves Kartel, Nantes, Loire-Atlantique",
+    "p": 0.9727,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Patriotes Ecole SARL",
+    "s1_addr": "71 Rue Juan Gris, Calais, Hauts-de-France",
+    "rec": "Patriotes SARL & Fils",
+    "rec_addr": "71 R. Juan Gris, Calais, Pas-de-Calais",
+    "p": 0.9736,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Hubert Ecole SA",
+    "s1_addr": "31 Rue Billaudel, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "Hubert SA & Fils",
+    "rec_addr": "31 RUE BILLAUDEL, BORDEAUX",
+    "p": 0.9628,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": [
+     "Black Societe SAS"
+    ]
+   }
+  ],
+  "club->amicale": [
+   {
+    "s1": "Artisans Club EI",
+    "s1_addr": "19 Rue François Rabelais, Saint-Herblain, Pays de la Loire",
+    "rec": "Artisans Amicale EI",
+    "rec_addr": "19 Rue Francois Rabelais, Saint-herblain, Pays de la Loire",
+    "p": 0.9594,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Francaise Club SAS",
+    "s1_addr": "Tourcoing, 58 Rue des Flandres, Hauts-de-France",
+    "rec": "Francaise Amicale S.A.S",
+    "rec_addr": "TOURCOING, 58 R DES FLANDRES",
+    "p": 0.8322,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Athletique Club SASU",
+    "s1_addr": "51 Rue Vincent Auriol, Saint-Herblain, Pays de la Loire",
+    "rec": "Athletique Amicale SASU",
+    "rec_addr": "N°51 RUE VINCENT AURIOL, ST.-HERBLAIN, Loire-Atlantique",
+    "p": 0.9664,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "club->france": [
+   {
+    "s1": "BPN Club EI",
+    "s1_addr": "Hauts-de-France, 25 Rue du Maréchal Joffre, Dunkerque",
+    "rec": "France BPN EI",
+    "rec_addr": "Dunkerque, 25 Rue Du Maréchal Joffre",
+    "p": 0.9885,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": [
+     "Long Action Compagnie",
+     "Biarritz College SARL",
+     "Qualite Sportive SAS",
+     "Parcey Loisir Amicale EURL",
+     "HY Club SA",
+     "Francaise Dinteret Club SARL"
+    ]
+   },
+   {
+    "s1": "Etoiles Club SARL",
+    "s1_addr": "26 Avenue du Cabernet, Lège-Cap-Ferret, Nouvelle-Aquitaine",
+    "rec": "Etoiles SARL France",
+    "rec_addr": "26 AVE DU CABERNET, LEGE-CAP-FERRET",
+    "p": 0.9855,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "VM Club EURL",
+    "s1_addr": "27 Rue des Erables, Saint-Nazaire, Pays de la Loire",
+    "rec": "(France) VM EURL",
+    "rec_addr": "# 27 RUE DES ERABLES, Saint-Nazaire, Pays de la Loire",
+    "p": 0.9858,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "amicale->fils": [
+   {
+    "s1": "Bordeaux Amicale SARL",
+    "s1_addr": "12 bis Rue Brémontier, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "Bordeaux SARL & Fils",
+    "rec_addr": "12 BIS RUE BRÉMONTIER, BORDEAUX",
+    "p": 0.9656,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Communale Amicale SARL",
+    "s1_addr": "7 Impasse Amedro, Calais, Hauts-de-France",
+    "rec": "Communale SARL & Fils",
+    "rec_addr": "7 IMP. AMEDRO, CALAIS",
+    "p": 0.8718,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Parfums Amicale SAS",
+    "s1_addr": "9 Rue des Secouristes, Lille, Hauts-de-France",
+    "rec": "&-Fils Parfums SAS",
+    "rec_addr": "9 R Des Secouristes, Lille, Hauts-de-France",
+    "p": 0.9862,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "cie->compagnie": [
+   {
+    "s1": "Billard & Cie SAS",
+    "s1_addr": "11 Rue du Lieutenant Castelain, Roubaix, Hauts-de-France",
+    "rec": "BILLARD  & COMPAGNIE SAS",
+    "rec_addr": "11 R DU LIEUTENANT CASTELAIN, ROUBAIX, Nord",
+    "p": 0.9197,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Leclat & Cie SARL",
+    "s1_addr": "4 bis Rue Camille Guérin, La Teste-de-Buch, Nouvelle-Aquitaine",
+    "rec": "SARL Leclat + Compagnie",
+    "rec_addr": "La Teste-de-Buch, 4bis R Camille Guerin",
+    "p": 0.9865,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Chevalier & Cie SCI",
+    "s1_addr": "58 rue du Mirail, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "Chevalier & Compagnie SCI",
+    "rec_addr": "058 RUE DU MIRAIL, BORDEAUX",
+    "p": 0.9279,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "france->developpement": [
+   {
+    "s1": "Financement Ecole (France) SARL",
+    "s1_addr": "10 Impasse John William Coltrane, Mérignac, Nouvelle-Aquitaine",
+    "rec": "Financement Ecole SARL Développement",
+    "rec_addr": "10 IMPASSE JOHN WILLIAM COLTRANE, MÉRIGNAC",
+    "p": 0.8663,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Lam Eau (France) SCI",
+    "s1_addr": "124 Rue Hippolyte Lefebvre, Lille, Hauts-de-France",
+    "rec": "Lam Eau SCI Développement",
+    "rec_addr": "124 R. HIPPOLYTE LEFEBVRE, LILLE, Nord",
+    "p": 0.8375,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Ainsi (France) Fetes",
+    "s1_addr": "9 Rue Ernest Deconynck, Lille, Hauts-de-France",
+    "rec": "Ainsi  Fetes Développement",
+    "rec_addr": "9 Rue Ernest Deconynck, Lille",
+    "p": 0.9454,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "comite->fils": [
+   {
+    "s1": "UUQ Comite SARL",
+    "s1_addr": "9 Rue de Gennevilliers, Dunkerque, Hauts-de-France",
+    "rec": "UUQ SARL & Fils",
+    "rec_addr": "Hauts-de-France, Dunkerque, N° 9 Rue De Gennevilliers",
+    "p": 0.9793,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Projets Comite SARL",
+    "s1_addr": "Hauts-de-France, Lille, 89 Rue de la Bassée",
+    "rec": "Projets SARL & Fils",
+    "rec_addr": "Lille, 89 Rue De La Bassée",
+    "p": 0.9758,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Paradis Comite SARL",
+    "s1_addr": "7 Allee de la Pointe, Lège-Cap-Ferret, Nouvelle-Aquitaine",
+    "rec": "Fils Paradis SARL-+",
+    "rec_addr": "7 Allee De La Pointe, Lège-Cap-Ferret, Gironde",
+    "p": 0.9633,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "comite->associes": [
+   {
+    "s1": "Management Spleen Comite SASU",
+    "s1_addr": "196 Avenue du Maréchal de Lattre de Tassigny, La Baule-Escoublac, Pays de la Loire",
+    "rec": "Management Spleen  SASU & Associés",
+    "rec_addr": "196 AV. DU MARECHAL DE LATTRE DE TASSIGNY, LA BAULE ESCOUBLAC, Pays de la Loire",
+    "p": 0.9817,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Metanoia Comite SASU",
+    "s1_addr": "99 Rue du Dahomey, Tourcoing, Hauts-de-France",
+    "rec": "Metanoia SASU & Associés",
+    "rec_addr": "99 RUE DU DAHOMEY, TOURCOING",
+    "p": 0.98,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "HMH Comite SAS",
+    "s1_addr": "7 Route du Cap Ferret, Lège-Cap-Ferret, Nouvelle-Aquitaine",
+    "rec": "HMH SAS & Associés",
+    "rec_addr": "7 RTE DU CAP FERRET, LÈGE-CAP-FERRET, Gironde",
+    "p": 0.9489,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "club->developpement": [
+   {
+    "s1": "Lann Club SARL",
+    "s1_addr": "2 Impasse des Vignes du Bourg, Nantes, Pays de la Loire",
+    "rec": "LANN SARL DÉVELOPPEMENT",
+    "rec_addr": "2 IMPASSE DES VIGNES DU BOURG, NANTES, Pays de la Loire",
+    "p": 0.8116,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Devil Club (France) SARL",
+    "s1_addr": "27 Square Wannoschot, Lille, Hauts-de-France",
+    "rec": "Devil (France) SARL Développement",
+    "rec_addr": "27 - Square Wannoschot, Lille, Hauts-de-France",
+    "p": 0.8173,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Boost Club SARL",
+    "s1_addr": "7 Place de Navarre, Pessac, Nouvelle-Aquitaine",
+    "rec": "Boost SARL Développement",
+    "rec_addr": "7 PLACE DE NAVARRE, PESSAC",
+    "p": 0.8509,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "comite->club": [
+   {
+    "s1": "Bridge Comite SARL",
+    "s1_addr": "30 Rue de la Tullaye, Nantes, Pays de la Loire",
+    "rec": "Bridge  Club",
+    "rec_addr": "30 R De La Tullaye, Nantes",
+    "p": 0.8999,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "PJP Comite SA",
+    "s1_addr": "41 Avenue de Caudéran, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "PJP Club SA",
+    "rec_addr": "41 AVENUE DE CAUDÉRAN, BORDEAUX, Nouvelle-Aquitaine",
+    "p": 0.8716,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Communale Comite (France) SARL",
+    "s1_addr": "55 Rue Mazarin, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "Communale Club (France) SARL",
+    "rec_addr": "55 R MAZARIN, BORDEAUX, Nouvelle-Aquitaine",
+    "p": 0.9774,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "centre->associes": [
+   {
+    "s1": "NDT Centre SAS",
+    "s1_addr": "192 Rue de l'Alma, Roubaix, Hauts-de-France",
+    "rec": "NDT SAS & Associés",
+    "rec_addr": "N° 192 R. De L'alma, Roubaix",
+    "p": 0.9733,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "UU Centre SARL",
+    "s1_addr": "15 Avenue du Bassin Cap Ferret, Lège-Cap-Ferret, Nouvelle-Aquitaine",
+    "rec": "UU SARL & Associés",
+    "rec_addr": "15 AVENUE DU BASSIN CAP FERRET, LÈGE-CAP-FERRET, Gironde",
+    "p": 0.9789,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Detudes Centre SARL",
+    "s1_addr": "106 Rue Hippolyte Lefebvre, Lille, Hauts-de-France",
+    "rec": "Detudes SARL & Associés",
+    "rec_addr": "106 RUE HIPPOLYTE LEFEBVRE, LILLE, Nord",
+    "p": 0.9701,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "sante->associes": [
+   {
+    "s1": "Entente Sante SARL",
+    "s1_addr": "62 Rue des Gauvignets, Saint-Nazaire, Pays de la Loire",
+    "rec": "Entente SARL & Associés",
+    "rec_addr": "62 R. DES GAUVIGNETS, SAINT-NAZAIRE, Loire-Atlantique",
+    "p": 0.9863,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "ZV Sante EI",
+    "s1_addr": "5 Rue Victor Crépin, Lille, Hauts-de-France",
+    "rec": "ZV  EI & Associés",
+    "rec_addr": "Hauts-de-France, Lille, 5 R Victor Crépin",
+    "p": 0.9806,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Darc Sante SAS",
+    "s1_addr": "25 Avenue des Pins Pyla, La Teste-de-Buch, Nouvelle-Aquitaine",
+    "rec": "DARC SAS & ASSOCIÉS",
+    "rec_addr": "25 AVE DES PINS PYLA, LA TESTE DE BUCH",
+    "p": 0.9891,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "sportive->associes": [
+   {
+    "s1": "SO Sportive SARL",
+    "s1_addr": "55 RUE Naujac, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "SO SARL & Associés",
+    "rec_addr": "55 RUE NAUJAC, BORDEAUX, Nouvelle-Aquitaine",
+    "p": 0.985,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "IN Sportive",
+    "s1_addr": "7 Allée des Chênes Verts, Lège-Cap-Ferret, Nouvelle-Aquitaine",
+    "rec": "IN & Associés",
+    "rec_addr": "(7) ALLÉE DES CHÊNES VERTS, LÈGE-CAP-FERRET, Nouvelle-Aquitaine",
+    "p": 0.8519,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Lille Sportive SARL",
+    "s1_addr": "67 Rue de l'Hôpital Militaire, Lille, Hauts-de-France",
+    "rec": "Lille SARL & Associés",
+    "rec_addr": "67 - RUE DE L'HÔPITAL MILITAIRE, LILLE",
+    "p": 0.9649,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "sportive->club": [
+   {
+    "s1": "Cpts Sportive SAS",
+    "s1_addr": "Nantes, 66 Rue Jeanne la Corsaire, Pays de la Loire",
+    "rec": "SAS Cpts Club",
+    "rec_addr": "N°66 R JEANNE LA CORSAIRE, Nantes, Loire-Atlantique",
+    "p": 0.9782,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Deleves Sportive SAS",
+    "s1_addr": "8 Rue des Acacias, Pessac, Nouvelle-Aquitaine",
+    "rec": "Deleves Club SAS",
+    "rec_addr": "8 R DES ACACIAS, PESSAC, Nouvelle-Aquitaine",
+    "p": 0.9839,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Classe Sportive EI",
+    "s1_addr": "Nantes, 6 Rue du Phare de la Teignouse, Pays de la Loire",
+    "rec": "Classe Club EI",
+    "rec_addr": "6 RUE DU PHARE DE LA TEIGNOUSE, NANTES, Pays de la Loire",
+    "p": 0.8719,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "club->amis": [
+   {
+    "s1": "Mutiles Club (France) SARL",
+    "s1_addr": "24 Rue Louis Blanc, Lille, Hauts-de-France",
+    "rec": "Mutiles Amis (France) SARL",
+    "rec_addr": "24 RUE LOUIS BLANC, LILLE, Nord",
+    "p": 0.9484,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "JVH Club SARL",
+    "s1_addr": "1 Cour Delva, Lille, Hauts-de-France",
+    "rec": "JVH Amis Sàrl",
+    "rec_addr": "1 COUR DELVA, LILLE, Nord",
+    "p": 0.9042,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Dumas Club SCI",
+    "s1_addr": "1112 Rue de la Rousselière, Saint-Herblain, Pays de la Loire",
+    "rec": "Dumas Amis SCI",
+    "rec_addr": "1112 R. DE LA ROUSSELIÈRE, SAINT-HERBLAIN, Pays de la Loire",
+    "p": 0.9704,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "primaire->associes": [
+   {
+    "s1": "French Primaire SARL",
+    "s1_addr": "7 Boulevard de la Renaissance, Saint-Nazaire, Pays de la Loire",
+    "rec": "French SARL + Associés",
+    "rec_addr": "N° 7 BOULEVARD DE LA RENAISSANCE, SAINT-NAZAIRE, Pays de la Loire",
+    "p": 0.9762,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "École primaire du Zikn",
+    "s1_addr": "14 Rue des Freres Beraet, Calais, Hauts-de-France",
+    "rec": "École du Zikn & Associés",
+    "rec_addr": "Calais, 14 - Rue Des Freres Beraet",
+    "p": 0.9367,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "FI Primaire SCI",
+    "s1_addr": "9 Allée du Haut Lévèque, Pessac, Nouvelle-Aquitaine",
+    "rec": "FI SCI & Associés",
+    "rec_addr": "9 Allee Du Haut Leveque, Pessac",
+    "p": 0.966,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "sportive->fils": [
+   {
+    "s1": "400 Sportive SARL",
+    "s1_addr": "26 Rue Jules Michelet, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "400 SARL & Fils",
+    "rec_addr": "26 Rue Jules Michelet, Bordeaux",
+    "p": 0.9829,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Moisson Scolaire Sportive EURL",
+    "s1_addr": "10 Allée Stéphane Grappelli, Saint-Nazaire, Pays de la Loire",
+    "rec": "Moisson Scolaire EURL & Fils",
+    "rec_addr": "10 All Stephane Grappelli, Saint-nazaire, Pays de la Loire",
+    "p": 0.9535,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "MEI Sportive SA",
+    "s1_addr": "165 rue Anatole France, Calais, Hauts-de-France",
+    "rec": "MEI SA & Fils",
+    "rec_addr": "165 RUE ANATOLE FRANCE, CALAIS, Pas-de-Calais",
+    "p": 0.9752,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": [
+     "Calais Groupe SARL",
+     "Dojo Amicale SAS",
+     "Pharmacie Oxygene"
+    ]
+   }
+  ],
+  "club->ecole": [
+   {
+    "s1": "17 Club EI",
+    "s1_addr": "15 RUE Raze, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "17 Ecole EI",
+    "rec_addr": "#15 R. Raze, Bordeaux",
+    "p": 0.9526,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": [
+     "Bouquet Maison SAS"
+    ]
+   },
+   {
+    "s1": "Palestine Havai Club",
+    "s1_addr": "40 c Rue du Maréchal French, Dunkerque, Hauts-de-France",
+    "rec": "Palestine Havai Ecole",
+    "rec_addr": "40 C Rue Du Maréchal French, Dunkerque, Hauts-de-France",
+    "p": 0.9872,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Up Bureau Club SARL",
+    "s1_addr": "7 Rue Edgar Quinet, Saint-Nazaire, Pays de la Loire",
+    "rec": "SARL Up Bureau Ecole",
+    "rec_addr": "7 RUE EDGAR QUINET, Saint-Nazaire, Pays de la Loire",
+    "p": 0.9775,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "ecole->club": [
+   {
+    "s1": "Nervous Ecole",
+    "s1_addr": "124 rue des bienvenus, Calais, Hauts-de-France",
+    "rec": "Nervous Club",
+    "rec_addr": "124 R Des Bienvenus, Calais",
+    "p": 0.986,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Oeuvres Ecole SAS",
+    "s1_addr": "14 Avenue Baguenaud, La Baule-Escoublac, Pays de la Loire",
+    "rec": "Oeuvres Club SAS",
+    "rec_addr": "14 AVENUE BAGUENAUD, Pays de la Loire, LA BAULE-ESCOUBLAC",
+    "p": 0.8698,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Hors Ecole",
+    "s1_addr": "28 COUR2 Dupre Saint Maur, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "Hors Club",
+    "rec_addr": "28 COUR2 DUPRE SAINT MAUR, BORDEAUX, Gironde",
+    "p": 0.9789,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "club->comite": [
+   {
+    "s1": "Xtrm Club SARL",
+    "s1_addr": "41 Boulevard Jean Moulin, Nantes, Pays de la Loire",
+    "rec": "XTRM COMITE S.A.R.L.",
+    "rec_addr": "NANTES, 41 BD. JEAN MOULIN",
+    "p": 0.9634,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Bordeaux Club SARL",
+    "s1_addr": "109 Rue Jude, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "Bordeaux Comite Sarl",
+    "rec_addr": "109 RUE JUDE, BORDEAUX",
+    "p": 0.9792,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": [
+     "Association du Rosa"
+    ]
+   },
+   {
+    "s1": "Briant (France) Club SASU",
+    "s1_addr": "50 Avenue de la Bouvardière, Saint-Herblain, Pays de la Loire",
+    "rec": "Briant (Frânce) Comite SASU",
+    "rec_addr": "NO. 50 AVENUE DE LA BOUVARDIERE, SAINT-HERBLAIN, Pays de la Loire",
+    "p": 0.9804,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ],
+  "centre->fils": [
+   {
+    "s1": "Savante Centre",
+    "s1_addr": "10 AV Jany, Nantes, Pays de la Loire",
+    "rec": "Savante  & Fils",
+    "rec_addr": "10 Av Jany, Nantes, Pays de la Loire",
+    "p": 0.9485,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   },
+   {
+    "s1": "Royal Centre SAS",
+    "s1_addr": "9 Rue du Marechal Ney, Tourcoing, Hauts-de-France",
+    "rec": "Royal SAS & Fils",
+    "rec_addr": "9 Rue Du Marechal Ney, Tourcoing",
+    "p": 0.9238,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": [
+     "Tourcoing Sport SARL",
+     "Respiratoires Defense Danse SA",
+     "Maison Chut SARL",
+     "École maternelle de Jean",
+     "Luxury (France) Pharmacie SARL",
+     "Colocation Germaine Societe SARL"
+    ]
+   },
+   {
+    "s1": "Francaise Centre SAS",
+    "s1_addr": "118 Rue Mathieu, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "Francaise SAS & Fils",
+    "rec_addr": "118 R Mathieu, Bordeaux",
+    "p": 0.9853,
+    "n_claims": 1,
+    "coloc_owner": false,
+    "coloc_names": []
+   }
+  ]
+ },
+ "COLOC_OWNER_LO": [
+  {
+   "s1": "Lille Club SARL",
+   "rec": "Lille Club",
+   "addr": "30 RUE Des meuniers, Lille, Hauts-de-France",
+   "rec_addr": "LILLE, (30) RUE DES MEUNIERS",
+   "p": 0.9577,
+   "n_claims": 3,
+   "coloc_names": [
+    "Gaule Sportive SARL",
+    "Pension & Fils EURL",
+    "Ets Orpheon SA",
+    "Diamond (France) Collectif SAS",
+    "Centre Médical Therese",
+    "Ets Serge"
+   ]
+  },
+  {
+   "s1": "Roubaix Amis",
+   "rec": "ROUBAIX AMICALE",
+   "addr": "Roubaix, Hauts-de-France, 20 RUE de Lille",
+   "rec_addr": "20 R. DE LILLE, ROUBAIX, Hauts-de-France",
+   "p": 0.9665,
+   "n_claims": 1,
+   "coloc_names": [
+    "Espace Amis SARL",
+    "Familiale & Fils EURL",
+    "Concerts & Cie",
+    "Association du Pluri",
+    "Roubaix Amicale SAS",
+    "Centre Hospitalier Saint St"
+   ]
+  },
+  {
+   "s1": "Lille Club SAS",
+   "rec": "S.A.S. Lille Club",
+   "addr": "30 RUE Des meuniers, Lille, Hauts-de-France",
+   "rec_addr": "(30) RUE DES MEUNIERS, Lille",
+   "p": 0.7852,
+   "n_claims": 1,
+   "coloc_names": [
+    "Gaule Sportive SARL",
+    "Pension & Fils EURL",
+    "Ets Orpheon SA",
+    "Lille Club SARL",
+    "Diamond (France) Collectif SAS",
+    "Centre Médical Therese"
+   ]
+  },
+  {
+   "s1": "Lille Centre SAS",
+   "rec": "Lille Centre S.A.S.",
+   "addr": "58 RUE du Port, Lille, Hauts-de-France",
+   "rec_addr": "Rue Du Port, Lille, Nord",
+   "p": 0.9869,
+   "n_claims": 1,
+   "coloc_names": [
+    "Boule Sportive SAS",
+    "Lille Centre SARL",
+    "Ligue & Fils EURL",
+    "Labo (France) Lycée SARL",
+    "MVJ Maternelle SA",
+    "Gensac Compagnie SCI"
+   ]
+  },
+  {
+   "s1": "Lège-Cap-Ferret Club SASU",
+   "rec": "Lège-Cap-Ferret  Club SASU",
+   "addr": "5 b Rue du Belvedere, Lège-Cap-Ferret, Nouvelle-Aquitaine",
+   "rec_addr": "",
+   "p": 0.7919,
+   "n_claims": 1,
+   "coloc_names": [
+    "Ets Traditions SARL",
+    "Lège-Cap-Ferret Club SAS",
+    "Horizon (France) Parents SARL",
+    "Lège-Cap-Ferret Union",
+    "Clinique Sainte Classards",
+    "Zik Compagnie"
+   ]
+  }
+ ]
+}

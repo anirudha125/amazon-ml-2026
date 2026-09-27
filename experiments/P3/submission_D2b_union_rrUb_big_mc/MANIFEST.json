@@ -1,0 +1,22 @@
+{
+ "submission_id": "S004",
+ "leaderboard": 0.979772,
+ "status": "OFFICIAL BEST - immutable",
+ "created": "2026-09-26T21:39Z",
+ "model": "D2b_union_rrUb_big (experiments/E024/model_D2b_union_rrUb_big.pkl, seed 42, th 0.72)",
+ "pool": "S001/S002 lexical test pools (n4addr 50 + n4name 10 per source) UNION E022_a fine-tuned e5-small dense top-10 per source",
+ "reranker": "experiments/E023/model_rrUb_a50n10d10a (multilingual-e5-base, MIT, fine-tuned on TR 100k disjoint train S1)",
+ "bi_encoder": "experiments/E022_a/model (multilingual-e5-small, MIT, fine-tuned on TD 400k disjoint train S1)",
+ "postprocess": "max-claimer per country (E020/E025)",
+ "val": {
+  "V1": 98.53,
+  "V0": 98.4
+ },
+ "validators": "official PASS + tools/check_submission.py PASS",
+ "sha256": [
+  "b9982fd7c91b7b6c4c21f03586a940d57046047dc90d8a753ba3d74689937650",
+  "experiments/P3/submission_D2b_union_rrUb_big_mc/matching_results.tsv",
+  "1e95e08725eeb3d9425345758a01cca70573a582d4e96ed1b388033c99d0f0f3",
+  "experiments/P3/submission_D2b_union_rrUb_big_mc/candidate_pairs.tsv"
+ ]
+}

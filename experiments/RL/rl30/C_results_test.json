@@ -1,0 +1,1985 @@
+{
+ "France": {
+  "n_accepted": 879329,
+  "n_s1": 246019,
+  "kept_final": 854396,
+  "both_addr_words": 856398,
+  "share_both": 0.9739,
+  "street_defined_share_of_both": 0.9346,
+  "s1_street_missing_share": 0.0063,
+  "rec_street_missing_share": 0.0645,
+  "hn_defined_share_of_both": 0.9373,
+  "street=0": {
+   "n": 67241,
+   "share_of_accepted": 0.07647,
+   "share_of_both": 0.07852,
+   "n_kept": 55898,
+   "share_of_kept": 0.06542,
+   "mean_p": 0.9811,
+   "multi_claim_share": 0.1996,
+   "n_s1": 51836
+  },
+  "street=0&hn=neq": {
+   "n": 6424,
+   "share_of_accepted": 0.00731,
+   "share_of_both": 0.0075,
+   "n_kept": 3475,
+   "share_of_kept": 0.00407,
+   "mean_p": 0.9276,
+   "multi_claim_share": 0.4875,
+   "n_s1": 5007
+  },
+  "street=0&hn=eq": {
+   "n": 60817,
+   "share_of_accepted": 0.06916,
+   "share_of_both": 0.07101,
+   "n_kept": 52423,
+   "share_of_kept": 0.06136,
+   "mean_p": 0.9867,
+   "multi_claim_share": 0.1691,
+   "n_s1": 48200
+  },
+  "street=1&hn=eq": {
+   "n": 667210,
+   "share_of_accepted": 0.75877,
+   "share_of_both": 0.77909,
+   "n_kept": 665787,
+   "share_of_kept": 0.77925,
+   "mean_p": 0.9948,
+   "multi_claim_share": 0.0195,
+   "n_s1": 233199
+  },
+  "KEY": {
+   "n": 19374,
+   "share_of_accepted": 0.02203,
+   "share_of_both": 0.02262,
+   "n_kept": 13891,
+   "share_of_kept": 0.01626,
+   "mean_p": 0.9723,
+   "multi_claim_share": 0.3385,
+   "n_s1": 16320
+  },
+  "KEY&hn=eq": {
+   "n": 15212,
+   "share_of_accepted": 0.0173,
+   "share_of_both": 0.01776,
+   "n_kept": 11678,
+   "share_of_kept": 0.01367,
+   "mean_p": 0.9829,
+   "multi_claim_share": 0.2935,
+   "n_s1": 13423
+  },
+  "KEY&hn=neq": {
+   "n": 4162,
+   "share_of_accepted": 0.00473,
+   "share_of_both": 0.00486,
+   "n_kept": 2213,
+   "share_of_kept": 0.00259,
+   "mean_p": 0.9336,
+   "multi_claim_share": 0.5031,
+   "n_s1": 3213
+  },
+  "KEY&hn=miss": {
+   "n": 0,
+   "share_of_accepted": 0.0,
+   "share_of_both": 0.0,
+   "n_kept": 0,
+   "share_of_kept": 0.0,
+   "mean_p": null,
+   "multi_claim_share": null,
+   "n_s1": 0
+  },
+  "KEY&street_fuzzy<0.8": {
+   "n": 8710,
+   "share_of_accepted": 0.00991,
+   "share_of_both": 0.01017,
+   "n_kept": 3327,
+   "share_of_kept": 0.00389,
+   "mean_p": 0.9458,
+   "multi_claim_share": 0.6783,
+   "n_s1": 6769
+  },
+  "KEY&street_fuzzy>=0.8": {
+   "n": 10664,
+   "share_of_accepted": 0.01213,
+   "share_of_both": 0.01245,
+   "n_kept": 10564,
+   "share_of_kept": 0.01236,
+   "mean_p": 0.9939,
+   "multi_claim_share": 0.061,
+   "n_s1": 9871
+  },
+  "KEY&same_core": {
+   "n": 13869,
+   "share_of_accepted": 0.01577,
+   "share_of_both": 0.01619,
+   "n_kept": 10118,
+   "share_of_kept": 0.01184,
+   "mean_p": 0.9765,
+   "multi_claim_share": 0.3358,
+   "n_s1": 11966
+  },
+  "KEY&p<0.99": {
+   "n": 5897,
+   "share_of_accepted": 0.00671,
+   "share_of_both": 0.00689,
+   "n_kept": 1868,
+   "share_of_kept": 0.00219,
+   "mean_p": 0.9109,
+   "multi_claim_share": 0.7178,
+   "n_s1": 5278
+  },
+  "baseline_multi_claim_share": 0.0482,
+  "p_quantiles_KEY": [
+   0.8323,
+   0.9774,
+   0.9997,
+   0.9999,
+   1.0
+  ],
+  "p_quantiles_all": [
+   0.937,
+   0.9993,
+   0.9999,
+   1.0,
+   1.0
+  ],
+  "KEY&S1_has_other_street_match_rec": {
+   "n": 17248,
+   "share_of_KEY": 0.8903
+  },
+  "ESTIMATED_fp_in_KEY_kept_via_V1_precision": 6.6,
+  "table": {
+   "full>=0.8|street=1|hn=eq": {
+    "n": 544677,
+    "share": 0.61942,
+    "kept_share": 0.9977
+   },
+   "full>=0.8|street=1|hn=neq": {
+    "n": 15703,
+    "share": 0.01786,
+    "kept_share": 0.7486
+   },
+   "full>=0.8|street=part|hn=eq": {
+    "n": 17046,
+    "share": 0.01939,
+    "kept_share": 0.9939
+   },
+   "full>=0.8|street=part|hn=neq": {
+    "n": 601,
+    "share": 0.00068,
+    "kept_share": 0.5874
+   },
+   "full>=0.8|street=0|hn=eq": {
+    "n": 15212,
+    "share": 0.0173,
+    "kept_share": 0.7677
+   },
+   "full>=0.8|street=0|hn=neq": {
+    "n": 4162,
+    "share": 0.00473,
+    "kept_share": 0.5317
+   },
+   "full>=0.8|street=miss|hn=eq": {
+    "n": 835,
+    "share": 0.00095,
+    "kept_share": 0.9605
+   },
+   "full>=0.8|street=miss|hn=neq": {
+    "n": 846,
+    "share": 0.00096,
+    "kept_share": 0.9823
+   },
+   "full>=0.8|street=miss|hn=miss": {
+    "n": 40207,
+    "share": 0.04572,
+    "kept_share": 0.8773
+   },
+   "full<0.8|street=1|hn=eq": {
+    "n": 122533,
+    "share": 0.13935,
+    "kept_share": 0.9985
+   },
+   "full<0.8|street=1|hn=neq": {
+    "n": 3848,
+    "share": 0.00438,
+    "kept_share": 0.7549
+   },
+   "full<0.8|street=part|hn=eq": {
+    "n": 27957,
+    "share": 0.03179,
+    "kept_share": 0.996
+   },
+   "full<0.8|street=part|hn=neq": {
+    "n": 812,
+    "share": 0.00092,
+    "kept_share": 0.7438
+   },
+   "full<0.8|street=0|hn=eq": {
+    "n": 45605,
+    "share": 0.05186,
+    "kept_share": 0.8934
+   },
+   "full<0.8|street=0|hn=neq": {
+    "n": 2262,
+    "share": 0.00257,
+    "kept_share": 0.5579
+   },
+   "full<0.8|street=miss|hn=eq": {
+    "n": 327,
+    "share": 0.00037,
+    "kept_share": 0.945
+   },
+   "full<0.8|street=miss|hn=neq": {
+    "n": 264,
+    "share": 0.0003,
+    "kept_share": 0.9886
+   },
+   "full<0.8|street=miss|hn=miss": {
+    "n": 13501,
+    "share": 0.01535,
+    "kept_share": 0.9015
+   },
+   "nan|street=miss|hn=miss": {
+    "n": 22931,
+    "share": 0.02608,
+    "kept_share": 0.9882
+   }
+  },
+  "examples": {
+   "KEY&hn=eq": [
+    {
+     "s1": "S1-756975242",
+     "s1_name": "EEG Sport",
+     "s1_addr": "90 i Rue de Constantine, Roubaix, Hauts-de-France",
+     "rec": "S3-224202437",
+     "rec_name": "EEG Sport SAS",
+     "rec_addr": "90 I Rue De Constantile, Roubaix, Hauts-de-France",
+     "p": 0.9997,
+     "n_claims": 1,
+     "full": 0.8,
+     "street_fuzzy": 0.909,
+     "same_core": true
+    },
+    {
+     "s1": "S1-597834999",
+     "s1_name": "Enseignement Amis SARL",
+     "s1_addr": "10 bis Rue de la Benauge, Bordeaux, Nouvelle-Aquitaine",
+     "rec": "S2-206460736",
+     "rec_name": "SARL Enseignement \u00c0mis",
+     "rec_addr": "10 BIS R. DE LA BENAGE, Bordeaux, Nouvelle-Aquitaine",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 0.8,
+     "street_fuzzy": 0.923,
+     "same_core": true
+    },
+    {
+     "s1": "S1-851606926",
+     "s1_name": "Outreach Etudiants Ecole SARL",
+     "s1_addr": "2 Rue des Antilles, Calais, Hauts-de-France",
+     "rec": "S3-103071086",
+     "rec_name": "#Outreachetudiants",
+     "rec_addr": "2 Rue Des Antills, Calais, Hauts-de-France",
+     "p": 0.9998,
+     "n_claims": 1,
+     "full": 0.8,
+     "street_fuzzy": 0.933,
+     "same_core": false
+    },
+    {
+     "s1": "S1-792001866",
+     "s1_name": "Federale Fetes (France) SAS",
+     "s1_addr": "24 RUE Kervegan, Nantes, Pays de la Loire",
+     "rec": "S2-623554246",
+     "rec_name": "[SAS] Federale Fetes (France)",
+     "rec_addr": "24 RUE KEREGAN, Nantes, Pays de la Loire",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 0.8,
+     "street_fuzzy": 0.933,
+     "same_core": true
+    },
+    {
+     "s1": "S1-29450847",
+     "s1_name": "Calais Club SARL",
+     "s1_addr": "23 Rue de Duisbourg, Calais, Hauts-de-France",
+     "rec": "S2-252820775",
+     "rec_name": "Club Calais SARL",
+     "rec_addr": "23 RUE DE DISBOURG, Calais, Hauts-de-France",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 0.8,
+     "street_fuzzy": 0.941,
+     "same_core": true
+    },
+    {
+     "s1": "S1-925846209",
+     "s1_name": "Thieu Comite SARL",
+     "s1_addr": "91 Rue N\u00e9grier, Lille, Hauts-de-France",
+     "rec": "S3-315541507",
+     "rec_name": "Thieu Comite",
+     "rec_addr": "91 Rue N\u00e9girer, Lille, Hauts-de-France",
+     "p": 1.0,
+     "n_claims": 1,
+     "full": 0.8,
+     "street_fuzzy": 0.857,
+     "same_core": true
+    },
+    {
+     "s1": "S1-684668920",
+     "s1_name": "Art Pharmacie (France)",
+     "s1_addr": "22 Rue Lhomond, Hauts-de-France, Tourcoing",
+     "rec": "S2-706262930",
+     "rec_name": "ART PHARMACIE (FRANCE)",
+     "rec_addr": "N\u00ba 22 RUE LHOOMND, TOURCOING, Hauts-de-France",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 0.8,
+     "street_fuzzy": 0.857,
+     "same_core": true
+    },
+    {
+     "s1": "S1-78356439",
+     "s1_name": "Lyonne Maison SARL",
+     "s1_addr": "10 Rue de la Timonerie, Dunkerque, Hauts-de-France",
+     "rec": "S2-484839494",
+     "rec_name": "Lyonne Maison Sarl",
+     "rec_addr": "N\u00ba 10 RUE DE LA TSMONERIE, DUNKERQUE, Hauts-de-France",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 0.8,
+     "street_fuzzy": 0.889,
+     "same_core": true
+    },
+    {
+     "s1": "S1-755227086",
+     "s1_name": "Musculation Ecole SAS",
+     "s1_addr": "48 Rue du 11 Novembre, Lille, Hauts-de-France",
+     "rec": "S2-672596399",
+     "rec_name": "Musculation \u00c9cole SAS",
+     "rec_addr": "48 RUE DU 11 NVEMBRE, LILLE, Hauts-de-France",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 0.8,
+     "street_fuzzy": 0.933,
+     "same_core": true
+    },
+    {
+     "s1": "S1-907894772",
+     "s1_name": "Ets Collection SAS",
+     "s1_addr": "Nouvelle-Aquitaine, Bordeaux, 13 Rue Caussade",
+     "rec": "S2-42851478",
+     "rec_name": "Ets Collection SAS",
+     "rec_addr": "13 RUE GOYA, BORDEAUX, Nouvelle-Aquitaine",
+     "p": 0.9998,
+     "n_claims": 1,
+     "full": 0.8,
+     "street_fuzzy": 0.167,
+     "same_core": true
+    }
+   ],
+   "KEY&hn=neq": [
+    {
+     "s1": "S1-728898591",
+     "s1_name": "Lpa (France) Societe SARL",
+     "s1_addr": "Hauts-de-France, Roubaix, 284b rue de lannoy, 6 Cour Papillon Bonte",
+     "rec": "S3-84700519",
+     "rec_name": "Lpa (France) Societe SARL",
+     "rec_addr": "6 Cour Papillon Bonte, 284b Rue De Lannoy, Roubaix, Hauts-de-France",
+     "p": 1.0,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.16,
+     "same_core": true
+    },
+    {
+     "s1": "S1-911721223",
+     "s1_name": "Roubaix Amicale SARL",
+     "s1_addr": "56 Rue de Valenciennes, Roubaix, Hauts-de-France",
+     "rec": "S2-508100909",
+     "rec_name": "Roubaix Amicale SARL",
+     "rec_addr": "NO 105 RUE RUBENS, ROUBAIX, Hauts-de-France",
+     "p": 0.8432,
+     "n_claims": 2,
+     "full": 0.8,
+     "street_fuzzy": 0.333,
+     "same_core": true
+    },
+    {
+     "s1": "S1-381178764",
+     "s1_name": "Lille Centre SARL",
+     "s1_addr": "11 Rue de la Monnaie, Lille, Hauts-de-France",
+     "rec": "S2-95313826",
+     "rec_name": "Lille Centre [SARL]",
+     "rec_addr": "10 RUE DE LA MONNIAE, LILLE, Hauts-de-France",
+     "p": 0.9949,
+     "n_claims": 2,
+     "full": 0.8,
+     "street_fuzzy": 0.857,
+     "same_core": true
+    },
+    {
+     "s1": "S1-245624753",
+     "s1_name": "Bordeaux Culture SASU",
+     "s1_addr": "Nouvelle-Aquitaine, Bordeaux, 1er Etage, 40 RUE Jules Delpit",
+     "rec": "S3-275216823",
+     "rec_name": "Bordeaux SASU Club",
+     "rec_addr": "Bordeaux, # 40 Rue Jules Delpit, 1er Etage",
+     "p": 0.9922,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.143,
+     "same_core": false
+    },
+    {
+     "s1": "S1-337088213",
+     "s1_name": "Maison Deleves",
+     "s1_addr": "55 RUE dAngleterre, Lille, Hauts-de-France",
+     "rec": "S2-415253160",
+     "rec_name": "Maison  Deleves",
+     "rec_addr": "57 RUE DANGLETERER, LILLE, Hauts-de-France",
+     "p": 0.9957,
+     "n_claims": 1,
+     "full": 0.8,
+     "street_fuzzy": 0.909,
+     "same_core": true
+    },
+    {
+     "s1": "S1-343040129",
+     "s1_name": "Roubaix Parents EURL",
+     "s1_addr": "99 Rue Rubens, Roubaix, Hauts-de-France",
+     "rec": "S2-124102520",
+     "rec_name": "Roubaix Parents EURL",
+     "rec_addr": "9 - RUE DELEZENNE, ROUBAIX, Hauts-de-France",
+     "p": 0.8807,
+     "n_claims": 1,
+     "full": 0.8,
+     "street_fuzzy": 0.267,
+     "same_core": true
+    },
+    {
+     "s1": "S1-595923007",
+     "s1_name": "Bordeaux Anciens SARL",
+     "s1_addr": "Nouvelle-Aquitaine, Bordeaux, 165 Rue Mandron",
+     "rec": "S2-362494353",
+     "rec_name": "Bordeaux Anciens SARL",
+     "rec_addr": "238 RUE GEORGES MANDEL, BORDEAUX, Nouvelle-Aquitaine",
+     "p": 0.9201,
+     "n_claims": 1,
+     "full": 0.8,
+     "street_fuzzy": 0.381,
+     "same_core": true
+    },
+    {
+     "s1": "S1-745482502",
+     "s1_name": "Riverains Parents",
+     "s1_addr": "3eme etage arriere, 34 RUE Camille Desmoulins, Lille, Hauts-de-France",
+     "rec": "S3-577371721",
+     "rec_name": "Riverainsparents.Com",
+     "rec_addr": "034 Rue Camille Desmoulins, Lille, Nord",
+     "p": 0.998,
+     "n_claims": 1,
+     "full": 0.8,
+     "street_fuzzy": 0.414,
+     "same_core": false
+    },
+    {
+     "s1": "S1-400169634",
+     "s1_name": "Street Club (France)",
+     "s1_addr": "19 Cour Govaere, 125 rue de l'\u00e9peule, Roubaix, Hauts-de-France",
+     "rec": "S2-692254181",
+     "rec_name": "Street (France) Club",
+     "rec_addr": "125 RUE DE L'\u00c9PEULE, COUR GOVAERE, ROUBAIX, Hauts-de-France",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.222,
+     "same_core": true
+    },
+    {
+     "s1": "S1-135680264",
+     "s1_name": "Maison de Sant\u00e9 Saint Notre",
+     "s1_addr": "1er Etage, Nouvelle-Aquitaine, 40 RUE Jules Delpit, Bordeaux",
+     "rec": "S3-917785144",
+     "rec_name": "Maison De Sant\u00e9 Saint Notre",
+     "rec_addr": "# 40 R Jules Delpit, Bordeaux",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.143,
+     "same_core": true
+    }
+   ],
+   "street=0&hn=neq&full<0.8": [
+    {
+     "s1": "S1-787256791",
+     "s1_name": "Ets Site SAS",
+     "s1_addr": "Dunkerque, 29 Rue Marquant, Hauts-de-France",
+     "rec": "S3-970181546",
+     "rec_name": "Ets Site SASU",
+     "rec_addr": "N\u00ba 34 Rue Marqucnt, Dunkerque, Nord",
+     "p": 0.8317,
+     "n_claims": 1,
+     "full": 0.5,
+     "street_fuzzy": 0.875,
+     "same_core": true
+    },
+    {
+     "s1": "S1-81934852",
+     "s1_name": "Lille Club SAS",
+     "s1_addr": "28 Avenue des Martyrs, Lille, Hauts-de-France",
+     "rec": "S3-615835521",
+     "rec_name": "Lille Club",
+     "rec_addr": "29 Avenue Des Martysr, Lille",
+     "p": 0.9568,
+     "n_claims": 1,
+     "full": 0.667,
+     "street_fuzzy": 0.857,
+     "same_core": true
+    },
+    {
+     "s1": "S1-663200316",
+     "s1_name": "Peche Amis SAS",
+     "s1_addr": "18 RUE Cabanis, BP 17, Lille, Hauts-de-France",
+     "rec": "S3-712162263",
+     "rec_name": "Peche \u00c0mis SAS",
+     "rec_addr": "Lille, Bp 17, 018 R. Cabanrs",
+     "p": 0.9998,
+     "n_claims": 1,
+     "full": 0.5,
+     "street_fuzzy": 0.222,
+     "same_core": true
+    },
+    {
+     "s1": "S1-247134097",
+     "s1_name": "M\u00e9rignac Club SAS",
+     "s1_addr": "40 Rue de Paris, M\u00e9rignac, Nouvelle-Aquitaine",
+     "rec": "S2-311727331",
+     "rec_name": "M\u00e9rignac Club SAS",
+     "rec_addr": "265 RUE DE PARS, MERIGNAC",
+     "p": 0.8719,
+     "n_claims": 1,
+     "full": 0.667,
+     "street_fuzzy": 0.889,
+     "same_core": true
+    },
+    {
+     "s1": "S1-202720377",
+     "s1_name": "In Jeunes SAS",
+     "s1_addr": "22 Rue Hoche, Calais, Hauts-de-France",
+     "rec": "S2-188978013",
+     "rec_name": "In Jeunes SASU",
+     "rec_addr": "29 RUE HORHE, Pas-de-Calais, CALAIS",
+     "p": 0.8952,
+     "n_claims": 1,
+     "full": 0.5,
+     "street_fuzzy": 0.8,
+     "same_core": true
+    },
+    {
+     "s1": "S1-288192803",
+     "s1_name": "Lyc\u00e9e Foires",
+     "s1_addr": "89 Rue Descartes, Calais, Hauts-de-France",
+     "rec": "S3-880618651",
+     "rec_name": "Lyc\u00e9e (Foires)",
+     "rec_addr": "098 R. Desacrtes, Calais",
+     "p": 0.8553,
+     "n_claims": 1,
+     "full": 0.5,
+     "street_fuzzy": 0.889,
+     "same_core": true
+    },
+    {
+     "s1": "S1-889693151",
+     "s1_name": "Ets Commanderie",
+     "s1_addr": "239 rue de Saint-Gen\u00e8s, 33000 BORDEAUX, Bordeaux, Nouvelle-Aquitaine",
+     "rec": "S2-896560728",
+     "rec_name": "Ets Commanderie",
+     "rec_addr": "BORDEAUX, Gironde, 33000 BORDEAUX, 239 RUE DE SAINTG-EN\u00c8S",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 0.4,
+     "street_fuzzy": 0.211,
+     "same_core": true
+    },
+    {
+     "s1": "S1-71594589",
+     "s1_name": "SF Soins SAS",
+     "s1_addr": "Bordeaux, 76 Rue Hortense, Nouvelle-Aquitaine",
+     "rec": "S2-62191429",
+     "rec_name": "SF SOINS SA",
+     "rec_addr": "BORDEAUX, (80) RUE HOTRENSE, Gironde",
+     "p": 0.9704,
+     "n_claims": 1,
+     "full": 0.5,
+     "street_fuzzy": 0.875,
+     "same_core": true
+    },
+    {
+     "s1": "S1-225704662",
+     "s1_name": "Ets Arts SAS",
+     "s1_addr": "5 PL dArmes, Cs11030, Bordeaux, Nouvelle-Aquitaine",
+     "rec": "S2-571971663",
+     "rec_name": "Ets \u00c0rts SAS",
+     "rec_addr": "CS11030, Gironde, 5 PL DARMES, BORDEAUX",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 0.667,
+     "street_fuzzy": 0.25,
+     "same_core": true
+    },
+    {
+     "s1": "S1-241380919",
+     "s1_name": "Union de Rambaud",
+     "s1_addr": "Hauts-de-France, 59800 LILLE, 16 rue de la Baignerie, Lille",
+     "rec": "S3-291814266",
+     "rec_name": "Union de [[Rambaud]]",
+     "rec_addr": "16 R De La Baignerie, 59800 Lille, Lille, Nord",
+     "p": 1.0,
+     "n_claims": 1,
+     "full": 0.667,
+     "street_fuzzy": 0.286,
+     "same_core": true
+    }
+   ]
+  }
+ },
+ "US": {
+  "n_accepted": 2236533,
+  "n_s1": 624763,
+  "kept_final": 2236158,
+  "both_addr_words": 2173696,
+  "share_both": 0.9719,
+  "street_defined_share_of_both": 0.8239,
+  "s1_street_missing_share": 0.0776,
+  "rec_street_missing_share": 0.1612,
+  "hn_defined_share_of_both": 0.922,
+  "street=0": {
+   "n": 74934,
+   "share_of_accepted": 0.0335,
+   "share_of_both": 0.03447,
+   "n_kept": 74917,
+   "share_of_kept": 0.0335,
+   "mean_p": 0.998,
+   "multi_claim_share": 0.0003,
+   "n_s1": 56294
+  },
+  "street=0&hn=neq": {
+   "n": 10052,
+   "share_of_accepted": 0.00449,
+   "share_of_both": 0.00462,
+   "n_kept": 10044,
+   "share_of_kept": 0.00449,
+   "mean_p": 0.9929,
+   "multi_claim_share": 0.001,
+   "n_s1": 6932
+  },
+  "street=0&hn=eq": {
+   "n": 64882,
+   "share_of_accepted": 0.02901,
+   "share_of_both": 0.02985,
+   "n_kept": 64873,
+   "share_of_kept": 0.02901,
+   "mean_p": 0.9988,
+   "multi_claim_share": 0.0002,
+   "n_s1": 51168
+  },
+  "street=1&hn=eq": {
+   "n": 1541156,
+   "share_of_accepted": 0.68908,
+   "share_of_both": 0.709,
+   "n_kept": 1541056,
+   "share_of_kept": 0.68915,
+   "mean_p": 0.999,
+   "multi_claim_share": 0.0002,
+   "n_s1": 542032
+  },
+  "KEY": {
+   "n": 16116,
+   "share_of_accepted": 0.00721,
+   "share_of_both": 0.00741,
+   "n_kept": 16113,
+   "share_of_kept": 0.00721,
+   "mean_p": 0.9977,
+   "multi_claim_share": 0.0004,
+   "n_s1": 11538
+  },
+  "KEY&hn=eq": {
+   "n": 11367,
+   "share_of_accepted": 0.00508,
+   "share_of_both": 0.00523,
+   "n_kept": 11367,
+   "share_of_kept": 0.00508,
+   "mean_p": 0.9986,
+   "multi_claim_share": 0.0002,
+   "n_s1": 8444
+  },
+  "KEY&hn=neq": {
+   "n": 4749,
+   "share_of_accepted": 0.00212,
+   "share_of_both": 0.00218,
+   "n_kept": 4746,
+   "share_of_kept": 0.00212,
+   "mean_p": 0.9954,
+   "multi_claim_share": 0.0008,
+   "n_s1": 3536
+  },
+  "KEY&hn=miss": {
+   "n": 0,
+   "share_of_accepted": 0.0,
+   "share_of_both": 0.0,
+   "n_kept": 0,
+   "share_of_kept": 0.0,
+   "mean_p": null,
+   "multi_claim_share": null,
+   "n_s1": 0
+  },
+  "KEY&street_fuzzy<0.8": {
+   "n": 15701,
+   "share_of_accepted": 0.00702,
+   "share_of_both": 0.00722,
+   "n_kept": 15698,
+   "share_of_kept": 0.00702,
+   "mean_p": 0.9977,
+   "multi_claim_share": 0.0004,
+   "n_s1": 11135
+  },
+  "KEY&street_fuzzy>=0.8": {
+   "n": 415,
+   "share_of_accepted": 0.00019,
+   "share_of_both": 0.00019,
+   "n_kept": 415,
+   "share_of_kept": 0.00019,
+   "mean_p": 0.9981,
+   "multi_claim_share": 0.0,
+   "n_s1": 409
+  },
+  "KEY&same_core": {
+   "n": 9091,
+   "share_of_accepted": 0.00406,
+   "share_of_both": 0.00418,
+   "n_kept": 9090,
+   "share_of_kept": 0.00407,
+   "mean_p": 0.9986,
+   "multi_claim_share": 0.0002,
+   "n_s1": 7432
+  },
+  "KEY&p<0.99": {
+   "n": 583,
+   "share_of_accepted": 0.00026,
+   "share_of_both": 0.00027,
+   "n_kept": 580,
+   "share_of_kept": 0.00026,
+   "mean_p": 0.9472,
+   "multi_claim_share": 0.0051,
+   "n_s1": 553
+  },
+  "baseline_multi_claim_share": 0.0003,
+  "p_quantiles_KEY": [
+   0.9944,
+   0.9998,
+   0.9999,
+   0.9999,
+   1.0
+  ],
+  "p_quantiles_all": [
+   0.9915,
+   0.9998,
+   0.9999,
+   1.0,
+   1.0
+  ],
+  "KEY&S1_has_other_street_match_rec": {
+   "n": 10800,
+   "share_of_KEY": 0.6701
+  },
+  "ESTIMATED_fp_in_KEY_kept_via_V1_precision": 14.2,
+  "table": {
+   "full>=0.8|street=1|hn=eq": {
+    "n": 915640,
+    "share": 0.4094,
+    "kept_share": 0.9999
+   },
+   "full>=0.8|street=1|hn=neq": {
+    "n": 92083,
+    "share": 0.04117,
+    "kept_share": 0.9997
+   },
+   "full>=0.8|street=part|hn=eq": {
+    "n": 2630,
+    "share": 0.00118,
+    "kept_share": 1.0
+   },
+   "full>=0.8|street=part|hn=neq": {
+    "n": 188,
+    "share": 8e-05,
+    "kept_share": 1.0
+   },
+   "full>=0.8|street=0|hn=eq": {
+    "n": 11367,
+    "share": 0.00508,
+    "kept_share": 1.0
+   },
+   "full>=0.8|street=0|hn=neq": {
+    "n": 4749,
+    "share": 0.00212,
+    "kept_share": 0.9994
+   },
+   "full>=0.8|street=miss|hn=eq": {
+    "n": 91940,
+    "share": 0.04111,
+    "kept_share": 0.9999
+   },
+   "full>=0.8|street=miss|hn=neq": {
+    "n": 40512,
+    "share": 0.01811,
+    "kept_share": 0.9998
+   },
+   "full>=0.8|street=miss|hn=miss": {
+    "n": 100162,
+    "share": 0.04478,
+    "kept_share": 0.9998
+   },
+   "full<0.8|street=1|hn=eq": {
+    "n": 625516,
+    "share": 0.27968,
+    "kept_share": 0.9999
+   },
+   "full<0.8|street=1|hn=neq": {
+    "n": 65373,
+    "share": 0.02923,
+    "kept_share": 0.9995
+   },
+   "full<0.8|street=part|hn=eq": {
+    "n": 14092,
+    "share": 0.0063,
+    "kept_share": 0.9999
+   },
+   "full<0.8|street=part|hn=neq": {
+    "n": 495,
+    "share": 0.00022,
+    "kept_share": 1.0
+   },
+   "full<0.8|street=0|hn=eq": {
+    "n": 53515,
+    "share": 0.02393,
+    "kept_share": 0.9998
+   },
+   "full<0.8|street=0|hn=neq": {
+    "n": 5303,
+    "share": 0.00237,
+    "kept_share": 0.9991
+   },
+   "full<0.8|street=miss|hn=eq": {
+    "n": 46230,
+    "share": 0.02067,
+    "kept_share": 1.0
+   },
+   "full<0.8|street=miss|hn=neq": {
+    "n": 34515,
+    "share": 0.01543,
+    "kept_share": 0.9996
+   },
+   "full<0.8|street=miss|hn=miss": {
+    "n": 69386,
+    "share": 0.03102,
+    "kept_share": 0.9995
+   },
+   "nan|street=1|hn=eq": {
+    "n": 4,
+    "share": 0.0,
+    "kept_share": 1.0
+   },
+   "nan|street=1|hn=neq": {
+    "n": 1,
+    "share": 0.0,
+    "kept_share": 1.0
+   },
+   "nan|street=miss|hn=eq": {
+    "n": 11,
+    "share": 0.0,
+    "kept_share": 1.0
+   },
+   "nan|street=miss|hn=neq": {
+    "n": 8,
+    "share": 0.0,
+    "kept_share": 1.0
+   },
+   "nan|street=miss|hn=miss": {
+    "n": 62813,
+    "share": 0.02808,
+    "kept_share": 0.9984
+   }
+  },
+  "examples": {
+   "KEY&hn=eq": [
+    {
+     "s1": "S1-454315129",
+     "s1_name": "Reyes, Curtin & Parrack Toyo LLC",
+     "s1_addr": "4409 76th Street Court, Tacoma, WA",
+     "rec": "S2-131422734",
+     "rec_name": "REYES, CURTIN & PARRACK TOYO LLC",
+     "rec_addr": "4409 76ND STREET COURT, TACOMA, WA",
+     "p": 1.0,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.0,
+     "same_core": true
+    },
+    {
+     "s1": "S1-285572536",
+     "s1_name": "Giovanna Smith, Esq.",
+     "s1_addr": "104 6th Street, Fort Cobb, OK",
+     "rec": "S3-786598920",
+     "rec_name": "Giovanna Smith, Esq. LLC",
+     "rec_addr": "104 Sixth Street, Fort Cobb, Oklahoma",
+     "p": 0.9997,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.571,
+     "same_core": true
+    },
+    {
+     "s1": "S1-29260065",
+     "s1_name": "Celesta Nguyen Classic Aerospace",
+     "s1_addr": "214 2nd Street, Spencerville, OH",
+     "rec": "S3-209769665",
+     "rec_name": "Nguyen, Celesta Aerospace (Center)",
+     "rec_addr": "214 Second Street, Spencerville, Ohio",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.5,
+     "same_core": false
+    },
+    {
+     "s1": "S1-745860261",
+     "s1_name": "Creative Payroll Networks LLC",
+     "s1_addr": "719 28th Street, Granite City, IL",
+     "rec": "S2-301521584",
+     "rec_name": "Creative Payroll Networks  LLC",
+     "rec_addr": "719 28ND ST, GRANITE CITY, IL",
+     "p": 1.0,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.0,
+     "same_core": true
+    },
+    {
+     "s1": "S1-353121064",
+     "s1_name": "Summit Coalition Inc.",
+     "s1_addr": "21311 20th Street, Sammamish, WA",
+     "rec": "S3-627306173",
+     "rec_name": "Summit Coalition Inc",
+     "rec_addr": "21311 Twentieth Street, Sammamish, Washington",
+     "p": 0.999,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.364,
+     "same_core": true
+    },
+    {
+     "s1": "S1-894910935",
+     "s1_name": "Best Sciences Corp",
+     "s1_addr": "505 9th Avenue, Erie, IL",
+     "rec": "S3-173253844",
+     "rec_name": "Corp Best Sciencs",
+     "rec_addr": "505 Ninth Avenue, Erie, Illinois",
+     "p": 0.9998,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.571,
+     "same_core": false
+    },
+    {
+     "s1": "S1-387442736",
+     "s1_name": "Children's Initiative",
+     "s1_addr": "3800 12th Avenue, Vienna, WV",
+     "rec": "S2-263724455",
+     "rec_name": "Children's Initiative Association",
+     "rec_addr": "VIENNA, WV, 3800 TWELFTH AVENUE",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.444,
+     "same_core": false
+    },
+    {
+     "s1": "S1-199284376",
+     "s1_name": "Martin Heartland Chenghe",
+     "s1_addr": "1302 10th Street, Humboldt, IA",
+     "rec": "S3-189231596",
+     "rec_name": "Martin  Heartland Chenghe Corp",
+     "rec_addr": "1302 Tenth Street, Humboldt, Iowa",
+     "p": 0.9995,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.571,
+     "same_core": true
+    },
+    {
+     "s1": "S1-392484533",
+     "s1_name": "Patriot Heartland Live",
+     "s1_addr": "204 5th Avenue, ND, Hettinger",
+     "rec": "S2-954915354",
+     "rec_name": "Patriot Heartland Ldve Ldve",
+     "rec_addr": "204 Fifth Avenue, HETTINGER, ND",
+     "p": 0.9989,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.571,
+     "same_core": false
+    },
+    {
+     "s1": "S1-866248371",
+     "s1_name": "Casandra W. Donohue, P.A. Care",
+     "s1_addr": "915 49th Street, Seattle, WA",
+     "rec": "S2-1873081",
+     "rec_name": "Casandra-W. Donoe,t P.A. Care",
+     "rec_addr": "915- 49ND ST, SEATTLE, WA",
+     "p": 0.9998,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.0,
+     "same_core": false
+    }
+   ],
+   "KEY&hn=neq": [
+    {
+     "s1": "S1-877844254",
+     "s1_name": "Community Pinnacle Society P.C.",
+     "s1_addr": "2430 Hall Avenue, Unit Apartment 201, City Of Marinette, WI",
+     "rec": "S3-60759243",
+     "rec_name": "Community Pinnacle S\u00f3ciety P.C.",
+     "rec_addr": "Unit Apartment 201, Marinette, 2430 Hall Avenue, Wisconsin",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 0.833,
+     "street_fuzzy": 0.154,
+     "same_core": true
+    },
+    {
+     "s1": "S1-650492336",
+     "s1_name": "Bonnibelle Brooks Delta Transportation",
+     "s1_addr": "Altoona, 2800 5th Avenue, PA",
+     "rec": "S3-981132296",
+     "rec_name": "Bonnibelle Brook Delta Transportation",
+     "rec_addr": "2798 Fifth Avenue, Altoona, Pennsylvania",
+     "p": 0.9801,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.571,
+     "same_core": false
+    },
+    {
+     "s1": "S1-604338648",
+     "s1_name": "LW Drilling",
+     "s1_addr": "4312 6th Avenue, Birmingham, AL",
+     "rec": "S3-878318386",
+     "rec_name": "Lw-Center",
+     "rec_addr": "312 Sixth Avenue, Birmingham, Alabama",
+     "p": 0.9924,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.571,
+     "same_core": false
+    },
+    {
+     "s1": "S1-180663523",
+     "s1_name": "Chiropractic Partners of Des Moines",
+     "s1_addr": "Des Moines, IA, 6265 9th Court",
+     "rec": "S2-902951423",
+     "rec_name": "Chiropractic Partners of Des Moines LLC",
+     "rec_addr": "626 NINTH COURT, DES MOINES, IA",
+     "p": 0.9033,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.571,
+     "same_core": true
+    },
+    {
+     "s1": "S1-61613641",
+     "s1_name": "Riley Corporation Inc",
+     "s1_addr": "IL, Waukegan, 2110 Lorraine Avenue, Unit APARTMENT 2A",
+     "rec": "S3-570598459",
+     "rec_name": "Riley Corporation  Inc",
+     "rec_addr": "Lorraine Avenue, # Apartment 2A, Waukegan, Illinois",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 0.8,
+     "street_fuzzy": 0.235,
+     "same_core": true
+    },
+    {
+     "s1": "S1-48761371",
+     "s1_name": "Charline Rhodes Heartland Loan",
+     "s1_addr": "6205 Main Street, Bldg Room K218, Amherst, NY",
+     "rec": "S3-718876778",
+     "rec_name": "Charline  Rhodes Heartland",
+     "rec_addr": "Bldg. Room K218, 6205 1/2 Main Street, Amherst, New York",
+     "p": 0.9995,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.154,
+     "same_core": false
+    },
+    {
+     "s1": "S1-110959485",
+     "s1_name": "Downtown Pizza",
+     "s1_addr": "18004 82nd Way, Maple Grove, MN",
+     "rec": "S3-577125834",
+     "rec_name": "Downtown (Pdiza)",
+     "rec_addr": "1800 82th Way, Maple Grove, Minnesota",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.0,
+     "same_core": false
+    },
+    {
+     "s1": "S1-310613883",
+     "s1_name": "Blythe Sifuentes Maritime Inc",
+     "s1_addr": "Unit Apartment 3, Cohoes, NY, 153 Ontario Street",
+     "rec": "S3-125618749",
+     "rec_name": "blythe sifuentes maritime inc",
+     "rec_addr": "153 Ontario Saint, Unit Apartment 3, Cohoes, New York",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 0.8,
+     "street_fuzzy": 0.364,
+     "same_core": true
+    },
+    {
+     "s1": "S1-987914263",
+     "s1_name": "Marty Feaster Complete Perfect PC",
+     "s1_addr": "NY, Unit Apartment 2, Binghamton, 30 Oliver Street",
+     "rec": "S2-100004372",
+     "rec_name": "Marty Feaster Perfect PC Service",
+     "rec_addr": "30 OLIVER STREET, BINGHAMTON, NY",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.133,
+     "same_core": false
+    },
+    {
+     "s1": "S1-266114619",
+     "s1_name": "Garcia and Baker Inc.",
+     "s1_addr": "212 14th Avenue, Miami, OK",
+     "rec": "S3-295933176",
+     "rec_name": "Garcia and Baker  Inc.",
+     "rec_addr": "Miami, 211 Fourteenth Avenue, Oklahoma",
+     "p": 0.9967,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.333,
+     "same_core": true
+    }
+   ],
+   "street=0&hn=neq&full<0.8": [
+    {
+     "s1": "S1-192246330",
+     "s1_name": "Anvil Fact",
+     "s1_addr": "Unit Trailer 25, Boston, NY, 8229 Boston State Road",
+     "rec": "S2-70487555",
+     "rec_name": "Anvil [F\u00e1ct]",
+     "rec_addr": "8229 BOSTEN STATE RD, BOSTON, NY",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 0.667,
+     "street_fuzzy": 0.316,
+     "same_core": true
+    },
+    {
+     "s1": "S1-822399272",
+     "s1_name": "FM Allied Land Co",
+     "s1_addr": "Unit Apartment 141B, 59 Piedmont Drive, NY, Brookhaven",
+     "rec": "S2-848453833",
+     "rec_name": "FM Allied Land C\u00f3",
+     "rec_addr": "59 PIEDMONT DRIVE, PT. JEFERSON STATION, NY",
+     "p": 0.9996,
+     "n_claims": 1,
+     "full": 0.5,
+     "street_fuzzy": 0.471,
+     "same_core": true
+    },
+    {
+     "s1": "S1-927929127",
+     "s1_name": "Reaume Providence",
+     "s1_addr": "177 2nd Street, Unit 275, Wendover, UT",
+     "rec": "S2-508815758",
+     "rec_name": "Reaume Providence",
+     "rec_addr": "77 SECOND ST, WENDOVER, UT",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 0.5,
+     "street_fuzzy": 0.5,
+     "same_core": true
+    },
+    {
+     "s1": "S1-100258519",
+     "s1_name": "Midwest Mountain",
+     "s1_addr": "Tulsa, OK, Unit APARTMENT  2018, 5210 Lewis Avenue",
+     "rec": "S3-624484499",
+     "rec_name": "Midwest  Services",
+     "rec_addr": "5210 Lewis Ave, Unit Apartment 2018, Tulas CITY, Oklahoma",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 0.6,
+     "street_fuzzy": 0.143,
+     "same_core": false
+    },
+    {
+     "s1": "S1-644744347",
+     "s1_name": "Shorten Academy Inc.",
+     "s1_addr": "2265 Snelling Avenue, Unit Apartment 101, Roseville, MN",
+     "rec": "S3-196905154",
+     "rec_name": "#shortenacademy",
+     "rec_addr": "# Apartment 101, ST. PAUL, 2265 Snelling Avenue, Minnesota",
+     "p": 0.999,
+     "n_claims": 1,
+     "full": 0.6,
+     "street_fuzzy": 0.235,
+     "same_core": false
+    },
+    {
+     "s1": "S1-640066252",
+     "s1_name": "Innovative Biomedical Company",
+     "s1_addr": "16659 Beams Road, Northport, AL",
+     "rec": "S3-673251662",
+     "rec_name": "Innovative Biomedical",
+     "rec_addr": "16633 Bams Rd, Northport, Alabama",
+     "p": 0.9942,
+     "n_claims": 1,
+     "full": 0.333,
+     "street_fuzzy": 0.889,
+     "same_core": true
+    },
+    {
+     "s1": "S1-991724872",
+     "s1_name": "Prairie Prime Purecycle-Kansas City",
+     "s1_addr": "4118 Harrison Avenue, Kansas City, MO",
+     "rec": "S2-588189730",
+     "rec_name": "Prairie Prime",
+     "rec_addr": "4105 HARCISON AVE, MO, KANSAS CITY",
+     "p": 0.9546,
+     "n_claims": 1,
+     "full": 0.5,
+     "street_fuzzy": 0.875,
+     "same_core": false
+    },
+    {
+     "s1": "S1-36853905",
+     "s1_name": "Drayial Blockchain LLC",
+     "s1_addr": "1721 7th Street, Unit 1202, Charlotte, NC",
+     "rec": "S2-633999819",
+     "rec_name": "Drayial Blockchain Llc",
+     "rec_addr": "172 SEVENTH ST, CHARLOTTE, NC",
+     "p": 0.9995,
+     "n_claims": 1,
+     "full": 0.5,
+     "street_fuzzy": 0.444,
+     "same_core": true
+    },
+    {
+     "s1": "S1-103311142",
+     "s1_name": "Urology Center of Aurora",
+     "s1_addr": "Bldg 38B, 800 Hill Avenue, Aurora, IL",
+     "rec": "S2-438999783",
+     "rec_name": "Urology Center",
+     "rec_addr": "800 HILL AVE, AURORA CDP, IL",
+     "p": 0.9667,
+     "n_claims": 1,
+     "full": 0.5,
+     "street_fuzzy": 0.25,
+     "same_core": false
+    },
+    {
+     "s1": "S1-899837407",
+     "s1_name": "Phillips Certified Metal Works LLC",
+     "s1_addr": "620 7th Street, Van Buren, AR",
+     "rec": "S3-20362856",
+     "rec_name": "Phillips Certified Metal W0rks",
+     "rec_addr": "62 Seventh St, Van Buren, Arkansas",
+     "p": 0.9992,
+     "n_claims": 1,
+     "full": 0.667,
+     "street_fuzzy": 0.444,
+     "same_core": false
+    }
+   ]
+  }
+ },
+ "India": {
+  "n_accepted": 2730863,
+  "n_s1": 763297,
+  "kept_final": 2728351,
+  "both_addr_words": 2672159,
+  "share_both": 0.9785,
+  "street_defined_share_of_both": 0.4655,
+  "s1_street_missing_share": 0.4843,
+  "rec_street_missing_share": 0.471,
+  "hn_defined_share_of_both": 0.897,
+  "street=0": {
+   "n": 92061,
+   "share_of_accepted": 0.03371,
+   "share_of_both": 0.03445,
+   "n_kept": 91952,
+   "share_of_kept": 0.0337,
+   "mean_p": 0.9958,
+   "multi_claim_share": 0.0018,
+   "n_s1": 57804
+  },
+  "street=0&hn=neq": {
+   "n": 63760,
+   "share_of_accepted": 0.02335,
+   "share_of_both": 0.02386,
+   "n_kept": 63693,
+   "share_of_kept": 0.02334,
+   "mean_p": 0.995,
+   "multi_claim_share": 0.0015,
+   "n_s1": 35058
+  },
+  "street=0&hn=eq": {
+   "n": 28301,
+   "share_of_accepted": 0.01036,
+   "share_of_both": 0.01059,
+   "n_kept": 28259,
+   "share_of_kept": 0.01036,
+   "mean_p": 0.9976,
+   "multi_claim_share": 0.0024,
+   "n_s1": 24400
+  },
+  "street=1&hn=eq": {
+   "n": 916900,
+   "share_of_accepted": 0.33575,
+   "share_of_both": 0.34313,
+   "n_kept": 916586,
+   "share_of_kept": 0.33595,
+   "mean_p": 0.9989,
+   "multi_claim_share": 0.0009,
+   "n_s1": 338288
+  },
+  "KEY": {
+   "n": 73805,
+   "share_of_accepted": 0.02703,
+   "share_of_both": 0.02762,
+   "n_kept": 73758,
+   "share_of_kept": 0.02703,
+   "mean_p": 0.9964,
+   "multi_claim_share": 0.001,
+   "n_s1": 45589
+  },
+  "KEY&hn=eq": {
+   "n": 16948,
+   "share_of_accepted": 0.00621,
+   "share_of_both": 0.00634,
+   "n_kept": 16934,
+   "share_of_kept": 0.00621,
+   "mean_p": 0.9986,
+   "multi_claim_share": 0.0009,
+   "n_s1": 14951
+  },
+  "KEY&hn=neq": {
+   "n": 56857,
+   "share_of_accepted": 0.02082,
+   "share_of_both": 0.02128,
+   "n_kept": 56824,
+   "share_of_kept": 0.02083,
+   "mean_p": 0.9957,
+   "multi_claim_share": 0.001,
+   "n_s1": 31687
+  },
+  "KEY&hn=miss": {
+   "n": 0,
+   "share_of_accepted": 0.0,
+   "share_of_both": 0.0,
+   "n_kept": 0,
+   "share_of_kept": 0.0,
+   "mean_p": null,
+   "multi_claim_share": null,
+   "n_s1": 0
+  },
+  "KEY&street_fuzzy<0.8": {
+   "n": 69135,
+   "share_of_accepted": 0.02532,
+   "share_of_both": 0.02587,
+   "n_kept": 69090,
+   "share_of_kept": 0.02532,
+   "mean_p": 0.9963,
+   "multi_claim_share": 0.001,
+   "n_s1": 41553
+  },
+  "KEY&street_fuzzy>=0.8": {
+   "n": 4670,
+   "share_of_accepted": 0.00171,
+   "share_of_both": 0.00175,
+   "n_kept": 4668,
+   "share_of_kept": 0.00171,
+   "mean_p": 0.9978,
+   "multi_claim_share": 0.0009,
+   "n_s1": 4459
+  },
+  "KEY&same_core": {
+   "n": 36872,
+   "share_of_accepted": 0.0135,
+   "share_of_both": 0.0138,
+   "n_kept": 36869,
+   "share_of_kept": 0.01351,
+   "mean_p": 0.9981,
+   "multi_claim_share": 0.0002,
+   "n_s1": 26972
+  },
+  "KEY&p<0.99": {
+   "n": 4624,
+   "share_of_accepted": 0.00169,
+   "share_of_both": 0.00173,
+   "n_kept": 4587,
+   "share_of_kept": 0.00168,
+   "mean_p": 0.9515,
+   "multi_claim_share": 0.0097,
+   "n_s1": 4203
+  },
+  "baseline_multi_claim_share": 0.0018,
+  "p_quantiles_KEY": [
+   0.9858,
+   0.9995,
+   0.9999,
+   0.9999,
+   1.0
+  ],
+  "p_quantiles_all": [
+   0.9883,
+   0.9997,
+   0.9999,
+   1.0,
+   1.0
+  ],
+  "KEY&S1_has_other_street_match_rec": {
+   "n": 41219,
+   "share_of_KEY": 0.5585
+  },
+  "ESTIMATED_fp_in_KEY_kept_via_V1_precision": 170.5,
+  "table": {
+   "full>=0.8|street=1|hn=eq": {
+    "n": 874049,
+    "share": 0.32006,
+    "kept_share": 0.9997
+   },
+   "full>=0.8|street=1|hn=neq": {
+    "n": 182472,
+    "share": 0.06682,
+    "kept_share": 0.9996
+   },
+   "full>=0.8|street=part|hn=eq": {
+    "n": 21317,
+    "share": 0.00781,
+    "kept_share": 0.9994
+   },
+   "full>=0.8|street=part|hn=neq": {
+    "n": 4617,
+    "share": 0.00169,
+    "kept_share": 0.9987
+   },
+   "full>=0.8|street=0|hn=eq": {
+    "n": 16948,
+    "share": 0.00621,
+    "kept_share": 0.9992
+   },
+   "full>=0.8|street=0|hn=neq": {
+    "n": 56857,
+    "share": 0.02082,
+    "kept_share": 0.9994
+   },
+   "full>=0.8|street=miss|hn=eq": {
+    "n": 791807,
+    "share": 0.28995,
+    "kept_share": 0.9994
+   },
+   "full>=0.8|street=miss|hn=neq": {
+    "n": 263032,
+    "share": 0.09632,
+    "kept_share": 0.9985
+   },
+   "full>=0.8|street=miss|hn=miss": {
+    "n": 255648,
+    "share": 0.09361,
+    "kept_share": 0.9995
+   },
+   "full<0.8|street=1|hn=eq": {
+    "n": 42851,
+    "share": 0.01569,
+    "kept_share": 0.9986
+   },
+   "full<0.8|street=1|hn=neq": {
+    "n": 15822,
+    "share": 0.00579,
+    "kept_share": 0.9978
+   },
+   "full<0.8|street=part|hn=eq": {
+    "n": 8672,
+    "share": 0.00318,
+    "kept_share": 0.9992
+   },
+   "full<0.8|street=part|hn=neq": {
+    "n": 1978,
+    "share": 0.00072,
+    "kept_share": 0.9965
+   },
+   "full<0.8|street=0|hn=eq": {
+    "n": 11353,
+    "share": 0.00416,
+    "kept_share": 0.9975
+   },
+   "full<0.8|street=0|hn=neq": {
+    "n": 6903,
+    "share": 0.00253,
+    "kept_share": 0.9951
+   },
+   "full<0.8|street=miss|hn=eq": {
+    "n": 64278,
+    "share": 0.02354,
+    "kept_share": 0.9957
+   },
+   "full<0.8|street=miss|hn=neq": {
+    "n": 34065,
+    "share": 0.01247,
+    "kept_share": 0.9945
+   },
+   "full<0.8|street=miss|hn=miss": {
+    "n": 19490,
+    "share": 0.00714,
+    "kept_share": 0.9962
+   },
+   "nan|street=1|hn=eq": {
+    "n": 40,
+    "share": 1e-05,
+    "kept_share": 1.0
+   },
+   "nan|street=1|hn=neq": {
+    "n": 9,
+    "share": 0.0,
+    "kept_share": 1.0
+   },
+   "nan|street=0|hn=neq": {
+    "n": 5,
+    "share": 0.0,
+    "kept_share": 1.0
+   },
+   "nan|street=miss|hn=eq": {
+    "n": 553,
+    "share": 0.0002,
+    "kept_share": 0.9946
+   },
+   "nan|street=miss|hn=neq": {
+    "n": 131,
+    "share": 5e-05,
+    "kept_share": 1.0
+   },
+   "nan|street=miss|hn=miss": {
+    "n": 57966,
+    "share": 0.02123,
+    "kept_share": 0.9936
+   }
+  },
+  "examples": {
+   "KEY&hn=eq": [
+    {
+     "s1": "S1-181320947",
+     "s1_name": "Southern Galaxy Finance Private Limited",
+     "s1_addr": "Shop No. 29, First Floor, Cine Wonder Mall, Ghodbunder Road, Kapurbawdi, Thane, Maharashtra",
+     "rec": "S3-459360815",
+     "rec_name": "Southern Galaxy Private L\u00edmited Services",
+     "rec_addr": "Door No 029, First Floor, Cine Wonder Mall, Ghodbunder Road, Kapurbawdi, Thane, MH",
+     "p": 0.9971,
+     "n_claims": 1,
+     "full": 0.9,
+     "street_fuzzy": 0.25,
+     "same_core": false
+    },
+    {
+     "s1": "S1-108579847",
+     "s1_name": "Vijay Balaji Foods Private Limited",
+     "s1_addr": "Plotno 237, Vaghjipura, Opp-Navapurapatiya Sarkhej Bavla Road, Changodar, Sanand, Ahmedabad, Gujarat",
+     "rec": "S3-104612879",
+     "rec_name": "\u0ab5\u0abf\u0a9c\u0aaf \u0aac\u0abe\u0ab2\u0abe\u0a9c\u0ac0 \u0aab\u0ac2\u0aa1\u0acd\u0ab8 \u0aaa\u0acd\u0ab0\u0abe\u0a87\u0ab5\u0ac7\u0a9f \u0ab2\u0abf\u0aae\u0abf\u0a9f\u0ac7\u0aa1",
+     "rec_addr": "Door No 237, Vaghjipura, Opp-navapurapatiya Sarkhej Bavla Road, Changodar, Sanand, Ahmedabad, GJ",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 0.9,
+     "street_fuzzy": 0.4,
+     "same_core": false
+    },
+    {
+     "s1": "S1-438761779",
+     "s1_name": "Microtech Law Chambers",
+     "s1_addr": "Pune City, Maharashtra, 00000Nr Rashmi Ind Estate, Pune, 0Bl-C Fl-303 Nancy Garden",
+     "rec": "S2-711252679",
+     "rec_name": "MICROTECH LAW CH\u00c1MBERS",
+     "rec_addr": "0BL-C FL-303 NANCY GARDEN, 00000NR RASHMI IND ESTATE, PUNE CITY, Maharashtra",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.343,
+     "same_core": true
+    },
+    {
+     "s1": "S1-81534288",
+     "s1_name": "Solutions Vedant Services Private Limited",
+     "s1_addr": "Plot No 1, Ta V-Bhatoli, Ambala Road Jagadhri, Jagadhri, Yamuna Nagar, Haryana",
+     "rec": "S3-482908621",
+     "rec_name": "Solutions Vedant Services",
+     "rec_addr": "Pot No ##1, Ta V-bhatoli, Ambala Road Jagadhri, Yamuna Nagar, Jagadhri, HR",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 0.857,
+     "street_fuzzy": 0.857,
+     "same_core": true
+    },
+    {
+     "s1": "S1-757460512",
+     "s1_name": "Sai Traders Ltd",
+     "s1_addr": "Room No 1, Ramkrishna Apt Indralok Comp New Golden Nest Rd, Bhayander (East), Thane, Maharashtra",
+     "rec": "S3-139014720",
+     "rec_name": "Sai Ltd Center",
+     "rec_addr": "Reom No 1, Ramkrishna Apt Indralok Comp New Golden Nest Rd, Bhayander (East), Thane, MH",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 0.909,
+     "street_fuzzy": 0.75,
+     "same_core": false
+    },
+    {
+     "s1": "S1-454177700",
+     "s1_name": "First Finance",
+     "s1_addr": "Block H - 804, Parishkar 1, Khokhra Circle, Mithipur, Ahmedabad, Gujarat",
+     "rec": "S2-840941471",
+     "rec_name": "\u0aab\u0ab0\u0acd\u0ab8\u0acd\u0a9f \u0aab\u0abe\u0a87\u0aa8\u0abe\u0aa8\u0acd\u0ab8",
+     "rec_addr": "BLOKC H - 804, PARISHKAR 1, KHOKHRA CIRCLE, MITHIPUR, AHMEDABAD, Gujarat",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 0.857,
+     "street_fuzzy": 0.8,
+     "same_core": false
+    },
+    {
+     "s1": "S1-951467236",
+     "s1_name": "India Suncity Polymers Center",
+     "s1_addr": "Shop No 43, Defence Colony Flyover Market, New Delhi, South Delhi, Delhi",
+     "rec": "S2-576265898",
+     "rec_name": "India Suntny Polymers Center",
+     "rec_addr": "DOOR NO 43 , DEFENCE COLONY FLYOVER MARKET, NEW DELHI, \u0926\u093f\u0932\u094d\u0932\u0940",
+     "p": 0.9778,
+     "n_claims": 1,
+     "full": 0.857,
+     "street_fuzzy": 0.25,
+     "same_core": false
+    },
+    {
+     "s1": "S1-676118831",
+     "s1_name": "MKW Garment Private Limited",
+     "s1_addr": "Plot No.45, E Ward Nagala Park, Karvir, Kolhapur, Maharashtra",
+     "rec": "S3-319378746",
+     "rec_name": "Mkw-Private G\u00e1rment Limited",
+     "rec_addr": "Polt No.#45, E Ward Nagala Park, Karvir, MH",
+     "p": 0.9996,
+     "n_claims": 1,
+     "full": 0.8,
+     "street_fuzzy": 0.75,
+     "same_core": true
+    },
+    {
+     "s1": "S1-553023239",
+     "s1_name": "Behl Chit Limited",
+     "s1_addr": "Plot No. 83, Dsidc, New Delhi, South Delhi, Delhi",
+     "rec": "S2-326981998",
+     "rec_name": "L\u00edmited Behl Chit",
+     "rec_addr": "DOOR NO A-83, DSIDC, SOUTH DELHI, NEW DELHI, Delhi",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 0.8,
+     "street_fuzzy": 0.25,
+     "same_core": true
+    },
+    {
+     "s1": "S1-402571192",
+     "s1_name": "Kaveran Chemical Private Limited",
+     "s1_addr": "Holding No 1196, Katha, Tentulberia, South 24 Parganas, West Bengal",
+     "rec": "S3-762081371",
+     "rec_name": "Kaveran Chemical Private Ltd",
+     "rec_addr": "Holidng No 1196, Katha, Tentulberia, South 24 Parganas, WB",
+     "p": 1.0,
+     "n_claims": 1,
+     "full": 0.8,
+     "street_fuzzy": 0.857,
+     "same_core": true
+    }
+   ],
+   "KEY&hn=neq": [
+    {
+     "s1": "S1-460020828",
+     "s1_name": "Super Technology",
+     "s1_addr": "Plot No.117, Ward No.04, V.P.O- Sardarpura Bika, Suratgarh, Ganganagar, Rajasthan",
+     "rec": "S3-970893226",
+     "rec_name": "Super",
+     "rec_addr": "Suratgarh, Ganganagar, Ward No.04, V.P.O- Sardarpura Bika, Rajasthan, Plot No.117",
+     "p": 1.0,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.0,
+     "same_core": false
+    },
+    {
+     "s1": "S1-965085942",
+     "s1_name": "Projects Beam Energy",
+     "s1_addr": "C/O Sh Avinash Yadav Ward, No. 17 Goriya Batan, Khagaria, Bihar",
+     "rec": "S2-715114684",
+     "rec_name": "PROJECTS BEAM CENTER",
+     "rec_addr": "NO. 761 C/O SH AVINASH YADAV WARD, NO. 17 GORIYA BATAN, KHAGARIA, Bihar",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.364,
+     "same_core": false
+    },
+    {
+     "s1": "S1-158614525",
+     "s1_name": "Shree Charitable Trust",
+     "s1_addr": "Office No. 201, 2Nd Floor, Colossal, Plot No. 518, Bhamburda (Shivaji Nagar), Pune, Maharashtra",
+     "rec": "S2-460662893",
+     "rec_name": ">> Shree Charitable Tolreutr",
+     "rec_addr": "\u092e\u0939\u093e\u0930\u093e\u0937\u094d\u091f\u094d\u0930, PUNE, 2ND FLOOR, COLOSSAL, PLOT NO. 518, BHAMBURDA (SHIVAJI NAGAR), OFFICE NO. 201",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.0,
+     "same_core": false
+    },
+    {
+     "s1": "S1-229003723",
+     "s1_name": "Studio Law Chambers Pvt Ltd",
+     "s1_addr": "Kolkata, West Bengal, Raja Katra, Room No. 219, Ground Floor, Kolkata, 167 Netaji Subhash Road, Howrah",
+     "rec": "S2-281513532",
+     "rec_name": "Studio Law Chahhebras Pvt (Ltd)",
+     "rec_addr": "167  NETAJI SUBHASH ROAD, RAJA KATRA, ROOM NO. 219, GROUND FLOOR, KOLKATA, KOLKATA, West Bengal",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.0,
+     "same_core": false
+    },
+    {
+     "s1": "S1-277820424",
+     "s1_name": "Shiv Engineering Pvt Ltd",
+     "s1_addr": "C/O Mithilesh Kumar Singh, W.No-15 Ganga Chowk, Supaul, Supaul, Saharsa, Bihar",
+     "rec": "S3-271882762",
+     "rec_name": "Pvt Shiv Engineering Ltd",
+     "rec_addr": "Block E-640 C/o Mithilesh Kumar Singh, W.no-15 Ganga Chowk, Supaul, Saharsa, Basaha Bazar, BR",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 0.875,
+     "street_fuzzy": 0.316,
+     "same_core": true
+    },
+    {
+     "s1": "S1-927028039",
+     "s1_name": "VOZ India Private Limited",
+     "s1_addr": "New Delhi, Flat No. 6, 2Nd Floor Ward No. 9, Kishangarh, Rz-74/4-D, Delhi",
+     "rec": "S3-21796035",
+     "rec_name": "VOZ India Private Limited",
+     "rec_addr": "Rz-74/4-d, Flat No. 6, 2Nd Floor Ward No. 9, Kishangarh, Delhi, New Delhi, DL",
+     "p": 1.0,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.0,
+     "same_core": true
+    },
+    {
+     "s1": "S1-233605014",
+     "s1_name": "Samarpan Traders Private Limited",
+     "s1_addr": "Maharashtra, Manasarovar Complex Sector 34, Plot No 1To6, 19To26, Bl6B/602, Kamothe, Raigarh",
+     "rec": "S3-191247086",
+     "rec_name": "Samarpan Traders Private Ltd",
+     "rec_addr": "Bl6b/602, Kamothe, Raigarh, MH",
+     "p": 1.0,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.071,
+     "same_core": true
+    },
+    {
+     "s1": "S1-653229589",
+     "s1_name": "Aryan Tours Pvt Ltd",
+     "s1_addr": "Asha Chamber, 6B. Bentinck Street Room No. 6A, Ground Floor, Kolkata, Kolkata, Howrah, West Bengal",
+     "rec": "S2-156481117",
+     "rec_name": "aryan tours pvt ltd",
+     "rec_addr": "NO. #191 ASHA CHAMBER, 6B. BENTINCK STREET ROOM NO. 6A, GROUND FLOOR, KOLKATA, KOLKATA, West Bengal",
+     "p": 1.0,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.24,
+     "same_core": true
+    },
+    {
+     "s1": "S1-195316312",
+     "s1_name": "Perfect Foundation Limited",
+     "s1_addr": "1St Flr 1St A Crs 2Nd Mn, Karnataka, Bangalore North, 1098/1 Sri Shamanna Compx, Bangalore",
+     "rec": "S3-479681270",
+     "rec_name": "\u0caa\u0cb0\u0ccd\u0cab\u0cc6\u0c95\u0ccd\u0c9f\u0ccd Foundation Limited",
+     "rec_addr": "H.no 1098/1 Sri Shamanna Compx, 1St Flr 1St A Crs 2Nd Mn, Bangalore North, Bangalore, KA",
+     "p": 0.9998,
+     "n_claims": 1,
+     "full": 1.0,
+     "street_fuzzy": 0.296,
+     "same_core": false
+    },
+    {
+     "s1": "S1-58475656",
+     "s1_name": "White Services Private Limited",
+     "s1_addr": "C/O Vishwanath Baitha, Ward No 07, Pupri Road, Madhuban Got, Sitamarhi, Bihar",
+     "rec": "S3-316737149",
+     "rec_name": "White  Services Private",
+     "rec_addr": "Block A-267- C/o Vishwanath Baitha, Ward No 07, Pupri Road, Madhuban Got, Sitamarhi, BR",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 0.889,
+     "street_fuzzy": 0.148,
+     "same_core": true
+    }
+   ],
+   "street=0&hn=neq&full<0.8": [
+    {
+     "s1": "S1-948464199",
+     "s1_name": "Shivprasad Steel Ltd",
+     "s1_addr": "C/O Ansuman Singh, Plot No Ch/5, Phulwari, Patna, Bihar",
+     "rec": "S3-229365157",
+     "rec_name": "5hivprasad  Steel Ltd",
+     "rec_addr": "Hn 674 C/o Ansuman Singh, Mumbai, Patna, BR",
+     "p": 0.9998,
+     "n_claims": 1,
+     "full": 0.75,
+     "street_fuzzy": 0.0,
+     "same_core": false
+    },
+    {
+     "s1": "S1-497745325",
+     "s1_name": "Clear Infrastructure (India)",
+     "s1_addr": "Sector-L, Uttar Pradesh, House No L-V/130, Lucknow",
+     "rec": "S3-194262880",
+     "rec_name": "Clear Infrastructure (India) LLP",
+     "rec_addr": "No. 0663 Huose No L-v/130, Sector-l, Lucknow, UP",
+     "p": 0.9935,
+     "n_claims": 1,
+     "full": 0.667,
+     "street_fuzzy": 0.8,
+     "same_core": true
+    },
+    {
+     "s1": "S1-456230215",
+     "s1_name": "Jks Trust",
+     "s1_addr": "Flat No.201, Bansi Plaza, 581-M.G. Road, Indore, Madhya Pradesh",
+     "rec": "S3-565596284",
+     "rec_name": "Jks Trust Company",
+     "rec_addr": "Door No B3/201, MP, NULL, Bansi Plaza, 581-M.G. Road",
+     "p": 0.9998,
+     "n_claims": 1,
+     "full": 0.6,
+     "street_fuzzy": 0.0,
+     "same_core": true
+    },
+    {
+     "s1": "S1-603709480",
+     "s1_name": "Galaxy Management Private Limited",
+     "s1_addr": "Pune, Samrudhi Rachna, Dl No 504 Pendse Colony Dehuroad, Sr No 41/1/2, Maharashtra, Pune",
+     "rec": "S3-340374627",
+     "rec_name": "\u0917\u0948\u0932\u0947\u0915\u094d\u0938\u0940 \u092e\u0948\u0928\u0947\u091c\u092e\u0947\u0902\u091f \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+     "rec_addr": "Sr No 41/1/2, Pune, Ravet, MH",
+     "p": 0.9994,
+     "n_claims": 1,
+     "full": 0.5,
+     "street_fuzzy": 0.074,
+     "same_core": false
+    },
+    {
+     "s1": "S1-253471520",
+     "s1_name": "Riaan Holdings",
+     "s1_addr": "2Nd Floor, Plot No. 4, Minarch Tower, Sector-44, Gurgaon Sector 45, Gurgaon, Sector -45, Sector -45, Gurgaon, Haryana",
+     "rec": "S3-64901028",
+     "rec_name": "Riaan Holdings Center",
+     "rec_addr": "Sector -45, HR, Door No 2Nd Faoor, Plot No. 4, Minarch Tower, Sector-44, Gurgaon Sector 45, Gurgaon, Sector -45, Gurgaon",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 0.714,
+     "street_fuzzy": 0.0,
+     "same_core": false
+    },
+    {
+     "s1": "S1-18438922",
+     "s1_name": "Digital Healthcare Pvt Ltd",
+     "s1_addr": "New Delhi, Delhi, New Delhi, D Pocket 6 &7 Vasant Kunj, C/O Surender Singh Sector",
+     "rec": "S3-340914849",
+     "rec_name": "Digital Heidlthmchare Pvt Ltd",
+     "rec_addr": "Block A-618 C/o Surender Singh Sector, South West, New Delhi, \u0926\u093f\u0932\u094d\u0932\u0940",
+     "p": 0.9742,
+     "n_claims": 1,
+     "full": 0.625,
+     "street_fuzzy": 0.356,
+     "same_core": false
+    },
+    {
+     "s1": "S1-396645837",
+     "s1_name": "Chandrakant Funds Private Limited",
+     "s1_addr": "East Delhi, New Delhi, Delhi, 2Nd Floor, G.D. Colony, Mayur Vihar, A-1240",
+     "rec": "S3-209349985",
+     "rec_name": "Mr Chandrakant Fnds Private Limited",
+     "rec_addr": "Hn 938 A-1240, New Delhi, Gazipur Delhi, DL",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 0.667,
+     "street_fuzzy": 0.5,
+     "same_core": false
+    },
+    {
+     "s1": "S1-130317818",
+     "s1_name": "Boston & Partners Private Limited",
+     "s1_addr": "2Nd Floor Rams Infantry Manor 70 Infantry Road, Karnataka, Bangalore, Indus Law Advocates, 301/302",
+     "rec": "S3-866480144",
+     "rec_name": "BOSTON & PARTNERS PRIVATE LIMITED",
+     "rec_addr": "Plot 8-85 Indus Law Advocates, KA, Bangalore, Mumbai",
+     "p": 0.9969,
+     "n_claims": 1,
+     "full": 0.667,
+     "street_fuzzy": 0.304,
+     "same_core": true
+    },
+    {
+     "s1": "S1-831658757",
+     "s1_name": "Kck Images Private Limited",
+     "s1_addr": "Flat No 202, 2Ndfloor, Mathura Sadan, Cabin Road, Bhayander(East), Thane, Maharashtra",
+     "rec": "S3-850954326",
+     "rec_name": "Kck Images Private Ltd",
+     "rec_addr": "Falt No 2-02, Greater Bombay, Thane, MH",
+     "p": 0.9999,
+     "n_claims": 1,
+     "full": 0.25,
+     "street_fuzzy": 0.75,
+     "same_core": true
+    },
+    {
+     "s1": "S1-393369693",
+     "s1_name": "Urban Classic Ventures LLP",
+     "s1_addr": "Tower-6, Cypress, The Orchard Residency Chs Ltd, Behind R City Mall Lbs Marg, Ghatkopar, Mumbai, Maharashtra, Mumbai, 503",
+     "rec": "S2-606025503",
+     "rec_name": "\u0905\u0930\u094d\u092c\u0928 \u0915\u094d\u0932\u093e\u0938\u093f\u0915 \u0935\u0947\u0902\u091a\u0930\u094d\u0938 \u090f\u0932\u090f\u0932\u092a\u0940",
+     "rec_addr": "PLOT 727 503, MUMBAI, Maharashtra",
+     "p": 0.9958,
+     "n_claims": 1,
+     "full": 0.667,
+     "street_fuzzy": 0.222,
+     "same_core": false
+    }
+   ]
+  }
+ }
+}

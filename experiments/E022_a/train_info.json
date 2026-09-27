@@ -1,0 +1,16 @@
+{
+ "model": "intfloat/multilingual-e5-small",
+ "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+ "n_s1": 400000,
+ "n_pairs": 1383630,
+ "steps": 1350,
+ "bs": 1024,
+ "lr": 5e-05,
+ "epochs": 1.0,
+ "tau": 0.05,
+ "t_train": 357.24822330474854,
+ "pairs_per_s": 3869.5783766592776,
+ "vram_peak_gb": 26.427413940429688,
+ "gpu_util_mean": 85.44632768361582,
+ "final_loss": 0.006230856119655073
+}

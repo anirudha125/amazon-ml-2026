@@ -1,0 +1,322 @@
+{
+ "V1": {
+  "macro": 98.532,
+  "tp": 67065,
+  "fp": 333,
+  "n_gt": 69378,
+  "lost_links": 2313,
+  "budget": [
+   {
+    "category": "SYM-C1",
+    "stage": "scorer FN",
+    "links": 1082,
+    "pp_if_fixed": 0.487,
+    "reducible": false
+   },
+   {
+    "category": "L2 empty-addr, unique name",
+    "stage": "scorer FN",
+    "links": 360,
+    "pp_if_fixed": 0.164,
+    "reducible": true
+   },
+   {
+    "category": "L4 substituted name",
+    "stage": "scorer FN",
+    "links": 326,
+    "pp_if_fixed": 0.146,
+    "reducible": true
+   },
+   {
+    "category": "F-owned, owner distinguishable",
+    "stage": "scorer FP",
+    "links": 108,
+    "pp_if_fixed": 0.126,
+    "reducible": true
+   },
+   {
+    "category": "F-unlinked decoy",
+    "stage": "scorer FP",
+    "links": 80,
+    "pp_if_fixed": 0.111,
+    "reducible": true
+   },
+   {
+    "category": "F-owned, SYM-C1 (same name, empty addr)",
+    "stage": "scorer FP",
+    "links": 78,
+    "pp_if_fixed": 0.11,
+    "reducible": true
+   },
+   {
+    "category": "L6 other",
+    "stage": "scorer FN",
+    "links": 162,
+    "pp_if_fixed": 0.09,
+    "reducible": true
+   },
+   {
+    "category": "L5 house-number perturbed",
+    "stage": "scorer FN",
+    "links": 148,
+    "pp_if_fixed": 0.076,
+    "reducible": true
+   },
+   {
+    "category": "F-owned, SYM-C2 (co-located, substituted name)",
+    "stage": "scorer FP",
+    "links": 58,
+    "pp_if_fixed": 0.064,
+    "reducible": true
+   },
+   {
+    "category": "SYM-C1",
+    "stage": "retrieval",
+    "links": 98,
+    "pp_if_fixed": 0.054,
+    "reducible": false
+   },
+   {
+    "category": "SYM-C2",
+    "stage": "scorer FN",
+    "links": 44,
+    "pp_if_fixed": 0.019,
+    "reducible": false
+   },
+   {
+    "category": "L3 Indic name",
+    "stage": "scorer FN",
+    "links": 31,
+    "pp_if_fixed": 0.011,
+    "reducible": true
+   },
+   {
+    "category": "L4 substituted name",
+    "stage": "retrieval",
+    "links": 24,
+    "pp_if_fixed": 0.01,
+    "reducible": true
+   },
+   {
+    "category": "F-unlinked, empty addr",
+    "stage": "scorer FP",
+    "links": 8,
+    "pp_if_fixed": 0.006,
+    "reducible": true
+   },
+   {
+    "category": "L2 empty-addr, unique name",
+    "stage": "retrieval",
+    "links": 8,
+    "pp_if_fixed": 0.004,
+    "reducible": true
+   },
+   {
+    "category": "L7 record without house number",
+    "stage": "scorer FN",
+    "links": 8,
+    "pp_if_fixed": 0.003,
+    "reducible": true
+   },
+   {
+    "category": "SYM-C3",
+    "stage": "scorer FN",
+    "links": 6,
+    "pp_if_fixed": 0.003,
+    "reducible": false
+   },
+   {
+    "category": "L3 Indic name",
+    "stage": "retrieval",
+    "links": 6,
+    "pp_if_fixed": 0.002,
+    "reducible": true
+   },
+   {
+    "category": "L6 other",
+    "stage": "retrieval",
+    "links": 3,
+    "pp_if_fixed": 0.002,
+    "reducible": true
+   },
+   {
+    "category": "SYM-C2",
+    "stage": "retrieval",
+    "links": 5,
+    "pp_if_fixed": 0.002,
+    "reducible": false
+   },
+   {
+    "category": "L7 record without house number",
+    "stage": "retrieval",
+    "links": 1,
+    "pp_if_fixed": 0.001,
+    "reducible": true
+   },
+   {
+    "category": "F-owned, SYM-C3 (same name, no number)",
+    "stage": "scorer FP",
+    "links": 1,
+    "pp_if_fixed": 0.001,
+    "reducible": true
+   },
+   {
+    "category": "L5 house-number perturbed",
+    "stage": "retrieval",
+    "links": 1,
+    "pp_if_fixed": 0.0,
+    "reducible": true
+   }
+  ],
+  "ceiling_symmetric_all": 99.297,
+  "ceiling_C1_only": 99.359,
+  "ceiling_C2_only": 99.951,
+  "ceiling_C3_only": 99.988,
+  "sym_links": {
+   "C1": 1422,
+   "C2": 131,
+   "C3": 30
+  },
+  "sym_links_accepted_TP": {
+   "C1": 242,
+   "C2": 82,
+   "C3": 24
+  },
+  "oracle_topk_on_ranking": 99.678,
+  "s1_predicted_empty_but_nonsingleton": 50,
+  "pp_lost_on_those": 0.25,
+  "singleton_fp_s1": 16
+ },
+ "V0": {
+  "macro": 98.398,
+  "tp": 6675,
+  "fp": 30,
+  "n_gt": 6920,
+  "lost_links": 245,
+  "budget": [
+   {
+    "category": "SYM-C1",
+    "stage": "scorer FN",
+    "links": 115,
+    "pp_if_fixed": 0.626,
+    "reducible": false
+   },
+   {
+    "category": "L4 substituted name",
+    "stage": "scorer FN",
+    "links": 37,
+    "pp_if_fixed": 0.217,
+    "reducible": true
+   },
+   {
+    "category": "F-owned, owner distinguishable",
+    "stage": "scorer FP",
+    "links": 10,
+    "pp_if_fixed": 0.151,
+    "reducible": true
+   },
+   {
+    "category": "F-owned, SYM-C1 (same name, empty addr)",
+    "stage": "scorer FP",
+    "links": 10,
+    "pp_if_fixed": 0.144,
+    "reducible": true
+   },
+   {
+    "category": "L2 empty-addr, unique name",
+    "stage": "scorer FN",
+    "links": 33,
+    "pp_if_fixed": 0.115,
+    "reducible": true
+   },
+   {
+    "category": "F-unlinked decoy",
+    "stage": "scorer FP",
+    "links": 6,
+    "pp_if_fixed": 0.069,
+    "reducible": true
+   },
+   {
+    "category": "L3 Indic name",
+    "stage": "scorer FN",
+    "links": 4,
+    "pp_if_fixed": 0.062,
+    "reducible": true
+   },
+   {
+    "category": "L5 house-number perturbed",
+    "stage": "scorer FN",
+    "links": 15,
+    "pp_if_fixed": 0.061,
+    "reducible": true
+   },
+   {
+    "category": "L6 other",
+    "stage": "scorer FN",
+    "links": 18,
+    "pp_if_fixed": 0.057,
+    "reducible": true
+   },
+   {
+    "category": "F-owned, SYM-C2 (co-located, substituted name)",
+    "stage": "scorer FP",
+    "links": 4,
+    "pp_if_fixed": 0.036,
+    "reducible": true
+   },
+   {
+    "category": "SYM-C1",
+    "stage": "retrieval",
+    "links": 8,
+    "pp_if_fixed": 0.032,
+    "reducible": false
+   },
+   {
+    "category": "SYM-C2",
+    "stage": "scorer FN",
+    "links": 7,
+    "pp_if_fixed": 0.023,
+    "reducible": false
+   },
+   {
+    "category": "L4 substituted name",
+    "stage": "retrieval",
+    "links": 5,
+    "pp_if_fixed": 0.018,
+    "reducible": true
+   },
+   {
+    "category": "L6 other",
+    "stage": "retrieval",
+    "links": 1,
+    "pp_if_fixed": 0.008,
+    "reducible": true
+   },
+   {
+    "category": "L7 record without house number",
+    "stage": "scorer FN",
+    "links": 2,
+    "pp_if_fixed": 0.004,
+    "reducible": true
+   }
+  ],
+  "ceiling_symmetric_all": 99.123,
+  "ceiling_C1_only": 99.22,
+  "ceiling_C2_only": 99.968,
+  "ceiling_C3_only": 99.939,
+  "sym_links": {
+   "C1": 148,
+   "C2": 11,
+   "C3": 3
+  },
+  "sym_links_accepted_TP": {
+   "C1": 25,
+   "C2": 4,
+   "C3": 3
+  },
+  "oracle_topk_on_ranking": 99.636,
+  "s1_predicted_empty_but_nonsingleton": 8,
+  "pp_lost_on_those": 0.4,
+  "singleton_fp_s1": 2
+ }
+}

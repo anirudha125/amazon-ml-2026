@@ -1,0 +1,269 @@
+{
+ "V1_check": {
+  "RRL": {
+   "actual": 98.947,
+   "selfest": 98.467,
+   "by_country": {
+    "US": [
+     98.904,
+     98.441
+    ],
+    "India": [
+     99.012,
+     98.506
+    ]
+   },
+   "exp_fp": 200.6,
+   "act_fp": 170,
+   "exp_fn_inpool": 1787.9,
+   "act_fn_inpool": 1795,
+   "bins": [
+    [
+     "0-0.05",
+     2476543,
+     0.0002,
+     0.0002
+    ],
+    [
+     "0.05-0.2",
+     4063,
+     0.0996,
+     0.1041
+    ],
+    [
+     "0.2-0.4",
+     1355,
+     0.2859,
+     0.2849
+    ],
+    [
+     "0.4-0.6",
+     634,
+     0.4924,
+     0.4685
+    ],
+    [
+     "0.6-0.72",
+     303,
+     0.661,
+     0.604
+    ],
+    [
+     "0.72-0.8",
+     195,
+     0.7615,
+     0.8103
+    ],
+    [
+     "0.8-0.9",
+     430,
+     0.8554,
+     0.8605
+    ],
+    [
+     "0.9-0.95",
+     460,
+     0.9298,
+     0.9348
+    ],
+    [
+     "0.95-0.99",
+     1666,
+     0.9779,
+     0.9832
+    ],
+    [
+     "0.99-1.001",
+     64856,
+     0.9996,
+     0.9998
+    ]
+   ]
+  },
+  "NEW": {
+   "actual": 98.802,
+   "selfest": 98.645,
+   "by_country": {
+    "US": [
+     98.774,
+     98.671
+    ],
+    "India": [
+     98.846,
+     98.605
+    ]
+   },
+   "exp_fp": 201.7,
+   "act_fp": 167,
+   "exp_fn_inpool": 2029.4,
+   "act_fn_inpool": 2046,
+   "bins": [
+    [
+     "0-0.05",
+     2476269,
+     0.0002,
+     0.0002
+    ],
+    [
+     "0.05-0.2",
+     4258,
+     0.0991,
+     0.1062
+    ],
+    [
+     "0.2-0.4",
+     1404,
+     0.2845,
+     0.292
+    ],
+    [
+     "0.4-0.6",
+     755,
+     0.4889,
+     0.4411
+    ],
+    [
+     "0.6-0.72",
+     309,
+     0.6639,
+     0.6699
+    ],
+    [
+     "0.72-0.8",
+     214,
+     0.761,
+     0.7523
+    ],
+    [
+     "0.8-0.9",
+     500,
+     0.8572,
+     0.862
+    ],
+    [
+     "0.9-0.95",
+     580,
+     0.9273,
+     0.9362
+    ],
+    [
+     "0.95-0.99",
+     2094,
+     0.9776,
+     0.9819
+    ],
+    [
+     "0.99-1.001",
+     64122,
+     0.9995,
+     0.9998
+    ]
+   ]
+  }
+ },
+ "France": {
+  "n_s1": 259452,
+  "S005": {
+   "pred_pairs_after_mc": 854396,
+   "pred_per_s1": 3.2931,
+   "p0_pred": 0.0557,
+   "mc_removed": 24933,
+   "contested_records": 17468,
+   "selfest_F": 95.409,
+   "exp_fp_per_s1": 0.0234,
+   "exp_fn_inpool_per_s1": 0.3845,
+   "kept_p_lt_0_9_share": 0.0244,
+   "kept_runner_ge_0_3_per_1k": 38.83,
+   "kept_runner_ge_0_1_per_1k": 55.36,
+   "soft_removes_from_kept": 4072,
+   "soft_removes_per_1k": 4.77,
+   "soft_adds": 0
+  },
+  "S006": {
+   "pred_pairs_after_mc": 848634,
+   "pred_per_s1": 3.2709,
+   "p0_pred": 0.0568,
+   "mc_removed": 18595,
+   "contested_records": 13771,
+   "selfest_F": 96.056,
+   "exp_fp_per_s1": 0.0263,
+   "exp_fn_inpool_per_s1": 0.2964,
+   "kept_p_lt_0_9_share": 0.0276,
+   "kept_runner_ge_0_3_per_1k": 28.51,
+   "kept_runner_ge_0_1_per_1k": 43.3,
+   "soft_removes_from_kept": 2997,
+   "soft_removes_per_1k": 3.53,
+   "soft_adds": 0
+  }
+ },
+ "US": {
+  "n_s1": 663106,
+  "S005": {
+   "pred_pairs_after_mc": 2236158,
+   "pred_per_s1": 3.3722,
+   "p0_pred": 0.0578,
+   "mc_removed": 375,
+   "contested_records": 374,
+   "selfest_F": 98.667,
+   "exp_fp_per_s1": 0.0095,
+   "exp_fn_inpool_per_s1": 0.0973,
+   "kept_p_lt_0_9_share": 0.0079,
+   "kept_runner_ge_0_3_per_1k": 1.73,
+   "kept_runner_ge_0_1_per_1k": 3.27,
+   "soft_removes_from_kept": 1963,
+   "soft_removes_per_1k": 0.88,
+   "soft_adds": 0
+  },
+  "S006": {
+   "pred_pairs_after_mc": 2241959,
+   "pred_per_s1": 3.381,
+   "p0_pred": 0.0576,
+   "mc_removed": 537,
+   "contested_records": 533,
+   "selfest_F": 98.85,
+   "exp_fp_per_s1": 0.0093,
+   "exp_fn_inpool_per_s1": 0.0797,
+   "kept_p_lt_0_9_share": 0.0084,
+   "kept_runner_ge_0_3_per_1k": 1.88,
+   "kept_runner_ge_0_1_per_1k": 3.36,
+   "soft_removes_from_kept": 2057,
+   "soft_removes_per_1k": 0.92,
+   "soft_adds": 0
+  }
+ },
+ "India": {
+  "n_s1": 809986,
+  "S005": {
+   "pred_pairs_after_mc": 2728351,
+   "pred_per_s1": 3.3684,
+   "p0_pred": 0.0578,
+   "mc_removed": 2512,
+   "contested_records": 2433,
+   "selfest_F": 98.613,
+   "exp_fp_per_s1": 0.0108,
+   "exp_fn_inpool_per_s1": 0.0998,
+   "kept_p_lt_0_9_share": 0.0084,
+   "kept_runner_ge_0_3_per_1k": 3.88,
+   "kept_runner_ge_0_1_per_1k": 6.95,
+   "soft_removes_from_kept": 3570,
+   "soft_removes_per_1k": 1.31,
+   "soft_adds": 0
+  },
+  "S006": {
+   "pred_pairs_after_mc": 2737323,
+   "pred_per_s1": 3.3795,
+   "p0_pred": 0.0575,
+   "mc_removed": 2830,
+   "contested_records": 2720,
+   "selfest_F": 98.837,
+   "exp_fp_per_s1": 0.0094,
+   "exp_fn_inpool_per_s1": 0.0822,
+   "kept_p_lt_0_9_share": 0.0083,
+   "kept_runner_ge_0_3_per_1k": 3.57,
+   "kept_runner_ge_0_1_per_1k": 5.86,
+   "soft_removes_from_kept": 3553,
+   "soft_removes_per_1k": 1.3,
+   "soft_adds": 0
+  }
+ }
+}

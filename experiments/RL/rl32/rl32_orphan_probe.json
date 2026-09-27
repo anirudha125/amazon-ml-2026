@@ -1,0 +1,103 @@
+{
+ "train_US_linked": {
+  "n": 4361521,
+  "share_with_twin_in_same_class": 0.3072
+ },
+ "train_US_unlinked": {
+  "n": 1603190,
+  "share_with_twin_in_same_class": 0.0031
+ },
+ "train_US_unlinked_twin_of_linked": 0.0016,
+ "train_India_linked": {
+  "n": 2423033,
+  "share_with_twin_in_same_class": 0.2891
+ },
+ "train_India_unlinked": {
+  "n": 880902,
+  "share_with_twin_in_same_class": 0.001
+ },
+ "train_India_unlinked_twin_of_linked": 0.0082,
+ "test_US_claimed": {
+  "n": 2173418,
+  "share_with_twin_in_same_class": 0.3067,
+  "n_groups_ge2": 279819,
+  "size_hist": {
+   "1": 1506910,
+   "2": 199211,
+   "3": 59830,
+   "4": 16210,
+   "5": 3776,
+   "6": 684,
+   "7": 95,
+   "8": 10
+  }
+ },
+ "test_US_unclaimed": {
+  "n": 1449709,
+  "share_with_twin_in_same_class": 0.0389,
+  "n_groups_ge2": 27858,
+  "size_hist": {
+   "1": 1393361,
+   "2": 27226,
+   "3": 632
+  }
+ },
+ "test_US_unclaimed_twin_of_claimed": 0.0013,
+ "test_India_claimed": {
+  "n": 2200742,
+  "share_with_twin_in_same_class": 0.2907,
+  "n_groups_ge2": 270151,
+  "size_hist": {
+   "1": 1561003,
+   "2": 194925,
+   "3": 56180,
+   "4": 14842,
+   "5": 3426,
+   "6": 643,
+   "7": 108,
+   "8": 18
+  }
+ },
+ "test_India_unclaimed": {
+  "n": 1542131,
+  "share_with_twin_in_same_class": 0.0042,
+  "n_groups_ge2": 3251,
+  "size_hist": {
+   "1": 1535579,
+   "2": 3202,
+   "3": 48,
+   "4": 1
+  }
+ },
+ "test_India_unclaimed_twin_of_claimed": 0.0084,
+ "test_France_claimed": {
+  "n": 831398,
+  "share_with_twin_in_same_class": 0.5189,
+  "n_groups_ge2": 161286,
+  "size_hist": {
+   "1": 399971,
+   "2": 91118,
+   "3": 44031,
+   "4": 17769,
+   "5": 5883,
+   "6": 1745,
+   "7": 436,
+   "8": 121
+  }
+ },
+ "test_France_unclaimed": {
+  "n": 475498,
+  "share_with_twin_in_same_class": 0.0163,
+  "n_groups_ge2": 3720,
+  "size_hist": {
+   "1": 467754,
+   "2": 3490,
+   "3": 171,
+   "4": 47,
+   "5": 10,
+   "6": 1,
+   "7": 1
+  }
+ },
+ "test_France_unclaimed_twin_of_claimed": 0.0079
+}

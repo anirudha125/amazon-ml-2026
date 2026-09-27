@@ -1,0 +1,36 @@
+{
+ "LOCO_US_latin": {
+  "pairs": 917459,
+  "pos": 22753,
+  "fp": 1020,
+  "fn_inpool": 1465,
+  "tp": 21288
+ },
+ "LOCO_US_indic": {
+  "pairs": 117498,
+  "pos": 4920,
+  "fp": 188,
+  "fn_inpool": 1147,
+  "tp": 3773
+ },
+ "LOCO_US_macro_India_S1_without_indic_positive": 93.669,
+ "LOCO_US_macro_India_S1_with_indic_positive": 89.493,
+ "LOCO_US_n_S1_with_indic_positive": 2465,
+ "S006_indomain_latin": {
+  "pairs": 917459,
+  "pos": 22753,
+  "fp": 62,
+  "fn_inpool": 603,
+  "tp": 22150
+ },
+ "S006_indomain_indic": {
+  "pairs": 117498,
+  "pos": 4920,
+  "fp": 13,
+  "fn_inpool": 25,
+  "tp": 4895
+ },
+ "S006_indomain_macro_India_S1_without_indic_positive": 98.902,
+ "S006_indomain_macro_India_S1_with_indic_positive": 99.256,
+ "S006_indomain_n_S1_with_indic_positive": 2465
+}

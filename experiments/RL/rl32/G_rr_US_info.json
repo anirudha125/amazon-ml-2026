@@ -1,0 +1,37 @@
+{
+ "tag": "US",
+ "subset": {
+  "n_s1": 59779,
+  "n_us": 59779
+ },
+ "n_train_pairs": 597790,
+ "positives": 206173,
+ "train": {
+  "init": "intfloat/multilingual-e5-base",
+  "rev": "d128750597153bb5987e10b1c3493a34e5a4502a",
+  "n_pairs": 597790,
+  "epochs": 1.0,
+  "bs": 256,
+  "micro": 256,
+  "lr": 5e-05,
+  "seed": 42,
+  "wd": 0.01,
+  "steps": 2336,
+  "t_train": 269.1,
+  "pairs_per_s": 2221,
+  "vram_peak_gb": 12.6,
+  "gpu_util_mean": 92.61654135338345,
+  "gpu_mem_used_max_mb": 15803.0,
+  "final_loss": 0.048362814301624896,
+  "attn": "sdpa",
+  "n_tok": 3,
+  "n_params": 278044417
+ },
+ "score": {
+  "n_pairs": 739950,
+  "secs": 83.4,
+  "pairs_per_s": 8870,
+  "gpu_util_mean": 87.0952380952381,
+  "gpu_mem_used_max_mb": 9569.0
+ }
+}

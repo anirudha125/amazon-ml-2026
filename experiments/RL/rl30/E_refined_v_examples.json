@@ -1,0 +1,4136 @@
+{
+ "V1:F1_dist_s0.5": {
+  "acc_FP": [
+   {
+    "s1": "S1-842295601",
+    "s1_name": "Travue Group",
+    "s1_addr": "175 Sandusky Street, Tiffin, OH",
+    "rec": "S3-654519741",
+    "rec_name": "Lumvio Group",
+    "rec_addr": "175 Sandusky Street, Tiffin, Ohio",
+    "p": 0.8441,
+    "owner": null,
+    "owner_name": null
+   },
+   {
+    "s1": "S1-191254967",
+    "s1_name": "Ferdinande Gonzalez, MD, PC",
+    "s1_addr": "508 College Street, Canyon, TX",
+    "rec": "S2-243496259",
+    "rec_name": "Ferdinande Gobnlzogez, MD, PC  PC",
+    "rec_addr": "",
+    "p": 0.8302,
+    "owner": "S1-95963120",
+    "owner_name": "Ferdinande Gonzalez, MD, PC PC"
+   },
+   {
+    "s1": "S1-445221174",
+    "s1_name": "Rolta Estates LLP",
+    "s1_addr": "Sh-270, Silver Business Hub Simada Brts Road Junction, Surat, Gujarat",
+    "rec": "S3-828856559",
+    "rec_name": "LLP Rolta Services",
+    "rec_addr": "Sh-275, Silver Business Hub Simada Brts Road Junction, Surat, GJ",
+    "p": 0.8165,
+    "owner": null,
+    "owner_name": null
+   },
+   {
+    "s1": "S1-853851905",
+    "s1_name": "Krittech Services Private Limited",
+    "s1_addr": "Royal Orchid 5Th Flr Flat 5/H, 183 S K Deb Road, 24 Pgs North, North 24 Parganas, West Bengal",
+    "rec": "S2-691137015",
+    "rec_name": "Crittech Services-Private Limited",
+    "rec_addr": "ROYAL ORCHID 5TH FLR FLAT 5/H, 183 S K DEB ROAD, 24 PGS NORTH, West Bengal",
+    "p": 0.9974,
+    "owner": null,
+    "owner_name": null
+   },
+   {
+    "s1": "S1-513474019",
+    "s1_name": "Delta Trust LLC",
+    "s1_addr": "5919 Providence Road, Unit 6, Charlotte, NC",
+    "rec": "S2-626505652",
+    "rec_name": "Deltaquo LLC-Trust",
+    "rec_addr": "5919 PROVIDENCE ROAD, CHARLOTTE, NC",
+    "p": 0.8545,
+    "owner": null,
+    "owner_name": null
+   }
+  ],
+  "acc_TP": [
+   {
+    "s1": "S1-503999949",
+    "s1_name": "Historical Society LLC",
+    "s1_addr": "Nashville, 4042 Shurgard Way, Unit 2110, TN",
+    "rec": "S2-616286466",
+    "rec_name": "Historical Soiegty LLC",
+    "rec_addr": "4042 SHURGARD WAY, NASHVILLE, TN",
+    "p": 0.9999,
+    "owner": "S1-503999949",
+    "owner_name": "Historical Society LLC"
+   },
+   {
+    "s1": "S1-64652868",
+    "s1_name": "Hernandez Clean Pro, Inc",
+    "s1_addr": "4727 Callery Creek Drive, Houston, TX",
+    "rec": "S3-832666635",
+    "rec_name": "Hernandez Cilraln Pro,-Inc",
+    "rec_addr": "472 Callery Creek Dr, Houston, Texas",
+    "p": 0.9993,
+    "owner": "S1-64652868",
+    "owner_name": "Hernandez Clean Pro, Inc"
+   },
+   {
+    "s1": "S1-44882589",
+    "s1_name": "Ruthe Vann Star Specialists",
+    "s1_addr": "Litchfield, 56 Dingley Road, ME",
+    "rec": "S2-725092279",
+    "rec_name": "Ruthe Vann Star Service",
+    "rec_addr": "56 DINGLEY ROAD, LITCHFIELD, ME",
+    "p": 1.0,
+    "owner": "S1-44882589",
+    "owner_name": "Ruthe Vann Star Specialists"
+   },
+   {
+    "s1": "S1-479736086",
+    "s1_name": "Blue Educational Pvt Ltd",
+    "s1_addr": "28-A/31, Ground Floor Gali No-03, Laxman Vih Ph-2, Aawas Kunj, Gurgaon, Haryana",
+    "rec": "S3-571426018",
+    "rec_name": "B1ue Educational Pvt Pvt Ltd",
+    "rec_addr": "##28-A/31, Gurgaon, HR",
+    "p": 0.9996,
+    "owner": "S1-479736086",
+    "owner_name": "Blue Educational Pvt Ltd"
+   },
+   {
+    "s1": "S1-595066859",
+    "s1_name": "Unique Solutions",
+    "s1_addr": "312/11 0 Ngr, Gmn W, Jawahar Nagar 2, Mumbai, Mumbai City, Maharashtra",
+    "rec": "S2-371019640",
+    "rec_name": "Unique Center",
+    "rec_addr": "DOOR NO B3/312/11 0 NGR, GMN W, JAWAHAR NAGAR 2, MMUBAI, \u092e\u0939\u093e\u0930\u093e\u0937\u094d\u091f\u094d\u0930",
+    "p": 0.9993,
+    "owner": "S1-595066859",
+    "owner_name": "Unique Solutions"
+   }
+  ],
+  "rej_pos_p03": [
+   {
+    "s1": "S1-144105661",
+    "s1_name": "Verduzco Preferred Foods",
+    "s1_addr": "OK, 5903 Chestnut Court, Edmond",
+    "rec": "S2-508470611",
+    "rec_name": "Verduzco Services F\u00f3ods",
+    "rec_addr": "OK, 5905 Chestnut Ct, EDMOND",
+    "p": 0.3114,
+    "owner": "S1-144105661",
+    "owner_name": "Verduzco Preferred Foods"
+   },
+   {
+    "s1": "S1-784130367",
+    "s1_name": "Zircon Properties Private Limited",
+    "s1_addr": "C/O Rajpal Singh Vill-Niloha, T8, Meerut, Uttar Pradesh",
+    "rec": "S2-909534651",
+    "rec_name": "Zircon Private Limited Partners",
+    "rec_addr": "",
+    "p": 0.5136,
+    "owner": "S1-784130367",
+    "owner_name": "Zircon Properties Private Limited"
+   },
+   {
+    "s1": "S1-21988175",
+    "s1_name": "Golden Axiom Clinic",
+    "s1_addr": "Parkersburg, 1901 Liberty Street, WV",
+    "rec": "S2-647056781",
+    "rec_name": "Golden Axiom  Clninaac",
+    "rec_addr": "",
+    "p": 0.7556,
+    "owner": "S1-21988175",
+    "owner_name": "Golden Axiom Clinic"
+   },
+   {
+    "s1": "S1-598598178",
+    "s1_name": "One Finance Pvt Ltd",
+    "s1_addr": "No 26, Leith Castle Road, South, First Floor 7A, Santhome, Chennai, Tamil Nadu",
+    "rec": "S3-790645743",
+    "rec_name": "One Pvt Ltd Service",
+    "rec_addr": "Door No B3/26, Chennai, TN",
+    "p": 0.6035,
+    "owner": "S1-598598178",
+    "owner_name": "One Finance Pvt Ltd"
+   },
+   {
+    "s1": "S1-802002917",
+    "s1_name": "Jalpaiguri Interiors Corp",
+    "s1_addr": "West Bengal, Jalpaiguri, Room No. - G-6B, Ground Floor Sevoke Road, P.S. - Bhaktinagar, Dist.-, Jalpaiguri, Gitanjali Complex",
+    "rec": "S2-785590864",
+    "rec_name": "Jalpaiguri Corp Corp Center",
+    "rec_addr": "",
+    "p": 0.3805,
+    "owner": "S1-802002917",
+    "owner_name": "Jalpaiguri Interiors Corp"
+   }
+  ]
+ },
+ "V1:F1_dist_s0.5_sameaddr": {
+  "acc_FP": [
+   {
+    "s1": "S1-394687898",
+    "s1_name": "Gothard, Modesty G., MD",
+    "s1_addr": "3306 Schadt Street, Fort Worth, TX",
+    "rec": "S3-310403341",
+    "rec_name": "Gothard, Modesty G., MA",
+    "rec_addr": "3306 Schadt St, PMB 2959, FT. ORTH, Texas",
+    "p": 0.9571,
+    "owner": null,
+    "owner_name": null
+   },
+   {
+    "s1": "S1-77553979",
+    "s1_name": "Vision Investments",
+    "s1_addr": "Tower C 9Th Flr 901 Mangalkirti Apartment, Vadodara, Gujarat",
+    "rec": "S2-33416751",
+    "rec_name": "Vision Services",
+    "rec_addr": "\u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4, TOWER C 9TH FLR 904 MANGALKIRTI APARTMENT, VADODARA",
+    "p": 0.8333,
+    "owner": null,
+    "owner_name": null
+   },
+   {
+    "s1": "S1-306313550",
+    "s1_name": "Pediatric Dental Premier Associates",
+    "s1_addr": "2816 Hazelwood Avenue, Fort Wayne, IN",
+    "rec": "S2-778504961",
+    "rec_name": "Pediatric Dental \u00c1ssociates",
+    "rec_addr": "2816 HAZELWOOD AVE, ST JOSEPH, IN",
+    "p": 0.9924,
+    "owner": "S1-174875453",
+    "owner_name": "Pediatric Dental Associates"
+   },
+   {
+    "s1": "S1-513474019",
+    "s1_name": "Delta Trust LLC",
+    "s1_addr": "5919 Providence Road, Unit 6, Charlotte, NC",
+    "rec": "S2-626505652",
+    "rec_name": "Deltaquo LLC-Trust",
+    "rec_addr": "5919 PROVIDENCE ROAD, CHARLOTTE, NC",
+    "p": 0.8545,
+    "owner": null,
+    "owner_name": null
+   },
+   {
+    "s1": "S1-842295601",
+    "s1_name": "Travue Group",
+    "s1_addr": "175 Sandusky Street, Tiffin, OH",
+    "rec": "S3-654519741",
+    "rec_name": "Lumvio Group",
+    "rec_addr": "175 Sandusky Street, Tiffin, Ohio",
+    "p": 0.8441,
+    "owner": null,
+    "owner_name": null
+   }
+  ],
+  "acc_TP": [
+   {
+    "s1": "S1-306237055",
+    "s1_name": "Ciel's Express Spa",
+    "s1_addr": "2715 Youpon Lake Court, Houston, TX",
+    "rec": "S2-371942541",
+    "rec_name": "Ciel's Express",
+    "rec_addr": "2715  YOUPON LAKE COURT, TX, HOUSTON",
+    "p": 1.0,
+    "owner": "S1-306237055",
+    "owner_name": "Ciel's Express Spa"
+   },
+   {
+    "s1": "S1-650449319",
+    "s1_name": "Cessna Royal Trinity Corp",
+    "s1_addr": "6201 South Freeway, Fort Worth, TX",
+    "rec": "S3-691001121",
+    "rec_name": "Cessna Royal Trminity Corp",
+    "rec_addr": "6201. South Freeway, Fort Worth, Texas",
+    "p": 0.9998,
+    "owner": "S1-650449319",
+    "owner_name": "Cessna Royal Trinity Corp"
+   },
+   {
+    "s1": "S1-119447318",
+    "s1_name": "Ellie's Custom Recruiting",
+    "s1_addr": "2801 Douglas Avenue, City Of Racine, WI",
+    "rec": "S2-842795616",
+    "rec_name": "CUSOM ELLIE'S (RECRUITING)",
+    "rec_addr": "2801 DOUGLAS AVE, CITY OF RACINE, WI",
+    "p": 0.9997,
+    "owner": "S1-119447318",
+    "owner_name": "Ellie's Custom Recruiting"
+   },
+   {
+    "s1": "S1-501620246",
+    "s1_name": "SVE Dreams LLP",
+    "s1_addr": "Dakshina Kannada, Karnataka, Near Derebail Church, Ashoknagar, Mangaluru, B-1406 Brigade Pinnacle",
+    "rec": "S2-775835446",
+    "rec_name": "LLP SVE Drlm",
+    "rec_addr": "Karnataka, B-1406 BRIGADE PINNACLE, NEAR DEREBAIL CHURCH, ASHOKNAGAR, DAKSHINA KANNADA, MANGALURU",
+    "p": 0.9999,
+    "owner": "S1-501620246",
+    "owner_name": "SVE Dreams LLP"
+   },
+   {
+    "s1": "S1-375063838",
+    "s1_name": "Arts Regional Project",
+    "s1_addr": "3886 Stiles Lane, Gilbert, AZ",
+    "rec": "S2-311632216",
+    "rec_name": "Arts-Rgiconal Project",
+    "rec_addr": "3886 STILES LN, GILBERT, AZ",
+    "p": 0.9999,
+    "owner": "S1-375063838",
+    "owner_name": "Arts Regional Project"
+   }
+  ],
+  "rej_pos_p03": [
+   {
+    "s1": "S1-824408536",
+    "s1_name": "Nc Meadows Pvt. Ltd.",
+    "s1_addr": "Flat No 1, B2, Ganesh Market Society, Pune City, Pune, Maharashtra",
+    "rec": "S2-744953227",
+    "rec_name": "NC MEADOW  PVT. LTD.",
+    "rec_addr": "FLAT NO ##1 , B2, GANESH MARKET SOCIETY, PUEN CITY, Maharashtra",
+    "p": 0.7029,
+    "owner": "S1-824408536",
+    "owner_name": "Nc Meadows Pvt. Ltd."
+   },
+   {
+    "s1": "S1-198759469",
+    "s1_name": "Verreus Gsr Inc",
+    "s1_addr": "WV, Rock Cave, 1420 Canaan Road",
+    "rec": "S2-216750294",
+    "rec_name": "Vlegrrsesu Gsr Inc",
+    "rec_addr": "1420 CANAAN RD, ROCK CAVE, WV",
+    "p": 0.6807,
+    "owner": "S1-198759469",
+    "owner_name": "Verreus Gsr Inc"
+   },
+   {
+    "s1": "S1-972527884",
+    "s1_name": "Pioneer Impex",
+    "s1_addr": "Shop No 245, 2Nd Floor, Baba Chitru Complex Wazirabad, Sector-52, Gurgaon, Haryana",
+    "rec": "S3-833522911",
+    "rec_name": "Pioneer S\u00e9rvices",
+    "rec_addr": "\u0939\u0930\u093f\u092f\u093e\u0923\u093e, Shop No 245/5, Gurgaon",
+    "p": 0.7188,
+    "owner": "S1-972527884",
+    "owner_name": "Pioneer Impex"
+   },
+   {
+    "s1": "S1-920826482",
+    "s1_name": "Delhi Tech Pvt Ltd",
+    "s1_addr": "House No.-128, Block-G, Pkt-4, Sector-11, Rohini, Delhi, North West Delhi, Delhi",
+    "rec": "S3-414080052",
+    "rec_name": "Ltd Delhi Pvt (S\u00e9rvice)",
+    "rec_addr": "House No.-128/7, Delhi, North West Delhi, \u0926\u093f\u0932\u094d\u0932\u0940",
+    "p": 0.363,
+    "owner": "S1-920826482",
+    "owner_name": "Delhi Tech Pvt Ltd"
+   },
+   {
+    "s1": "S1-657059367",
+    "s1_name": "Waldron Bce Inc",
+    "s1_addr": "WV, Unit APT D, 1410 Jackson Street, Charleston",
+    "rec": "S2-984722131",
+    "rec_name": "Walcdon Bc\u00e9 Inc",
+    "rec_addr": "1410 JACKSON SAREET, CHARLESTON, WV",
+    "p": 0.4264,
+    "owner": "S1-657059367",
+    "owner_name": "Waldron Bce Inc"
+   }
+  ]
+ },
+ "V1:F1_filler_all": {
+  "acc_FP": [
+   {
+    "s1": "S1-336052904",
+    "s1_name": "Raj Finance Private Limited",
+    "s1_addr": "2Nd Floor, Samvardhani, Opp. Pragathi Clinic Hosahalli Road, Hunasamaranahalli, Bangalore North, Bangalore, Karnataka",
+    "rec": "S3-704063202",
+    "rec_name": "6old Raj Finance Private [Limited]",
+    "rec_addr": "00302, 2Nd Floor, Dasappana Paly, Bangalore North, Bangalore, KA",
+    "p": 0.9362,
+    "owner": "S1-248427440",
+    "owner_name": "Gold Raj Finance Private Limited"
+   },
+   {
+    "s1": "S1-69177326",
+    "s1_name": "Faridabad Exports Ltd",
+    "s1_addr": "1D-46A, Nit, Faridabad, Haryana",
+    "rec": "S3-47298166",
+    "rec_name": "Faridabad Exports",
+    "rec_addr": "",
+    "p": 0.8547,
+    "owner": "S1-157212321",
+    "owner_name": "Faridabad Exports"
+   },
+   {
+    "s1": "S1-284745845",
+    "s1_name": "Katee Bush, DDS, M.D., P.C.",
+    "s1_addr": "156 Promiseland Road, Canton, NC",
+    "rec": "S2-581970111",
+    "rec_name": "Katee Bush, DDS, M.D., P.C. Corp",
+    "rec_addr": "15 PROMISELAND ROAD, CANTON, NC",
+    "p": 0.8287,
+    "owner": null,
+    "owner_name": null
+   },
+   {
+    "s1": "S1-553798918",
+    "s1_name": "First Automobile, LLC",
+    "s1_addr": "606 Leisure World, Mesa Desert, AZ",
+    "rec": "S2-679919371",
+    "rec_name": "... First LLC Service",
+    "rec_addr": "00774 LEISURE WORLD, MESA DESERT, AZ",
+    "p": 0.9662,
+    "owner": "S1-866823218",
+    "owner_name": "First Manufacturing LLC"
+   },
+   {
+    "s1": "S1-578888575",
+    "s1_name": "Peak Health Enterprises Inc",
+    "s1_addr": "1028 Sawmill Road, Batesville, IN",
+    "rec": "S2-267040990",
+    "rec_name": "Peak Health Enterprises",
+    "rec_addr": "",
+    "p": 0.877,
+    "owner": "S1-605515604",
+    "owner_name": "Peak Health Holdings"
+   }
+  ],
+  "acc_TP": [
+   {
+    "s1": "S1-276458301",
+    "s1_name": "Pinnacle Materials Advisors LLC",
+    "s1_addr": "8 Tree Top Lane, Southwick, MA",
+    "rec": "S3-268400071",
+    "rec_name": "Pinnacle Materials-Advisors",
+    "rec_addr": "8 Tree Top Lane, Southwick, Massachusetts",
+    "p": 0.9999,
+    "owner": "S1-276458301",
+    "owner_name": "Pinnacle Materials Advisors LLC"
+   },
+   {
+    "s1": "S1-527348353",
+    "s1_name": "Nemani Brothers Limited",
+    "s1_addr": "5Th Floor, Vaswani Augusta Lane, Whistling Greens, Challaghatta, Embassy Golf Link Road, Bangalore North, Bangalore, Karnataka",
+    "rec": "S2-841113189",
+    "rec_name": "NEMANI BROTHERS",
+    "rec_addr": "5TH FLOOR, VASWANI AUGUSTA LANE, WHISTLING GREENS, CHALLAGHATTA, EMBASSY GOLF LINK ROAD, BANGALORE NORTH, Karnataka",
+    "p": 1.0,
+    "owner": "S1-527348353",
+    "owner_name": "Nemani Brothers Limited"
+   },
+   {
+    "s1": "S1-811235992",
+    "s1_name": "Trafloify PC",
+    "s1_addr": "8114 Date Place, Broken Arrow, OK",
+    "rec": "S2-20309204",
+    "rec_name": "TRAFLOIFY  PC SERVICE",
+    "rec_addr": "BROKEN ARROW, 08114 DATE PLACE, OK",
+    "p": 0.9971,
+    "owner": "S1-811235992",
+    "owner_name": "Trafloify PC"
+   },
+   {
+    "s1": "S1-203141637",
+    "s1_name": "Sbe Agriculture Private Limited",
+    "s1_addr": "Room No 30/351, Aysha Complex, Calicut Road, Perinthalmanna, Malappuram, Malapuram, Kerala",
+    "rec": "S3-444933070",
+    "rec_name": "Limited Sbe Agriculture Center",
+    "rec_addr": "Room No 30/351, \u0d15\u0d47\u0d30\u0d33\u0d02, Malappuram",
+    "p": 0.9988,
+    "owner": "S1-203141637",
+    "owner_name": "Sbe Agriculture Private Limited"
+   },
+   {
+    "s1": "S1-764553352",
+    "s1_name": "May's United Liquor",
+    "s1_addr": "117 Laycock Road, Hendersonville, NC",
+    "rec": "S2-661567461",
+    "rec_name": "May's United Liquor Co",
+    "rec_addr": "117 LAYCOCK ROAD, HENDERSONVILLE, NC",
+    "p": 0.9999,
+    "owner": "S1-764553352",
+    "owner_name": "May's United Liquor"
+   }
+  ],
+  "rej_pos_p03": [
+   {
+    "s1": "S1-943391963",
+    "s1_name": "Vargas Centers",
+    "s1_addr": "4307 Okmulgee Avenue, Unit UNIT 107, Muskogee, OK",
+    "rec": "S2-387252130",
+    "rec_name": "Vargas [Center]",
+    "rec_addr": "",
+    "p": 0.4181,
+    "owner": "S1-943391963",
+    "owner_name": "Vargas Centers"
+   },
+   {
+    "s1": "S1-807991342",
+    "s1_name": "Lala Traders Private Limited",
+    "s1_addr": "Ofc No.3, 3 Floor Plot 5, Stellar 1425, Sector 142, Noida, Gautam Buddha Nagar, Uttar Pradesh",
+    "rec": "S2-949835054",
+    "rec_name": "Lala Traders Private",
+    "rec_addr": "",
+    "p": 0.7441,
+    "owner": "S1-807991342",
+    "owner_name": "Lala Traders Private Limited"
+   },
+   {
+    "s1": "S1-759025505",
+    "s1_name": "Kowalski, Santiago & Ashlock Aktiengesellschaft Inc.",
+    "s1_addr": "AZ, Phoenix, 16909 32nd Lane",
+    "rec": "S2-377513368",
+    "rec_name": "Kowalski, Santiago Ashlock Aktiengesellschaft Inc. Center",
+    "rec_addr": "",
+    "p": 0.4943,
+    "owner": "S1-759025505",
+    "owner_name": "Kowalski, Santiago & Ashlock Aktiengesellschaft Inc."
+   },
+   {
+    "s1": "S1-16372021",
+    "s1_name": "Eileen Simeone, D.D.S., M.D., P.C. Corp",
+    "s1_addr": "175 Powell Road, Mocksville, NC",
+    "rec": "S2-243708813",
+    "rec_name": "Eileen Simeone, M.D., P.C. Corp Center",
+    "rec_addr": "",
+    "p": 0.3361,
+    "owner": "S1-16372021",
+    "owner_name": "Eileen Simeone, D.D.S., M.D., P.C. Corp"
+   },
+   {
+    "s1": "S1-381784600",
+    "s1_name": "Vadodara Foundation Private Limited",
+    "s1_addr": "J-346, Siddharth Elegance, Roses Garden, Chhani Road, Vadodara, Gujarat",
+    "rec": "S2-256992418",
+    "rec_name": "Vadodara Foundation Pr\u00edvate",
+    "rec_addr": "",
+    "p": 0.3026,
+    "owner": "S1-381784600",
+    "owner_name": "Vadodara Foundation Private Limited"
+   }
+  ]
+ },
+ "V1:F1_filler_all_sameaddr": {
+  "acc_FP": [
+   {
+    "s1": "S1-235619489",
+    "s1_name": "Orthopedic Partners Inc",
+    "s1_addr": "3333 85th Street, Chicago, IL",
+    "rec": "S2-509975866",
+    "rec_name": "ORTHOPEDIC \u00cdNC CENTER",
+    "rec_addr": "3333 85TH STREET, CHICAGO, IL",
+    "p": 0.9996,
+    "owner": "S1-11479437",
+    "owner_name": "Orthopedic Associates, Inc"
+   },
+   {
+    "s1": "S1-265593401",
+    "s1_name": "Edin J. Thompson, DDS, PC",
+    "s1_addr": "973 Cress School Road, Salisbury, NC",
+    "rec": "S2-299591573",
+    "rec_name": "-- Edin J. Thompson, DS, [PC]",
+    "rec_addr": "973 CRESS SCHOOL ROAD, SALISBURY, NC",
+    "p": 0.9923,
+    "owner": null,
+    "owner_name": null
+   }
+  ],
+  "acc_TP": [
+   {
+    "s1": "S1-493709085",
+    "s1_name": "Chennai Tree Private Limited",
+    "s1_addr": "47/10 Sarangapani Street T Nagar, Chennai, Tamil Nadu",
+    "rec": "S3-572048156",
+    "rec_name": "... Chennai Tree Private Ltd",
+    "rec_addr": "Door No 47/10 Sarangapani Street T Nagar, Chennai, TN",
+    "p": 1.0,
+    "owner": "S1-493709085",
+    "owner_name": "Chennai Tree Private Limited"
+   },
+   {
+    "s1": "S1-822026933",
+    "s1_name": "1462 Jefferson St Apartments",
+    "s1_addr": "66 Sudan Street, Unit 1, Boston, MA",
+    "rec": "S2-702528736",
+    "rec_name": "The 1462 Jefferson St Apartments",
+    "rec_addr": "66. SUDAN ST, DORCHESTER, MA",
+    "p": 0.9999,
+    "owner": "S1-822026933",
+    "owner_name": "1462 Jefferson St Apartments"
+   },
+   {
+    "s1": "S1-409964002",
+    "s1_name": "Surgical Specialists",
+    "s1_addr": "2924 Snelling Avenue, Unit Apartment 103, Roseville, MN",
+    "rec": "S2-883212201",
+    "rec_name": "Surgical Specialists Co",
+    "rec_addr": "2924 SNELLING AVENUE, ROSEVILLE, MN",
+    "p": 0.9992,
+    "owner": "S1-409964002",
+    "owner_name": "Surgical Specialists"
+   },
+   {
+    "s1": "S1-338502911",
+    "s1_name": "Sarvashiva Syndicate Limited",
+    "s1_addr": "No 126 A Block Pride, Vatika Lyt 9Th Cross, Anekal, Bangalore, Karnataka",
+    "rec": "S2-105100888",
+    "rec_name": "Sarvashiva Syndicate Ltd",
+    "rec_addr": "NO 126/5 A BLOCK PRIDE, VATIKA LYT 9TH CROSS, ANEKAL, Karnataka",
+    "p": 0.9999,
+    "owner": "S1-338502911",
+    "owner_name": "Sarvashiva Syndicate Limited"
+   },
+   {
+    "s1": "S1-353108519",
+    "s1_name": "National Care LLC",
+    "s1_addr": "974 Annandale Drive, Elgin, IL",
+    "rec": "S2-473788973",
+    "rec_name": "National Care",
+    "rec_addr": "974 ANNANDALE DRIVE, ELGIN, IL",
+    "p": 1.0,
+    "owner": "S1-353108519",
+    "owner_name": "National Care LLC"
+   }
+  ],
+  "rej_pos_p03": [
+   {
+    "s1": "S1-600603723",
+    "s1_name": "Little Hair Studio PC",
+    "s1_addr": "211 Randall Road, Unit APT 51, Lewiston, ME",
+    "rec": "S2-556359345",
+    "rec_name": "Little Hair Studio LLC",
+    "rec_addr": "211-213 RANDALL RD, LEWISTON, ME",
+    "p": 0.765,
+    "owner": "S1-600603723",
+    "owner_name": "Little Hair Studio PC"
+   },
+   {
+    "s1": "S1-116024841",
+    "s1_name": "Burton's Staffing Care",
+    "s1_addr": "354 Gardner Hollow Road, Beekman, NY",
+    "rec": "S3-398618309",
+    "rec_name": "Burton's Staffing Care LLC",
+    "rec_addr": "0354 Gardner Hollow Rd, Poughquag, New York",
+    "p": 0.7285,
+    "owner": "S1-116024841",
+    "owner_name": "Burton's Staffing Care"
+   },
+   {
+    "s1": "S1-928178003",
+    "s1_name": "Human Rights Committee",
+    "s1_addr": "2301 Motes Road, Unit Apartment 117, Sylacauga, AL",
+    "rec": "S2-764855640",
+    "rec_name": "Human Rights Committee Corp",
+    "rec_addr": "02301 MOTES RD, SYLACAUGA CITY, AL",
+    "p": 0.5138,
+    "owner": "S1-928178003",
+    "owner_name": "Human Rights Committee"
+   },
+   {
+    "s1": "S1-971633398",
+    "s1_name": "Alvarez Solarius",
+    "s1_addr": "3896 Farm To Market 92, Silsbee, TX",
+    "rec": "S3-352489662",
+    "rec_name": "Alvarez Solarius Co",
+    "rec_addr": "##3896 Farm To Market 92, Sillsbee, Texas",
+    "p": 0.7028,
+    "owner": "S1-971633398",
+    "owner_name": "Alvarez Solarius"
+   },
+   {
+    "s1": "S1-886818779",
+    "s1_name": "Beacon Biomedical Systems",
+    "s1_addr": "4592 Whites Creek Pike, Nashville, TN",
+    "rec": "S3-263791881",
+    "rec_name": "Beacon Systems Partners",
+    "rec_addr": "04592 Whites Creek Pike, Whites Creek, Tennessee",
+    "p": 0.5434,
+    "owner": "S1-886818779",
+    "owner_name": "Beacon Biomedical Systems"
+   }
+  ]
+ },
+ "V1:F2_sib_ge": {
+  "acc_FP": [
+   {
+    "s1": "S1-117686396",
+    "s1_name": "Kolkata Technologies Pvt Ltd",
+    "s1_addr": "13, B.B Ganguly Street Suite No 504, Kolkata, Howrah, West Bengal",
+    "rec": "S2-320071461",
+    "rec_name": "Kolkata Kolkata Ifraltsruoctmures Pvt. Ltd.",
+    "rec_addr": "13, B.B GANGULY STREET SUITE NO 504, KOLKATA, West Bengal",
+    "p": 0.9956,
+    "owner": "S1-724093604",
+    "owner_name": "Kolkata Infrastructures Pvt. Ltd."
+   },
+   {
+    "s1": "S1-306313550",
+    "s1_name": "Pediatric Dental Premier Associates",
+    "s1_addr": "2816 Hazelwood Avenue, Fort Wayne, IN",
+    "rec": "S2-778504961",
+    "rec_name": "Pediatric Dental \u00c1ssociates",
+    "rec_addr": "2816 HAZELWOOD AVE, ST JOSEPH, IN",
+    "p": 0.9924,
+    "owner": "S1-174875453",
+    "owner_name": "Pediatric Dental Associates"
+   },
+   {
+    "s1": "S1-306313550",
+    "s1_name": "Pediatric Dental Premier Associates",
+    "s1_addr": "2816 Hazelwood Avenue, Fort Wayne, IN",
+    "rec": "S2-395590743",
+    "rec_name": "Pediatric Denta1 Associates Board",
+    "rec_addr": "2816 HAZELWOOD AVENUE, FORT WAYNE, IN",
+    "p": 0.9997,
+    "owner": "S1-174875453",
+    "owner_name": "Pediatric Dental Associates"
+   },
+   {
+    "s1": "S1-306313550",
+    "s1_name": "Pediatric Dental Premier Associates",
+    "s1_addr": "2816 Hazelwood Avenue, Fort Wayne, IN",
+    "rec": "S3-765923608",
+    "rec_name": "The Pediatric Dental Ass0ciates",
+    "rec_addr": "2816 Hazelwood Avenue, Saint Joseph, Indiana",
+    "p": 0.9891,
+    "owner": "S1-174875453",
+    "owner_name": "Pediatric Dental Associates"
+   },
+   {
+    "s1": "S1-306313550",
+    "s1_name": "Pediatric Dental Premier Associates",
+    "s1_addr": "2816 Hazelwood Avenue, Fort Wayne, IN",
+    "rec": "S3-158749419",
+    "rec_name": "Pediatric Deeall Associates",
+    "rec_addr": "2816 Hazelwood Avenue, Fort Wayne, Indiana",
+    "p": 0.9729,
+    "owner": "S1-174875453",
+    "owner_name": "Pediatric Dental Associates"
+   }
+  ],
+  "acc_TP": [
+   {
+    "s1": "S1-235619489",
+    "s1_name": "Orthopedic Partners Inc",
+    "s1_addr": "3333 85th Street, Chicago, IL",
+    "rec": "S2-505924366",
+    "rec_name": "Orthopedic Parcners Inc",
+    "rec_addr": "3333 85TH STREET, CHICAGO, IL",
+    "p": 0.9999,
+    "owner": "S1-235619489",
+    "owner_name": "Orthopedic Partners Inc"
+   }
+  ]
+ },
+ "V1:F2_sib_gt": {
+  "acc_FP": [
+   {
+    "s1": "S1-306313550",
+    "s1_name": "Pediatric Dental Premier Associates",
+    "s1_addr": "2816 Hazelwood Avenue, Fort Wayne, IN",
+    "rec": "S2-778504961",
+    "rec_name": "Pediatric Dental \u00c1ssociates",
+    "rec_addr": "2816 HAZELWOOD AVE, ST JOSEPH, IN",
+    "p": 0.9924,
+    "owner": "S1-174875453",
+    "owner_name": "Pediatric Dental Associates"
+   },
+   {
+    "s1": "S1-306313550",
+    "s1_name": "Pediatric Dental Premier Associates",
+    "s1_addr": "2816 Hazelwood Avenue, Fort Wayne, IN",
+    "rec": "S2-395590743",
+    "rec_name": "Pediatric Denta1 Associates Board",
+    "rec_addr": "2816 HAZELWOOD AVENUE, FORT WAYNE, IN",
+    "p": 0.9997,
+    "owner": "S1-174875453",
+    "owner_name": "Pediatric Dental Associates"
+   },
+   {
+    "s1": "S1-306313550",
+    "s1_name": "Pediatric Dental Premier Associates",
+    "s1_addr": "2816 Hazelwood Avenue, Fort Wayne, IN",
+    "rec": "S3-158749419",
+    "rec_name": "Pediatric Deeall Associates",
+    "rec_addr": "2816 Hazelwood Avenue, Fort Wayne, Indiana",
+    "p": 0.9729,
+    "owner": "S1-174875453",
+    "owner_name": "Pediatric Dental Associates"
+   },
+   {
+    "s1": "S1-306313550",
+    "s1_name": "Pediatric Dental Premier Associates",
+    "s1_addr": "2816 Hazelwood Avenue, Fort Wayne, IN",
+    "rec": "S3-765923608",
+    "rec_name": "The Pediatric Dental Ass0ciates",
+    "rec_addr": "2816 Hazelwood Avenue, Saint Joseph, Indiana",
+    "p": 0.9891,
+    "owner": "S1-174875453",
+    "owner_name": "Pediatric Dental Associates"
+   }
+  ]
+ },
+ "V1:F2_has_sib": {
+  "acc_FP": [
+   {
+    "s1": "S1-306313550",
+    "s1_name": "Pediatric Dental Premier Associates",
+    "s1_addr": "2816 Hazelwood Avenue, Fort Wayne, IN",
+    "rec": "S3-158749419",
+    "rec_name": "Pediatric Deeall Associates",
+    "rec_addr": "2816 Hazelwood Avenue, Fort Wayne, Indiana",
+    "p": 0.9729,
+    "owner": "S1-174875453",
+    "owner_name": "Pediatric Dental Associates"
+   },
+   {
+    "s1": "S1-117686396",
+    "s1_name": "Kolkata Technologies Pvt Ltd",
+    "s1_addr": "13, B.B Ganguly Street Suite No 504, Kolkata, Howrah, West Bengal",
+    "rec": "S2-320071461",
+    "rec_name": "Kolkata Kolkata Ifraltsruoctmures Pvt. Ltd.",
+    "rec_addr": "13, B.B GANGULY STREET SUITE NO 504, KOLKATA, West Bengal",
+    "p": 0.9956,
+    "owner": "S1-724093604",
+    "owner_name": "Kolkata Infrastructures Pvt. Ltd."
+   },
+   {
+    "s1": "S1-306313550",
+    "s1_name": "Pediatric Dental Premier Associates",
+    "s1_addr": "2816 Hazelwood Avenue, Fort Wayne, IN",
+    "rec": "S2-778504961",
+    "rec_name": "Pediatric Dental \u00c1ssociates",
+    "rec_addr": "2816 HAZELWOOD AVE, ST JOSEPH, IN",
+    "p": 0.9924,
+    "owner": "S1-174875453",
+    "owner_name": "Pediatric Dental Associates"
+   },
+   {
+    "s1": "S1-306313550",
+    "s1_name": "Pediatric Dental Premier Associates",
+    "s1_addr": "2816 Hazelwood Avenue, Fort Wayne, IN",
+    "rec": "S3-765923608",
+    "rec_name": "The Pediatric Dental Ass0ciates",
+    "rec_addr": "2816 Hazelwood Avenue, Saint Joseph, Indiana",
+    "p": 0.9891,
+    "owner": "S1-174875453",
+    "owner_name": "Pediatric Dental Associates"
+   },
+   {
+    "s1": "S1-306313550",
+    "s1_name": "Pediatric Dental Premier Associates",
+    "s1_addr": "2816 Hazelwood Avenue, Fort Wayne, IN",
+    "rec": "S2-395590743",
+    "rec_name": "Pediatric Denta1 Associates Board",
+    "rec_addr": "2816 HAZELWOOD AVENUE, FORT WAYNE, IN",
+    "p": 0.9997,
+    "owner": "S1-174875453",
+    "owner_name": "Pediatric Dental Associates"
+   }
+  ],
+  "acc_TP": [
+   {
+    "s1": "S1-397878612",
+    "s1_name": "Global Energy Private Limited",
+    "s1_addr": "2524, Burud Galli, Ahmednagar, Ahmed Nagar, Maharashtra",
+    "rec": "S2-952837471",
+    "rec_name": "Energy *** Global Private",
+    "rec_addr": "2524, BURUD GALLI, AHMEDNAGAR, AHMED NAGAR, Maharashtra",
+    "p": 1.0,
+    "owner": "S1-397878612",
+    "owner_name": "Global Energy Private Limited"
+   },
+   {
+    "s1": "S1-559054757",
+    "s1_name": "Vea LLC",
+    "s1_addr": "525 Bunn Road, Dyersburg, TN",
+    "rec": "S2-920857267",
+    "rec_name": "vea llc",
+    "rec_addr": "DYERSBURG, 525 BUNN RD, TN",
+    "p": 0.9999,
+    "owner": "S1-559054757",
+    "owner_name": "Vea LLC"
+   },
+   {
+    "s1": "S1-559054757",
+    "s1_name": "Vea LLC",
+    "s1_addr": "525 Bunn Road, Dyersburg, TN",
+    "rec": "S2-608770552",
+    "rec_name": "Vea LLC",
+    "rec_addr": "525 BUNN ROAD, DYERSBURG, TN",
+    "p": 1.0,
+    "owner": "S1-559054757",
+    "owner_name": "Vea LLC"
+   },
+   {
+    "s1": "S1-306313550",
+    "s1_name": "Pediatric Dental Premier Associates",
+    "s1_addr": "2816 Hazelwood Avenue, Fort Wayne, IN",
+    "rec": "S3-89977615",
+    "rec_name": "Pediatric-Dental Premier Associates",
+    "rec_addr": "2816 Hazelwood Avenue, Fort Wayne, Indiana",
+    "p": 1.0,
+    "owner": "S1-306313550",
+    "owner_name": "Pediatric Dental Premier Associates"
+   },
+   {
+    "s1": "S1-820320053",
+    "s1_name": "Surya Consulting Private Limited",
+    "s1_addr": "East Delhi, M-30, Delhi, First Floor, Welcome, Seelampur, East Delhi",
+    "rec": "S3-141559850",
+    "rec_name": "Surya Consulting",
+    "rec_addr": "Delhi, M-30, East Delhi, First Floor, Welcome, Seelampur, East Delhi",
+    "p": 1.0,
+    "owner": "S1-820320053",
+    "owner_name": "Surya Consulting Private Limited"
+   }
+  ]
+ },
+ "V1:F3_street_mismatch": {
+  "acc_FP": [
+   {
+    "s1": "S1-871926048",
+    "s1_name": "Schmidt's Coastal Retail",
+    "s1_addr": "209 11th Street, Herrin, IL",
+    "rec": "S2-114514512",
+    "rec_name": "Schmidt Coastal (Retail)",
+    "rec_addr": "210 11ND STREET, HERRIN, IL",
+    "p": 0.9898,
+    "owner": null,
+    "owner_name": null
+   },
+   {
+    "s1": "S1-746380098",
+    "s1_name": "East Energy Pvt Ltd",
+    "s1_addr": "Vijayshree Apartment B No, 23 Gurumandir Road, Kalyan, Thane, Maharashtra",
+    "rec": "S3-495361387",
+    "rec_name": "\u0908\u0938\u094d\u091f \u0907\u0902\u092b\u094b\u091f\u0947\u0915 \u092a\u094d\u0930\u093e. \u0932\u093f.",
+    "rec_addr": "Door No 2 Vijayshree Apartment B No, 23 Gurumandir Road, Kalyan, Thane, MH",
+    "p": 0.8826,
+    "owner": null,
+    "owner_name": null
+   }
+  ],
+  "acc_TP": [
+   {
+    "s1": "S1-969722093",
+    "s1_name": "Sky Infracon Private Limited",
+    "s1_addr": "Plot No-10, Ground Floor, Block-Ef, Inderpuri, New Delhi, Central Delhi, Delhi",
+    "rec": "S2-756194247",
+    "rec_name": "Dr Sky Infracon Private",
+    "rec_addr": "POT NO-10, GROUND FLOOR, BLOCK-EF, INDERPURI, NEW DELHI, Delhi",
+    "p": 0.9999,
+    "owner": "S1-969722093",
+    "owner_name": "Sky Infracon Private Limited"
+   },
+   {
+    "s1": "S1-953504609",
+    "s1_name": "Verma Foundation",
+    "s1_addr": "Rajkot, Rs-131, 149, Atlas Ind Park-4, Ribda Lodhika Road, Pipaliya Pal, Gondal, Sub Plot-11B, Gujarat",
+    "rec": "S2-414054251",
+    "rec_name": "Verma Verma Foundation Corp",
+    "rec_addr": "SUB PLOT-11B, RS-131, 149, ATLAS IND PARK-4, RIBDA LODHIKA ROAD, PIPALIYA PAL, GONDAL, Gujarat",
+    "p": 0.9998,
+    "owner": "S1-953504609",
+    "owner_name": "Verma Foundation"
+   },
+   {
+    "s1": "S1-720069570",
+    "s1_name": "Shiva Hospitality Private Limited",
+    "s1_addr": "Tirupati Appartment, Plot No- 111, Flat-4B, Anand Nagar Housing Society, Jagatipota, Kolkata, Parganas South, West Bengal",
+    "rec": "S3-189308044",
+    "rec_name": "Shiva Hospitality Pirvnrhe Limited",
+    "rec_addr": "Kolkata, Parganas South, Door No 60 Tirupati Appartment, WB",
+    "p": 0.9867,
+    "owner": "S1-720069570",
+    "owner_name": "Shiva Hospitality Private Limited"
+   },
+   {
+    "s1": "S1-85389688",
+    "s1_name": "Pune City Systems Private Limited",
+    "s1_addr": "Maharashtra, Sno 61 To 75 Bavdhan Bk, Pune, Pune City, Flno C-38 Windmillvillage",
+    "rec": "S2-261063228",
+    "rec_name": "pune city systems private limited",
+    "rec_addr": "FLNO C-38 WINDMILLVILLAGE, SNO 61 TO 75 BAVDHAN BK, PUNE CITY, \u092e\u0939\u093e\u0930\u093e\u0937\u094d\u091f\u094d\u0930",
+    "p": 1.0,
+    "owner": "S1-85389688",
+    "owner_name": "Pune City Systems Private Limited"
+   },
+   {
+    "s1": "S1-790372583",
+    "s1_name": "Laxmi Tech Private Limited",
+    "s1_addr": "Flat No. 1101, E.V. Solitaire Chs, Plot No. 118, Sector 9, Ulwe, Navi, Panvel, Raigarh(Mh), Maharashtra",
+    "rec": "S3-697220242",
+    "rec_name": "Laxmi Thec Private Limited",
+    "rec_addr": "Panvel, E.v. Solitaire Chs, Plot No. 118, Sector 9, Ulwe, Navi, MH, Raigarh(mh), #1101",
+    "p": 0.9993,
+    "owner": "S1-790372583",
+    "owner_name": "Laxmi Tech Private Limited"
+   }
+  ],
+  "rej_pos_p03": [
+   {
+    "s1": "S1-715834399",
+    "s1_name": "Tridhara Singapore Ltd",
+    "s1_addr": "Gh 16 Mdc Sector-5, Haryana, Panchkula, Flat No. 5 B, Panchkula",
+    "rec": "S3-952205990",
+    "rec_name": "Veraveo",
+    "rec_addr": "Flat No. 5 B, Gh 16 Mdc Sector-5, Panchkula, HR",
+    "p": 0.6964,
+    "owner": "S1-715834399",
+    "owner_name": "Tridhara Singapore Ltd"
+   },
+   {
+    "s1": "S1-653541433",
+    "s1_name": "City Consultants Private Limited",
+    "s1_addr": "Bhola Bhawan, Ramji Road, Sector - 53, Gijhore, Noida, Gautam Buddha Nagar, Uttar Pradesh",
+    "rec": "S3-760796887",
+    "rec_name": "Mr City Private Limited Center",
+    "rec_addr": "Gautam Buddha Nagar, Door No 781 Bhola Bhawan, Noida, \u0909\u0924\u094d\u0924\u0930 \u092a\u094d\u0930\u0926\u0947\u0936",
+    "p": 0.4189,
+    "owner": "S1-653541433",
+    "owner_name": "City Consultants Private Limited"
+   },
+   {
+    "s1": "S1-345097478",
+    "s1_name": "High Care Private Limited",
+    "s1_addr": "South Delhi, Vardhman Star City Mall Sector-7, Dwarka, Delhi, Shop No - 149, New Delhi",
+    "rec": "S3-844294311",
+    "rec_name": "\u0939\u093e\u0908 \u0915\u0947\u092f\u0930 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+    "rec_addr": "Shop No - 1-49, South Delhi, New Delhi, DL",
+    "p": 0.7739,
+    "owner": "S1-345097478",
+    "owner_name": "High Care Private Limited"
+   },
+   {
+    "s1": "S1-25124414",
+    "s1_name": "Varshva Media Private Limited",
+    "s1_addr": "Gujarat, C/O Lukman Medical And General Store, Ahmedabad, Ahmadabad City, 29/1 Nr Shah Alam Roza Nr Petrol Pump Danilimda",
+    "rec": "S2-772487088",
+    "rec_name": "-- VARSHVA  MDEA PRIVATE LIMITED",
+    "rec_addr": "HN 767 C/O LUKMAN MEDICAL AND GENERAL STORE, AHMADABAD CITY, Gujarat, AHMEDABAD",
+    "p": 0.5162,
+    "owner": "S1-25124414",
+    "owner_name": "Varshva Media Private Limited"
+   },
+   {
+    "s1": "S1-961583876",
+    "s1_name": "Shiv Tech Private Limited",
+    "s1_addr": "Srikakulam, Door No: 5-78/1, Vijayawada, Peerla Panja Chodavaram Road West, Penamaluru, Andhra Pradesh",
+    "rec": "S3-436639086",
+    "rec_name": "\u0c36\u0c3f\u0c35\u0c4d \u0c1f\u0c46\u0c15\u0c4d \u0c2a\u0c4d\u0c30\u0c48\u0c35\u0c47\u0c1f\u0c4d \u0c32\u0c3f\u0c2e\u0c3f\u0c1f\u0c46\u0c21\u0c4d",
+    "rec_addr": "Dor No: 5-78/1/2, Peerla Panja Chodavaram Road West, Penamaluru, Vijayawada, Srikakulam, AP",
+    "p": 0.7756,
+    "owner": "S1-961583876",
+    "owner_name": "Shiv Tech Private Limited"
+   }
+  ]
+ },
+ "V1:F3_street_mismatch_numeq": {
+  "acc_TP": [
+   {
+    "s1": "S1-920826482",
+    "s1_name": "Delhi Tech Pvt Ltd",
+    "s1_addr": "House No.-128, Block-G, Pkt-4, Sector-11, Rohini, Delhi, North West Delhi, Delhi",
+    "rec": "S3-682858497",
+    "rec_name": "Delhi Tlch Pvt Ltd",
+    "rec_addr": "Houre No.-128/7, Block-g, Pkt-4, Sector-11, Rohini, Delhi, DL",
+    "p": 0.9994,
+    "owner": "S1-920826482",
+    "owner_name": "Delhi Tech Pvt Ltd"
+   },
+   {
+    "s1": "S1-660018606",
+    "s1_name": "Nipun Software Private Limited",
+    "s1_addr": "Plot No. 1101 & 1101-A, Industrial Area, Sector-Iii, Pithampur, Indore, Dhar, Madhya Pradesh",
+    "rec": "S2-546577748",
+    "rec_name": "NIPUN SOFTWARE PRIVATE [LTD]",
+    "rec_addr": "Madhya Pradesh, DOOR NO 1101 & 1101-A, INDUSTRIAL AREA, SECTOR-III, PITHAMPUR, INDORE",
+    "p": 1.0,
+    "owner": "S1-660018606",
+    "owner_name": "Nipun Software Private Limited"
+   },
+   {
+    "s1": "S1-855694292",
+    "s1_name": "First Food LLP",
+    "s1_addr": "Plot No-A27, Tasawade Midc, Karad, Satara, Tasavade, Karad, Satara, Maharashtra",
+    "rec": "S3-291345021",
+    "rec_name": "First Food L.L.P.",
+    "rec_addr": "Plto No-a27, Tasawade Midc, Karad, Satara, Tasavade, Karad, Satara, \u092e\u0939\u093e\u0930\u093e\u0937\u094d\u091f\u094d\u0930",
+    "p": 0.9999,
+    "owner": "S1-855694292",
+    "owner_name": "First Food LLP"
+   },
+   {
+    "s1": "S1-873247832",
+    "s1_name": "Apex Freight Holdings",
+    "s1_addr": "4510 179th Street, Country Club Hills, IL",
+    "rec": "S2-732620662",
+    "rec_name": "APEX FREIGHT",
+    "rec_addr": "4510 179ND ST, COUNTRY CLUB HILLS, IL",
+    "p": 0.9999,
+    "owner": "S1-873247832",
+    "owner_name": "Apex Freight Holdings"
+   },
+   {
+    "s1": "S1-895731606",
+    "s1_name": "Achenbach, Wolfe & Pennington Robotics",
+    "s1_addr": "546 14th Street, Mishawaka, IN",
+    "rec": "S3-305491745",
+    "rec_name": "Achenbach, + Wolfe Pennington Robotics",
+    "rec_addr": "546 Fourteenth Street, Mishawaka, Indiana",
+    "p": 1.0,
+    "owner": "S1-895731606",
+    "owner_name": "Achenbach, Wolfe & Pennington Robotics"
+   }
+  ],
+  "rej_pos_p03": [
+   {
+    "s1": "S1-961583876",
+    "s1_name": "Shiv Tech Private Limited",
+    "s1_addr": "Srikakulam, Door No: 5-78/1, Vijayawada, Peerla Panja Chodavaram Road West, Penamaluru, Andhra Pradesh",
+    "rec": "S3-436639086",
+    "rec_name": "\u0c36\u0c3f\u0c35\u0c4d \u0c1f\u0c46\u0c15\u0c4d \u0c2a\u0c4d\u0c30\u0c48\u0c35\u0c47\u0c1f\u0c4d \u0c32\u0c3f\u0c2e\u0c3f\u0c1f\u0c46\u0c21\u0c4d",
+    "rec_addr": "Dor No: 5-78/1/2, Peerla Panja Chodavaram Road West, Penamaluru, Vijayawada, Srikakulam, AP",
+    "p": 0.7756,
+    "owner": "S1-961583876",
+    "owner_name": "Shiv Tech Private Limited"
+   }
+  ]
+ },
+ "V1:F1r_dist": {
+  "acc_FP": [
+   {
+    "s1": "S1-984465151",
+    "s1_name": "All Highland Horizon",
+    "s1_addr": "9348 Drake Avenue, Skokie, IL",
+    "rec": "S2-356516997",
+    "rec_name": "All Horizon LLC",
+    "rec_addr": "DRAKE AVENUE, CHICAGOT OWNSHIP, IL",
+    "p": 0.8124,
+    "owner": "S1-284363695",
+    "owner_name": "All Horizon LLC"
+   },
+   {
+    "s1": "S1-194198991",
+    "s1_name": "Shaikpet Height Private Limited",
+    "s1_addr": "Floor 4, Advant Building, Plot 4, Kakatiya Hills, Shaikpet, Hyderabad, Telangana",
+    "rec": "S3-316790408",
+    "rec_name": "Shaikpet Private Limited Center",
+    "rec_addr": "Door No 4Th Floor, Shaikpet, Hyderabad, TG",
+    "p": 0.9682,
+    "owner": "S1-589303005",
+    "owner_name": "Shaikpet Foundation Private Limited"
+   },
+   {
+    "s1": "S1-306313550",
+    "s1_name": "Pediatric Dental Premier Associates",
+    "s1_addr": "2816 Hazelwood Avenue, Fort Wayne, IN",
+    "rec": "S2-778504961",
+    "rec_name": "Pediatric Dental \u00c1ssociates",
+    "rec_addr": "2816 HAZELWOOD AVE, ST JOSEPH, IN",
+    "p": 0.9924,
+    "owner": "S1-174875453",
+    "owner_name": "Pediatric Dental Associates"
+   },
+   {
+    "s1": "S1-652062604",
+    "s1_name": "Delhi Products Private Limited",
+    "s1_addr": "East Delhi, Khichripur, H No 7/63, Delhi",
+    "rec": "S3-927163748",
+    "rec_name": "Delhi Private Limited Service",
+    "rec_addr": "H No 7/63, Khichripur, Delhi, East Delhi, DL",
+    "p": 0.9998,
+    "owner": "S1-835455180",
+    "owner_name": "Delhi Health Private Limited"
+   },
+   {
+    "s1": "S1-356784880",
+    "s1_name": "Thomas Empire Vance",
+    "s1_addr": "296 25, Stockport, NY",
+    "rec": "S3-150695968",
+    "rec_name": "Thomas Empire",
+    "rec_addr": "",
+    "p": 0.8131,
+    "owner": "S1-976866031",
+    "owner_name": "Thomas Empire Investments Inc"
+   }
+  ],
+  "acc_TP": [
+   {
+    "s1": "S1-272983225",
+    "s1_name": "Rocky Committee",
+    "s1_addr": "NC, Holly Springs, 6601 Rex Road",
+    "rec": "S3-133065608",
+    "rec_name": "Rocky Committee Society",
+    "rec_addr": "6601 Rex Road, Holly Springs, North Carolina",
+    "p": 0.9999,
+    "owner": "S1-272983225",
+    "owner_name": "Rocky Committee"
+   },
+   {
+    "s1": "S1-682369460",
+    "s1_name": "Straight Edge Bakery",
+    "s1_addr": "Charleston, IL, 2237 Seneca Drive",
+    "rec": "S3-274137854",
+    "rec_name": "Straight Edge",
+    "rec_addr": "2237 Seneca Drioe, Chaleston, Illinois",
+    "p": 0.9999,
+    "owner": "S1-682369460",
+    "owner_name": "Straight Edge Bakery"
+   },
+   {
+    "s1": "S1-300415412",
+    "s1_name": "Veronica Gee Private Limited",
+    "s1_addr": "Krishna Building, 224, A.J.C. Bose Road, 2Nd Floor, Flat No-211, Kolkata, Howrah, West Bengal",
+    "rec": "S3-801991088",
+    "rec_name": "Veronica  Private Limited Partners",
+    "rec_addr": "Krishna Building, Kolkata, Howrah, WB",
+    "p": 0.9767,
+    "owner": "S1-300415412",
+    "owner_name": "Veronica Gee Private Limited"
+   },
+   {
+    "s1": "S1-295792094",
+    "s1_name": "Northern Bond, Corp",
+    "s1_addr": "2333 Driftwood Drive, Unit 420, Mesquite, TX",
+    "rec": "S3-264190839",
+    "rec_name": "Northern Corp Center",
+    "rec_addr": "2333 Driftwood Drive, Unit 420, Mesquite, Texas",
+    "p": 0.9999,
+    "owner": "S1-295792094",
+    "owner_name": "Northern Bond, Corp"
+   },
+   {
+    "s1": "S1-469295963",
+    "s1_name": "Bohra Impex Limited",
+    "s1_addr": "H.No. 63 Roshmal Heltichapada Pada Tal.Dhadgaon Dist Nandurbar, Dhadgaon, Nandurbar, Maharashtra",
+    "rec": "S2-162818968",
+    "rec_name": "Bohra Io Limited",
+    "rec_addr": "63 ROSHMAL HELTICHAPADA PADA TAL.DHADGAON DIST NANDURBAR, DHADGAON, Maharashtra",
+    "p": 0.967,
+    "owner": "S1-469295963",
+    "owner_name": "Bohra Impex Limited"
+   }
+  ],
+  "rej_pos_p03": [
+   {
+    "s1": "S1-598873045",
+    "s1_name": "Setech Holdings Group",
+    "s1_addr": "5631 Wigton Drive, Houston, TX",
+    "rec": "S3-415246327",
+    "rec_name": "Setech Holdings Inc",
+    "rec_addr": "",
+    "p": 0.7627,
+    "owner": "S1-598873045",
+    "owner_name": "Setech Holdings Group"
+   },
+   {
+    "s1": "S1-9608676",
+    "s1_name": "Office of Education LP",
+    "s1_addr": "AZ, Phoenix, 255 Darrow Street",
+    "rec": "S3-813546831",
+    "rec_name": "Office of Education LP Association",
+    "rec_addr": "",
+    "p": 0.589,
+    "owner": "S1-9608676",
+    "owner_name": "Office of Education LP"
+   },
+   {
+    "s1": "S1-598598178",
+    "s1_name": "One Finance Pvt Ltd",
+    "s1_addr": "No 26, Leith Castle Road, South, First Floor 7A, Santhome, Chennai, Tamil Nadu",
+    "rec": "S3-790645743",
+    "rec_name": "One Pvt Ltd Service",
+    "rec_addr": "Door No B3/26, Chennai, TN",
+    "p": 0.6035,
+    "owner": "S1-598598178",
+    "owner_name": "One Finance Pvt Ltd"
+   },
+   {
+    "s1": "S1-362683707",
+    "s1_name": "Kolkata Link Private Limited",
+    "s1_addr": "West Bengal, Calcutta, Kolkata, 81/3C Raja S. C. Mullick Road Ground Floor",
+    "rec": "S3-166829148",
+    "rec_name": "Kolkata Lion Private Limited",
+    "rec_addr": "Door No 81/3C Raja S. C. Mullick Road Ground Floor, Kolkata, Calcutta, WB",
+    "p": 0.6391,
+    "owner": "S1-362683707",
+    "owner_name": "Kolkata Link Private Limited"
+   },
+   {
+    "s1": "S1-314725761",
+    "s1_name": "Yoon Mozayyx Inc",
+    "s1_addr": "2716 Sams Creek Road, New Windsor, MD",
+    "rec": "S2-831024359",
+    "rec_name": "YOON INC SERVICES",
+    "rec_addr": "",
+    "p": 0.3252,
+    "owner": "S1-314725761",
+    "owner_name": "Yoon Mozayyx Inc"
+   }
+  ]
+ },
+ "V1:F1r_dist_sameaddr": {
+  "acc_FP": [
+   {
+    "s1": "S1-77553979",
+    "s1_name": "Vision Investments",
+    "s1_addr": "Tower C 9Th Flr 901 Mangalkirti Apartment, Vadodara, Gujarat",
+    "rec": "S2-33416751",
+    "rec_name": "Vision Services",
+    "rec_addr": "\u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4, TOWER C 9TH FLR 904 MANGALKIRTI APARTMENT, VADODARA",
+    "p": 0.8333,
+    "owner": null,
+    "owner_name": null
+   },
+   {
+    "s1": "S1-306313550",
+    "s1_name": "Pediatric Dental Premier Associates",
+    "s1_addr": "2816 Hazelwood Avenue, Fort Wayne, IN",
+    "rec": "S2-778504961",
+    "rec_name": "Pediatric Dental \u00c1ssociates",
+    "rec_addr": "2816 HAZELWOOD AVE, ST JOSEPH, IN",
+    "p": 0.9924,
+    "owner": "S1-174875453",
+    "owner_name": "Pediatric Dental Associates"
+   },
+   {
+    "s1": "S1-394687898",
+    "s1_name": "Gothard, Modesty G., MD",
+    "s1_addr": "3306 Schadt Street, Fort Worth, TX",
+    "rec": "S3-310403341",
+    "rec_name": "Gothard, Modesty G., MA",
+    "rec_addr": "3306 Schadt St, PMB 2959, FT. ORTH, Texas",
+    "p": 0.9571,
+    "owner": null,
+    "owner_name": null
+   }
+  ],
+  "acc_TP": [
+   {
+    "s1": "S1-123766739",
+    "s1_name": "Delta Council LLP",
+    "s1_addr": "16937 Us 550, Aztec, NM",
+    "rec": "S3-632101709",
+    "rec_name": "Delta LLP Services",
+    "rec_addr": "16937 Us 550, Aztec, New Mexico",
+    "p": 0.9998,
+    "owner": "S1-123766739",
+    "owner_name": "Delta Council LLP"
+   },
+   {
+    "s1": "S1-501714221",
+    "s1_name": "Cinder Foods Inc",
+    "s1_addr": "Hanover Park, IL, 721 Haddam Way",
+    "rec": "S2-762136784",
+    "rec_name": "CINDER CINDER FRS INC",
+    "rec_addr": "##721 HADDAM WAY, HANOVER PARK, IL",
+    "p": 1.0,
+    "owner": "S1-501714221",
+    "owner_name": "Cinder Foods Inc"
+   },
+   {
+    "s1": "S1-778343953",
+    "s1_name": "Bright Vanguard Fargo",
+    "s1_addr": "9747 Water Oak Drive, Fairfax County, VA",
+    "rec": "S2-276595403",
+    "rec_name": "Bright-Vanguard",
+    "rec_addr": "9747 WTAER OAK DRIVE, NULL, FAIRFAX, VA",
+    "p": 0.9998,
+    "owner": "S1-778343953",
+    "owner_name": "Bright Vanguard Fargo"
+   },
+   {
+    "s1": "S1-919303517",
+    "s1_name": "Tri-State Bright Term",
+    "s1_addr": "NC, 112 Mustang Trail, Moyock",
+    "rec": "S3-859270750",
+    "rec_name": "Tri-State Bright",
+    "rec_addr": "112 Mustang Trl, Moyock, North Carolina",
+    "p": 0.9999,
+    "owner": "S1-919303517",
+    "owner_name": "Tri-State Bright Term"
+   },
+   {
+    "s1": "S1-516792793",
+    "s1_name": "Dunford Star Eagle",
+    "s1_addr": "5009 Woodbine Road, Woodbine, MD",
+    "rec": "S2-319312547",
+    "rec_name": "Dunford Sr Eagle",
+    "rec_addr": "5009C WOODBINE ROAD, WODBINE, MD",
+    "p": 0.9998,
+    "owner": "S1-516792793",
+    "owner_name": "Dunford Star Eagle"
+   }
+  ],
+  "rej_pos_p03": [
+   {
+    "s1": "S1-66211921",
+    "s1_name": "Massa, April L., DO",
+    "s1_addr": "736 Travers Avenue, Chicago Heights, IL",
+    "rec": "S3-81332909",
+    "rec_name": "Massa, Al L., D\u00d3",
+    "rec_addr": "736 Travers Ave, Chicago Heights, Illinois",
+    "p": 0.6089,
+    "owner": "S1-66211921",
+    "owner_name": "Massa, April L., DO"
+   },
+   {
+    "s1": "S1-972527884",
+    "s1_name": "Pioneer Impex",
+    "s1_addr": "Shop No 245, 2Nd Floor, Baba Chitru Complex Wazirabad, Sector-52, Gurgaon, Haryana",
+    "rec": "S3-833522911",
+    "rec_name": "Pioneer S\u00e9rvices",
+    "rec_addr": "\u0939\u0930\u093f\u092f\u093e\u0923\u093e, Shop No 245/5, Gurgaon",
+    "p": 0.7188,
+    "owner": "S1-972527884",
+    "owner_name": "Pioneer Impex"
+   },
+   {
+    "s1": "S1-362683707",
+    "s1_name": "Kolkata Link Private Limited",
+    "s1_addr": "West Bengal, Calcutta, Kolkata, 81/3C Raja S. C. Mullick Road Ground Floor",
+    "rec": "S3-166829148",
+    "rec_name": "Kolkata Lion Private Limited",
+    "rec_addr": "Door No 81/3C Raja S. C. Mullick Road Ground Floor, Kolkata, Calcutta, WB",
+    "p": 0.6391,
+    "owner": "S1-362683707",
+    "owner_name": "Kolkata Link Private Limited"
+   },
+   {
+    "s1": "S1-34854113",
+    "s1_name": "Coley Holdings",
+    "s1_addr": "3214 Pedregal Road, League City, TX",
+    "rec": "S3-199468490",
+    "rec_name": "Co Holdings",
+    "rec_addr": "3214 Pedregal Road, League City, Texas",
+    "p": 0.7183,
+    "owner": "S1-34854113",
+    "owner_name": "Coley Holdings"
+   },
+   {
+    "s1": "S1-920826482",
+    "s1_name": "Delhi Tech Pvt Ltd",
+    "s1_addr": "House No.-128, Block-G, Pkt-4, Sector-11, Rohini, Delhi, North West Delhi, Delhi",
+    "rec": "S3-414080052",
+    "rec_name": "Ltd Delhi Pvt (S\u00e9rvice)",
+    "rec_addr": "House No.-128/7, Delhi, North West Delhi, \u0926\u093f\u0932\u094d\u0932\u0940",
+    "p": 0.363,
+    "owner": "S1-920826482",
+    "owner_name": "Delhi Tech Pvt Ltd"
+   }
+  ]
+ },
+ "V1:F1r_dist_subst": {
+  "acc_FP": [
+   {
+    "s1": "S1-582973437",
+    "s1_name": "True Home Ltd",
+    "s1_addr": "Daliganj Near Police Station, Uttar Pradesh, Lucknow, 488/49",
+    "rec": "S2-92463028",
+    "rec_name": "True Hrd Ltd.",
+    "rec_addr": "Uttar Pradesh, C-488/54, DALIGANJ NEAR POLICE STATION",
+    "p": 0.7838,
+    "owner": null,
+    "owner_name": null
+   },
+   {
+    "s1": "S1-984465151",
+    "s1_name": "All Highland Horizon",
+    "s1_addr": "9348 Drake Avenue, Skokie, IL",
+    "rec": "S2-356516997",
+    "rec_name": "All Horizon LLC",
+    "rec_addr": "DRAKE AVENUE, CHICAGOT OWNSHIP, IL",
+    "p": 0.8124,
+    "owner": "S1-284363695",
+    "owner_name": "All Horizon LLC"
+   },
+   {
+    "s1": "S1-394687898",
+    "s1_name": "Gothard, Modesty G., MD",
+    "s1_addr": "3306 Schadt Street, Fort Worth, TX",
+    "rec": "S3-310403341",
+    "rec_name": "Gothard, Modesty G., MA",
+    "rec_addr": "3306 Schadt St, PMB 2959, FT. ORTH, Texas",
+    "p": 0.9571,
+    "owner": null,
+    "owner_name": null
+   },
+   {
+    "s1": "S1-968147968",
+    "s1_name": "Kolkata Eye Private Limited",
+    "s1_addr": "Howrah, P-16, West Bengal, Kalakar Street 2Nd Floor, Kolkata",
+    "rec": "S3-637521983",
+    "rec_name": "Limited Kolkata Private Center",
+    "rec_addr": "Kolkata, P-16, Howrah, \u09aa\u09b6\u09cd\u099a\u09bf\u09ae\u09ac\u0999\u09cd\u0997",
+    "p": 0.9729,
+    "owner": "S1-766278627",
+    "owner_name": "Kolkata Real Private Limited"
+   },
+   {
+    "s1": "S1-652062604",
+    "s1_name": "Delhi Products Private Limited",
+    "s1_addr": "East Delhi, Khichripur, H No 7/63, Delhi",
+    "rec": "S3-927163748",
+    "rec_name": "Delhi Private Limited Service",
+    "rec_addr": "H No 7/63, Khichripur, Delhi, East Delhi, DL",
+    "p": 0.9998,
+    "owner": "S1-835455180",
+    "owner_name": "Delhi Health Private Limited"
+   }
+  ],
+  "acc_TP": [
+   {
+    "s1": "S1-741487524",
+    "s1_name": "Bombay International Pvt Ltd",
+    "s1_addr": "Murwara, Katni, T 27 Karen Line Panitanki, Madhya Pradesh, Madhawnagar",
+    "rec": "S3-630427331",
+    "rec_name": "Bombay Pvt Ltd Service",
+    "rec_addr": "T 27 Karen Line Panitanki, Madhawnagar, Murwara, Katni, MP",
+    "p": 0.9998,
+    "owner": "S1-741487524",
+    "owner_name": "Bombay International Pvt Ltd"
+   },
+   {
+    "s1": "S1-286256552",
+    "s1_name": "North Grand Bridge LLC",
+    "s1_addr": "28 Plymouth Court, Milford, CT",
+    "rec": "S2-231942109",
+    "rec_name": "North Bridge LLC Services",
+    "rec_addr": "28 PLYMOUTH CT, MILFORD, CT",
+    "p": 0.9999,
+    "owner": "S1-286256552",
+    "owner_name": "North Grand Bridge LLC"
+   },
+   {
+    "s1": "S1-514302398",
+    "s1_name": "Office of Transportation PC",
+    "s1_addr": "650 Deborah Lane, Unit 309, Berne, IN",
+    "rec": "S3-958088039",
+    "rec_name": "Office of PC Center",
+    "rec_addr": "650 Deborah Lane, Unit 309, Berne, Indiana",
+    "p": 0.9999,
+    "owner": "S1-514302398",
+    "owner_name": "Office of Transportation PC"
+   },
+   {
+    "s1": "S1-195465071",
+    "s1_name": "Interstate Ngl, Inc",
+    "s1_addr": "277 Nine Mile Point Road, Scriba, NY",
+    "rec": "S2-31032350",
+    "rec_name": "Interstate Interstate Nn, Inc",
+    "rec_addr": "277 NINE MILE POINT RD, SCRIBA, NY",
+    "p": 0.9999,
+    "owner": "S1-195465071",
+    "owner_name": "Interstate Ngl, Inc"
+   },
+   {
+    "s1": "S1-443238684",
+    "s1_name": "Tat Vanguard Soren LLC",
+    "s1_addr": "921 38th Street, Vancouver, WA",
+    "rec": "S2-584653233",
+    "rec_name": "Tat Soren LLC Partners",
+    "rec_addr": "921 38TH SAINT, VANCOUVER, WA",
+    "p": 0.9999,
+    "owner": "S1-443238684",
+    "owner_name": "Tat Vanguard Soren LLC"
+   }
+  ],
+  "rej_pos_p03": [
+   {
+    "s1": "S1-66211921",
+    "s1_name": "Massa, April L., DO",
+    "s1_addr": "736 Travers Avenue, Chicago Heights, IL",
+    "rec": "S3-81332909",
+    "rec_name": "Massa, Al L., D\u00d3",
+    "rec_addr": "736 Travers Ave, Chicago Heights, Illinois",
+    "p": 0.6089,
+    "owner": "S1-66211921",
+    "owner_name": "Massa, April L., DO"
+   },
+   {
+    "s1": "S1-202977750",
+    "s1_name": "Pediatric Dental Horizon Group",
+    "s1_addr": "1205 Gum Swamp Church Road, Greenville, NC",
+    "rec": "S3-758294782",
+    "rec_name": "Pediatric Dental Horizon Inc",
+    "rec_addr": "North Carolina, 205 Gum Swamp Church Rd, Greenville",
+    "p": 0.5911,
+    "owner": "S1-202977750",
+    "owner_name": "Pediatric Dental Horizon Group"
+   },
+   {
+    "s1": "S1-289798829",
+    "s1_name": "Allied Pacific Aspac LLC",
+    "s1_addr": "711 Costmary Lane, Knightdale, NC",
+    "rec": "S2-661347267",
+    "rec_name": "Allied Aspac LLC Service",
+    "rec_addr": "",
+    "p": 0.3695,
+    "owner": "S1-289798829",
+    "owner_name": "Allied Pacific Aspac LLC"
+   },
+   {
+    "s1": "S1-765513737",
+    "s1_name": "Shiva Hospitality Private Limited",
+    "s1_addr": "No. 419, 14Th Cross, 1St Floor, Shastri Nagar, Gayathri Bhavan Road, Bsk 2Nd Stage, Bangalore, Karnataka",
+    "rec": "S3-921810027",
+    "rec_name": "Shiva Private Limited Services",
+    "rec_addr": "Bangalore, #419, KA",
+    "p": 0.7393,
+    "owner": "S1-765513737",
+    "owner_name": "Shiva Hospitality Private Limited"
+   },
+   {
+    "s1": "S1-598598178",
+    "s1_name": "One Finance Pvt Ltd",
+    "s1_addr": "No 26, Leith Castle Road, South, First Floor 7A, Santhome, Chennai, Tamil Nadu",
+    "rec": "S3-790645743",
+    "rec_name": "One Pvt Ltd Service",
+    "rec_addr": "Door No B3/26, Chennai, TN",
+    "p": 0.6035,
+    "owner": "S1-598598178",
+    "owner_name": "One Finance Pvt Ltd"
+   }
+  ]
+ },
+ "V1:F1r_dist_onesided": {
+  "acc_FP": [
+   {
+    "s1": "S1-265320795",
+    "s1_name": "Family Platinum Care Group",
+    "s1_addr": "Clay, 7870 132, KY",
+    "rec": "S2-169436786",
+    "rec_name": "Family Platinum Care",
+    "rec_addr": "",
+    "p": 0.9047,
+    "owner": "S1-697668969",
+    "owner_name": "Family Platinum Care Associates"
+   },
+   {
+    "s1": "S1-306313550",
+    "s1_name": "Pediatric Dental Premier Associates",
+    "s1_addr": "2816 Hazelwood Avenue, Fort Wayne, IN",
+    "rec": "S2-778504961",
+    "rec_name": "Pediatric Dental \u00c1ssociates",
+    "rec_addr": "2816 HAZELWOOD AVE, ST JOSEPH, IN",
+    "p": 0.9924,
+    "owner": "S1-174875453",
+    "owner_name": "Pediatric Dental Associates"
+   },
+   {
+    "s1": "S1-984465151",
+    "s1_name": "All Highland Horizon",
+    "s1_addr": "9348 Drake Avenue, Skokie, IL",
+    "rec": "S3-511875642",
+    "rec_name": "All Horizon",
+    "rec_addr": "Drake Ave, Chicago, Illinois",
+    "p": 0.9855,
+    "owner": "S1-284363695",
+    "owner_name": "All Horizon LLC"
+   },
+   {
+    "s1": "S1-432659225",
+    "s1_name": "Crowe Capital Deep",
+    "s1_addr": "440 Franklin Street, Corona, NM",
+    "rec": "S3-634923635",
+    "rec_name": "Crowe Capital Capital",
+    "rec_addr": "447 Franklin Street, New Mexico, Corona",
+    "p": 0.9654,
+    "owner": null,
+    "owner_name": null
+   },
+   {
+    "s1": "S1-356784880",
+    "s1_name": "Thomas Empire Vance",
+    "s1_addr": "296 25, Stockport, NY",
+    "rec": "S3-150695968",
+    "rec_name": "Thomas Empire",
+    "rec_addr": "",
+    "p": 0.8131,
+    "owner": "S1-976866031",
+    "owner_name": "Thomas Empire Investments Inc"
+   }
+  ],
+  "acc_TP": [
+   {
+    "s1": "S1-744719812",
+    "s1_name": "Surgical Care of Owego LLC",
+    "s1_addr": "1167 Summit Road, Owego, NY",
+    "rec": "S3-396054453",
+    "rec_name": "Surgical Care Of Owego LLC Society",
+    "rec_addr": "Summit Rd, Owego, New York",
+    "p": 0.9999,
+    "owner": "S1-744719812",
+    "owner_name": "Surgical Care of Owego LLC"
+   },
+   {
+    "s1": "S1-397662259",
+    "s1_name": "Orthopedic Strategic Care",
+    "s1_addr": "229 Jerry Harper Lane, NC, Albertson",
+    "rec": "S2-335274588",
+    "rec_name": "ORTHOPEDIC STRATEGIC",
+    "rec_addr": "NC, ALBERTSON, JERRY HARPER LN",
+    "p": 0.9988,
+    "owner": "S1-397662259",
+    "owner_name": "Orthopedic Strategic Care"
+   },
+   {
+    "s1": "S1-602636473",
+    "s1_name": "Erb & Long Light",
+    "s1_addr": "1935 Locust Place, Lenoir, NC",
+    "rec": "S2-498461566",
+    "rec_name": "Erb & Long",
+    "rec_addr": "193 LOCUST PLACE, LENOIR, NC",
+    "p": 0.9998,
+    "owner": "S1-602636473",
+    "owner_name": "Erb & Long Light"
+   },
+   {
+    "s1": "S1-741117626",
+    "s1_name": "Landry Veterinary Clinic",
+    "s1_addr": "639 Catherine Avenue, La Grange Park, IL",
+    "rec": "S2-517650176",
+    "rec_name": "Landry Veterinary",
+    "rec_addr": "639. CATHERINE AVE, LA GRANGE PARK, IL",
+    "p": 1.0,
+    "owner": "S1-741117626",
+    "owner_name": "Landry Veterinary Clinic"
+   },
+   {
+    "s1": "S1-515679260",
+    "s1_name": "Castro Grand Diversified",
+    "s1_addr": "445 Sherman Avenue, Salt Lake City, UT",
+    "rec": "S2-958543077",
+    "rec_name": "Castro  Grand",
+    "rec_addr": "445-449 SHERMAN AVENUE, SALT LAKE CITY, UT",
+    "p": 0.9998,
+    "owner": "S1-515679260",
+    "owner_name": "Castro Grand Diversified"
+   }
+  ],
+  "rej_pos_p03": [
+   {
+    "s1": "S1-2935189",
+    "s1_name": "Internal Medicine Group",
+    "s1_addr": "821 Hartley Hill Court, High Point, NC",
+    "rec": "S3-466514785",
+    "rec_name": "Internal (Medicine)",
+    "rec_addr": "893C Hartley Hill Ct, Highp OINT Township, North Carolina",
+    "p": 0.7723,
+    "owner": "S1-2935189",
+    "owner_name": "Internal Medicine Group"
+   },
+   {
+    "s1": "S1-9608676",
+    "s1_name": "Office of Education LP",
+    "s1_addr": "AZ, Phoenix, 255 Darrow Street",
+    "rec": "S3-813546831",
+    "rec_name": "Office of Education LP Association",
+    "rec_addr": "",
+    "p": 0.589,
+    "owner": "S1-9608676",
+    "owner_name": "Office of Education LP"
+   },
+   {
+    "s1": "S1-598300871",
+    "s1_name": "Dental American Clinic",
+    "s1_addr": "2230 Oak Terrace, Worcester Township, PA",
+    "rec": "S3-685863594",
+    "rec_name": "Dental American",
+    "rec_addr": "223 Oak Ter, Lansdale, Pennsylvania",
+    "p": 0.4881,
+    "owner": "S1-598300871",
+    "owner_name": "Dental American Clinic"
+   },
+   {
+    "s1": "S1-442175288",
+    "s1_name": "Physical Therapy Group",
+    "s1_addr": "1804 Teall Avenue, Syracuse, NY",
+    "rec": "S3-359071071",
+    "rec_name": "Physical Therapy Group Association",
+    "rec_addr": "1458 Teall Avenue, New York, Syracuse",
+    "p": 0.7699,
+    "owner": "S1-442175288",
+    "owner_name": "Physical Therapy Group"
+   },
+   {
+    "s1": "S1-918987578",
+    "s1_name": "Orthopedic Blue Care Associates Inc",
+    "s1_addr": "80 Edgewater Road, Mashpee, MA",
+    "rec": "S2-710683742",
+    "rec_name": "Orthopedic Blue Care Associates Inc Board",
+    "rec_addr": "",
+    "p": 0.775,
+    "owner": "S1-918987578",
+    "owner_name": "Orthopedic Blue Care Associates Inc"
+   }
+  ]
+ },
+ "V1:F1r_filler": {
+  "acc_FP": [
+   {
+    "s1": "S1-265593401",
+    "s1_name": "Edin J. Thompson, DDS, PC",
+    "s1_addr": "973 Cress School Road, Salisbury, NC",
+    "rec": "S2-299591573",
+    "rec_name": "-- Edin J. Thompson, DS, [PC]",
+    "rec_addr": "973 CRESS SCHOOL ROAD, SALISBURY, NC",
+    "p": 0.9923,
+    "owner": null,
+    "owner_name": null
+   },
+   {
+    "s1": "S1-818167696",
+    "s1_name": "Ambica & Co Co",
+    "s1_addr": "H.No 1-98/7/3, Plat No Arunodaya Colony Jubilee Hills, Telangana, Hyderabad, Telangana",
+    "rec": "S3-929732788",
+    "rec_name": "Mr Ambica Co &",
+    "rec_addr": "",
+    "p": 0.8567,
+    "owner": "S1-368596247",
+    "owner_name": "Ambica & Co"
+   },
+   {
+    "s1": "S1-284745845",
+    "s1_name": "Katee Bush, DDS, M.D., P.C.",
+    "s1_addr": "156 Promiseland Road, Canton, NC",
+    "rec": "S2-581970111",
+    "rec_name": "Katee Bush, DDS, M.D., P.C. Corp",
+    "rec_addr": "15 PROMISELAND ROAD, CANTON, NC",
+    "p": 0.8287,
+    "owner": null,
+    "owner_name": null
+   },
+   {
+    "s1": "S1-736781958",
+    "s1_name": "Jagjit Graphics",
+    "s1_addr": "Vill.- Janara, P. O. Bamni C/O, Jaladhar Mahato, Purulia, West Bengal",
+    "rec": "S3-667530036",
+    "rec_name": "Jagjit Graphics [Ltd]",
+    "rec_addr": "",
+    "p": 0.8271,
+    "owner": "S1-24705454",
+    "owner_name": "Jagjit Graphics"
+   },
+   {
+    "s1": "S1-443653699",
+    "s1_name": "Malappuram Services Pvt Ltd",
+    "s1_addr": "Malapuram, Kerala, Kadeeja Manzil, Malappuram, Po Pachattiri Pariyapuram, Via Tirur, Malappuram",
+    "rec": "S3-89831503",
+    "rec_name": "Malappuram Services Pvt",
+    "rec_addr": "#, Malappuram, KL",
+    "p": 0.9388,
+    "owner": "S1-944372578",
+    "owner_name": "Malappuram Services Pvt Ltd"
+   }
+  ],
+  "acc_TP": [
+   {
+    "s1": "S1-959344949",
+    "s1_name": "Great Swastik Food Private Limited",
+    "s1_addr": "Chennai, Mount Road Metro Plaza, Basement Hall, Tamil Nadu, No.162, Chennai",
+    "rec": "S2-20973780",
+    "rec_name": "Great Swastik Food Private",
+    "rec_addr": "NO.162, MOUNT ROAD METRO PLAZA, BASEMENT HALL, CHENNAI, Tamil Nadu",
+    "p": 1.0,
+    "owner": "S1-959344949",
+    "owner_name": "Great Swastik Food Private Limited"
+   },
+   {
+    "s1": "S1-136496599",
+    "s1_name": "New Delhi Cast Group",
+    "s1_addr": "303A, Seat 1, 2, 3Rd Floor, 920/1, D.B. Gupta Rd, New Delhi, Central Delhi, Delhi",
+    "rec": "S2-917887775",
+    "rec_name": "New Delhi Cast",
+    "rec_addr": "303A, SEAT 1, 2, 3RD FLOOR, 920/1, D.B. GUPTA RD, NEW DELHI, Delhi",
+    "p": 1.0,
+    "owner": "S1-136496599",
+    "owner_name": "New Delhi Cast Group"
+   },
+   {
+    "s1": "S1-337498825",
+    "s1_name": "Kumar & Brothers Private Limited",
+    "s1_addr": "D.No.6-8-767 Sanjeevaiah Nagar, Tirupati, Cuddapah, Andhra Pradesh",
+    "rec": "S3-145665123",
+    "rec_name": "Kumar + Brothers Brothers Private",
+    "rec_addr": "Cuddapah, AP, D.no.6-8-767 Sanjeevaiah Nagar, Tirupati",
+    "p": 0.9999,
+    "owner": "S1-337498825",
+    "owner_name": "Kumar & Brothers Private Limited"
+   },
+   {
+    "s1": "S1-821226346",
+    "s1_name": "Swastik International Private Limited",
+    "s1_addr": "H No. 2-431/1 Main Road, Tq. Dharmabad Dist Nanded, Maharashtra, Nanded, Maharashtra",
+    "rec": "S3-523400159",
+    "rec_name": "Swastik International Private Ltd",
+    "rec_addr": "H No. 2-431/1 Main Road, Tq. Dharmabad Dist Nanded, Maharashtra, Nanded, MH",
+    "p": 1.0,
+    "owner": "S1-821226346",
+    "owner_name": "Swastik International Private Limited"
+   },
+   {
+    "s1": "S1-624422660",
+    "s1_name": "Diamond Payment Innovations",
+    "s1_addr": "Greece, 1120 Macintosh Drive, NY",
+    "rec": "S2-457387675",
+    "rec_name": "Diamond Payment",
+    "rec_addr": "1120-B MACINTOSH DR, GREECE, NY",
+    "p": 0.9999,
+    "owner": "S1-624422660",
+    "owner_name": "Diamond Payment Innovations"
+   }
+  ],
+  "rej_pos_p03": [
+   {
+    "s1": "S1-964652459",
+    "s1_name": "Magda Howard Osprey",
+    "s1_addr": "1979 63rd Drive, Kansas City, KS",
+    "rec": "S3-204552558",
+    "rec_name": "Magda Howard Osprey Inc",
+    "rec_addr": "197 63st Dr, Kansas City, Kansas",
+    "p": 0.3654,
+    "owner": "S1-964652459",
+    "owner_name": "Magda Howard Osprey"
+   },
+   {
+    "s1": "S1-520294536",
+    "s1_name": "Regional Center",
+    "s1_addr": "IN, Carmel, 2247 Seasons Drive N, Unit APT 215",
+    "rec": "S3-804092766",
+    "rec_name": "Regional Center Ltd",
+    "rec_addr": "224 Seasons Drive N, Carmel, Indiana",
+    "p": 0.4451,
+    "owner": "S1-520294536",
+    "owner_name": "Regional Center"
+   },
+   {
+    "s1": "S1-875610725",
+    "s1_name": "Federal Analytics Networks LLC",
+    "s1_addr": "3215 S Street, Lincoln, NE",
+    "rec": "S2-686850562",
+    "rec_name": "FEDERAL ANALYTICS  NETWORKS",
+    "rec_addr": "",
+    "p": 0.7355,
+    "owner": "S1-875610725",
+    "owner_name": "Federal Analytics Networks LLC"
+   },
+   {
+    "s1": "S1-410023536",
+    "s1_name": "Ness, Dillon & Bautista Launchpad",
+    "s1_addr": "3607 193rd Circle, Ridgefield, WA",
+    "rec": "S3-585427425",
+    "rec_name": "Ness, Dillon & Bautista L\u00e1unchpad Corp",
+    "rec_addr": "003607 193rd Cir, Ridgefield, Washington",
+    "p": 0.4803,
+    "owner": "S1-410023536",
+    "owner_name": "Ness, Dillon & Bautista Launchpad"
+   },
+   {
+    "s1": "S1-208752075",
+    "s1_name": "Corporate Marine Worldwide",
+    "s1_addr": "39 Concord Street, Rochester, NY",
+    "rec": "S3-305355490",
+    "rec_name": "Corporate Marine Worldwide Inc.",
+    "rec_addr": "",
+    "p": 0.42,
+    "owner": "S1-208752075",
+    "owner_name": "Corporate Marine Worldwide"
+   }
+  ]
+ },
+ "V1:F1r_filler_sameaddr": {
+  "acc_FP": [
+   {
+    "s1": "S1-235619489",
+    "s1_name": "Orthopedic Partners Inc",
+    "s1_addr": "3333 85th Street, Chicago, IL",
+    "rec": "S2-509975866",
+    "rec_name": "ORTHOPEDIC \u00cdNC CENTER",
+    "rec_addr": "3333 85TH STREET, CHICAGO, IL",
+    "p": 0.9996,
+    "owner": "S1-11479437",
+    "owner_name": "Orthopedic Associates, Inc"
+   },
+   {
+    "s1": "S1-265593401",
+    "s1_name": "Edin J. Thompson, DDS, PC",
+    "s1_addr": "973 Cress School Road, Salisbury, NC",
+    "rec": "S2-299591573",
+    "rec_name": "-- Edin J. Thompson, DS, [PC]",
+    "rec_addr": "973 CRESS SCHOOL ROAD, SALISBURY, NC",
+    "p": 0.9923,
+    "owner": null,
+    "owner_name": null
+   }
+  ],
+  "acc_TP": [
+   {
+    "s1": "S1-215792787",
+    "s1_name": "Akshansh & Sons",
+    "s1_addr": "Plot No 107 3Rd Floor, Lumbini Avenue, Seri Lingampally, K.V.Rangareddy, Telangana",
+    "rec": "S3-358735757",
+    "rec_name": "Akshansh  Sons Center",
+    "rec_addr": "Plot No 107/8 3Rd Floor, Seri Lingampally, K.v.rangareddy, TG",
+    "p": 0.9995,
+    "owner": "S1-215792787",
+    "owner_name": "Akshansh & Sons"
+   },
+   {
+    "s1": "S1-651827063",
+    "s1_name": "Corona Solutionsprivate (India) LLP",
+    "s1_addr": "P No 56 Kh No 646 To 648, Kharda Randeer, Banar, Jodhpur, Rajasthan",
+    "rec": "S3-974033021",
+    "rec_name": "Corona Solutionsprivate (India)",
+    "rec_addr": "P No 56 Kh No 646 To 648, Kharda Randeer, Banar, Jodhpur, \u0930\u093e\u091c\u0938\u094d\u0925\u093e\u0928",
+    "p": 0.9999,
+    "owner": "S1-651827063",
+    "owner_name": "Corona Solutionsprivate (India) LLP"
+   },
+   {
+    "s1": "S1-299523340",
+    "s1_name": "Digital Food Private Limited",
+    "s1_addr": "Shop No 3Mayfair Garden Market, Delhi, New Delhi, West Delhi",
+    "rec": "S2-245577940",
+    "rec_name": "Digital Food Private Ltd",
+    "rec_addr": "SHOP NO 3MAYFAIR/2 GARDEN MAGKET, NEW DELHI, \u0926\u093f\u0932\u094d\u0932\u0940",
+    "p": 0.9997,
+    "owner": "S1-299523340",
+    "owner_name": "Digital Food Private Limited"
+   },
+   {
+    "s1": "S1-450421366",
+    "s1_name": "Nelson Frontier Supply",
+    "s1_addr": "1006 Bynum Street, City Of Wilson, NC",
+    "rec": "S2-67114428",
+    "rec_name": "NELSON FRONTIER  SUPPLY INC",
+    "rec_addr": "1006-1008 BYNUM STREET, CITY OF WILSON, NC",
+    "p": 0.9812,
+    "owner": "S1-450421366",
+    "owner_name": "Nelson Frontier Supply"
+   },
+   {
+    "s1": "S1-738538105",
+    "s1_name": "Orion LLC",
+    "s1_addr": "4744 Bakers Landing Drive, Katy, TX",
+    "rec": "S2-925419884",
+    "rec_name": "The-Orion LLC",
+    "rec_addr": "4744 BAKERS LANDING DR, KATY, TX",
+    "p": 0.9999,
+    "owner": "S1-738538105",
+    "owner_name": "Orion LLC"
+   }
+  ],
+  "rej_pos_p03": [
+   {
+    "s1": "S1-910874385",
+    "s1_name": "Empire Ligand",
+    "s1_addr": "3018 Creek Valley Drive, Garland, TX",
+    "rec": "S2-619899913",
+    "rec_name": "EMPIRE P\u00c1RTNERS",
+    "rec_addr": "3018 1/2 CREEK VALLEY DR, GARLAND, TX",
+    "p": 0.5647,
+    "owner": "S1-910874385",
+    "owner_name": "Empire Ligand"
+   },
+   {
+    "s1": "S1-928178003",
+    "s1_name": "Human Rights Committee",
+    "s1_addr": "2301 Motes Road, Unit Apartment 117, Sylacauga, AL",
+    "rec": "S2-764855640",
+    "rec_name": "Human Rights Committee Corp",
+    "rec_addr": "02301 MOTES RD, SYLACAUGA CITY, AL",
+    "p": 0.5138,
+    "owner": "S1-928178003",
+    "owner_name": "Human Rights Committee"
+   },
+   {
+    "s1": "S1-188085019",
+    "s1_name": "Redwood",
+    "s1_addr": "3420 Bell Road, Unit 1086, Phoenix, AZ",
+    "rec": "S3-147527935",
+    "rec_name": "Redwood Ltd",
+    "rec_addr": "03420 Bell Road, Unit 1086, Phoenix, Arizona",
+    "p": 0.5198,
+    "owner": "S1-188085019",
+    "owner_name": "Redwood"
+   },
+   {
+    "s1": "S1-26121308",
+    "s1_name": "Dhawan Academy",
+    "s1_addr": "491 Tarin Bahadurganj, Shahjahanpur, Uttar Pradesh",
+    "rec": "S3-631579147",
+    "rec_name": "Dhawan Academy LLP",
+    "rec_addr": "Railway Settlement Roza, #491/6 Trin Bahadurganj, \u0909\u0924\u094d\u0924\u0930 \u092a\u094d\u0930\u0926\u0947\u0936",
+    "p": 0.4537,
+    "owner": "S1-26121308",
+    "owner_name": "Dhawan Academy"
+   },
+   {
+    "s1": "S1-94329228",
+    "s1_name": "Little Foundation",
+    "s1_addr": "1/25 Bajanai Koil, 2Nd Cross Street, Saidapet, Kanchipuram, Tamil Nadu",
+    "rec": "S3-991656240",
+    "rec_name": "Little Foundation Corp",
+    "rec_addr": "No 1/25- Bajanai Koil, 2Nd Cross Street, Saidapet, Chennai, \u0ba4\u0bae\u0bbf\u0bb4\u0bcd\u0ba8\u0bbe\u0b9f\u0bc1",
+    "p": 0.735,
+    "owner": "S1-94329228",
+    "owner_name": "Little Foundation"
+   }
+  ]
+ },
+ "V1:F1_typo_only": {
+  "acc_FP": [
+   {
+    "s1": "S1-334872114",
+    "s1_name": "Merna Wright, CPA",
+    "s1_addr": "9220 Worthington Road, Unit 409, Westerville, OH",
+    "rec": "S2-66684640",
+    "rec_name": "Merna Wright, CPPA",
+    "rec_addr": "WESTERVILLE, 9220 WORTHINGTON RD, OH",
+    "p": 0.9998,
+    "owner": null,
+    "owner_name": null
+   },
+   {
+    "s1": "S1-812957293",
+    "s1_name": "Taraksh Gold Pvt. Ltd.",
+    "s1_addr": "58 K C Chatterjee Street, Baidyabati, Hooghly, West Bengal",
+    "rec": "S3-568447738",
+    "rec_name": "TARIKSH GOLD PVT. LTD.",
+    "rec_addr": "H.no 8-58 K C Chatterjee Street, Hooghly, WB",
+    "p": 0.9971,
+    "owner": null,
+    "owner_name": null
+   },
+   {
+    "s1": "S1-831467241",
+    "s1_name": "Thanjavur Services",
+    "s1_addr": "No 4, Sekilar St, Muthamil Nagar, Thanjavur, Tamil Nadu",
+    "rec": "S2-819905687",
+    "rec_name": "Thanjavur Biankoer",
+    "rec_addr": "DOOR NO 4 SEKILAR STREET MUTHAMIL NAGAR, THANJAVUR, Tamil Nadu",
+    "p": 0.9758,
+    "owner": "S1-361700692",
+    "owner_name": "Thanjavur Banker"
+   },
+   {
+    "s1": "S1-325316719",
+    "s1_name": "Sarasiya India Limited",
+    "s1_addr": "Dalua Street Infront Of Nrusingha Temple, Berhampur, Ganjam, Orissa",
+    "rec": "S2-144138025",
+    "rec_name": "SARAZIYA INDIA  LIMITED",
+    "rec_addr": "\u0b13\u0b21\u0b3c\u0b3f\u0b36\u0b3e, DOOR NO 4 DALUA STREET INFRONT OF NRUSINGHA TEMPLE, BERHAMPUR",
+    "p": 0.8544,
+    "owner": null,
+    "owner_name": null
+   },
+   {
+    "s1": "S1-988945469",
+    "s1_name": "Mozelle S. Santamaria, CPA, M.D., P.C. PLLC",
+    "s1_addr": "5301 Coronet Court, Frederick, MD",
+    "rec": "S3-343988191",
+    "rec_name": "Mozelle S. Santamaria, Cpxa, M.D., P.C. PLLC",
+    "rec_addr": "5314 1/2 Coronet Court, Frederick, Maryland",
+    "p": 0.8975,
+    "owner": null,
+    "owner_name": null
+   }
+  ],
+  "acc_TP": [
+   {
+    "s1": "S1-91919375",
+    "s1_name": "Pacific Siddhi Inc",
+    "s1_addr": "4838 Brantford Court, West Chester, OH",
+    "rec": "S3-55830670",
+    "rec_name": "Pacific Sfloi Inc",
+    "rec_addr": "4838 Brantford Ct, W. Chester, Ohio",
+    "p": 0.9998,
+    "owner": "S1-91919375",
+    "owner_name": "Pacific Siddhi Inc"
+   },
+   {
+    "s1": "S1-652880567",
+    "s1_name": "Maid Auto Body",
+    "s1_addr": "3650 Valencia Lane, Algonquin, IL",
+    "rec": "S3-766003807",
+    "rec_name": "Maid Aut0 Body",
+    "rec_addr": "3650 Valencia Ln, Algonquin, Illinois",
+    "p": 0.9999,
+    "owner": "S1-652880567",
+    "owner_name": "Maid Auto Body"
+   },
+   {
+    "s1": "S1-938882719",
+    "s1_name": "Scom Agro Private Limited",
+    "s1_addr": "H.No. 45/11 Shiv Partap Nagar, Ambala Cantt, Ambala, Haryana",
+    "rec": "S2-227327523",
+    "rec_name": "5c0m Agro Private Limited",
+    "rec_addr": "H.NO. 45/11 SHIV PARTAP NAGAR, AMBALA CANTT, AMBALA, Haryana",
+    "p": 0.9997,
+    "owner": "S1-938882719",
+    "owner_name": "Scom Agro Private Limited"
+   },
+   {
+    "s1": "S1-113031991",
+    "s1_name": "Behavioral Health Associates, Inc",
+    "s1_addr": "37 Liverpool Lane, Charleston, WV",
+    "rec": "S2-505495930",
+    "rec_name": "Behavioral Haeiatlh Associates, Inc",
+    "rec_addr": "37 LIVERPOOL LN, N/A, CHARLESTON, WV",
+    "p": 0.9999,
+    "owner": "S1-113031991",
+    "owner_name": "Behavioral Health Associates, Inc"
+   },
+   {
+    "s1": "S1-936072655",
+    "s1_name": "Balaji Trading",
+    "s1_addr": "Plot No- 40 F/F, Vigyan Lok, Near Park, New Delhi, Delhi",
+    "rec": "S3-272786103",
+    "rec_name": "Balaji (Trmrding)",
+    "rec_addr": "H.no 445 Plot No- 40 F/f, New Delhi, DL",
+    "p": 0.9999,
+    "owner": "S1-936072655",
+    "owner_name": "Balaji Trading"
+   }
+  ],
+  "rej_pos_p03": [
+   {
+    "s1": "S1-81966476",
+    "s1_name": "TS Electrical",
+    "s1_addr": "315 Parkdale Avenue, East Aurora, NY",
+    "rec": "S3-272914189",
+    "rec_name": "TS Elsrcrticl",
+    "rec_addr": "",
+    "p": 0.41,
+    "owner": "S1-81966476",
+    "owner_name": "TS Electrical"
+   },
+   {
+    "s1": "S1-778569098",
+    "s1_name": "Roth Academy Associates",
+    "s1_addr": "1029 35th Avenue, Omaha, NE",
+    "rec": "S2-949065845",
+    "rec_name": "Roth Aahemdy Associates",
+    "rec_addr": "",
+    "p": 0.4522,
+    "owner": "S1-778569098",
+    "owner_name": "Roth Academy Associates"
+   },
+   {
+    "s1": "S1-530988742",
+    "s1_name": "Knoebel Bnb Inc.",
+    "s1_addr": "87 Patsy Lane, Depew, NY",
+    "rec": "S3-645291177",
+    "rec_name": "Knogeel Bnb Inc.",
+    "rec_addr": "87 1/2 Patsy Ln, Depew, N/A, New York",
+    "p": 0.6463,
+    "owner": "S1-530988742",
+    "owner_name": "Knoebel Bnb Inc."
+   },
+   {
+    "s1": "S1-590430656",
+    "s1_name": "Western Vulcan",
+    "s1_addr": "Brunswick, ME, 7 Gallows Island Road",
+    "rec": "S3-725360747",
+    "rec_name": "Westem Vulcan",
+    "rec_addr": "2 Gallows Island Rd, Bunswick, Maine",
+    "p": 0.7724,
+    "owner": "S1-590430656",
+    "owner_name": "Western Vulcan"
+   },
+   {
+    "s1": "S1-341630592",
+    "s1_name": "Garcia Technologies Inc",
+    "s1_addr": "504 Park Drive, Unit 1~12, Trenton, OH",
+    "rec": "S3-813150079",
+    "rec_name": "Garcia-Tncnhnges Inc",
+    "rec_addr": "",
+    "p": 0.7309,
+    "owner": "S1-341630592",
+    "owner_name": "Garcia Technologies Inc"
+   }
+  ]
+ },
+ "V1:F3r_mismatch": {
+  "acc_FP": [
+   {
+    "s1": "S1-871926048",
+    "s1_name": "Schmidt's Coastal Retail",
+    "s1_addr": "209 11th Street, Herrin, IL",
+    "rec": "S2-114514512",
+    "rec_name": "Schmidt Coastal (Retail)",
+    "rec_addr": "210 11ND STREET, HERRIN, IL",
+    "p": 0.9898,
+    "owner": null,
+    "owner_name": null
+   }
+  ],
+  "acc_TP": [
+   {
+    "s1": "S1-173002964",
+    "s1_name": "Elsey's Crystal Hair Studio",
+    "s1_addr": "1114 7th Avenue, Yuma, AZ",
+    "rec": "S2-168128838",
+    "rec_name": "Elsey'S Studio Hair Crystal",
+    "rec_addr": "1114 7ND AVENUE, PO BOX 2520, YUMA, AZ",
+    "p": 0.9999,
+    "owner": "S1-173002964",
+    "owner_name": "Elsey's Crystal Hair Studio"
+   },
+   {
+    "s1": "S1-565203103",
+    "s1_name": "PB Gallery Pvt. Ltd.",
+    "s1_addr": "Plot No. 4B, Igl Cng, Mayur Vihar Extension Fly, East Delhi, Delhi",
+    "rec": "S2-203543281",
+    "rec_name": "PB PVT. GALLERY LTD.",
+    "rec_addr": "DOOR NO 4B , IGL CNG, MAYUR VIHAR EXTENSION FLY, EAST DELHI, Delhi",
+    "p": 0.9999,
+    "owner": "S1-565203103",
+    "owner_name": "PB Gallery Pvt. Ltd."
+   },
+   {
+    "s1": "S1-720069570",
+    "s1_name": "Shiva Hospitality Private Limited",
+    "s1_addr": "Tirupati Appartment, Plot No- 111, Flat-4B, Anand Nagar Housing Society, Jagatipota, Kolkata, Parganas South, West Bengal",
+    "rec": "S3-189308044",
+    "rec_name": "Shiva Hospitality Pirvnrhe Limited",
+    "rec_addr": "Kolkata, Parganas South, Door No 60 Tirupati Appartment, WB",
+    "p": 0.9867,
+    "owner": "S1-720069570",
+    "owner_name": "Shiva Hospitality Private Limited"
+   },
+   {
+    "s1": "S1-637486136",
+    "s1_name": "Delhi Dreams Private Limited",
+    "s1_addr": "Tambaram, Tamil Nadu, Door No. G.F 1, Natarajn Street, Chitlapakkam Village, Plot No.8 Part, Kanchipuram",
+    "rec": "S3-880535364",
+    "rec_name": "Delhi Dreams",
+    "rec_addr": "Plot No.8 Part, Door No. G.F 1, Natarajn Street, Chitlapakkam Village, Tambaram, Kanchipuram, Tamil Nadu",
+    "p": 0.9999,
+    "owner": "S1-637486136",
+    "owner_name": "Delhi Dreams Private Limited"
+   },
+   {
+    "s1": "S1-978010418",
+    "s1_name": "Ace & Sons Private Limited",
+    "s1_addr": "Chennai, Old No. 4, Ramar Koyil Street, Nandambakkam, Tamil Nadu, Chennai, New No. 9",
+    "rec": "S3-841982020",
+    "rec_name": "M/s Ace & Sons Private (Limited)",
+    "rec_addr": "New No. 2-9, Old No. 4, Ramar Koyil Street, Nandambakkam, Chennai, Kanchipuram, TN",
+    "p": 0.9999,
+    "owner": "S1-978010418",
+    "owner_name": "Ace & Sons Private Limited"
+   }
+  ],
+  "rej_pos_p03": [
+   {
+    "s1": "S1-715834399",
+    "s1_name": "Tridhara Singapore Ltd",
+    "s1_addr": "Gh 16 Mdc Sector-5, Haryana, Panchkula, Flat No. 5 B, Panchkula",
+    "rec": "S3-952205990",
+    "rec_name": "Veraveo",
+    "rec_addr": "Flat No. 5 B, Gh 16 Mdc Sector-5, Panchkula, HR",
+    "p": 0.6964,
+    "owner": "S1-715834399",
+    "owner_name": "Tridhara Singapore Ltd"
+   },
+   {
+    "s1": "S1-223816875",
+    "s1_name": "Ip & Sons Clinic",
+    "s1_addr": "First Floor, Sr. 360/2, Opp Geneva Liberal School, Daskroi, Ahmedabad, Gujarat",
+    "rec": "S3-516681918",
+    "rec_name": "Smt Ip & Sons Clinic LLP",
+    "rec_addr": "Hn 40 First Floor, Ahmedabad, Daskroi, \u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4",
+    "p": 0.6977,
+    "owner": "S1-223816875",
+    "owner_name": "Ip & Sons Clinic"
+   },
+   {
+    "s1": "S1-345097478",
+    "s1_name": "High Care Private Limited",
+    "s1_addr": "South Delhi, Vardhman Star City Mall Sector-7, Dwarka, Delhi, Shop No - 149, New Delhi",
+    "rec": "S3-844294311",
+    "rec_name": "\u0939\u093e\u0908 \u0915\u0947\u092f\u0930 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+    "rec_addr": "Shop No - 1-49, South Delhi, New Delhi, DL",
+    "p": 0.7739,
+    "owner": "S1-345097478",
+    "owner_name": "High Care Private Limited"
+   },
+   {
+    "s1": "S1-653541433",
+    "s1_name": "City Consultants Private Limited",
+    "s1_addr": "Bhola Bhawan, Ramji Road, Sector - 53, Gijhore, Noida, Gautam Buddha Nagar, Uttar Pradesh",
+    "rec": "S3-760796887",
+    "rec_name": "Mr City Private Limited Center",
+    "rec_addr": "Gautam Buddha Nagar, Door No 781 Bhola Bhawan, Noida, \u0909\u0924\u094d\u0924\u0930 \u092a\u094d\u0930\u0926\u0947\u0936",
+    "p": 0.4189,
+    "owner": "S1-653541433",
+    "owner_name": "City Consultants Private Limited"
+   }
+  ]
+ },
+ "V1:F3r_mismatch_numeq": {
+  "acc_TP": [
+   {
+    "s1": "S1-123248944",
+    "s1_name": "Seus Resources Inc",
+    "s1_addr": "234 7th Street, Santa Paula, CA",
+    "rec": "S3-768167174",
+    "rec_name": "Seus Resources Inc.",
+    "rec_addr": "234 Seventh Street, Santa Paula, California",
+    "p": 1.0,
+    "owner": "S1-123248944",
+    "owner_name": "Seus Resources Inc"
+   },
+   {
+    "s1": "S1-871919843",
+    "s1_name": "Primary Care All Physicians Inc",
+    "s1_addr": "15793 15th Street, Bellevue, WA",
+    "rec": "S2-52437832",
+    "rec_name": "PRIMARY CARE ALL  PHYSICIANS",
+    "rec_addr": "15793. FIFTEENTH STREET, BELLEVUE, WA",
+    "p": 0.9999,
+    "owner": "S1-871919843",
+    "owner_name": "Primary Care All Physicians Inc"
+   },
+   {
+    "s1": "S1-952084262",
+    "s1_name": "Shivam Logistics Pvt Ltd",
+    "s1_addr": "Flat No. 8, 2Nd Floor, Krishna Apartment 871 Kastadanga Road, Kolkata, Kolkata, Howrah, West Bengal",
+    "rec": "S2-197288042",
+    "rec_name": "\u09b6\u09bf\u09ac\u09ae \u09b2\u099c\u09bf\u09b8\u09cd\u099f\u09bf\u0995\u09b8 \u09aa\u09cd\u09b0\u09be\u0987\u09ad\u09c7\u099f \u09b2\u09bf\u09ae\u09bf\u099f\u09c7\u09a1",
+    "rec_addr": "DOOR NO 8, 2ND FLOOR, KRISHNA APARTMENT 871 KASTADANGA ROAD, KOLKATA, HOWRAH, NULL, West Bengal",
+    "p": 0.9999,
+    "owner": "S1-952084262",
+    "owner_name": "Shivam Logistics Pvt Ltd"
+   },
+   {
+    "s1": "S1-382297695",
+    "s1_name": "FKH Crystal Artificial",
+    "s1_addr": "5420 15th Street, Indianapolis, IN",
+    "rec": "S3-746780098",
+    "rec_name": "Artificial Crystal FKH",
+    "rec_addr": "5420 Fifteenth Street, Indianapolis, Indiana",
+    "p": 0.9997,
+    "owner": "S1-382297695",
+    "owner_name": "FKH Crystal Artificial"
+   },
+   {
+    "s1": "S1-172058183",
+    "s1_name": "Golden Consultancy Private Limited",
+    "s1_addr": "Flat No. C1, Suvarna Park, Bl Cs 18/1, Bavdhan Khurd, Pune, Maharashtra",
+    "rec": "S3-132843725",
+    "rec_name": "goldenconsultancy.com",
+    "rec_addr": "Falt No. C1, Suvarna Park, Bl Cs 18/1, Bavdhan Khurd, Pune, MH",
+    "p": 0.9999,
+    "owner": "S1-172058183",
+    "owner_name": "Golden Consultancy Private Limited"
+   }
+  ]
+ },
+ "V1:F3r_numeq_anyov": {
+  "acc_FP": [
+   {
+    "s1": "S1-99422641",
+    "s1_name": "Ninnetta Gramling, DPM",
+    "s1_addr": "170 8th Avenue, Hartley, IA",
+    "rec": "S2-420126122",
+    "rec_name": "NINNETTA GRAMLING, DLPM",
+    "rec_addr": "170 EIGHTH AVE, IA, HARTLEY CITY",
+    "p": 0.864,
+    "owner": null,
+    "owner_name": null
+   }
+  ],
+  "acc_TP": [
+   {
+    "s1": "S1-164566778",
+    "s1_name": "Tal. Morbi (Dist. Rajkot) State Private Limited",
+    "s1_addr": "Survey No. 114, National Highway 8-A, Tal. Morbi (Dist. Rajkot), Makansar, Gujarat",
+    "rec": "S2-489473353",
+    "rec_name": "Tal.  Morbi (Dist. Rajkot) State Private Limited",
+    "rec_addr": "DOOR NO 114 , NATIONAL HIGHWAY 8-A, TAL. MORBI (DIST. RAJKOT), Gujarat",
+    "p": 0.9999,
+    "owner": "S1-164566778",
+    "owner_name": "Tal. Morbi (Dist. Rajkot) State Private Limited"
+   },
+   {
+    "s1": "S1-335425256",
+    "s1_name": "Rothman Top PC",
+    "s1_addr": "24226 52nd Avenue, Unit BUILDING J, Mountlake Terrace, WA",
+    "rec": "S3-876870869",
+    "rec_name": "Rothman Top [LLC]",
+    "rec_addr": "24226 52th Avenue, # Building J, Mountlake Terrace, Washington",
+    "p": 0.9987,
+    "owner": "S1-335425256",
+    "owner_name": "Rothman Top PC"
+   },
+   {
+    "s1": "S1-58751262",
+    "s1_name": "Bengal Skill Private Limited",
+    "s1_addr": "Telangana, H No 7-1/47/Lig, Sri Emreddy'S Residency, Serilingampally, Plot 47, K.V.Rangareddy",
+    "rec": "S3-314598590",
+    "rec_name": "Private Bengal Skill (Limited)",
+    "rec_addr": "Plot 7-47, H No 7-1/47/Lig, Sri Emreddy's Residency, K.v.rangareddy, TG",
+    "p": 1.0,
+    "owner": "S1-58751262",
+    "owner_name": "Bengal Skill Private Limited"
+   },
+   {
+    "s1": "S1-673403449",
+    "s1_name": "Antoinette Pereira, L.C.S.W.",
+    "s1_addr": "11513 6th Place, Blaine, MN",
+    "rec": "S3-269742220",
+    "rec_name": "ANTOINETTE PEREIRA, L.C.S.W.",
+    "rec_addr": "11513 Sixth Pl, Mineapolis CITY, Minnesota",
+    "p": 0.9999,
+    "owner": "S1-673403449",
+    "owner_name": "Antoinette Pereira, L.C.S.W."
+   },
+   {
+    "s1": "S1-686260096",
+    "s1_name": "Diamond Engineering Laboratories",
+    "s1_addr": "2046 2nd Avenue, Cambridge, MN",
+    "rec": "S2-765935228",
+    "rec_name": "diamondengineeringlaboratories.com",
+    "rec_addr": "MN, 2046 SECOND AVE, CAMBRIDGE",
+    "p": 0.9999,
+    "owner": "S1-686260096",
+    "owner_name": "Diamond Engineering Laboratories"
+   }
+  ],
+  "rej_pos_p03": [
+   {
+    "s1": "S1-630796928",
+    "s1_name": "HX Globa, Inc",
+    "s1_addr": "Lower Providence Township, 2930 Fourth Street, PA",
+    "rec": "S2-877181905",
+    "rec_name": "XYLOKORVIO",
+    "rec_addr": "2930 4TH ST, NORRISTOWN TOWNSIHP, PA",
+    "p": 0.3882,
+    "owner": "S1-630796928",
+    "owner_name": "HX Globa, Inc"
+   },
+   {
+    "s1": "S1-956617482",
+    "s1_name": "YFI Specialty",
+    "s1_addr": "IL, 815 56th Street, Hinsdale",
+    "rec": "S2-880127815",
+    "rec_name": "YFl Specialty",
+    "rec_addr": "815-817 56ND SAINT, HINSDALE, IL",
+    "p": 0.3435,
+    "owner": "S1-956617482",
+    "owner_name": "YFI Specialty"
+   },
+   {
+    "s1": "S1-382297695",
+    "s1_name": "FKH Crystal Artificial",
+    "s1_addr": "5420 15th Street, Indianapolis, IN",
+    "rec": "S3-838919050",
+    "rec_name": "Zetabelo",
+    "rec_addr": "5420 Fifteenth St, Indianapolis, Indiana",
+    "p": 0.4436,
+    "owner": "S1-382297695",
+    "owner_name": "FKH Crystal Artificial"
+   },
+   {
+    "s1": "S1-931705839",
+    "s1_name": "Diena Garza Reliable Biologics",
+    "s1_addr": "101 5th Street, Fort Worth, TX",
+    "rec": "S3-624062908",
+    "rec_name": "Nexaria",
+    "rec_addr": "101 Fifth St, Fort Worth, Texas",
+    "p": 0.4046,
+    "owner": "S1-931705839",
+    "owner_name": "Diena Garza Reliable Biologics"
+   },
+   {
+    "s1": "S1-536812435",
+    "s1_name": "A Total Colombier LLC",
+    "s1_addr": "7031 11th Avenue, Seattle, WA",
+    "rec": "S2-830649900",
+    "rec_name": "Lyrapyra",
+    "rec_addr": "7031 ELEVENTH AVE, SEATTLE, WA",
+    "p": 0.704,
+    "owner": "S1-536812435",
+    "owner_name": "A Total Colombier LLC"
+   }
+  ]
+ },
+ "V0:F1_dist_s0.5": {
+  "acc_FP": [
+   {
+    "s1": "S1-621387050",
+    "s1_name": "Murphy Science",
+    "s1_addr": "10445 Shadow Bend Drive, Dallas, TX",
+    "rec": "S2-671870844",
+    "rec_name": "Murphy  Sciences",
+    "rec_addr": "",
+    "p": 0.8855,
+    "owner": null,
+    "owner_name": null
+   },
+   {
+    "s1": "S1-820795484",
+    "s1_name": "Faridabad Solutions Pvt. Ltd.",
+    "s1_addr": "Haryana, Faridabad, H.No-624 Sector-8, Faridabad",
+    "rec": "S3-963130652",
+    "rec_name": "Faridabad Pvt. Ltd. Center",
+    "rec_addr": "No 2267 Sector-8, Faridabad, HR",
+    "p": 0.9684,
+    "owner": "S1-385864390",
+    "owner_name": "Faridabad Advisors Pvt. Ltd."
+   }
+  ],
+  "acc_TP": [
+   {
+    "s1": "S1-863627517",
+    "s1_name": "Kaverora Systems Private Limited",
+    "s1_addr": "Shop-25, Gf, Block 45, Shram Marg, Zone 4, Gift Dta, Gandhi Nagar, Gujarat",
+    "rec": "S2-688925313",
+    "rec_name": "Kaverora Private Limited Services",
+    "rec_addr": "SHOP-25, GF, BLOCK 45, SHRAM MARG, ZONE 4, GIFT DTA, GANDHI NAGAR, Gujarat",
+    "p": 0.9999,
+    "owner": "S1-863627517",
+    "owner_name": "Kaverora Systems Private Limited"
+   },
+   {
+    "s1": "S1-636464788",
+    "s1_name": "Dermatology Associates Corp",
+    "s1_addr": "12214 25th Court, Vancouver, WA",
+    "rec": "S2-282749950",
+    "rec_name": "Dermatology \u00c1sslhcte Corp",
+    "rec_addr": "12213 25TH COURT, VANCOUVER, WA",
+    "p": 0.8911,
+    "owner": "S1-636464788",
+    "owner_name": "Dermatology Associates Corp"
+   },
+   {
+    "s1": "S1-141585935",
+    "s1_name": "Naganth Bite Private Limited",
+    "s1_addr": "S/O Madan Lal Ji Sharda, Kalingari Gate Road, Bhilwara, Rajasthan",
+    "rec": "S2-457530407",
+    "rec_name": "Naganth Baet Private Limited",
+    "rec_addr": "S/O MADAN LAL JI SHARDA, KALINGARI GATE ROAD, BHILWARA, \u0930\u093e\u091c\u0938\u094d\u0925\u093e\u0928",
+    "p": 0.9999,
+    "owner": "S1-141585935",
+    "owner_name": "Naganth Bite Private Limited"
+   },
+   {
+    "s1": "S1-882684698",
+    "s1_name": "Youth First Coalition",
+    "s1_addr": "VA, 3500 Ellerton Drive, Chesterfield County",
+    "rec": "S3-140441562",
+    "rec_name": "Youth First Coalition Foundation",
+    "rec_addr": "3500-3504 Ellerton Drive, Chesterfield County, Virginia",
+    "p": 0.9983,
+    "owner": "S1-882684698",
+    "owner_name": "Youth First Coalition"
+   },
+   {
+    "s1": "S1-53923388",
+    "s1_name": "Robinson and Bridge Quest LLC",
+    "s1_addr": "261 Oakview Village Drive, Fl 0, Glen Burnie, MD",
+    "rec": "S2-911797620",
+    "rec_name": "Robinson and Brige Quest LLC",
+    "rec_addr": "MD, GLEN BURNIE, 261 OAKVIEW VILLAGE DR",
+    "p": 0.9999,
+    "owner": "S1-53923388",
+    "owner_name": "Robinson and Bridge Quest LLC"
+   }
+  ],
+  "rej_pos_p03": [
+   {
+    "s1": "S1-726951739",
+    "s1_name": "Ghaziabad Consultants Private Limited",
+    "s1_addr": "D-347, Ghaziabad, Uttar Pradesh",
+    "rec": "S2-834136894",
+    "rec_name": "Ghaziabad Cnsutnts Private Limited",
+    "rec_addr": "",
+    "p": 0.4571,
+    "owner": "S1-726951739",
+    "owner_name": "Ghaziabad Consultants Private Limited"
+   },
+   {
+    "s1": "S1-652280951",
+    "s1_name": "A Cure 8 IT",
+    "s1_addr": "2426 Elmwood Avenue, Kenmore, NY",
+    "rec": "S3-74281134",
+    "rec_name": "A Cure IT Center",
+    "rec_addr": "Buffalo, Elmwood Avenue, New York",
+    "p": 0.4957,
+    "owner": "S1-652280951",
+    "owner_name": "A Cure 8 IT"
+   },
+   {
+    "s1": "S1-668175152",
+    "s1_name": "Zirain Arc Pvt. Ltd.",
+    "s1_addr": "Times Square, Unit-4, B Wing, 3Rd Floor, Andheri Kurla Road, Andheri E, Ast, Mumbai, Mumbai City, Maharashtra",
+    "rec": "S3-795733429",
+    "rec_name": "Zaoin Arc Pvt. Ltd.",
+    "rec_addr": "MH, Unit-4, B Wing, 3Rd Floor, Andheri Kurla Road, Andheri E, Ast, Times Square, Bombay, Mumbai City",
+    "p": 0.3064,
+    "owner": "S1-668175152",
+    "owner_name": "Zirain Arc Pvt. Ltd."
+   },
+   {
+    "s1": "S1-587668899",
+    "s1_name": "Foot & Ankle Empire Group",
+    "s1_addr": "9516 Sage Ranch Court, Albuquerque, NM",
+    "rec": "S2-94302409",
+    "rec_name": "FOOT ANKLE & EMPIRE INC",
+    "rec_addr": "951 SAGE RANCH CT, NM, ALBUQUERQUE",
+    "p": 0.6776,
+    "owner": "S1-587668899",
+    "owner_name": "Foot & Ankle Empire Group"
+   },
+   {
+    "s1": "S1-748225199",
+    "s1_name": "Nrb Exports Private Limited",
+    "s1_addr": "354, Ganesh Nagar 11, New Transport Nagar, Bherukhejda, Jaipur, Rajasthan",
+    "rec": "S3-619587486",
+    "rec_name": "Nrb Private Limited Center",
+    "rec_addr": "35, Jaipur, Chomp, RJ",
+    "p": 0.5449,
+    "owner": "S1-748225199",
+    "owner_name": "Nrb Exports Private Limited"
+   }
+  ]
+ },
+ "V0:F1_dist_s0.5_sameaddr": {
+  "acc_TP": [
+   {
+    "s1": "S1-848878283",
+    "s1_name": "Dental All Specialists LLC",
+    "s1_addr": "320 Norwood Lane, Orchard Park, NY",
+    "rec": "S2-131037919",
+    "rec_name": "Dental All Specialists LLC Federation",
+    "rec_addr": "NY, ORCHARD PARK, 00320 NORWOOD LN",
+    "p": 0.9999,
+    "owner": "S1-848878283",
+    "owner_name": "Dental All Specialists LLC"
+   },
+   {
+    "s1": "S1-271152275",
+    "s1_name": "Supreme Automation Union-Bowling Green",
+    "s1_addr": "524 Ordway Avenue, Bowling Green, OH",
+    "rec": "S2-24077890",
+    "rec_name": "Supreme Automation Union-Bowling Geinr",
+    "rec_addr": "524 Ordway Ave, BOWLING GREEN, OH",
+    "p": 0.9998,
+    "owner": "S1-271152275",
+    "owner_name": "Supreme Automation Union-Bowling Green"
+   },
+   {
+    "s1": "S1-705429065",
+    "s1_name": "O 4 First Earth PLLC",
+    "s1_addr": "298 Jennie Drive, Gahanna, OH",
+    "rec": "S2-129722460",
+    "rec_name": "O  4 Fist Earth PLLC",
+    "rec_addr": "298 JENNIE DRIVE, COOLUMBUS, OH",
+    "p": 0.9996,
+    "owner": "S1-705429065",
+    "owner_name": "O 4 First Earth PLLC"
+   },
+   {
+    "s1": "S1-934795464",
+    "s1_name": "Mumbai Land Co",
+    "s1_addr": "45 Heeramani Ratan Chs, Bangur Nagar Link Road, Goregaon West, Mumbai, Mumbai City, Maharashtra",
+    "rec": "S3-519524590",
+    "rec_name": "Mumbai Lnln Co",
+    "rec_addr": "Door No 45 Heeramani Ratan Chs, Bangur Nagar Link Road, Goregaon West, Mumbai City, MH, Mumbai",
+    "p": 0.9999,
+    "owner": "S1-934795464",
+    "owner_name": "Mumbai Land Co"
+   },
+   {
+    "s1": "S1-516829506",
+    "s1_name": "Womens Health Precision Group LLC",
+    "s1_addr": "Morganton, 205 Stacy Street, NC",
+    "rec": "S2-433110488",
+    "rec_name": "W0MENS  HEALTH PRECISION GROUP LLC",
+    "rec_addr": "205 STACY STREET, MORGATNON TOWNSHIP, NC",
+    "p": 0.9999,
+    "owner": "S1-516829506",
+    "owner_name": "Womens Health Precision Group LLC"
+   }
+  ],
+  "rej_pos_p03": [
+   {
+    "s1": "S1-486819134",
+    "s1_name": "RI Fuse Inc",
+    "s1_addr": "8205 Inwood Drive, Woburn, MA",
+    "rec": "S2-43041669",
+    "rec_name": "Rl Fuse Inc",
+    "rec_addr": "#8205 INWOOD DRIVE, WOBURN, MA",
+    "p": 0.4536,
+    "owner": "S1-486819134",
+    "owner_name": "RI Fuse Inc"
+   },
+   {
+    "s1": "S1-89219656",
+    "s1_name": "Solutions Airways Solution Private Limited",
+    "s1_addr": "9 Bldg No 6 2Nd Floor, Shastri Nagar Linking Road, Nr Bus D Epot, Santacruz (W), Mumbai, Maharashtra",
+    "rec": "S3-421168947",
+    "rec_name": "Solutions Airway Solution Private Limited",
+    "rec_addr": "9 Bldg No 6 2Nd Floor, Mumbai, MH, Shastri Nagar Linking Road, Nr Bus D Epot",
+    "p": 0.6528,
+    "owner": "S1-89219656",
+    "owner_name": "Solutions Airways Solution Private Limited"
+   },
+   {
+    "s1": "S1-261349022",
+    "s1_name": "American Ave LLC",
+    "s1_addr": "14366 Banister Drive, IN, Noblesville",
+    "rec": "S3-290330999",
+    "rec_name": "Amterican Ave LLC",
+    "rec_addr": "14366 Banister Drive, Noblesville, Indiana",
+    "p": 0.735,
+    "owner": "S1-261349022",
+    "owner_name": "American Ave LLC"
+   },
+   {
+    "s1": "S1-152597548",
+    "s1_name": "Midwest Program",
+    "s1_addr": "7408 120th Street, Seattle, WA",
+    "rec": "S2-17187432",
+    "rec_name": "Midwest Partners",
+    "rec_addr": "##7408 120TH ST, SEATTLE, WA",
+    "p": 0.5323,
+    "owner": "S1-152597548",
+    "owner_name": "Midwest Program"
+   }
+  ]
+ },
+ "V0:F1_filler_all": {
+  "acc_FP": [
+   {
+    "s1": "S1-627136340",
+    "s1_name": "Pediatric Dental Associates",
+    "s1_addr": "1686 Hawkins Court, Greenwood, IN",
+    "rec": "S3-993422494",
+    "rec_name": "Pediatric Dental Associates Ltd",
+    "rec_addr": "1688 Hawkins Ct, Greenwood, Indiana",
+    "p": 0.8489,
+    "owner": null,
+    "owner_name": null
+   },
+   {
+    "s1": "S1-302770299",
+    "s1_name": "Ronda's Plumbing",
+    "s1_addr": "722 Beckham Lane, Unit APT 402, Rock Hill, SC",
+    "rec": "S3-44906076",
+    "rec_name": "Ronda's Plumbing Co",
+    "rec_addr": "72 Beckham Lane, Rock Hill, South Carolina",
+    "p": 0.9841,
+    "owner": null,
+    "owner_name": null
+   },
+   {
+    "s1": "S1-178552699",
+    "s1_name": "ZDY View",
+    "s1_addr": "68 Broad Street, Unit 1, Lynn, MA",
+    "rec": "S3-540292251",
+    "rec_name": "ZDY View LLC",
+    "rec_addr": "Lynn, Massachusetts, # 1, 071 Broad Street",
+    "p": 0.9004,
+    "owner": null,
+    "owner_name": null
+   },
+   {
+    "s1": "S1-870100840",
+    "s1_name": "Reed, Tolar & Carter Partners",
+    "s1_addr": "E5984 Herzberg Road, Town Of Dupont, WI",
+    "rec": "S3-199352979",
+    "rec_name": "Reed, Tolar Carter LLC Partners",
+    "rec_addr": "",
+    "p": 0.9612,
+    "owner": "S1-730666422",
+    "owner_name": "Reed, Tolar & Carter LLC"
+   }
+  ],
+  "acc_TP": [
+   {
+    "s1": "S1-961020376",
+    "s1_name": "34/59 Royalties",
+    "s1_addr": "48 Nerbay Road, Essex, MD",
+    "rec": "S3-668139234",
+    "rec_name": "34/59 Royalties [Inc.]",
+    "rec_addr": "Maryland, 48- Nerbay Rd, Essex",
+    "p": 0.9995,
+    "owner": "S1-961020376",
+    "owner_name": "34/59 Royalties"
+   },
+   {
+    "s1": "S1-761027137",
+    "s1_name": "Apex Pharma Private Limited",
+    "s1_addr": "306 A-Wing, Krishna Apt. Bhatt Lane, Kandivali West, Off S.V. Road, Mumbai, Mumbai City, Maharashtra",
+    "rec": "S2-344400057",
+    "rec_name": "PRIVATE APEX PHARMA [LTD]",
+    "rec_addr": "H.NO 306 A-WING, KRISHNA APT. BHATT LANE, KANDIVALI WEST, OFF S.V. ROAD, MUMBAI CITY, MUMBAI, Maharashtra",
+    "p": 0.9999,
+    "owner": "S1-761027137",
+    "owner_name": "Apex Pharma Private Limited"
+   },
+   {
+    "s1": "S1-220508467",
+    "s1_name": "Ward Agnc Inc",
+    "s1_addr": "1023 Olive Street, St Charles, MO",
+    "rec": "S2-353212724",
+    "rec_name": "Ward Ward Agnc",
+    "rec_addr": "1023- OLIVE ST, ST CHARLES, MO",
+    "p": 1.0,
+    "owner": "S1-220508467",
+    "owner_name": "Ward Agnc Inc"
+   },
+   {
+    "s1": "S1-662816729",
+    "s1_name": "Selosoft LLC",
+    "s1_addr": "34 Regency Country Club Road, Woodridge, NY",
+    "rec": "S3-308396232",
+    "rec_name": "Selosoft",
+    "rec_addr": "34. Regency Country Club Rd, PMB 4341, Woodridge, New York",
+    "p": 0.9999,
+    "owner": "S1-662816729",
+    "owner_name": "Selosoft LLC"
+   },
+   {
+    "s1": "S1-916707409",
+    "s1_name": "Super Business",
+    "s1_addr": "10, Bbcl Ojas Apartment, 1St Floor, Singaram Street, Thiyagaraya Nagar, Chennai, Tamil Nadu",
+    "rec": "S3-2138755",
+    "rec_name": "Smt super business",
+    "rec_addr": "##10, Bbcl Ojas Apartment, 1St Floor, Singaram Street, Thiyagaraya Nagar, Chennai, TN",
+    "p": 1.0,
+    "owner": "S1-916707409",
+    "owner_name": "Super Business"
+   }
+  ],
+  "rej_pos_p03": [
+   {
+    "s1": "S1-111598519",
+    "s1_name": "Bivaon",
+    "s1_addr": "307 Shix Neet Street, Wapato, WA",
+    "rec": "S2-607370487",
+    "rec_name": "BIVAON LTD",
+    "rec_addr": "309 SHIX NEET ST, WAPATO, WA",
+    "p": 0.7424,
+    "owner": "S1-111598519",
+    "owner_name": "Bivaon"
+   },
+   {
+    "s1": "S1-691087419",
+    "s1_name": "Chennai Home Private Limited",
+    "s1_addr": "No.36/16, D.S.Apartments, Phase - 1 Pillaiyar Koil Street, Jafferkhanpet, Chennai, Tamil Nadu",
+    "rec": "S3-462566116",
+    "rec_name": "Chennai Home Private",
+    "rec_addr": "",
+    "p": 0.4427,
+    "owner": "S1-691087419",
+    "owner_name": "Chennai Home Private Limited"
+   },
+   {
+    "s1": "S1-824936884",
+    "s1_name": "Harrison Spade",
+    "s1_addr": "4120 Toltec Road, Eloy, AZ",
+    "rec": "S3-403471119",
+    "rec_name": "Harrison Spade LLC",
+    "rec_addr": "412 Toltec Rd, Eloy, Arizona",
+    "p": 0.3143,
+    "owner": "S1-824936884",
+    "owner_name": "Harrison Spade"
+   },
+   {
+    "s1": "S1-829800713",
+    "s1_name": "Green & Murrell",
+    "s1_addr": "900 Goforth Street, Buda, TX",
+    "rec": "S3-576560833",
+    "rec_name": "Green & Murrell Inc",
+    "rec_addr": "90 Goforth Street, NULL, Buda, Texas",
+    "p": 0.6713,
+    "owner": "S1-829800713",
+    "owner_name": "Green & Murrell"
+   },
+   {
+    "s1": "S1-991487985",
+    "s1_name": "Gulf Network V Corp",
+    "s1_addr": "924 York Street, Cincinnati, OH",
+    "rec": "S3-616114792",
+    "rec_name": "Gulf Network V Corporation",
+    "rec_addr": "",
+    "p": 0.7743,
+    "owner": "S1-991487985",
+    "owner_name": "Gulf Network V Corp"
+   }
+  ]
+ },
+ "V0:F1_filler_all_sameaddr": {
+  "acc_TP": [
+   {
+    "s1": "S1-114484434",
+    "s1_name": "Cardiology Associates LLC",
+    "s1_addr": "2382 Fravel Road, Shenandoah County, VA",
+    "rec": "S3-343173960",
+    "rec_name": "Cardiology Cardiology Associates",
+    "rec_addr": "2382 Fravel Rd, Woodstock, Virginia",
+    "p": 0.9999,
+    "owner": "S1-114484434",
+    "owner_name": "Cardiology Associates LLC"
+   },
+   {
+    "s1": "S1-836066750",
+    "s1_name": "Garcia & Salazar Santander",
+    "s1_addr": "108 Rose Common Court, NC, Garner",
+    "rec": "S2-375018265",
+    "rec_name": "& Garcia Salazar Services",
+    "rec_addr": "108 ROSE COMMON CT, GARNER, NC",
+    "p": 0.9999,
+    "owner": "S1-836066750",
+    "owner_name": "Garcia & Salazar Santander"
+   },
+   {
+    "s1": "S1-304604936",
+    "s1_name": "Internal Medicine Specialists of Darby LLC",
+    "s1_addr": "4325 N Fork Rye Creek Road, Darby, MT",
+    "rec": "S3-841215293",
+    "rec_name": "Internal Medicine Specialists of Darby",
+    "rec_addr": "4325-4329 North Fork Rye Creek Road, Darby, Montana",
+    "p": 0.9998,
+    "owner": "S1-304604936",
+    "owner_name": "Internal Medicine Specialists of Darby LLC"
+   },
+   {
+    "s1": "S1-819350166",
+    "s1_name": "Patel Yield LLC",
+    "s1_addr": "706 Fort Rains Drive, City Of North Bonneville, WA",
+    "rec": "S2-455752422",
+    "rec_name": "Patel Yield",
+    "rec_addr": "706 FORT RAINS DRIVE, PMB 686, NORTH BONNEVILLE WA, WA",
+    "p": 0.9999,
+    "owner": "S1-819350166",
+    "owner_name": "Patel Yield LLC"
+   },
+   {
+    "s1": "S1-846434477",
+    "s1_name": "Shiva It Private Limited",
+    "s1_addr": "Shop No 11 Shraddharegency Opp Kedari Garden Fatimanagar Wanawadi Road, Pune, Maharashtra",
+    "rec": "S3-357788239",
+    "rec_name": "Shiva It Private Ltd",
+    "rec_addr": "Shop No #11 Shraddharegency Opp Kedari Garden Fatimanagar Wanawadi Road, Pune, MH",
+    "p": 1.0,
+    "owner": "S1-846434477",
+    "owner_name": "Shiva It Private Limited"
+   }
+  ]
+ },
+ "V0:F2_sib_ge": {},
+ "V0:F2_sib_gt": {},
+ "V0:F2_has_sib": {
+  "acc_TP": [
+   {
+    "s1": "S1-573427830",
+    "s1_name": "Wildlife Network",
+    "s1_addr": "5587 Fox Chase Drive, Hokah, MN",
+    "rec": "S3-309315952",
+    "rec_name": "wildlifenetwork.com",
+    "rec_addr": "005587 Fox Chase Drive, Hokah, Minnesota",
+    "p": 0.9999,
+    "owner": "S1-573427830",
+    "owner_name": "Wildlife Network"
+   },
+   {
+    "s1": "S1-573427830",
+    "s1_name": "Wildlife Network",
+    "s1_addr": "5587 Fox Chase Drive, Hokah, MN",
+    "rec": "S2-140481620",
+    "rec_name": "WILDLIFE NETWORK CORPORATION",
+    "rec_addr": "005597 FOX CHASE DRIVE, HOKAH, MN",
+    "p": 0.9839,
+    "owner": "S1-573427830",
+    "owner_name": "Wildlife Network"
+   }
+  ]
+ },
+ "V0:F3_street_mismatch": {
+  "acc_TP": [
+   {
+    "s1": "S1-643088295",
+    "s1_name": "Crafty Traders Pvt. Ltd.",
+    "s1_addr": "Foresight, 2Nd Floor, Besides Madhav- Sharafi Mandli, Akshar Marg, Off Kalawad, Road, Rajkot, Gujarat",
+    "rec": "S3-729459366",
+    "rec_name": "Crafty Traders-Pvt. Ltd.",
+    "rec_addr": "Plot 11 Foresight, 2Nd Floor, Besides Madhav- Sharafi Mandli, Akshar Marg, Off Kalawad, Road, Rajkot, GJ",
+    "p": 0.9999,
+    "owner": "S1-643088295",
+    "owner_name": "Crafty Traders Pvt. Ltd."
+   },
+   {
+    "s1": "S1-958118949",
+    "s1_name": "Unique Care Limited",
+    "s1_addr": "Nath Gajanan Appt.No.001, Plot No. 51/B, C.A. Road, Nagpur, Maharashtra",
+    "rec": "S3-73829521",
+    "rec_name": "Unique  Care Limited",
+    "rec_addr": "Plot No. 51/B, C.a. Road, Nagpur, Nath Gajanan Appt.no.7-001, \u092e\u0939\u093e\u0930\u093e\u0937\u094d\u091f\u094d\u0930",
+    "p": 1.0,
+    "owner": "S1-958118949",
+    "owner_name": "Unique Care Limited"
+   },
+   {
+    "s1": "S1-123823994",
+    "s1_name": "Nj & Sons Limited",
+    "s1_addr": "Block-A, Tf304, Green Vally, Nr Footbal Grd Kankria Rd, Ahmadabad City, Ahmedabad, Gujarat",
+    "rec": "S2-931344041",
+    "rec_name": "NJ and",
+    "rec_addr": "H.NO ##55 BLOCK-A, TF304, GREEN VALLY, NR FOOTBAL GRD KANKRIA RD, AHMADABAD CITY, \u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4",
+    "p": 0.8969,
+    "owner": "S1-123823994",
+    "owner_name": "Nj & Sons Limited"
+   },
+   {
+    "s1": "S1-324995289",
+    "s1_name": "Super Trainingservices",
+    "s1_addr": "4Th Phase, Kphb Colony, Balanagar, Hyderabad, Telangana, Lig -67/8",
+    "rec": "S3-557285596",
+    "rec_name": "Super Services",
+    "rec_addr": "Lig -67/8, 4Th Phase, Kphb Colony, Balanagar, Hyderabad, TG",
+    "p": 0.9921,
+    "owner": "S1-324995289",
+    "owner_name": "Super Trainingservices"
+   },
+   {
+    "s1": "S1-597218364",
+    "s1_name": "Link Enterprises Pvt Ltd",
+    "s1_addr": "Kolkata, North 24 Parganas Kolkata, West Bengal, Parganas North, 45-B Kabi Mukunda Das Road Dum Dum Cantt",
+    "rec": "S3-390751604",
+    "rec_name": "Link Enterprises Pvt Ltd",
+    "rec_addr": "40 Kabi Muknda Das Road Dum Dum Cantt, North 24 Parganas Kolkata, Kolkata, Parganas North, WB",
+    "p": 0.995,
+    "owner": "S1-597218364",
+    "owner_name": "Link Enterprises Pvt Ltd"
+   }
+  ],
+  "rej_pos_p03": [
+   {
+    "s1": "S1-302583416",
+    "s1_name": "Golden Therapy",
+    "s1_addr": "261 14th Street, DC, Washington",
+    "rec": "S3-577200097",
+    "rec_name": "Golden Tdenry",
+    "rec_addr": "256 1/2 Fourteenth Street, Washington, District of Columbia",
+    "p": 0.4682,
+    "owner": "S1-302583416",
+    "owner_name": "Golden Therapy"
+   }
+  ]
+ },
+ "V0:F3_street_mismatch_numeq": {
+  "acc_TP": [
+   {
+    "s1": "S1-194320911",
+    "s1_name": "Adrianna's Foods",
+    "s1_addr": "1803 8th, Ballinger, TX",
+    "rec": "S3-601315898",
+    "rec_name": "Adrianna's F\u00f3ods LLC",
+    "rec_addr": "#1803 Eighth, Ballinger, Texas",
+    "p": 0.9988,
+    "owner": "S1-194320911",
+    "owner_name": "Adrianna's Foods"
+   },
+   {
+    "s1": "S1-165902581",
+    "s1_name": "Prime Trust",
+    "s1_addr": "Plot No-14, Block No -6-A, G/F West Extn Area, New Delhi, Central Delhi, Delhi",
+    "rec": "S3-499619173",
+    "rec_name": "Prime Trust",
+    "rec_addr": "Pot No-14, Block No -6-A, G/f West Extn Area, Central Delhi, New Delhi, DL",
+    "p": 0.9999,
+    "owner": "S1-165902581",
+    "owner_name": "Prime Trust"
+   },
+   {
+    "s1": "S1-197972626",
+    "s1_name": "Clean Analytics Laboratories LLC",
+    "s1_addr": "2838 8th Place, Battle Ground, WA",
+    "rec": "S2-129571187",
+    "rec_name": "CLEAN ANALYTICS",
+    "rec_addr": "2838 EIGHTH PLACE, BATTLE GROUND, WA",
+    "p": 0.9998,
+    "owner": "S1-197972626",
+    "owner_name": "Clean Analytics Laboratories LLC"
+   },
+   {
+    "s1": "S1-930540522",
+    "s1_name": "Nichols, Denniston & Hamilton Inc",
+    "s1_addr": "4949 5th Street, Tucson, AZ",
+    "rec": "S3-72829542",
+    "rec_name": "Nichols, Denniston Hamilton Inc Services",
+    "rec_addr": "4949 Fifth Street, Tucson, Arizona",
+    "p": 0.9999,
+    "owner": "S1-930540522",
+    "owner_name": "Nichols, Denniston & Hamilton Inc"
+   },
+   {
+    "s1": "S1-395504672",
+    "s1_name": "She & Co",
+    "s1_addr": "Plot No.49, Bl Sain City, Piprali Road, Kudali, Sikar, Rajasthan",
+    "rec": "S3-971577479",
+    "rec_name": "She and  Co",
+    "rec_addr": "Polt No.49, Bl Sain City, Piprali Road, Kudali, Distt. Sikar, Rajasthan, Sikar, RJ",
+    "p": 0.9999,
+    "owner": "S1-395504672",
+    "owner_name": "She & Co"
+   }
+  ]
+ },
+ "V0:F1r_dist": {
+  "acc_FP": [
+   {
+    "s1": "S1-820795484",
+    "s1_name": "Faridabad Solutions Pvt. Ltd.",
+    "s1_addr": "Haryana, Faridabad, H.No-624 Sector-8, Faridabad",
+    "rec": "S3-963130652",
+    "rec_name": "Faridabad Pvt. Ltd. Center",
+    "rec_addr": "No 2267 Sector-8, Faridabad, HR",
+    "p": 0.9684,
+    "owner": "S1-385864390",
+    "owner_name": "Faridabad Advisors Pvt. Ltd."
+   }
+  ],
+  "acc_TP": [
+   {
+    "s1": "S1-872043187",
+    "s1_name": "Mittal City (India) Associates",
+    "s1_addr": "Flat No 202 2Nd Flr Gopal, Bhavan Opp Jain Temple, Thane, Maharashtra",
+    "rec": "S2-350457428",
+    "rec_name": "Mittal (India) Associates Center",
+    "rec_addr": "D/202 2ND FLR GOPAL, BHAVAN OPP JAIN TEMPLE, THANE, Maharashtra",
+    "p": 0.9999,
+    "owner": "S1-872043187",
+    "owner_name": "Mittal City (India) Associates"
+   },
+   {
+    "s1": "S1-470126029",
+    "s1_name": "Grand Commercial Group",
+    "s1_addr": "Oxford, 5687 Tabbs Creek Road, NC",
+    "rec": "S2-687214663",
+    "rec_name": "Grand (Commercial)",
+    "rec_addr": "5687 TABBS CREEK ROAD, OXFORD, NC",
+    "p": 1.0,
+    "owner": "S1-470126029",
+    "owner_name": "Grand Commercial Group"
+   },
+   {
+    "s1": "S1-548302938",
+    "s1_name": "Fuchs Twin LLC",
+    "s1_addr": "27466 Grouse Street, Palisade, MN",
+    "rec": "S2-999013360",
+    "rec_name": "Fuchs LLC Center",
+    "rec_addr": "27466 GRUSE ST, N/A, PALISADE, MN",
+    "p": 0.9999,
+    "owner": "S1-548302938",
+    "owner_name": "Fuchs Twin LLC"
+   },
+   {
+    "s1": "S1-405216171",
+    "s1_name": "Smith, Wilson and Nava Mountain",
+    "s1_addr": "355 La Fox Street, Unit 119, South Elgin, IL",
+    "rec": "S3-923864421",
+    "rec_name": "Smith, Wilson and Nava Center",
+    "rec_addr": "355 La Fox Street, # 119, South Elgin, Illinois",
+    "p": 0.9999,
+    "owner": "S1-405216171",
+    "owner_name": "Smith, Wilson and Nava Mountain"
+   },
+   {
+    "s1": "S1-424781303",
+    "s1_name": "Richie Maritime Private Limited",
+    "s1_addr": "No:6A, Ramadoss Naidu St, Pudupalayam, Cuddalore-1, Cuddalore-1, Cuddalore, Tamil Nadu",
+    "rec": "S2-961003867",
+    "rec_name": "Richie Private Limited Services",
+    "rec_addr": "NO:6A, RAMADOSS NAIDU ST, PUDUPALAYAM, CUDDALORE-1, CUDDALORE-1, \u0ba4\u0bae\u0bbf\u0bb4\u0bcd\u0ba8\u0bbe\u0b9f\u0bc1",
+    "p": 0.9998,
+    "owner": "S1-424781303",
+    "owner_name": "Richie Maritime Private Limited"
+   }
+  ],
+  "rej_pos_p03": [
+   {
+    "s1": "S1-748225199",
+    "s1_name": "Nrb Exports Private Limited",
+    "s1_addr": "354, Ganesh Nagar 11, New Transport Nagar, Bherukhejda, Jaipur, Rajasthan",
+    "rec": "S3-619587486",
+    "rec_name": "Nrb Private Limited Center",
+    "rec_addr": "35, Jaipur, Chomp, RJ",
+    "p": 0.5449,
+    "owner": "S1-748225199",
+    "owner_name": "Nrb Exports Private Limited"
+   },
+   {
+    "s1": "S1-152597548",
+    "s1_name": "Midwest Program",
+    "s1_addr": "7408 120th Street, Seattle, WA",
+    "rec": "S2-17187432",
+    "rec_name": "Midwest Partners",
+    "rec_addr": "##7408 120TH ST, SEATTLE, WA",
+    "p": 0.5323,
+    "owner": "S1-152597548",
+    "owner_name": "Midwest Program"
+   },
+   {
+    "s1": "S1-587668899",
+    "s1_name": "Foot & Ankle Empire Group",
+    "s1_addr": "9516 Sage Ranch Court, Albuquerque, NM",
+    "rec": "S2-94302409",
+    "rec_name": "FOOT ANKLE & EMPIRE INC",
+    "rec_addr": "951 SAGE RANCH CT, NM, ALBUQUERQUE",
+    "p": 0.6776,
+    "owner": "S1-587668899",
+    "owner_name": "Foot & Ankle Empire Group"
+   },
+   {
+    "s1": "S1-652280951",
+    "s1_name": "A Cure 8 IT",
+    "s1_addr": "2426 Elmwood Avenue, Kenmore, NY",
+    "rec": "S3-74281134",
+    "rec_name": "A Cure IT Center",
+    "rec_addr": "Buffalo, Elmwood Avenue, New York",
+    "p": 0.4957,
+    "owner": "S1-652280951",
+    "owner_name": "A Cure 8 IT"
+   },
+   {
+    "s1": "S1-193126844",
+    "s1_name": "Arch Labs Limited",
+    "s1_addr": "Hyderabad, Telangana, Plot No 19, Lumbini Avenue, Gachibowli, Seri Lingampally",
+    "rec": "S3-969404326",
+    "rec_name": "Arch-La Limited",
+    "rec_addr": "Plot No 89, Lumbini Avenue, Gachibowli, Seri Lingampally, Hyderabad, Andhra Pradesh",
+    "p": 0.7245,
+    "owner": "S1-193126844",
+    "owner_name": "Arch Labs Limited"
+   }
+  ]
+ },
+ "V0:F1r_dist_sameaddr": {
+  "acc_TP": [
+   {
+    "s1": "S1-128926538",
+    "s1_name": "Jordan Certified Table",
+    "s1_addr": "6022 Cortez Court, Nashville, TN",
+    "rec": "S2-664572901",
+    "rec_name": "Jordan Certified Center",
+    "rec_addr": "#6022 CORTEZ COURT, NASHVILLE, TN",
+    "p": 0.9999,
+    "owner": "S1-128926538",
+    "owner_name": "Jordan Certified Table"
+   },
+   {
+    "s1": "S1-82222602",
+    "s1_name": "Columbus Harbor Vendome",
+    "s1_addr": "6730 Kensington Way, Columbus, OH",
+    "rec": "S2-440734087",
+    "rec_name": "Columbus H\u00e1rbor",
+    "rec_addr": "6730 KENSINGTON WAY, COLUMBUS, OH",
+    "p": 0.9999,
+    "owner": "S1-82222602",
+    "owner_name": "Columbus Harbor Vendome"
+   },
+   {
+    "s1": "S1-661920835",
+    "s1_name": "Apex (madras) Pvt. Ltd.",
+    "s1_addr": "Flat No T-I, Plot No 50, Kailash Puri, Jagatpura, Jaipur, Rajasthan",
+    "rec": "S2-221477228",
+    "rec_name": "APEX PVT. LTD. CENTER",
+    "rec_addr": "FLAT NO T-I, PLOT NO 50, KAILASH PURI, JAGATPURA, JAIPUR, Rajasthan",
+    "p": 0.9999,
+    "owner": "S1-661920835",
+    "owner_name": "Apex (madras) Pvt. Ltd."
+   },
+   {
+    "s1": "S1-417666027",
+    "s1_name": "Foot & Ankle Group",
+    "s1_addr": "828 Mid Campus Drive, Manhattan, KS",
+    "rec": "S2-356596380",
+    "rec_name": "Foot & Ankle",
+    "rec_addr": "KS, 828 MID CAMPUS DRIVE, MANHATTAN",
+    "p": 0.9999,
+    "owner": "S1-417666027",
+    "owner_name": "Foot & Ankle Group"
+   },
+   {
+    "s1": "S1-752858221",
+    "s1_name": "Continental Committee",
+    "s1_addr": "10918 Sherman Way, Adelanto, CA",
+    "rec": "S2-557988966",
+    "rec_name": "Continental-Center",
+    "rec_addr": "10918 SHERMAN WAY, ADELANTO, CA",
+    "p": 0.9999,
+    "owner": "S1-752858221",
+    "owner_name": "Continental Committee"
+   }
+  ],
+  "rej_pos_p03": [
+   {
+    "s1": "S1-152597548",
+    "s1_name": "Midwest Program",
+    "s1_addr": "7408 120th Street, Seattle, WA",
+    "rec": "S2-17187432",
+    "rec_name": "Midwest Partners",
+    "rec_addr": "##7408 120TH ST, SEATTLE, WA",
+    "p": 0.5323,
+    "owner": "S1-152597548",
+    "owner_name": "Midwest Program"
+   },
+   {
+    "s1": "S1-486819134",
+    "s1_name": "RI Fuse Inc",
+    "s1_addr": "8205 Inwood Drive, Woburn, MA",
+    "rec": "S2-43041669",
+    "rec_name": "Rl Fuse Inc",
+    "rec_addr": "#8205 INWOOD DRIVE, WOBURN, MA",
+    "p": 0.4536,
+    "owner": "S1-486819134",
+    "owner_name": "RI Fuse Inc"
+   }
+  ]
+ },
+ "V0:F1r_dist_subst": {
+  "acc_FP": [
+   {
+    "s1": "S1-820795484",
+    "s1_name": "Faridabad Solutions Pvt. Ltd.",
+    "s1_addr": "Haryana, Faridabad, H.No-624 Sector-8, Faridabad",
+    "rec": "S3-963130652",
+    "rec_name": "Faridabad Pvt. Ltd. Center",
+    "rec_addr": "No 2267 Sector-8, Faridabad, HR",
+    "p": 0.9684,
+    "owner": "S1-385864390",
+    "owner_name": "Faridabad Advisors Pvt. Ltd."
+   }
+  ],
+  "acc_TP": [
+   {
+    "s1": "S1-817573976",
+    "s1_name": "Emmy's Group",
+    "s1_addr": "1246 State Street, Gassaway, WV",
+    "rec": "S2-481933452",
+    "rec_name": "Emmy's LLC",
+    "rec_addr": "1246 STATE STREET, GASSAWAY, WV",
+    "p": 0.9998,
+    "owner": "S1-817573976",
+    "owner_name": "Emmy's Group"
+   },
+   {
+    "s1": "S1-903799743",
+    "s1_name": "Mitchell Patriot Multimedia LLC",
+    "s1_addr": "15838 Lakeshore Road, Chelan, WA",
+    "rec": "S2-506564005",
+    "rec_name": "Mitchell Patriot LLC Service",
+    "rec_addr": "15838 LAKESHORE ROAD, CHELAN, WA",
+    "p": 0.9999,
+    "owner": "S1-903799743",
+    "owner_name": "Mitchell Patriot Multimedia LLC"
+   },
+   {
+    "s1": "S1-138081225",
+    "s1_name": "Clyance Bain L.L.C.",
+    "s1_addr": "13187 Murdock Terrace, Eden Prairie, MN",
+    "rec": "S3-151871295",
+    "rec_name": "Clyance L.L.C. Center",
+    "rec_addr": "Minnesota, 13187 Murdock Terrace, Eden Prairie",
+    "p": 0.9999,
+    "owner": "S1-138081225",
+    "owner_name": "Clyance Bain L.L.C."
+   },
+   {
+    "s1": "S1-306714094",
+    "s1_name": "UM Integrated Limited",
+    "s1_addr": "M-219, Flat No-2, New Delhi, South Delhi, Delhi",
+    "rec": "S3-43223869",
+    "rec_name": "UM Limited-Services",
+    "rec_addr": "Hn 00891 M-219, Flat No-2, New Delhi, South Delhi, DL",
+    "p": 0.9998,
+    "owner": "S1-306714094",
+    "owner_name": "UM Integrated Limited"
+   },
+   {
+    "s1": "S1-952882718",
+    "s1_name": "Ellis Pennymac LLC",
+    "s1_addr": "6119 Glass Peak Lane, Richmond, TX",
+    "rec": "S3-344166902",
+    "rec_name": "Ellis LLC Center",
+    "rec_addr": "Richmond, Texas, 6119 Glass Peak Ln",
+    "p": 0.9999,
+    "owner": "S1-952882718",
+    "owner_name": "Ellis Pennymac LLC"
+   }
+  ],
+  "rej_pos_p03": [
+   {
+    "s1": "S1-486819134",
+    "s1_name": "RI Fuse Inc",
+    "s1_addr": "8205 Inwood Drive, Woburn, MA",
+    "rec": "S2-43041669",
+    "rec_name": "Rl Fuse Inc",
+    "rec_addr": "#8205 INWOOD DRIVE, WOBURN, MA",
+    "p": 0.4536,
+    "owner": "S1-486819134",
+    "owner_name": "RI Fuse Inc"
+   },
+   {
+    "s1": "S1-152597548",
+    "s1_name": "Midwest Program",
+    "s1_addr": "7408 120th Street, Seattle, WA",
+    "rec": "S2-17187432",
+    "rec_name": "Midwest Partners",
+    "rec_addr": "##7408 120TH ST, SEATTLE, WA",
+    "p": 0.5323,
+    "owner": "S1-152597548",
+    "owner_name": "Midwest Program"
+   },
+   {
+    "s1": "S1-193126844",
+    "s1_name": "Arch Labs Limited",
+    "s1_addr": "Hyderabad, Telangana, Plot No 19, Lumbini Avenue, Gachibowli, Seri Lingampally",
+    "rec": "S3-969404326",
+    "rec_name": "Arch-La Limited",
+    "rec_addr": "Plot No 89, Lumbini Avenue, Gachibowli, Seri Lingampally, Hyderabad, Andhra Pradesh",
+    "p": 0.7245,
+    "owner": "S1-193126844",
+    "owner_name": "Arch Labs Limited"
+   },
+   {
+    "s1": "S1-587668899",
+    "s1_name": "Foot & Ankle Empire Group",
+    "s1_addr": "9516 Sage Ranch Court, Albuquerque, NM",
+    "rec": "S2-94302409",
+    "rec_name": "FOOT ANKLE & EMPIRE INC",
+    "rec_addr": "951 SAGE RANCH CT, NM, ALBUQUERQUE",
+    "p": 0.6776,
+    "owner": "S1-587668899",
+    "owner_name": "Foot & Ankle Empire Group"
+   },
+   {
+    "s1": "S1-652280951",
+    "s1_name": "A Cure 8 IT",
+    "s1_addr": "2426 Elmwood Avenue, Kenmore, NY",
+    "rec": "S3-74281134",
+    "rec_name": "A Cure IT Center",
+    "rec_addr": "Buffalo, Elmwood Avenue, New York",
+    "p": 0.4957,
+    "owner": "S1-652280951",
+    "owner_name": "A Cure 8 IT"
+   }
+  ]
+ },
+ "V0:F1r_dist_onesided": {
+  "acc_TP": [
+   {
+    "s1": "S1-581602357",
+    "s1_name": "Chubb Preferred Douglas",
+    "s1_addr": "8914 Ashcroft Creek Court, Cypress, TX",
+    "rec": "S3-188848148",
+    "rec_name": "Chubb [Preferred]",
+    "rec_addr": "8914 Ashcroft Creek Ct, Cypress, Texas",
+    "p": 0.9999,
+    "owner": "S1-581602357",
+    "owner_name": "Chubb Preferred Douglas"
+   },
+   {
+    "s1": "S1-551238795",
+    "s1_name": "Stockinger Fresh Tree",
+    "s1_addr": "920 Southbridge Street, Unit 8, Worcester, MA",
+    "rec": "S3-706564435",
+    "rec_name": "Stockinger Fresh",
+    "rec_addr": "920 Southbridge Street, # 8, Worcester, Massachusetts",
+    "p": 0.9999,
+    "owner": "S1-551238795",
+    "owner_name": "Stockinger Fresh Tree"
+   },
+   {
+    "s1": "S1-371357515",
+    "s1_name": "Maid Grill of Ventura",
+    "s1_addr": "1387 Hanover Lane, Ventura, CA",
+    "rec": "S2-645816259",
+    "rec_name": "MAID GRILL OF",
+    "rec_addr": "1387- HANOVER LANE, VENTURA, CA",
+    "p": 0.9992,
+    "owner": "S1-371357515",
+    "owner_name": "Maid Grill of Ventura"
+   },
+   {
+    "s1": "S1-352770800",
+    "s1_name": "Pediatric Anchor Group",
+    "s1_addr": "2530 Island View Road, Essex, MD",
+    "rec": "S2-362309980",
+    "rec_name": "PEDIATRIC  ANCHOR",
+    "rec_addr": "##2530 ISLAND VIEW ROAD, ESSEX, MD",
+    "p": 1.0,
+    "owner": "S1-352770800",
+    "owner_name": "Pediatric Anchor Group"
+   },
+   {
+    "s1": "S1-248693983",
+    "s1_name": "Eye Health Associates",
+    "s1_addr": "18112 60th Avenue, Kenmore, WA",
+    "rec": "S2-16206639",
+    "rec_name": "Eye-Health",
+    "rec_addr": "60RD AVE, KENMORE, WA",
+    "p": 0.9996,
+    "owner": "S1-248693983",
+    "owner_name": "Eye Health Associates"
+   }
+  ]
+ },
+ "V0:F1r_filler": {
+  "acc_FP": [
+   {
+    "s1": "S1-870100840",
+    "s1_name": "Reed, Tolar & Carter Partners",
+    "s1_addr": "E5984 Herzberg Road, Town Of Dupont, WI",
+    "rec": "S3-199352979",
+    "rec_name": "Reed, Tolar Carter LLC Partners",
+    "rec_addr": "",
+    "p": 0.9612,
+    "owner": "S1-730666422",
+    "owner_name": "Reed, Tolar & Carter LLC"
+   },
+   {
+    "s1": "S1-627136340",
+    "s1_name": "Pediatric Dental Associates",
+    "s1_addr": "1686 Hawkins Court, Greenwood, IN",
+    "rec": "S3-993422494",
+    "rec_name": "Pediatric Dental Associates Ltd",
+    "rec_addr": "1688 Hawkins Ct, Greenwood, Indiana",
+    "p": 0.8489,
+    "owner": null,
+    "owner_name": null
+   },
+   {
+    "s1": "S1-302770299",
+    "s1_name": "Ronda's Plumbing",
+    "s1_addr": "722 Beckham Lane, Unit APT 402, Rock Hill, SC",
+    "rec": "S3-44906076",
+    "rec_name": "Ronda's Plumbing Co",
+    "rec_addr": "72 Beckham Lane, Rock Hill, South Carolina",
+    "p": 0.9841,
+    "owner": null,
+    "owner_name": null
+   },
+   {
+    "s1": "S1-178552699",
+    "s1_name": "ZDY View",
+    "s1_addr": "68 Broad Street, Unit 1, Lynn, MA",
+    "rec": "S3-540292251",
+    "rec_name": "ZDY View LLC",
+    "rec_addr": "Lynn, Massachusetts, # 1, 071 Broad Street",
+    "p": 0.9004,
+    "owner": null,
+    "owner_name": null
+   }
+  ],
+  "acc_TP": [
+   {
+    "s1": "S1-568608772",
+    "s1_name": "Vijay Best Engineering Pvt Ltd",
+    "s1_addr": "529/1121, Panth Nagar Near Mandir, Non-Rural-Inr Khurram Nagar, Lucknow, Uttar Pradesh",
+    "rec": "S3-528496202",
+    "rec_name": "Vijay Best Engineering Pvt",
+    "rec_addr": "529/1121, Lucknow, \u0909\u0924\u094d\u0924\u0930 \u092a\u094d\u0930\u0926\u0947\u0936",
+    "p": 0.9999,
+    "owner": "S1-568608772",
+    "owner_name": "Vijay Best Engineering Pvt Ltd"
+   },
+   {
+    "s1": "S1-191558855",
+    "s1_name": "Kim Quality Ingredients LLC",
+    "s1_addr": "2421 Armstrong Street, Kokomo, IN",
+    "rec": "S3-385935679",
+    "rec_name": "Kim Quality Ingredients",
+    "rec_addr": "",
+    "p": 0.9913,
+    "owner": "S1-191558855",
+    "owner_name": "Kim Quality Ingredients LLC"
+   },
+   {
+    "s1": "S1-534730081",
+    "s1_name": "Global Institute IV",
+    "s1_addr": "6334 Mary Street, Gibson, LA",
+    "rec": "S3-616638247",
+    "rec_name": "Global Institute IV LLC",
+    "rec_addr": "6334b Mary Saint, Gibson, Louisiana",
+    "p": 0.999,
+    "owner": "S1-534730081",
+    "owner_name": "Global Institute IV"
+   },
+   {
+    "s1": "S1-242672229",
+    "s1_name": "Integrated Midwest Research",
+    "s1_addr": "4833 Easley Avenue, Millington, TN",
+    "rec": "S3-945945917",
+    "rec_name": "Integrated Midwest",
+    "rec_addr": "4833 Easley Ave, Millington, Tennessee",
+    "p": 0.9999,
+    "owner": "S1-242672229",
+    "owner_name": "Integrated Midwest Research"
+   },
+   {
+    "s1": "S1-872642461",
+    "s1_name": "Wong Institute of Technology Inc",
+    "s1_addr": "2703 S 8 Street, Ironton, OH",
+    "rec": "S3-258729184",
+    "rec_name": "Wong Institute of Technology",
+    "rec_addr": "02703 South 8 Street, Ohio, Ironton",
+    "p": 0.9999,
+    "owner": "S1-872642461",
+    "owner_name": "Wong Institute of Technology Inc"
+   }
+  ],
+  "rej_pos_p03": [
+   {
+    "s1": "S1-542237243",
+    "s1_name": "Hughes and Lashway Culture LLC",
+    "s1_addr": "4712 14th Avenue, Minneapolis, MN",
+    "rec": "S2-906667219",
+    "rec_name": "The Hughes & Lashway Culture LLC",
+    "rec_addr": "",
+    "p": 0.7557,
+    "owner": "S1-542237243",
+    "owner_name": "Hughes and Lashway Culture LLC"
+   },
+   {
+    "s1": "S1-658871567",
+    "s1_name": "Big Deli",
+    "s1_addr": "3112 Iowa Street, Baytown, TX",
+    "rec": "S2-922057103",
+    "rec_name": "Big Deli Corp",
+    "rec_addr": "311 IOWA ST, PO BOX 4000, BAYTOWN, TX",
+    "p": 0.3486,
+    "owner": "S1-658871567",
+    "owner_name": "Big Deli"
+   },
+   {
+    "s1": "S1-77597198",
+    "s1_name": "Baba & Co Corporation",
+    "s1_addr": "T C 21/332, Kr 141, Geethanjali Kudapanakunnu, Peroorkada Po Thiruvananthapuram, Thiruvananthapuram, Thiruvananthapuram, Trivandrum, Kerala",
+    "rec": "S3-51508561",
+    "rec_name": "Baba and Co Corporation",
+    "rec_addr": "",
+    "p": 0.342,
+    "owner": "S1-77597198",
+    "owner_name": "Baba & Co Corporation"
+   },
+   {
+    "s1": "S1-421488480",
+    "s1_name": "Omkaar India Private Limited",
+    "s1_addr": "703 A Wing, Stanley, Parad, S V P School Road, Thane, Maharashtra",
+    "rec": "S3-217576401",
+    "rec_name": "Omkaar India Limited Service",
+    "rec_addr": "",
+    "p": 0.3607,
+    "owner": "S1-421488480",
+    "owner_name": "Omkaar India Private Limited"
+   },
+   {
+    "s1": "S1-355329648",
+    "s1_name": "Spomer Rocky Western",
+    "s1_addr": "24 Lebanon Avenue, Pittsfield, MA",
+    "rec": "S2-594661683",
+    "rec_name": "Spomer Rocky Western  Inc",
+    "rec_addr": "357 LEBANON AVE, PITTSFIELD, MA",
+    "p": 0.415,
+    "owner": "S1-355329648",
+    "owner_name": "Spomer Rocky Western"
+   }
+  ]
+ },
+ "V0:F1r_filler_sameaddr": {
+  "acc_TP": [
+   {
+    "s1": "S1-194532114",
+    "s1_name": "Chavez Pmv LLC",
+    "s1_addr": "2275 Emory Lane, Normal, IL",
+    "rec": "S3-501082212",
+    "rec_name": "Chavez Pmv",
+    "rec_addr": "2275 Emory Lane, Normal, Illinois",
+    "p": 0.9999,
+    "owner": "S1-194532114",
+    "owner_name": "Chavez Pmv LLC"
+   },
+   {
+    "s1": "S1-90234613",
+    "s1_name": "Allied Nutrition Technologies",
+    "s1_addr": "Mchenry, IL, 5409 Woodland Drive",
+    "rec": "S2-277962778",
+    "rec_name": "Allied Nutrition Technologies Corp",
+    "rec_addr": "5409 WOODLAND DR, MCHENRY, IL",
+    "p": 0.9998,
+    "owner": "S1-90234613",
+    "owner_name": "Allied Nutrition Technologies"
+   },
+   {
+    "s1": "S1-619592622",
+    "s1_name": "Modern Detailing Inc",
+    "s1_addr": "106 Hillview Circle, Rockingham, NC",
+    "rec": "S3-620956622",
+    "rec_name": "Modern  Inc Partners",
+    "rec_addr": "0106 Hillview Cir, Rockingham, North Carolina",
+    "p": 0.9992,
+    "owner": "S1-619592622",
+    "owner_name": "Modern Detailing Inc"
+   },
+   {
+    "s1": "S1-680677386",
+    "s1_name": "Advanced Pipeline LLC",
+    "s1_addr": "2560 Piedmont Drive, Merced, CA",
+    "rec": "S2-510010326",
+    "rec_name": "Advanced Pipeline",
+    "rec_addr": "002560 PIEDMONT DR, MERCED, CA",
+    "p": 0.9999,
+    "owner": "S1-680677386",
+    "owner_name": "Advanced Pipeline LLC"
+   },
+   {
+    "s1": "S1-7087025",
+    "s1_name": "Perambra P O Care Limited",
+    "s1_addr": "Pp5/652 Safari Complex, Opp. Mini Civil Station, Perambra P O, Kozhikode, Kerala",
+    "rec": "S3-668569716",
+    "rec_name": ">> Perambra P O Care Ltd",
+    "rec_addr": "Pp5/652 Safari Complex, Opp. Mini Civil Station, Perambra P O, Kozhikode, KL",
+    "p": 1.0,
+    "owner": "S1-7087025",
+    "owner_name": "Perambra P O Care Limited"
+   }
+  ]
+ },
+ "V0:F1_typo_only": {
+  "acc_FP": [
+   {
+    "s1": "S1-621387050",
+    "s1_name": "Murphy Science",
+    "s1_addr": "10445 Shadow Bend Drive, Dallas, TX",
+    "rec": "S2-671870844",
+    "rec_name": "Murphy  Sciences",
+    "rec_addr": "",
+    "p": 0.8855,
+    "owner": null,
+    "owner_name": null
+   }
+  ],
+  "acc_TP": [
+   {
+    "s1": "S1-809852612",
+    "s1_name": "Sion Traders Private Limited",
+    "s1_addr": "Idukki, Surianelly, V/ 153, Kerala, Surianelly P O Babu Driver Road, Surianelly",
+    "rec": "S3-65552634",
+    "rec_name": "Si0n Traders Private Limited",
+    "rec_addr": "V/ 153, Surianelly P O Babu Driver Road, Surianelly, Surianelly, Idukki, Keralam",
+    "p": 0.9997,
+    "owner": "S1-809852612",
+    "owner_name": "Sion Traders Private Limited"
+   },
+   {
+    "s1": "S1-304201039",
+    "s1_name": "Pediatric Dental Metropolitan Care Associates Inc",
+    "s1_addr": "21 Perham Street, Chelmsford, MA",
+    "rec": "S3-183522875",
+    "rec_name": "Pediatric Dental Metropolitan Care Associates Inc Authority",
+    "rec_addr": "21 Perham Street, Chelmsford, Massachusetts",
+    "p": 0.9999,
+    "owner": "S1-304201039",
+    "owner_name": "Pediatric Dental Metropolitan Care Associates Inc"
+   },
+   {
+    "s1": "S1-258029446",
+    "s1_name": "Rolon Regency of Andalusia PC",
+    "s1_addr": "12026 78th Avenue, Andalusia, IL",
+    "rec": "S3-622341471",
+    "rec_name": "R0lon Regency of Andalusia PC",
+    "rec_addr": "12026- 78rd Avenue, Andalusia, Illinois",
+    "p": 0.9998,
+    "owner": "S1-258029446",
+    "owner_name": "Rolon Regency of Andalusia PC"
+   },
+   {
+    "s1": "S1-2617726",
+    "s1_name": "Dancy Liberty Lincoln LLC",
+    "s1_addr": "1495 Overlook Road, Blountsville, AL",
+    "rec": "S2-620133067",
+    "rec_name": "Dancy Liberty Liselbon (LLC)",
+    "rec_addr": "495 OVERLOOK ROAD, BLOUNTSVILLE, AL",
+    "p": 0.9992,
+    "owner": "S1-2617726",
+    "owner_name": "Dancy Liberty Lincoln LLC"
+   },
+   {
+    "s1": "S1-748253517",
+    "s1_name": "Hicks and Kellogg LLC",
+    "s1_addr": "N8745 O, Town Of New Glarus, WI",
+    "rec": "S2-452632440",
+    "rec_name": "hicks and ke1logg llc",
+    "rec_addr": "N8745 O, TOWN OF NEW GLARUS, WI",
+    "p": 0.9999,
+    "owner": "S1-748253517",
+    "owner_name": "Hicks and Kellogg LLC"
+   }
+  ],
+  "rej_pos_p03": [
+   {
+    "s1": "S1-81361079",
+    "s1_name": "Driggers Cascade Biomedical LLC",
+    "s1_addr": "Newfolden, MN, 25543 130th Avenue",
+    "rec": "S2-553155848",
+    "rec_name": "Driggers-Ccaaed Biomedical LLC",
+    "rec_addr": "",
+    "p": 0.5315,
+    "owner": "S1-81361079",
+    "owner_name": "Driggers Cascade Biomedical LLC"
+   },
+   {
+    "s1": "S1-626602148",
+    "s1_name": "Global Biomedical Partners",
+    "s1_addr": "5925 Quail Hollow Road, Unit D, Charlotte, NC",
+    "rec": "S2-305132414",
+    "rec_name": "Global Biomedical Parfnters",
+    "rec_addr": "",
+    "p": 0.7369,
+    "owner": "S1-626602148",
+    "owner_name": "Global Biomedical Partners"
+   },
+   {
+    "s1": "S1-26448073",
+    "s1_name": "Page County Institute of Technology",
+    "s1_addr": "6415 Us Hwy 211, Page County, VA",
+    "rec": "S3-990632127",
+    "rec_name": "Page Cerihgy Institute Of-Technology",
+    "rec_addr": "",
+    "p": 0.6296,
+    "owner": "S1-26448073",
+    "owner_name": "Page County Institute of Technology"
+   },
+   {
+    "s1": "S1-261349022",
+    "s1_name": "American Ave LLC",
+    "s1_addr": "14366 Banister Drive, IN, Noblesville",
+    "rec": "S3-290330999",
+    "rec_name": "Amterican Ave LLC",
+    "rec_addr": "14366 Banister Drive, Noblesville, Indiana",
+    "p": 0.735,
+    "owner": "S1-261349022",
+    "owner_name": "American Ave LLC"
+   },
+   {
+    "s1": "S1-921699860",
+    "s1_name": "Clear Networks Corp",
+    "s1_addr": "Unit Apartment 7, 243 1st Street, NY, Mount Vernon",
+    "rec": "S3-654412066",
+    "rec_name": "Clear Nfwtlrks Corp",
+    "rec_addr": "",
+    "p": 0.4376,
+    "owner": "S1-921699860",
+    "owner_name": "Clear Networks Corp"
+   }
+  ]
+ },
+ "V0:F3r_mismatch": {
+  "acc_TP": [
+   {
+    "s1": "S1-10125156",
+    "s1_name": "Heritage Epr LLC",
+    "s1_addr": "Unit UNIT 3SE, Tinley Park, 7795 Bristol Park Drive, IL",
+    "rec": "S3-678965386",
+    "rec_name": "Epr Heritage LLC",
+    "rec_addr": "7795 Bristol Park Drive, # UNIT 3SE, Tinley Park, Illinois",
+    "p": 1.0,
+    "owner": "S1-10125156",
+    "owner_name": "Heritage Epr LLC"
+   },
+   {
+    "s1": "S1-248007230",
+    "s1_name": "Interface (India) Housing",
+    "s1_addr": "22Nd Floor, World Trade Centre, Brigade Gateway Complex, Rajajinagar, Bangalore, No.2210, Karnataka, Bangalore",
+    "rec": "S2-102978938",
+    "rec_name": "Interface (India) Housing Corp",
+    "rec_addr": "DOOR NO #2210 , 22ND FLOOR, WORLD TRADE CENTRE, BRIGADE GATEWAY COMPLEX, RAJAJINAGAR, BANGALORE, Karnataka",
+    "p": 0.9995,
+    "owner": "S1-248007230",
+    "owner_name": "Interface (India) Housing"
+   },
+   {
+    "s1": "S1-487259775",
+    "s1_name": "Balance Institute of Technology Co",
+    "s1_addr": "Plotno.8, Shreevidhya Nagarco-Op.Hsltd.Suraj House, Oppusmanpuragarden, Ash, Ram Road, Ahmedabad, Gujarat",
+    "rec": "S2-591224887",
+    "rec_name": "balanceinstitutetechnology.com",
+    "rec_addr": "DOOR NO ##8 , SHREEVIDHYA NAGARCO-OP.HSLTD.SURAJ HOUSE, OPPUSMANPURAGARDEN, ASH, RAM ROAD, Gujarat",
+    "p": 0.9999,
+    "owner": "S1-487259775",
+    "owner_name": "Balance Institute of Technology Co"
+   },
+   {
+    "s1": "S1-828499680",
+    "s1_name": "Universal Global Pvt Ltd",
+    "s1_addr": "Vashi, Maharashtra, Groma House Plot No.14-C, Sector-19, Navi Mumbai, Office No.B2/03",
+    "rec": "S3-942109123",
+    "rec_name": "\u092f\u0942\u0928\u093f\u0935\u0930\u094d\u0938\u0932 \u0917\u094d\u0932\u094b\u092c\u0932 \u092a\u094d\u0930\u093e. \u0932\u093f.",
+    "rec_addr": "Office No.b2/03, Vashi, \u092e\u0939\u093e\u0930\u093e\u0937\u094d\u091f\u094d\u0930, Navi Mumbai",
+    "p": 0.9998,
+    "owner": "S1-828499680",
+    "owner_name": "Universal Global Pvt Ltd"
+   },
+   {
+    "s1": "S1-556858428",
+    "s1_name": "Raj & Co",
+    "s1_addr": "Maharashtra, Thane, 7Th Floor, F Wing, Raj Exotica, Near J. P. North, Mira Road (E), Flat No. 703",
+    "rec": "S3-256267976",
+    "rec_name": "Raj & Co",
+    "rec_addr": "Flat No. 703, 7Th Floor, F Wing, Raj Exotica, Near J. P. North, Mira Road (E), Thane, MH",
+    "p": 1.0,
+    "owner": "S1-556858428",
+    "owner_name": "Raj & Co"
+   }
+  ],
+  "rej_pos_p03": [
+   {
+    "s1": "S1-302583416",
+    "s1_name": "Golden Therapy",
+    "s1_addr": "261 14th Street, DC, Washington",
+    "rec": "S3-577200097",
+    "rec_name": "Golden Tdenry",
+    "rec_addr": "256 1/2 Fourteenth Street, Washington, District of Columbia",
+    "p": 0.4682,
+    "owner": "S1-302583416",
+    "owner_name": "Golden Therapy"
+   }
+  ]
+ },
+ "V0:F3r_mismatch_numeq": {
+  "acc_TP": [
+   {
+    "s1": "S1-180468474",
+    "s1_name": "Petri Desert Grading",
+    "s1_addr": "1925 113th Court, Vancouver, WA",
+    "rec": "S2-945488354",
+    "rec_name": "Petri Desert  Grading",
+    "rec_addr": "1925 113ND CT, VANCOUVER, WA",
+    "p": 1.0,
+    "owner": "S1-180468474",
+    "owner_name": "Petri Desert Grading"
+   },
+   {
+    "s1": "S1-427980406",
+    "s1_name": "Randy's Elite Property Solutions",
+    "s1_addr": "3000 2nd Court, Russellville, AR",
+    "rec": "S2-626336844",
+    "rec_name": "Randy's Elite Property Solutions Corp",
+    "rec_addr": "##3000 SECOND COURT, RUSSELLVILLE, AR",
+    "p": 0.999,
+    "owner": "S1-427980406",
+    "owner_name": "Randy's Elite Property Solutions"
+   },
+   {
+    "s1": "S1-243874974",
+    "s1_name": "Futch Transport LLC",
+    "s1_addr": "KS, 902 12th Avenue, Emporia",
+    "rec": "S2-716192751",
+    "rec_name": "FUTCH TRANSPORT",
+    "rec_addr": "902-904 TWELFTH AVENUE, EMPORIA CITY, KS",
+    "p": 0.9999,
+    "owner": "S1-243874974",
+    "owner_name": "Futch Transport LLC"
+   },
+   {
+    "s1": "S1-947084738",
+    "s1_name": "Lotus Food (India) Limited",
+    "s1_addr": "Flat No. 303, Building No. 01, Mohan Palms Phase 3 Katrap, Badlapur East, Thane, Maharashtra",
+    "rec": "S2-712210287",
+    "rec_name": "Lotus Food (Ibndia) Limited",
+    "rec_addr": "DOOR NO 303. , BUILDING NO. 01, MOHAN PALMS PHASE 3 KATRAP, BADLAPUR EAST, THANE, \u092e\u0939\u093e\u0930\u093e\u0937\u094d\u091f\u094d\u0930",
+    "p": 0.9998,
+    "owner": "S1-947084738",
+    "owner_name": "Lotus Food (India) Limited"
+   },
+   {
+    "s1": "S1-841267370",
+    "s1_name": "Infotel Steel Private Limited",
+    "s1_addr": "Flat No 11, 3 Rd Floor, F- Wing, Dwaradheesh Residency, Near Jagtap Dairy, Pimple Sa, Udagar, Pune, Maharashtra",
+    "rec": "S2-149788313",
+    "rec_name": "Infotel Steel Private Ltd",
+    "rec_addr": "DOOR NO 11 , 3 RD FLOOR, F- WING, DWARADHEESH RESIDENCY, NEAR JAGTAP DAIRY, PIMPLE SA, UDAGAR, PUNE, \u092e\u0939\u093e\u0930\u093e\u0937\u094d\u091f\u094d\u0930",
+    "p": 0.9999,
+    "owner": "S1-841267370",
+    "owner_name": "Infotel Steel Private Limited"
+   }
+  ]
+ },
+ "V0:F3r_numeq_anyov": {
+  "acc_TP": [
+   {
+    "s1": "S1-830827755",
+    "s1_name": "Do Hospital Private Limited",
+    "s1_addr": "Khasra No. 182, 183 & 190 Vill Kamlabad, Barhauli, Bkt, Lucknow, Uttar Pradesh",
+    "rec": "S2-118765851",
+    "rec_name": "Do Hospital Private",
+    "rec_addr": "DOOR NO 182 , 183 & 190 VILL KAMLABAD, BARHAULI, BKT, LUCKNOW, \u0909\u0924\u094d\u0924\u0930 \u092a\u094d\u0930\u0926\u0947\u0936",
+    "p": 0.9999,
+    "owner": "S1-830827755",
+    "owner_name": "Do Hospital Private Limited"
+   },
+   {
+    "s1": "S1-126708197",
+    "s1_name": "Quality Digitalbridge PC",
+    "s1_addr": "682 7th Street, Independence, OR",
+    "rec": "S3-629237859",
+    "rec_name": "Quality PC Partners",
+    "rec_addr": "682 Seventh St, Oregon, Independence",
+    "p": 0.9984,
+    "owner": "S1-126708197",
+    "owner_name": "Quality Digitalbridge PC"
+   },
+   {
+    "s1": "S1-905693825",
+    "s1_name": "Thies Trg",
+    "s1_addr": "428 5th Avenue, Fl 0, Brooklyn, MD",
+    "rec": "S2-222892682",
+    "rec_name": "thiestrg.com",
+    "rec_addr": "MD, 428 FIFTH AVENUE, BROOKLYN",
+    "p": 0.9995,
+    "owner": "S1-905693825",
+    "owner_name": "Thies Trg"
+   },
+   {
+    "s1": "S1-368926169",
+    "s1_name": "T & H Concord",
+    "s1_addr": "93-22 245th Street, Hempstead, NY",
+    "rec": "S2-278217555",
+    "rec_name": "thconcord.com",
+    "rec_addr": "93-22 245nd Street, FLORAL PARK, NY",
+    "p": 0.9996,
+    "owner": "S1-368926169",
+    "owner_name": "T & H Concord"
+   },
+   {
+    "s1": "S1-407397705",
+    "s1_name": "Thomas Shreya",
+    "s1_addr": "1108 11th Street, Milford, IA",
+    "rec": "S3-957904109",
+    "rec_name": "thomas shreya",
+    "rec_addr": "1108 Eleventh St, Okoboji Twp, Iowa",
+    "p": 0.9999,
+    "owner": "S1-407397705",
+    "owner_name": "Thomas Shreya"
+   }
+  ]
+ }
+}

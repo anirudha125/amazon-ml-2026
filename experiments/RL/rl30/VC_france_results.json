@@ -1,0 +1,681 @@
+{
+ "p_levels": {
+  "kept_all": {
+   "n": 854396,
+   "mean_p": 0.9929,
+   "median_p": 0.9999,
+   "share_p_lt_0_99": 0.1022,
+   "share_p_lt_0_9": 0.0244,
+   "ESTIMATED_fp_if_calibrated_sum_1_minus_p": 6078.1
+  },
+  "kept_street_match": {
+   "n": 821574,
+   "mean_p": 0.9939,
+   "median_p": 0.9999,
+   "share_p_lt_0_99": 0.0879,
+   "share_p_lt_0_9": 0.0209,
+   "ESTIMATED_fp_if_calibrated_sum_1_minus_p": 5045.8
+  },
+  "kept_KEY2": {
+   "n": 1463,
+   "mean_p": 0.9479,
+   "median_p": 0.9795,
+   "share_p_lt_0_99": 0.5789,
+   "share_p_lt_0_9": 0.2249,
+   "ESTIMATED_fp_if_calibrated_sum_1_minus_p": 76.2
+  },
+  "kept_KEY2&same_core": {
+   "n": 1177,
+   "mean_p": 0.9518,
+   "median_p": 0.9866,
+   "share_p_lt_0_99": 0.537,
+   "share_p_lt_0_9": 0.2022,
+   "ESTIMATED_fp_if_calibrated_sum_1_minus_p": 56.8
+  },
+  "kept_DIFF": {
+   "n": 3701,
+   "mean_p": 0.9468,
+   "median_p": 0.9768,
+   "share_p_lt_0_99": 0.6158,
+   "share_p_lt_0_9": 0.2245,
+   "ESTIMATED_fp_if_calibrated_sum_1_minus_p": 197.1
+  },
+  "accepted_KEY2": {
+   "n": 8777,
+   "mean_p": 0.9305,
+   "median_p": 0.9536,
+   "share_p_lt_0_99": 0.7285,
+   "share_p_lt_0_9": 0.3089,
+   "ESTIMATED_fp_if_calibrated_sum_1_minus_p": 609.9
+  }
+ },
+ "maxclaim_rule_reproduces_S005_kept_final": 1.0,
+ "S004_to_S005": {
+  "KEY2": {
+   "n": 8777,
+   "in_S004_accepted": 8749,
+   "mean_p_S004": 0.9664,
+   "mean_p_S005": 0.9309,
+   "share_p_decreased": 0.9284,
+   "mean_delta_logit": -0.9665,
+   "kept_in_S004": 1504,
+   "kept_in_S005": 1463
+  },
+  "KEY2&kept5": {
+   "n": 1463,
+   "in_S004_accepted": 1449,
+   "mean_p_S004": 0.9677,
+   "mean_p_S005": 0.9491,
+   "share_p_decreased": 0.8475,
+   "mean_delta_logit": -0.6835,
+   "kept_in_S004": 1386,
+   "kept_in_S005": 1463
+  },
+  "street_match&kept5": {
+   "n": 821574,
+   "in_S004_accepted": 814683,
+   "mean_p_S004": 0.9937,
+   "mean_p_S005": 0.9948,
+   "share_p_decreased": 0.3184,
+   "mean_delta_logit": 0.1312,
+   "kept_in_S004": 814285,
+   "kept_in_S005": 821574
+  },
+  "all_accepted5": {
+   "n": 879329,
+   "in_S004_accepted": 869096,
+   "mean_p_S004": 0.9912,
+   "mean_p_S005": 0.9921,
+   "share_p_decreased": 0.3317,
+   "mean_delta_logit": 0.1281,
+   "kept_in_S004": 844295,
+   "kept_in_S005": 854396
+  },
+  "S004_accepted_S005_rejected": {
+   "n": 33226,
+   "KEY2": 6322,
+   "KEY2_kept_in_S004": 477,
+   "kept_in_S004": 14684,
+   "KEY2_share": 0.1903
+  },
+  "S004_kept_KEY2_total": 1981,
+  "S005_kept_KEY2_total": 1463,
+  "S1_whose_kept_KEY2_set_changed_S004_to_S005": 669
+ },
+ "france_redundancy_single_column_auc_for_KEY2": {
+  "accepted_both": {
+   "n": 850356,
+   "KEY2": 8777,
+   "top5_existing": [
+    [
+     0.9922,
+     "rv_gap"
+    ],
+    [
+     0.9901,
+     "rv_sa"
+    ],
+    [
+     0.9834,
+     "rv_rank"
+    ],
+    [
+     0.9708,
+     "rv_so"
+    ],
+    [
+     0.8742,
+     "dcos"
+    ]
+   ],
+   "aucs": {
+    "name_tset3": 0.4755,
+    "name_jacc4": 0.4721,
+    "log_s1freq5": 0.8507,
+    "addr_lev11": 0.4885,
+    "addr_jw12": 0.6737,
+    "addr_tsort13": 0.5401,
+    "addr_tset14": 0.747,
+    "addr_jacc15": 0.5577,
+    "first_num_agree56": 0.7004,
+    "house_agree57": 0.6775,
+    "house_absdiff58": 0.5189,
+    "addr_n_s1_only83": 0.3786,
+    "addr_n_c_only84": 0.67,
+    "addr_frac_s1_only85": 0.3811,
+    "addr_frac_c_only86": 0.6206,
+    "nf_n": 0.8202,
+    "nf_a": 0.4874,
+    "af_n": 0.6297,
+    "af_a": 0.7695,
+    "coloc": 0.4863,
+    "dupf": 0.8517,
+    "rv_rank": 0.9834,
+    "rv_sa": 0.9901,
+    "rv_so": 0.9708,
+    "rv_gap": 0.9922,
+    "rank_dense": 0.8256,
+    "dcos": 0.8742,
+    "rrUb": 0.8488,
+    "p_S005": 0.9212
+   }
+  },
+  "kept_both": {
+   "n": 827236,
+   "KEY2": 1463,
+   "top5_existing": [
+    [
+     0.986,
+     "rv_gap"
+    ],
+    [
+     0.9754,
+     "rv_sa"
+    ],
+    [
+     0.9723,
+     "rv_rank"
+    ],
+    [
+     0.9707,
+     "rv_so"
+    ],
+    [
+     0.8641,
+     "dcos"
+    ]
+   ],
+   "aucs": {
+    "name_tset3": 0.4618,
+    "name_jacc4": 0.4362,
+    "log_s1freq5": 0.8545,
+    "addr_lev11": 0.4635,
+    "addr_jw12": 0.6437,
+    "addr_tsort13": 0.5268,
+    "addr_tset14": 0.7533,
+    "addr_jacc15": 0.5529,
+    "first_num_agree56": 0.6274,
+    "house_agree57": 0.6135,
+    "house_absdiff58": 0.6278,
+    "addr_n_s1_only83": 0.3761,
+    "addr_n_c_only84": 0.7007,
+    "addr_frac_s1_only85": 0.3822,
+    "addr_frac_c_only86": 0.6501,
+    "nf_n": 0.7862,
+    "nf_a": 0.496,
+    "af_n": 0.408,
+    "af_a": 0.7736,
+    "coloc": 0.493,
+    "dupf": 0.8557,
+    "rv_rank": 0.9723,
+    "rv_sa": 0.9754,
+    "rv_so": 0.9707,
+    "rv_gap": 0.986,
+    "rank_dense": 0.7965,
+    "dcos": 0.8641,
+    "rrUb": 0.8288,
+    "p_S005": 0.8938
+   }
+  },
+  "kept_both&same_core": {
+   "n": 578918,
+   "KEY2": 1177,
+   "top5_existing": [
+    [
+     0.9866,
+     "rv_gap"
+    ],
+    [
+     0.9771,
+     "rv_so"
+    ],
+    [
+     0.9741,
+     "rv_sa"
+    ],
+    [
+     0.9733,
+     "rv_rank"
+    ],
+    [
+     0.9302,
+     "dcos"
+    ]
+   ],
+   "aucs": {
+    "name_tset3": 0.5054,
+    "name_jacc4": 0.4769,
+    "log_s1freq5": 0.8781,
+    "addr_lev11": 0.4487,
+    "addr_jw12": 0.6374,
+    "addr_tsort13": 0.5079,
+    "addr_tset14": 0.7433,
+    "addr_jacc15": 0.5423,
+    "first_num_agree56": 0.6419,
+    "house_agree57": 0.6264,
+    "house_absdiff58": 0.6495,
+    "addr_n_s1_only83": 0.3511,
+    "addr_n_c_only84": 0.684,
+    "addr_frac_s1_only85": 0.3568,
+    "addr_frac_c_only86": 0.6314,
+    "nf_n": 0.8425,
+    "nf_a": 0.5503,
+    "af_n": 0.4136,
+    "af_a": 0.7639,
+    "coloc": 0.492,
+    "dupf": 0.8793,
+    "rv_rank": 0.9733,
+    "rv_sa": 0.9741,
+    "rv_so": 0.9771,
+    "rv_gap": 0.9866,
+    "rank_dense": 0.8372,
+    "dcos": 0.9302,
+    "rrUb": 0.8751,
+    "p_S005": 0.9334
+   }
+  },
+  "kept_both&full>=0.8": {
+   "n": 620045,
+   "KEY2": 1463,
+   "top5_existing": [
+    [
+     0.9872,
+     "rv_gap"
+    ],
+    [
+     0.9768,
+     "rv_sa"
+    ],
+    [
+     0.974,
+     "rv_rank"
+    ],
+    [
+     0.9721,
+     "rv_so"
+    ],
+    [
+     0.8953,
+     "addr_tset14"
+    ]
+   ],
+   "aucs": {
+    "name_tset3": 0.4593,
+    "name_jacc4": 0.4303,
+    "log_s1freq5": 0.8552,
+    "addr_lev11": 0.5161,
+    "addr_jw12": 0.6846,
+    "addr_tsort13": 0.6403,
+    "addr_tset14": 0.8953,
+    "addr_jacc15": 0.6778,
+    "first_num_agree56": 0.6277,
+    "house_agree57": 0.6137,
+    "house_absdiff58": 0.6278,
+    "addr_n_s1_only83": 0.4674,
+    "addr_n_c_only84": 0.7935,
+    "addr_frac_s1_only85": 0.4908,
+    "addr_frac_c_only86": 0.7877,
+    "nf_n": 0.7866,
+    "nf_a": 0.4912,
+    "af_n": 0.3177,
+    "af_a": 0.8641,
+    "coloc": 0.4925,
+    "dupf": 0.8565,
+    "rv_rank": 0.974,
+    "rv_sa": 0.9768,
+    "rv_so": 0.9721,
+    "rv_gap": 0.9872,
+    "rank_dense": 0.8047,
+    "dcos": 0.8814,
+    "rrUb": 0.8323,
+    "p_S005": 0.8975
+   }
+  }
+ },
+ "france_redundancy_lookup_heldout": {
+  "accepted_both|4col": {
+   "test_n": 423866,
+   "test_KEY2": 4456,
+   "auc_heldout": 0.965,
+   "precision_at_KEY2_size": 0.4917
+  },
+  "accepted_both|4col+rv11+dupf": {
+   "test_n": 423866,
+   "test_KEY2": 4456,
+   "auc_heldout": 0.9913,
+   "precision_at_KEY2_size": 0.7713
+  },
+  "kept_both|4col": {
+   "test_n": 412326,
+   "test_KEY2": 756,
+   "auc_heldout": 0.9598,
+   "precision_at_KEY2_size": 0.4048
+  },
+  "kept_both|4col+rv11+dupf": {
+   "test_n": 412326,
+   "test_KEY2": 756,
+   "auc_heldout": 0.9807,
+   "precision_at_KEY2_size": 0.6138
+  },
+  "kept_both&same_core|4col": {
+   "test_n": 288360,
+   "test_KEY2": 607,
+   "auc_heldout": 0.9605,
+   "precision_at_KEY2_size": 0.4003
+  },
+  "kept_both&same_core|4col+rv11+dupf": {
+   "test_n": 288360,
+   "test_KEY2": 607,
+   "auc_heldout": 0.9808,
+   "precision_at_KEY2_size": 0.6376
+  }
+ },
+ "france_kept_existing_cells": {
+  "rv11": {
+   "kept_in_cell": 10567,
+   "share_of_kept": 0.01277,
+   "KEY2_in_cell": 1262,
+   "KEY2_coverage": 0.8626,
+   "KEY2_share_in_cell": 0.0014,
+   "DIFF_share_in_cell": 0.0035,
+   "mean_p_cell": 0.964,
+   "mean_p_cell_KEY2": 0.9458,
+   "mean_p_cell_notKEY2": 0.9665,
+   "n_s1_cell": 8834
+  },
+  "rv11&af_a0": {
+   "kept_in_cell": 7252,
+   "share_of_kept": 0.00877,
+   "KEY2_in_cell": 1258,
+   "KEY2_coverage": 0.8599,
+   "KEY2_share_in_cell": 0.0014,
+   "DIFF_share_in_cell": 0.0035,
+   "mean_p_cell": 0.961,
+   "mean_p_cell_KEY2": 0.9456,
+   "mean_p_cell_notKEY2": 0.9643,
+   "n_s1_cell": 6338
+  },
+  "rv11&af_a0&dupf>=1": {
+   "kept_in_cell": 5309,
+   "share_of_kept": 0.00642,
+   "KEY2_in_cell": 1155,
+   "KEY2_coverage": 0.7895,
+   "KEY2_share_in_cell": 0.0013,
+   "DIFF_share_in_cell": 0.0031,
+   "mean_p_cell": 0.9604,
+   "mean_p_cell_KEY2": 0.9481,
+   "mean_p_cell_notKEY2": 0.9638,
+   "n_s1_cell": 4549
+  },
+  "rv_gap<-0.3&af_a0": {
+   "kept_in_cell": 4967,
+   "share_of_kept": 0.006,
+   "KEY2_in_cell": 1238,
+   "KEY2_coverage": 0.8462,
+   "KEY2_share_in_cell": 0.0014,
+   "DIFF_share_in_cell": 0.0035,
+   "mean_p_cell": 0.9545,
+   "mean_p_cell_KEY2": 0.9456,
+   "mean_p_cell_notKEY2": 0.9575,
+   "n_s1_cell": 4487
+  },
+  "rv11&af_a0&addr_tsort13<0.8": {
+   "kept_in_cell": 5868,
+   "share_of_kept": 0.00709,
+   "KEY2_in_cell": 751,
+   "KEY2_coverage": 0.5133,
+   "KEY2_share_in_cell": 0.0009,
+   "DIFF_share_in_cell": 0.0028,
+   "mean_p_cell": 0.9621,
+   "mean_p_cell_KEY2": 0.9466,
+   "mean_p_cell_notKEY2": 0.9644,
+   "n_s1_cell": 5206
+  }
+ },
+ "examples": {
+  "cell_rv11_af0_notKEY2": [
+   {
+    "s1": "S1-439307827",
+    "s1_name": "Coeur Amis SASU",
+    "s1_addr": "10 Rue Archim\u00e8de, M\u00e9rignac, Nouvelle-Aquitaine",
+    "rec": "S3-169359074",
+    "rec_name": "coeuramissasu.com",
+    "rec_addr": "N\u00b0 10 Rue Archimede, Gironde, Merignac",
+    "p": 0.9998,
+    "p_S004": 0.9999,
+    "rrUb": 9.0625,
+    "rs": 1.0,
+    "full": 0.75,
+    "dupf": 1.0,
+    "addr_tsort13": 0.633
+   },
+   {
+    "s1": "S1-665335359",
+    "s1_name": "Bordeaux Club SAS",
+    "s1_addr": "32 Rue Georges Rioux, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "S3-321784174",
+    "rec_name": "Bordeaux Club SA",
+    "rec_addr": "32 Rue Cabanac, Bordeaux",
+    "p": 0.9139,
+    "p_S004": 0.9818,
+    "rrUb": 5.34375,
+    "rs": 0.0,
+    "full": 0.667,
+    "dupf": 117.0,
+    "addr_tsort13": 0.479
+   },
+   {
+    "s1": "S1-376303616",
+    "s1_name": "Bordeaux Sportive SAS",
+    "s1_addr": "40 Rue L\u00e9once Motelay, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "S3-74817002",
+    "rec_name": "Bordeaux Sportive SA",
+    "rec_addr": "40 Rue Mexico, Bordeaux",
+    "p": 0.9907,
+    "p_S004": 0.9959,
+    "rrUb": 6.75,
+    "rs": 0.3,
+    "full": 0.667,
+    "dupf": 54.0,
+    "addr_tsort13": 0.535
+   },
+   {
+    "s1": "S1-6121444",
+    "s1_name": "Roubaix Ecole SAS",
+    "s1_addr": "71 Rue Pierre de Roubaix, Roubaix, Hauts-de-France",
+    "rec": "S2-618931310",
+    "rec_name": "Roubaix Ecole",
+    "rec_addr": "7 RUE PIERRE MOTTE, ROUBAIX, Hauts-de-France",
+    "p": 0.9646,
+    "p_S004": 0.9133,
+    "rrUb": 3.09375,
+    "rs": 0.667,
+    "full": 1.0,
+    "dupf": 26.0,
+    "addr_tsort13": 0.8
+   },
+   {
+    "s1": "S1-880372531",
+    "s1_name": "Nantes Sport EURL",
+    "s1_addr": "Pays de la Loire, Nantes, 4 Avenue des Ifs",
+    "rec": "S3-692639269",
+    "rec_name": "Nantes Sport",
+    "rec_addr": "Nantes, Loire-Atlantique, 4 Avenue Des Ifs",
+    "p": 0.9999,
+    "p_S004": 0.9999,
+    "rrUb": 9.0625,
+    "rs": 1.0,
+    "full": 0.8,
+    "dupf": 8.0,
+    "addr_tsort13": 0.725
+   },
+   {
+    "s1": "S1-584550256",
+    "s1_name": "Nantes Maternelle",
+    "s1_addr": "Pays de la Loire, Nantes, 16 Bis Rue Joyau",
+    "rec": "S3-975051844",
+    "rec_name": "Nante Maternelle",
+    "rec_addr": "16 Bis R Joeau, Nantes, Pays de la Loire",
+    "p": 0.9998,
+    "p_S004": 0.9998,
+    "rrUb": 9.0,
+    "rs": 0.8,
+    "full": 0.8,
+    "dupf": 8.0,
+    "addr_tsort13": 0.949
+   },
+   {
+    "s1": "S1-95863976",
+    "s1_name": "Tourcoing Sportive SARL",
+    "s1_addr": "Tourcoing, Hauts-de-France, 17 Rue de Maubeuge",
+    "rec": "S3-972020678",
+    "rec_name": "Tourcoing Sportive S\u00e0rl",
+    "rec_addr": "84 Rue De Mouvaux, Tourcoing",
+    "p": 0.9668,
+    "p_S004": 0.9423,
+    "rrUb": 3.984375,
+    "rs": 0.4,
+    "full": 0.667,
+    "dupf": 44.0,
+    "addr_tsort13": 0.592
+   },
+   {
+    "s1": "S1-318818943",
+    "s1_name": "Lille Ecole SCI",
+    "s1_addr": "Lille, 21 Rue du Bois d'Annappes, Hauts-de-France",
+    "rec": "S2-202617182",
+    "rec_name": "Lille Ecole SCI",
+    "rec_addr": "21 RUE DU COEUR JOYEUX, LILLE",
+    "p": 0.9917,
+    "p_S004": 0.994,
+    "rrUb": 6.65625,
+    "rs": 0.24,
+    "full": 0.5,
+    "dupf": 12.0,
+    "addr_tsort13": 0.56
+   }
+  ],
+  "cell_rv11_af0_KEY2": [
+   {
+    "s1": "S1-229872600",
+    "s1_name": "Amicale des Velo",
+    "s1_addr": "9 Rue Bosquet, Lille, Hauts-de-France",
+    "rec": "S2-154013164",
+    "rec_name": "Amicale de Reveil",
+    "rec_addr": "9 RUE DE LA BALTIQUE, LILLE, Hauts-de-France",
+    "p": 0.8982,
+    "p_S004": 0.9499,
+    "rrUb": 5.875,
+    "rs": 0.533,
+    "full": 0.8,
+    "dupf": 1.0,
+    "addr_tsort13": 0.831
+   },
+   {
+    "s1": "S1-37570597",
+    "s1_name": "Bordeaux Centre SAS",
+    "s1_addr": "27 RUE de Lalande, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "S2-793278121",
+    "rec_name": "Bordeaux Centre SAS",
+    "rec_addr": "27 RUE CAMILLE GODARD, BORDEAUX, Nouvelle-Aquitaine",
+    "p": 0.9973,
+    "p_S004": 0.9993,
+    "rrUb": 8.125,
+    "rs": 0.381,
+    "full": 0.8,
+    "dupf": 34.0,
+    "addr_tsort13": 0.83
+   },
+   {
+    "s1": "S1-868357379",
+    "s1_name": "Nantes Parents SAS",
+    "s1_addr": "253 Boulevard du Massacre, Nantes, Pays de la Loire",
+    "rec": "S3-496226447",
+    "rec_name": "Nantes  Parents SAS",
+    "rec_addr": "N\u00b0 30 Boulevard De Longchamp, Nantes, Pays de la Loire",
+    "p": 0.9778,
+    "p_S004": 0.9905,
+    "rrUb": 5.5625,
+    "rs": 0.118,
+    "full": 0.8,
+    "dupf": 35.0,
+    "addr_tsort13": 0.78
+   },
+   {
+    "s1": "S1-63711163",
+    "s1_name": "Roubaix Comite SARL",
+    "s1_addr": "127 Rue de Soubise, Roubaix, Hauts-de-France",
+    "rec": "S2-117238212",
+    "rec_name": "Roubaix Comite SARL",
+    "rec_addr": "12 RUE D'ORAN, ROUBAIX, Hauts-de-France",
+    "p": 0.9937,
+    "p_S004": 0.9987,
+    "rrUb": 8.0625,
+    "rs": 0.182,
+    "full": 0.8,
+    "dupf": 36.0,
+    "addr_tsort13": 0.81
+   },
+   {
+    "s1": "S1-976363568",
+    "s1_name": "Sapeurs & Fr\u00e8res SARL",
+    "s1_addr": "2 Rue de Comines, Hauts-de-France, Tourcoing",
+    "rec": "S3-347135531",
+    "rec_name": "Sapeurs & Fr\u00e8res S\u00e0rl",
+    "rec_addr": "Hauts-de-France, 13 Rue De Constatninople, Tourcoing",
+    "p": 0.8308,
+    "p_S004": 0.8974,
+    "rrUb": 3.375,
+    "rs": 0.476,
+    "full": 0.8,
+    "dupf": 9.0,
+    "addr_tsort13": 0.848
+   },
+   {
+    "s1": "S1-633854521",
+    "s1_name": "Bordeaux Sport EURL",
+    "s1_addr": "68 Rue des Pelourdes, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "S3-532938975",
+    "rec_name": "Bordeaux Sportif EURL",
+    "rec_addr": "68 Rue Du Petit Parc, Bordeaux, Nouvelle-Aquitaine",
+    "p": 0.9491,
+    "p_S004": 0.9925,
+    "rrUb": 5.15625,
+    "rs": 0.316,
+    "full": 0.8,
+    "dupf": 7.0,
+    "addr_tsort13": 0.833
+   },
+   {
+    "s1": "S1-133495227",
+    "s1_name": "Nantes Amicale SARL",
+    "s1_addr": "Pays de la Loire, 20 Rue de Valenciennes, Nantes",
+    "rec": "S2-251718991",
+    "rec_name": "Nantes Amicale SARL",
+    "rec_addr": "20 RUE SAINT ANTOINE, NANTES, Pays de la Loire",
+    "p": 0.9998,
+    "p_S004": 0.9999,
+    "rrUb": 9.0,
+    "rs": 0.48,
+    "full": 0.8,
+    "dupf": 91.0,
+    "addr_tsort13": 0.8
+   },
+   {
+    "s1": "S1-636996435",
+    "s1_name": "Lille Amicale SA",
+    "s1_addr": "4 RUE Viala, Lille, Hauts-de-France",
+    "rec": "S2-851952214",
+    "rec_name": "Lille Amicale SA",
+    "rec_addr": "44 RUE FAIDOERBE, LILLE, Hauts-de-France",
+    "p": 0.958,
+    "p_S004": 0.9579,
+    "rrUb": 2.890625,
+    "rs": 0.143,
+    "full": 0.8,
+    "dupf": 19.0,
+    "addr_tsort13": 0.761
+   }
+  ]
+ }
+}

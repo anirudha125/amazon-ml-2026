@@ -1,0 +1,864 @@
+{
+ "France": {
+  "fils": {
+   "S1_df_per_1k": 19.64,
+   "add_per_10k_pairs": 27.82,
+   "drop_per_10k": 10.08,
+   "swap_from_per_10k": 6.59,
+   "swap_to_per_10k": 82.82,
+   "added_vs_in_names": 1.855
+  },
+  "services": {
+   "S1_df_per_1k": 4.74,
+   "add_per_10k_pairs": 20.93,
+   "drop_per_10k": 1.02,
+   "swap_from_per_10k": 4.23,
+   "swap_to_per_10k": 70.45,
+   "added_vs_in_names": 6.352
+  },
+  "club": {
+   "S1_df_per_1k": 87.38,
+   "add_per_10k_pairs": 0.12,
+   "drop_per_10k": 14.1,
+   "swap_from_per_10k": 57.29,
+   "swap_to_per_10k": 20.69,
+   "added_vs_in_names": 0.078
+  },
+  "france": {
+   "S1_df_per_1k": 80.14,
+   "add_per_10k_pairs": 14.2,
+   "drop_per_10k": 27.17,
+   "swap_from_per_10k": 22.81,
+   "swap_to_per_10k": 18.26,
+   "added_vs_in_names": 0.133
+  },
+  "associes": {
+   "S1_df_per_1k": 0.1,
+   "add_per_10k_pairs": 19.42,
+   "drop_per_10k": 0.0,
+   "swap_from_per_10k": 0.01,
+   "swap_to_per_10k": 54.79,
+   "added_vs_in_names": 253.6
+  },
+  "comite": {
+   "S1_df_per_1k": 53.31,
+   "add_per_10k_pairs": 0.07,
+   "drop_per_10k": 7.98,
+   "swap_from_per_10k": 26.3,
+   "swap_to_per_10k": 20.4,
+   "added_vs_in_names": 0.126
+  },
+  "amicale": {
+   "S1_df_per_1k": 55.46,
+   "add_per_10k_pairs": 0.02,
+   "drop_per_10k": 8.51,
+   "swap_from_per_10k": 29.81,
+   "swap_to_per_10k": 12.01,
+   "added_vs_in_names": 0.071
+  },
+  "ecole": {
+   "S1_df_per_1k": 60.39,
+   "add_per_10k_pairs": 0.02,
+   "drop_per_10k": 8.44,
+   "swap_from_per_10k": 27.17,
+   "swap_to_per_10k": 6.24,
+   "added_vs_in_names": 0.034
+  },
+  "amis": {
+   "S1_df_per_1k": 26.65,
+   "add_per_10k_pairs": 0.04,
+   "drop_per_10k": 5.18,
+   "swap_from_per_10k": 21.02,
+   "swap_to_per_10k": 13.99,
+   "added_vs_in_names": 0.173
+  },
+  "compagnie": {
+   "S1_df_per_1k": 13.54,
+   "add_per_10k_pairs": 10.26,
+   "drop_per_10k": 8.85,
+   "swap_from_per_10k": 8.17,
+   "swap_to_per_10k": 7.27,
+   "added_vs_in_names": 0.426
+  },
+  "centre": {
+   "S1_df_per_1k": 40.54,
+   "add_per_10k_pairs": 0.06,
+   "drop_per_10k": 4.45,
+   "swap_from_per_10k": 16.69,
+   "swap_to_per_10k": 13.24,
+   "added_vs_in_names": 0.108
+  },
+  "sportive": {
+   "S1_df_per_1k": 31.74,
+   "add_per_10k_pairs": 0.01,
+   "drop_per_10k": 6.13,
+   "swap_from_per_10k": 22.64,
+   "swap_to_per_10k": 1.15,
+   "added_vs_in_names": 0.012
+  },
+  "developpement": {
+   "S1_df_per_1k": 3.14,
+   "add_per_10k_pairs": 14.28,
+   "drop_per_10k": 0.07,
+   "swap_from_per_10k": 0.0,
+   "swap_to_per_10k": 15.15,
+   "added_vs_in_names": 3.085
+  },
+  "freres": {
+   "S1_df_per_1k": 19.76,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 10.04,
+   "swap_from_per_10k": 17.69,
+   "swap_to_per_10k": 0.05,
+   "added_vs_in_names": 0.001
+  },
+  "parents": {
+   "S1_df_per_1k": 20.5,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 3.92,
+   "swap_from_per_10k": 16.74,
+   "swap_to_per_10k": 6.07,
+   "added_vs_in_names": 0.098
+  },
+  "societe": {
+   "S1_df_per_1k": 15.74,
+   "add_per_10k_pairs": 0.06,
+   "drop_per_10k": 3.27,
+   "swap_from_per_10k": 12.96,
+   "swap_to_per_10k": 9.98,
+   "added_vs_in_names": 0.21
+  },
+  "fetes": {
+   "S1_df_per_1k": 14.83,
+   "add_per_10k_pairs": 0.02,
+   "drop_per_10k": 3.2,
+   "swap_from_per_10k": 10.96,
+   "swap_to_per_10k": 8.87,
+   "added_vs_in_names": 0.198
+  },
+  "sante": {
+   "S1_df_per_1k": 21.67,
+   "add_per_10k_pairs": 0.01,
+   "drop_per_10k": 4.12,
+   "swap_from_per_10k": 12.29,
+   "swap_to_per_10k": 5.47,
+   "added_vs_in_names": 0.083
+  },
+  "primaire": {
+   "S1_df_per_1k": 25.89,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 4.97,
+   "swap_from_per_10k": 14.14,
+   "swap_to_per_10k": 1.73,
+   "added_vs_in_names": 0.022
+  },
+  "union": {
+   "S1_df_per_1k": 33.26,
+   "add_per_10k_pairs": 0.01,
+   "drop_per_10k": 4.08,
+   "swap_from_per_10k": 13.0,
+   "swap_to_per_10k": 2.29,
+   "added_vs_in_names": 0.023
+  },
+  "college": {
+   "S1_df_per_1k": 27.21,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 3.31,
+   "swap_from_per_10k": 12.14,
+   "swap_to_per_10k": 3.94,
+   "added_vs_in_names": 0.048
+  },
+  "service": {
+   "S1_df_per_1k": 6.93,
+   "add_per_10k_pairs": 0.06,
+   "drop_per_10k": 2.45,
+   "swap_from_per_10k": 5.56,
+   "swap_to_per_10k": 9.3,
+   "added_vs_in_names": 0.445
+  },
+  "anciens": {
+   "S1_df_per_1k": 13.72,
+   "add_per_10k_pairs": 0.04,
+   "drop_per_10k": 2.95,
+   "swap_from_per_10k": 9.54,
+   "swap_to_per_10k": 3.2,
+   "added_vs_in_names": 0.078
+  },
+  "maison": {
+   "S1_df_per_1k": 41.78,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 2.77,
+   "swap_from_per_10k": 10.88,
+   "swap_to_per_10k": 1.78,
+   "added_vs_in_names": 0.014
+  },
+  "loisirs": {
+   "S1_df_per_1k": 13.36,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 2.35,
+   "swap_from_per_10k": 9.57,
+   "swap_to_per_10k": 3.24,
+   "added_vs_in_names": 0.08
+  },
+  "federation": {
+   "S1_df_per_1k": 25.71,
+   "add_per_10k_pairs": 0.91,
+   "drop_per_10k": 2.32,
+   "swap_from_per_10k": 6.87,
+   "swap_to_per_10k": 4.67,
+   "added_vs_in_names": 0.072
+  },
+  "section": {
+   "S1_df_per_1k": 8.34,
+   "add_per_10k_pairs": 0.02,
+   "drop_per_10k": 1.8,
+   "swap_from_per_10k": 7.36,
+   "swap_to_per_10k": 5.3,
+   "added_vs_in_names": 0.21
+  },
+  "lycee": {
+   "S1_df_per_1k": 19.65,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 2.28,
+   "swap_from_per_10k": 6.5,
+   "swap_to_per_10k": 3.59,
+   "added_vs_in_names": 0.06
+  },
+  "maternelle": {
+   "S1_df_per_1k": 19.2,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 3.71,
+   "swap_from_per_10k": 6.48,
+   "swap_to_per_10k": 1.94,
+   "added_vs_in_names": 0.033
+  },
+  "saint": {
+   "S1_df_per_1k": 21.63,
+   "add_per_10k_pairs": 0.01,
+   "drop_per_10k": 2.27,
+   "swap_from_per_10k": 9.28,
+   "swap_to_per_10k": 0.16,
+   "added_vs_in_names": 0.003
+  },
+  "jeunes": {
+   "S1_df_per_1k": 10.55,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 2.15,
+   "swap_from_per_10k": 7.39,
+   "swap_to_per_10k": 1.31,
+   "added_vs_in_names": 0.041
+  },
+  "sport": {
+   "S1_df_per_1k": 10.52,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 2.14,
+   "swap_from_per_10k": 8.47,
+   "swap_to_per_10k": 0.23,
+   "added_vs_in_names": 0.007
+  },
+  "foyer": {
+   "S1_df_per_1k": 9.4,
+   "add_per_10k_pairs": 0.04,
+   "drop_per_10k": 1.71,
+   "swap_from_per_10k": 6.41,
+   "swap_to_per_10k": 2.34,
+   "added_vs_in_names": 0.083
+  },
+  "pharmacie": {
+   "S1_df_per_1k": 22.98,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 2.48,
+   "swap_from_per_10k": 7.76,
+   "swap_to_per_10k": 0.11,
+   "added_vs_in_names": 0.002
+  },
+  "frs": {
+   "S1_df_per_1k": 0.01,
+   "add_per_10k_pairs": 0.01,
+   "drop_per_10k": 0.0,
+   "swap_from_per_10k": 0.0,
+   "swap_to_per_10k": 10.09,
+   "added_vs_in_names": 287.667
+  },
+  "groupe": {
+   "S1_df_per_1k": 7.99,
+   "add_per_10k_pairs": 0.61,
+   "drop_per_10k": 1.47,
+   "swap_from_per_10k": 5.83,
+   "swap_to_per_10k": 0.83,
+   "added_vs_in_names": 0.059
+  },
+  "groupement": {
+   "S1_df_per_1k": 10.5,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 1.81,
+   "swap_from_per_10k": 6.1,
+   "swap_to_per_10k": 0.29,
+   "added_vs_in_names": 0.009
+  }
+ },
+ "US": {
+  "center": {
+   "S1_df_per_1k": 24.09,
+   "add_per_10k_pairs": 46.24,
+   "drop_per_10k": 22.4,
+   "swap_from_per_10k": 9.27,
+   "swap_to_per_10k": 242.81,
+   "added_vs_in_names": 0.543
+  },
+  "services": {
+   "S1_df_per_1k": 5.45,
+   "add_per_10k_pairs": 30.67,
+   "drop_per_10k": 4.63,
+   "swap_from_per_10k": 1.83,
+   "swap_to_per_10k": 180.86,
+   "added_vs_in_names": 1.756
+  },
+  "partners": {
+   "S1_df_per_1k": 22.41,
+   "add_per_10k_pairs": 12.5,
+   "drop_per_10k": 19.57,
+   "swap_from_per_10k": 9.47,
+   "swap_to_per_10k": 61.98,
+   "added_vs_in_names": 0.15
+  },
+  "service": {
+   "S1_df_per_1k": 3.2,
+   "add_per_10k_pairs": 16.47,
+   "drop_per_10k": 3.17,
+   "swap_from_per_10k": 0.9,
+   "swap_to_per_10k": 82.95,
+   "added_vs_in_names": 1.407
+  },
+  "incorporated": {
+   "S1_df_per_1k": 0.0,
+   "add_per_10k_pairs": 92.65,
+   "drop_per_10k": 0.0,
+   "swap_from_per_10k": 0.0,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 926.333
+  },
+  "group": {
+   "S1_df_per_1k": 23.76,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 59.94,
+   "swap_from_per_10k": 0.4,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "associates": {
+   "S1_df_per_1k": 27.53,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 24.8,
+   "swap_from_per_10k": 9.73,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "care": {
+   "S1_df_per_1k": 32.24,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 17.57,
+   "swap_from_per_10k": 16.77,
+   "swap_to_per_10k": 0.03,
+   "added_vs_in_names": 0.0
+  },
+  "www": {
+   "S1_df_per_1k": 0.0,
+   "add_per_10k_pairs": 28.84,
+   "drop_per_10k": 0.0,
+   "swap_from_per_10k": 0.0,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 865.0
+  },
+  "com": {
+   "S1_df_per_1k": 0.0,
+   "add_per_10k_pairs": 28.64,
+   "drop_per_10k": 0.0,
+   "swap_from_per_10k": 0.0,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 859.0
+  },
+  "clinic": {
+   "S1_df_per_1k": 16.52,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 16.74,
+   "swap_from_per_10k": 7.97,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "health": {
+   "S1_df_per_1k": 20.22,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 6.1,
+   "swap_from_per_10k": 8.2,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "fka": {
+   "S1_df_per_1k": 0.0,
+   "add_per_10k_pairs": 12.74,
+   "drop_per_10k": 0.0,
+   "swap_from_per_10k": 0.0,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 382.0
+  },
+  "medicine": {
+   "S1_df_per_1k": 13.59,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 6.63,
+   "swap_from_per_10k": 5.4,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "holdings": {
+   "S1_df_per_1k": 6.22,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 11.8,
+   "swap_from_per_10k": 0.07,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "specialists": {
+   "S1_df_per_1k": 8.61,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 5.77,
+   "swap_from_per_10k": 3.73,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "dds": {
+   "S1_df_per_1k": 5.08,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 6.4,
+   "swap_from_per_10k": 3.1,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "association": {
+   "S1_df_per_1k": 4.26,
+   "add_per_10k_pairs": 3.43,
+   "drop_per_10k": 2.13,
+   "swap_from_per_10k": 3.2,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.036
+  },
+  "church": {
+   "S1_df_per_1k": 5.47,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 5.2,
+   "swap_from_per_10k": 3.47,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "trust": {
+   "S1_df_per_1k": 4.41,
+   "add_per_10k_pairs": 3.6,
+   "drop_per_10k": 1.4,
+   "swap_from_per_10k": 3.37,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.037
+  },
+  "council": {
+   "S1_df_per_1k": 3.04,
+   "add_per_10k_pairs": 4.07,
+   "drop_per_10k": 1.17,
+   "swap_from_per_10k": 2.8,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.061
+  },
+  "works": {
+   "S1_df_per_1k": 4.82,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 4.43,
+   "swap_from_per_10k": 2.6,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "physicians": {
+   "S1_df_per_1k": 8.17,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 4.33,
+   "swap_from_per_10k": 2.4,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "global": {
+   "S1_df_per_1k": 8.88,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 2.33,
+   "swap_from_per_10k": 4.37,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "foundation": {
+   "S1_df_per_1k": 2.84,
+   "add_per_10k_pairs": 4.47,
+   "drop_per_10k": 0.7,
+   "swap_from_per_10k": 1.37,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.071
+  },
+  "society": {
+   "S1_df_per_1k": 2.84,
+   "add_per_10k_pairs": 3.8,
+   "drop_per_10k": 0.73,
+   "swap_from_per_10k": 1.63,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.06
+  },
+  "labs": {
+   "S1_df_per_1k": 2.67,
+   "add_per_10k_pairs": 2.3,
+   "drop_per_10k": 1.97,
+   "swap_from_per_10k": 1.7,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.039
+  },
+  "federation": {
+   "S1_df_per_1k": 2.84,
+   "add_per_10k_pairs": 3.53,
+   "drop_per_10k": 0.73,
+   "swap_from_per_10k": 1.53,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.056
+  },
+  "alliance": {
+   "S1_df_per_1k": 5.28,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 2.47,
+   "swap_from_per_10k": 3.27,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "school": {
+   "S1_df_per_1k": 4.68,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 3.77,
+   "swap_from_per_10k": 1.97,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "capital": {
+   "S1_df_per_1k": 8.04,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 1.2,
+   "swap_from_per_10k": 4.27,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "solutions": {
+   "S1_df_per_1k": 3.85,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 2.93,
+   "swap_from_per_10k": 2.33,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "union": {
+   "S1_df_per_1k": 5.73,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 2.7,
+   "swap_from_per_10k": 2.4,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "therapy": {
+   "S1_df_per_1k": 5.62,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 2.17,
+   "swap_from_per_10k": 2.93,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  }
+ },
+ "India": {
+  "center": {
+   "S1_df_per_1k": 3.85,
+   "add_per_10k_pairs": 83.31,
+   "drop_per_10k": 3.04,
+   "swap_from_per_10k": 1.47,
+   "swap_to_per_10k": 220.9,
+   "added_vs_in_names": 2.925
+  },
+  "services": {
+   "S1_df_per_1k": 27.45,
+   "add_per_10k_pairs": 59.22,
+   "drop_per_10k": 2.57,
+   "swap_from_per_10k": 9.38,
+   "swap_to_per_10k": 155.54,
+   "added_vs_in_names": 0.289
+  },
+  "service": {
+   "S1_df_per_1k": 0.85,
+   "add_per_10k_pairs": 29.16,
+   "drop_per_10k": 0.03,
+   "swap_from_per_10k": 0.47,
+   "swap_to_per_10k": 72.7,
+   "added_vs_in_names": 4.431
+  },
+  "partners": {
+   "S1_df_per_1k": 6.39,
+   "add_per_10k_pairs": 22.09,
+   "drop_per_10k": 5.0,
+   "swap_from_per_10k": 3.17,
+   "swap_to_per_10k": 59.12,
+   "added_vs_in_names": 0.47
+  },
+  "india": {
+   "S1_df_per_1k": 66.84,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 8.97,
+   "swap_from_per_10k": 43.07,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "com": {
+   "S1_df_per_1k": 0.15,
+   "add_per_10k_pairs": 24.25,
+   "drop_per_10k": 0.03,
+   "swap_from_per_10k": 0.07,
+   "swap_to_per_10k": 5.24,
+   "added_vs_in_names": 7.306
+  },
+  "www": {
+   "S1_df_per_1k": 0.0,
+   "add_per_10k_pairs": 24.32,
+   "drop_per_10k": 0.0,
+   "swap_from_per_10k": 0.0,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 364.5
+  },
+  "trading": {
+   "S1_df_per_1k": 23.03,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 2.94,
+   "swap_from_per_10k": 17.65,
+   "swap_to_per_10k": 0.03,
+   "added_vs_in_names": 0.0
+  },
+  "brothers": {
+   "S1_df_per_1k": 22.91,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 2.97,
+   "swap_from_per_10k": 16.61,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "group": {
+   "S1_df_per_1k": 10.11,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 19.25,
+   "swap_from_per_10k": 0.17,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "solutions": {
+   "S1_df_per_1k": 24.2,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 2.44,
+   "swap_from_per_10k": 13.78,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "trust": {
+   "S1_df_per_1k": 9.51,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 4.94,
+   "swap_from_per_10k": 9.31,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "traders": {
+   "S1_df_per_1k": 12.82,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 0.73,
+   "swap_from_per_10k": 12.48,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "sons": {
+   "S1_df_per_1k": 12.23,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 3.77,
+   "swap_from_per_10k": 9.21,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "care": {
+   "S1_df_per_1k": 12.49,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 3.9,
+   "swap_from_per_10k": 7.07,
+   "swap_to_per_10k": 0.03,
+   "added_vs_in_names": 0.0
+  },
+  "technologies": {
+   "S1_df_per_1k": 18.89,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 2.5,
+   "swap_from_per_10k": 8.21,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "foundation": {
+   "S1_df_per_1k": 15.74,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 2.04,
+   "swap_from_per_10k": 8.67,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "clinic": {
+   "S1_df_per_1k": 6.88,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 3.84,
+   "swap_from_per_10k": 6.14,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "enterprises": {
+   "S1_df_per_1k": 13.84,
+   "add_per_10k_pairs": 0.27,
+   "drop_per_10k": 2.14,
+   "swap_from_per_10k": 7.44,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.001
+  },
+  "society": {
+   "S1_df_per_1k": 6.25,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 4.94,
+   "swap_from_per_10k": 4.77,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "agro": {
+   "S1_df_per_1k": 12.06,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 1.77,
+   "swap_from_per_10k": 7.51,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "technology": {
+   "S1_df_per_1k": 13.46,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 3.67,
+   "swap_from_per_10k": 5.6,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "industries": {
+   "S1_df_per_1k": 14.88,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 2.04,
+   "swap_from_per_10k": 7.14,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "tech": {
+   "S1_df_per_1k": 14.84,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 2.67,
+   "swap_from_per_10k": 6.24,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "foods": {
+   "S1_df_per_1k": 11.25,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 2.34,
+   "swap_from_per_10k": 6.47,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "ventures": {
+   "S1_df_per_1k": 12.96,
+   "add_per_10k_pairs": 0.07,
+   "drop_per_10k": 1.73,
+   "swap_from_per_10k": 6.54,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "systems": {
+   "S1_df_per_1k": 10.88,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 2.24,
+   "swap_from_per_10k": 5.97,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "public": {
+   "S1_df_per_1k": 8.08,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 3.17,
+   "swap_from_per_10k": 4.84,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "associates": {
+   "S1_df_per_1k": 7.35,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 4.34,
+   "swap_from_per_10k": 3.57,
+   "swap_to_per_10k": 0.03,
+   "added_vs_in_names": 0.0
+  },
+  "consultants": {
+   "S1_df_per_1k": 13.57,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 1.4,
+   "swap_from_per_10k": 6.41,
+   "swap_to_per_10k": 0.03,
+   "added_vs_in_names": 0.0
+  },
+  "consultancy": {
+   "S1_df_per_1k": 13.31,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 1.63,
+   "swap_from_per_10k": 5.97,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "school": {
+   "S1_df_per_1k": 6.36,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 3.9,
+   "swap_from_per_10k": 3.64,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "marketing": {
+   "S1_df_per_1k": 12.54,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 1.97,
+   "swap_from_per_10k": 5.4,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "global": {
+   "S1_df_per_1k": 15.54,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 1.8,
+   "swap_from_per_10k": 5.37,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "energy": {
+   "S1_df_per_1k": 10.36,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 1.77,
+   "swap_from_per_10k": 5.4,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  },
+  "media": {
+   "S1_df_per_1k": 10.23,
+   "add_per_10k_pairs": 0.0,
+   "drop_per_10k": 1.5,
+   "swap_from_per_10k": 5.54,
+   "swap_to_per_10k": 0.0,
+   "added_vs_in_names": 0.0
+  }
+ }
+}

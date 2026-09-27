@@ -1,0 +1,1328 @@
+{
+ "France_HI_subst_kind_share(top3000 pairs)": {
+  "content": 0.1718,
+  "generic": 0.6441,
+  "rare": 0.1841
+ },
+ "France_HI_subst_kind_n": {
+  "content": 3859,
+  "generic": 14467,
+  "rare": 4135
+ },
+ "France_HI_top_content_subst": [
+  [
+   "club",
+   "comite",
+   142
+  ],
+  [
+   "club",
+   "centre",
+   87
+  ],
+  [
+   "amicale",
+   "amis",
+   70
+  ],
+  [
+   "groupement",
+   "groupe",
+   64
+  ],
+  [
+   "club",
+   "societe",
+   57
+  ],
+  [
+   "amis",
+   "amicale",
+   47
+  ],
+  [
+   "amicale",
+   "comite",
+   47
+  ],
+  [
+   "comite",
+   "centre",
+   40
+  ],
+  [
+   "college",
+   "ecole",
+   37
+  ],
+  [
+   "compagnie",
+   "comite",
+   33
+  ],
+  [
+   "centre",
+   "comite",
+   32
+  ],
+  [
+   "amicale",
+   "centre",
+   31
+  ],
+  [
+   "club",
+   "fetes",
+   30
+  ],
+  [
+   "centre",
+   "club",
+   30
+  ],
+  [
+   "college",
+   "club",
+   29
+  ],
+  [
+   "comite",
+   "societe",
+   29
+  ],
+  [
+   "sportive",
+   "societe",
+   28
+  ],
+  [
+   "college",
+   "comite",
+   27
+  ],
+  [
+   "ecole",
+   "comite",
+   26
+  ],
+  [
+   "anciens",
+   "amis",
+   26
+  ],
+  [
+   "comite",
+   "club",
+   26
+  ],
+  [
+   "club",
+   "section",
+   25
+  ],
+  [
+   "parents",
+   "amis",
+   25
+  ],
+  [
+   "section",
+   "comite",
+   24
+  ],
+  [
+   "sportive",
+   "amis",
+   24
+  ]
+ ],
+ "France_LO_subst_kind_share(top3000 pairs)": {
+  "content": 0.5491,
+  "generic": 0.4022,
+  "rare": 0.0487
+ },
+ "France_LO_subst_kind_n": {
+  "content": 9497,
+  "generic": 6956,
+  "rare": 843
+ },
+ "France_LO_top_content_subst": [
+  [
+   "club",
+   "amicale",
+   129
+  ],
+  [
+   "club",
+   "france",
+   129
+  ],
+  [
+   "comite",
+   "club",
+   92
+  ],
+  [
+   "sportive",
+   "club",
+   82
+  ],
+  [
+   "club",
+   "amis",
+   82
+  ],
+  [
+   "club",
+   "ecole",
+   77
+  ],
+  [
+   "ecole",
+   "club",
+   72
+  ],
+  [
+   "club",
+   "comite",
+   71
+  ],
+  [
+   "centre",
+   "club",
+   64
+  ],
+  [
+   "amicale",
+   "club",
+   63
+  ],
+  [
+   "sante",
+   "france",
+   57
+  ],
+  [
+   "comite",
+   "amicale",
+   55
+  ],
+  [
+   "sportive",
+   "france",
+   50
+  ],
+  [
+   "ecole",
+   "comite",
+   50
+  ],
+  [
+   "sportive",
+   "amicale",
+   50
+  ],
+  [
+   "club",
+   "parents",
+   50
+  ],
+  [
+   "amicale",
+   "comite",
+   50
+  ],
+  [
+   "amis",
+   "club",
+   49
+  ],
+  [
+   "ecole",
+   "amis",
+   46
+  ],
+  [
+   "primaire",
+   "france",
+   46
+  ],
+  [
+   "club",
+   "centre",
+   45
+  ],
+  [
+   "college",
+   "club",
+   45
+  ],
+  [
+   "parents",
+   "france",
+   45
+  ],
+  [
+   "maison",
+   "france",
+   43
+  ],
+  [
+   "ecole",
+   "france",
+   43
+  ]
+ ],
+ "US_HI_subst_kind_share(top3000 pairs)": {
+  "content": 0.0021,
+  "generic": 0.9555,
+  "rare": 0.0424
+ },
+ "US_HI_subst_kind_n": {
+  "content": 58,
+  "generic": 26090,
+  "rare": 1157
+ },
+ "US_HI_top_content_subst": [
+  [
+   "b",
+   "8",
+   10
+  ],
+  [
+   "center",
+   "and",
+   8
+  ],
+  [
+   "g",
+   "6",
+   8
+  ],
+  [
+   "associates",
+   "and",
+   7
+  ],
+  [
+   "5",
+   "five",
+   7
+  ],
+  [
+   "4",
+   "four",
+   5
+  ],
+  [
+   "motors",
+   "auto",
+   5
+  ],
+  [
+   "partners",
+   "and",
+   4
+  ],
+  [
+   "health",
+   "and",
+   4
+  ]
+ ],
+ "US_LO_subst_kind_share(top3000 pairs)": {
+  "content": 0.0249,
+  "generic": 0.1762,
+  "rare": 0.7989
+ },
+ "US_LO_subst_kind_n": {
+  "content": 71,
+  "generic": 502,
+  "rare": 2276
+ },
+ "US_LO_top_content_subst": [
+  [
+   "b",
+   "8",
+   9
+  ],
+  [
+   "g",
+   "6",
+   5
+  ],
+  [
+   "associates",
+   "and",
+   2
+  ],
+  [
+   "summit",
+   "st",
+   2
+  ],
+  [
+   "pavla",
+   "p",
+   2
+  ],
+  [
+   "christean",
+   "c",
+   1
+  ],
+  [
+   "first",
+   "fifth",
+   1
+  ],
+  [
+   "lettie",
+   "l",
+   1
+  ],
+  [
+   "maid",
+   "md",
+   1
+  ],
+  [
+   "jerde",
+   "lee",
+   1
+  ],
+  [
+   "first",
+   "third",
+   1
+  ],
+  [
+   "2",
+   "two",
+   1
+  ],
+  [
+   "green",
+   "gen",
+   1
+  ],
+  [
+   "market",
+   "malt",
+   1
+  ],
+  [
+   "odelle",
+   "o",
+   1
+  ],
+  [
+   "lindie",
+   "l",
+   1
+  ],
+  [
+   "crystal",
+   "cola",
+   1
+  ],
+  [
+   "obrien",
+   "on",
+   1
+  ],
+  [
+   "cari",
+   "c",
+   1
+  ],
+  [
+   "cody",
+   "c",
+   1
+  ],
+  [
+   "chanda",
+   "c",
+   1
+  ],
+  [
+   "verla",
+   "v",
+   1
+  ],
+  [
+   "grazia",
+   "g",
+   1
+  ],
+  [
+   "charles",
+   "jackson",
+   1
+  ],
+  [
+   "warren",
+   "nguyen",
+   1
+  ]
+ ],
+ "US_trainGT_subst_kind_n": {
+  "content": 62,
+  "generic": 17480,
+  "rare": 914
+ },
+ "US_trainGT_top_content_subst": [
+  [
+   "systems",
+   "technologies",
+   6
+  ],
+  [
+   "b",
+   "8",
+   6
+  ],
+  [
+   "4",
+   "four",
+   6
+  ],
+  [
+   "specialists",
+   "and",
+   5
+  ],
+  [
+   "g",
+   "6",
+   5
+  ],
+  [
+   "associates",
+   "and",
+   4
+  ],
+  [
+   "physicians",
+   "and",
+   4
+  ],
+  [
+   "2",
+   "two",
+   4
+  ],
+  [
+   "care",
+   "and",
+   4
+  ],
+  [
+   "clinic",
+   "and",
+   4
+  ],
+  [
+   "smith",
+   "st",
+   3
+  ],
+  [
+   "5",
+   "five",
+   3
+  ],
+  [
+   "wellness",
+   "and",
+   2
+  ],
+  [
+   "nose",
+   "no",
+   2
+  ],
+  [
+   "one",
+   "1",
+   2
+  ],
+  [
+   "tactical",
+   "and",
+   2
+  ]
+ ],
+ "India_HI_subst_kind_share(top3000 pairs)": {
+  "content": 0.0028,
+  "generic": 0.8514,
+  "rare": 0.1457
+ },
+ "India_HI_subst_kind_n": {
+  "content": 38,
+  "generic": 11417,
+  "rare": 1954
+ },
+ "India_HI_top_content_subst": [
+  [
+   "sons",
+   "ss",
+   27
+  ],
+  [
+   "center",
+   "centre",
+   11
+  ]
+ ],
+ "India_LO_subst_kind_share(top3000 pairs)": {
+  "content": 0.0033,
+  "generic": 0.4126,
+  "rare": 0.584
+ },
+ "India_LO_subst_kind_n": {
+  "content": 4,
+  "generic": 496,
+  "rare": 702
+ },
+ "India_LO_top_content_subst": [
+  [
+   "swati",
+   "sai",
+   1
+  ],
+  [
+   "engineering",
+   "energy",
+   1
+  ],
+  [
+   "sons",
+   "ss",
+   1
+  ],
+  [
+   "college",
+   "centre",
+   1
+  ]
+ ],
+ "India_trainGT_subst_kind_n": {
+  "content": 20,
+  "generic": 5227,
+  "rare": 1948
+ },
+ "India_trainGT_top_content_subst": [
+  [
+   "sons",
+   "ss",
+   19
+  ],
+  [
+   "samiti",
+   "sai",
+   1
+  ]
+ ],
+ "US_V1_accepted_core_sub": {
+  "content": {
+   "n": 24,
+   "fp": 0,
+   "fp_rate": 0.0,
+   "n_street": 17,
+   "fp_rate_street": 0.0
+  },
+  "generic": {
+   "n": 2380,
+   "fp": 8,
+   "fp_rate": 0.0034,
+   "n_street": 1617,
+   "fp_rate_street": 0.0019
+  },
+  "rare": {
+   "n": 3267,
+   "fp": 9,
+   "fp_rate": 0.0028,
+   "n_street": 2189,
+   "fp_rate_street": 0.0018
+  }
+ },
+ "US_V1_pool(p>=0.3)_core_sub_street_P(match)": {
+  "content": {
+   "n": 17,
+   "p_match": 1.0,
+   "mean_p": 0.9966
+  },
+  "generic": {
+   "n": 1620,
+   "p_match": 0.9981,
+   "mean_p": 0.9982
+  },
+  "rare": {
+   "n": 2209,
+   "p_match": 0.995,
+   "mean_p": 0.9938
+  }
+ },
+ "India_V1_accepted_core_sub": {
+  "content": {
+   "n": 4,
+   "fp": 0,
+   "fp_rate": 0.0,
+   "n_street": 2,
+   "fp_rate_street": 0.0
+  },
+  "generic": {
+   "n": 1492,
+   "fp": 8,
+   "fp_rate": 0.0054,
+   "n_street": 464,
+   "fp_rate_street": 0.0022
+  },
+  "rare": {
+   "n": 1443,
+   "fp": 6,
+   "fp_rate": 0.0042,
+   "n_street": 405,
+   "fp_rate_street": 0.0
+  }
+ },
+ "India_V1_pool(p>=0.3)_core_sub_street_P(match)": {
+  "content": {
+   "n": 2,
+   "p_match": 1.0,
+   "mean_p": 0.9997
+  },
+  "generic": {
+   "n": 466,
+   "p_match": 0.9979,
+   "mean_p": 0.9957
+  },
+  "rare": {
+   "n": 409,
+   "p_match": 0.9951,
+   "mean_p": 0.9931
+  }
+ },
+ "France_accepted_volume": {
+  "HI_n": 767118,
+  "HI_sub_generic": 16200,
+  "LO_n": 87278,
+  "HI_drop_content": 13183,
+  "HI_sub_rare": 37295,
+  "LO_add_generic": 3413,
+  "LO_sub_generic": 9298,
+  "LO_sub_rare": 3214,
+  "HI_sub_content": 4931,
+  "HI_sub_content_for_content": 4620,
+  "LO_drop_content": 526,
+  "HI_add_generic": 4851,
+  "LO_sub_content": 12009,
+  "LO_sub_content_for_content": 11292,
+  "HI_drop_generic": 2192,
+  "HI_add_content": 775,
+  "HI_add_rare": 1262,
+  "LO_add_content": 1118,
+  "HI_drop_rare": 377,
+  "LO_drop_rare": 142,
+  "LO_add_rare": 135,
+  "LO_drop_generic": 50
+ },
+ "France_content_subst_examples": {
+  "HI": [
+   {
+    "s1": "Ray Gym Groupement SASU",
+    "s1_addr": "Hauts-de-France, Lille, 7 Rue Augereau",
+    "rec": "Ray Gym SASU France",
+    "rec_addr": "7 RUE AUGEREAU, LILLE, Nord",
+    "p": 0.9965,
+    "n_claims": 1,
+    "coloc_S1": [
+     "Tous Technologies SA"
+    ]
+   },
+   {
+    "s1": "Personnel Ecole",
+    "s1_addr": "29 RUE Virginie Ghesquiere, Lille, Hauts-de-France",
+    "rec": "Personnel Societe",
+    "rec_addr": "LILLE, Nº 29 RUE VIRGINIE GHESQUIERE",
+    "p": 0.995,
+    "n_claims": 1,
+    "coloc_S1": [
+     "Entente Primaire",
+     "Lille Anciens SARL",
+     "Francophone Section SA",
+     "Clinique de Parentheses",
+     "Societales Deleves Centre SARL"
+    ]
+   },
+   {
+    "s1": "Familles Anciens SAS",
+    "s1_addr": "12 Rue de l'Ancien Hôtel de Ville, Saint-Nazaire, Pays de la Loire",
+    "rec": "Familles Amis SAS",
+    "rec_addr": "12 Rue De L'ancien Hôtel De Ville, St.-nazaire",
+    "p": 0.9995,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "10 Redonner Ehpad EI",
+    "s1_addr": "56 Rue Achille Testelin, Tourcoing, Hauts-de-France",
+    "rec": "10 Redonner Amis Ei",
+    "rec_addr": "56 RUE ACHILLE TESTELIN, TOURCOING, Nord",
+    "p": 0.9982,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Usep (France) Ecole SAS",
+    "s1_addr": "Pays de la Loire, La Baule-Escoublac, 1 a Avenue des Dryades",
+    "rec": "Usep (France) Comite SAS",
+    "rec_addr": "1 A AVENUE DES DRYADES, LA BAULE-ESCOUBLAC",
+    "p": 0.9942,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Eleves Club SA",
+    "s1_addr": "Pays de la Loire, 32 Rue Saint Léonard, Nantes",
+    "rec": "Eleves Centre SA",
+    "rec_addr": "Nº 32 Rue Saint Léonard, Nantes",
+    "p": 0.9979,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Coordination Amis",
+    "s1_addr": "2 Cour Bouckuyt, Tourcoing, Hauts-de-France",
+    "rec": "Coordination Maison",
+    "rec_addr": "2 Cour Bouckuyt, Tourcoing",
+    "p": 0.9937,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "LTO Parents SASU",
+    "s1_addr": "Bordeaux, Nouvelle-Aquitaine, 1 Rue Ducau",
+    "rec": "lto amis sasu",
+    "rec_addr": "1 RUE DUCAU, BORDEAUX",
+    "p": 0.9966,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Amaryllis Departementale Amicale",
+    "s1_addr": "123 Rue Frere, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "Amaryllis Departementale Club",
+    "rec_addr": "123 RUE FRERE, BORDEAUX",
+    "p": 0.9976,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Sportez Sante EURL",
+    "s1_addr": "Nouvelle-Aquitaine, Lège-Cap-Ferret, 2 Lotissement les Chênes",
+    "rec": "SPORTEZ  EURL FRANCE",
+    "rec_addr": "2 LOTISSEMENT LES CHÊNES, LÈGE-CAP-FERRET, Nouvelle-Aquitaine",
+    "p": 0.9958,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Lutte Section",
+    "s1_addr": "369 A Avenue de Verdun, Mérignac, Nouvelle-Aquitaine",
+    "rec": "Lutte  Centre",
+    "rec_addr": "369 A AVENUE DE VERDUN, MERIGNAC",
+    "p": 0.9998,
+    "n_claims": 1,
+    "coloc_S1": [
+     "Confrerie (France) Pharmacie SARL",
+     "Amitie (France) Amicale SARL",
+     "Team Collège",
+     "Ets Savoir SA",
+     "Mérignac Soins EURL"
+    ]
+   },
+   {
+    "s1": "Cia Sante SAS",
+    "s1_addr": "5 Rue Emile Joyaux, Mérignac, Nouvelle-Aquitaine",
+    "rec": "SAS Cia Centre",
+    "rec_addr": "5 Rue Emile Joyaux, Mérignac, Nouvelle-Aquitaine",
+    "p": 0.9986,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Crossroads (France) Groupement SAS",
+    "s1_addr": "14 Avenue des Dryades, Saint-Nazaire, Pays de la Loire",
+    "rec": "Crossroads Groupement SAS Groupe",
+    "rec_addr": "14 Avenue Des Dryades, Saint-nazaire, Pays de la Loire",
+    "p": 0.9983,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Dinteret (France) Sante",
+    "s1_addr": "14 Rue Étienne Lhoste, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "(France) Dinteret Comite",
+    "rec_addr": "14 Rue Etienne Lhoste, Bordeaux, Nouvelle-Aquitaine",
+    "p": 0.9974,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Peche Sportive EURL",
+    "s1_addr": "Hauts-de-France, 191 Rue Jean Cocteau, Dunkerque",
+    "rec": "Peche Parents EURL",
+    "rec_addr": "191 Rue Jean Cocteau, Dunkerque, Hauts-de-France",
+    "p": 0.9995,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Honoré (France) Danse SARL",
+    "s1_addr": "177 Rue Dupuy de Lôme, Hauts-de-France, Roubaix",
+    "rec": "HONORÉ (FRANCE) SANTE SARL",
+    "rec_addr": "(177) RUE DUPUY DE LÔME, ROUBAIX, Hauts-de-France",
+    "p": 0.9999,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Chirurgie Soins SAS",
+    "s1_addr": "21 A Rue de Toulon, Tourcoing, Hauts-de-France",
+    "rec": "Chirurgie Centre SAS",
+    "rec_addr": "21 A RUE DE TOULON, Hauts-de-France, TOURCOING",
+    "p": 0.9979,
+    "n_claims": 1,
+    "coloc_S1": [
+     "Ets Organisation",
+     "Franco Maison SARL",
+     "Maison Climb SAS"
+    ]
+   },
+   {
+    "s1": "OR College SARL",
+    "s1_addr": "210 Avenue Marcel Dassault, Mérignac, Nouvelle-Aquitaine",
+    "rec": "OR Centre SARL",
+    "rec_addr": "210 AV MARCEL DASSAULT, MÉRIGNAC, Nouvelle-Aquitaine",
+    "p": 0.9922,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Cercle Sport SARL",
+    "s1_addr": "18 Rue Aristide Briand, Dunkerque, Hauts-de-France",
+    "rec": "Cercle SARL (France)",
+    "rec_addr": "18 R Aristide Briand, Dunkerque, Nord",
+    "p": 0.9903,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Tourcoing Institut SARL",
+    "s1_addr": "Tourcoing, 28 Rue des Palmiers, Hauts-de-France",
+    "rec": "TOURCOING SARL FRANCE",
+    "rec_addr": "28 RUE DES PALMIERS, TOURCOING, Nord",
+    "p": 0.9938,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Citoyenne Sportive SAS",
+    "s1_addr": "36 Rue Becker, Lille, Hauts-de-France",
+    "rec": "Citoyenne Societe",
+    "rec_addr": "36 RUE BECKER, LILLE, Hauts-de-France",
+    "p": 0.9912,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Amities Centre SA",
+    "s1_addr": "140 Boulevard Jean De Neyman, Saint-Nazaire, Pays de la Loire",
+    "rec": "Amities  Amis",
+    "rec_addr": "140 - BD JEAN DE NEYMAN, SAINT-NAZAIRE",
+    "p": 0.9925,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Perigord Dentaire Collectif",
+    "s1_addr": "Hauts-de-France, Dunkerque, 79 Rue Pasteur",
+    "rec": "Perigord Dentaire Club",
+    "rec_addr": "Dunkerque, 0079 Rue Pasteur, Nord",
+    "p": 0.9937,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Academie Club SAS",
+    "s1_addr": "9 Allée Alphonse Lenfant, Tourcoing, Hauts-de-France",
+    "rec": "Academie Sante (SAS)",
+    "rec_addr": "9 ALL ALPHONSE LENFANT, TOURCOING, Hauts-de-France",
+    "p": 0.9959,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Lyceens (France) Club EURL",
+    "s1_addr": "23 RUE du General Buat, Nantes, Pays de la Loire",
+    "rec": "Lyceens (France) Fetes EURL",
+    "rec_addr": "23 RUE DU GEIERAL BUAT, NANTES, Loire-Atlantique",
+    "p": 0.9964,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Hebergement Conseil EURL",
+    "s1_addr": "36 Rue des Pêcheurs, Dunkerque, Hauts-de-France",
+    "rec": "Hebergement Comite Eurl",
+    "rec_addr": "Nord, Dunkerque, 36 Rue Des Pêchuers",
+    "p": 0.9945,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Deportes Amis SAS",
+    "s1_addr": "12 L'Auvière, Pornic, Pays de la Loire",
+    "rec": "Deportes Comite SAS",
+    "rec_addr": "12 L'AUVIÈRE, PORNIC, Pays de la Loire",
+    "p": 0.9936,
+    "n_claims": 1,
+    "coloc_S1": [
+     "Oiseaux Federation SARL"
+    ]
+   },
+   {
+    "s1": "Jardin Club",
+    "s1_addr": "121 Rue de la Béchade, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "Jardin Centre",
+    "rec_addr": "121 RUE DE LA BÉCHADE, BORDEAUX",
+    "p": 0.9967,
+    "n_claims": 1,
+    "coloc_S1": [
+     "Petits Anciens SAS",
+     "Union du Socio",
+     "Fédération des Confrerie",
+     "Departemental Sportive"
+    ]
+   },
+   {
+    "s1": "Chemins Fetes",
+    "s1_addr": "33 Allee du Grand Ousteau, Lège-Cap-Ferret, Nouvelle-Aquitaine",
+    "rec": "Chemins Club",
+    "rec_addr": "#33 ALLEE DU GRAND OUSTEAU, LÈGE-CAP-FERRET",
+    "p": 0.9992,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Specialisee Retraites Comite EI",
+    "s1_addr": "102 Avenue Jean Lebas, Roubaix, Hauts-de-France",
+    "rec": "EI Specialisee Retraites Centre",
+    "rec_addr": "102 Avenue Jean Lebas, Roubaix, Hauts-de-France",
+    "p": 0.9994,
+    "n_claims": 1,
+    "coloc_S1": []
+   }
+  ],
+  "LO": [
+   {
+    "s1": "Centrale Sportive (France) SARL",
+    "s1_addr": "Saint-Nazaire, Pays de la Loire, 45 Rue Pierre Vergniaud",
+    "rec": "Centrale Centre (France)",
+    "rec_addr": "45 R. Pierre Vrgniaud, St.-nazaire, Loire-Atlantique",
+    "p": 0.8392,
+    "n_claims": 1,
+    "coloc_S1": [
+     "Peniel Ecole SARL"
+    ]
+   },
+   {
+    "s1": "Ptit Lycee SAS",
+    "s1_addr": "39 Lotissement le Canal Dom de la Forge, Nouvelle-Aquitaine, La Teste-de-Buch",
+    "rec": "Ptit Sante SAS",
+    "rec_addr": "39 Lotissement Le Canal Dom De La Forge, La Teste-de-buch, Nouvelle-Aquitaine",
+    "p": 0.9475,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Lile Ressortissants Union SARL",
+    "s1_addr": "16 Chemin Joseph Pierre, Nantes, Pays de la Loire",
+    "rec": "Lile Ressortissants Club Sarl",
+    "rec_addr": "16 Chemin Joseph Pierre, Nantes, Pays de la Loire",
+    "p": 0.9571,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Collège Marpa",
+    "s1_addr": "2 Rue du Nord, Tourcoing, Hauts-de-France",
+    "rec": "Section Marpa",
+    "rec_addr": "#2 R DU NORD, TOURCOING, Hauts-de-France",
+    "p": 0.9434,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Admr (France) Sportive SAS",
+    "s1_addr": "332 Rue Arago, Dunkerque, Hauts-de-France",
+    "rec": "Admr (France) Club SAS",
+    "rec_addr": "332 Rue Arago, Dunkerque",
+    "p": 0.9135,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "JU Maternelle SAS",
+    "s1_addr": "39 Rue Philibert Delorme, Roubaix, Hauts-de-France",
+    "rec": "JU Amis SAS",
+    "rec_addr": "0039 R. PHILIBERT DELORME, ROUBAIX",
+    "p": 0.8749,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Saint-Nazaire Societe SARL",
+    "s1_addr": "20 Allée des Myosotis, Saint-Nazaire, Pays de la Loire",
+    "rec": "Saint-Nazaire Sportive SARL",
+    "rec_addr": "20 Allée Des Myosotis, St-nazaire, Pays de la Loire",
+    "p": 0.9455,
+    "n_claims": 2,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Cuvee Loisirs SARL",
+    "s1_addr": "3 Rue Edmond Rostand, Pessac, Nouvelle-Aquitaine",
+    "rec": "Cuvee SARL (Jeunes)",
+    "rec_addr": "3 RUE EDMOND ROSTAND, PESSAC, Gironde",
+    "p": 0.9322,
+    "n_claims": 1,
+    "coloc_S1": [
+     "Local Primaire SAS",
+     "Pessac Club SARL",
+     "Ass Compagnie (France) SARL",
+     "Joie Anciens SAS",
+     "Établissements Centrale SAS"
+    ]
+   },
+   {
+    "s1": "Defense Musique SARL",
+    "s1_addr": "Hauts-de-France, Tourcoing, 38 Rue Victor Hugo",
+    "rec": "Defense SARL Lycee",
+    "rec_addr": "38 Rue Victor Hugo, Tourcoing",
+    "p": 0.8691,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Music Paintball Anciens SAS",
+    "s1_addr": "71 RUE Saint Jean Baptiste de la Salle, Lille, Hauts-de-France",
+    "rec": "MUSIC PAINTBALL SANTE SAS",
+    "rec_addr": "72 RUE SAINT JEAN BAPTISTE DE LA SALLE, LILLE, Hauts-de-France",
+    "p": 0.9672,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Msp Union (France) SA",
+    "s1_addr": "8 Rue Arnaud Miqueu, Bordeaux, Nouvelle-Aquitaine",
+    "rec": "Msp Comite (Frânce) SA",
+    "rec_addr": "8 Rue Arnaud Miqueu, Bordeaux",
+    "p": 0.9755,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Electro Amicale SA",
+    "s1_addr": "22 Avenue du Clos du Cens, Nantes, Pays de la Loire",
+    "rec": "Electro SA Fetes",
+    "rec_addr": "Loire-Atlantique, 22 AVENUE DU CLOS DU CENS, NANTES",
+    "p": 0.9865,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Confrerie Amicale SARL",
+    "s1_addr": "10 Rue des Lavandières, Pornic, Pays de la Loire",
+    "rec": "CONFRERIE SARL FRANCE",
+    "rec_addr": "10 R. DES LAVANDIÈRES, PORNIC",
+    "p": 0.9457,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Dunkerque Societe SARL",
+    "s1_addr": "206 Rue de l’Ancienne RN 40, Dunkerque, Hauts-de-France",
+    "rec": "Dunkerque Sportive SARL",
+    "rec_addr": "206 RUE DE L’ANCIENNE RN 40, DUNKERQUE, Hauts-de-France",
+    "p": 0.8598,
+    "n_claims": 1,
+    "coloc_S1": [
+     "Union du Lart",
+     "Dunkerque Ecole SARL Enterprises",
+     "Amicale des Epargne",
+     "Maison de Santé du As",
+     "Dit Fiesta Musique SAS"
+    ]
+   },
+   {
+    "s1": "QLW Federation EURL",
+    "s1_addr": "2 Rue Fontaine des Baronnies, Nantes, Pays de la Loire",
+    "rec": "France QLW EURL",
+    "rec_addr": "Pays de la Loire, 2 RUE FONTAINE DES BARONNIES, Nantes",
+    "p": 0.973,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "La Baule-Escoublac Sante SARL",
+    "s1_addr": "55 Avenue des Ondines, La Baule-Escoublac, Pays de la Loire",
+    "rec": "FRANCE LA BAULE-ESCOUBLAC SARL",
+    "rec_addr": "55 AVENUE DES ONDINES, La Baule-Escoublac, Loire-Atlantique",
+    "p": 0.9828,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Pornic Sport SAS",
+    "s1_addr": "28 Avenue de la Boutinardière, Pornic, Pays de la Loire",
+    "rec": "Pornic Section [S.A.S]",
+    "rec_addr": "28 AV. DE LA BOUTINARDIÈRE, PORNIC, Pays de la Loire",
+    "p": 0.8672,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "XMW Sport SCI",
+    "s1_addr": "18 RUE Crebillon, etage 34, Nantes, Pays de la Loire",
+    "rec": "XMW Loisirs SCI",
+    "rec_addr": "N° 18 R CRBEILLON, ETAGE 34, NANTES, Pays de la Loire",
+    "p": 0.985,
+    "n_claims": 1,
+    "coloc_S1": [
+     "UNI Union SA",
+     "Nantes Amicale SARL"
+    ]
+   },
+   {
+    "s1": "QBS Sport SARL",
+    "s1_addr": "23 Avenue de Villemejan, Pessac, Nouvelle-Aquitaine",
+    "rec": "QBS SARL France",
+    "rec_addr": "23 AV DE VILLMEJAN, PESSAC",
+    "p": 0.8205,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Stade Sante EURL",
+    "s1_addr": "2 A Rue des Palmiers, Pessac, Nouvelle-Aquitaine",
+    "rec": "Stade Parents E.U.R.L.",
+    "rec_addr": "2 A Rue Des Palmiesr, Pessac, Gironde",
+    "p": 0.9668,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "UTA Amicale",
+    "s1_addr": "25 Rue Raymond Coulier, Dunkerque, Hauts-de-France",
+    "rec": "UTA Institut",
+    "rec_addr": "25 RUE RAYMOND COULIER, DUNKERQUE, Hauts-de-France",
+    "p": 0.9718,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Nantes Sportive EURL",
+    "s1_addr": "7 Avenue Pelletier Doisy, Nantes, Pays de la Loire",
+    "rec": "Nantes EURL France",
+    "rec_addr": "7 Avenue Pelletier Doisy, Nantes",
+    "p": 0.8301,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Privé Pharmacie SARL",
+    "s1_addr": "210 Route de Saint-Marc, Saint-Nazaire, Pays de la Loire",
+    "rec": "Privé Societe SARL",
+    "rec_addr": "210 Rte De Saint-marc, Pays de la Loire, Saint-nazaire",
+    "p": 0.966,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "OJV Club",
+    "s1_addr": "7 Rue de Cronstadt, Calais, Hauts-de-France",
+    "rec": "OJV Amicale",
+    "rec_addr": "7 Rue De Cronstadt, Calais, Pas-de-Calais",
+    "p": 0.9747,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Senegal Fitness Pharmacie",
+    "s1_addr": "29 Rue de Cassel, Roubaix, Hauts-de-France",
+    "rec": "Senegal-Fitness Comite SAS",
+    "rec_addr": "Roubaix, 29 Rue De Cassel",
+    "p": 0.9894,
+    "n_claims": 1,
+    "coloc_S1": [
+     "Nov Parents SARL",
+     "Elegance Beaulieu Club SARL",
+     "Clos Compagnie",
+     "Association des Silex",
+     "Immateriel Trans Fetes"
+    ]
+   },
+   {
+    "s1": "WS Auto SAS",
+    "s1_addr": "32 Rue Edmond Rostand, Pessac, Nouvelle-Aquitaine",
+    "rec": "WS Amis",
+    "rec_addr": "32 R Edmond Rostand, Pessac, Gironde",
+    "p": 0.9765,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Legalite (France) Primaire SAS",
+    "s1_addr": "32 Rue Hélène Boucher, Tourcoing, Hauts-de-France",
+    "rec": "SAS Legalite (France) Comite",
+    "rec_addr": "32 Rue Hélène Boucher, Tourcoing, Hauts-de-France",
+    "p": 0.9573,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Recherche Instant Pharmacie",
+    "s1_addr": "24 Rue du Sec Arembault, Lille, Hauts-de-France",
+    "rec": "Recherche Instant France",
+    "rec_addr": "24 Rue Du Sec Arembault, Lille, Hauts-de-France",
+    "p": 0.9583,
+    "n_claims": 1,
+    "coloc_S1": []
+   },
+   {
+    "s1": "Don Amicale SAS",
+    "s1_addr": "115 Rue de la Source, Pornic, Pays de la Loire",
+    "rec": "Don Centre SAS",
+    "rec_addr": "115 RUE DE LA SOUCE, PORNIC, Loire-Atlantique",
+    "p": 0.9635,
+    "n_claims": 1,
+    "coloc_S1": [
+     "Majorettes Ecole EI"
+    ]
+   },
+   {
+    "s1": "Departementale Sante SARL",
+    "s1_addr": "Hauts-de-France, 56 Rue Jacquard, Lille",
+    "rec": "Departementale Amis SARL",
+    "rec_addr": "Nord, 56 RUE JACQBARD, LILLE",
+    "p": 0.9602,
+    "n_claims": 1,
+    "coloc_S1": []
+   }
+  ]
+ }
+}

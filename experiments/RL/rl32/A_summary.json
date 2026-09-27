@@ -1,0 +1,462 @@
+{
+ "what": "RL-32 A stratified count prior summary (MEASURED unless noted). T=3.4595*0.998=3.4526 (train E[n] flat across all S1-only strata, 3.44-3.48).",
+ "V1_by_crowd": {
+  "India|1": {
+   "n_gt": 3.4786,
+   "inpool": 3.4753,
+   "sum_RRL": 3.4719,
+   "acc_RRL": 3.443,
+   "fp_RRL": 0.0071,
+   "fn_RRL": 0.0428,
+   "f_RRL": 0.9942,
+   "n": 3646
+  },
+  "India|2-5": {
+   "n_gt": 3.5398,
+   "inpool": 3.5357,
+   "sum_RRL": 3.5325,
+   "acc_RRL": 3.4167,
+   "fp_RRL": 0.0116,
+   "fn_RRL": 0.1346,
+   "f_RRL": 0.9842,
+   "n": 1471
+  },
+  "India|31+": {
+   "n_gt": 3.4506,
+   "inpool": 3.439,
+   "sum_RRL": 3.4507,
+   "acc_RRL": 3.3541,
+   "fp_RRL": 0.008,
+   "fn_RRL": 0.1045,
+   "f_RRL": 0.99,
+   "n": 2508
+  },
+  "India|6-30": {
+   "n_gt": 3.5238,
+   "inpool": 3.5,
+   "sum_RRL": 3.5434,
+   "acc_RRL": 3.3601,
+   "fp_RRL": 0.0357,
+   "fn_RRL": 0.1994,
+   "f_RRL": 0.973,
+   "n": 336
+  },
+  "US|1": {
+   "n_gt": 3.4604,
+   "inpool": 3.4599,
+   "sum_RRL": 3.4528,
+   "acc_RRL": 3.4183,
+   "fp_RRL": 0.0061,
+   "fn_RRL": 0.0482,
+   "f_RRL": 0.9947,
+   "n": 6392
+  },
+  "US|2-5": {
+   "n_gt": 3.4591,
+   "inpool": 3.4542,
+   "sum_RRL": 3.4518,
+   "acc_RRL": 3.3247,
+   "fp_RRL": 0.0136,
+   "fn_RRL": 0.148,
+   "f_RRL": 0.9843,
+   "n": 2858
+  },
+  "US|31+": {
+   "n_gt": 3.4516,
+   "inpool": 3.4152,
+   "sum_RRL": 3.4116,
+   "acc_RRL": 3.269,
+   "fp_RRL": 0.0049,
+   "fn_RRL": 0.1875,
+   "f_RRL": 0.9808,
+   "n": 1840
+  },
+  "US|6-30": {
+   "n_gt": 3.471,
+   "inpool": 3.4636,
+   "sum_RRL": 3.4578,
+   "acc_RRL": 3.2877,
+   "fp_RRL": 0.0084,
+   "fn_RRL": 0.1918,
+   "f_RRL": 0.981,
+   "n": 949
+  }
+ },
+ "test_recnorm_by_crowd": {
+  "US": {
+   "1": {
+    "share": 0.6002,
+    "sum6": 3.4657,
+    "sumn6": 3.4619,
+    "dbl6": 0.0038,
+    "sum5": 3.4736,
+    "sumn5": 3.4695,
+    "dbl5": 0.0041,
+    "mc6": 3.4313,
+    "mc5": 3.4236,
+    "ex_sum6": 0.0131,
+    "ex_sumn6": 0.0093,
+    "ex_sum5": 0.021,
+    "ex_sumn5": 0.0169,
+    "ex_mc6": -0.0213,
+    "ex_mc5": -0.029
+   },
+   "2-5": {
+    "share": 0.2077,
+    "sum6": 3.4519,
+    "sumn6": 3.4343,
+    "dbl6": 0.0176,
+    "sum5": 3.4566,
+    "sumn5": 3.4391,
+    "dbl5": 0.0175,
+    "mc6": 3.3321,
+    "mc5": 3.3197,
+    "ex_sum6": -0.0007,
+    "ex_sumn6": -0.0183,
+    "ex_sum5": 0.004,
+    "ex_sumn5": -0.0134,
+    "ex_mc6": -0.1204,
+    "ex_mc5": -0.1329
+   },
+   "31+": {
+    "share": 0.1046,
+    "sum6": 3.4032,
+    "sumn6": 3.393,
+    "dbl6": 0.0102,
+    "sum5": 3.4177,
+    "sumn5": 3.4047,
+    "dbl5": 0.013,
+    "mc6": 3.28,
+    "mc5": 3.2718,
+    "ex_sum6": -0.0494,
+    "ex_sumn6": -0.0596,
+    "ex_sum5": -0.0349,
+    "ex_sumn5": -0.0479,
+    "ex_mc6": -0.1726,
+    "ex_mc5": -0.1808
+   },
+   "6-30": {
+    "share": 0.0875,
+    "sum6": 3.4098,
+    "sumn6": 3.397,
+    "dbl6": 0.0128,
+    "sum5": 3.4258,
+    "sumn5": 3.4109,
+    "dbl5": 0.0149,
+    "mc6": 3.2725,
+    "mc5": 3.2649,
+    "ex_sum6": -0.0428,
+    "ex_sumn6": -0.0555,
+    "ex_sum5": -0.0268,
+    "ex_sumn5": -0.0416,
+    "ex_mc6": -0.1801,
+    "ex_mc5": -0.1877
+   },
+   "ALL": {
+    "share": 1.0,
+    "sum6": 3.4514,
+    "sumn6": 3.4433,
+    "dbl6": 0.0081,
+    "sum5": 3.4601,
+    "sumn5": 3.4513,
+    "dbl5": 0.0088,
+    "mc6": 3.381,
+    "mc5": 3.3722,
+    "ex_sum6": -0.0012,
+    "ex_sumn6": -0.0093,
+    "ex_sum5": 0.0075,
+    "ex_sumn5": -0.0013,
+    "ex_mc6": -0.0716,
+    "ex_mc5": -0.0803
+   }
+  },
+  "India": {
+   "1": {
+    "share": 0.4658,
+    "sum6": 3.4567,
+    "sumn6": 3.4474,
+    "dbl6": 0.0094,
+    "sum5": 3.4601,
+    "sumn5": 3.4501,
+    "dbl5": 0.01,
+    "mc6": 3.4254,
+    "mc5": 3.4148,
+    "ex_sum6": 0.0042,
+    "ex_sumn6": -0.0052,
+    "ex_sum5": 0.0075,
+    "ex_sumn5": -0.0025,
+    "ex_mc6": -0.0271,
+    "ex_mc5": -0.0378
+   },
+   "2-5": {
+    "share": 0.1777,
+    "sum6": 3.4604,
+    "sumn6": 3.4303,
+    "dbl6": 0.0301,
+    "sum5": 3.4644,
+    "sumn5": 3.432,
+    "dbl5": 0.0324,
+    "mc6": 3.3402,
+    "mc5": 3.3241,
+    "ex_sum6": 0.0078,
+    "ex_sumn6": -0.0222,
+    "ex_sum5": 0.0118,
+    "ex_sumn5": -0.0206,
+    "ex_mc6": -0.1124,
+    "ex_mc5": -0.1285
+   },
+   "31+": {
+    "share": 0.3139,
+    "sum6": 3.4399,
+    "sumn6": 3.4216,
+    "dbl6": 0.0183,
+    "sum5": 3.4473,
+    "sumn5": 3.4222,
+    "dbl5": 0.0252,
+    "mc6": 3.3449,
+    "mc5": 3.3361,
+    "ex_sum6": -0.0127,
+    "ex_sumn6": -0.031,
+    "ex_sum5": -0.0052,
+    "ex_sumn5": -0.0304,
+    "ex_mc6": -0.1077,
+    "ex_mc5": -0.1164
+   },
+   "6-30": {
+    "share": 0.0426,
+    "sum6": 3.4605,
+    "sumn6": 3.4126,
+    "dbl6": 0.048,
+    "sum5": 3.4712,
+    "sumn5": 3.4157,
+    "dbl5": 0.0555,
+    "mc6": 3.2954,
+    "mc5": 3.2834,
+    "ex_sum6": 0.0079,
+    "ex_sumn6": -0.04,
+    "ex_sum5": 0.0186,
+    "ex_sumn5": -0.0369,
+    "ex_mc6": -0.1571,
+    "ex_mc5": -0.1691
+   },
+   "ALL": {
+    "share": 1.0,
+    "sum6": 3.4523,
+    "sumn6": 3.4348,
+    "dbl6": 0.0175,
+    "sum5": 3.4573,
+    "sumn5": 3.4366,
+    "dbl5": 0.0207,
+    "mc6": 3.3795,
+    "mc5": 3.3684,
+    "ex_sum6": -0.0003,
+    "ex_sumn6": -0.0178,
+    "ex_sum5": 0.0047,
+    "ex_sumn5": -0.0159,
+    "ex_mc6": -0.0731,
+    "ex_mc5": -0.0842
+   }
+  },
+  "France": {
+   "1": {
+    "share": 0.5126,
+    "sum6": 3.4751,
+    "sumn6": 3.4288,
+    "dbl6": 0.0462,
+    "sum5": 3.5356,
+    "sumn5": 3.485,
+    "dbl5": 0.0507,
+    "mc6": 3.3497,
+    "mc5": 3.3685,
+    "ex_sum6": 0.0225,
+    "ex_sumn6": -0.0238,
+    "ex_sum5": 0.0831,
+    "ex_sumn5": 0.0324,
+    "ex_mc6": -0.1029,
+    "ex_mc5": -0.0841
+   },
+   "2-5": {
+    "share": 0.2237,
+    "sum6": 3.4682,
+    "sumn6": 3.379,
+    "dbl6": 0.0892,
+    "sum5": 3.5415,
+    "sumn5": 3.4309,
+    "dbl5": 0.1105,
+    "mc6": 3.2452,
+    "mc5": 3.2563,
+    "ex_sum6": 0.0157,
+    "ex_sumn6": -0.0736,
+    "ex_sum5": 0.0889,
+    "ex_sumn5": -0.0217,
+    "ex_mc6": -0.2074,
+    "ex_mc5": -0.1963
+   },
+   "31+": {
+    "share": 0.1081,
+    "sum6": 4.0103,
+    "sumn6": 3.3071,
+    "dbl6": 0.7032,
+    "sum5": 4.4051,
+    "sumn5": 3.395,
+    "dbl5": 1.0101,
+    "mc6": 3.1137,
+    "mc5": 3.1689,
+    "ex_sum6": 0.5577,
+    "ex_sumn6": -0.1455,
+    "ex_sum5": 0.9525,
+    "ex_sumn5": -0.0576,
+    "ex_mc6": -0.3389,
+    "ex_mc5": -0.2837
+   },
+   "6-30": {
+    "share": 0.1555,
+    "sum6": 3.5359,
+    "sumn6": 3.3283,
+    "dbl6": 0.2076,
+    "sum5": 3.6846,
+    "sumn5": 3.3892,
+    "dbl5": 0.2954,
+    "mc6": 3.1574,
+    "mc5": 3.1837,
+    "ex_sum6": 0.0834,
+    "ex_sumn6": -0.1243,
+    "ex_sum5": 0.232,
+    "ex_sumn5": -0.0634,
+    "ex_mc6": -0.2951,
+    "ex_mc5": -0.2689
+   },
+   "ALL": {
+    "share": 1.0,
+    "sum6": 3.5409,
+    "sumn6": 3.3889,
+    "dbl6": 0.152,
+    "sum5": 3.6541,
+    "sumn5": 3.4482,
+    "dbl5": 0.2059,
+    "mc6": 3.2709,
+    "mc5": 3.2931,
+    "ex_sum6": 0.0883,
+    "ex_sumn6": -0.0637,
+    "ex_sum5": 0.2016,
+    "ex_sumn5": -0.0043,
+    "ex_mc6": -0.1817,
+    "ex_mc5": -0.1595
+   }
+  }
+ },
+ "test_contests": {
+  "US|p5": {
+   "contested_rec_perS1": 0.0006,
+   "margin_lt_0.01_perS1": 0.0001,
+   "margin_lt_0.02_perS1": 0.0001,
+   "margin_lt_0.05_perS1": 0.0002,
+   "identical_core_addr_share": 0.0241,
+   "identical_core_addr_perS1": 0.0,
+   "crowd31_share_of_contests": 0.2701
+  },
+  "US|p6": {
+   "contested_rec_perS1": 0.0008,
+   "margin_lt_0.01_perS1": 0.0001,
+   "margin_lt_0.02_perS1": 0.0002,
+   "margin_lt_0.05_perS1": 0.0003,
+   "identical_core_addr_share": 0.0169,
+   "identical_core_addr_perS1": 0.0,
+   "crowd31_share_of_contests": 0.1745
+  },
+  "India|p5": {
+   "contested_rec_perS1": 0.003,
+   "margin_lt_0.01_perS1": 0.0004,
+   "margin_lt_0.02_perS1": 0.0007,
+   "margin_lt_0.05_perS1": 0.0012,
+   "identical_core_addr_share": 0.0016,
+   "identical_core_addr_perS1": 0.0,
+   "crowd31_share_of_contests": 0.5405
+  },
+  "India|p6": {
+   "contested_rec_perS1": 0.0034,
+   "margin_lt_0.01_perS1": 0.0005,
+   "margin_lt_0.02_perS1": 0.0008,
+   "margin_lt_0.05_perS1": 0.0013,
+   "identical_core_addr_share": 0.0007,
+   "identical_core_addr_perS1": 0.0,
+   "crowd31_share_of_contests": 0.4165
+  },
+  "France|p5": {
+   "contested_rec_perS1": 0.0673,
+   "margin_lt_0.01_perS1": 0.0181,
+   "margin_lt_0.02_perS1": 0.025,
+   "margin_lt_0.05_perS1": 0.0367,
+   "identical_core_addr_share": 0.0084,
+   "identical_core_addr_perS1": 0.0006,
+   "crowd31_share_of_contests": 0.6159
+  },
+  "France|p6": {
+   "contested_rec_perS1": 0.0531,
+   "margin_lt_0.01_perS1": 0.0151,
+   "margin_lt_0.02_perS1": 0.0208,
+   "margin_lt_0.05_perS1": 0.0299,
+   "identical_core_addr_share": 0.0099,
+   "identical_core_addr_perS1": 0.0005,
+   "crowd31_share_of_contests": 0.6126
+  }
+ },
+ "france_crowd_char": {
+  "1": {
+   "contested_claims_perS1": 0.0253,
+   "losers_perS1": 0.0154,
+   "loser_margin_q": [
+    0.007,
+    0.0268,
+    0.0842,
+    0.1689,
+    0.2317
+   ],
+   "band_pairs_perS1": 0.2166,
+   "band_claimed_elsewhere_share": 0.1929,
+   "band_unclaimed_mass_perS1": 0.0763
+  },
+  "2-5": {
+   "contested_claims_perS1": 0.0529,
+   "losers_perS1": 0.0302,
+   "loser_margin_q": [
+    0.0044,
+    0.0211,
+    0.0725,
+    0.1595,
+    0.2272
+   ],
+   "band_pairs_perS1": 0.3814,
+   "band_claimed_elsewhere_share": 0.2206,
+   "band_unclaimed_mass_perS1": 0.123
+  },
+  "6-30": {
+   "contested_claims_perS1": 0.1514,
+   "losers_perS1": 0.0845,
+   "loser_margin_q": [
+    0.0018,
+    0.0096,
+    0.0439,
+    0.1302,
+    0.2113
+   ],
+   "band_pairs_perS1": 0.4944,
+   "band_claimed_elsewhere_share": 0.2381,
+   "band_unclaimed_mass_perS1": 0.1369
+  },
+  "31+": {
+   "contested_claims_perS1": 0.7066,
+   "losers_perS1": 0.4058,
+   "loser_margin_q": [
+    0.001,
+    0.0064,
+    0.0323,
+    0.1007,
+    0.1898
+   ],
+   "band_pairs_perS1": 0.8272,
+   "band_claimed_elsewhere_share": 0.3978,
+   "band_unclaimed_mass_perS1": 0.1895
+  }
+ }
+}

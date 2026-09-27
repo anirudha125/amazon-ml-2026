@@ -1,0 +1,29 @@
+{
+ "S002": {
+  "nonempty_pct": 94.79,
+  "preds_per_s1": 3.331,
+  "contested_records": 17291,
+  "contested_s1_pct": 9.4,
+  "provable_fp_lb_pct": 2.64,
+  "after_maxclaim_preds_per_s1": 3.243,
+  "p_ge_95": 0.9104
+ },
+ "C2": {
+  "nonempty_pct": 95.02,
+  "preds_per_s1": 3.468,
+  "contested_records": 26890,
+  "contested_s1_pct": 13.84,
+  "provable_fp_lb_pct": 4.54,
+  "after_maxclaim_preds_per_s1": 3.31,
+  "p_ge_95": 0.9188
+ },
+ "D2b": {
+  "nonempty_pct": 95.16,
+  "preds_per_s1": 3.478,
+  "contested_records": 29292,
+  "contested_s1_pct": 15.16,
+  "provable_fp_lb_pct": 4.8,
+  "after_maxclaim_preds_per_s1": 3.311,
+  "p_ge_95": 0.9115
+ }
+}

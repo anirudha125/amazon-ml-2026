@@ -1,0 +1,182 @@
+{
+ "US": {
+  "V1_macroF05_at_0.78_no_maxclaimer": 98.7738,
+  "ident": {
+   "n": 11538,
+   "pos": 11502,
+   "TP": 11498,
+   "FP": 5,
+   "FN": 4,
+   "TN": 31,
+   "P_y1_given_rejected": 0.1143,
+   "P_y1_given_accepted": 0.9996,
+   "n_s1_with_error": 9
+  },
+  "legal_only": {
+   "n": 4758,
+   "pos": 4721,
+   "TP": 4714,
+   "FP": 1,
+   "FN": 7,
+   "TN": 36,
+   "P_y1_given_rejected": 0.1628,
+   "P_y1_given_accepted": 0.9998,
+   "n_s1_with_error": 8,
+   "oracle_fix_dMacroF_pp": 0.0077,
+   "p_quantiles_of_positives": [
+    0.9711,
+    0.9984,
+    0.9992,
+    0.9999
+   ]
+  },
+  "filler_only": {
+   "n": 1221,
+   "pos": 1205,
+   "TP": 1205,
+   "FP": 2,
+   "FN": 0,
+   "TN": 14,
+   "P_y1_given_rejected": 0.0,
+   "P_y1_given_accepted": 0.9983,
+   "n_s1_with_error": 2,
+   "oracle_fix_dMacroF_pp": 0.0035,
+   "p_quantiles_of_positives": [
+    0.9877,
+    0.9988,
+    0.9997,
+    0.9999
+   ]
+  },
+  "filler_sub": {
+   "n": 1560,
+   "pos": 1550,
+   "TP": 1546,
+   "FP": 2,
+   "FN": 4,
+   "TN": 8,
+   "P_y1_given_rejected": 0.3333,
+   "P_y1_given_accepted": 0.9987,
+   "n_s1_with_error": 5,
+   "oracle_fix_dMacroF_pp": 0.0042,
+   "p_quantiles_of_positives": [
+    0.98,
+    0.9978,
+    0.9991,
+    0.9999
+   ]
+  },
+  "other": {
+   "n": 20097,
+   "pos": 8277,
+   "TP": 8185,
+   "FP": 11,
+   "FN": 92,
+   "TN": 11809,
+   "P_y1_given_rejected": 0.0077,
+   "P_y1_given_accepted": 0.9987,
+   "n_s1_with_error": 102
+  },
+  "nostreet": {
+   "n": 1476374,
+   "pos": 14304,
+   "TP": 13123,
+   "FP": 70,
+   "FN": 1181,
+   "TN": 1462000,
+   "P_y1_given_rejected": 0.0008,
+   "P_y1_given_accepted": 0.9947,
+   "n_s1_with_error": 1156
+  }
+ },
+ "India": {
+  "V1_macroF05_at_0.78_no_maxclaimer": 98.8457,
+  "ident": {
+   "n": 2442,
+   "pos": 2423,
+   "TP": 2421,
+   "FP": 1,
+   "FN": 2,
+   "TN": 18,
+   "P_y1_given_rejected": 0.1,
+   "P_y1_given_accepted": 0.9996,
+   "n_s1_with_error": 3
+  },
+  "legal_only": {
+   "n": 1970,
+   "pos": 1885,
+   "TP": 1884,
+   "FP": 0,
+   "FN": 1,
+   "TN": 85,
+   "P_y1_given_rejected": 0.0116,
+   "P_y1_given_accepted": 1.0,
+   "n_s1_with_error": 1,
+   "oracle_fix_dMacroF_pp": 0.0024,
+   "p_quantiles_of_positives": [
+    0.9937,
+    0.9994,
+    0.9998,
+    0.9999
+   ]
+  },
+  "filler_only": {
+   "n": 672,
+   "pos": 661,
+   "TP": 661,
+   "FP": 0,
+   "FN": 0,
+   "TN": 11,
+   "P_y1_given_rejected": 0.0,
+   "P_y1_given_accepted": 1.0,
+   "n_s1_with_error": 0,
+   "oracle_fix_dMacroF_pp": 0.0,
+   "p_quantiles_of_positives": [
+    0.9901,
+    0.9978,
+    0.9989,
+    0.9999
+   ]
+  },
+  "filler_sub": {
+   "n": 497,
+   "pos": 442,
+   "TP": 438,
+   "FP": 1,
+   "FN": 4,
+   "TN": 54,
+   "P_y1_given_rejected": 0.069,
+   "P_y1_given_accepted": 0.9977,
+   "n_s1_with_error": 5,
+   "oracle_fix_dMacroF_pp": 0.005,
+   "p_quantiles_of_positives": [
+    0.9003,
+    0.9923,
+    0.9972,
+    0.9998
+   ]
+  },
+  "other": {
+   "n": 8691,
+   "pos": 3262,
+   "TP": 3225,
+   "FP": 6,
+   "FN": 37,
+   "TN": 5423,
+   "P_y1_given_rejected": 0.0068,
+   "P_y1_given_accepted": 0.9981,
+   "n_s1_with_error": 42
+  },
+  "nostreet": {
+   "n": 1020685,
+   "pos": 19000,
+   "TP": 18286,
+   "FP": 68,
+   "FN": 714,
+   "TN": 1001617,
+   "P_y1_given_rejected": 0.0007,
+   "P_y1_given_accepted": 0.9963,
+   "n_s1_with_error": 717
+  }
+ }
+}

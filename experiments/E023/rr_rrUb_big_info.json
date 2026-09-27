@@ -1,0 +1,9 @@
+{
+ "n_pairs": 1479900,
+ "secs": 185.4,
+ "pairs_per_s": 7982,
+ "gpu_util_mean": 75.30434782608695,
+ "n_need": 1479900,
+ "secs_total": 389.98836064338684,
+ "model": "rrUb_a50n10d10a"
+}

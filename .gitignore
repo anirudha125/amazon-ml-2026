@@ -32,3 +32,8 @@ Thumbs.db
 .vscode/
 .idea/
 .gemini/
+
+# Large artifacts (GitHub 100 MB limit): model weights, packaged archives
+*.safetensors
+*.zip
+*.gz

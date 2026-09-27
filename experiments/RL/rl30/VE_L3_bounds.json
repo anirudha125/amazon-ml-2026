@@ -1,0 +1,398 @@
+{
+ "France": {
+  "veto_kept_real_llr>=1": {
+   "pairs": 2763,
+   "s1": 2666,
+   "mean_gain_if_FP": 0.2538,
+   "mean_loss_if_TP": 0.099,
+   "break_even_FP_fraction": 0.2806,
+   "country_pp_if_100pct_FP": 0.2703,
+   "country_pp_at_V1_FP_rate_0p34pct": -0.1041,
+   "subset_rv_rank1_dupf0": 1410
+  },
+  "veto_kept_real_llr>=2": {
+   "pairs": 598,
+   "s1": 594,
+   "mean_gain_if_FP": 0.2487,
+   "mean_loss_if_TP": 0.0927,
+   "break_even_FP_fraction": 0.2715,
+   "country_pp_if_100pct_FP": 0.0573,
+   "country_pp_at_V1_FP_rate_0p34pct": -0.0211,
+   "subset_rv_rank1_dupf0": 246
+  },
+  "rescue_sameaddr_filler_rejected": {
+   "pairs": 32964,
+   "s1": 29304,
+   "record_claimed_by_some_S1": 2443,
+   "record_unclaimed": 30521,
+   "unclaimed_s1": 28212,
+   "unclaimed_share_coloc_gt0": 0.1609,
+   "unclaimed_share_dupf_gt0": 0.3968,
+   "unclaimed_share_rv_rank_gt1": 0.1294,
+   "unclaimed_share_s1_has_no_kept_pred": 0.0422,
+   "unclaimed_rank_dense_median": 3.0,
+   "top_diff_tokens": {
+    "->groupe": 1343,
+    "club->groupe": 498,
+    "->france": 396,
+    "->developpement": 329,
+    "club->developpement": 319,
+    "club->france": 269,
+    "france->groupe": 261,
+    "amicale->groupe": 251,
+    "ecole->groupe": 247,
+    "comite->groupe": 227,
+    "amicale->developpement": 219,
+    "sarl->": 215,
+    "ecole->developpement": 212,
+    "ecole->france": 202,
+    "sportive->groupe": 195
+   }
+  },
+  "rescue_examples": [
+   {
+    "s1_name": "Collège Lune",
+    "s1_addr": "14 Cour Govaere, 125 rue de l'épeule, Roubaix, Hauts-de-France",
+    "rec_name": "Santé  Lune",
+    "rec_addr": "ROUBAIX, 14 COUR GOVAERE",
+    "llr_max": -0.12,
+    "coloc": 0.0,
+    "dupf": 0.0,
+    "rv_rank": 1.0
+   },
+   {
+    "s1_name": "Alliance Patrimoine SAS",
+    "s1_addr": "47 Rue Giner de Los Rios, Bordeaux, Nouvelle-Aquitaine",
+    "rec_name": "Alliance Ecole SAS",
+    "rec_addr": "47 R GINER DE LOS RIOS, BORDEAUX",
+    "llr_max": -0.49,
+    "coloc": 7.0,
+    "dupf": 0.0,
+    "rv_rank": 1.0
+   },
+   {
+    "s1_name": "Langevin Club SARL",
+    "s1_addr": "16 Avenue des Acacias, Nantes, Pays de la Loire",
+    "rec_name": "Langevin SARL Groupe",
+    "rec_addr": "0016 AVENUE DES ACACIAS, NANTES, Loire-Atlantique",
+    "llr_max": -0.42,
+    "coloc": 0.0,
+    "dupf": 0.0,
+    "rv_rank": 1.0
+   },
+   {
+    "s1_name": "Personnels Club EURL",
+    "s1_addr": "82 Bis Rue des Renardières, Nantes, Pays de la Loire",
+    "rec_name": "PERSONNELS TECHNOLOGIES EURL",
+    "rec_addr": "82BIS RUE DES RENARDIÈRES, NANTES, Pays de la Loire",
+    "llr_max": -0.42,
+    "coloc": 0.0,
+    "dupf": 3.0,
+    "rv_rank": 1.0
+   },
+   {
+    "s1_name": "Maille Amicale SAS",
+    "s1_addr": "15 Rue Frémy, Lille, Hauts-de-France",
+    "rec_name": "Maille SAS-Groupe",
+    "rec_addr": "15 Rue Frémy, Lille, Nord",
+    "llr_max": -0.32,
+    "coloc": 0.0,
+    "dupf": 0.0,
+    "rv_rank": 1.0
+   },
+   {
+    "s1_name": "Recherches Maternelle",
+    "s1_addr": "17 Rue Garde Dieu, Nantes, Pays de la Loire",
+    "rec_name": "Recherches [France]",
+    "rec_addr": "17 Rue Garde Diou, Nantes, Pays de la Loire",
+    "llr_max": -0.27,
+    "coloc": 0.0,
+    "dupf": 0.0,
+    "rv_rank": 1.0
+   },
+   {
+    "s1_name": "St Comite SARL",
+    "s1_addr": "57 Rue de Guisnes, Tourcoing, Hauts-de-France",
+    "rec_name": "St SARL France",
+    "rec_addr": "Tourcoing, 57 R De Guisnes, Hauts-de-France",
+    "llr_max": -0.34,
+    "coloc": 0.0,
+    "dupf": 1.0,
+    "rv_rank": 1.0
+   },
+   {
+    "s1_name": "Rugby Agricole SARL",
+    "s1_addr": "86 BD DE LA REP FRANCOIS MITTERRAND, Dunkerque, Hauts-de-France",
+    "rec_name": "Rugby Sportif SARL",
+    "rec_addr": "86 BD DE LA REP FRANCOIS MITTERRAND, DUNKERQUE",
+    "llr_max": -0.51,
+    "coloc": 0.0,
+    "dupf": 0.0,
+    "rv_rank": 1.0
+   }
+  ],
+  "veto_examples_kept_llr>=2": [
+   {
+    "s1_name": "Amicale du Saad",
+    "s1_addr": "6 Rue Georges Meynieu, Nantes, Pays de la Loire",
+    "rec_name": "Amicale du Sd",
+    "rec_addr": "(6) RUE GEORGES MEYNIEU, NANTES",
+    "p": 0.9997,
+    "llr_max": 2.62,
+    "rv_rank": 1.0,
+    "dupf": 3.0
+   },
+   {
+    "s1_name": "Maison Lepee SARL",
+    "s1_addr": "11 Impasse du Carillon, Pornic, Pays de la Loire",
+    "rec_name": "Maison Le SARL",
+    "rec_addr": "Pays de la Loire, Pornic, Impasse Du Carillon",
+    "p": 0.9998,
+    "llr_max": 2.33,
+    "rv_rank": 1.0,
+    "dupf": 0.0
+   },
+   {
+    "s1_name": "Sara & Cie",
+    "s1_addr": "10 Avenue d'Amiens, La Baule-Escoublac, Pays de la Loire",
+    "rec_name": "Saa &-Cie",
+    "rec_addr": "Pays de la Loire, La Baule-Escoublac, 10 Avenue D'amiens",
+    "p": 0.9986,
+    "llr_max": 2.68,
+    "rv_rank": 1.0,
+    "dupf": 0.0
+   },
+   {
+    "s1_name": "Maison Team EI",
+    "s1_addr": "Nantes, Pays de la Loire, 14 RUE C. Guillon Verne",
+    "rec_name": "Maison  Tm EI",
+    "rec_addr": "Nº 14 RUE C. GUILLON VERNE, NANTES",
+    "p": 0.9999,
+    "llr_max": 2.72,
+    "rv_rank": 1.0,
+    "dupf": 3.0
+   },
+   {
+    "s1_name": "Usep & Cie SARL",
+    "s1_addr": "56 Avenue Gustave Dron, Tourcoing, Hauts-de-France",
+    "rec_name": "Us & Cie SARL",
+    "rec_addr": "56 AVENUE GUSTAVE DRON, Tourcoing",
+    "p": 0.9281,
+    "llr_max": 2.49,
+    "rv_rank": 1.0,
+    "dupf": 4.0
+   },
+   {
+    "s1_name": "RG Ecole SARL",
+    "s1_addr": "39 Rue Paul Dukas, Mérignac, Nouvelle-Aquitaine",
+    "rec_name": "Sarl Rm Ecole",
+    "rec_addr": "39 R Paul Dukas, Mérignac",
+    "p": 0.9499,
+    "llr_max": 3.35,
+    "rv_rank": 3.0,
+    "dupf": 1.0
+   },
+   {
+    "s1_name": "Commercants Ecole EI",
+    "s1_addr": "10 Allée de Normandie, Pessac, Nouvelle-Aquitaine",
+    "rec_name": "Commercants Eme EI",
+    "rec_addr": "10 ALLÉE DE NORMADNIE, PESSAC, Nouvelle-Aquitaine",
+    "p": 0.9997,
+    "llr_max": 2.71,
+    "rv_rank": 1.0,
+    "dupf": 1.0
+   },
+   {
+    "s1_name": "Squale Maison SASU",
+    "s1_addr": "19 Bis Avenue du Clos Gaux, Nantes, Pays de la Loire",
+    "rec_name": "Squale Ma SASU",
+    "rec_addr": "19 Bis Avenue Du Clos Gaux, Nantes",
+    "p": 0.9996,
+    "llr_max": 2.71,
+    "rv_rank": 1.0,
+    "dupf": 0.0
+   }
+  ],
+  "rejected_same_addr_llr>=2_examples": [
+   {
+    "s1_name": "Foyers Amicale",
+    "rec_name": "Amicale (Defense)",
+    "rec_addr": "6 Ave Du Clos De L'ust, La Baule Escoublac",
+    "llr_max": 2.41,
+    "rv_rank": 11.0,
+    "dupf": 0.0,
+    "claimed_by_other": true
+   },
+   {
+    "s1_name": "Il Club SARL",
+    "rec_name": "Moto Club-SARL",
+    "rec_addr": "41 BD VAUBAN, ISEN, LILLE, Nord",
+    "llr_max": 2.75,
+    "rv_rank": 8.0,
+    "dupf": 3.0,
+    "claimed_by_other": true
+   },
+   {
+    "s1_name": "Danimation Ecole",
+    "rec_name": "SOCIAL ECOLE",
+    "rec_addr": "TOURCOING, Nord, 167 BIS RUE DES 3 PIERRES",
+    "llr_max": 2.6,
+    "rv_rank": 2.0,
+    "dupf": 1.0,
+    "claimed_by_other": true
+   },
+   {
+    "s1_name": "Lille Sportive EURL",
+    "rec_name": "AIR SPORTIVE EURL",
+    "rec_addr": "#27 R Jean Bart, Lille, Hauts-de-France",
+    "llr_max": 4.22,
+    "rv_rank": 1.0,
+    "dupf": 21.0,
+    "claimed_by_other": false
+   },
+   {
+    "s1_name": "Jeunesse Danse SARL",
+    "rec_name": "ANGEL DANSE SARL",
+    "rec_addr": "Nantes, #1 R. De La Jalotterie",
+    "llr_max": 2.45,
+    "rv_rank": 2.0,
+    "dupf": 2.0,
+    "claimed_by_other": true
+   },
+   {
+    "s1_name": "Comité des Treize",
+    "rec_name": "Academie des Comité",
+    "rec_addr": "333 Av Willy Brandt, App Ndeg 513, Lille, Nord",
+    "llr_max": 2.7,
+    "rv_rank": 9.0,
+    "dupf": 0.0,
+    "claimed_by_other": true
+   },
+   {
+    "s1_name": "Fete & Cie SARL",
+    "rec_name": "LUNE & CIE SARL",
+    "rec_addr": "(6) RUE ETIENNE JODELLE, SAINT-NAZAIRE, Pays de la Loire",
+    "llr_max": 2.2,
+    "rv_rank": 11.0,
+    "dupf": 0.0,
+    "claimed_by_other": true
+   },
+   {
+    "s1_name": "Lille Club SAS",
+    "rec_name": "Vache Club SAS",
+    "rec_addr": "12 Rue Lyderic, Lille, Nord",
+    "llr_max": 4.22,
+    "rv_rank": 11.0,
+    "dupf": 121.0,
+    "claimed_by_other": true
+   }
+  ],
+  "rejected_same_addr_llr>=2": {
+   "pairs": 2825,
+   "record_claimed_by_other_S1": 2295,
+   "share_rv_rank_gt1": 0.9122
+  }
+ },
+ "US": {
+  "veto_kept_real_llr>=1": {
+   "pairs": 2066,
+   "s1": 1819,
+   "mean_gain_if_FP": 0.2432,
+   "mean_loss_if_TP": 0.0886,
+   "break_even_FP_fraction": 0.267,
+   "country_pp_if_100pct_FP": 0.0758,
+   "country_pp_at_V1_FP_rate_0p34pct": -0.0272,
+   "subset_rv_rank1_dupf0": 1148
+  },
+  "veto_kept_real_llr>=2": {
+   "pairs": 358,
+   "s1": 323,
+   "mean_gain_if_FP": 0.2339,
+   "mean_loss_if_TP": 0.0795,
+   "break_even_FP_fraction": 0.2536,
+   "country_pp_if_100pct_FP": 0.0126,
+   "country_pp_at_V1_FP_rate_0p34pct": -0.0042,
+   "subset_rv_rank1_dupf0": 242
+  },
+  "rescue_sameaddr_filler_rejected": {
+   "pairs": 205,
+   "s1": 171,
+   "record_claimed_by_some_S1": 1,
+   "record_unclaimed": 204,
+   "unclaimed_s1": 170,
+   "unclaimed_share_coloc_gt0": 0.0392,
+   "unclaimed_share_dupf_gt0": 0.2843,
+   "unclaimed_share_rv_rank_gt1": 0.0049,
+   "unclaimed_share_s1_has_no_kept_pred": 0.0392,
+   "unclaimed_rank_dense_median": 2.0,
+   "top_diff_tokens": {
+    "->inc": 14,
+    "->ltd": 12,
+    "->holdings": 11,
+    "->corp": 11,
+    "llc->inc": 11,
+    "->co": 10,
+    "llc->corp": 10,
+    "->partners": 9,
+    "->llc": 8,
+    "llc->ltd": 7,
+    "->central": 7,
+    "llc->co": 7,
+    "inc->co": 6,
+    "llc->partners": 6,
+    "inc->corp": 5
+   }
+  }
+ },
+ "India": {
+  "veto_kept_real_llr>=1": {
+   "pairs": 1947,
+   "s1": 1778,
+   "mean_gain_if_FP": 0.2369,
+   "mean_loss_if_TP": 0.0873,
+   "break_even_FP_fraction": 0.2693,
+   "country_pp_if_100pct_FP": 0.057,
+   "country_pp_at_V1_FP_rate_0p34pct": -0.0207,
+   "subset_rv_rank1_dupf0": 860
+  },
+  "veto_kept_real_llr>=2": {
+   "pairs": 497,
+   "s1": 466,
+   "mean_gain_if_FP": 0.2307,
+   "mean_loss_if_TP": 0.0817,
+   "break_even_FP_fraction": 0.2616,
+   "country_pp_if_100pct_FP": 0.0142,
+   "country_pp_at_V1_FP_rate_0p34pct": -0.0049,
+   "subset_rv_rank1_dupf0": 225
+  },
+  "rescue_sameaddr_filler_rejected": {
+   "pairs": 2029,
+   "s1": 1664,
+   "record_claimed_by_some_S1": 19,
+   "record_unclaimed": 2010,
+   "unclaimed_s1": 1650,
+   "unclaimed_share_coloc_gt0": 0.0587,
+   "unclaimed_share_dupf_gt0": 0.3333,
+   "unclaimed_share_rv_rank_gt1": 0.0403,
+   "unclaimed_share_s1_has_no_kept_pred": 0.0697,
+   "unclaimed_rank_dense_median": 2.0,
+   "top_diff_tokens": {
+    "->exports": 151,
+    "->enterprises": 149,
+    "->overseas": 148,
+    "->ventures": 147,
+    "->infratech": 146,
+    "private->public": 145,
+    "->industries": 144,
+    "->group": 133,
+    "->holdings": 130,
+    "private->": 98,
+    "->llp": 22,
+    "->limited": 22,
+    "limited->enterprises": 22,
+    "limited->infratech": 20,
+    "limited->group": 20
+   }
+  }
+ }
+}

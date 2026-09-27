@@ -1,0 +1,2170 @@
+{
+ "filler_sub|HI": [
+  {
+   "s1": "Dirty Comite SARL",
+   "rec": "cdirty.com",
+   "p": 0.9992,
+   "kept": true,
+   "s1_only": [
+    "comite",
+    "sarl"
+   ],
+   "rec_only": [
+    "com"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Roubaix Lycee EURL",
+   "rec": "Cie Roubaix EURL",
+   "p": 0.997,
+   "kept": true,
+   "s1_only": [
+    "lycee"
+   ],
+   "rec_only": [
+    "cie"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Eleves Collectif SARL",
+   "rec": "Eleves SARL Cie",
+   "p": 0.9949,
+   "kept": true,
+   "s1_only": [
+    "collectif"
+   ],
+   "rec_only": [
+    "cie"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Chasse Joueurs Section SARL",
+   "rec": "CHASSE JOUEURS COMPAGNIE SARL",
+   "p": 0.9978,
+   "kept": true,
+   "s1_only": [
+    "section"
+   ],
+   "rec_only": [
+    "compagnie"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Li Musique EURL",
+   "rec": "Li EURL Services",
+   "p": 0.9956,
+   "kept": true,
+   "s1_only": [
+    "musique"
+   ],
+   "rec_only": [
+    "services"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Personnel Sportive EURL",
+   "rec": "psportive.com",
+   "p": 0.9942,
+   "kept": true,
+   "s1_only": [
+    "eurl",
+    "personnel"
+   ],
+   "rec_only": [
+    "com"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Socio Loisirs SARL",
+   "rec": "Socio SARL Cie",
+   "p": 0.9961,
+   "kept": true,
+   "s1_only": [
+    "loisirs"
+   ],
+   "rec_only": [
+    "cie"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Pattes Sportive SARL",
+   "rec": "psportive.com",
+   "p": 0.9971,
+   "kept": true,
+   "s1_only": [
+    "pattes",
+    "sarl"
+   ],
+   "rec_only": [
+    "com"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Dendurance Comme Culture SAS",
+   "rec": "Dendurance Comme SAS Cie",
+   "p": 0.9992,
+   "kept": true,
+   "s1_only": [
+    "culture"
+   ],
+   "rec_only": [
+    "cie"
+   ],
+   "coloc": [
+    "Centre Médical de Jean"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "Comtois Comite SARL",
+   "rec": "Comtois Compagnie SARL",
+   "p": 0.9998,
+   "kept": true,
+   "s1_only": [
+    "comite"
+   ],
+   "rec_only": [
+    "compagnie"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Elikia (France) Club SARL",
+   "rec": "Elikia (France) SARL & Fils",
+   "p": 0.9963,
+   "kept": true,
+   "s1_only": [
+    "club"
+   ],
+   "rec_only": [
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Pornic Sportive SARL",
+   "rec": "Pornic SARL Cie",
+   "p": 0.9927,
+   "kept": true,
+   "s1_only": [
+    "sportive"
+   ],
+   "rec_only": [
+    "cie"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Bmx Club (France) SAS",
+   "rec": "Bmx (France) SAS Services",
+   "p": 0.9999,
+   "kept": true,
+   "s1_only": [
+    "club"
+   ],
+   "rec_only": [
+    "services"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Francais Parents SCI",
+   "rec": "Francais SCI & Associés",
+   "p": 0.9984,
+   "kept": true,
+   "s1_only": [
+    "parents"
+   ],
+   "rec_only": [
+    "associes"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "École maternelle Harmony",
+   "rec": "École Harmony Cie",
+   "p": 0.9918,
+   "kept": true,
+   "s1_only": [
+    "maternelle"
+   ],
+   "rec_only": [
+    "cie"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Oiseaux (France) Automobile SARL",
+   "rec": "Oiseaux Automobile SARL Cie",
+   "p": 0.9999,
+   "kept": true,
+   "s1_only": [
+    "france"
+   ],
+   "rec_only": [
+    "cie"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Rural Collège (France) SARL",
+   "rec": "Rural (France) SARL Services",
+   "p": 0.9971,
+   "kept": true,
+   "s1_only": [
+    "college"
+   ],
+   "rec_only": [
+    "services"
+   ],
+   "coloc": [
+    "Pic Culturel SARL",
+    "EHPAD du Saad"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "Petites Club SARL",
+   "rec": "Petites SARL Cie",
+   "p": 0.9985,
+   "kept": true,
+   "s1_only": [
+    "club"
+   ],
+   "rec_only": [
+    "cie"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Detudes Anciens SARL",
+   "rec": "DETUDES  SARL SERVICES",
+   "p": 0.9997,
+   "kept": true,
+   "s1_only": [
+    "anciens"
+   ],
+   "rec_only": [
+    "services"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Ets Conscrits SA",
+   "rec": "etsconscrits.com",
+   "p": 0.9999,
+   "kept": true,
+   "s1_only": [
+    "ets",
+    "sa"
+   ],
+   "rec_only": [
+    "com"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Temps Federation SA",
+   "rec": "Temps SA & Fils",
+   "p": 0.999,
+   "kept": true,
+   "s1_only": [
+    "federation"
+   ],
+   "rec_only": [
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Institut Saint Pierre",
+   "rec": "Institut St Pierre",
+   "p": 1.0,
+   "kept": true,
+   "s1_only": [
+    "saint"
+   ],
+   "rec_only": [
+    "st"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Judo Centre SAS",
+   "rec": "&-Associés Judo SAS",
+   "p": 0.9978,
+   "kept": true,
+   "s1_only": [
+    "centre"
+   ],
+   "rec_only": [
+    "associes"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Tourcoing Danse",
+   "rec": "Tourcoing-Cie",
+   "p": 0.9933,
+   "kept": true,
+   "s1_only": [
+    "danse"
+   ],
+   "rec_only": [
+    "cie"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Espace Amicale (France)",
+   "rec": "Espace Compagnie (France)",
+   "p": 0.9974,
+   "kept": true,
+   "s1_only": [
+    "amicale"
+   ],
+   "rec_only": [
+    "compagnie"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  }
+ ],
+ "filler_only|LO": [
+  {
+   "s1": "Lanimation & Cie SARL",
+   "rec": "LANIMATION CIE SARL ET FILS",
+   "p": 0.9477,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "St & Cie",
+   "rec": "SC",
+   "p": 0.8892,
+   "kept": true,
+   "s1_only": [
+    "cie"
+   ],
+   "rec_only": [],
+   "coloc": [
+    "Equestre Nationale Ecole SAS",
+    "Family Croc Amicale",
+    "Bordeaux Danse SARL",
+    "Team Collège SARL",
+    "Ets Allon SAS"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "Ets Cantine SAS",
+   "rec": "Ets Cantine  SAS Développement",
+   "p": 0.9803,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "developpement"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Établissements Residences EI",
+   "rec": "Établissements Residences EI Et Fils",
+   "p": 0.8987,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [
+    "BL Ecole SAS",
+    "Club de Enseignement",
+    "Comité des Fa",
+    "Centre Médical Sainte Jean",
+    "Inter Federation SARL"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "Ctre & Cie",
+   "rec": "& Ctre Compagnie",
+   "p": 0.9834,
+   "kept": true,
+   "s1_only": [
+    "cie"
+   ],
+   "rec_only": [
+    "compagnie"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Chasse & Cie",
+   "rec": "Chasse Cie Et Fils",
+   "p": 0.9549,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Maison Lescure SARL",
+   "rec": "Maison Lescure SARL Et [Fils]",
+   "p": 0.9717,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Ets Reseau",
+   "rec": "Ets Reseau & Associés",
+   "p": 0.9822,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "associes"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Multiactivites & Frères",
+   "rec": "Multiactivites Frères & Associés",
+   "p": 0.9869,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "associes"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Nimoise & Cie SARL",
+   "rec": "Nimoise & SARL Développement",
+   "p": 0.8935,
+   "kept": true,
+   "s1_only": [
+    "cie"
+   ],
+   "rec_only": [
+    "developpement"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Maison Defense SAS",
+   "rec": "MAISON DEFENSE SAS ET FILS",
+   "p": 0.7895,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Fédération du Familles",
+   "rec": "Fédération du Familles & Associés",
+   "p": 0.9327,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "associes"
+   ],
+   "coloc": [
+    "Harkis Soins SAS",
+    "Bordeaux Fetes SAS",
+    "Galerie & Fils SARL",
+    "Independant Ecole SA",
+    "Chretien Primaire SARL"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "Western & Fils SAS",
+   "rec": "Western &",
+   "p": 0.9677,
+   "kept": true,
+   "s1_only": [
+    "fils",
+    "sas"
+   ],
+   "rec_only": [],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Animation & Frères",
+   "rec": "Animation Frères & Fils",
+   "p": 0.9807,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Clinique 21eme",
+   "rec": "Clinique 21eme Et Fils",
+   "p": 0.7975,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Établissements Okinawa SARL",
+   "rec": "établissements Okinawa SARL Développement",
+   "p": 0.89,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "developpement"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Ets Cirque",
+   "rec": "ETS CIRQUE & ASSOCIÉS",
+   "p": 0.9838,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "associes"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Amicale du Caisse",
+   "rec": "Amicale du Caisse et Associés",
+   "p": 0.949,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "associes",
+    "et"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Association du Enseignement",
+   "rec": "Association du Enseignement Développement",
+   "p": 0.92,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "developpement"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Altitude & Cie",
+   "rec": "Altitude Cie Et Fils",
+   "p": 0.9743,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [
+    "Centre Hospitalier du Dame"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "Bergeries & Cie SA",
+   "rec": "Bergeries & SA Développement",
+   "p": 0.8486,
+   "kept": true,
+   "s1_only": [
+    "cie"
+   ],
+   "rec_only": [
+    "developpement"
+   ],
+   "coloc": [
+    "Ets Locale SCI"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "Collège Paul",
+   "rec": "Collège Paul Développement",
+   "p": 0.9293,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "developpement"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Union de Rural",
+   "rec": "Union de Rural et Associés",
+   "p": 0.9159,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "associes",
+    "et"
+   ],
+   "coloc": [
+    "Mieux Sportive SAS",
+    "Privée Comite SASU",
+    "Amicale du Cri",
+    "Fédération des Ressortissants",
+    "Ets Deleves"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "3eme & Cie SAS",
+   "rec": "3eme & Compagnie SAS",
+   "p": 0.9816,
+   "kept": true,
+   "s1_only": [
+    "cie"
+   ],
+   "rec_only": [
+    "compagnie"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Maison Foy",
+   "rec": "Maison Foy + Fils",
+   "p": 0.982,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  }
+ ],
+ "filler_sub|LO": [
+  {
+   "s1": "Mantes Danse SAS",
+   "rec": "Mantes SAS Et Fils",
+   "p": 0.947,
+   "kept": true,
+   "s1_only": [
+    "danse"
+   ],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [
+    "Nantes Amis"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "Alcool Primaire SAS",
+   "rec": "Alcool  Cie SAS",
+   "p": 0.9606,
+   "kept": true,
+   "s1_only": [
+    "primaire"
+   ],
+   "rec_only": [
+    "cie"
+   ],
+   "coloc": [
+    "Familiale Primaire SA"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "Events Societe EI",
+   "rec": "Events  EI & Fils",
+   "p": 0.9106,
+   "kept": true,
+   "s1_only": [
+    "societe"
+   ],
+   "rec_only": [
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Fleches Amicale (France) SARL",
+   "rec": "FLECHES AMICALE SARL ET (FILS)",
+   "p": 0.9755,
+   "kept": true,
+   "s1_only": [
+    "france"
+   ],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Nantes Danse SA",
+   "rec": "NANTES SA & FILS",
+   "p": 0.942,
+   "kept": true,
+   "s1_only": [
+    "danse"
+   ],
+   "rec_only": [
+    "fils"
+   ],
+   "coloc": [
+    "École primaire Clef"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "Calais Centre EURL",
+   "rec": "Calais EURL & Fils",
+   "p": 0.9772,
+   "kept": true,
+   "s1_only": [
+    "centre"
+   ],
+   "rec_only": [
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Daix Recherche Club SARL",
+   "rec": "DAIX RECHERCHE SARL ET FILS",
+   "p": 0.974,
+   "kept": true,
+   "s1_only": [
+    "club"
+   ],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "EHPAD Saint Connetablie",
+   "rec": "EHPAD Connetablie Développement",
+   "p": 0.7993,
+   "kept": true,
+   "s1_only": [
+    "saint"
+   ],
+   "rec_only": [
+    "developpement"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Re Anciens EURL",
+   "rec": "RE-EURL CIE",
+   "p": 0.9837,
+   "kept": true,
+   "s1_only": [
+    "anciens"
+   ],
+   "rec_only": [
+    "cie"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Dry Sportive SARL",
+   "rec": "Dry SARL Et Fils",
+   "p": 0.7911,
+   "kept": true,
+   "s1_only": [
+    "sportive"
+   ],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [
+    "CV Maison",
+    "Voir Parents",
+    "Institut de Seniors",
+    "Établissements Eveil SARL",
+    "KCI Sport EURL"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "Astro Ecole SARL",
+   "rec": "Astro SARL Et Fils",
+   "p": 0.9669,
+   "kept": true,
+   "s1_only": [
+    "ecole"
+   ],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Dynamic Institut EI",
+   "rec": "Dynamic EI et Fils",
+   "p": 0.9783,
+   "kept": true,
+   "s1_only": [
+    "institut"
+   ],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Bordeaux Amicale SASU",
+   "rec": "BORDEAUX SASU + ASSOCIÉS",
+   "p": 0.8442,
+   "kept": true,
+   "s1_only": [
+    "amicale"
+   ],
+   "rec_only": [
+    "associes"
+   ],
+   "coloc": [
+    "MNV Service EURL"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "Socio Club SASU",
+   "rec": "Socio  SASU Et Fils",
+   "p": 0.9319,
+   "kept": true,
+   "s1_only": [
+    "club"
+   ],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Departemental Club SAS",
+   "rec": "Departemental SAS & Fils",
+   "p": 0.9842,
+   "kept": true,
+   "s1_only": [
+    "club"
+   ],
+   "rec_only": [
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Orchidee Theatre SARL",
+   "rec": "Orchidee SARL & Associés",
+   "p": 0.9762,
+   "kept": true,
+   "s1_only": [
+    "theatre"
+   ],
+   "rec_only": [
+    "associes"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Frenchy Ecole SCI",
+   "rec": "Frenchy-SCI & Associés",
+   "p": 0.9861,
+   "kept": true,
+   "s1_only": [
+    "ecole"
+   ],
+   "rec_only": [
+    "associes"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Plein Institut SAS",
+   "rec": "Plein SAS Et Fils",
+   "p": 0.9688,
+   "kept": true,
+   "s1_only": [
+    "institut"
+   ],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Prise Centre SARL",
+   "rec": "Prise SARL  & Fils",
+   "p": 0.9886,
+   "kept": true,
+   "s1_only": [
+    "centre"
+   ],
+   "rec_only": [
+    "fils"
+   ],
+   "coloc": [
+    "Centre Médical Jean"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "Lille Musique SASU",
+   "rec": "Lille SASU + Associés",
+   "p": 0.8584,
+   "kept": true,
+   "s1_only": [
+    "musique"
+   ],
+   "rec_only": [
+    "associes"
+   ],
+   "coloc": [
+    "Lou (France) Groupe SAS"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "Monster Loisirs SAS",
+   "rec": "Monster SAS  Et Fils",
+   "p": 0.9484,
+   "kept": true,
+   "s1_only": [
+    "loisirs"
+   ],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "And Esat Club SARL",
+   "rec": "And Esat SARL Et Fils",
+   "p": 0.9886,
+   "kept": true,
+   "s1_only": [
+    "club"
+   ],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Perles Sport",
+   "rec": "Perles & Associés",
+   "p": 0.9601,
+   "kept": true,
+   "s1_only": [
+    "sport"
+   ],
+   "rec_only": [
+    "associes"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Lège-Cap-Ferret Gestion SA",
+   "rec": "Lège-Cap-Ferret SA Développement",
+   "p": 0.9626,
+   "kept": true,
+   "s1_only": [
+    "gestion"
+   ],
+   "rec_only": [
+    "developpement"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Quartier Centre",
+   "rec": "Quartier Cie",
+   "p": 0.9841,
+   "kept": true,
+   "s1_only": [
+    "centre"
+   ],
+   "rec_only": [
+    "cie"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  }
+ ],
+ "filler_sub|NA": [
+  {
+   "s1": "Tout Club EURL",
+   "rec": "ctout.com",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "club",
+    "eurl"
+   ],
+   "rec_only": [
+    "com"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Lille Agricole SARL",
+   "rec": "Lille Services SARL",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "agricole"
+   ],
+   "rec_only": [
+    "services"
+   ],
+   "coloc": [
+    "Bouliste Jeunes EI",
+    "Multimedia Arquebusiers Pharmacie",
+    "House Institut SARL",
+    "Union du Personnel",
+    "JS Groupe SAS"
+   ],
+   "ambiguous": true
+  },
+  {
+   "s1": "Lille Pharmacie",
+   "rec": "Lille Et Fils",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "pharmacie"
+   ],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Centre Médical de Jean",
+   "rec": "Centre de Jean & Fils",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "medical"
+   ],
+   "rec_only": [
+    "fils"
+   ],
+   "coloc": [
+    "Guilde Culturelle SARL",
+    "Communaute Cafe (France) SARL",
+    "Local Club SARL",
+    "OLQ Club EI",
+    "Institut Incubateur"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "Communication (France) Culturelle SARL",
+   "rec": "Communication (France) SARL & Fils",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "culturelle"
+   ],
+   "rec_only": [
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Defense Industrie SARL",
+   "rec": "Defense SARL Développement",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "industrie"
+   ],
+   "rec_only": [
+    "developpement"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Generale Club",
+   "rec": "Generale & Associés",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "club"
+   ],
+   "rec_only": [
+    "associes"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Lille Collège SAS",
+   "rec": "Lille SA Services",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "college"
+   ],
+   "rec_only": [
+    "services"
+   ],
+   "coloc": [
+    "QI Pharmacie SARL",
+    "Lille Ecole SARL",
+    "Assistance Developpement Primaire SARL",
+    "Collaboration Comite SASU",
+    "Confrerie Sportive SARL"
+   ],
+   "ambiguous": true
+  },
+  {
+   "s1": "Lille Ecole SAS",
+   "rec": "Lille SAS et Associés",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "ecole"
+   ],
+   "rec_only": [
+    "associes",
+    "et"
+   ],
+   "coloc": [
+    "Bureau Foyer SARL",
+    "Lille Ecole SARL",
+    "YYF Club SARL",
+    "Gardes Loisirs",
+    "Creche & Frères EURL"
+   ],
+   "ambiguous": true
+  },
+  {
+   "s1": "Calais Club SAS",
+   "rec": "Calais SAS-Développement",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "club"
+   ],
+   "rec_only": [
+    "developpement"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Lorage Sante SA",
+   "rec": "Lorage SA Et Fils",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "sante"
+   ],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Sentiers Amicale SAS",
+   "rec": "Sentiers SAS Développement",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "amicale"
+   ],
+   "rec_only": [
+    "developpement"
+   ],
+   "coloc": [
+    "Tc Institut SAS"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "Ouistreham Musique",
+   "rec": "Ouistreham Et (Fils)",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "musique"
+   ],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Nantes Ecole SARL",
+   "rec": "Nantes SARL Et Fils",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "ecole"
+   ],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [
+    "Lenfant Sceaux Maternelle SAS",
+    "HE Sportive SARL",
+    "Deleves (France) Agricole SARL",
+    "Opale Club",
+    "Cosson Agence Culture SAS"
+   ],
+   "ambiguous": true
+  },
+  {
+   "s1": "LR Primaire SAS",
+   "rec": "LR SAS Développement",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "primaire"
+   ],
+   "rec_only": [
+    "developpement"
+   ],
+   "coloc": [
+    "EI Sportif EI"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "Choeur Amicale",
+   "rec": "CHOEUR ET [FILS]",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "amicale"
+   ],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [
+    "Reapprendre & Cie",
+    "Amicale de Paroles",
+    "Dintervention Compagnie SARL",
+    "Roubaix Fetes EURL",
+    "We & Cie SAS"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "International Sans Comite SARL",
+   "rec": "INTERNATIONAL SANS SARL DÉVELOPPEMENT",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "comite"
+   ],
+   "rec_only": [
+    "developpement"
+   ],
+   "coloc": [
+    "Nageurs Groupe SAS"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "Nantes Culturel SARL",
+   "rec": "Nantes EURL Développement",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "culturel",
+    "sarl"
+   ],
+   "rec_only": [
+    "developpement",
+    "eurl"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "École maternelle Clocher",
+   "rec": "École Clocher (Développement)",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "maternelle"
+   ],
+   "rec_only": [
+    "developpement"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Rural Amicale EURL",
+   "rec": "Rural EURL Et (Fils)",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "amicale"
+   ],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Bordeaux Anciens SAS",
+   "rec": "Abordeaux.Com",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "anciens",
+    "sas"
+   ],
+   "rec_only": [
+    "com"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Lille Sportive EURL",
+   "rec": "Lille EURL Développement",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "sportive"
+   ],
+   "rec_only": [
+    "developpement"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Promotion Club SARL",
+   "rec": "Promotion SARL Développement",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "club"
+   ],
+   "rec_only": [
+    "developpement"
+   ],
+   "coloc": [
+    "WS Collectif SCI"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "Apotheose Sportive SAS",
+   "rec": "Apotheose SAS Développement",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "sportive"
+   ],
+   "rec_only": [
+    "developpement"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Bordeaux Btp SARL",
+   "rec": "Bordeaux SARL & Fils",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "btp"
+   ],
+   "rec_only": [
+    "fils"
+   ],
+   "coloc": [
+    "Amicale des Original",
+    "École maternelle Saint Leonardo"
+   ],
+   "ambiguous": false
+  }
+ ],
+ "filler_only|HI": [
+  {
+   "s1": "Union des Naitre",
+   "rec": "Union Des Naitre Services",
+   "p": 0.9999,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "services"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Brech & Frères EURL",
+   "rec": "Brech &",
+   "p": 0.9999,
+   "kept": true,
+   "s1_only": [
+    "eurl",
+    "freres"
+   ],
+   "rec_only": [],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Institut Joseph",
+   "rec": "Institut Joseph Services",
+   "p": 1.0,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "services"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Liv & Cie SAS",
+   "rec": "LIV & SAS SERVICES",
+   "p": 0.9999,
+   "kept": true,
+   "s1_only": [
+    "cie"
+   ],
+   "rec_only": [
+    "services"
+   ],
+   "coloc": [
+    "Centre Hospitalier Publique"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "Traces & Cie SARL",
+   "rec": "Traces & Compagnie SARL",
+   "p": 0.9977,
+   "kept": true,
+   "s1_only": [
+    "cie"
+   ],
+   "rec_only": [
+    "compagnie"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Établissements Scolaire SA",
+   "rec": "S.A. Établissements Scolaire",
+   "p": 0.9997,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "a"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Etre & Cie SARL",
+   "rec": "Etre & SARL Et Fils",
+   "p": 0.9912,
+   "kept": true,
+   "s1_only": [
+    "cie"
+   ],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Ets Organisme SASU",
+   "rec": "Ets Organisme SASU Cie",
+   "p": 0.9962,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "cie"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Union du Commercants",
+   "rec": "Union  du Commercants Services",
+   "p": 0.9999,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "services"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Couture & Frères SARL",
+   "rec": "Couture + Frs  SARL",
+   "p": 1.0,
+   "kept": true,
+   "s1_only": [
+    "freres"
+   ],
+   "rec_only": [
+    "frs"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Lyre & Frères",
+   "rec": "Lyre &",
+   "p": 0.9998,
+   "kept": true,
+   "s1_only": [
+    "freres"
+   ],
+   "rec_only": [],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Breizh Compagnie SAS",
+   "rec": "Breizh Cie SAS",
+   "p": 0.9996,
+   "kept": true,
+   "s1_only": [
+    "compagnie"
+   ],
+   "rec_only": [
+    "cie"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "FO Sante SA",
+   "rec": "FO Sante S.A.",
+   "p": 0.9999,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "a"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Badminton & Cie EI",
+   "rec": "Badminton &",
+   "p": 0.9996,
+   "kept": true,
+   "s1_only": [
+    "cie",
+    "ei"
+   ],
+   "rec_only": [],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Établissements Mainada SARL",
+   "rec": "Établissements Mainada SARL Cie",
+   "p": 0.998,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "cie"
+   ],
+   "coloc": [
+    "Chasse Centre SAS",
+    "Amicale de Graines"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "Divion & Fils SASU",
+   "rec": "SASU Divion et Fils",
+   "p": 0.9997,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "et"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Agreee & Cie",
+   "rec": "Agreee &",
+   "p": 1.0,
+   "kept": true,
+   "s1_only": [
+    "cie"
+   ],
+   "rec_only": [],
+   "coloc": [
+    "Roses Ecole SARL",
+    "Pessac Amis SAS"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "Page & Frères SARL",
+   "rec": "Page &",
+   "p": 0.9998,
+   "kept": true,
+   "s1_only": [
+    "freres",
+    "sarl"
+   ],
+   "rec_only": [],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "We & Cie SA",
+   "rec": "We & Cie S.A.",
+   "p": 0.9999,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "a"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Joie Centre SA",
+   "rec": "S.A. Joie Centre",
+   "p": 0.9999,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "a"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Voix & Frères SAS",
+   "rec": "#VOIX",
+   "p": 0.9998,
+   "kept": true,
+   "s1_only": [
+    "freres",
+    "sas"
+   ],
+   "rec_only": [],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Cds & Cie EURL",
+   "rec": "Cds &",
+   "p": 0.9999,
+   "kept": true,
+   "s1_only": [
+    "cie",
+    "eurl"
+   ],
+   "rec_only": [],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Ssiad Amicale SA",
+   "rec": "Ssiad Amicale S.A.",
+   "p": 0.9998,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "a"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Action & Cie SARL",
+   "rec": "Action & SARL & Fils",
+   "p": 0.9996,
+   "kept": true,
+   "s1_only": [
+    "cie"
+   ],
+   "rec_only": [
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Ets Tennis EURL",
+   "rec": "ETS TENNIS EURL-SERVICES",
+   "p": 0.9999,
+   "kept": true,
+   "s1_only": [],
+   "rec_only": [
+    "services"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  }
+ ],
+ "filler_only|NA": [
+  {
+   "s1": "Association des Miel",
+   "rec": "ASSOCIATION DES MIEL DÉVELOPPEMENT",
+   "p": null,
+   "kept": false,
+   "s1_only": [],
+   "rec_only": [
+    "developpement"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Pixel Compagnie SAS",
+   "rec": "PIXEL SAS DÉVELOPPEMENT",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "compagnie"
+   ],
+   "rec_only": [
+    "developpement"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Petites & Cie SAS",
+   "rec": "Petites + SAS Développement",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "cie"
+   ],
+   "rec_only": [
+    "developpement"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Maison Linformatique EURL",
+   "rec": "Maison Linformatique EURL Et Fils",
+   "p": null,
+   "kept": false,
+   "s1_only": [],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Msp Service",
+   "rec": "Msp Et Fils",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "service"
+   ],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Clinique Coproprietaires",
+   "rec": "Clinique  Coproprietaires Développement",
+   "p": null,
+   "kept": false,
+   "s1_only": [],
+   "rec_only": [
+    "developpement"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Oliviers Compagnie EURL",
+   "rec": "Oliviers EURL Développement",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "compagnie"
+   ],
+   "rec_only": [
+    "developpement"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Local & Cie",
+   "rec": "Local et Compagnie",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "cie"
+   ],
+   "rec_only": [
+    "compagnie",
+    "et"
+   ],
+   "coloc": [
+    "Too Institut SARL",
+    "Pessac Conseil SAS"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "Association des Axiome",
+   "rec": "Association des Axiome & Fils",
+   "p": null,
+   "kept": false,
+   "s1_only": [],
+   "rec_only": [
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Tourcoing Cie SA",
+   "rec": "S.A. Tourcoing Cie",
+   "p": null,
+   "kept": false,
+   "s1_only": [],
+   "rec_only": [
+    "a"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "BB Services SCI",
+   "rec": "BS",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "sci",
+    "services"
+   ],
+   "rec_only": [],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Leognan Privée Services",
+   "rec": "LEOGNAN PRIVÉE DÉVELOPPEMENT",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "services"
+   ],
+   "rec_only": [
+    "developpement"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Maison Gymnastique SASU",
+   "rec": "Maison Gymnastique SASU & Associés",
+   "p": null,
+   "kept": false,
+   "s1_only": [],
+   "rec_only": [
+    "associes"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Association des Musicale",
+   "rec": "Association des Musicale  Et Fils",
+   "p": null,
+   "kept": false,
+   "s1_only": [],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Love & Fils SARL",
+   "rec": "Fils Love Fils-SARL Et",
+   "p": null,
+   "kept": false,
+   "s1_only": [],
+   "rec_only": [
+    "et"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Fédération du Mouvement",
+   "rec": "FÉDÉRATION DU MOUVEMENT ET FILS",
+   "p": null,
+   "kept": false,
+   "s1_only": [],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [
+    "Mini Section SAS"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "Union des Lamicale",
+   "rec": "Union des Lamicale Et Fils",
+   "p": null,
+   "kept": false,
+   "s1_only": [],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Organisme (France) Compagnie",
+   "rec": "Organisme (France) Et Fils",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "compagnie"
+   ],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Comité de Oaum",
+   "rec": "COMITÉ DE OAUM & ASSOCIÉS",
+   "p": null,
+   "kept": false,
+   "s1_only": [],
+   "rec_only": [
+    "associes"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Comité du Ab",
+   "rec": "Comité du Ab & Fils",
+   "p": null,
+   "kept": false,
+   "s1_only": [],
+   "rec_only": [
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Collège Marcel",
+   "rec": "Collège Marcel Développement",
+   "p": null,
+   "kept": false,
+   "s1_only": [],
+   "rec_only": [
+    "developpement"
+   ],
+   "coloc": [
+    "Glycines & Fils SAS",
+    "Cercle Club SARL",
+    "Show & Fils SAS",
+    "Defense Union",
+    "Ets Ophtalmologique SA"
+   ],
+   "ambiguous": false
+  },
+  {
+   "s1": "Maison Familles SARL",
+   "rec": "Maison Familles SARL & Fils",
+   "p": null,
+   "kept": false,
+   "s1_only": [],
+   "rec_only": [
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Developpement Amicale EI",
+   "rec": "damicale.com",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "developpement",
+    "ei"
+   ],
+   "rec_only": [
+    "com"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Bana & Cie",
+   "rec": "& Bana Développement",
+   "p": null,
+   "kept": false,
+   "s1_only": [
+    "cie"
+   ],
+   "rec_only": [
+    "developpement"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  },
+  {
+   "s1": "Établissements Tout",
+   "rec": "Établissements Tout Et Fils",
+   "p": null,
+   "kept": false,
+   "s1_only": [],
+   "rec_only": [
+    "et",
+    "fils"
+   ],
+   "coloc": [],
+   "ambiguous": false
+  }
+ ]
+}

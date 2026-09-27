@@ -1,0 +1,182 @@
+{
+ "claim": "D: France accepted records/S1 3.293 vs US 3.372 vs GT 3.459 => France residual is FN-heavy (~20k missed records)",
+ "rederived_counts": {
+  "France": {
+   "mean": 3.29307925936204,
+   "p0": 0.055748269429412765,
+   "p1": 0.07485777716109338
+  },
+  "US": {
+   "mean": 3.3722481775161137,
+   "p0": 0.05784595524697409,
+   "p1": 0.06203985486483307
+  },
+  "India": {
+   "mean": 3.3683927870358255,
+   "p0": 0.057809641154291554,
+   "p1": 0.06237268298464418
+  }
+ },
+ "se_mean": {
+  "France": 0.003275952290513828,
+  "US": 0.0020759174960294667,
+  "India": 0.0018762328613679085
+ },
+ "pre_maxclaimer": {
+  "France": {
+   "mean": 3.3891779596996745,
+   "removed_by_mc": 24933,
+   "removed_per_s1": 0.09609870033763471,
+   "multi_claimed_recs": 17468,
+   "p0": 0.05177450935047716
+  },
+  "US": {
+   "mean": 3.3728136979608085,
+   "removed_by_mc": 375,
+   "removed_per_s1": 0.0005655204446951166,
+   "multi_claimed_recs": 374,
+   "p0": 0.05782333442918628
+  },
+  "India": {
+   "mean": 3.3714940752062383,
+   "removed_by_mc": 2512,
+   "removed_per_s1": 0.003101288170412822,
+   "multi_claimed_recs": 2433,
+   "p0": 0.05764173701767685
+  }
+ },
+ "raw_recs_per_s1_test": {
+  "France": 5.53086,
+  "US": 5.75629,
+  "India": 5.82425
+ },
+ "raw_recs_per_s1_train": {
+  "US": 4.67416,
+  "India": 4.68003
+ },
+ "claimed_frac_of_raw": {
+  "France": 0.5954008138018791,
+  "US": 0.5858370026337224,
+  "India": 0.5783388252202143
+ },
+ "france_expected_at_US_claim_rate": 3.2401824443867495,
+ "france_gt_if_proportional_to_raw": 3.323592105161484,
+ "V1_net_deficit": {
+  "US": 0.10698563003571725,
+  "India": 0.09270192186911191
+ },
+ "test_minus_trainGT": {
+  "US": -0.08680900000000014,
+  "India": -0.09614999999999974
+ },
+ "V1_loss_split": {
+  "US": {
+   "macroF05": 0.9877379125249844,
+   "FN_per_s1": 0.11454439737519728,
+   "FP_per_s1": 0.007558767339480023,
+   "loss_from_FN_only_S1": 0.010459689919391018,
+   "loss_from_FP_only_S1": 0.0015857405796852588
+  },
+  "India": {
+   "macroF05": 0.988513095698651,
+   "FN_per_s1": 0.1021228488883306,
+   "FP_per_s1": 0.009420927019218692,
+   "loss_from_FN_only_S1": 0.00901538364387949,
+   "loss_from_FP_only_S1": 0.002190986386230557
+  }
+ },
+ "sim_cost_pts": {
+  "US_extraFN_0.031": {
+   "mean_loss_pts": 0.2724,
+   "sd": 0.0132
+  },
+  "US_extraFN_0.079": {
+   "mean_loss_pts": 0.7613,
+   "sd": 0.0471
+  },
+  "US_extraFN_0.166": {
+   "mean_loss_pts": 1.6042,
+   "sd": 0.0683
+  },
+  "US_extraFP_0.079": {
+   "mean_loss_pts": 1.9612,
+   "sd": 0.0248
+  },
+  "India_extraFN_0.031": {
+   "mean_loss_pts": 0.2669,
+   "sd": 0.0215
+  },
+  "India_extraFN_0.079": {
+   "mean_loss_pts": 0.7146,
+   "sd": 0.0343
+  },
+  "India_extraFN_0.166": {
+   "mean_loss_pts": 1.5339,
+   "sd": 0.0581
+  },
+  "India_extraFP_0.079": {
+   "mean_loss_pts": 1.9605,
+   "sd": 0.0512
+  },
+  "ALL_extraFN_0.031": {
+   "mean_loss_pts": 0.2834,
+   "sd": 0.0108
+  },
+  "ALL_extraFN_0.079": {
+   "mean_loss_pts": 0.7145,
+   "sd": 0.0212
+  },
+  "ALL_extraFN_0.166": {
+   "mean_loss_pts": 1.5519,
+   "sd": 0.0297
+  },
+  "ALL_extraFP_0.079": {
+   "mean_loss_pts": 1.968,
+   "sd": 0.0255
+  }
+ },
+ "thinning_test": {
+  "chi2_10bins": 188.72401351574672,
+  "France_minus_thinnedUS_pct": {
+   "0": -0.3656,
+   "1": 0.5673,
+   "2": -0.1309,
+   "3": -0.1332,
+   "4": 0.1183,
+   "5": 0.0155,
+   "6": -0.0364,
+   "7": -0.0357,
+   "8": -0.0064,
+   "9": 0.0085
+  }
+ },
+ "unclaimed_nearmatch": {
+  "France": {
+   "unclaimed_fire_near_per_s1": 0.058153338575150704,
+   "claimed_fire_own_near_frac": 0.6747082149260999
+  },
+  "US": {
+   "unclaimed_fire_near_per_s1": 0.021913540218305973,
+   "claimed_fire_own_near_frac": 0.4996350883971526
+  },
+  "India": {
+   "unclaimed_fire_near_per_s1": 0.11227354546868712,
+   "claimed_fire_own_near_frac": 0.19077713974484956
+  }
+ },
+ "V1_nearmatch": {
+  "US": {
+   "r_FN_near": 0.007251631617113851,
+   "r_TP_near": 0.5027935735392715,
+   "FN_fire_near_per_s1": 0.0008306337735692333,
+   "orphan_fire_near_per_s1": 0.008140210980978486
+  },
+  "India": {
+   "r_FN_near": 0.0024600246002460025,
+   "r_TP_near": 0.22136355192271967,
+   "FN_fire_near_per_s1": 0.00025122472051249844,
+   "orphan_fire_near_per_s1": 0.06293179248838085
+  }
+ },
+ "verdict": "REFUTED (as evidence for a France FN excess): premise of identical GT generator is contradicted by raw supply and by the count-histogram shape; the deficit is produced by max-claimer FP removal; the magnitude even if all FN is ~0.7 France pts (~22% of gap), not 'a large part'."
+}

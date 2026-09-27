@@ -1,0 +1,289 @@
+{
+ "LOCO_US": {
+  "arm": "LOCO_US",
+  "train": "US",
+  "reranker": "G_US",
+  "n_train_s1": 31033,
+  "n_train_rows": 3905021,
+  "th_oof": 0.7400000000000001,
+  "train_oof_macro": 0.9873032292846102,
+  "V1": {
+   "US": {
+    "sum_p_per_s1": 3.4481,
+    "true_inpool_per_s1": 3.452,
+    "delta": -0.046,
+    "th": 0.74,
+    "th_delta": 0.731,
+    "macro": 98.801,
+    "tp": 40319,
+    "fp": 119,
+    "fn_inpool": 1240,
+    "macro_after_delta": 98.804,
+    "tp_after": 40333,
+    "fp_after": 122
+   },
+   "India": {
+    "sum_p_per_s1": 3.5755,
+    "true_inpool_per_s1": 3.4761,
+    "delta": 0.409,
+    "th": 0.74,
+    "th_delta": 0.8107,
+    "macro": 92.376,
+    "tp": 25061,
+    "fp": 1208,
+    "fn_inpool": 2612,
+    "macro_after_delta": 92.449,
+    "tp_after": 24762,
+    "fp_after": 1013
+   }
+  },
+  "secs": 273.5,
+  "gain_share_rr": 0.9227
+ },
+ "LOCO_IN": {
+  "arm": "LOCO_IN",
+  "train": "India",
+  "reranker": "G_IN",
+  "n_train_s1": 20961,
+  "n_train_rows": 2724916,
+  "th_oof": 0.68,
+  "train_oof_macro": 0.9868234696708124,
+  "V1": {
+   "US": {
+    "sum_p_per_s1": 3.6905,
+    "true_inpool_per_s1": 3.452,
+    "delta": 1.301,
+    "th": 0.68,
+    "th_delta": 0.8865,
+    "macro": 93.252,
+    "tp": 39729,
+    "fp": 2396,
+    "fn_inpool": 1830,
+    "macro_after_delta": 94.62,
+    "tp_after": 38921,
+    "fp_after": 1409
+   },
+   "India": {
+    "sum_p_per_s1": 3.4773,
+    "true_inpool_per_s1": 3.4761,
+    "delta": 0.015,
+    "th": 0.68,
+    "th_delta": 0.6832,
+    "macro": 98.709,
+    "tp": 27001,
+    "fp": 127,
+    "fn_inpool": 672,
+    "macro_after_delta": 98.707,
+    "tp_after": 26998,
+    "fp_after": 127
+   }
+  },
+  "secs": 195.3,
+  "gain_share_rr": 0.9236
+ },
+ "MIX_US": {
+  "arm": "MIX_US",
+  "train": "mixUS",
+  "reranker": "G_MIX_US",
+  "n_train_s1": 31033,
+  "n_train_rows": 3955533,
+  "th_oof": 0.7600000000000001,
+  "train_oof_macro": 0.9864836224278809,
+  "V1": {
+   "US": {
+    "sum_p_per_s1": 3.4486,
+    "true_inpool_per_s1": 3.452,
+    "delta": -0.04,
+    "th": 0.76,
+    "th_delta": 0.7527,
+    "macro": 98.706,
+    "tp": 40258,
+    "fp": 129,
+    "fn_inpool": 1301,
+    "macro_after_delta": 98.7,
+    "tp_after": 40270,
+    "fp_after": 135
+   },
+   "India": {
+    "sum_p_per_s1": 3.4763,
+    "true_inpool_per_s1": 3.4761,
+    "delta": 0.003,
+    "th": 0.76,
+    "th_delta": 0.7605,
+    "macro": 98.741,
+    "tp": 26888,
+    "fp": 85,
+    "fn_inpool": 785,
+    "macro_after_delta": 98.738,
+    "tp_after": 26886,
+    "fp_after": 85
+   }
+  },
+  "secs": 275.2,
+  "gain_share_rr": 0.5536
+ },
+ "MIX_IN": {
+  "arm": "MIX_IN",
+  "train": "mixIN",
+  "reranker": "G_MIX_IN",
+  "n_train_s1": 20961,
+  "n_train_rows": 2671563,
+  "th_oof": 0.7600000000000001,
+  "train_oof_macro": 0.9854595157904356,
+  "V1": {
+   "US": {
+    "sum_p_per_s1": 3.446,
+    "true_inpool_per_s1": 3.452,
+    "delta": -0.065,
+    "th": 0.76,
+    "th_delta": 0.748,
+    "macro": 98.609,
+    "tp": 40189,
+    "fp": 140,
+    "fn_inpool": 1370,
+    "macro_after_delta": 98.605,
+    "tp_after": 40207,
+    "fp_after": 148
+   },
+   "India": {
+    "sum_p_per_s1": 3.4756,
+    "true_inpool_per_s1": 3.4761,
+    "delta": -0.005,
+    "th": 0.76,
+    "th_delta": 0.7591,
+    "macro": 98.574,
+    "tp": 26825,
+    "fp": 115,
+    "fn_inpool": 848,
+    "macro_after_delta": 98.575,
+    "tp_after": 26826,
+    "fp_after": 116
+   }
+  },
+  "secs": 149.1,
+  "gain_share_rr": 0.5508
+ },
+ "SC_25": {
+  "arm": "SC_25",
+  "train": "all",
+  "reranker": "G_MIX_25",
+  "n_train_s1": 51994,
+  "n_train_rows": 6629937,
+  "th_oof": 0.7400000000000001,
+  "train_oof_macro": 0.9846203517671245,
+  "V1": {
+   "US": {
+    "sum_p_per_s1": 3.4485,
+    "true_inpool_per_s1": 3.452,
+    "delta": -0.036,
+    "th": 0.74,
+    "th_delta": 0.7331,
+    "macro": 98.588,
+    "tp": 40200,
+    "fp": 147,
+    "fn_inpool": 1359,
+    "macro_after_delta": 98.583,
+    "tp_after": 40208,
+    "fp_after": 150
+   },
+   "India": {
+    "sum_p_per_s1": 3.4781,
+    "true_inpool_per_s1": 3.4761,
+    "delta": 0.02,
+    "th": 0.74,
+    "th_delta": 0.7439,
+    "macro": 98.533,
+    "tp": 26821,
+    "fp": 118,
+    "fn_inpool": 852,
+    "macro_after_delta": 98.538,
+    "tp_after": 26818,
+    "fp_after": 115
+   }
+  },
+  "secs": 319.9,
+  "gain_share_rr": 0.816
+ },
+ "SC_40": {
+  "arm": "SC_40",
+  "train": "all",
+  "reranker": "G_MIX_IN",
+  "n_train_s1": 51994,
+  "n_train_rows": 6629937,
+  "th_oof": 0.7600000000000001,
+  "train_oof_macro": 0.9857659917691097,
+  "V1": {
+   "US": {
+    "sum_p_per_s1": 3.448,
+    "true_inpool_per_s1": 3.452,
+    "delta": -0.043,
+    "th": 0.76,
+    "th_delta": 0.752,
+    "macro": 98.682,
+    "tp": 40226,
+    "fp": 121,
+    "fn_inpool": 1333,
+    "macro_after_delta": 98.682,
+    "tp_after": 40238,
+    "fp_after": 126
+   },
+   "India": {
+    "sum_p_per_s1": 3.4795,
+    "true_inpool_per_s1": 3.4761,
+    "delta": 0.037,
+    "th": 0.76,
+    "th_delta": 0.7667,
+    "macro": 98.644,
+    "tp": 26864,
+    "fp": 105,
+    "fn_inpool": 809,
+    "macro_after_delta": 98.645,
+    "tp_after": 26854,
+    "fp_after": 99
+   }
+  },
+  "secs": 317.9,
+  "gain_share_rr": 0.8213
+ },
+ "SC_60": {
+  "arm": "SC_60",
+  "train": "all",
+  "reranker": "G_MIX_US",
+  "n_train_s1": 51994,
+  "n_train_rows": 6629937,
+  "th_oof": 0.7400000000000001,
+  "train_oof_macro": 0.9867073426169081,
+  "V1": {
+   "US": {
+    "sum_p_per_s1": 3.4486,
+    "true_inpool_per_s1": 3.452,
+    "delta": -0.039,
+    "th": 0.74,
+    "th_delta": 0.7325,
+    "macro": 98.73,
+    "tp": 40287,
+    "fp": 125,
+    "fn_inpool": 1272,
+    "macro_after_delta": 98.731,
+    "tp_after": 40295,
+    "fp_after": 128
+   },
+   "India": {
+    "sum_p_per_s1": 3.4786,
+    "true_inpool_per_s1": 3.4761,
+    "delta": 0.03,
+    "th": 0.74,
+    "th_delta": 0.7456,
+    "macro": 98.684,
+    "tp": 26895,
+    "fp": 108,
+    "fn_inpool": 778,
+    "macro_after_delta": 98.68,
+    "tp_after": 26891,
+    "fp_after": 107
+   }
+  },
+  "secs": 318.4,
+  "gain_share_rr": 0.8246
+ }
+}

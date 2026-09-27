@@ -1,0 +1,259 @@
+{
+ "unowned": {
+  "n": 150000,
+  "share_with_same_core_S1": 0.2405,
+  "n_same_core_mean_when_any": 26.78,
+  "same_core&same_city(full>=0.8)": {
+   "n": 14848,
+   "share_of_all": 0.09899
+  },
+  "same_core&same_city&hn_eq": {
+   "n": 1300,
+   "share_of_all": 0.00867
+  },
+  "same_core&same_city&hn_eq&street_diff(rs<0.6)": {
+   "n": 11,
+   "share_of_all": 7e-05
+  },
+  "same_core&same_city&street_diff(rs<0.6)": {
+   "n": 102,
+   "share_of_all": 0.00068
+  },
+  "same_core&same_city&street_match(rs>=0.8)&hn_eq": {
+   "n": 1287,
+   "share_of_all": 0.00858
+  },
+  "by_country": {
+   "US": 0.2919,
+   "India": 0.1636
+  }
+ },
+ "owned": {
+  "n": 150000,
+  "share_with_same_core_S1": 0.564,
+  "n_same_core_mean_when_any": 19.13,
+  "same_core&same_city(full>=0.8)": {
+   "n": 596,
+   "share_of_all": 0.00397
+  },
+  "same_core&same_city&hn_eq": {
+   "n": 11,
+   "share_of_all": 7e-05
+  },
+  "same_core&same_city&hn_eq&street_diff(rs<0.6)": {
+   "n": 7,
+   "share_of_all": 5e-05
+  },
+  "same_core&same_city&street_diff(rs<0.6)": {
+   "n": 97,
+   "share_of_all": 0.00065
+  },
+  "same_core&same_city&street_match(rs>=0.8)&hn_eq": {
+   "n": 4,
+   "share_of_all": 3e-05
+  },
+  "owner_same_core_share": 0.5321,
+  "by_country": {
+   "US": 0.5813,
+   "India": 0.5382
+  }
+ },
+ "GT_pairs_sample": {
+  "US": {
+   "n": 179804,
+   "KEY2_share": 0.00029,
+   "KEY2_hn_eq_share": 0.00023,
+   "street_diff_any_share": 0.00095,
+   "examples": [
+    {
+     "s1_addr": "100 B 1st Street, Williams, AZ",
+     "rec_addr": "100 B Finst Street, Williams, Arizona",
+     "rs": 0.0,
+     "hn": 1
+    },
+    {
+     "s1_addr": "1807 21st Street, City Of La Crosse, WI",
+     "rec_addr": "1807 Twenty First Street, City Of La Crosse, Wisconsin",
+     "rs": 0.333,
+     "hn": 1
+    },
+    {
+     "s1_addr": "4638 21st Street, Cicero, IL",
+     "rec_addr": "4638 TWENTY FIRST STREET, CICERO, IL",
+     "rs": 0.333,
+     "hn": 1
+    },
+    {
+     "s1_addr": "6841 21st Street, Fargo, ND",
+     "rec_addr": "6841 TWENTY FIRST STREET, FARGO, ND",
+     "rs": 0.333,
+     "hn": 1
+    },
+    {
+     "s1_addr": "812 21st Street, Connersville, IN",
+     "rec_addr": "CONNERSVILLE, IN, TWENTY FIRST STREET",
+     "rs": 0.333,
+     "hn": -1
+    },
+    {
+     "s1_addr": "Jenks, OK, 13963 21st Street",
+     "rec_addr": "0013963 Twenty First Street, Jenks, Oklahoma",
+     "rs": 0.333,
+     "hn": 1
+    },
+    {
+     "s1_addr": "11020 I 70 Dr NE, Fl 1, Columbia, MO",
+     "rec_addr": "11020 I 70 Dr Northeast, COLUMBIA, MO",
+     "rs": 0.364,
+     "hn": 1
+    },
+    {
+     "s1_addr": "100 3rd Ave SW, Cedar Rapids, IA",
+     "rec_addr": "CEDAR RAPIDS, 100 3RD AVE SOUTHWEST, IA",
+     "rs": 0.588,
+     "hn": 1
+    },
+    {
+     "s1_addr": "418 4th Street, Columbus, IN",
+     "rec_addr": "418 FIURTH STREET, COLUMBUS, IN",
+     "rs": 0.0,
+     "hn": 1
+    },
+    {
+     "s1_addr": "2111 21st Street, Casper, WY",
+     "rec_addr": "Twenty First Street, Casper, Wyoming",
+     "rs": 0.333,
+     "hn": -1
+    },
+    {
+     "s1_addr": "516 15th Street, Moorhead, MN",
+     "rec_addr": "516 Fifteeith Street, Moorhead, Minnesota",
+     "rs": 0.0,
+     "hn": 1
+    },
+    {
+     "s1_addr": "110 5th Avenue, Lafayette, AL",
+     "rec_addr": "110 FIFH AVENUE, LAFAYETTE, AL",
+     "rs": 0.0,
+     "hn": 1
+    },
+    {
+     "s1_addr": "1822 6th Ave SE, Cedar Rapids, IA",
+     "rec_addr": "1822 6th Ave Southeast, Cedar Rapids, Iowa",
+     "rs": 0.588,
+     "hn": 1
+    },
+    {
+     "s1_addr": "331 21st Street, Massillon, OH",
+     "rec_addr": "315. TWENTY FIRST STREET, null, MASSILLON, OH",
+     "rs": 0.333,
+     "hn": 0
+    },
+    {
+     "s1_addr": "333 10th Street, Newport, KY",
+     "rec_addr": "NEWPORT KY, KY, 333 TENHT STREET",
+     "rs": 0.0,
+     "hn": 1
+    }
+   ]
+  },
+  "India": {
+   "n": 120196,
+   "KEY2_share": 0.00374,
+   "KEY2_hn_eq_share": 0.00033,
+   "street_diff_any_share": 0.00625,
+   "examples": [
+    {
+     "s1_addr": "Puthusseri House, Keezhara, Keezhara (Po) Cherukunnu, Cherukun R.S, Kannur, Kerala",
+     "rec_addr": "Cherukunnu, #351 Puthusseri House, കേരളം, Kannur",
+     "rs": 0.333,
+     "hn": -1
+    },
+    {
+     "s1_addr": "Thane, 403, Swapnil Chs, Sector-7, Shanti Nagar, Mira-Bhayander, Mira Road, Maharashtra, A/5, Thane",
+     "rec_addr": "Hn 335/9 A/5, Thane, MH",
+     "rs": 0.0,
+     "hn": -1
+    },
+    {
+     "s1_addr": "C/O Babaji Shivram Clearing & Carriers P Ltd, 407 Rex Chambers, Walchand Hirachand Marg, Bal, Mumbai, Maharashtra",
+     "rec_addr": "Bal, Door No 373 C/o Babaji Shivram Clearing & Carriers P Ltd, Mumbai, महाराष्ट्र",
+     "rs": 0.292,
+     "hn": 0
+    },
+    {
+     "s1_addr": "Eco Space, Plot No. 2F/11, New Town, 9Th Floor Unit No. 902, Block - 4B, Rajarhat, Kolkata, Howrah, West Bengal",
+     "rec_addr": "#861 Eco Space, Kolkata, Howrah, পশ্চিমবঙ্গ",
+     "rs": 0.182,
+     "hn": 0
+    },
+    {
+     "s1_addr": "House No. 1394/2, Galli No. 7, Near Dharmadhikari Shop, Yashoda Nagar N, O. 2, Amravati, Maharashtra",
+     "rec_addr": "Hn 00972 House No. 1394/2, Amravati, MH",
+     "rs": 0.0,
+     "hn": 0
+    },
+    {
+     "s1_addr": "R22 T-25-903, Amanora Park Town, Pune City, Pune, Maharashtra",
+     "rec_addr": "MH, Rg-22 T-25-903, Pune, Pune City",
+     "rs": 0.4,
+     "hn": 1
+    },
+    {
+     "s1_addr": "Raigarh, Maharashtra, Suraj Complex Plot-2/21 Sector-36, Kamothe, Panvel, Flat No-C-604",
+     "rec_addr": "Hn 671 Flat No-c-604, N/A, Panvel, Raigarh, महाराष्ट्र",
+     "rs": 0.0,
+     "hn": 0
+    },
+    {
+     "s1_addr": "Sharda Vihar Chs, A-102, C.S. Link Road, Nr. Anand Nursing Home, Dahisar East, Mumbai, Mumbai City, Maharashtra",
+     "rec_addr": "Mumbai, No. 705 Sharda Vihar Chs, MH",
+     "rs": 0.1,
+     "hn": -1
+    },
+    {
+     "s1_addr": "C/O Ramesh Kumar, Behind Mig-185 Mahavir Nagar, H.Nagar, Kankarbagh, Patna, Bihar",
+     "rec_addr": "DOOR NO 3 C/O RAMESH KUMAR, PATNA, Bihar",
+     "rs": 0.278,
+     "hn": 0
+    },
+    {
+     "s1_addr": "C/O M/S National Institute Of Industrial Engineering, Vihar Lake Road P.O. Nitie, Mumbai, Mumbai City, Maharashtra",
+     "rec_addr": "Mumbai, Mumbai City, MH, Door No 0474 C/o M/s National Institute Of Industrial Engineering",
+     "rs": 0.351,
+     "hn": -1
+    },
+    {
+     "s1_addr": "Mumbai City, Radha Raman Co-Op Hsg Soc, Maharashtra, A/8 Netaji Nagar, Khadi No 3, Kajupada, Kurl, A West, Mumbai",
+     "rec_addr": "H.no #557 Radha Raman Co-op Hsg Soc, Mumbai, Mumbai City, MH",
+     "rs": 0.216,
+     "hn": 0
+    },
+    {
+     "s1_addr": "East Ramakrishnapuram, Tamilnadu Tamilnadu, Karur - 639 001., Tamil Nadu",
+     "rec_addr": "DOOR NO 873 EAST RAMAKRISHNAPURAM, TAMILNADU TAMILNADU, Tamil Nadu",
+     "rs": 0.308,
+     "hn": 0
+    },
+    {
+     "s1_addr": "Divya Diamonds House, 3-225, 5Th Floor, Kavuri Hills Road, Cbi Colony, Madhapur, Hyderabad, Rangareddy, Telangana",
+     "rec_addr": "Hn 851 Divya Diamonds House, Hyderabad, Rangareddy, TG",
+     "rs": 0.276,
+     "hn": -1
+    },
+    {
+     "s1_addr": "H No. 43, Mig-Ii-43, Phase- Vii, Kphb Colony, Tirumalagiri, Hyderabad, Telangana",
+     "rec_addr": "H NO. 0043, HYDERABAD, R R HYDERABAD, Telangana",
+     "rs": 0.0,
+     "hn": -1
+    },
+    {
+     "s1_addr": "6D, Presidency Court Flats Chammany Road, Kaloor, Ernakulam, Kerala",
+     "rec_addr": "No B3/535 6D, Ernakulam, Kaloor, കേരളം",
+     "rs": 0.0,
+     "hn": -1
+    }
+   ]
+  }
+ }
+}

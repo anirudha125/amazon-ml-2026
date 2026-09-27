@@ -1,0 +1,95 @@
+{
+ "US": {
+  "filler_sub_any": {
+   "other_addr": {
+    "TN": 12565,
+    "TP": 671,
+    "FN": 82,
+    "FP": 5,
+    "P_y1_given_rejected": 0.0065,
+    "P_y1_given_accepted": 0.9926
+   },
+   "exact": {
+    "TP": 197,
+    "P_y1_given_rejected": null,
+    "P_y1_given_accepted": 1.0
+   },
+   "street": {
+    "TP": 1274,
+    "TN": 1,
+    "FP": 1,
+    "FN": 2,
+    "P_y1_given_rejected": 0.6667,
+    "P_y1_given_accepted": 0.9992
+   }
+  },
+  "filler_only_any": {
+   "other_addr": {
+    "TN": 10901,
+    "TP": 547,
+    "FN": 80,
+    "FP": 3,
+    "P_y1_given_rejected": 0.0073,
+    "P_y1_given_accepted": 0.9945
+   },
+   "street": {
+    "TP": 1027,
+    "TN": 5,
+    "P_y1_given_rejected": 0.0,
+    "P_y1_given_accepted": 1.0
+   },
+   "exact": {
+    "TP": 197,
+    "FP": 1,
+    "P_y1_given_rejected": null,
+    "P_y1_given_accepted": 0.9949
+   }
+  }
+ },
+ "India": {
+  "filler_sub_any": {
+   "other_addr": {
+    "FN": 68,
+    "TN": 13553,
+    "TP": 814,
+    "FP": 6,
+    "P_y1_given_rejected": 0.005,
+    "P_y1_given_accepted": 0.9927
+   },
+   "street": {
+    "TP": 364,
+    "TN": 44,
+    "FN": 4,
+    "FP": 1,
+    "P_y1_given_rejected": 0.0833,
+    "P_y1_given_accepted": 0.9973
+   },
+   "exact": {
+    "TP": 76,
+    "P_y1_given_rejected": null,
+    "P_y1_given_accepted": 1.0
+   }
+  },
+  "filler_only_any": {
+   "other_addr": {
+    "TN": 6684,
+    "TP": 1301,
+    "FN": 87,
+    "FP": 7,
+    "P_y1_given_rejected": 0.0128,
+    "P_y1_given_accepted": 0.9946
+   },
+   "exact": {
+    "TP": 158,
+    "P_y1_given_rejected": null,
+    "P_y1_given_accepted": 1.0
+   },
+   "street": {
+    "TP": 558,
+    "TN": 11,
+    "P_y1_given_rejected": 0.0,
+    "P_y1_given_accepted": 1.0
+   }
+  }
+ }
+}

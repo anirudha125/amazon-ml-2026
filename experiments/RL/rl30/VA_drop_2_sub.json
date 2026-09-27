@@ -1,0 +1,241 @@
+{
+ "prior": {
+  "US": 0.18529678698140103,
+  "India": 0.3584005256188304,
+  "France": 0.1464796055443942
+ },
+ "V1_pure_single_drop": {
+  "n": 2150,
+  "pos": 412,
+  "cond_auc": {
+   "p20": {
+    "auc_dr": 0.532,
+    "ci90": [
+     0.4934,
+     0.5685
+    ],
+    "auc_random": 0.4789
+   },
+   "p20_x_modelIDF5": {
+    "auc_dr": 0.5022,
+    "ci90": [
+     0.4662,
+     0.5448
+    ],
+    "auc_random": 0.5053
+   },
+   "p20_x_legalflag": {
+    "auc_dr": 0.5115,
+    "ci90": [
+     0.4722,
+     0.5462
+    ],
+    "auc_random": 0.5076
+   },
+   "nonlegal_p20_x_modelIDF5": {
+    "n": 533,
+    "pos": 93,
+    "auc_dr": 0.5456
+   },
+   "legal_p20": {
+    "n": 1617,
+    "pos": 319,
+    "auc_dr": 0.5122
+   }
+  },
+  "calibration_by_dr_tercile": {
+   "tercile0": {
+    "n": 686,
+    "mean_y": 0.2055,
+    "mean_p": 0.2344,
+    "y_minus_p": -0.0288,
+    "legal_share": 0.292
+   },
+   "tercile1": {
+    "n": 714,
+    "mean_y": 0.1092,
+    "mean_p": 0.1288,
+    "y_minus_p": -0.0196,
+    "legal_share": 0.987
+   },
+   "tercile2": {
+    "n": 750,
+    "mean_y": 0.2573,
+    "mean_p": 0.2584,
+    "y_minus_p": -0.001,
+    "legal_share": 0.949
+   }
+  },
+  "tercile_edges": [
+   0.436,
+   0.502
+  ]
+ },
+ "V1_pure_single_drop_top_tokens": [
+  {
+   "ctry": "India",
+   "tok": "limited",
+   "n": 692,
+   "yrate": 0.1069,
+   "mean_p": 0.1262,
+   "dr": 0.5541,
+   "y_minus_p": -0.0193
+  },
+  {
+   "ctry": "US",
+   "tok": "llc",
+   "n": 319,
+   "yrate": 0.2571,
+   "mean_p": 0.2574,
+   "dr": 0.3062,
+   "y_minus_p": -0.0003
+  },
+  {
+   "ctry": "US",
+   "tok": "inc",
+   "n": 203,
+   "yrate": 0.2857,
+   "mean_p": 0.2595,
+   "dr": 0.3578,
+   "y_minus_p": 0.0262
+  },
+  {
+   "ctry": "India",
+   "tok": "ltd",
+   "n": 83,
+   "yrate": 0.3976,
+   "mean_p": 0.3685,
+   "dr": 0.4541,
+   "y_minus_p": 0.029
+  },
+  {
+   "ctry": "US",
+   "tok": "pc",
+   "n": 54,
+   "yrate": 0.1667,
+   "mean_p": 0.2311,
+   "dr": 0.392,
+   "y_minus_p": -0.0644
+  },
+  {
+   "ctry": "India",
+   "tok": "llp",
+   "n": 51,
+   "yrate": 0.3137,
+   "mean_p": 0.3192,
+   "dr": 0.4221,
+   "y_minus_p": -0.0055
+  },
+  {
+   "ctry": "US",
+   "tok": "corp",
+   "n": 47,
+   "yrate": 0.2766,
+   "mean_p": 0.2801,
+   "dr": 0.3476,
+   "y_minus_p": -0.0035
+  },
+  {
+   "ctry": "US",
+   "tok": "group",
+   "n": 38,
+   "yrate": 0.3684,
+   "mean_p": 0.3784,
+   "dr": 0.3544,
+   "y_minus_p": -0.01
+  },
+  {
+   "ctry": "US",
+   "tok": "lp",
+   "n": 33,
+   "yrate": 0.2121,
+   "mean_p": 0.2355,
+   "dr": 0.3979,
+   "y_minus_p": -0.0234
+  },
+  {
+   "ctry": "US",
+   "tok": "center",
+   "n": 32,
+   "yrate": 0.0,
+   "mean_p": 0.1175,
+   "dr": 0.2479,
+   "y_minus_p": -0.1175
+  },
+  {
+   "ctry": "US",
+   "tok": "pllc",
+   "n": 27,
+   "yrate": 0.2963,
+   "mean_p": 0.2979,
+   "dr": 0.3113,
+   "y_minus_p": -0.0016
+  }
+ ],
+ "V1_token_level_spearman_dr_vs_y_minus_p": 0.0545,
+ "token_level_test": {
+  "France": {
+   "n_tok": 351,
+   "spearman_dr_vs_logdf": 0.4297,
+   "spearman_dr_vs_logdf_content": 0.3955,
+   "content_log_lr_q05_q50_q95": [
+    -0.76,
+    -0.455,
+    0.074
+   ],
+   "legal_log_lr_median": 0.583
+  },
+  "US": {
+   "n_tok": 1212,
+   "spearman_dr_vs_logdf": -0.4007,
+   "spearman_dr_vs_logdf_content": -0.4322,
+   "content_log_lr_q05_q50_q95": [
+    -0.788,
+    0.037,
+    0.361
+   ],
+   "legal_log_lr_median": 0.63
+  },
+  "India": {
+   "n_tok": 265,
+   "spearman_dr_vs_logdf": 0.4463,
+   "spearman_dr_vs_logdf_content": 0.456,
+   "content_log_lr_q05_q50_q95": [
+    -1.154,
+    0.135,
+    0.381
+   ],
+   "legal_log_lr_median": 0.187
+  }
+ },
+ "France_S005_band": {
+  "pairs_p078_099": 87278,
+  "with_S1only": 50623,
+  "dr_loglr_q05_q50_q95": [
+   -0.788,
+   -0.013,
+   0.594
+  ],
+  "flips": {
+   "-1.0": {
+    "pairs_pushed_below_th": 2197,
+    "S1": 2180
+   },
+   "-0.5": {
+    "pairs_pushed_below_th": 1066,
+    "S1": 1063
+   },
+   "0.5": {
+    "pairs_pushed_below_th": 1109,
+    "S1": 1099
+   },
+   "1.0": {
+    "pairs_pushed_below_th": 2336,
+    "S1": 2298
+   }
+  },
+  "all_kept_final": 854396,
+  "all_S1": 244988
+ },
+ "secs": 49.1
+}

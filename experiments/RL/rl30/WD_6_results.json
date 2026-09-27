@@ -1,0 +1,258 @@
+{
+ "test_France": {
+  "n": 53521,
+  "acc_rate": 0.2733,
+  "rival_any_share": 0.5976,
+  "rival_same_addr_share": 0.1895,
+  "acc_by_rival": [
+   [
+    false,
+    false,
+    21536,
+    0.39
+   ],
+   [
+    true,
+    false,
+    21842,
+    0.273
+   ],
+   [
+    true,
+    true,
+    10143,
+    0.0261
+   ]
+  ],
+  "acc_by_target_token": [
+   [
+    "club",
+    4870,
+    0.368
+   ],
+   [
+    "ecole",
+    3122,
+    0.175
+   ],
+   [
+    "amicale",
+    3088,
+    0.333
+   ],
+   [
+    "comite",
+    2841,
+    0.596
+   ],
+   [
+    "sportive",
+    2209,
+    0.046
+   ],
+   [
+    "amis",
+    1950,
+    0.568
+   ],
+   [
+    "centre",
+    1736,
+    0.62
+   ],
+   [
+    "parents",
+    1584,
+    0.325
+   ],
+   [
+    "union",
+    1467,
+    0.134
+   ],
+   [
+    "primaire",
+    1338,
+    0.109
+   ],
+   [
+    "college",
+    1326,
+    0.253
+   ],
+   [
+    "societe",
+    1295,
+    0.625
+   ],
+   [
+    "fetes",
+    1103,
+    0.586
+   ],
+   [
+    "loisirs",
+    1097,
+    0.253
+   ],
+   [
+    "anciens",
+    1047,
+    0.263
+   ],
+   [
+    "sante",
+    1042,
+    0.402
+   ],
+   [
+    "maison",
+    1017,
+    0.151
+   ],
+   [
+    "compagnie",
+    1003,
+    0.6
+   ],
+   [
+    "pharmacie",
+    1001,
+    0.009
+   ],
+   [
+    "culturelle",
+    810,
+    0.005
+   ],
+   [
+    "groupement",
+    802,
+    0.032
+   ],
+   [
+    "elementaire",
+    750,
+    0.144
+   ],
+   [
+    "maternelle",
+    742,
+    0.216
+   ],
+   [
+    "sport",
+    739,
+    0.026
+   ],
+   [
+    "lycee",
+    735,
+    0.414
+   ]
+  ],
+  "final_n": 14232,
+  "final_n_s1": 13902,
+  "final_rival_any_share": 0.4099,
+  "final_rival_same_addr_share": 0.0004,
+  "final_p_quantiles": {
+   "0.1": 0.8576,
+   "0.25": 0.9322,
+   "0.5": 0.9769,
+   "0.75": 0.9944,
+   "0.9": 0.9986
+  },
+  "final_orphan_examples": [
+   "p=0.836 | Girls Ma Loisirs EURL | Dunkerque, Hauts-de-France, 5 Rue du Kursaal  ->  Girls Ma Lyc\u00e9e | 5 Rue Du Kusraal, Dunkerque, Nord",
+   "p=0.981 | IEN Sport | 20 Place de la Ferme de Richemont, Bordeaux, Nouvelle-Aquitaine  ->  IEN Coll\u00e8ge | 20 PL DE LA FERME DE RICHEMONT, BORDEAUX, Gironde",
+   "p=0.940 | Chtite Amis (France) SARL | 7 Place Jeanne d'Arc, Lille, Hauts-de-France  ->  CHTITE LOISIRS (FRANCE) SARL | 7 PL. JEANNE D'ARC, LILLE, Hauts-de-France",
+   "p=0.984 | Pimms Hopital (France) SAS | 17 Avenue des Chenes, La Teste-de-Buch, Nouvelle-Aquitaine  ->  Pimms Societe (France) Sas | La Teste-de-buch, Gironde, 17 Av. Des Chenes",
+   "p=0.998 | TJN Anciens SAS | 29 Rue Cl\u00e9menceau, Dunkerque, Hauts-de-France  ->  TJN Comite SAS | 29 R. CLEMENCEAU, DUNKERQUE",
+   "p=0.973 | Circuit Maison SAS | 189 Rue du Chemin Neuf, Roubaix, Hauts-de-France  ->  Circuit Danse S.A.S | # 189 RUE DU CHEMIN NEUF, ROUBAIX, Hauts-de-France",
+   "p=0.968 | Mariae Korian Coll\u00e8ge | 6 Rue Jean Bart, Nouvelle-Aquitaine, La Teste-de-Buch  ->  Mariae Korian Union | 6 R. JEAN BART, LA TESTE-DE-BUCH, Gironde",
+   "p=0.974 | Ensemble Unef Section | 27 Rue Louis Le Nain, Nantes, Pays de la Loire  ->  Ensemble Unef (Club) | 27 Rue Louis Le Nain, Nantes, Loire-Atlantique"
+  ]
+ },
+ "test_India": {
+  "n": 3526,
+  "acc_rate": 0.0048,
+  "rival_any_share": 0.5394,
+  "rival_same_addr_share": 0.194,
+  "acc_by_rival": [
+   [
+    false,
+    false,
+    1624,
+    0.0092
+   ],
+   [
+    true,
+    false,
+    1218,
+    0.0016
+   ],
+   [
+    true,
+    true,
+    684,
+    0.0
+   ]
+  ]
+ },
+ "test_US": {
+  "n": 238,
+  "acc_rate": 0.0042,
+  "rival_any_share": 0.1134,
+  "rival_same_addr_share": 0.0042,
+  "acc_by_rival": [
+   [
+    false,
+    false,
+    211,
+    0.0047
+   ],
+   [
+    true,
+    false,
+    26,
+    0.0
+   ],
+   [
+    true,
+    true,
+    1,
+    0.0
+   ]
+  ]
+ },
+ "train_India": {
+  "n": 162,
+  "p_match": 0.0,
+  "rival_any_share": 0.6728,
+  "rival_same_addr_share": 0.3272,
+  "p_match_by_rival": [
+   [
+    false,
+    false,
+    53,
+    0.0
+   ],
+   [
+    true,
+    false,
+    56,
+    0.0
+   ],
+   [
+    true,
+    true,
+    53,
+    0.0
+   ]
+  ],
+  "rec_owned_by_some_train_S1": 0.3704
+ },
+ "train_US": {
+  "n": 0
+ }
+}

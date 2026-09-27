@@ -1,0 +1,37 @@
+{
+ "tag": "MIX_25",
+ "subset": {
+  "n_s1": 25000,
+  "n_us": 14881
+ },
+ "n_train_pairs": 250000,
+ "positives": 86243,
+ "train": {
+  "init": "intfloat/multilingual-e5-base",
+  "rev": "d128750597153bb5987e10b1c3493a34e5a4502a",
+  "n_pairs": 250000,
+  "epochs": 1.0,
+  "bs": 256,
+  "micro": 256,
+  "lr": 5e-05,
+  "seed": 42,
+  "wd": 0.01,
+  "steps": 977,
+  "t_train": 166.0,
+  "pairs_per_s": 1506,
+  "vram_peak_gb": 15.8,
+  "gpu_util_mean": 92.08536585365853,
+  "gpu_mem_used_max_mb": 16777.0,
+  "final_loss": 0.07215549967437983,
+  "attn": "sdpa",
+  "n_tok": 3,
+  "n_params": 278044417
+ },
+ "score": {
+  "n_pairs": 739950,
+  "secs": 82.5,
+  "pairs_per_s": 8972,
+  "gpu_util_mean": 88.36585365853658,
+  "gpu_mem_used_max_mb": 6215.0
+ }
+}

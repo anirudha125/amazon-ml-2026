@@ -1,0 +1,8 @@
+{
+ "n_pairs": 679900,
+ "secs": 60.6,
+ "pairs_per_s": 11228,
+ "gpu_util_mean": 50.8,
+ "n_need": 679900,
+ "secs_total": 148.588454246521
+}

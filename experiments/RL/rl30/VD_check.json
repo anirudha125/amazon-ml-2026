@@ -1,0 +1,1908 @@
+{
+ "P1_V1_class_table": {
+  "US|H_D1": {
+   "n_hard": 249,
+   "n_pos": 96,
+   "P_match": 0.3855,
+   "mean_p": 0.3855,
+   "n_acc": 87,
+   "FP": 3,
+   "FN": 12,
+   "prec": 0.9655,
+   "rec": 0.875,
+   "auc_p_within": 0.954,
+   "FP_s43": 2,
+   "FP_s44": 3
+  },
+  "US|H_D2": {
+   "n_hard": 248,
+   "n_pos": 87,
+   "P_match": 0.3508,
+   "mean_p": 0.3628,
+   "n_acc": 79,
+   "FP": 4,
+   "FN": 12,
+   "prec": 0.9494,
+   "rec": 0.8621,
+   "auc_p_within": 0.9549,
+   "FP_s43": 4,
+   "FP_s44": 4
+  },
+  "US|H_D3_10_EVEN": {
+   "n_hard": 65,
+   "n_pos": 10,
+   "P_match": 0.1538,
+   "mean_p": 0.135,
+   "n_acc": 8,
+   "FP": 0,
+   "FN": 2,
+   "prec": 1.0,
+   "rec": 0.8,
+   "auc_p_within": 0.9964,
+   "FP_s43": 0,
+   "FP_s44": 0
+  },
+  "US|H_D3_10_ODD": {
+   "n_hard": 308,
+   "n_pos": 14,
+   "P_match": 0.0455,
+   "mean_p": 0.0542,
+   "n_acc": 11,
+   "FP": 0,
+   "FN": 3,
+   "prec": 1.0,
+   "rec": 0.7857,
+   "auc_p_within": 0.9524,
+   "FP_s43": 0,
+   "FP_s44": 0
+  },
+  "US|H_DIGINDEL": {
+   "n_hard": 863,
+   "n_pos": 829,
+   "P_match": 0.9606,
+   "mean_p": 0.9624,
+   "n_acc": 815,
+   "FP": 4,
+   "FN": 18,
+   "prec": 0.9951,
+   "rec": 0.9783,
+   "auc_p_within": 0.9924,
+   "FP_s43": 6,
+   "FP_s44": 7
+  },
+  "US|H_DIGSUB": {
+   "n_hard": 534,
+   "n_pos": 174,
+   "P_match": 0.3258,
+   "mean_p": 0.3263,
+   "n_acc": 164,
+   "FP": 2,
+   "FN": 12,
+   "prec": 0.9878,
+   "rec": 0.931,
+   "auc_p_within": 0.9934,
+   "FP_s43": 2,
+   "FP_s44": 2
+  },
+  "US|H_GT10_EVEN": {
+   "n_hard": 334,
+   "n_pos": 298,
+   "P_match": 0.8922,
+   "mean_p": 0.8785,
+   "n_acc": 285,
+   "FP": 3,
+   "FN": 16,
+   "prec": 0.9895,
+   "rec": 0.9463,
+   "auc_p_within": 0.987,
+   "FP_s43": 3,
+   "FP_s44": 3
+  },
+  "US|H_GT10_ODD": {
+   "n_hard": 662,
+   "n_pos": 229,
+   "P_match": 0.3459,
+   "mean_p": 0.3464,
+   "n_acc": 211,
+   "FP": 2,
+   "FN": 20,
+   "prec": 0.9905,
+   "rec": 0.9127,
+   "auc_p_within": 0.9918,
+   "FP_s43": 2,
+   "FP_s44": 2
+  },
+  "US|H_PERM": {
+   "n_hard": 21,
+   "n_pos": 2,
+   "P_match": 0.0952,
+   "mean_p": 0.0985,
+   "n_acc": 2,
+   "FP": 0,
+   "FN": 0,
+   "prec": 1.0,
+   "rec": 1.0,
+   "auc_p_within": 1.0,
+   "FP_s43": 0,
+   "FP_s44": 0
+  },
+  "US|ALL": {
+   "n_hard": 3284,
+   "n_pos": 1739,
+   "P_match": 0.5295,
+   "mean_p": 0.5302,
+   "n_acc": 1662,
+   "FP": 18,
+   "FN": 95,
+   "prec": 0.9892,
+   "rec": 0.9454,
+   "auc_p_within": 0.9937,
+   "FP_s43": 19,
+   "FP_s44": 21
+  },
+  "US|RULE3": {
+   "n_hard": 805,
+   "n_pos": 197,
+   "P_match": 0.2447,
+   "mean_p": 0.2518,
+   "n_acc": 177,
+   "FP": 7,
+   "FN": 27,
+   "prec": 0.9605,
+   "rec": 0.8629,
+   "auc_p_within": 0.9662,
+   "FP_s43": 6,
+   "FP_s44": 7
+  },
+  "India|H_D1": {
+   "n_hard": 44,
+   "n_pos": 41,
+   "P_match": 0.9318,
+   "mean_p": 0.9091,
+   "n_acc": 40,
+   "FP": 1,
+   "FN": 2,
+   "prec": 0.975,
+   "rec": 0.9512,
+   "auc_p_within": 0.9756,
+   "FP_s43": 1,
+   "FP_s44": 0
+  },
+  "India|H_D2": {
+   "n_hard": 43,
+   "n_pos": 40,
+   "P_match": 0.9302,
+   "mean_p": 0.8948,
+   "n_acc": 37,
+   "FP": 0,
+   "FN": 3,
+   "prec": 1.0,
+   "rec": 0.925,
+   "auc_p_within": 0.9833,
+   "FP_s43": 0,
+   "FP_s44": 0
+  },
+  "India|H_D3_10_EVEN": {
+   "n_hard": 1,
+   "n_pos": 1,
+   "P_match": 1.0,
+   "mean_p": 0.9999,
+   "n_acc": 1,
+   "FP": 0,
+   "FN": 0,
+   "prec": 1.0,
+   "rec": 1.0,
+   "auc_p_within": null,
+   "FP_s43": 0,
+   "FP_s44": 0
+  },
+  "India|H_D3_10_ODD": {
+   "n_hard": 9,
+   "n_pos": 5,
+   "P_match": 0.5556,
+   "mean_p": 0.5629,
+   "n_acc": 5,
+   "FP": 0,
+   "FN": 0,
+   "prec": 1.0,
+   "rec": 1.0,
+   "auc_p_within": 1.0,
+   "FP_s43": 0,
+   "FP_s44": 0
+  },
+  "India|H_DIGINDEL": {
+   "n_hard": 168,
+   "n_pos": 166,
+   "P_match": 0.9881,
+   "mean_p": 0.987,
+   "n_acc": 166,
+   "FP": 0,
+   "FN": 0,
+   "prec": 1.0,
+   "rec": 1.0,
+   "auc_p_within": 1.0,
+   "FP_s43": 0,
+   "FP_s44": 0
+  },
+  "India|H_DIGSUB": {
+   "n_hard": 65,
+   "n_pos": 59,
+   "P_match": 0.9077,
+   "mean_p": 0.9121,
+   "n_acc": 59,
+   "FP": 1,
+   "FN": 1,
+   "prec": 0.9831,
+   "rec": 0.9831,
+   "auc_p_within": 0.9972,
+   "FP_s43": 1,
+   "FP_s44": 1
+  },
+  "India|H_GT10_EVEN": {
+   "n_hard": 266,
+   "n_pos": 257,
+   "P_match": 0.9662,
+   "mean_p": 0.9666,
+   "n_acc": 257,
+   "FP": 0,
+   "FN": 0,
+   "prec": 1.0,
+   "rec": 1.0,
+   "auc_p_within": 1.0,
+   "FP_s43": 0,
+   "FP_s44": 0
+  },
+  "India|H_GT10_ODD": {
+   "n_hard": 265,
+   "n_pos": 257,
+   "P_match": 0.9698,
+   "mean_p": 0.97,
+   "n_acc": 257,
+   "FP": 0,
+   "FN": 0,
+   "prec": 1.0,
+   "rec": 1.0,
+   "auc_p_within": 1.0,
+   "FP_s43": 0,
+   "FP_s44": 0
+  },
+  "India|H_PERM": {
+   "n_hard": 1,
+   "n_pos": 1,
+   "P_match": 1.0,
+   "mean_p": 0.9999,
+   "n_acc": 1,
+   "FP": 0,
+   "FN": 0,
+   "prec": 1.0,
+   "rec": 1.0,
+   "auc_p_within": null,
+   "FP_s43": 0,
+   "FP_s44": 0
+  },
+  "India|ALL": {
+   "n_hard": 862,
+   "n_pos": 827,
+   "P_match": 0.9594,
+   "mean_p": 0.9569,
+   "n_acc": 823,
+   "FP": 2,
+   "FN": 6,
+   "prec": 0.9976,
+   "rec": 0.9927,
+   "auc_p_within": 0.9989,
+   "FP_s43": 2,
+   "FP_s44": 1
+  },
+  "India|RULE3": {
+   "n_hard": 96,
+   "n_pos": 86,
+   "P_match": 0.8958,
+   "mean_p": 0.8702,
+   "n_acc": 82,
+   "FP": 1,
+   "FN": 5,
+   "prec": 0.9878,
+   "rec": 0.9419,
+   "auc_p_within": 0.9872,
+   "FP_s43": 1,
+   "FP_s44": 0
+  }
+ },
+ "P1_V1_total_errors": {
+  "US": {
+   "FP": 91,
+   "FN_in_pool": 1288
+  },
+  "India": {
+   "FP": 76,
+   "FN_in_pool": 758
+  }
+ },
+ "P1b_V1_F05_deltas_pp": {
+  "oracle_all_flagged": {
+   "all": 0.0828,
+   "US": 0.1278,
+   "India": 0.0147,
+   "n_changed_rows": 121
+  },
+  "oracle_rule3": {
+   "all": 0.0338,
+   "US": 0.0491,
+   "India": 0.0107,
+   "n_changed_rows": 40
+  },
+  "rule_drop_rule3": {
+   "all": -0.1255,
+   "US": -0.1451,
+   "India": -0.0959,
+   "n_changed_rows": 259
+  },
+  "rule_drop_all_flagged": {
+   "all": -1.4195,
+   "US": -1.6275,
+   "India": -1.105,
+   "n_changed_rows": 2485
+  },
+  "oracle_everything_in_pool": {
+   "all": 1.1312,
+   "US": 1.1536,
+   "India": 1.0974,
+   "n_changed_rows": 2213
+  }
+ },
+ "P2_conditional_on_p": {
+  "US|H_D1|all_p": {
+   "n": 249,
+   "obs_pos": 96,
+   "exp_pos": 97.1,
+   "obs_minus_exp": -1.1,
+   "z": -0.36,
+   "sum_p": 96.0
+  },
+  "US|H_D1|p_in_[0.05,0.99)": {
+   "n": 88,
+   "obs_pos": 33,
+   "exp_pos": 36.9,
+   "obs_minus_exp": -3.9,
+   "z": -1.4,
+   "sum_p": 35.9
+  },
+  "US|H_D1|p>=0.78": {
+   "n": 87,
+   "obs_pos": 84,
+   "exp_pos": 85.8,
+   "obs_minus_exp": -1.8,
+   "z": -1.67,
+   "sum_p": 85.3
+  },
+  "US|H_D2|all_p": {
+   "n": 248,
+   "obs_pos": 87,
+   "exp_pos": 92.6,
+   "obs_minus_exp": -5.6,
+   "z": -1.67,
+   "sum_p": 90.0
+  },
+  "US|H_D2|p_in_[0.05,0.99)": {
+   "n": 99,
+   "obs_pos": 38,
+   "exp_pos": 43.4,
+   "obs_minus_exp": -5.4,
+   "z": -1.8,
+   "sum_p": 41.9
+  },
+  "US|H_D2|p>=0.78": {
+   "n": 79,
+   "obs_pos": 75,
+   "exp_pos": 78.0,
+   "obs_minus_exp": -3.0,
+   "z": -3.18,
+   "sum_p": 77.6
+  },
+  "US|H_D3_10_EVEN|all_p": {
+   "n": 65,
+   "obs_pos": 10,
+   "exp_pos": 8.9,
+   "obs_minus_exp": 1.1,
+   "z": 1.05,
+   "sum_p": 8.8
+  },
+  "US|H_D3_10_EVEN|p_in_[0.05,0.99)": {
+   "n": 9,
+   "obs_pos": 7,
+   "exp_pos": 5.4,
+   "obs_minus_exp": 1.6,
+   "z": 1.96,
+   "sum_p": 5.4
+  },
+  "US|H_D3_10_EVEN|p>=0.78": {
+   "n": 8,
+   "obs_pos": 8,
+   "exp_pos": 7.8,
+   "obs_minus_exp": 0.2,
+   "z": 0.4,
+   "sum_p": 7.8
+  },
+  "US|H_D3_10_ODD|all_p": {
+   "n": 308,
+   "obs_pos": 14,
+   "exp_pos": 17.3,
+   "obs_minus_exp": -3.3,
+   "z": -1.4,
+   "sum_p": 16.7
+  },
+  "US|H_D3_10_ODD|p_in_[0.05,0.99)": {
+   "n": 25,
+   "obs_pos": 8,
+   "exp_pos": 10.4,
+   "obs_minus_exp": -2.4,
+   "z": -1.47,
+   "sum_p": 10.1
+  },
+  "US|H_D3_10_ODD|p>=0.78": {
+   "n": 11,
+   "obs_pos": 11,
+   "exp_pos": 10.7,
+   "obs_minus_exp": 0.3,
+   "z": 0.6,
+   "sum_p": 10.6
+  },
+  "US|H_DIGINDEL|all_p": {
+   "n": 863,
+   "obs_pos": 829,
+   "exp_pos": 831.3,
+   "obs_minus_exp": -2.3,
+   "z": -0.72,
+   "sum_p": 830.5
+  },
+  "US|H_DIGINDEL|p_in_[0.05,0.99)": {
+   "n": 95,
+   "obs_pos": 75,
+   "exp_pos": 77.6,
+   "obs_minus_exp": -2.6,
+   "z": -0.85,
+   "sum_p": 77.1
+  },
+  "US|H_DIGINDEL|p>=0.78": {
+   "n": 815,
+   "obs_pos": 811,
+   "exp_pos": 812.3,
+   "obs_minus_exp": -1.3,
+   "z": -0.8,
+   "sum_p": 811.1
+  },
+  "US|H_DIGSUB|all_p": {
+   "n": 534,
+   "obs_pos": 174,
+   "exp_pos": 175.1,
+   "obs_minus_exp": -1.1,
+   "z": -0.35,
+   "sum_p": 174.2
+  },
+  "US|H_DIGSUB|p_in_[0.05,0.99)": {
+   "n": 61,
+   "obs_pos": 31,
+   "exp_pos": 31.6,
+   "obs_minus_exp": -0.6,
+   "z": -0.23,
+   "sum_p": 31.0
+  },
+  "US|H_DIGSUB|p>=0.78": {
+   "n": 164,
+   "obs_pos": 162,
+   "exp_pos": 163.0,
+   "obs_minus_exp": -1.0,
+   "z": -1.06,
+   "sum_p": 162.7
+  },
+  "US|H_GT10_EVEN|all_p": {
+   "n": 334,
+   "obs_pos": 298,
+   "exp_pos": 294.1,
+   "obs_minus_exp": 3.9,
+   "z": 1.51,
+   "sum_p": 293.4
+  },
+  "US|H_GT10_EVEN|p_in_[0.05,0.99)": {
+   "n": 64,
+   "obs_pos": 44,
+   "exp_pos": 41.9,
+   "obs_minus_exp": 2.1,
+   "z": 0.82,
+   "sum_p": 41.4
+  },
+  "US|H_GT10_EVEN|p>=0.78": {
+   "n": 285,
+   "obs_pos": 282,
+   "exp_pos": 283.6,
+   "obs_minus_exp": -1.6,
+   "z": -1.33,
+   "sum_p": 283.0
+  },
+  "US|H_GT10_ODD|all_p": {
+   "n": 662,
+   "obs_pos": 229,
+   "exp_pos": 230.8,
+   "obs_minus_exp": -1.8,
+   "z": -0.44,
+   "sum_p": 229.3
+  },
+  "US|H_GT10_ODD|p_in_[0.05,0.99)": {
+   "n": 104,
+   "obs_pos": 47,
+   "exp_pos": 47.7,
+   "obs_minus_exp": -0.7,
+   "z": -0.21,
+   "sum_p": 46.5
+  },
+  "US|H_GT10_ODD|p>=0.78": {
+   "n": 211,
+   "obs_pos": 209,
+   "exp_pos": 209.6,
+   "obs_minus_exp": -0.6,
+   "z": -0.56,
+   "sum_p": 208.9
+  },
+  "US|H_PERM|all_p": {
+   "n": 21,
+   "obs_pos": 2,
+   "exp_pos": 2.1,
+   "obs_minus_exp": -0.1,
+   "z": -0.29,
+   "sum_p": 2.1
+  },
+  "US|H_PERM|p_in_[0.05,0.99)": {
+   "n": 1,
+   "obs_pos": 1,
+   "exp_pos": 1.0,
+   "obs_minus_exp": 0.0,
+   "z": 0.23,
+   "sum_p": 0.9
+  },
+  "US|H_PERM|p>=0.78": {
+   "n": 2,
+   "obs_pos": 2,
+   "exp_pos": 1.9,
+   "obs_minus_exp": 0.1,
+   "z": 0.23,
+   "sum_p": 1.9
+  },
+  "US|ALL|all_p": {
+   "n": 3284,
+   "obs_pos": 1739,
+   "exp_pos": 1749.3,
+   "obs_minus_exp": -10.3,
+   "z": -1.22,
+   "sum_p": 1741.0
+  },
+  "US|ALL|p_in_[0.05,0.99)": {
+   "n": 546,
+   "obs_pos": 284,
+   "exp_pos": 295.8,
+   "obs_minus_exp": -11.8,
+   "z": -1.61,
+   "sum_p": 290.3
+  },
+  "US|ALL|p>=0.78": {
+   "n": 1662,
+   "obs_pos": 1644,
+   "exp_pos": 1652.8,
+   "obs_minus_exp": -8.8,
+   "z": -2.98,
+   "sum_p": 1649.0
+  },
+  "US|RULE3|all_p": {
+   "n": 805,
+   "obs_pos": 197,
+   "exp_pos": 207.0,
+   "obs_minus_exp": -10.0,
+   "z": -1.94,
+   "sum_p": 202.7
+  },
+  "US|RULE3|p_in_[0.05,0.99)": {
+   "n": 212,
+   "obs_pos": 79,
+   "exp_pos": 90.6,
+   "obs_minus_exp": -11.6,
+   "z": -2.65,
+   "sum_p": 87.9
+  },
+  "US|RULE3|p>=0.78": {
+   "n": 177,
+   "obs_pos": 170,
+   "exp_pos": 174.5,
+   "obs_minus_exp": -4.5,
+   "z": -2.92,
+   "sum_p": 173.5
+  },
+  "India|H_D1|all_p": {
+   "n": 44,
+   "obs_pos": 41,
+   "exp_pos": 40.1,
+   "obs_minus_exp": 0.9,
+   "z": 1.03,
+   "sum_p": 40.0
+  },
+  "India|H_D1|p_in_[0.05,0.99)": {
+   "n": 13,
+   "obs_pos": 11,
+   "exp_pos": 10.1,
+   "obs_minus_exp": 0.9,
+   "z": 1.03,
+   "sum_p": 10.0
+  },
+  "India|H_D1|p>=0.78": {
+   "n": 40,
+   "obs_pos": 39,
+   "exp_pos": 39.6,
+   "obs_minus_exp": -0.6,
+   "z": -0.94,
+   "sum_p": 39.5
+  },
+  "India|H_D2|all_p": {
+   "n": 43,
+   "obs_pos": 40,
+   "exp_pos": 38.4,
+   "obs_minus_exp": 1.6,
+   "z": 1.32,
+   "sum_p": 38.5
+  },
+  "India|H_D2|p_in_[0.05,0.99)": {
+   "n": 15,
+   "obs_pos": 13,
+   "exp_pos": 11.4,
+   "obs_minus_exp": 1.6,
+   "z": 1.33,
+   "sum_p": 11.5
+  },
+  "India|H_D2|p>=0.78": {
+   "n": 37,
+   "obs_pos": 37,
+   "exp_pos": 36.6,
+   "obs_minus_exp": 0.4,
+   "z": 0.66,
+   "sum_p": 36.5
+  },
+  "India|H_D3_10_EVEN|all_p": {
+   "n": 1,
+   "obs_pos": 1,
+   "exp_pos": 1.0,
+   "obs_minus_exp": 0.0,
+   "z": 0.01,
+   "sum_p": 1.0
+  },
+  "India|H_D3_10_EVEN|p>=0.78": {
+   "n": 1,
+   "obs_pos": 1,
+   "exp_pos": 1.0,
+   "obs_minus_exp": 0.0,
+   "z": 0.01,
+   "sum_p": 1.0
+  },
+  "India|H_D3_10_ODD|all_p": {
+   "n": 9,
+   "obs_pos": 5,
+   "exp_pos": 5.1,
+   "obs_minus_exp": -0.1,
+   "z": -0.25,
+   "sum_p": 5.1
+  },
+  "India|H_D3_10_ODD|p>=0.78": {
+   "n": 5,
+   "obs_pos": 5,
+   "exp_pos": 5.0,
+   "obs_minus_exp": 0.0,
+   "z": 0.05,
+   "sum_p": 5.0
+  },
+  "India|H_DIGINDEL|all_p": {
+   "n": 168,
+   "obs_pos": 166,
+   "exp_pos": 165.9,
+   "obs_minus_exp": 0.1,
+   "z": 0.07,
+   "sum_p": 165.8
+  },
+  "India|H_DIGINDEL|p_in_[0.05,0.99)": {
+   "n": 13,
+   "obs_pos": 11,
+   "exp_pos": 11.0,
+   "obs_minus_exp": -0.0,
+   "z": -0.02,
+   "sum_p": 11.0
+  },
+  "India|H_DIGINDEL|p>=0.78": {
+   "n": 166,
+   "obs_pos": 166,
+   "exp_pos": 165.4,
+   "obs_minus_exp": 0.6,
+   "z": 0.82,
+   "sum_p": 165.2
+  },
+  "India|H_DIGSUB|all_p": {
+   "n": 65,
+   "obs_pos": 59,
+   "exp_pos": 59.2,
+   "obs_minus_exp": -0.2,
+   "z": -0.29,
+   "sum_p": 59.3
+  },
+  "India|H_DIGSUB|p_in_[0.05,0.99)": {
+   "n": 8,
+   "obs_pos": 7,
+   "exp_pos": 7.2,
+   "obs_minus_exp": -0.2,
+   "z": -0.29,
+   "sum_p": 7.3
+  },
+  "India|H_DIGSUB|p>=0.78": {
+   "n": 59,
+   "obs_pos": 58,
+   "exp_pos": 58.7,
+   "obs_minus_exp": -0.7,
+   "z": -1.43,
+   "sum_p": 58.7
+  },
+  "India|H_GT10_EVEN|all_p": {
+   "n": 266,
+   "obs_pos": 257,
+   "exp_pos": 257.1,
+   "obs_minus_exp": -0.1,
+   "z": -0.19,
+   "sum_p": 257.1
+  },
+  "India|H_GT10_EVEN|p_in_[0.05,0.99)": {
+   "n": 8,
+   "obs_pos": 7,
+   "exp_pos": 7.1,
+   "obs_minus_exp": -0.1,
+   "z": -0.19,
+   "sum_p": 7.2
+  },
+  "India|H_GT10_EVEN|p>=0.78": {
+   "n": 257,
+   "obs_pos": 257,
+   "exp_pos": 256.8,
+   "obs_minus_exp": 0.2,
+   "z": 0.48,
+   "sum_p": 256.7
+  },
+  "India|H_GT10_ODD|all_p": {
+   "n": 265,
+   "obs_pos": 257,
+   "exp_pos": 257.2,
+   "obs_minus_exp": -0.2,
+   "z": -0.2,
+   "sum_p": 257.1
+  },
+  "India|H_GT10_ODD|p_in_[0.05,0.99)": {
+   "n": 10,
+   "obs_pos": 8,
+   "exp_pos": 8.2,
+   "obs_minus_exp": -0.2,
+   "z": -0.25,
+   "sum_p": 8.1
+  },
+  "India|H_GT10_ODD|p>=0.78": {
+   "n": 257,
+   "obs_pos": 257,
+   "exp_pos": 256.6,
+   "obs_minus_exp": 0.4,
+   "z": 0.68,
+   "sum_p": 256.5
+  },
+  "India|H_PERM|all_p": {
+   "n": 1,
+   "obs_pos": 1,
+   "exp_pos": 1.0,
+   "obs_minus_exp": 0.0,
+   "z": 0.01,
+   "sum_p": 1.0
+  },
+  "India|H_PERM|p>=0.78": {
+   "n": 1,
+   "obs_pos": 1,
+   "exp_pos": 1.0,
+   "obs_minus_exp": 0.0,
+   "z": 0.01,
+   "sum_p": 1.0
+  },
+  "India|ALL|all_p": {
+   "n": 862,
+   "obs_pos": 827,
+   "exp_pos": 825.0,
+   "obs_minus_exp": 2.0,
+   "z": 0.88,
+   "sum_p": 824.8
+  },
+  "India|ALL|p_in_[0.05,0.99)": {
+   "n": 67,
+   "obs_pos": 57,
+   "exp_pos": 55.1,
+   "obs_minus_exp": 1.9,
+   "z": 0.91,
+   "sum_p": 55.2
+  },
+  "India|ALL|p>=0.78": {
+   "n": 823,
+   "obs_pos": 821,
+   "exp_pos": 820.6,
+   "obs_minus_exp": 0.4,
+   "z": 0.26,
+   "sum_p": 820.1
+  },
+  "India|RULE3|all_p": {
+   "n": 96,
+   "obs_pos": 86,
+   "exp_pos": 83.6,
+   "obs_minus_exp": 2.4,
+   "z": 1.61,
+   "sum_p": 83.5
+  },
+  "India|RULE3|p_in_[0.05,0.99)": {
+   "n": 28,
+   "obs_pos": 24,
+   "exp_pos": 21.5,
+   "obs_minus_exp": 2.5,
+   "z": 1.68,
+   "sum_p": 21.5
+  },
+  "India|RULE3|p>=0.78": {
+   "n": 82,
+   "obs_pos": 81,
+   "exp_pos": 81.2,
+   "obs_minus_exp": -0.2,
+   "z": -0.19,
+   "sum_p": 81.0
+  }
+ },
+ "P3_existing_columns": {
+  "US_class_recoverable_from_NUM27": {
+   "H_D1": {
+    "n": 249,
+    "frac_house_absdiff_eq": 0.9598,
+    "frac_lnum_absdiff_eq": 0.992
+   },
+   "H_D2": {
+    "n": 248,
+    "frac_house_absdiff_eq": 0.9758,
+    "frac_lnum_absdiff_eq": 0.9879
+   },
+   "H_D3_10_ODD": {
+    "n": 308,
+    "frac_house_absdiff_in_3_10": 0.9838,
+    "frac_parity_recoverable": 0.9838
+   },
+   "H_D3_10_EVEN": {
+    "n": 65,
+    "frac_house_absdiff_in_3_10": 0.9846,
+    "frac_parity_recoverable": 0.9846
+   },
+   "H_DIGSUB": {
+    "n": 534,
+    "frac_lnum_edit_eq1": 0.985
+   },
+   "H_DIGINDEL": {
+    "n": 863,
+    "frac_lnum_edit_eq1": 0.9849
+   }
+  },
+  "US_within_class_auc": {
+   "p_new": 0.9937,
+   "p_base": 0.9933,
+   "house_agree": 0.4879,
+   "house_absdiff_log": 0.7984,
+   "lnum_absdiff_log": 0.8425,
+   "lnum_edit": 0.4258,
+   "small_offset_same_len": 0.1445,
+   "lnum_pool_frac": 0.4292,
+   "num_jaccard": 0.5319,
+   "rl27_nf_n": 0.4326,
+   "rl27_nf_a": 0.4886,
+   "rl27_af_n": 0.5018,
+   "rl27_af_a": 0.5,
+   "rl27_coloc": 0.4982,
+   "rl27_dupf": 0.4484,
+   "rl27_rv_rank": 0.4764,
+   "rl27_rv_sa": 0.5208,
+   "rl27_rv_so": 0.4125,
+   "rl27_rv_gap": 0.5879,
+   "D_class_target_enc_INSAMPLE": 0.8455
+  },
+  "US_class_auc_inside_p_quintiles": {
+   "q0": {
+    "n": 657,
+    "pos": 4,
+    "p_range": [
+     0.0005,
+     0.0082
+    ],
+    "auc_class_in_bin": 0.5737,
+    "auc_p_in_bin": 0.5318
+   },
+   "q1": {
+    "n": 657,
+    "pos": 14,
+    "p_range": [
+     0.0082,
+     0.0537
+    ],
+    "auc_class_in_bin": 0.7143,
+    "auc_p_in_bin": 0.7232
+   },
+   "q2": {
+    "n": 656,
+    "pos": 407,
+    "p_range": [
+     0.0539,
+     0.9956
+    ],
+    "auc_class_in_bin": 0.6289,
+    "auc_p_in_bin": 0.939
+   },
+   "q3": {
+    "n": 657,
+    "pos": 657,
+    "p_range": [
+     0.9957,
+     0.9997
+    ],
+    "auc_class_in_bin": null,
+    "auc_p_in_bin": null
+   },
+   "q4": {
+    "n": 657,
+    "pos": 657,
+    "p_range": [
+     0.9997,
+     1.0
+    ],
+    "auc_class_in_bin": null,
+    "auc_p_in_bin": null
+   }
+  },
+  "US_rv_rank1_rate": {
+   "pos": 0.9425,
+   "neg": 0.8958
+  },
+  "India_class_recoverable_from_NUM27": {
+   "H_D1": {
+    "n": 44,
+    "frac_house_absdiff_eq": 0.3182,
+    "frac_lnum_absdiff_eq": 0.25
+   },
+   "H_D2": {
+    "n": 43,
+    "frac_house_absdiff_eq": 0.2558,
+    "frac_lnum_absdiff_eq": 0.3488
+   },
+   "H_D3_10_ODD": {
+    "n": 9,
+    "frac_house_absdiff_in_3_10": 0.1111,
+    "frac_parity_recoverable": 0.1111
+   },
+   "H_D3_10_EVEN": {
+    "n": 1,
+    "frac_house_absdiff_in_3_10": 0.0,
+    "frac_parity_recoverable": 0.0
+   },
+   "H_DIGSUB": {
+    "n": 65,
+    "frac_lnum_edit_eq1": 0.5692
+   },
+   "H_DIGINDEL": {
+    "n": 168,
+    "frac_lnum_edit_eq1": 0.7976
+   }
+  },
+  "India_within_class_auc": {
+   "p_new": 0.9989,
+   "p_base": 0.9989,
+   "house_agree": 0.5475,
+   "house_absdiff_log": 0.5612,
+   "lnum_absdiff_log": 0.266,
+   "lnum_edit": 0.1646,
+   "small_offset_same_len": 0.2905,
+   "lnum_pool_frac": 0.4852,
+   "num_jaccard": 0.8024,
+   "rl27_nf_n": 0.4968,
+   "rl27_nf_a": 0.4788,
+   "rl27_af_n": 0.4204,
+   "rl27_af_a": 0.5,
+   "rl27_coloc": 0.5024,
+   "rl27_dupf": 0.4952,
+   "rl27_rv_rank": 0.4154,
+   "rl27_rv_sa": 0.6896,
+   "rl27_rv_so": 0.3182,
+   "rl27_rv_gap": 0.6839,
+   "D_class_target_enc_INSAMPLE": 0.688
+  },
+  "India_class_auc_inside_p_quintiles": {
+   "q0": {
+    "n": 173,
+    "pos": 138,
+    "p_range": [
+     0.0011,
+     0.9978
+    ],
+    "auc_class_in_bin": 0.6278,
+    "auc_p_in_bin": 0.9936
+   },
+   "q1": {
+    "n": 172,
+    "pos": 172,
+    "p_range": [
+     0.9978,
+     0.9998
+    ],
+    "auc_class_in_bin": null,
+    "auc_p_in_bin": null
+   },
+   "q2": {
+    "n": 172,
+    "pos": 172,
+    "p_range": [
+     0.9998,
+     0.9999
+    ],
+    "auc_class_in_bin": null,
+    "auc_p_in_bin": null
+   },
+   "q3": {
+    "n": 172,
+    "pos": 172,
+    "p_range": [
+     0.9999,
+     0.9999
+    ],
+    "auc_class_in_bin": null,
+    "auc_p_in_bin": null
+   },
+   "q4": {
+    "n": 173,
+    "pos": 173,
+    "p_range": [
+     0.9999,
+     1.0
+    ],
+    "auc_class_in_bin": null,
+    "auc_p_in_bin": null
+   }
+  },
+  "India_rv_rank1_rate": {
+   "pos": 0.9674,
+   "neg": 0.8
+  }
+ },
+ "P3_V1_flagged_FPs": [
+  {
+   "country": "US",
+   "ht": "H_GT10_EVEN",
+   "p": 0.8434,
+   "s1": "Kemaix | 239 Cross Road, Unit 215, Dartmouth, MA",
+   "rec": "... Kemaix (Inc) | DARTMOUTH, MA, 25 CROSS ROAD"
+  },
+  {
+   "country": "US",
+   "ht": "H_D2",
+   "p": 0.9215,
+   "s1": "B G Covarrubias King Inc. | Carthage, NC, 139 Bessie Road",
+   "rec": "Inc. B G Covarrubias King | 141 Bessie Rd, <NULL>, Carthage, North Carolina"
+  },
+  {
+   "country": "US",
+   "ht": "H_GT10_ODD",
+   "p": 0.8541,
+   "s1": "Womens Health Group Inc | 5295 New Hope Church Road, Asheboro, NC",
+   "rec": "Womens  Health Group | 5308d New Hope Church Road, Asheboro, North Carolina"
+  },
+  {
+   "country": "US",
+   "ht": "H_DIGINDEL",
+   "p": 0.8287,
+   "s1": "Katee Bush, DDS, M.D., P.C. | 156 Promiseland Road, Canton, NC",
+   "rec": "Katee Bush, DDS, M.D., P.C. Corp | 15 PROMISELAND ROAD, CANTON, NC"
+  },
+  {
+   "country": "US",
+   "ht": "H_D1",
+   "p": 0.8128,
+   "s1": "Austin, Adina K., M.D. | 211 Holly Circle, Taos, NM",
+   "rec": "Austin, Adina K., M.D. Inc | ##212 HOLLY CIR, TAOS, NM"
+  },
+  {
+   "country": "US",
+   "ht": "H_DIGSUB",
+   "p": 0.9287,
+   "s1": "Dodyne Inc. | 2383 Mock Road, Mansfield, OH",
+   "rec": "Dodyne Inc. | 2387 MOCK ROAD, MANSFIELD, OH"
+  },
+  {
+   "country": "US",
+   "ht": "H_DIGINDEL",
+   "p": 0.8769,
+   "s1": "Audry Webb Tavia Company | 903 Rushcreek Road, Galloway, OH",
+   "rec": "Audry Webb Tavia LLC | 90 Rushcreek Road, Galloway, Ohio"
+  },
+  {
+   "country": "US",
+   "ht": "H_D1",
+   "p": 0.9282,
+   "s1": "Kasey Melo Defense Inc. | 1887 Pinewood Drive, Logan Township, PA",
+   "rec": "Kasey Melo Defense Inc | 1888 PINEWOOD DR, LOGAN TOWNSHIP, PA"
+  },
+  {
+   "country": "US",
+   "ht": "H_D2",
+   "p": 0.9358,
+   "s1": "All Commercial Holdings | 51 Newton Street, Lawrence, MA",
+   "rec": "All Commercial Holdings | 53 Newton Street, Lawrence, Massachusetts"
+  },
+  {
+   "country": "US",
+   "ht": "H_GT10_ODD",
+   "p": 0.9643,
+   "s1": "Turner and Edwards Inc. | 4916 Dallas Pike, Valley Grove, WV",
+   "rec": "Turner and Edwards Inc. | 04937 Dallas Pike, Triadelhia, West Virginia"
+  },
+  {
+   "country": "US",
+   "ht": "H_GT10_EVEN",
+   "p": 0.9153,
+   "s1": "Colonial Institute | 1307 80th Street, Lubbock, TX",
+   "rec": "Colonial  Institute | 2405 90th St, NULL, Lubbock, Texas"
+  },
+  {
+   "country": "US",
+   "ht": "H_D1",
+   "p": 0.9895,
+   "s1": "Value Apex Systems | Merced, CA, 646 Cartmell Drive",
+   "rec": "Value Apex Systems Corp | 647-B Cartmell Dr, California, Merced"
+  },
+  {
+   "country": "US",
+   "ht": "H_DIGSUB",
+   "p": 0.8776,
+   "s1": "Family Group of Norfolk City | 500 Culpepper Street, Norfolk City, VA",
+   "rec": "Family Group of Norfolk City | 504 Culpepper Street, Norfolk, Virginia"
+  },
+  {
+   "country": "US",
+   "ht": "H_DIGINDEL",
+   "p": 0.9441,
+   "s1": "Empire Society | 503 Davis Street, Luling, TX",
+   "rec": "Empire Society Co | 50 Davis St, Luling, Texas"
+  },
+  {
+   "country": "US",
+   "ht": "H_D2",
+   "p": 0.9885,
+   "s1": "Mcandrew, Vivianne, MD | 124 Prospect Road, Chesterfield, NY",
+   "rec": "Mcandrew, Vivianne, MD Co | #126 PROSPECT ROAD, KEESEVILLE, NY"
+  },
+  {
+   "country": "US",
+   "ht": "H_DIGINDEL",
+   "p": 0.909,
+   "s1": "Nanci Burkett Global Fresenius-Cleveland | 10608 Dove Avenue, Cleveland, OH",
+   "rec": "Nanci Burkett Global Fresenius-Cleveland Inc | 1060 DOVE AVENUE, CLEVELAND, OH"
+  },
+  {
+   "country": "US",
+   "ht": "H_D2",
+   "p": 0.9896,
+   "s1": "Toscano Blue Coffee L.L.C. | 212 Park Street, Unit Apt 3, Heber Springs, AR",
+   "rec": "Toscano Blue Coffee (L.L.C.) | 214- PARK ST, HEBER SPRINGS, AR"
+  },
+  {
+   "country": "US",
+   "ht": "H_GT10_EVEN",
+   "p": 0.8488,
+   "s1": "Beth Community Church | 129 Devine Street, Stanley, NC",
+   "rec": "Beth Community Church Co | 13 DEVINE STREET, STANLEY TOWNSHIP, NC"
+  },
+  {
+   "country": "India",
+   "ht": "H_D1",
+   "p": 0.8079,
+   "s1": "Gm Trust | 4 Debendra Lal Khan Road, Bl-Fe, 5Th Floor, Flat No -501, Kolkata, Kolkata, Kolkata, Howrah, West Bengal",
+   "rec": "Sri Gm  Trust LLP | Door No 5. Debendra Lal Khan Road, Kolkata, Howrah, WB"
+  },
+  {
+   "country": "India",
+   "ht": "H_DIGSUB",
+   "p": 0.8652,
+   "s1": "Orca Educational Society | Jg-Iii/9A, Ground Floor, Pocket-Jg Iii, Vikas Puri, New Delhi, West Delhi, Delhi",
+   "rec": "Orca Educational Society Limited | Delhi, JG-III/0A, GROUND FLOOR, POCKET-JG III, VIKAS PURI, NEW DELHI"
+  }
+ ],
+ "P3_V1_flagged_FNs_n": 101,
+ "P3_V1_flagged_FNs_sample": [
+  {
+   "country": "US",
+   "ht": "H_GT10_EVEN",
+   "p": 0.4266,
+   "s1": "Cherey's National Mortgage | 207 Mill Run Lane, St Peters, MO",
+   "rec": "Cherey's  National Mortgage Corp | 409 MILL RUN LN, ST PETERS, MO"
+  },
+  {
+   "country": "US",
+   "ht": "H_GT10_ODD",
+   "p": 0.0279,
+   "s1": "VER Kongsberg | 112 Exum Lane, Warrenton, NC",
+   "rec": "VER Kongsberg (Inc) | 125-A Exum Lane, Warrenton, PO Box 2068, North Carolina"
+  },
+  {
+   "country": "US",
+   "ht": "H_GT10_ODD",
+   "p": 0.2368,
+   "s1": "F 5 All Spire | 235 Pine Glen Road, Talladega, AL",
+   "rec": "F 5 All Spire Corp | 252 Pie Glen Road, Talladega, Alabama"
+  },
+  {
+   "country": "US",
+   "ht": "H_DIGSUB",
+   "p": 0.6928,
+   "s1": "Cascade Partners | San Bernardino, CA, 1650 Sierra Way",
+   "rec": "Cascade Partners-LLC | SAN BERNARDINO, CA, 5650 SIERRA WAY"
+  },
+  {
+   "country": "US",
+   "ht": "H_GT10_EVEN",
+   "p": 0.0333,
+   "s1": "Gulf Ministries P.C. | 1318 Knotty Pine Way, Unit 1211, Knoxville, TN",
+   "rec": "Gulf Ministries Inc | 1356 Knotty Pine Way, Knoxville, Tennessee"
+  },
+  {
+   "country": "US",
+   "ht": "H_DIGSUB",
+   "p": 0.7058,
+   "s1": "Foot & Ankle Physicians | 1360 Saint Paul Avenue, Gurnee, IL",
+   "rec": "Foot & Ankle Physicians Inc | 4360 SAINT PAUL AVENUE, IL, GURNEE"
+  },
+  {
+   "country": "US",
+   "ht": "H_GT10_EVEN",
+   "p": 0.1273,
+   "s1": "Innocent's Vision Center | 125 Assembly Drive, Unit 201, Mooresville, NC",
+   "rec": "Innocent's Vision Center LLC | 153A ASSEMBLY DR, MOORESVILLE, NC"
+  },
+  {
+   "country": "US",
+   "ht": "H_D2",
+   "p": 0.0194,
+   "s1": "Green Rapid Special | 110 Gloria Street, Brownsville, TX",
+   "rec": "Green Rapid Special Ltd | 112 Gloria St, Brrownsville Township, Texas"
+  },
+  {
+   "country": "US",
+   "ht": "H_DIGINDEL",
+   "p": 0.6325,
+   "s1": "Dental American Clinic | 2230 Oak Terrace, Worcester Township, PA",
+   "rec": "Dental American Cl\u00ednic Inc. | 223 Oak Terrace, Lansdale, Pennsylvania"
+  },
+  {
+   "country": "India",
+   "ht": "H_D1",
+   "p": 0.2532,
+   "s1": "Panchal Tobaccos Partners | 3A (Old No:29) 45Th Street, Nanganallur, Chennai, Tamil Nadu",
+   "rec": "Panchal Tobaccos  Partners Corp | 4A (Old No:29) 45Th Street, Chennai, Nanganallur, \u0ba4\u0bae\u0bbf\u0bb4\u0bcd\u0ba8\u0bbe\u0b9f\u0bc1"
+  },
+  {
+   "country": "US",
+   "ht": "H_GT10_EVEN",
+   "p": 0.1983,
+   "s1": "Mick Municipals Inc. | 5143 Prairie Clover Trail, Tucson, AZ",
+   "rec": "Mick Municipals Inc | 539 Prairie Clover Trl, Tucson, Arizona"
+  },
+  {
+   "country": "US",
+   "ht": "H_D1",
+   "p": 0.0262,
+   "s1": "Cypress | 417 Locust Street, Delavan, IL",
+   "rec": "Cypress Inc | 418 LOCUST STREET, DELAVAN, IL"
+  }
+ ],
+ "P3_D_examples_status": [
+  {
+   "s1": "Urbina Fitness | 2380 Sand Hill Road, Ellicott City, MD",
+   "rec": "Urbina Fitness | 2685 SAND HILL RD, ELLICOTT CITY, MD",
+   "y": 1,
+   "p_new": 0.999,
+   "accepted": true,
+   "ht": "H_GT10_ODD"
+  },
+  {
+   "s1": "Urbina Fitness | 2380 Sand Hill Road, Ellicott City, MD",
+   "rec": "Urbina Fitness Corp | 2382. SAND HILL RD, ELLICOT CITY, MD",
+   "y": 0,
+   "p_new": 0.0151,
+   "accepted": false,
+   "ht": "H_D2"
+  },
+  {
+   "s1": "Urbina Fitness | 2380 Sand Hill Road, Ellicott City, MD",
+   "rec": "Urbina Fitness | 2685 Sand Hill Road, Ellicott City, Maryland",
+   "y": 1,
+   "p_new": 0.9991,
+   "accepted": true,
+   "ht": "H_GT10_ODD"
+  },
+  {
+   "s1": "Busch Energy | 1776 Garland Drive, Garland, TN",
+   "rec": "Busch Energy Ltd | Tennessee, Covington, 1785 Garland Dr",
+   "y": 0,
+   "p_new": 0.0178,
+   "accepted": false,
+   "ht": "H_D3_10_ODD"
+  }
+ ],
+ "P4_shape_test": {
+  "test_France": {
+   "H_D1": {
+    "n_groups": 997,
+    "f_p1": 0.35,
+    "se": 0.19,
+    "n_pairs": 1042,
+    "mean_p": 0.934,
+    "frac_p_lt_0_9": 0.2582
+   },
+   "H_D2": {
+    "n_groups": 1082,
+    "f_p1": 0.53,
+    "se": 0.17,
+    "n_pairs": 1125,
+    "mean_p": 0.9336,
+    "frac_p_lt_0_9": 0.2542
+   },
+   "H_D3_10_ODD": {
+    "n_groups": 1265,
+    "f_p1": 0.41,
+    "se": 0.16,
+    "n_pairs": 1291,
+    "mean_p": 0.9022,
+    "frac_p_lt_0_9": 0.4632
+   },
+   "H_D3_10_EVEN": {
+    "n_groups": 351,
+    "f_p1": 0.32,
+    "se": 0.31,
+    "n_pairs": 375,
+    "mean_p": 0.9231,
+    "frac_p_lt_0_9": 0.3467
+   },
+   "H_DIGSUB": {
+    "n_groups": 2065,
+    "f_p1": 0.07,
+    "se": 0.13,
+    "n_pairs": 2256,
+    "mean_p": 0.9309,
+    "frac_p_lt_0_9": 0.3032
+   },
+   "H_GT10_ODD": {
+    "n_groups": 3642,
+    "f_p1": -0.22,
+    "se": 0.1,
+    "n_pairs": 4067,
+    "mean_p": 0.948,
+    "frac_p_lt_0_9": 0.2206
+   },
+   "H_GT10_EVEN": {
+    "n_groups": 1942,
+    "f_p1": -0.87,
+    "se": 0.15,
+    "n_pairs": 2258,
+    "mean_p": 0.9763,
+    "frac_p_lt_0_9": 0.0638
+   },
+   "H_DIGINDEL": {
+    "n_groups": 741,
+    "f_p1": -0.22,
+    "se": 0.23,
+    "n_pairs": 865,
+    "mean_p": 0.9786,
+    "frac_p_lt_0_9": 0.0855
+   },
+   "H_PERM": {
+    "n_groups": 44,
+    "f_p1": 1.47,
+    "se": 0.71,
+    "n_pairs": 46,
+    "mean_p": 0.913,
+    "frac_p_lt_0_9": 0.413
+   },
+   "RULE3": {
+    "n_groups": 3342,
+    "f_p1": 0.43,
+    "se": 0.1,
+    "n_pairs": 3458,
+    "mean_p": 0.922,
+    "frac_p_lt_0_9": 0.3334
+   },
+   "_rate_flagged_of_final": 0.0156,
+   "_rate_rule3_of_final": 0.00405
+  },
+  "test_US": {
+   "H_D1": {
+    "n_groups": 723,
+    "f_p1": -0.68,
+    "se": 0.23,
+    "n_pairs": 751,
+    "mean_p": 0.9779,
+    "frac_p_lt_0_9": 0.0719
+   },
+   "H_D2": {
+    "n_groups": 679,
+    "f_p1": -0.6,
+    "se": 0.24,
+    "n_pairs": 705,
+    "mean_p": 0.979,
+    "frac_p_lt_0_9": 0.061
+   },
+   "H_D3_10_ODD": {
+    "n_groups": 121,
+    "f_p1": -1.2,
+    "se": 0.59,
+    "n_pairs": 122,
+    "mean_p": 0.9621,
+    "frac_p_lt_0_9": 0.123
+   },
+   "H_D3_10_EVEN": {
+    "n_groups": 65,
+    "f_p1": -1.24,
+    "se": 0.81,
+    "n_pairs": 66,
+    "mean_p": 0.9658,
+    "frac_p_lt_0_9": 0.1061
+   },
+   "H_DIGSUB": {
+    "n_groups": 1225,
+    "f_p1": -0.27,
+    "se": 0.17,
+    "n_pairs": 1268,
+    "mean_p": 0.9892,
+    "frac_p_lt_0_9": 0.0315
+   },
+   "H_GT10_ODD": {
+    "n_groups": 1598,
+    "f_p1": -0.19,
+    "se": 0.15,
+    "n_pairs": 1626,
+    "mean_p": 0.9864,
+    "frac_p_lt_0_9": 0.0517
+   },
+   "H_GT10_EVEN": {
+    "n_groups": 2100,
+    "f_p1": -0.22,
+    "se": 0.13,
+    "n_pairs": 2157,
+    "mean_p": 0.9921,
+    "frac_p_lt_0_9": 0.0241
+   },
+   "H_DIGINDEL": {
+    "n_groups": 6092,
+    "f_p1": -0.38,
+    "se": 0.08,
+    "n_pairs": 6362,
+    "mean_p": 0.9924,
+    "frac_p_lt_0_9": 0.0267
+   },
+   "RULE3": {
+    "n_groups": 1523,
+    "f_p1": -0.69,
+    "se": 0.16,
+    "n_pairs": 1578,
+    "mean_p": 0.9772,
+    "frac_p_lt_0_9": 0.071
+   },
+   "_rate_flagged_of_final": 0.04359,
+   "_rate_rule3_of_final": 0.00526
+  },
+  "test_India": {
+   "H_D1": {
+    "n_groups": 493,
+    "f_p1": -0.41,
+    "se": 0.27,
+    "n_pairs": 512,
+    "mean_p": 0.987,
+    "frac_p_lt_0_9": 0.0293
+   },
+   "H_D2": {
+    "n_groups": 468,
+    "f_p1": -0.14,
+    "se": 0.27,
+    "n_pairs": 486,
+    "mean_p": 0.9878,
+    "frac_p_lt_0_9": 0.0247
+   },
+   "H_D3_10_ODD": {
+    "n_groups": 88,
+    "f_p1": 0.02,
+    "se": 0.61,
+    "n_pairs": 90,
+    "mean_p": 0.9917,
+    "frac_p_lt_0_9": 0.0333
+   },
+   "H_D3_10_EVEN": {
+    "n_groups": 63,
+    "f_p1": 0.89,
+    "se": 0.62,
+    "n_pairs": 66,
+    "mean_p": 0.9941,
+    "frac_p_lt_0_9": 0.0152
+   },
+   "H_DIGSUB": {
+    "n_groups": 704,
+    "f_p1": -0.24,
+    "se": 0.22,
+    "n_pairs": 725,
+    "mean_p": 0.992,
+    "frac_p_lt_0_9": 0.0221
+   },
+   "H_GT10_ODD": {
+    "n_groups": 2786,
+    "f_p1": 0.04,
+    "se": 0.11,
+    "n_pairs": 2900,
+    "mean_p": 0.9983,
+    "frac_p_lt_0_9": 0.0034
+   },
+   "H_GT10_EVEN": {
+    "n_groups": 2835,
+    "f_p1": 0.05,
+    "se": 0.11,
+    "n_pairs": 2962,
+    "mean_p": 0.9984,
+    "frac_p_lt_0_9": 0.0037
+   },
+   "H_DIGINDEL": {
+    "n_groups": 1591,
+    "f_p1": -0.14,
+    "se": 0.15,
+    "n_pairs": 1653,
+    "mean_p": 0.9962,
+    "frac_p_lt_0_9": 0.0073
+   },
+   "RULE3": {
+    "n_groups": 1049,
+    "f_p1": -0.25,
+    "se": 0.18,
+    "n_pairs": 1088,
+    "mean_p": 0.9878,
+    "frac_p_lt_0_9": 0.0276
+   },
+   "_rate_flagged_of_final": 0.03139,
+   "_rate_rule3_of_final": 0.00363
+  },
+  "V1_US_accepted": {
+   "H_D1": {
+    "n_groups": 69,
+    "f_p1": -2.49,
+    "se": 0.8,
+    "n_pairs": 87,
+    "TRUE_FP_frac": 0.0345
+   },
+   "H_D2": {
+    "n_groups": 61,
+    "f_p1": -2.74,
+    "se": 0.86,
+    "n_pairs": 79,
+    "TRUE_FP_frac": 0.0506
+   },
+   "H_DIGSUB": {
+    "n_groups": 110,
+    "f_p1": -1.49,
+    "se": 0.6,
+    "n_pairs": 164,
+    "TRUE_FP_frac": 0.0122
+   },
+   "H_GT10_ODD": {
+    "n_groups": 192,
+    "f_p1": -0.99,
+    "se": 0.44,
+    "n_pairs": 211,
+    "TRUE_FP_frac": 0.0095
+   },
+   "H_GT10_EVEN": {
+    "n_groups": 246,
+    "f_p1": -0.92,
+    "se": 0.39,
+    "n_pairs": 285,
+    "TRUE_FP_frac": 0.0105
+   },
+   "H_DIGINDEL": {
+    "n_groups": 578,
+    "f_p1": -1.23,
+    "se": 0.26,
+    "n_pairs": 815,
+    "TRUE_FP_frac": 0.0049
+   },
+   "RULE3": {
+    "n_groups": 140,
+    "f_p1": -2.51,
+    "se": 0.56,
+    "n_pairs": 177,
+    "TRUE_FP_frac": 0.0395
+   },
+   "ALLFLAG": {
+    "n_groups": 1260,
+    "f_p1": -1.32,
+    "se": 0.18,
+    "n_pairs": 1662,
+    "TRUE_FP_frac": 0.0108
+   },
+   "_control_all_TP": {
+    "n_groups": 20806,
+    "f_p1": -2.66,
+    "se": 0.05
+   },
+   "_control_all_FP": {
+    "n_groups": 89,
+    "f_p1": 0.7,
+    "se": 0.53,
+    "n_pairs": 91
+   }
+  },
+  "V1_India_accepted": {
+   "H_D1": {
+    "n_groups": 27,
+    "f_p1": -0.76,
+    "se": 1.17,
+    "n_pairs": 40,
+    "TRUE_FP_frac": 0.025
+   },
+   "H_D2": {
+    "n_groups": 27,
+    "f_p1": -1.78,
+    "se": 1.25,
+    "n_pairs": 37,
+    "TRUE_FP_frac": 0.0
+   },
+   "H_DIGSUB": {
+    "n_groups": 47,
+    "f_p1": -1.0,
+    "se": 0.9,
+    "n_pairs": 59,
+    "TRUE_FP_frac": 0.0169
+   },
+   "H_GT10_ODD": {
+    "n_groups": 192,
+    "f_p1": -0.99,
+    "se": 0.45,
+    "n_pairs": 257,
+    "TRUE_FP_frac": 0.0
+   },
+   "H_GT10_EVEN": {
+    "n_groups": 182,
+    "f_p1": -0.9,
+    "se": 0.45,
+    "n_pairs": 257,
+    "TRUE_FP_frac": 0.0
+   },
+   "H_DIGINDEL": {
+    "n_groups": 110,
+    "f_p1": -1.2,
+    "se": 0.6,
+    "n_pairs": 166,
+    "TRUE_FP_frac": 0.0
+   },
+   "RULE3": {
+    "n_groups": 58,
+    "f_p1": -1.47,
+    "se": 0.84,
+    "n_pairs": 82,
+    "TRUE_FP_frac": 0.0122
+   },
+   "ALLFLAG": {
+    "n_groups": 590,
+    "f_p1": -1.09,
+    "se": 0.26,
+    "n_pairs": 823,
+    "TRUE_FP_frac": 0.0024
+   },
+   "_control_all_TP": {
+    "n_groups": 13804,
+    "f_p1": -2.68,
+    "se": 0.06
+   },
+   "_control_all_FP": {
+    "n_groups": 73,
+    "f_p1": -0.58,
+    "se": 0.7,
+    "n_pairs": 76
+   }
+  }
+ },
+ "P5_V0_class_table": {
+  "US|H_D1": {
+   "n_hard": 23,
+   "n_pos": 9,
+   "P_match": 0.3913,
+   "n_acc": 6,
+   "FP": 0,
+   "FN": 3
+  },
+  "US|H_D2": {
+   "n_hard": 30,
+   "n_pos": 15,
+   "P_match": 0.5,
+   "n_acc": 13,
+   "FP": 1,
+   "FN": 3
+  },
+  "US|H_D3_10_EVEN": {
+   "n_hard": 10,
+   "n_pos": 2,
+   "P_match": 0.2,
+   "n_acc": 1,
+   "FP": 0,
+   "FN": 1
+  },
+  "US|H_D3_10_ODD": {
+   "n_hard": 26,
+   "n_pos": 2,
+   "P_match": 0.0769,
+   "n_acc": 3,
+   "FP": 1,
+   "FN": 0
+  },
+  "US|H_DIGINDEL": {
+   "n_hard": 64,
+   "n_pos": 63,
+   "P_match": 0.9844,
+   "n_acc": 61,
+   "FP": 1,
+   "FN": 3
+  },
+  "US|H_DIGSUB": {
+   "n_hard": 52,
+   "n_pos": 11,
+   "P_match": 0.2115,
+   "n_acc": 11,
+   "FP": 0,
+   "FN": 0
+  },
+  "US|H_GT10_EVEN": {
+   "n_hard": 34,
+   "n_pos": 30,
+   "P_match": 0.8824,
+   "n_acc": 29,
+   "FP": 0,
+   "FN": 1
+  },
+  "US|H_GT10_ODD": {
+   "n_hard": 70,
+   "n_pos": 30,
+   "P_match": 0.4286,
+   "n_acc": 27,
+   "FP": 0,
+   "FN": 3
+  },
+  "US|H_PERM": {
+   "n_hard": 2,
+   "n_pos": 0,
+   "P_match": 0.0,
+   "n_acc": 0,
+   "FP": 0,
+   "FN": 0
+  },
+  "US|ALL": {
+   "n_hard": 311,
+   "n_pos": 162,
+   "P_match": 0.5209,
+   "n_acc": 151,
+   "FP": 3,
+   "FN": 14
+  },
+  "US|RULE3": {
+   "n_hard": 79,
+   "n_pos": 26,
+   "P_match": 0.3291,
+   "n_acc": 22,
+   "FP": 2,
+   "FN": 6
+  },
+  "India|H_D1": {
+   "n_hard": 8,
+   "n_pos": 6,
+   "P_match": 0.75,
+   "n_acc": 6,
+   "FP": 0,
+   "FN": 0
+  },
+  "India|H_D2": {
+   "n_hard": 9,
+   "n_pos": 8,
+   "P_match": 0.8889,
+   "n_acc": 7,
+   "FP": 0,
+   "FN": 1
+  },
+  "India|H_D3_10_EVEN": {
+   "n_hard": 1,
+   "n_pos": 1,
+   "P_match": 1.0,
+   "n_acc": 1,
+   "FP": 0,
+   "FN": 0
+  },
+  "India|H_D3_10_ODD": {
+   "n_hard": 2,
+   "n_pos": 0,
+   "P_match": 0.0,
+   "n_acc": 0,
+   "FP": 0,
+   "FN": 0
+  },
+  "India|H_DIGINDEL": {
+   "n_hard": 14,
+   "n_pos": 14,
+   "P_match": 1.0,
+   "n_acc": 14,
+   "FP": 0,
+   "FN": 0
+  },
+  "India|H_DIGSUB": {
+   "n_hard": 11,
+   "n_pos": 8,
+   "P_match": 0.7273,
+   "n_acc": 8,
+   "FP": 0,
+   "FN": 0
+  },
+  "India|H_GT10_EVEN": {
+   "n_hard": 22,
+   "n_pos": 21,
+   "P_match": 0.9545,
+   "n_acc": 21,
+   "FP": 0,
+   "FN": 0
+  },
+  "India|H_GT10_ODD": {
+   "n_hard": 17,
+   "n_pos": 17,
+   "P_match": 1.0,
+   "n_acc": 17,
+   "FP": 0,
+   "FN": 0
+  },
+  "India|ALL": {
+   "n_hard": 84,
+   "n_pos": 75,
+   "P_match": 0.8929,
+   "n_acc": 74,
+   "FP": 0,
+   "FN": 1
+  },
+  "India|RULE3": {
+   "n_hard": 19,
+   "n_pos": 14,
+   "P_match": 0.7368,
+   "n_acc": 13,
+   "FP": 0,
+   "FN": 1
+  }
+ },
+ "P5_V0_oracle_all_flagged_pp": 0.0973,
+ "P5_V0_rule_drop_rule3_pp": -0.1667,
+ "P6_France_rule3_bound": {
+  "n_pairs": 3458,
+  "n_s1": 3243,
+  "gain_if_all_decoy_France_pts": 0.359,
+  "loss_if_all_true_France_pts": 0.169,
+  "breakeven_decoy_frac": 0.32,
+  "net_France_pts_f=0.0": -0.169,
+  "net_France_pts_f=0.05": -0.143,
+  "net_France_pts_f=0.2": -0.063,
+  "net_France_pts_f=0.35": 0.016,
+  "net_France_pts_f=0.5": 0.095,
+  "p_quantiles": {
+   "0.1": 0.8273,
+   "0.25": 0.877,
+   "0.5": 0.9369,
+   "0.75": 0.9748,
+   "0.9": 0.9924
+  }
+ }
+}

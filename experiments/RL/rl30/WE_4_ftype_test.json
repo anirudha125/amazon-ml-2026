@@ -1,0 +1,563 @@
+{
+ "split": "test",
+ "pop_type": {
+  "India": {
+   "F": {
+    "legal": {
+     "na": 96153,
+     "n": 96153,
+     "share": 0.4414
+    },
+    "typo": {
+     "na": 50611,
+     "n": 50611,
+     "share": 0.2323
+    },
+    "del_real": {
+     "na": 25199,
+     "n": 25199,
+     "share": 0.1157
+    },
+    "sub_real": {
+     "na": 45891,
+     "n": 45891,
+     "share": 0.2107
+    }
+   },
+   "M": {
+    "typo": {
+     "na": 28076,
+     "n": 28076,
+     "share": 0.2312
+    },
+    "legal": {
+     "na": 50758,
+     "n": 50758,
+     "share": 0.418
+    },
+    "del_real": {
+     "na": 11419,
+     "n": 11419,
+     "share": 0.094
+    },
+    "sub_real": {
+     "na": 31169,
+     "n": 31169,
+     "share": 0.2567
+    }
+   }
+  },
+  "US": {
+   "F": {
+    "del_real": {
+     "na": 71363,
+     "n": 71363,
+     "share": 0.1385
+    },
+    "legal": {
+     "na": 202753,
+     "n": 202753,
+     "share": 0.3934
+    },
+    "typo": {
+     "na": 162391,
+     "n": 162391,
+     "share": 0.3151
+    },
+    "sub_real": {
+     "na": 78906,
+     "n": 78906,
+     "share": 0.1531
+    }
+   },
+   "M": {
+    "legal": {
+     "na": 22772,
+     "n": 22772,
+     "share": 0.3969
+    },
+    "typo": {
+     "na": 17682,
+     "n": 17682,
+     "share": 0.3082
+    },
+    "sub_real": {
+     "na": 8740,
+     "n": 8740,
+     "share": 0.1523
+    },
+    "del_real": {
+     "na": 8183,
+     "n": 8183,
+     "share": 0.1426
+    }
+   }
+  },
+  "France": {
+   "F": {
+    "typo": {
+     "na": 21640,
+     "n": 21640,
+     "share": 0.1483
+    },
+    "sub_real": {
+     "na": 41760,
+     "n": 41760,
+     "share": 0.2862
+    },
+    "del_real": {
+     "na": 9981,
+     "n": 9981,
+     "share": 0.0684
+    },
+    "legal": {
+     "na": 72535,
+     "n": 72535,
+     "share": 0.4971
+    }
+   },
+   "M": {
+    "del_real": {
+     "na": 4168,
+     "n": 4168,
+     "share": 0.0654
+    },
+    "sub_real": {
+     "na": 20730,
+     "n": 20730,
+     "share": 0.3251
+    },
+    "legal": {
+     "na": 29299,
+     "n": 29299,
+     "share": 0.4595
+    },
+    "typo": {
+     "na": 9559,
+     "n": 9559,
+     "share": 0.1499
+    }
+   }
+  }
+ },
+ "token_type": {
+  "India": {
+   "limited": {
+    "legal": {
+     "na": 60220
+    },
+    "sub_real": {
+     "na": 2745
+    },
+    "typo": {
+     "na": 1417
+    }
+   },
+   "ltd": {
+    "legal": {
+     "na": 39066
+    },
+    "typo": {
+     "na": 426
+    },
+    "sub_real": {
+     "na": 887
+    }
+   },
+   "tech": {
+    "sub_real": {
+     "na": 363
+    },
+    "typo": {
+     "na": 148
+    },
+    "del_real": {
+     "na": 43
+    }
+   },
+   "services": {
+    "sub_real": {
+     "na": 8957
+    },
+    "typo": {
+     "na": 889
+    },
+    "del_real": {
+     "na": 405
+    }
+   },
+   "centre": {
+    "sub_real": {
+     "na": 145
+    },
+    "typo": {
+     "na": 96
+    },
+    "del_real": {
+     "na": 65
+    }
+   },
+   "the": {
+    "typo": {
+     "na": 489
+    }
+   },
+   "global": {
+    "del_real": {
+     "na": 35
+    },
+    "typo": {
+     "na": 225
+    },
+    "sub_real": {
+     "na": 357
+    }
+   },
+   "club": {
+    "typo": {
+     "na": 10
+    },
+    "sub_real": {
+     "na": 15
+    }
+   },
+   "sas": {
+    "typo": {
+     "na": 2
+    },
+    "sub_real": {
+     "na": 1
+    }
+   },
+   "dental": {
+    "sub_real": {
+     "na": 6
+    },
+    "typo": {
+     "na": 3
+    }
+   },
+   "family": {
+    "sub_real": {
+     "na": 3
+    }
+   },
+   "union": {
+    "typo": {
+     "na": 1
+    }
+   }
+  },
+  "US": {
+   "llc": {
+    "legal": {
+     "na": 68228
+    },
+    "typo": {
+     "na": 1116
+    },
+    "sub_real": {
+     "na": 1895
+    }
+   },
+   "ltd": {
+    "legal": {
+     "na": 11639
+    },
+    "typo": {
+     "na": 13
+    },
+    "sub_real": {
+     "na": 6
+    }
+   },
+   "inc": {
+    "legal": {
+     "na": 60634
+    },
+    "typo": {
+     "na": 11702
+    },
+    "sub_real": {
+     "na": 1771
+    }
+   },
+   "services": {
+    "sub_real": {
+     "na": 20623
+    },
+    "del_real": {
+     "na": 3615
+    },
+    "typo": {
+     "na": 491
+    }
+   },
+   "the": {
+    "del_real": {
+     "na": 14593
+    },
+    "sub_real": {
+     "na": 60
+    }
+   },
+   "global": {
+    "sub_real": {
+     "na": 294
+    },
+    "typo": {
+     "na": 583
+    },
+    "del_real": {
+     "na": 96
+    }
+   },
+   "family": {
+    "typo": {
+     "na": 445
+    },
+    "sub_real": {
+     "na": 152
+    },
+    "del_real": {
+     "na": 3
+    }
+   },
+   "centre": {
+    "typo": {
+     "na": 326
+    }
+   },
+   "dental": {
+    "sub_real": {
+     "na": 207
+    },
+    "typo": {
+     "na": 511
+    },
+    "del_real": {
+     "na": 32
+    }
+   },
+   "union": {
+    "sub_real": {
+     "na": 177
+    },
+    "typo": {
+     "na": 310
+    },
+    "del_real": {
+     "na": 109
+    }
+   },
+   "tech": {
+    "sub_real": {
+     "na": 33
+    },
+    "del_real": {
+     "na": 18
+    },
+    "typo": {
+     "na": 13
+    }
+   },
+   "limited": {
+    "legal": {
+     "na": 126
+    },
+    "typo": {
+     "na": 7
+    },
+    "sub_real": {
+     "na": 1
+    }
+   },
+   "lille": {
+    "typo": {
+     "na": 1
+    }
+   },
+   "sas": {
+    "typo": {
+     "na": 1
+    }
+   }
+  },
+  "France": {
+   "amicale": {
+    "sub_real": {
+     "na": 3138
+    },
+    "typo": {
+     "na": 732
+    },
+    "del_real": {
+     "na": 58
+    }
+   },
+   "comite": {
+    "sub_real": {
+     "na": 2980
+    },
+    "typo": {
+     "na": 697
+    },
+    "del_real": {
+     "na": 69
+    }
+   },
+   "sas": {
+    "legal": {
+     "na": 18265
+    },
+    "sub_real": {
+     "na": 10
+    },
+    "typo": {
+     "na": 149
+    }
+   },
+   "sarl": {
+    "legal": {
+     "na": 23588
+    },
+    "typo": {
+     "na": 223
+    },
+    "sub_real": {
+     "na": 13
+    }
+   },
+   "club": {
+    "sub_real": {
+     "na": 5774
+    },
+    "typo": {
+     "na": 1157
+    },
+    "del_real": {
+     "na": 89
+    }
+   },
+   "union": {
+    "typo": {
+     "na": 380
+    },
+    "del_real": {
+     "na": 27
+    },
+    "sub_real": {
+     "na": 1551
+    }
+   },
+   "sportive": {
+    "sub_real": {
+     "na": 2301
+    },
+    "typo": {
+     "na": 567
+    },
+    "del_real": {
+     "na": 45
+    }
+   },
+   "ecole": {
+    "sub_real": {
+     "na": 3307
+    },
+    "typo": {
+     "na": 734
+    },
+    "del_real": {
+     "na": 45
+    }
+   },
+   "amis": {
+    "sub_real": {
+     "na": 2171
+    },
+    "typo": {
+     "na": 310
+    },
+    "del_real": {
+     "na": 39
+    }
+   },
+   "centre": {
+    "sub_real": {
+     "na": 1820
+    },
+    "typo": {
+     "na": 327
+    },
+    "del_real": {
+     "na": 26
+    }
+   },
+   "services": {
+    "sub_real": {
+     "na": 3421
+    },
+    "del_real": {
+     "na": 867
+    },
+    "typo": {
+     "na": 131
+    }
+   },
+   "nantes": {
+    "typo": {
+     "na": 16
+    },
+    "del_real": {
+     "na": 7
+    }
+   },
+   "tech": {
+    "typo": {
+     "na": 14
+    },
+    "sub_real": {
+     "na": 37
+    }
+   },
+   "lille": {
+    "typo": {
+     "na": 22
+    },
+    "del_real": {
+     "na": 8
+    },
+    "sub_real": {
+     "na": 2
+    }
+   },
+   "bordeaux": {
+    "sub_real": {
+     "na": 5
+    },
+    "typo": {
+     "na": 30
+    },
+    "del_real": {
+     "na": 7
+    }
+   },
+   "the": {
+    "sub_real": {
+     "na": 2
+    }
+   },
+   "family": {
+    "typo": {
+     "na": 2
+    }
+   },
+   "global": {
+    "typo": {
+     "na": 1
+    }
+   }
+  }
+ }
+}

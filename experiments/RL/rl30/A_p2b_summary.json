@@ -1,0 +1,554 @@
+{
+ "France_HI": {
+  "n_street": 595690,
+  "coloc_owner_street": 42,
+  "has_coloc_street": 83097,
+  "one_sub_street": 38413,
+  "core_sub_street": 40245,
+  "core_sub_coloc_owner_street": 0,
+  "coloc_owner_given_has_coloc_street": 42,
+  "n_nostreet": 155213,
+  "coloc_owner_nostreet": 11,
+  "has_coloc_nostreet": 22396,
+  "one_sub_nostreet": 8393,
+  "core_sub_nostreet": 8729,
+  "core_sub_coloc_owner_nostreet": 1,
+  "coloc_owner_given_has_coloc_nostreet": 11,
+  "top_subst_in": [
+   [
+    "services",
+    4509
+   ],
+   [
+    "cie",
+    3971
+   ],
+   [
+    "com",
+    2196
+   ],
+   [
+    "fils",
+    1267
+   ],
+   [
+    "associes",
+    1158
+   ],
+   [
+    "compagnie",
+    858
+   ],
+   [
+    "comite",
+    680
+   ],
+   [
+    "frs",
+    588
+   ],
+   [
+    "centre",
+    435
+   ],
+   [
+    "societe",
+    412
+   ],
+   [
+    "amis",
+    398
+   ],
+   [
+    "st",
+    379
+   ],
+   [
+    "club",
+    333
+   ],
+   [
+    "service",
+    314
+   ],
+   [
+    "fetes",
+    281
+   ]
+  ]
+ },
+ "France_LO": {
+  "n_street": 49677,
+  "coloc_owner_street": 11,
+  "has_coloc_street": 5936,
+  "one_sub_street": 16197,
+  "core_sub_street": 17423,
+  "core_sub_coloc_owner_street": 3,
+  "coloc_owner_given_has_coloc_street": 11,
+  "n_nostreet": 37601,
+  "coloc_owner_nostreet": 16,
+  "has_coloc_nostreet": 5483,
+  "one_sub_nostreet": 7483,
+  "core_sub_nostreet": 6316,
+  "core_sub_coloc_owner_nostreet": 3,
+  "coloc_owner_given_has_coloc_nostreet": 16,
+  "top_subst_in": [
+   [
+    "associes",
+    2364
+   ],
+   [
+    "fils",
+    1891
+   ],
+   [
+    "france",
+    1226
+   ],
+   [
+    "club",
+    1200
+   ],
+   [
+    "developpement",
+    1082
+   ],
+   [
+    "cie",
+    888
+   ],
+   [
+    "comite",
+    760
+   ],
+   [
+    "amicale",
+    722
+   ],
+   [
+    "amis",
+    543
+   ],
+   [
+    "centre",
+    460
+   ],
+   [
+    "ecole",
+    413
+   ],
+   [
+    "parents",
+    358
+   ],
+   [
+    "compagnie",
+    354
+   ],
+   [
+    "fetes",
+    287
+   ],
+   [
+    "com",
+    277
+   ]
+  ]
+ },
+ "US_HI": {
+  "n_street": 525981,
+  "coloc_owner_street": 0,
+  "has_coloc_street": 27612,
+  "one_sub_street": 82370,
+  "core_sub_street": 72916,
+  "core_sub_coloc_owner_street": 0,
+  "coloc_owner_given_has_coloc_street": 0,
+  "n_nostreet": 238190,
+  "coloc_owner_nostreet": 1,
+  "has_coloc_nostreet": 12524,
+  "one_sub_nostreet": 36191,
+  "core_sub_nostreet": 32146,
+  "core_sub_coloc_owner_nostreet": 0,
+  "coloc_owner_given_has_coloc_nostreet": 1,
+  "top_subst_in": [
+   [
+    "center",
+    13157
+   ],
+   [
+    "services",
+    9643
+   ],
+   [
+    "service",
+    4575
+   ],
+   [
+    "partners",
+    3179
+   ],
+   [
+    "com",
+    1256
+   ],
+   [
+    "and",
+    184
+   ],
+   [
+    "centre",
+    153
+   ],
+   [
+    "ce",
+    143
+   ],
+   [
+    "5ervices",
+    108
+   ],
+   [
+    "5ervice",
+    48
+   ],
+   [
+    "1st",
+    40
+   ],
+   [
+    "cr",
+    29
+   ],
+   [
+    "fd",
+    28
+   ],
+   [
+    "industry",
+    27
+   ],
+   [
+    "caer",
+    24
+   ]
+  ]
+ },
+ "US_LO": {
+  "n_nostreet": 26318,
+  "coloc_owner_nostreet": 0,
+  "has_coloc_nostreet": 1356,
+  "one_sub_nostreet": 6451,
+  "core_sub_nostreet": 5701,
+  "core_sub_coloc_owner_nostreet": 0,
+  "coloc_owner_given_has_coloc_nostreet": 0,
+  "n_street": 9428,
+  "coloc_owner_street": 0,
+  "has_coloc_street": 498,
+  "one_sub_street": 2857,
+  "core_sub_street": 2849,
+  "core_sub_coloc_owner_street": 0,
+  "coloc_owner_given_has_coloc_street": 0,
+  "top_subst_in": [
+   [
+    "partners",
+    237
+   ],
+   [
+    "center",
+    69
+   ],
+   [
+    "com",
+    65
+   ],
+   [
+    "services",
+    64
+   ],
+   [
+    "service",
+    34
+   ],
+   [
+    "ax",
+    9
+   ],
+   [
+    "8",
+    9
+   ],
+   [
+    "eastem",
+    8
+   ],
+   [
+    "a",
+    7
+   ],
+   [
+    "comer",
+    6
+   ],
+   [
+    "l",
+    6
+   ],
+   [
+    "westem",
+    6
+   ],
+   [
+    "nine",
+    6
+   ],
+   [
+    "d",
+    6
+   ],
+   [
+    "modem",
+    5
+   ]
+  ]
+ },
+ "India_HI": {
+  "n_nostreet": 507821,
+  "coloc_owner_nostreet": 0,
+  "has_coloc_nostreet": 30252,
+  "one_sub_nostreet": 102306,
+  "core_sub_nostreet": 52821,
+  "core_sub_coloc_owner_nostreet": 0,
+  "coloc_owner_given_has_coloc_nostreet": 0,
+  "n_street": 247876,
+  "coloc_owner_street": 0,
+  "has_coloc_street": 14726,
+  "one_sub_street": 49828,
+  "core_sub_street": 26305,
+  "core_sub_coloc_owner_street": 0,
+  "coloc_owner_given_has_coloc_street": 0,
+  "top_subst_in": [
+   [
+    "center",
+    5412
+   ],
+   [
+    "services",
+    3821
+   ],
+   [
+    "service",
+    1887
+   ],
+   [
+    "partners",
+    1491
+   ],
+   [
+    "com",
+    1099
+   ],
+   [
+    "5ervices",
+    61
+   ],
+   [
+    "industry",
+    51
+   ],
+   [
+    "ss",
+    29
+   ],
+   [
+    "5ervice",
+    22
+   ],
+   [
+    "and",
+    20
+   ],
+   [
+    "ce",
+    17
+   ],
+   [
+    "th",
+    13
+   ],
+   [
+    "centre",
+    11
+   ],
+   [
+    "ia",
+    11
+   ],
+   [
+    "fd",
+    11
+   ]
+  ]
+ },
+ "India_LO": {
+  "n_nostreet": 39227,
+  "coloc_owner_nostreet": 0,
+  "has_coloc_nostreet": 2484,
+  "one_sub_nostreet": 10189,
+  "core_sub_nostreet": 7160,
+  "core_sub_coloc_owner_nostreet": 0,
+  "coloc_owner_given_has_coloc_nostreet": 0,
+  "n_street": 4581,
+  "coloc_owner_street": 0,
+  "has_coloc_street": 350,
+  "one_sub_street": 1227,
+  "core_sub_street": 1202,
+  "core_sub_coloc_owner_street": 0,
+  "coloc_owner_given_has_coloc_street": 0,
+  "top_subst_in": [
+   [
+    "services",
+    148
+   ],
+   [
+    "center",
+    141
+   ],
+   [
+    "partners",
+    97
+   ],
+   [
+    "service",
+    57
+   ],
+   [
+    "com",
+    49
+   ],
+   [
+    "1",
+    4
+   ],
+   [
+    "ina",
+    3
+   ],
+   [
+    "modem",
+    3
+   ],
+   [
+    "5ervices",
+    3
+   ],
+   [
+    "be",
+    3
+   ],
+   [
+    "em",
+    3
+   ],
+   [
+    "fayezeta",
+    2
+   ],
+   [
+    "aa",
+    2
+   ],
+   [
+    "ao",
+    2
+   ],
+   [
+    "ct",
+    2
+   ]
+  ]
+ },
+ "US_trainGT": {
+  "n": 353031,
+  "one_sub": 56020,
+  "core_sub": 49892
+ },
+ "India_trainGT": {
+  "n": 111634,
+  "one_sub": 22412,
+  "core_sub": 12102
+ },
+ "US_V1_accepted": {
+  "all": {
+   "n": 40362,
+   "fp": 91,
+   "prec": 0.9977454040929588,
+   "n_street": 27169,
+   "prec_street": 0.9992270602524936
+  },
+  "core_sub": {
+   "n": 5671,
+   "fp": 17,
+   "prec": 0.9970022923646623,
+   "n_street": 3823,
+   "prec_street": 0.9981689772430029
+  },
+  "no_diff": {
+   "n": 25650,
+   "fp": 55,
+   "prec": 0.9978557504873294,
+   "n_street": 16932,
+   "prec_street": 0.9996456413890857
+  },
+  "s1only_only": {
+   "n": 2875,
+   "fp": 8,
+   "prec": 0.9972173913043478,
+   "n_street": 1942,
+   "prec_street": 0.9994850669412977
+  },
+  "reconly_only": {
+   "n": 3058,
+   "fp": 4,
+   "prec": 0.9986919555264879,
+   "n_street": 2312,
+   "prec_street": 0.9995674740484429
+  }
+ },
+ "India_V1_accepted": {
+  "all": {
+   "n": 26991,
+   "fp": 76,
+   "prec": 0.9971842466007188,
+   "n_street": 8637,
+   "prec_street": 0.999073752460345
+  },
+  "core_sub": {
+   "n": 2939,
+   "fp": 14,
+   "prec": 0.9952364749914937,
+   "n_street": 871,
+   "prec_street": 0.9988518943742825
+  },
+  "no_diff": {
+   "n": 15209,
+   "fp": 28,
+   "prec": 0.9981589848116247,
+   "n_street": 4810,
+   "prec_street": 0.9997920997920998
+  },
+  "s1only_only": {
+   "n": 5312,
+   "fp": 21,
+   "prec": 0.9960466867469879,
+   "n_street": 1729,
+   "prec_street": 0.9988432620011567
+  },
+  "reconly_only": {
+   "n": 1738,
+   "fp": 6,
+   "prec": 0.996547756041427,
+   "n_street": 605,
+   "prec_street": 1.0
+  }
+ }
+}

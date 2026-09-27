@@ -1,0 +1,262 @@
+{
+ "n_france_s1": 259452,
+ "n_france_rec": 1434993,
+ "n_core_groups": 157801,
+ "group_size_quantiles": [
+  1.0,
+  2.0,
+  11.0,
+  60.20000000001164
+ ],
+ "global_sum_q2": 0.01424,
+ "class_counts": {
+  "street_owned": 477558,
+  "no_same_city": 254570,
+  "orphan": 10540,
+  "biggroup": 4706
+ },
+ "hn_chance_test": {
+  "orphan": {
+   "n": 7738,
+   "observed_hn_eq_any": 0.188,
+   "expected_chance": 0.1509,
+   "ratio": 1.25,
+   "mean_n_city": 21.27,
+   "kept_share": 0.3555,
+   "kept_key2": 805
+  },
+  "street_owned": {
+   "n": 449565,
+   "observed_hn_eq_any": 0.8632,
+   "expected_chance": 0.0235,
+   "ratio": 36.78,
+   "mean_n_city": 2.32,
+   "kept_share": 0.8807,
+   "kept_key2": 390
+  },
+  "orphan&kept": {
+   "n": 2751,
+   "observed_hn_eq_any": 0.3359,
+   "expected_chance": 0.1848,
+   "ratio": 1.82,
+   "mean_n_city": 25.28,
+   "kept_share": 1.0,
+   "kept_key2": 805
+  },
+  "orphan&not_kept": {
+   "n": 4987,
+   "observed_hn_eq_any": 0.1065,
+   "expected_chance": 0.1322,
+   "ratio": 0.81,
+   "mean_n_city": 19.05,
+   "kept_share": 0.0,
+   "kept_key2": 0
+  },
+  "orphan&kept_key2": {
+   "n": 805,
+   "observed_hn_eq_any": 0.6484,
+   "expected_chance": 0.3958,
+   "ratio": 1.64,
+   "mean_n_city": 58.56,
+   "kept_share": 1.0,
+   "kept_key2": 805
+  },
+  "orphan&n_city[1,1]": {
+   "n": 2687,
+   "observed_hn_eq_any": 0.0945,
+   "expected_chance": 0.013,
+   "ratio": 7.25,
+   "mean_n_city": 1.0,
+   "kept_share": 0.399,
+   "kept_key2": 77
+  },
+  "orphan&not_kept&n_city[1,1]": {
+   "n": 1615,
+   "observed_hn_eq_any": 0.008,
+   "expected_chance": 0.0123,
+   "ratio": 0.65,
+   "mean_n_city": 1.0,
+   "kept_share": 0.0,
+   "kept_key2": 0
+  },
+  "orphan&n_city[2,3]": {
+   "n": 1168,
+   "observed_hn_eq_any": 0.0462,
+   "expected_chance": 0.0313,
+   "ratio": 1.48,
+   "mean_n_city": 2.34,
+   "kept_share": 0.3048,
+   "kept_key2": 46
+  },
+  "orphan&not_kept&n_city[2,3]": {
+   "n": 812,
+   "observed_hn_eq_any": 0.016,
+   "expected_chance": 0.0296,
+   "ratio": 0.54,
+   "mean_n_city": 2.35,
+   "kept_share": 0.0,
+   "kept_key2": 0
+  },
+  "orphan&n_city[4,10]": {
+   "n": 1162,
+   "observed_hn_eq_any": 0.0861,
+   "expected_chance": 0.0835,
+   "ratio": 1.03,
+   "mean_n_city": 6.27,
+   "kept_share": 0.3176,
+   "kept_key2": 87
+  },
+  "orphan&not_kept&n_city[4,10]": {
+   "n": 793,
+   "observed_hn_eq_any": 0.053,
+   "expected_chance": 0.0807,
+   "ratio": 0.66,
+   "mean_n_city": 6.38,
+   "kept_share": 0.0,
+   "kept_key2": 0
+  },
+  "orphan&n_city[11,30]": {
+   "n": 1168,
+   "observed_hn_eq_any": 0.2098,
+   "expected_chance": 0.1929,
+   "ratio": 1.09,
+   "mean_n_city": 19.16,
+   "kept_share": 0.2594,
+   "kept_key2": 147
+  },
+  "orphan&not_kept&n_city[11,30]": {
+   "n": 865,
+   "observed_hn_eq_any": 0.141,
+   "expected_chance": 0.18,
+   "ratio": 0.78,
+   "mean_n_city": 19.25,
+   "kept_share": 0.0,
+   "kept_key2": 0
+  },
+  "orphan&n_city[31,400]": {
+   "n": 1553,
+   "observed_hn_eq_any": 0.5164,
+   "expected_chance": 0.4983,
+   "ratio": 1.04,
+   "mean_n_city": 83.37,
+   "kept_share": 0.4192,
+   "kept_key2": 448
+  },
+  "orphan&not_kept&n_city[31,400]": {
+   "n": 902,
+   "observed_hn_eq_any": 0.378,
+   "expected_chance": 0.4389,
+   "ratio": 0.86,
+   "mean_n_city": 77.37,
+   "kept_share": 0.0,
+   "kept_key2": 0
+  }
+ },
+ "orphan_share_by_gsize": {
+  "[1,1]": {
+   "n": 241717,
+   "orphan_share": 0.0069,
+   "orphan_kept_share": 0.8092
+  },
+  "[2,3]": {
+   "n": 79966,
+   "orphan_share": 0.011,
+   "orphan_kept_share": 0.631
+  },
+  "[4,10]": {
+   "n": 65843,
+   "orphan_share": 0.0244,
+   "orphan_kept_share": 0.5523
+  },
+  "[11,30]": {
+   "n": 43271,
+   "orphan_share": 0.0526,
+   "orphan_kept_share": 0.3916
+  },
+  "[31,400]": {
+   "n": 57301,
+   "orphan_share": 0.0718,
+   "orphan_kept_share": 0.3683
+  }
+ },
+ "s1_twins": {
+  "pairs_same_core_same_city_diff_street": 303303,
+  "observed_hn_eq": 3876,
+  "observed_rate": 0.01278,
+  "expected_rate_chance": 0.01274,
+  "examples": [
+   [
+    "Saint-Herblain Parents SARL",
+    "2 Rue des Querci, Saint-Herblain, Pays de la Loire",
+    "Saint-Herblain Parents SAS",
+    "2 Rue Sacco et Vanzetti, Saint-Herblain, Pays de la Loire"
+   ],
+   [
+    "Nantes Pharmacie SAS",
+    "5 RUE de Pornichet, 1er Etage Ap 12, Nantes, Pays de la Loire",
+    "Nantes Pharmacie SASU",
+    "12 Rue de Coulmiers, Nantes, Pays de la Loire"
+   ],
+   [
+    "Lille Centre SARL",
+    "24 Rue Alfred Delattre, Lille, Hauts-de-France",
+    "Lille Centre SARL",
+    "24 Rue des Secouristes, Lille, Hauts-de-France"
+   ],
+   [
+    "La Baule-Escoublac Ecole",
+    "24 Avenue du Ménigot, La Baule-Escoublac, Pays de la Loire",
+    "La Baule-Escoublac Ecole SAS",
+    "Pays de la Loire, 24 Avenue du Gosquet, La Baule-Escoublac"
+   ],
+   [
+    "Nantes Societe",
+    "Pays de la Loire, 1 Rue des Castors, Nantes",
+    "Nantes Societe SARL",
+    "1 Bis Rue des Frères Amieux, Nantes, Pays de la Loire"
+   ],
+   [
+    "Bordeaux Compagnie SARL",
+    "16 Rue Desse, Bordeaux, Nouvelle-Aquitaine",
+    "Bordeaux Compagnie SARL",
+    "16 Rue Giner de Los Rios, Bordeaux, Nouvelle-Aquitaine"
+   ],
+   [
+    "Bordeaux Compagnie SAS",
+    "28 Rue de Dijon, Bordeaux, Nouvelle-Aquitaine",
+    "Bordeaux Compagnie SARL",
+    "Nouvelle-Aquitaine, 28 Rue Sainte-Luce, Bordeaux"
+   ],
+   [
+    "Pessac Élémentaire",
+    "5 bis Rue Condillac, Pessac, Nouvelle-Aquitaine",
+    "Pessac Élémentaire SARL",
+    "5 Rue de Carles, Pessac, Nouvelle-Aquitaine"
+   ],
+   [
+    "Nantes Parents SAS",
+    "7 Rue du Foehn, Nantes, Pays de la Loire",
+    "Nantes Parents EI",
+    "7 Rue de Bellevue, Nantes, Pays de la Loire"
+   ],
+   [
+    "Tourcoing Fetes SCI",
+    "15 Rue du Capitaine Debruyn, Tourcoing, Hauts-de-France",
+    "Tourcoing Fetes SAS",
+    "15 Rue des Phalempins, Tourcoing, Hauts-de-France"
+   ],
+   [
+    "Bordeaux Societe SAS",
+    "12 Rue de Metz, Bordeaux, Nouvelle-Aquitaine",
+    "Bordeaux Societe SARL",
+    "12 Rue Louis Liard, Bordeaux, Nouvelle-Aquitaine"
+   ],
+   [
+    "Lille Compagnie SARL",
+    "1113 RUE du marechal Dellatre de Tassigny, residence centrale fac - appartement 15, Lille, Hauts-de-France",
+    "Lille Compagnie SARL",
+    "15 Rue des Blanchisseurs, Lille, Hauts-de-France"
+   ]
+  ]
+ }
+}

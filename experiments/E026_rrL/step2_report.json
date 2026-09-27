@@ -1,0 +1,280 @@
+{
+ "gate_pp": 0.1,
+ "V1": {
+  "th": [
+   0.7600000000000001,
+   0.7200000000000001
+  ],
+  "CTRL": 98.797,
+  "RRL": 98.947,
+  "delta_pp": 0.15,
+  "ci95": [
+   0.101,
+   0.202
+  ],
+  "p_delta_le0": 0.0,
+  "US": [
+   98.764,
+   98.904
+  ],
+  "India": [
+   98.847,
+   99.012
+  ],
+  "TP": [
+   67242,
+   67437
+  ],
+  "FP": [
+   185,
+   170
+  ],
+  "FN": [
+   2136,
+   1941
+  ],
+  "precision": [
+   99.726,
+   99.749
+  ],
+  "singleton_fp_s1": [
+   7,
+   6
+  ],
+  "transitions": {
+   "new_TP": 277,
+   "lost_TP": 82,
+   "new_FP": 47,
+   "removed_FP": 62
+  },
+  "empty_address_slice": {
+   "CTRL": {
+    "TP": 1548,
+    "FP": 55
+   },
+   "RRL": {
+    "TP": 1598,
+    "FP": 62
+   },
+   "in_pool_true": 2913
+  },
+  "lost_link_categories_fixed_minus_broken": {
+   "L2 empty-addr, unique name": 25,
+   "L3 Indic name": 16,
+   "L4 substituted name": 33,
+   "L5 house-number perturbed": 29,
+   "L6 other": 53,
+   "L7 record without house number": 5,
+   "SYM-C1": 25,
+   "SYM-C2": 6,
+   "SYM-C3": 3
+  },
+  "delta_US": [
+   0.14,
+   0.086,
+   0.198
+  ],
+  "delta_India": [
+   0.165,
+   0.072,
+   0.261
+  ],
+  "CTRL_vs_PROD": [
+   2.747,
+   2.586,
+   2.914
+  ],
+  "RRL_vs_PROD": [
+   2.897,
+   2.733,
+   3.066
+  ],
+  "PROD": 96.05,
+  "parity_CTRL_vs_stored_RL27_NEW": {
+   "stored": 98.802,
+   "max_abs_dp": 0.628,
+   "mean_abs_dp": 0.000156,
+   "delta_pp": [
+    -0.006,
+    -0.038,
+    0.027
+   ]
+  },
+  "RRL_vs_stored_RL27_NEW": [
+   0.144,
+   0.099,
+   0.192
+  ]
+ },
+ "V0": {
+  "th": [
+   0.7600000000000001,
+   0.7200000000000001
+  ],
+  "CTRL": 98.664,
+  "RRL": 98.837,
+  "delta_pp": 0.173,
+  "ci95": [
+   0.006,
+   0.344
+  ],
+  "p_delta_le0": 0.0215,
+  "US": [
+   98.486,
+   98.67
+  ],
+  "India": [
+   98.93,
+   99.087
+  ],
+  "TP": [
+   6692,
+   6718
+  ],
+  "FP": [
+   18,
+   11
+  ],
+  "FN": [
+   228,
+   202
+  ],
+  "precision": [
+   99.732,
+   99.837
+  ],
+  "singleton_fp_s1": [
+   1,
+   2
+  ],
+  "transitions": {
+   "new_TP": 35,
+   "lost_TP": 9,
+   "new_FP": 2,
+   "removed_FP": 9
+  },
+  "empty_address_slice": {
+   "CTRL": {
+    "TP": 154,
+    "FP": 8
+   },
+   "RRL": {
+    "TP": 162,
+    "FP": 5
+   },
+   "in_pool_true": 301
+  },
+  "delta_US": [
+   0.184,
+   -0.048,
+   0.384
+  ],
+  "delta_India": [
+   0.157,
+   -0.052,
+   0.47
+  ],
+  "CTRL_vs_PROD": [
+   2.666,
+   2.173,
+   3.201
+  ],
+  "RRL_vs_PROD": [
+   2.839,
+   2.335,
+   3.38
+  ],
+  "PROD": 95.998,
+  "parity_CTRL_vs_stored_RL27_NEW": {
+   "stored": 98.689,
+   "max_abs_dp": 0.8125,
+   "mean_abs_dp": 0.000164,
+   "delta_pp": [
+    -0.025,
+    -0.152,
+    0.058
+   ]
+  },
+  "RRL_vs_stored_RL27_NEW": [
+   0.148,
+   0.0,
+   0.277
+  ]
+ },
+ "gate_pass": true,
+ "gain_share": {
+  "CTRL_s42": {
+   "gain_share_rl27": 0.0082,
+   "gain_share_rrUb": 0.8278
+  },
+  "RRL_s42": {
+   "gain_share_rl27": 0.0057,
+   "gain_share_rrL": 0.862,
+   "gain_share_rrUb": 0.0894
+  }
+ },
+ "fit_s": {
+  "CTRL_s42": 461.7,
+  "RRL_s42": 496.3
+ },
+ "rrUb_nan_share_top10": {
+  "V0": 0.0,
+  "V1": 0.0,
+  "T": 0.0
+ },
+ "train_info": {
+  "init": "intfloat/multilingual-e5-large",
+  "rev": "3d7cfbdacd47fdda877c5cd8a79fbcc4f2a574f3",
+  "n_pairs": 1000000,
+  "epochs": 1.0,
+  "bs": 256,
+  "micro": 128,
+  "lr": 5e-05,
+  "seed": 42,
+  "wd": 0.01,
+  "steps": 3907,
+  "t_train": 1840.8,
+  "pairs_per_s": 543,
+  "vram_peak_gb": 25.2,
+  "gpu_util_mean": 96.93612334801762,
+  "gpu_mem_used_max_mb": 38963.0,
+  "final_loss": 0.03856759721483104,
+  "attn": "sdpa",
+  "n_tok": 3,
+  "n_params": 559891457
+ },
+ "score_info": {
+  "rrL": {
+   "n_pairs": 739950,
+   "secs": 230.4,
+   "pairs_per_s": 3211,
+   "gpu_util_mean": 95.37719298245614,
+   "gpu_mem_used_max_mb": 37849.0
+  },
+  "rrUb_fill": {
+   "n_pairs": 25920,
+   "secs": 10.6,
+   "pairs_per_s": 2442,
+   "gpu_util_mean": 19.5
+  },
+  "secs": 268.9
+ },
+ "base_info": {
+  "n_train_s1": 51994,
+  "n_train_pairs": 6629937,
+  "oof_s": 123.3,
+  "secs": 134.3,
+  "n_top10": {
+   "T": 519940,
+   "V0": 20010,
+   "V1": 200000
+  },
+  "n_top10_unique": 739950,
+  "rrUb_missing": 25920,
+  "rrUb_missing_by_set": {
+   "T": 12005,
+   "V0": 1284,
+   "V1": 12631
+  }
+ }
+}

@@ -1,0 +1,1435 @@
+{
+ "a_D_repro": {
+  "n_accepted_all": 879329,
+  "n_word_swaps": 39891,
+  "share": 0.0454,
+  "n_distinct": 3024,
+  "reverse_mass": 0.5611,
+  "top": [
+   [
+    "club",
+    "fils",
+    783
+   ],
+   [
+    "france",
+    "fils",
+    558
+   ],
+   [
+    "club",
+    "services",
+    538
+   ],
+   [
+    "saint",
+    "st",
+    487
+   ],
+   [
+    "club",
+    "associes",
+    397
+   ],
+   [
+    "amicale",
+    "fils",
+    372
+   ],
+   [
+    "ecole",
+    "fils",
+    356
+   ],
+   [
+    "amis",
+    "fils",
+    339
+   ],
+   [
+    "ecole",
+    "services",
+    329
+   ],
+   [
+    "sportive",
+    "fils",
+    329
+   ],
+   [
+    "amicale",
+    "services",
+    314
+   ],
+   [
+    "france",
+    "services",
+    313
+   ]
+  ],
+  "n_word_swaps_final": 37959,
+  "US5_word_swap_share": 0.0577,
+  "US5_top_to": [
+   [
+    "center",
+    7226
+   ],
+   [
+    "services",
+    5371
+   ],
+   [
+    "service",
+    2463
+   ],
+   [
+    "partners",
+    1844
+   ],
+   [
+    "fd",
+    16
+   ],
+   [
+    "dt",
+    10
+   ],
+   [
+    "di",
+    8
+   ],
+   [
+    "he",
+    8
+   ],
+   [
+    "cea",
+    8
+   ],
+   [
+    "hr",
+    7
+   ]
+  ],
+  "US5_top_pairs": [
+   [
+    "care",
+    "center",
+    105
+   ],
+   [
+    "associates",
+    "center",
+    104
+   ],
+   [
+    "partners",
+    "center",
+    97
+   ],
+   [
+    "care",
+    "services",
+    83
+   ],
+   [
+    "partners",
+    "services",
+    75
+   ],
+   [
+    "center",
+    "services",
+    74
+   ],
+   [
+    "associates",
+    "services",
+    74
+   ],
+   [
+    "health",
+    "center",
+    63
+   ]
+  ],
+  "IN5_word_swap_share": 0.0511,
+  "IN5_top_to": [
+   [
+    "center",
+    6363
+   ],
+   [
+    "services",
+    4490
+   ],
+   [
+    "service",
+    2070
+   ],
+   [
+    "partners",
+    1698
+   ],
+   [
+    "com",
+    149
+   ],
+   [
+    "ss",
+    40
+   ],
+   [
+    "ce",
+    21
+   ],
+   [
+    "ao",
+    18
+   ],
+   [
+    "th",
+    17
+   ],
+   [
+    "ia",
+    15
+   ]
+  ],
+  "IN5_top_pairs": [
+   [
+    "india",
+    "center",
+    341
+   ],
+   [
+    "india",
+    "services",
+    244
+   ],
+   [
+    "brothers",
+    "center",
+    156
+   ],
+   [
+    "trading",
+    "center",
+    143
+   ],
+   [
+    "services",
+    "center",
+    133
+   ],
+   [
+    "india",
+    "service",
+    128
+   ],
+   [
+    "solutions",
+    "center",
+    126
+   ],
+   [
+    "india",
+    "partners",
+    114
+   ]
+  ]
+ },
+ "b_independent": {
+  "France": {
+   "n_pairs": 879329,
+   "n_final": 854396,
+   "kind_share": {
+    "SAME": 0.7942,
+    "SWAP1": 0.1093,
+    "OTHER": 0.0513,
+    "DROP1": 0.0259,
+    "ADD1": 0.0186,
+    "EMPTY": 0.0008
+   },
+   "n_word_swaps": 47894,
+   "word_swap_share": 0.0545,
+   "n_distinct": 3204,
+   "reverse_mass": 0.5808,
+   "word_swap_same_addr_share": 0.8915,
+   "top_pairs": [
+    [
+     "cie",
+     "compagnie",
+     890
+    ],
+    [
+     "club",
+     "fils",
+     792
+    ],
+    [
+     "compagnie",
+     "cie",
+     646
+    ],
+    [
+     "france",
+     "fils",
+     558
+    ],
+    [
+     "club",
+     "services",
+     544
+    ],
+    [
+     "club",
+     "cie",
+     491
+    ],
+    [
+     "saint",
+     "st",
+     487
+    ],
+    [
+     "club",
+     "associes",
+     403
+    ],
+    [
+     "amicale",
+     "fils",
+     374
+    ],
+    [
+     "ecole",
+     "fils",
+     357
+    ],
+    [
+     "amis",
+     "fils",
+     345
+    ],
+    [
+     "ecole",
+     "services",
+     334
+    ],
+    [
+     "sportive",
+     "fils",
+     333
+    ],
+    [
+     "amicale",
+     "services",
+     319
+    ],
+    [
+     "primaire",
+     "fils",
+     314
+    ]
+   ],
+   "fillers_by_pure_add": [
+    [
+     "fils",
+     5095,
+     2218,
+     7316,
+     1.8712,
+     0.4353
+    ],
+    [
+     "services",
+     1229,
+     1680,
+     6213,
+     6.4223,
+     1.367
+    ],
+    [
+     "associes",
+     25,
+     1575,
+     4818,
+     255.72,
+     63.0
+    ],
+    [
+     "cie",
+     5680,
+     1496,
+     6048,
+     1.3282,
+     0.2634
+    ],
+    [
+     "developpement",
+     815,
+     1189,
+     1331,
+     3.092,
+     1.4589
+    ],
+    [
+     "france",
+     20793,
+     1171,
+     1625,
+     0.1345,
+     0.0563
+    ],
+    [
+     "district",
+     43,
+     105,
+     1,
+     2.4651,
+     2.4419
+    ],
+    [
+     "commission",
+     28,
+     95,
+     0,
+     3.3929,
+     3.3929
+    ],
+    [
+     "association",
+     4008,
+     84,
+     2,
+     0.0215,
+     0.021
+    ],
+    [
+     "federation",
+     6670,
+     78,
+     404,
+     0.0723,
+     0.0117
+    ],
+    [
+     "groupe",
+     2072,
+     52,
+     71,
+     0.0594,
+     0.0251
+    ]
+   ],
+   "top_swap_to": [
+    [
+     "fils",
+     5095,
+     2218,
+     7316,
+     1.8712,
+     0.4353
+    ],
+    [
+     "services",
+     1229,
+     1680,
+     6213,
+     6.4223,
+     1.367
+    ],
+    [
+     "cie",
+     5680,
+     1496,
+     6048,
+     1.3282,
+     0.2634
+    ],
+    [
+     "associes",
+     25,
+     1575,
+     4818,
+     255.72,
+     63.0
+    ],
+    [
+     "club",
+     22672,
+     0,
+     1794,
+     0.0791,
+     0.0
+    ],
+    [
+     "comite",
+     13832,
+     0,
+     1763,
+     0.1275,
+     0.0
+    ],
+    [
+     "france",
+     20793,
+     1171,
+     1625,
+     0.1345,
+     0.0563
+    ],
+    [
+     "compagnie",
+     3514,
+     0,
+     1512,
+     0.4303,
+     0.0
+    ],
+    [
+     "developpement",
+     815,
+     1189,
+     1331,
+     3.092,
+     1.4589
+    ],
+    [
+     "amis",
+     6915,
+     0,
+     1208,
+     0.1747,
+     0.0
+    ],
+    [
+     "centre",
+     10518,
+     1,
+     1154,
+     0.1098,
+     0.0001
+    ],
+    [
+     "amicale",
+     14389,
+     0,
+     1042,
+     0.0724,
+     0.0
+    ],
+    [
+     "societe",
+     4084,
+     0,
+     865,
+     0.2118,
+     0.0
+    ],
+    [
+     "service",
+     1799,
+     0,
+     807,
+     0.4486,
+     0.0
+    ],
+    [
+     "fetes",
+     3847,
+     0,
+     766,
+     0.1991,
+     0.0
+    ],
+    [
+     "ecole",
+     15668,
+     0,
+     545,
+     0.0348,
+     0.0
+    ],
+    [
+     "parents",
+     5319,
+     0,
+     527,
+     0.0991,
+     0.0
+    ],
+    [
+     "st",
+     264,
+     0,
+     500,
+     1.8939,
+     0.0
+    ],
+    [
+     "sante",
+     5623,
+     0,
+     477,
+     0.0848,
+     0.0
+    ],
+    [
+     "section",
+     2164,
+     0,
+     462,
+     0.2135,
+     0.0
+    ]
+   ],
+   "overlap": {
+    "min_D_ratio_of_fillers": 0.0215,
+    "filler_with_min": "association",
+    "n_nonfiller_swap_targets": 36,
+    "n_nonfiller_above_that": 34,
+    "nonfiller_above": [
+     [
+      "cb",
+      10.3462,
+      269,
+      0
+     ],
+     [
+      "fs",
+      4.6667,
+      112,
+      0
+     ],
+     [
+      "st",
+      1.8939,
+      500,
+      0
+     ],
+     [
+      "service",
+      0.4486,
+      807,
+      0
+     ],
+     [
+      "as",
+      0.445,
+      85,
+      0
+     ],
+     [
+      "compagnie",
+      0.4303,
+      1512,
+      0
+     ],
+     [
+      "section",
+      0.2135,
+      462,
+      0
+     ],
+     [
+      "societe",
+      0.2118,
+      865,
+      0
+     ],
+     [
+      "fetes",
+      0.1991,
+      766,
+      0
+     ],
+     [
+      "amis",
+      0.1747,
+      1208,
+      0
+     ],
+     [
+      "comite",
+      0.1275,
+      1763,
+      0
+     ],
+     [
+      "soins",
+      0.1142,
+      107,
+      0
+     ],
+     [
+      "conseil",
+      0.112,
+      116,
+      0
+     ],
+     [
+      "centre",
+      0.1098,
+      1154,
+      1
+     ],
+     [
+      "parents",
+      0.0991,
+      527,
+      0
+     ]
+    ]
+   },
+   "pure_add_counts_selected": {
+    "club": 0,
+    "comite": 0,
+    "amis": 0,
+    "centre": 1,
+    "amicale": 0,
+    "ecole": 0,
+    "maison": 0,
+    "pharmacie": 0,
+    "associes": 1575,
+    "services": 1680,
+    "developpement": 1189,
+    "fils": 2218,
+    "compagnie": 0,
+    "france": 1171
+   },
+   "swap_to_counts_selected": {
+    "club": 1794,
+    "comite": 1763,
+    "amis": 1208,
+    "centre": 1154,
+    "amicale": 1042,
+    "societe": 865,
+    "fils": 7316,
+    "services": 6213,
+    "france": 1625
+   }
+  },
+  "US": {
+   "n_pairs": 300000,
+   "n_final": 299959,
+   "kind_share": {
+    "SAME": 0.6925,
+    "SWAP1": 0.1149,
+    "OTHER": 0.0827,
+    "DROP1": 0.0661,
+    "ADD1": 0.0429,
+    "EMPTY": 0.0008
+   },
+   "n_word_swaps": 17004,
+   "word_swap_share": 0.0567,
+   "n_distinct": 4863,
+   "reverse_mass": 0.0211,
+   "word_swap_same_addr_share": 0.7119,
+   "top_pairs": [
+    [
+     "care",
+     "center",
+     120
+    ],
+    [
+     "partners",
+     "center",
+     103
+    ],
+    [
+     "associates",
+     "center",
+     89
+    ],
+    [
+     "associates",
+     "services",
+     89
+    ],
+    [
+     "care",
+     "services",
+     86
+    ],
+    [
+     "center",
+     "services",
+     61
+    ],
+    [
+     "health",
+     "center",
+     58
+    ],
+    [
+     "partners",
+     "services",
+     56
+    ],
+    [
+     "clinic",
+     "center",
+     55
+    ],
+    [
+     "medicine",
+     "center",
+     44
+    ],
+    [
+     "clinic",
+     "services",
+     42
+    ],
+    [
+     "specialists",
+     "center",
+     41
+    ],
+    [
+     "partners",
+     "service",
+     40
+    ],
+    [
+     "center",
+     "service",
+     39
+    ],
+    [
+     "health",
+     "services",
+     38
+    ]
+   ],
+   "fillers_by_pure_add": [
+    [
+     "center",
+     15977,
+     1571,
+     7152,
+     0.546,
+     0.0983
+    ],
+    [
+     "services",
+     3614,
+     1115,
+     5151,
+     1.7338,
+     0.3085
+    ],
+    [
+     "service",
+     2119,
+     531,
+     2554,
+     1.4559,
+     0.2506
+    ],
+    [
+     "partners",
+     14857,
+     411,
+     1861,
+     0.1529,
+     0.0277
+    ],
+    [
+     "board",
+     821,
+     141,
+     0,
+     0.1717,
+     0.1717
+    ],
+    [
+     "trust",
+     2924,
+     132,
+     0,
+     0.0451,
+     0.0451
+    ],
+    [
+     "commission",
+     806,
+     120,
+     0,
+     0.1489,
+     0.1489
+    ],
+    [
+     "federation",
+     1882,
+     120,
+     0,
+     0.0638,
+     0.0638
+    ],
+    [
+     "society",
+     1885,
+     113,
+     1,
+     0.0605,
+     0.0599
+    ],
+    [
+     "council",
+     2014,
+     113,
+     0,
+     0.0561,
+     0.0561
+    ],
+    [
+     "association",
+     2825,
+     110,
+     0,
+     0.0389,
+     0.0389
+    ],
+    [
+     "foundation",
+     1881,
+     109,
+     0,
+     0.0579,
+     0.0579
+    ]
+   ],
+   "top_swap_to": [
+    [
+     "center",
+     15977,
+     1571,
+     7152,
+     0.546,
+     0.0983
+    ],
+    [
+     "services",
+     3614,
+     1115,
+     5151,
+     1.7338,
+     0.3085
+    ],
+    [
+     "service",
+     2119,
+     531,
+     2554,
+     1.4559,
+     0.2506
+    ],
+    [
+     "partners",
+     14857,
+     411,
+     1861,
+     0.1529,
+     0.0277
+    ],
+    [
+     "fd",
+     24,
+     0,
+     14,
+     0.5833,
+     0.0
+    ],
+    [
+     "ao",
+     22,
+     0,
+     12,
+     0.5455,
+     0.0
+    ],
+    [
+     "ca",
+     20,
+     0,
+     11,
+     0.55,
+     0.0
+    ],
+    [
+     "dt",
+     24,
+     0,
+     8,
+     0.3333,
+     0.0
+    ],
+    [
+     "ae",
+     23,
+     0,
+     8,
+     0.3478,
+     0.0
+    ],
+    [
+     "ma",
+     65,
+     0,
+     8,
+     0.1231,
+     0.0
+    ],
+    [
+     "pe",
+     23,
+     0,
+     7,
+     0.3043,
+     0.0
+    ],
+    [
+     "ss",
+     27,
+     0,
+     6,
+     0.2222,
+     0.0
+    ],
+    [
+     "as",
+     30,
+     0,
+     6,
+     0.2,
+     0.0
+    ],
+    [
+     "hr",
+     23,
+     0,
+     6,
+     0.2609,
+     0.0
+    ],
+    [
+     "bo",
+     31,
+     0,
+     6,
+     0.1935,
+     0.0
+    ],
+    [
+     "cea",
+     271,
+     0,
+     6,
+     0.0221,
+     0.0
+    ],
+    [
+     "rs",
+     22,
+     0,
+     5,
+     0.2273,
+     0.0
+    ],
+    [
+     "ro",
+     24,
+     0,
+     5,
+     0.2083,
+     0.0
+    ],
+    [
+     "lg",
+     20,
+     0,
+     5,
+     0.25,
+     0.0
+    ],
+    [
+     "sl",
+     22,
+     0,
+     4,
+     0.1818,
+     0.0
+    ]
+   ],
+   "overlap": {
+    "min_D_ratio_of_fillers": 0.0389,
+    "filler_with_min": "association",
+    "n_nonfiller_swap_targets": 0,
+    "n_nonfiller_above_that": 0,
+    "nonfiller_above": []
+   },
+   "pure_add_counts_selected": {
+    "club": 0,
+    "comite": 0,
+    "amis": 0,
+    "centre": 0,
+    "amicale": 0,
+    "ecole": 0,
+    "maison": 0,
+    "pharmacie": 0,
+    "associes": 0,
+    "services": 1115,
+    "developpement": 0,
+    "fils": 0,
+    "compagnie": 0,
+    "france": 0
+   },
+   "swap_to_counts_selected": {
+    "club": 0,
+    "comite": 0,
+    "amis": 0,
+    "centre": 0,
+    "amicale": 0,
+    "societe": 0,
+    "fils": 0,
+    "services": 5151,
+    "france": 0
+   }
+  },
+  "India": {
+   "n_pairs": 300000,
+   "n_final": 299718,
+   "kind_share": {
+    "SAME": 0.591,
+    "EMPTY": 0.1722,
+    "SWAP1": 0.1053,
+    "OTHER": 0.0511,
+    "ADD1": 0.0501,
+    "DROP1": 0.0304
+   },
+   "n_word_swaps": 23372,
+   "word_swap_share": 0.0779,
+   "n_distinct": 5343,
+   "reverse_mass": 0.013,
+   "word_swap_same_addr_share": 0.3806,
+   "top_pairs": [
+    [
+     "india",
+     "center",
+     337
+    ],
+    [
+     "india",
+     "services",
+     240
+    ],
+    [
+     "trading",
+     "com",
+     215
+    ],
+    [
+     "brothers",
+     "com",
+     194
+    ],
+    [
+     "india",
+     "com",
+     192
+    ],
+    [
+     "services",
+     "com",
+     173
+    ],
+    [
+     "sons",
+     "com",
+     156
+    ],
+    [
+     "brothers",
+     "center",
+     146
+    ],
+    [
+     "traders",
+     "com",
+     146
+    ],
+    [
+     "services",
+     "center",
+     144
+    ],
+    [
+     "solutions",
+     "center",
+     142
+    ],
+    [
+     "solutions",
+     "com",
+     140
+    ],
+    [
+     "trading",
+     "center",
+     125
+    ],
+    [
+     "technologies",
+     "com",
+     125
+    ],
+    [
+     "brothers",
+     "services",
+     119
+    ]
+   ],
+   "fillers_by_pure_add": [
+    [
+     "center",
+     3117,
+     2469,
+     6505,
+     2.8791,
+     0.7921
+    ],
+    [
+     "services",
+     22238,
+     1695,
+     4778,
+     0.2911,
+     0.0762
+    ],
+    [
+     "service",
+     689,
+     889,
+     2209,
+     4.4964,
+     1.2903
+    ],
+    [
+     "partners",
+     5179,
+     671,
+     1720,
+     0.4617,
+     0.1296
+    ],
+    [
+     "com",
+     121,
+     142,
+     9102,
+     76.3967,
+     1.1736
+    ]
+   ],
+   "top_swap_to": [
+    [
+     "com",
+     121,
+     142,
+     9102,
+     76.3967,
+     1.1736
+    ],
+    [
+     "center",
+     3117,
+     2469,
+     6505,
+     2.8791,
+     0.7921
+    ],
+    [
+     "services",
+     22238,
+     1695,
+     4778,
+     0.2911,
+     0.0762
+    ],
+    [
+     "service",
+     689,
+     889,
+     2209,
+     4.4964,
+     1.2903
+    ],
+    [
+     "partners",
+     5179,
+     671,
+     1720,
+     0.4617,
+     0.1296
+    ],
+    [
+     "ss",
+     3593,
+     0,
+     38,
+     0.0106,
+     0.0
+    ],
+    [
+     "ce",
+     56,
+     0,
+     19,
+     0.3393,
+     0.0
+    ],
+    [
+     "ao",
+     54,
+     0,
+     17,
+     0.3148,
+     0.0
+    ],
+    [
+     "ia",
+     39,
+     1,
+     14,
+     0.3846,
+     0.0256
+    ],
+    [
+     "fd",
+     51,
+     0,
+     13,
+     0.2549,
+     0.0
+    ],
+    [
+     "foodworks",
+     26,
+     0,
+     11,
+     0.4231,
+     0.0
+    ],
+    [
+     "th",
+     87,
+     0,
+     9,
+     0.1034,
+     0.0
+    ],
+    [
+     "he",
+     47,
+     0,
+     9,
+     0.1915,
+     0.0
+    ],
+    [
+     "ls",
+     57,
+     0,
+     9,
+     0.1579,
+     0.0
+    ],
+    [
+     "ma",
+     140,
+     0,
+     9,
+     0.0643,
+     0.0
+    ],
+    [
+     "cr",
+     60,
+     0,
+     8,
+     0.1333,
+     0.0
+    ],
+    [
+     "sn",
+     111,
+     0,
+     7,
+     0.0631,
+     0.0
+    ],
+    [
+     "di",
+     98,
+     0,
+     7,
+     0.0714,
+     0.0
+    ],
+    [
+     "aa",
+     108,
+     0,
+     7,
+     0.0648,
+     0.0
+    ],
+    [
+     "ct",
+     75,
+     0,
+     7,
+     0.0933,
+     0.0
+    ]
+   ],
+   "overlap": {
+    "min_D_ratio_of_fillers": 0.2911,
+    "filler_with_min": "services",
+    "n_nonfiller_swap_targets": 0,
+    "n_nonfiller_above_that": 0,
+    "nonfiller_above": []
+   },
+   "pure_add_counts_selected": {
+    "club": 0,
+    "comite": 0,
+    "amis": 0,
+    "centre": 0,
+    "amicale": 0,
+    "ecole": 0,
+    "maison": 0,
+    "pharmacie": 0,
+    "associes": 0,
+    "services": 1695,
+    "developpement": 0,
+    "fils": 0,
+    "compagnie": 0,
+    "france": 0
+   },
+   "swap_to_counts_selected": {
+    "club": 0,
+    "comite": 0,
+    "amis": 0,
+    "centre": 1,
+    "amicale": 0,
+    "societe": 0,
+    "fils": 0,
+    "services": 4778,
+    "france": 0
+   }
+  }
+ }
+}

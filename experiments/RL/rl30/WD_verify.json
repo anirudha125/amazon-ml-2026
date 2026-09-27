@@ -1,0 +1,1056 @@
+{
+ "test_France": {
+  "n_accepted": 879329,
+  "n_final": 854396,
+  "n_s1_country": 259452,
+  "final_counts": {
+   "odd_gt10": 3942,
+   "digsub": 2202,
+   "even_gt10": 2173,
+   "odd3_10": 1283,
+   "pm2": 1109,
+   "pm1": 1021,
+   "digindel": 820,
+   "even3_10": 375,
+   "perm": 46
+  },
+  "final_shift_total": 12971,
+  "final_shift_total_excl_digindel_perm": 12105,
+  "rate_of_all_accepted": {
+   "pm1": 0.00127,
+   "pm2": 0.00138,
+   "odd3_10": 0.00159,
+   "even3_10": 0.00055,
+   "digsub": 0.00294,
+   "odd_gt10": 0.00577,
+   "even_gt10": 0.00384,
+   "digindel": 0.00112,
+   "perm": 8e-05
+  },
+  "rate_shift_total_of_all_accepted": 0.01854,
+  "rate_shift_total_of_final": 0.01518,
+  "mean_p_final": {
+   "digindel": 0.9782,
+   "digsub": 0.9302,
+   "even3_10": 0.923,
+   "even_gt10": 0.9754,
+   "odd3_10": 0.9018,
+   "odd_gt10": 0.9468,
+   "perm": 0.913,
+   "pm1": 0.933,
+   "pm2": 0.9335
+  },
+  "n_s1_with_shift_final": 10669,
+  "nlen_share_same_core_street": {
+   "1": 0.2454,
+   "2": 0.6133,
+   "3": 0.1357,
+   "4": 0.0056
+  },
+  "class_share_by_nlen": {
+   "1": {
+    "digindel": 0.00159,
+    "digsub": 0.00611,
+    "even3_10": 0.00075,
+    "even_gt10": 0.00271,
+    "odd3_10": 0.0025,
+    "odd_gt10": 0.00505,
+    "perm": 0.0,
+    "pm1": 0.00293,
+    "pm2": 0.00295
+   },
+   "2": {
+    "digindel": 0.00209,
+    "digsub": 0.00388,
+    "even3_10": 0.00088,
+    "even_gt10": 0.00545,
+    "odd3_10": 0.0023,
+    "odd_gt10": 0.00881,
+    "perm": 0.00016,
+    "pm1": 0.00156,
+    "pm2": 0.00182
+   },
+   "3": {
+    "digindel": 0.00039,
+    "digsub": 0.00444,
+    "even3_10": 0.00085,
+    "even_gt10": 0.01324,
+    "odd3_10": 0.00295,
+    "odd_gt10": 0.01567,
+    "perm": 0.00019,
+    "pm1": 0.00191,
+    "pm2": 0.00194
+   },
+   "4": {
+    "digindel": 0.0,
+    "digsub": 0.00468,
+    "even3_10": 0.00031,
+    "even_gt10": 0.01373,
+    "odd3_10": 0.00094,
+    "odd_gt10": 0.01311,
+    "perm": 0.0,
+    "pm1": 0.00094,
+    "pm2": 0.00187
+   }
+  }
+ },
+ "test_US": {
+  "n_accepted": 2236533,
+  "n_final": 2236158,
+  "n_s1_country": 663106,
+  "final_counts": {
+   "digindel": 47880,
+   "even_gt10": 12813,
+   "digsub": 9011,
+   "odd_gt10": 8893,
+   "pm1": 5671,
+   "pm2": 5572,
+   "odd3_10": 795,
+   "even3_10": 600,
+   "perm": 130
+  },
+  "final_shift_total": 91365,
+  "final_shift_total_excl_digindel_perm": 43355,
+  "rate_of_all_accepted": {
+   "pm1": 0.00254,
+   "pm2": 0.00249,
+   "odd3_10": 0.00036,
+   "even3_10": 0.00027,
+   "digsub": 0.00403,
+   "odd_gt10": 0.00398,
+   "even_gt10": 0.00573,
+   "digindel": 0.02141,
+   "perm": 6e-05
+  },
+  "rate_shift_total_of_all_accepted": 0.04086,
+  "rate_shift_total_of_final": 0.04086,
+  "mean_p_final": {
+   "digindel": 0.9923,
+   "digsub": 0.9892,
+   "even3_10": 0.9676,
+   "even_gt10": 0.9904,
+   "odd3_10": 0.957,
+   "odd_gt10": 0.9827,
+   "perm": 0.97,
+   "pm1": 0.9786,
+   "pm2": 0.9795
+  },
+  "n_s1_with_shift_final": 63433,
+  "nlen_share_same_core_street": {
+   "1": 0.0224,
+   "2": 0.0963,
+   "3": 0.3243,
+   "4": 0.557
+  },
+  "class_share_by_nlen": {
+   "1": {
+    "digindel": 0.00094,
+    "digsub": 0.01071,
+    "even3_10": 0.00054,
+    "even_gt10": 0.00381,
+    "odd3_10": 0.00058,
+    "odd_gt10": 0.00434,
+    "perm": 0.0,
+    "pm1": 0.01044,
+    "pm2": 0.0082
+   },
+   "2": {
+    "digindel": 0.00333,
+    "digsub": 0.00848,
+    "even3_10": 0.0006,
+    "even_gt10": 0.0066,
+    "odd3_10": 0.00074,
+    "odd_gt10": 0.00776,
+    "perm": 8e-05,
+    "pm1": 0.00567,
+    "pm2": 0.00583
+   },
+   "3": {
+    "digindel": 0.05171,
+    "digsub": 0.00889,
+    "even3_10": 0.00059,
+    "even_gt10": 0.01581,
+    "odd3_10": 0.00087,
+    "odd_gt10": 0.00932,
+    "perm": 0.00012,
+    "pm1": 0.00561,
+    "pm2": 0.00568
+   },
+   "4": {
+    "digindel": 0.05559,
+    "digsub": 0.00917,
+    "even3_10": 0.00061,
+    "even_gt10": 0.01261,
+    "odd3_10": 0.00078,
+    "odd_gt10": 0.00911,
+    "perm": 0.00015,
+    "pm1": 0.00555,
+    "pm2": 0.0054
+   }
+  }
+ },
+ "test_India": {
+  "n_accepted": 2730863,
+  "n_final": 2728351,
+  "n_s1_country": 809986,
+  "final_counts": {
+   "digindel": 3630,
+   "even_gt10": 2164,
+   "odd_gt10": 1825,
+   "digsub": 1368,
+   "pm1": 846,
+   "pm2": 844,
+   "odd3_10": 107,
+   "even3_10": 66,
+   "perm": 5
+  },
+  "final_shift_total": 10855,
+  "final_shift_total_excl_digindel_perm": 7220,
+  "rate_of_all_accepted": {
+   "pm1": 0.00031,
+   "pm2": 0.00031,
+   "odd3_10": 4e-05,
+   "even3_10": 2e-05,
+   "digsub": 0.0005,
+   "odd_gt10": 0.00067,
+   "even_gt10": 0.00079,
+   "digindel": 0.00133,
+   "perm": 0.0
+  },
+  "rate_shift_total_of_all_accepted": 0.00398,
+  "rate_shift_total_of_final": 0.00398,
+  "mean_p_final": {
+   "digindel": 0.9959,
+   "digsub": 0.9909,
+   "even3_10": 0.9915,
+   "even_gt10": 0.9963,
+   "odd3_10": 0.9826,
+   "odd_gt10": 0.9949,
+   "perm": 0.9889,
+   "pm1": 0.9877,
+   "pm2": 0.9871
+  },
+  "n_s1_with_shift_final": 7998,
+  "nlen_share_same_core_street": {
+   "1": 0.2414,
+   "2": 0.3773,
+   "3": 0.3222,
+   "4": 0.0591
+  },
+  "class_share_by_nlen": {
+   "1": {
+    "digindel": 0.00124,
+    "digsub": 0.01918,
+    "even3_10": 6e-05,
+    "even_gt10": 0.00744,
+    "odd3_10": 0.00054,
+    "odd_gt10": 0.00852,
+    "perm": 0.0,
+    "pm1": 0.01037,
+    "pm2": 0.00977
+   },
+   "2": {
+    "digindel": 0.03246,
+    "digsub": 0.00729,
+    "even3_10": 0.00108,
+    "even_gt10": 0.00979,
+    "odd3_10": 0.00159,
+    "odd_gt10": 0.01189,
+    "perm": 0.0,
+    "pm1": 0.00488,
+    "pm2": 0.00558
+   },
+   "3": {
+    "digindel": 0.0384,
+    "digsub": 0.00787,
+    "even3_10": 0.00024,
+    "even_gt10": 0.02948,
+    "odd3_10": 0.00021,
+    "odd_gt10": 0.01933,
+    "perm": 0.00012,
+    "pm1": 0.00567,
+    "pm2": 0.00551
+   },
+   "4": {
+    "digindel": 0.05044,
+    "digsub": 0.01001,
+    "even3_10": 0.00013,
+    "even_gt10": 0.02756,
+    "odd3_10": 0.00039,
+    "odd_gt10": 0.02119,
+    "perm": 0.0,
+    "pm1": 0.00546,
+    "pm2": 0.00416
+   }
+  }
+ },
+ "test_s1_housenum_len_share(0=none)": {
+  "France": {
+   "0": 0.0076,
+   "1": 0.2451,
+   "2": 0.609,
+   "3": 0.1326,
+   "4": 0.0057
+  },
+  "US": {
+   "0": 0.0573,
+   "1": 0.0203,
+   "2": 0.0887,
+   "3": 0.3081,
+   "4": 0.5255
+  },
+  "India": {
+   "0": 0.8654,
+   "1": 0.0321,
+   "2": 0.0505,
+   "3": 0.0437,
+   "4": 0.0082
+  }
+ },
+ "shape_test_test": {
+  "France": {
+   "REP_p1": 0.2122,
+   "ADD_p1": 0.1452,
+   "pm1": {
+    "n": 983,
+    "p1": 0.1892,
+    "f_p1": 0.34,
+    "se": 0.19
+   },
+   "pm2": {
+    "n": 1068,
+    "p1": 0.176,
+    "f_p1": 0.54,
+    "se": 0.17
+   },
+   "odd3_10": {
+    "n": 1256,
+    "p1": 0.1847,
+    "f_p1": 0.41,
+    "se": 0.16
+   },
+   "even3_10": {
+    "n": 350,
+    "p1": 0.1914,
+    "f_p1": 0.31,
+    "se": 0.31
+   },
+   "digsub": {
+    "n": 2031,
+    "p1": 0.2068,
+    "f_p1": 0.08,
+    "se": 0.13
+   },
+   "odd_gt10": {
+    "n": 3558,
+    "p1": 0.2246,
+    "f_p1": -0.18,
+    "se": 0.1
+   },
+   "even_gt10": {
+    "n": 1886,
+    "p1": 0.2672,
+    "f_p1": -0.82,
+    "se": 0.15
+   },
+   "digindel": {
+    "n": 707,
+    "p1": 0.2277,
+    "f_p1": -0.23,
+    "se": 0.24
+   },
+   "SAME": {
+    "n": 349523,
+    "p1": 0.3459,
+    "f_p1": -2.0,
+    "se": 0.01
+   },
+   "pm1+pm2+odd3_10": {
+    "n": 3305,
+    "p1": 0.1834,
+    "f_p1": 0.43,
+    "se": 0.1
+   }
+  },
+  "US": {
+   "REP_p1": 0.2053,
+   "ADD_p1": 0.1353,
+   "pm1": {
+    "n": 4241,
+    "p1": 0.3089,
+    "f_p1": -1.48,
+    "se": 0.1
+   },
+   "pm2": {
+    "n": 4183,
+    "p1": 0.3074,
+    "f_p1": -1.46,
+    "se": 0.1
+   },
+   "odd3_10": {
+    "n": 703,
+    "p1": 0.2546,
+    "f_p1": -0.71,
+    "se": 0.23
+   },
+   "even3_10": {
+    "n": 536,
+    "p1": 0.2519,
+    "f_p1": -0.67,
+    "se": 0.27
+   },
+   "digsub": {
+    "n": 6661,
+    "p1": 0.2803,
+    "f_p1": -1.07,
+    "se": 0.08
+   },
+   "odd_gt10": {
+    "n": 7757,
+    "p1": 0.2515,
+    "f_p1": -0.66,
+    "se": 0.07
+   },
+   "even_gt10": {
+    "n": 10375,
+    "p1": 0.2667,
+    "f_p1": -0.88,
+    "se": 0.06
+   },
+   "digindel": {
+    "n": 34289,
+    "p1": 0.293,
+    "f_p1": -1.25,
+    "se": 0.04
+   },
+   "perm": {
+    "n": 108,
+    "p1": 0.1574,
+    "f_p1": 0.68,
+    "se": 0.5
+   },
+   "SAME": {
+    "n": 641574,
+    "p1": 0.2939,
+    "f_p1": -1.27,
+    "se": 0.01
+   },
+   "pm1+pm2+odd3_10": {
+    "n": 9122,
+    "p1": 0.3042,
+    "f_p1": -1.41,
+    "se": 0.07
+   }
+  },
+  "India": {
+   "REP_p1": 0.206,
+   "ADD_p1": 0.1353,
+   "pm1": {
+    "n": 648,
+    "p1": 0.2762,
+    "f_p1": -0.99,
+    "se": 0.25
+   },
+   "pm2": {
+    "n": 650,
+    "p1": 0.2877,
+    "f_p1": -1.16,
+    "se": 0.25
+   },
+   "odd3_10": {
+    "n": 87,
+    "p1": 0.2759,
+    "f_p1": -0.99,
+    "se": 0.68
+   },
+   "digsub": {
+    "n": 1027,
+    "p1": 0.2629,
+    "f_p1": -0.8,
+    "se": 0.19
+   },
+   "odd_gt10": {
+    "n": 1446,
+    "p1": 0.2752,
+    "f_p1": -0.98,
+    "se": 0.17
+   },
+   "even_gt10": {
+    "n": 1676,
+    "p1": 0.2631,
+    "f_p1": -0.81,
+    "se": 0.15
+   },
+   "digindel": {
+    "n": 2741,
+    "p1": 0.259,
+    "f_p1": -0.75,
+    "se": 0.12
+   },
+   "SAME": {
+    "n": 88467,
+    "p1": 0.2661,
+    "f_p1": -0.85,
+    "se": 0.02
+   },
+   "pm1+pm2+odd3_10": {
+    "n": 1385,
+    "p1": 0.2816,
+    "f_p1": -1.07,
+    "se": 0.17
+   }
+  }
+ },
+ "France_sibling": {
+  "digindel": {
+   "n": 820,
+   "share_any_samename_S1": 0.5622,
+   "share_sib_at_rec_number": 0.0049,
+   "share_multi_claimed": 0.0415,
+   "mean_p": 0.9782
+  },
+  "digsub": {
+   "n": 2202,
+   "share_any_samename_S1": 0.4573,
+   "share_sib_at_rec_number": 0.0009,
+   "share_multi_claimed": 0.015,
+   "mean_p": 0.9302
+  },
+  "even3_10": {
+   "n": 375,
+   "share_any_samename_S1": 0.456,
+   "share_sib_at_rec_number": 0.0027,
+   "share_multi_claimed": 0.0187,
+   "mean_p": 0.923
+  },
+  "even_gt10": {
+   "n": 2173,
+   "share_any_samename_S1": 0.6088,
+   "share_sib_at_rec_number": 0.0087,
+   "share_multi_claimed": 0.04,
+   "mean_p": 0.9754
+  },
+  "odd3_10": {
+   "n": 1283,
+   "share_any_samename_S1": 0.4279,
+   "share_sib_at_rec_number": 0.0,
+   "share_multi_claimed": 0.0055,
+   "mean_p": 0.9018
+  },
+  "odd_gt10": {
+   "n": 3942,
+   "share_any_samename_S1": 0.5345,
+   "share_sib_at_rec_number": 0.0038,
+   "share_multi_claimed": 0.0302,
+   "mean_p": 0.9468
+  },
+  "perm": {
+   "n": 46,
+   "share_any_samename_S1": 0.4783,
+   "share_sib_at_rec_number": 0.0,
+   "share_multi_claimed": 0.0217,
+   "mean_p": 0.913
+  },
+  "pm1": {
+   "n": 1021,
+   "share_any_samename_S1": 0.4535,
+   "share_sib_at_rec_number": 0.002,
+   "share_multi_claimed": 0.0098,
+   "mean_p": 0.933
+  },
+  "pm2": {
+   "n": 1109,
+   "share_any_samename_S1": 0.4707,
+   "share_sib_at_rec_number": 0.0027,
+   "share_multi_claimed": 0.0108,
+   "mean_p": 0.9335
+  }
+ },
+ "France_sibling_total": {
+  "n": 12971,
+  "any_samename": 6625,
+  "sib_exact": 46
+ },
+ "France_impact_ESTIMATED": {
+  "pm1+pm2+odd3_10": {
+   "n_pairs": 3413,
+   "n_s1": 3206,
+   "share_France_S1": 0.01236,
+   "oracle_gain_if_ALL_decoy_France_pts": 0.354,
+   "oracle_gain_if_ALL_decoy_LB_pts": 0.0531,
+   "f=0.04": {
+    "oracle_France_pts": 0.014,
+    "oracle_LB_pts": 0.0021,
+    "drop_class_France_pts": -0.146,
+    "drop_class_LB_pts": -0.0219
+   },
+   "f=0.2": {
+    "oracle_France_pts": 0.071,
+    "oracle_LB_pts": 0.0106,
+    "drop_class_France_pts": -0.063,
+    "drop_class_LB_pts": -0.0094
+   },
+   "f=0.35": {
+    "oracle_France_pts": 0.124,
+    "oracle_LB_pts": 0.0186,
+    "drop_class_France_pts": 0.016,
+    "drop_class_LB_pts": 0.0023
+   },
+   "f=0.5": {
+    "oracle_France_pts": 0.177,
+    "oracle_LB_pts": 0.0265,
+    "drop_class_France_pts": 0.094,
+    "drop_class_LB_pts": 0.014
+   }
+  },
+  "all_shift_classes": {
+   "n_pairs": 12971,
+   "n_s1": 10669,
+   "share_France_S1": 0.04112,
+   "oracle_gain_if_ALL_decoy_France_pts": 1.354,
+   "oracle_gain_if_ALL_decoy_LB_pts": 0.2027,
+   "f=0.04": {
+    "oracle_France_pts": 0.054,
+    "oracle_LB_pts": 0.0081,
+    "drop_class_France_pts": -0.585,
+    "drop_class_LB_pts": -0.0876
+   },
+   "f=0.2": {
+    "oracle_France_pts": 0.271,
+    "oracle_LB_pts": 0.0405,
+    "drop_class_France_pts": -0.262,
+    "drop_class_LB_pts": -0.0392
+   },
+   "f=0.35": {
+    "oracle_France_pts": 0.474,
+    "oracle_LB_pts": 0.0709,
+    "drop_class_France_pts": 0.041,
+    "drop_class_LB_pts": 0.0061
+   },
+   "f=0.5": {
+    "oracle_France_pts": 0.677,
+    "oracle_LB_pts": 0.1014,
+    "drop_class_France_pts": 0.344,
+    "drop_class_LB_pts": 0.0515
+   }
+  }
+ },
+ "France_examples": [
+  "pm1 p=0.914 nclaims=1 samename_other=0 sib=False | Figures Groupe SAS | 14 Rue Martin Saug\u00e8res Cazaux, La Teste-de-Buch, Nouvelle-Aquitaine  ->  Figures Groupe SA | 15 R. MARTIN SAUG\u00c8RES CAZAUX, LA TESTE-DE-BUCH",
+  "pm1 p=0.792 nclaims=1 samename_other=56 sib=False | Pornic Amicale SA | 38 Route de Saint Pere En Retz, Pornic, Pays de la Loire  ->  SAS Pornic Amicale | (39) ROUTE DE SAINT PERE EN RETZ, Pornic, Pays de la Loire",
+  "pm1 p=0.885 nclaims=1 samename_other=0 sib=False | Port Section SARL | 11 Boulevard Robert Badinter, Nantes, Pays de la Loire  ->  Port Section Sas | 12 BOULEVARD ROBERT BADINTER, NANTES",
+  "pm1 p=0.998 nclaims=1 samename_other=0 sib=False | IQD Ehpad SAS | 2 Rue des Secouristes, Lille, Hauts-de-France  ->  IQD  Ehpad | 1 Rue Des Secouristes, Lille",
+  "pm2 p=0.951 nclaims=1 samename_other=0 sib=False | Maison Truelle SAS | 47 Boulevard du Moulin de La Butte, Saint-Nazaire, Pays de la Loire  ->  Maison Truelle SASU | SAINT-NAZAIRE, Loire-Atlantique, 49 BOULEVARD DU MOULIN DE LA BUTTE",
+  "pm2 p=0.964 nclaims=1 samename_other=3 sib=False | Communale Pharmacie (France) SAS | 140 Rue la Fontaine, Calais, Hauts-de-France  ->  Communale Pharmacie (France) SAS France | (142) Rue La Fontaine, Calais",
+  "pm2 p=0.996 nclaims=1 samename_other=0 sib=False | 95 Petite Parents SARL | 8 Rue des Soeurs Blanches, Dunkerque, Hauts-de-France  ->  95 Petite Parents Sarl | 10 Rue Des Soeurs Blanches, Dunkerque, Nord",
+  "pm2 p=0.950 nclaims=1 samename_other=0 sib=False | QMK Musique SARL | Pays de la Loire, Saint-Herblain, 6 Avenue des Hirondelles  ->  qmk musique sa | 8 AV. DES HIRONDELNES, SAINT-HERBLAIN, Loire-Atlantique",
+  "odd3_10 p=0.959 nclaims=1 samename_other=0 sib=False | Sauveur (France) Club EURL | Tourcoing, 213 RUE de Fleurus, Hauts-de-France  ->  Sauveur (France) Club France EURL | 220 RUE DE FLEUUS, TOURCOING, Hauts-de-France",
+  "odd3_10 p=0.954 nclaims=1 samename_other=0 sib=False | Case (France) Parents SAS | 35 Rue de Trignac, Saint-Nazaire, Pays de la Loire  ->  Case (France) Parents France SAS | 40 R DE TIGNAC, SAINT-NAZAIRE",
+  "odd3_10 p=0.972 nclaims=1 samename_other=0 sib=False | Centre M\u00e9dical de Bibliotheque | 140 Boulevard Jules Verne, Nantes, Pays de la Loire  ->  Centre M\u00e9dical De Bibliotheque | 133 Bd. Jules Verne, Nantes",
+  "odd3_10 p=0.952 nclaims=1 samename_other=0 sib=False | Recherche (France) Service SARL | 44 Rue d'Austerlitz, Tourcoing, Hauts-de-France  ->  Recherche (France) Service France SARL | 53 Rue D'austerlitz, Tourcoing"
+ ],
+ "V1_labelled": {
+  "US": {
+   "pm1": {
+    "n_all": 384,
+    "n_hard": 245,
+    "n_pos": 101,
+    "p_match_hard": 0.4122,
+    "p_match_all": 0.263,
+    "n_acc": 91,
+    "prec": 0.967,
+    "FP": 3,
+    "FN": 13
+   },
+   "pm2": {
+    "n_all": 401,
+    "n_hard": 247,
+    "n_pos": 90,
+    "p_match_hard": 0.3644,
+    "p_match_all": 0.2244,
+    "n_acc": 82,
+    "prec": 0.9512,
+    "FP": 4,
+    "FN": 12
+   },
+   "odd3_10": {
+    "n_all": 598,
+    "n_hard": 305,
+    "n_pos": 14,
+    "p_match_hard": 0.0459,
+    "p_match_all": 0.0234,
+    "n_acc": 11,
+    "prec": 1.0,
+    "FP": 0,
+    "FN": 3
+   },
+   "even3_10": {
+    "n_all": 109,
+    "n_hard": 64,
+    "n_pos": 10,
+    "p_match_hard": 0.1562,
+    "p_match_all": 0.0917,
+    "n_acc": 8,
+    "prec": 1.0,
+    "FP": 0,
+    "FN": 2
+   },
+   "digsub": {
+    "n_all": 897,
+    "n_hard": 524,
+    "n_pos": 174,
+    "p_match_hard": 0.3321,
+    "p_match_all": 0.194,
+    "n_acc": 164,
+    "prec": 0.9878,
+    "FP": 2,
+    "FN": 12
+   },
+   "odd_gt10": {
+    "n_all": 1156,
+    "n_hard": 588,
+    "n_pos": 167,
+    "p_match_hard": 0.284,
+    "p_match_all": 0.1445,
+    "n_acc": 147,
+    "prec": 0.9932,
+    "FP": 1,
+    "FN": 21
+   },
+   "even_gt10": {
+    "n_all": 384,
+    "n_hard": 284,
+    "n_pos": 250,
+    "p_match_hard": 0.8803,
+    "p_match_all": 0.651,
+    "n_acc": 238,
+    "prec": 0.9916,
+    "FP": 2,
+    "FN": 14
+   },
+   "digindel": {
+    "n_all": 894,
+    "n_hard": 878,
+    "n_pos": 845,
+    "p_match_hard": 0.9624,
+    "p_match_all": 0.9452,
+    "n_acc": 831,
+    "prec": 0.9952,
+    "FP": 4,
+    "FN": 18
+   },
+   "perm": {
+    "n_all": 32,
+    "n_hard": 21,
+    "n_pos": 2,
+    "p_match_hard": 0.0952,
+    "p_match_all": 0.0625,
+    "n_acc": 2,
+    "prec": 1.0,
+    "FP": 0,
+    "FN": 0
+   },
+   "SAME": {
+    "n_all": 16599,
+    "n_hard": 16593,
+    "n_pos": 16584,
+    "p_match_hard": 0.9995,
+    "p_match_all": 0.9991,
+    "n_acc": 16576,
+    "prec": 1.0,
+    "FP": 0,
+    "FN": 8
+   }
+  },
+  "US_total_shift": {
+   "n_V1_S1": 12039,
+   "FP": 16,
+   "FN": 95,
+   "n_acc": 1574,
+   "FP_per_1k_S1": 1.329
+  },
+  "US_rate_shift_of_accepted": 0.039,
+  "India": {
+   "pm1": {
+    "n_all": 12,
+    "n_hard": 8,
+    "n_pos": 8,
+    "p_match_hard": 1.0,
+    "p_match_all": 0.6667,
+    "n_acc": 8,
+    "prec": 1.0,
+    "FP": 0,
+    "FN": 0
+   },
+   "pm2": {
+    "n_all": 13,
+    "n_hard": 13,
+    "n_pos": 12,
+    "p_match_hard": 0.9231,
+    "p_match_all": 0.9231,
+    "n_acc": 11,
+    "prec": 1.0,
+    "FP": 0,
+    "FN": 1
+   },
+   "odd3_10": {
+    "n_all": 11,
+    "n_hard": 2,
+    "n_pos": 1,
+    "p_match_hard": 0.5,
+    "p_match_all": 0.0909,
+    "n_acc": 1,
+    "prec": 1.0,
+    "FP": 0,
+    "FN": 0
+   },
+   "even3_10": {
+    "n_all": 0,
+    "n_hard": 0,
+    "n_pos": 0,
+    "p_match_hard": null,
+    "p_match_all": null,
+    "n_acc": 0,
+    "prec": null,
+    "FP": 0,
+    "FN": 0
+   },
+   "digsub": {
+    "n_all": 25,
+    "n_hard": 15,
+    "n_pos": 12,
+    "p_match_hard": 0.8,
+    "p_match_all": 0.48,
+    "n_acc": 12,
+    "prec": 1.0,
+    "FP": 0,
+    "FN": 0
+   },
+   "odd_gt10": {
+    "n_all": 16,
+    "n_hard": 9,
+    "n_pos": 9,
+    "p_match_hard": 1.0,
+    "p_match_all": 0.5625,
+    "n_acc": 9,
+    "prec": 1.0,
+    "FP": 0,
+    "FN": 0
+   },
+   "even_gt10": {
+    "n_all": 17,
+    "n_hard": 16,
+    "n_pos": 16,
+    "p_match_hard": 1.0,
+    "p_match_all": 0.9412,
+    "n_acc": 16,
+    "prec": 1.0,
+    "FP": 0,
+    "FN": 0
+   },
+   "digindel": {
+    "n_all": 39,
+    "n_hard": 38,
+    "n_pos": 37,
+    "p_match_hard": 0.9737,
+    "p_match_all": 0.9487,
+    "n_acc": 37,
+    "prec": 1.0,
+    "FP": 0,
+    "FN": 0
+   },
+   "perm": {
+    "n_all": 1,
+    "n_hard": 0,
+    "n_pos": 0,
+    "p_match_hard": null,
+    "p_match_all": 0.0,
+    "n_acc": 0,
+    "prec": null,
+    "FP": 0,
+    "FN": 0
+   },
+   "SAME": {
+    "n_all": 1164,
+    "n_hard": 1141,
+    "n_pos": 1133,
+    "p_match_hard": 0.993,
+    "p_match_all": 0.9734,
+    "n_acc": 1131,
+    "prec": 1.0,
+    "FP": 0,
+    "FN": 2
+   }
+  },
+  "India_total_shift": {
+   "n_V1_S1": 7961,
+   "FP": 0,
+   "FN": 1,
+   "n_acc": 94,
+   "FP_per_1k_S1": 0.0
+  },
+  "India_rate_shift_of_accepted": 0.00348
+ },
+ "V1_US_examples": [
+  "pm1 y=0 p=0.012 acc=False sib=False | Amity Britton Safe Hall | 18253 320th Street, Mason City, IA -> AMITY BRITTON SAFE HALL CO | Iowa, 18254 1/2 320th St, Mason Citty  || owner: NONE (unlinked distractor)",
+  "pm2 y=0 p=0.027 acc=False sib=False | Castillo, Haynes & Diaz Center | 2235 74D Avenue, Parshall, ND -> Castillo, Haynes & Diaz Center Ltd. | 2237 74D Avenue, Parshall, North Dakota  || owner: NONE (unlinked distractor)",
+  "pm1 y=0 p=0.004 acc=False sib=False | Mamie's Partners | 28213 Walnut Hill Drive, Hockley, TX -> Mamie's LLC Partners | 28214 Walnut Hill Drive, Hockley, Texas  || owner: NONE (unlinked distractor)",
+  "pm1 y=0 p=0.052 acc=False sib=False | Delta League | 45 Cathedral Vista Drive, Sedona, AZ -> Delta League LLC | 46 Cathedral Vista Drive, Arizona, Sedona  || owner: NONE (unlinked distractor)",
+  "pm1 y=0 p=0.054 acc=False sib=False | Brothers, Barbara-Anne, D.C., P.C. | 44 Evergreen Terrace, Uniontown City, PA -> Brothers, Barbara-Anne, D.C., P.C. Inc | UNIONTOWN, PA, 45 EVERGREEN TER  || owner: NONE (unlinked distractor)",
+  "pm2 y=0 p=0.039 acc=False sib=False | Bright Grill! | 1023 Shore Drive, Town Of Washington, WI -> Bright Grill! Co | 1025- Shore Drive, Wisconsin, Town Of Washington  || owner: NONE (unlinked distractor)",
+  "ACCEPTED-FP even_gt10 p=0.843 sib=False | Kemaix | 239 Cross Road, Unit 215, Dartmouth, MA -> ... Kemaix (Inc) | DARTMOUTH, MA, 25 CROSS ROAD  || owner: NONE",
+  "ACCEPTED-FP pm2 p=0.921 sib=False | B G Covarrubias King Inc. | Carthage, NC, 139 Bessie Road -> Inc. B G Covarrubias King | 141 Bessie Rd, <NULL>, Carthage, North Carolina  || owner: NONE",
+  "ACCEPTED-FP digindel p=0.829 sib=False | Katee Bush, DDS, M.D., P.C. | 156 Promiseland Road, Canton, NC -> Katee Bush, DDS, M.D., P.C. Corp | 15 PROMISELAND ROAD, CANTON, NC  || owner: NONE",
+  "ACCEPTED-FP pm1 p=0.813 sib=False | Austin, Adina K., M.D. | 211 Holly Circle, Taos, NM -> Austin, Adina K., M.D. Inc | ##212 HOLLY CIR, TAOS, NM  || owner: NONE",
+  "ACCEPTED-FP digsub p=0.929 sib=False | Dodyne Inc. | 2383 Mock Road, Mansfield, OH -> Dodyne Inc. | 2387 MOCK ROAD, MANSFIELD, OH  || owner: NONE",
+  "ACCEPTED-FP digindel p=0.877 sib=False | Audry Webb Tavia Company | 903 Rushcreek Road, Galloway, OH -> Audry Webb Tavia LLC | 90 Rushcreek Road, Galloway, Ohio  || owner: NONE",
+  "ACCEPTED-FP pm1 p=0.928 sib=False | Kasey Melo Defense Inc. | 1887 Pinewood Drive, Logan Township, PA -> Kasey Melo Defense Inc | 1888 PINEWOOD DR, LOGAN TOWNSHIP, PA  || owner: NONE",
+  "ACCEPTED-FP pm2 p=0.936 sib=False | All Commercial Holdings | 51 Newton Street, Lawrence, MA -> All Commercial Holdings | 53 Newton Street, Lawrence, Massachusetts  || owner: NONE",
+  "ACCEPTED-FP odd_gt10 p=0.964 sib=False | Turner and Edwards Inc. | 4916 Dallas Pike, Valley Grove, WV -> Turner and Edwards Inc. | 04937 Dallas Pike, Triadelhia, West Virginia  || owner: NONE",
+  "ACCEPTED-FP pm1 p=0.989 sib=False | Value Apex Systems | Merced, CA, 646 Cartmell Drive -> Value Apex Systems Corp | 647-B Cartmell Dr, California, Merced  || owner: NONE",
+  "ACCEPTED-FP digsub p=0.878 sib=False | Family Group of Norfolk City | 500 Culpepper Street, Norfolk City, VA -> Family Group of Norfolk City | 504 Culpepper Street, Norfolk, Virginia  || owner: NONE",
+  "ACCEPTED-FP digindel p=0.944 sib=False | Empire Society | 503 Davis Street, Luling, TX -> Empire Society Co | 50 Davis St, Luling, Texas  || owner: NONE",
+  "ACCEPTED-FP pm2 p=0.989 sib=False | Mcandrew, Vivianne, MD | 124 Prospect Road, Chesterfield, NY -> Mcandrew, Vivianne, MD Co | #126 PROSPECT ROAD, KEESEVILLE, NY  || owner: NONE",
+  "ACCEPTED-FP digindel p=0.909 sib=False | Nanci Burkett Global Fresenius-Cleveland | 10608 Dove Avenue, Cleveland, OH -> Nanci Burkett Global Fresenius-Cleveland Inc | 1060 DOVE AVENUE, CLEVELAND, OH  || owner: NONE",
+  "ACCEPTED-FP pm2 p=0.990 sib=False | Toscano Blue Coffee L.L.C. | 212 Park Street, Unit Apt 3, Heber Springs, AR -> Toscano Blue Coffee (L.L.C.) | 214- PARK ST, HEBER SPRINGS, AR  || owner: NONE",
+  "ACCEPTED-FP even_gt10 p=0.849 sib=False | Beth Community Church | 129 Devine Street, Stanley, NC -> Beth Community Church Co | 13 DEVINE STREET, STANLEY TOWNSHIP, NC  || owner: NONE"
+ ],
+ "V1_negative_sources": {
+  "US": {
+   "n_hard": 3156,
+   "n_neg": 1503,
+   "neg_owned_by_other_S1": 0.0146,
+   "neg_owner_samecore": 0.0126,
+   "neg_owner_samecore_samenum": 0.0086,
+   "neg_unowned_distractor": 0.9854,
+   "P_match_given_sib_exact": 0.0,
+   "n_sib_exact": 13,
+   "P_match_given_no_sib": 0.5259,
+   "n_no_sib": 3143,
+   "share_any_samename_S1": 0.5098,
+   "share_sib_exact": 0.0041
+  },
+  "India": {
+   "n_hard": 101,
+   "n_neg": 6,
+   "neg_owned_by_other_S1": 0.0,
+   "neg_owner_samecore": 0.0,
+   "neg_owner_samecore_samenum": 0.0,
+   "neg_unowned_distractor": 1.0,
+   "P_match_given_sib_exact": null,
+   "n_sib_exact": 0,
+   "P_match_given_no_sib": 0.9406,
+   "n_no_sib": 101,
+   "share_any_samename_S1": 0.5149,
+   "share_sib_exact": 0.0
+  }
+ },
+ "shape_calibration_V1": {
+  "US": {
+   "REP_p1": 0.2088,
+   "ADD_p1": 0.1353,
+   "all_accepted_TP": {
+    "n": 20806,
+    "p1": 0.4043,
+    "f_p1": -2.66,
+    "se": 0.05,
+    "true_FP_frac": 0.0
+   },
+   "all_accepted_FP": {
+    "n": 89,
+    "p1": 0.1573,
+    "f_p1": 0.7,
+    "se": 0.53,
+    "true_FP_frac": 1.0
+   },
+   "shift_all_accepted": {
+    "n": 1168,
+    "p1": 0.3125,
+    "f_p1": -1.41,
+    "se": 0.18,
+    "true_FP_frac": 0.0102
+   },
+   "shift_TP_only": {
+    "n": 1152,
+    "p1": 0.3142,
+    "f_p1": -1.44,
+    "se": 0.19,
+    "true_FP_frac": 0.0
+   },
+   "pm1+pm2+odd3_10_accepted": {
+    "n": 145,
+    "p1": 0.3862,
+    "f_p1": -2.42,
+    "se": 0.55,
+    "true_FP_frac": 0.038
+   },
+   "pm1+pm2+odd3_10_TP_only": {
+    "n": 138,
+    "p1": 0.3986,
+    "f_p1": -2.58,
+    "se": 0.57,
+    "true_FP_frac": 0.0
+   },
+   "SAME_TP": {
+    "n": 11760,
+    "p1": 0.3003,
+    "f_p1": -1.25,
+    "se": 0.06,
+    "true_FP_frac": 0.0
+   }
+  },
+  "India": {
+   "REP_p1": 0.2043,
+   "ADD_p1": 0.1319,
+   "all_accepted_TP": {
+    "n": 13804,
+    "p1": 0.3981,
+    "f_p1": -2.68,
+    "se": 0.06,
+    "true_FP_frac": 0.0
+   },
+   "all_accepted_FP": {
+    "n": 73,
+    "p1": 0.2466,
+    "f_p1": -0.58,
+    "se": 0.7,
+    "true_FP_frac": 1.0
+   },
+   "shift_all_accepted": {
+    "n": 73,
+    "p1": 0.2877,
+    "f_p1": -1.15,
+    "se": 0.73,
+    "true_FP_frac": 0.0
+   },
+   "shift_TP_only": {
+    "n": 73,
+    "p1": 0.2877,
+    "f_p1": -1.15,
+    "se": 0.73,
+    "true_FP_frac": 0.0
+   },
+   "pm1+pm2+odd3_10_accepted": {
+    "n": 14,
+    "p1": 0.3571,
+    "f_p1": -2.11,
+    "se": 1.77,
+    "true_FP_frac": 0.0
+   },
+   "pm1+pm2+odd3_10_TP_only": {
+    "n": 14,
+    "p1": 0.3571,
+    "f_p1": -2.11,
+    "se": 1.77,
+    "true_FP_frac": 0.0
+   },
+   "SAME_TP": {
+    "n": 846,
+    "p1": 0.2518,
+    "f_p1": -0.66,
+    "se": 0.21,
+    "true_FP_frac": 0.0
+   }
+  }
+ }
+}

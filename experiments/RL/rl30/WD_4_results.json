@@ -1,0 +1,1907 @@
+{
+ "meta": {
+  "FR": {
+   "n_chunks": 173,
+   "n_pool_rows": 33180559,
+   "n_s1": 259452,
+   "n_same_addr": 1574022
+  },
+  "US": {
+   "n_chunks": 111,
+   "n_pool_rows": 20604701,
+   "n_s1": 166500,
+   "n_same_addr": 520318
+  },
+  "IN": {
+   "n_chunks": 135,
+   "n_pool_rows": 26132862,
+   "n_s1": 202500,
+   "n_same_addr": 460991
+  },
+  "TRAIN_V1": {
+   "n_pool_rows": 2550505,
+   "n_s1": 20000,
+   "n_same_addr": 59489,
+   "n_pos_pool": 69232,
+   "n_s1_by_country": {
+    "India": 7961,
+    "US": 12039
+   }
+  },
+  "TRAIN_T0": {
+   "n_pool_rows": 254226,
+   "n_s1": 1994,
+   "n_same_addr": 6145,
+   "n_pos_pool": 6918,
+   "n_s1_by_country": {
+    "India": 797,
+    "US": 1197
+   }
+  },
+  "TRAIN_E014": {
+   "n_pool_rows": 1276137,
+   "n_s1": 10000,
+   "n_same_addr": 29501,
+   "n_pos_pool": 34447,
+   "n_s1_by_country": {
+    "India": 4008,
+    "US": 5992
+   }
+  },
+  "TRAIN_T2X": {
+   "n_pool_rows": 5099574,
+   "n_s1": 40000,
+   "n_same_addr": 120230,
+   "n_pos_pool": 138355,
+   "n_s1_by_country": {
+    "India": 16156,
+    "US": 23844
+   }
+  }
+ },
+ "test_France": {
+  "n_same_addr": 1574022,
+  "n_s1": 259452,
+  "kind_share": {
+   "OTHER": 0.4915,
+   "SAME": 0.3783,
+   "SWAP1": 0.1033,
+   "DROP1": 0.0133,
+   "ADD1": 0.0118,
+   "EMPTY": 0.0018
+  },
+  "by_class": [
+   [
+    "ADD1",
+    "filler",
+    13608,
+    0.74904,
+    0.7489,
+    524.49008
+   ],
+   [
+    "ADD1",
+    "rare_or_garble",
+    4628,
+    0.98574,
+    0.98423,
+    178.37596
+   ],
+   [
+    "ADD1",
+    "vocab_nonfiller",
+    272,
+    0.60294,
+    0.58824,
+    10.48363
+   ],
+   [
+    "SWAP1",
+    "filler",
+    74392,
+    0.72032,
+    0.71805,
+    2867.2741
+   ],
+   [
+    "SWAP1",
+    "rare_or_garble",
+    22004,
+    0.60512,
+    0.59721,
+    848.09522
+   ],
+   [
+    "SWAP1",
+    "vocab_nonfiller",
+    66185,
+    0.26365,
+    0.25666,
+    2550.95355
+   ]
+  ],
+  "selected_tokens": [
+   [
+    "associes",
+    25,
+    1486,
+    1436,
+    5512,
+    4480,
+    59.44,
+    0.9664,
+    0.8128
+   ],
+   [
+    "maison",
+    10839,
+    1,
+    0,
+    1047,
+    154,
+    0.0001,
+    0.0,
+    0.1471
+   ],
+   [
+    "pharmacie",
+    5962,
+    0,
+    0,
+    1025,
+    9,
+    0.0,
+    0.0,
+    0.0088
+   ],
+   [
+    "club",
+    22672,
+    2,
+    0,
+    4958,
+    1810,
+    0.0001,
+    0.0,
+    0.3651
+   ],
+   [
+    "union",
+    8630,
+    0,
+    0,
+    1506,
+    197,
+    0.0,
+    0.0,
+    0.1308
+   ],
+   [
+    "centre",
+    10518,
+    2,
+    0,
+    1764,
+    1083,
+    0.0002,
+    0.0,
+    0.6139
+   ],
+   [
+    "france",
+    20793,
+    1513,
+    1066,
+    5124,
+    1527,
+    0.0728,
+    0.7046,
+    0.298
+   ],
+   [
+    "societe",
+    4084,
+    0,
+    0,
+    1331,
+    818,
+    0.0,
+    0.0,
+    0.6146
+   ],
+   [
+    "developpement",
+    815,
+    1486,
+    1101,
+    5441,
+    1267,
+    1.8233,
+    0.7409,
+    0.2329
+   ],
+   [
+    "amicale",
+    14389,
+    0,
+    0,
+    3150,
+    1033,
+    0.0,
+    0.0,
+    0.3279
+   ],
+   [
+    "amis",
+    6915,
+    0,
+    0,
+    1974,
+    1113,
+    0.0,
+    0.0,
+    0.5638
+   ],
+   [
+    "fils",
+    5095,
+    2752,
+    2071,
+    10924,
+    6919,
+    0.5401,
+    0.7525,
+    0.6334
+   ],
+   [
+    "association",
+    4008,
+    76,
+    76,
+    50,
+    1,
+    0.019,
+    1.0,
+    0.02
+   ],
+   [
+    "federation",
+    6670,
+    69,
+    69,
+    866,
+    397,
+    0.0103,
+    1.0,
+    0.4584
+   ],
+   [
+    "cie",
+    5680,
+    1347,
+    1344,
+    6208,
+    5587,
+    0.2371,
+    0.9978,
+    0.9
+   ],
+   [
+    "ecole",
+    15668,
+    0,
+    0,
+    3170,
+    548,
+    0.0,
+    0.0,
+    0.1729
+   ],
+   [
+    "comite",
+    13832,
+    1,
+    0,
+    2882,
+    1702,
+    0.0001,
+    0.0,
+    0.5906
+   ],
+   [
+    "services",
+    1229,
+    1496,
+    1480,
+    5861,
+    5508,
+    1.2172,
+    0.9893,
+    0.9398
+   ],
+   [
+    "compagnie",
+    3514,
+    0,
+    0,
+    1867,
+    1440,
+    0.0,
+    0.0,
+    0.7713
+   ],
+   [
+    "sportive",
+    8234,
+    1,
+    0,
+    2223,
+    103,
+    0.0001,
+    0.0,
+    0.0463
+   ]
+  ],
+  "n_filler_tokens": 27,
+  "fillers_top": [
+   [
+    "fils",
+    5095,
+    2752,
+    0.5401,
+    0.7525
+   ],
+   [
+    "groupe",
+    2072,
+    1514,
+    0.7307,
+    0.0264
+   ],
+   [
+    "france",
+    20793,
+    1513,
+    0.0728,
+    0.7046
+   ],
+   [
+    "services",
+    1229,
+    1496,
+    1.2172,
+    0.9893
+   ],
+   [
+    "developpement",
+    815,
+    1486,
+    1.8233,
+    0.7409
+   ],
+   [
+    "associes",
+    25,
+    1486,
+    59.44,
+    0.9664
+   ],
+   [
+    "cie",
+    5680,
+    1347,
+    0.2371,
+    0.9978
+   ],
+   [
+    "5arl",
+    0,
+    401,
+    401.0,
+    0.995
+   ],
+   [
+    "5as",
+    0,
+    262,
+    262.0,
+    0.9885
+   ],
+   [
+    "society",
+    5,
+    96,
+    19.2,
+    1.0
+   ],
+   [
+    "com",
+    18,
+    95,
+    5.2778,
+    0.9263
+   ],
+   [
+    "trust",
+    4,
+    95,
+    23.75,
+    0.9789
+   ],
+   [
+    "authority",
+    0,
+    95,
+    95.0,
+    1.0
+   ],
+   [
+    "board",
+    2,
+    95,
+    47.5,
+    1.0
+   ],
+   [
+    "distribution",
+    64,
+    93,
+    1.4531,
+    0.0
+   ],
+   [
+    "foundation",
+    3,
+    91,
+    30.3333,
+    1.0
+   ],
+   [
+    "participations",
+    1,
+    91,
+    91.0,
+    0.022
+   ],
+   [
+    "district",
+    43,
+    90,
+    2.093,
+    0.9778
+   ],
+   [
+    "holding",
+    17,
+    84,
+    4.9412,
+    0.0
+   ],
+   [
+    "commission",
+    28,
+    82,
+    2.9286,
+    0.9878
+   ],
+   [
+    "international",
+    203,
+    73,
+    0.3596,
+    0.0
+   ],
+   [
+    "council",
+    2,
+    73,
+    36.5,
+    1.0
+   ],
+   [
+    "5a",
+    1,
+    67,
+    67.0,
+    0.9701
+   ],
+   [
+    "5asu",
+    0,
+    52,
+    52.0,
+    1.0
+   ],
+   [
+    "scl",
+    0,
+    30,
+    30.0,
+    1.0
+   ]
+  ],
+  "nonfiller_vocab_pool_add_total": 221,
+  "nonfiller_vocab_acc_add_total": 149,
+  "nonfiller_vocab_pool_swapto_total": 58840,
+  "nonfiller_vocab_acc_swapto_total": 16388
+ },
+ "France_pool_business_add_examples": [
+  "acc=True p=0.9991013652471005 | UGJ College SCI | 21 Avenue des Dunes, La Teste-de-Buch, Nouvelle-Aquitaine  ->  UGJ COLLEGE-SCI ASSOCIATION | NO 21 AVENUE DES DUNES, LA TESTE-DE-BUCH",
+  "acc=True p=0.9999657999530416 | F\u00e9d\u00e9ration des Reunis | Nouvelle-Aquitaine, 55 Rue Jules Verne, Bordeaux  ->  F\u00e9d\u00e9ration  des Reunis Association | 55 RUE JULES VERNE, BORDEAUX, Nouvelle-Aquitaine",
+  "acc=True p=0.9999623007533088 | Club des Promotion | 4 All\u00e9e Miles Davis, Saint-Nazaire, Pays de la Loire  ->  Club des Promotion [Association] | 4 ALL\u00c9E MILES DAVIS, SAINT-NAZAIRE, Pays de la Loire",
+  "acc=True p=0.9997741523499104 | F\u00e9d\u00e9ration des Danserien | 145 Avenue du Docteur Nancel P\u00e9nard, Pessac, Nouvelle-Aquitaine  ->  F\u00e9d\u00e9ration-des Danserien Association | 145 Avenue Du Docteur Nancel P\u00e9nard, Pessac, Gironde",
+  "acc=True p=0.9998525850145327 | Club du Ne | 17 Rue Saint-Georges, La Teste-de-Buch, Nouvelle-Aquitaine  ->  Club du Ne Federation | 17 R. SAINT-GEORGES, LA TESTE-DE-BUCH, Nouvelle-Aquitaine",
+  "acc=True p=0.999876767958412 | Association de Publique | 18 Rue Jean Paul Sartre, Calais, Hauts-de-France  ->  Association de Publique Federation | 18 RUE JEAN PAUL SATRRE, CALAIS, Hauts-de-France",
+  "acc=True p=0.9998675204711313 | Union des Fraternite | 6 Boulevard des Cretes, La Teste-de-Buch, Nouvelle-Aquitaine  ->  Union des Fraternite Association | #6 Boulevard Des Cretes, La Teste-de-buch, Nouvelle-Aquitaine",
+  "acc=True p=0.9999377795491003 | Dautonomie Petanque College SASU | 50 Rue Bouqui\u00e8re, Bordeaux, Nouvelle-Aquitaine  ->  Dautonomie Petanque College SASU Association | 50 Rue Bouqui\u00e8re, Bordeaux",
+  "acc=True p=0.9998264048546326 | Amicale de Paco | 9 Avenue des Ch\u00eanes, Saint-Nazaire, Pays de la Loire  ->  Amicale de Paco Association | 9 AVENUE DES CH\u00caES, SAINT-NAZAIRE, Loire-Atlantique",
+  "acc=True p=0.9995945449041546 | Union du Studio | 66 Rue Simone de Beauvoir, Pessac, Nouvelle-Aquitaine  ->  Union du Studio Association | NO 66 RUE SIMOTE DE BEAUVOIR, PESSAC, Gironde",
+  "acc=True p=0.9997912098674855 | F\u00e9d\u00e9ration de Espoir | 5 Rue Fran\u00e7ois Mauriac, Pornic, Pays de la Loire  ->  F\u00e9d\u00e9ration de Espoir Association | 5 RUE FRAN\u00c7OIS MAURIAC, PORNIC, Loire-Atlantique",
+  "acc=True p=0.999632324312661 | Club de Marathon | 18 BIS Rue Victor Allard, Lille, Hauts-de-France  ->  Club de Marathon Association | 18 Bis Rue Victor Allard, Lille, Nord"
+ ],
+ "France_pool_vocab_swap_REJECTED_examples": [
+  "p=nan | Lille Anciens SARL | 72 74 RUE Royale, Hauts-de-France, Lille, Maison des Associations  ->  FIL ANCIENS | 72-74 R ROYALE, LILLE",
+  "p=nan | Pas Culture SARL | 13 Rue Jean Jacques Rousseau, Nantes, Pays de la Loire  ->  Pas Amis Sarl | 13 Rue Jean Jacques Rousseau, Nantes",
+  "p=nan | Union du Collective | RUE du 11 Novembre 1918, Maison de la Vie Associative, Dunkerque, Hauts-de-France  ->  Union du  Mille | R. Du 11 Novembre 1918, Dunkerque, Hauts-de-France",
+  "p=nan | Ski Eau | 182 Rue Malbec, Bordeaux, Nouvelle-Aquitaine  ->  Ski Sante | 182 R Malbce, Bordeaux",
+  "p=nan | Comit\u00e9 de Ass | 100 RUE de Lille, Tourcoing, Hauts-de-France  ->  Comite Pierre | 100 R DE LILLE, TOURCOING",
+  "p=nan | Bordeaux Club EI | 124 Rue de Belfort, Bordeaux, Nouvelle-Aquitaine  ->  Bordeaux  Union EI | 124 R De Belfort, Bordeaux, Nouvelle-Aquitaine",
+  "p=nan | Lille Culturelle SARL | 12 RUE Lyderic, Lille, Hauts-de-France  ->  lille centre sarl | 12 R. Lyderic, Lille, Nord",
+  "p=nan | YT Club SARL | 52 Rue du 8 Mai 1945, Lille, Hauts-de-France  ->  Lille Club | 52 Rue Du 8 Mai 1945, Lille, Hauts-de-France",
+  "p=nan | Club des Fenouil | 27 RUE Jean Bart, Maison des Associations, Lille, Hauts-de-France  ->  Club du Departementale | 27 RUE JEAN BART, 59280, LILLE",
+  "p=nan | Classe Theatre SARL | 16 Rue Jean Noel Dubout, Hauts-de-France, Calais  ->  Classe Lycee | 16 RUE JEAN NOEL DUBOUT, CALAIS, Hauts-de-France"
+ ],
+ "test_US": {
+  "n_same_addr": 520318,
+  "n_s1": 166500,
+  "kind_share": {
+   "SAME": 0.5223,
+   "OTHER": 0.2901,
+   "SWAP1": 0.0991,
+   "DROP1": 0.0505,
+   "ADD1": 0.0371,
+   "EMPTY": 0.0009
+  },
+  "by_class": [
+   [
+    "ADD1",
+    "filler",
+    11973,
+    0.95014,
+    0.95014,
+    719.0991
+   ],
+   [
+    "ADD1",
+    "rare_or_garble",
+    6860,
+    0.99563,
+    0.99563,
+    412.01201
+   ],
+   [
+    "ADD1",
+    "vocab_nonfiller",
+    470,
+    0.15532,
+    0.15532,
+    28.22823
+   ],
+   [
+    "SWAP1",
+    "filler",
+    30759,
+    0.99291,
+    0.99291,
+    1847.38739
+   ],
+   [
+    "SWAP1",
+    "rare_or_garble",
+    17271,
+    0.83348,
+    0.83342,
+    1037.2973
+   ],
+   [
+    "SWAP1",
+    "vocab_nonfiller",
+    3511,
+    0.1558,
+    0.15551,
+    210.87087
+   ]
+  ],
+  "selected_tokens": [
+   [
+    "association",
+    2825,
+    138,
+    138,
+    3,
+    0,
+    0.0488,
+    1.0,
+    0.0
+   ],
+   [
+    "federation",
+    1882,
+    186,
+    186,
+    6,
+    0,
+    0.0988,
+    1.0,
+    0.0
+   ],
+   [
+    "cie",
+    0,
+    0,
+    0,
+    5,
+    5,
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    "services",
+    3614,
+    1462,
+    1460,
+    6880,
+    6843,
+    0.4045,
+    0.9986,
+    0.9946
+   ]
+  ],
+  "n_filler_tokens": 40,
+  "fillers_top": [
+   [
+    "incorporated",
+    3,
+    3494,
+    1164.6667,
+    0.996
+   ],
+   [
+    "center",
+    15977,
+    2067,
+    0.1294,
+    0.9976
+   ],
+   [
+    "services",
+    3614,
+    1462,
+    0.4045,
+    0.9986
+   ],
+   [
+    "com",
+    0,
+    695,
+    695.0,
+    0.9986
+   ],
+   [
+    "partners",
+    14857,
+    690,
+    0.0464,
+    0.7826
+   ],
+   [
+    "service",
+    2119,
+    680,
+    0.3209,
+    1.0
+   ],
+   [
+    "lnc",
+    0,
+    412,
+    412.0,
+    1.0
+   ],
+   [
+    "authority",
+    0,
+    191,
+    191.0,
+    0.9948
+   ],
+   [
+    "federation",
+    1882,
+    186,
+    0.0988,
+    1.0
+   ],
+   [
+    "district",
+    9,
+    175,
+    19.4444,
+    1.0
+   ],
+   [
+    "trust",
+    2924,
+    175,
+    0.0598,
+    1.0
+   ],
+   [
+    "foundation",
+    1881,
+    169,
+    0.0898,
+    0.9941
+   ],
+   [
+    "society",
+    1885,
+    168,
+    0.0891,
+    1.0
+   ],
+   [
+    "commission",
+    806,
+    155,
+    0.1923,
+    1.0
+   ],
+   [
+    "board",
+    821,
+    155,
+    0.1888,
+    1.0
+   ],
+   [
+    "council",
+    2014,
+    154,
+    0.0765,
+    0.9935
+   ],
+   [
+    "association",
+    2825,
+    138,
+    0.0488,
+    1.0
+   ],
+   [
+    "holdings",
+    4126,
+    132,
+    0.032,
+    0.0
+   ],
+   [
+    "l1c",
+    0,
+    66,
+    66.0,
+    0.9697
+   ],
+   [
+    "0f",
+    0,
+    47,
+    47.0,
+    1.0
+   ],
+   [
+    "lncorporated",
+    0,
+    42,
+    42.0,
+    1.0
+   ],
+   [
+    "c0rp",
+    0,
+    42,
+    42.0,
+    0.9762
+   ],
+   [
+    "md",
+    1479,
+    35,
+    0.0237,
+    1.0
+   ],
+   [
+    "c0rporation",
+    0,
+    33,
+    33.0,
+    1.0
+   ],
+   [
+    "central",
+    544,
+    32,
+    0.0588,
+    0.0
+   ]
+  ],
+  "nonfiller_vocab_pool_add_total": 444,
+  "nonfiller_vocab_acc_add_total": 51,
+  "nonfiller_vocab_pool_swapto_total": 1693,
+  "nonfiller_vocab_acc_swapto_total": 85
+ },
+ "test_India": {
+  "n_same_addr": 460991,
+  "n_s1": 202500,
+  "kind_share": {
+   "SAME": 0.3393,
+   "OTHER": 0.305,
+   "EMPTY": 0.1708,
+   "SWAP1": 0.0904,
+   "ADD1": 0.073,
+   "DROP1": 0.0216
+  },
+  "by_class": [
+   [
+    "ADD1",
+    "filler",
+    23149,
+    0.23768,
+    0.23763,
+    1143.16049
+   ],
+   [
+    "ADD1",
+    "rare_or_garble",
+    9579,
+    0.98726,
+    0.98726,
+    473.03704
+   ],
+   [
+    "ADD1",
+    "vocab_nonfiller",
+    917,
+    0.02508,
+    0.02399,
+    45.28395
+   ],
+   [
+    "SWAP1",
+    "filler",
+    22935,
+    0.91441,
+    0.91371,
+    1132.59259
+   ],
+   [
+    "SWAP1",
+    "rare_or_garble",
+    7515,
+    0.74637,
+    0.74544,
+    371.11111
+   ],
+   [
+    "SWAP1",
+    "vocab_nonfiller",
+    11208,
+    0.04818,
+    0.04773,
+    553.48148
+   ]
+  ],
+  "selected_tokens": [
+   [
+    "club",
+    254,
+    0,
+    0,
+    7,
+    0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    "centre",
+    3307,
+    2,
+    0,
+    15,
+    1,
+    0.0006,
+    0.0,
+    0.0667
+   ],
+   [
+    "association",
+    455,
+    0,
+    0,
+    11,
+    0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    "federation",
+    119,
+    0,
+    0,
+    3,
+    0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    "services",
+    22238,
+    1507,
+    1482,
+    4473,
+    3941,
+    0.0678,
+    0.9834,
+    0.8811
+   ]
+  ],
+  "n_filler_tokens": 48,
+  "fillers_top": [
+   [
+    "center",
+    3117,
+    2088,
+    0.6699,
+    0.9804
+   ],
+   [
+    "public",
+    6545,
+    2040,
+    0.3117,
+    0.0
+   ],
+   [
+    "enterprises",
+    11213,
+    1794,
+    0.16,
+    0.0017
+   ],
+   [
+    "infratech",
+    1044,
+    1752,
+    1.6782,
+    0.0
+   ],
+   [
+    "industries",
+    12050,
+    1742,
+    0.1446,
+    0.0
+   ],
+   [
+    "exports",
+    8015,
+    1708,
+    0.2131,
+    0.0006
+   ],
+   [
+    "ventures",
+    10500,
+    1689,
+    0.1609,
+    0.0006
+   ],
+   [
+    "overseas",
+    906,
+    1660,
+    1.8322,
+    0.0
+   ],
+   [
+    "holdings",
+    2694,
+    1531,
+    0.5683,
+    0.0
+   ],
+   [
+    "services",
+    22238,
+    1507,
+    0.0678,
+    0.9834
+   ],
+   [
+    "group",
+    8190,
+    1488,
+    0.1817,
+    0.0007
+   ],
+   [
+    "service",
+    689,
+    771,
+    1.119,
+    0.9741
+   ],
+   [
+    "partners",
+    5179,
+    586,
+    0.1131,
+    0.9863
+   ],
+   [
+    "motors",
+    471,
+    136,
+    0.2887,
+    0.0
+   ],
+   [
+    "jewellers",
+    293,
+    132,
+    0.4505,
+    0.0076
+   ],
+   [
+    "furniture",
+    131,
+    127,
+    0.9695,
+    0.0
+   ],
+   [
+    "general",
+    299,
+    125,
+    0.4181,
+    0.0
+   ],
+   [
+    "hotel",
+    3863,
+    119,
+    0.0308,
+    0.0
+   ],
+   [
+    "sweets",
+    30,
+    118,
+    3.9333,
+    0.0
+   ],
+   [
+    "garments",
+    342,
+    116,
+    0.3392,
+    0.0
+   ],
+   [
+    "automobiles",
+    250,
+    116,
+    0.464,
+    0.0
+   ],
+   [
+    "medicals",
+    32,
+    114,
+    3.5625,
+    0.0
+   ],
+   [
+    "agencies",
+    687,
+    112,
+    0.163,
+    0.0
+   ],
+   [
+    "provision",
+    9,
+    110,
+    12.2222,
+    0.0
+   ],
+   [
+    "com",
+    121,
+    109,
+    0.9008,
+    1.0
+   ]
+  ],
+  "nonfiller_vocab_pool_add_total": 877,
+  "nonfiller_vocab_acc_add_total": 2,
+  "nonfiller_vocab_pool_swapto_total": 8442,
+  "nonfiller_vocab_acc_swapto_total": 71
+ },
+ "train_pools": {
+  "US": {
+   "n_s1": 43072,
+   "by_class": [
+    [
+     "ADD1",
+     "filler",
+     1884,
+     1872,
+     0.99363,
+     437.40713
+    ],
+    [
+     "ADD1",
+     "rare_or_garble",
+     1826,
+     1790,
+     0.98028,
+     423.94131
+    ],
+    [
+     "ADD1",
+     "vocab_nonfiller",
+     1124,
+     1012,
+     0.90036,
+     260.9584
+    ],
+    [
+     "SWAP1",
+     "filler",
+     4846,
+     4824,
+     0.99546,
+     1125.09287
+    ],
+    [
+     "SWAP1",
+     "rare_or_garble",
+     4098,
+     3696,
+     0.9019,
+     951.43016
+    ],
+    [
+     "SWAP1",
+     "vocab_nonfiller",
+     3913,
+     3349,
+     0.85587,
+     908.47883
+    ]
+   ],
+   "fillers_top": [
+    [
+     "incorporated",
+     8,
+     902,
+     112.75,
+     0.9889
+    ],
+    [
+     "services",
+     7001,
+     373,
+     0.0533,
+     1.0
+    ],
+    [
+     "service",
+     4260,
+     199,
+     0.0467,
+     0.995
+    ],
+    [
+     "com",
+     1,
+     155,
+     155.0,
+     1.0
+    ],
+    [
+     "lnc",
+     1,
+     92,
+     92.0,
+     0.9891
+    ],
+    [
+     "district",
+     10,
+     51,
+     5.1,
+     1.0
+    ],
+    [
+     "board",
+     1651,
+     42,
+     0.0254,
+     1.0
+    ],
+    [
+     "commission",
+     1671,
+     36,
+     0.0215,
+     1.0
+    ],
+    [
+     "authority",
+     0,
+     34,
+     34.0,
+     1.0
+    ]
+   ],
+   "org_word_adds": [
+    [
+     "council",
+     3833,
+     37,
+     37,
+     1.0,
+     2,
+     0,
+     0.0
+    ],
+    [
+     "foundation",
+     3738,
+     31,
+     31,
+     1.0,
+     0,
+     0,
+     0.0
+    ],
+    [
+     "board",
+     1651,
+     42,
+     42,
+     1.0,
+     1,
+     0,
+     0.0
+    ],
+    [
+     "society",
+     3788,
+     49,
+     49,
+     1.0,
+     0,
+     0,
+     0.0
+    ],
+    [
+     "commission",
+     1671,
+     36,
+     36,
+     1.0,
+     0,
+     0,
+     0.0
+    ],
+    [
+     "partners",
+     29117,
+     182,
+     160,
+     0.8791,
+     651,
+     648,
+     0.9954
+    ],
+    [
+     "association",
+     5669,
+     38,
+     38,
+     1.0,
+     0,
+     0,
+     0.0
+    ],
+    [
+     "center",
+     31814,
+     576,
+     574,
+     0.9965,
+     2424,
+     2408,
+     0.9934
+    ],
+    [
+     "services",
+     7001,
+     373,
+     373,
+     1.0,
+     1767,
+     1753,
+     0.9921
+    ],
+    [
+     "federation",
+     3761,
+     37,
+     37,
+     1.0,
+     0,
+     0,
+     0.0
+    ],
+    [
+     "trust",
+     5916,
+     39,
+     39,
+     1.0,
+     1,
+     0,
+     0.0
+    ]
+   ],
+   "vocab_swap_top_pairs": [
+    [
+     "partners",
+     "center",
+     40,
+     39
+    ],
+    [
+     "associates",
+     "center",
+     31,
+     31
+    ],
+    [
+     "care",
+     "center",
+     30,
+     30
+    ],
+    [
+     "clinic",
+     "center",
+     21,
+     21
+    ],
+    [
+     "global",
+     "center",
+     19,
+     19
+    ],
+    [
+     "health",
+     "center",
+     17,
+     17
+    ],
+    [
+     "medicine",
+     "center",
+     17,
+     17
+    ],
+    [
+     "industries",
+     "center",
+     16,
+     16
+    ],
+    [
+     "care",
+     "partners",
+     15,
+     14
+    ],
+    [
+     "care",
+     "ce",
+     14,
+     14
+    ],
+    [
+     "physicians",
+     "center",
+     14,
+     14
+    ],
+    [
+     "health",
+     "partners",
+     11,
+     11
+    ],
+    [
+     "supply",
+     "center",
+     11,
+     11
+    ],
+    [
+     "trust",
+     "center",
+     11,
+     11
+    ],
+    [
+     "capital",
+     "center",
+     10,
+     10
+    ],
+    [
+     "ventures",
+     "center",
+     10,
+     10
+    ],
+    [
+     "dental",
+     "center",
+     10,
+     10
+    ],
+    [
+     "associates",
+     "partners",
+     10,
+     10
+    ],
+    [
+     "network",
+     "center",
+     10,
+     10
+    ],
+    [
+     "consultants",
+     "center",
+     10,
+     10
+    ]
+   ],
+   "V1_model_in_class": {
+    "ADD1|filler": {
+     "n": 550,
+     "n_pos": 543,
+     "n_acc": 543,
+     "FP": 0,
+     "FN": 0
+    },
+    "ADD1|rare_or_garble": {
+     "n": 539,
+     "n_pos": 526,
+     "n_acc": 525,
+     "FP": 0,
+     "FN": 1
+    },
+    "ADD1|vocab_nonfiller": {
+     "n": 300,
+     "n_pos": 278,
+     "n_acc": 278,
+     "FP": 0,
+     "FN": 0
+    },
+    "SWAP1|filler": {
+     "n": 1310,
+     "n_pos": 1304,
+     "n_acc": 1303,
+     "FP": 1,
+     "FN": 2
+    },
+    "SWAP1|rare_or_garble": {
+     "n": 1130,
+     "n_pos": 1032,
+     "n_acc": 1029,
+     "FP": 3,
+     "FN": 6
+    },
+    "SWAP1|vocab_nonfiller": {
+     "n": 1078,
+     "n_pos": 934,
+     "n_acc": 932,
+     "FP": 1,
+     "FN": 3
+    }
+   },
+   "V1_total_FP": 91,
+   "V1_total_FN": 1288,
+   "auc_flag_vocab_nonfiller": 0.7789,
+   "n_auc_rows": 11767,
+   "true_vocab_swap_examples": [
+    "Vantari Premium Inc | 213 Michigan Street, Elmhurst, IL  ->  Center Vantari Inc | 213- Michigan Street, Elmhurst, Illinois",
+    "Internal Medicine Specialists PC | 2156 Tull Avenue, Unit Apt 2, Fayetteville, AR  ->  Internal Medicine PC Partners | 2156 1/2 Tull Ave, # Apt 2, Fayetteville, Arkansas",
+    "Ranna Rodriguez Airlines P.C. | 3029 Provence Lane, Muscatine, IA  ->  Ranna Rodriguez P.C. Center | 3029 Provence Ln, Muscatine Ciity, Iowa",
+    "Glyphay Acp LLC | Owens Cross Roads, 209 Cave Lake Drive, AL  ->  Glyphay LLC (Center) | 209 Cave Lake Drive, PO Box 7048, Owens Cross Roads, Alabama",
+    "Gary Precision Vii LLC | 223 Broadway, Unit Unit 3, Fulton, NY  ->  6ARY VII LLC PARTNERS | 223-A BROADWAY, FULTON, NY",
+    "Strategic Design Global LLC | NC, Wilmington, 326 Davie Drive  ->  Strategic Design LLC Center | 326 Davie Drive, Wilmington, North Carolina",
+    "Crowe's Coffee | 4180 Poole Road, Cincinnati, OH  ->  Crowe'S Coe | Ohio, Cincinnati, 4180 Poole Rd",
+    "Golden Lane LLC | 6 Morehouse Road, Poughkeepsie, NY  ->  Golden LLC Center | #6 MOREHOUSE ROAD, POUGHKEEPSIE, NY",
+    "Horizon Textile Laboratories PLLC | 323 Berwick Valley Lane, Cary, NC  ->  Horizon  Laboratories PLLC Center | 323 Berwick Valley Lane, Cary, North Carolina",
+    "Lauraine's Colonial Staffing | 2216 Oakleaf Drive, TN, Williamson County  ->  Lauraine'S [Center] Staffing | 2216 Oakleaf Drive, Williamson County, Tennessee",
+    "T+ Imperial PC | CA, 678 Victoria Lane, Sugarloaf  ->  T+ PC P\u00e1rtners | California, Big Bear City, 678 Victoria Ln",
+    "T 7 L Rock LLC | 218 Shawmut Road, Murfreesboro, AR  ->  T 7 L Ro LLC | 218 Shawmut Road, Murreesboro, Arkansas"
+   ],
+   "false_vocab_swap_examples": [
+    "Redwood Tankers Inc. | 502 2nd Avenue, MT, Glasgow  ->  Veterans Ministries | 502 2nd St, Dardanelle, Arkansas",
+    "Harkless Centers PC | Golconda, IL, 225 Columbus Avenue  ->  MCCUE  CENTERS | 225 COLUMBUS AVE, GOLCONDA, IL",
+    "Granite LLC | 35 Commons Drive, Unit 31, Shrewsbury, MA  ->  7-Point Inc. | 35 Commons Drive, # 12, Shrewsbury, Massachusetts",
+    "Oyola Liberty Harmony Inc | 2044 Eva Kay Way, Hillsborough, NC  ->  Lewis Liberty Harmony Inc | 2044 Eva Kay Way, Hillsborough, North Carolina",
+    "Amador Horizon Motors | 70 Rowland Street, Springfield, MA  ->  Horizon Woods M\u00f3tors | ##70 ROWLAND STREET, SPRINGFIELD, MA",
+    "Kelly Empire Krakacquisition LP | 321 Trollinger Avenue, Unit A2, Elon, NC  ->  Torres Empire Krakacquisition Lp | 321 Trollinger Ave, # A2, Elon, North Carolina",
+    "Baker & Traugott Launch PC | 826 East Street, Royse City, TX  ->  Smith & Traugott [Launch] | 0826 EAST ST, ROYSE CITY, TX",
+    "Carlin Briggs Edison | 17 Franklin Park, Vernon, CT  ->  Boyles Briggs Edison | 17 FRANKLIN PARK, ROCKVILLE, CT"
+   ]
+  },
+  "India": {
+   "n_s1": 28922,
+   "by_class": [
+    [
+     "ADD1",
+     "filler",
+     812,
+     446,
+     0.54926,
+     280.75513
+    ],
+    [
+     "ADD1",
+     "rare_or_garble",
+     1434,
+     1413,
+     0.98536,
+     495.81633
+    ],
+    [
+     "ADD1",
+     "vocab_nonfiller",
+     1227,
+     282,
+     0.22983,
+     424.24452
+    ],
+    [
+     "SWAP1",
+     "filler",
+     1170,
+     1098,
+     0.93846,
+     404.53634
+    ],
+    [
+     "SWAP1",
+     "rare_or_garble",
+     1033,
+     814,
+     0.788,
+     357.16755
+    ],
+    [
+     "SWAP1",
+     "vocab_nonfiller",
+     3263,
+     2061,
+     0.63163,
+     1128.2069
+    ]
+   ],
+   "fillers_top": [
+    [
+     "center",
+     3447,
+     342,
+     0.0992,
+     0.9912
+    ],
+    [
+     "holdings",
+     2849,
+     128,
+     0.0449,
+     0.0
+    ],
+    [
+     "overseas",
+     968,
+     123,
+     0.1271,
+     0.0
+    ],
+    [
+     "infratech",
+     1192,
+     111,
+     0.0931,
+     0.0
+    ],
+    [
+     "service",
+     755,
+     108,
+     0.143,
+     0.9907
+    ]
+   ],
+   "org_word_adds": [
+    [
+     "partners",
+     5835,
+     77,
+     75,
+     0.974,
+     229,
+     213,
+     0.9301
+    ],
+    [
+     "center",
+     3447,
+     342,
+     339,
+     0.9912,
+     875,
+     829,
+     0.9474
+    ],
+    [
+     "foundation",
+     14010,
+     0,
+     0,
+     0.0,
+     9,
+     0,
+     0.0
+    ],
+    [
+     "services",
+     24128,
+     189,
+     188,
+     0.9947,
+     648,
+     578,
+     0.892
+    ],
+    [
+     "board",
+     63,
+     0,
+     0,
+     0.0,
+     1,
+     0,
+     0.0
+    ]
+   ],
+   "vocab_swap_top_pairs": [
+    [
+     "india",
+     "services",
+     32,
+     30
+    ],
+    [
+     "services",
+     "com",
+     28,
+     28
+    ],
+    [
+     "brothers",
+     "com",
+     28,
+     28
+    ],
+    [
+     "trading",
+     "com",
+     23,
+     23
+    ],
+    [
+     "india",
+     "com",
+     23,
+     22
+    ],
+    [
+     "solutions",
+     "com",
+     21,
+     21
+    ],
+    [
+     "technologies",
+     "com",
+     15,
+     15
+    ],
+    [
+     "ventures",
+     "com",
+     15,
+     15
+    ],
+    [
+     "sons",
+     "com",
+     15,
+     15
+    ],
+    [
+     "food",
+     "com",
+     13,
+     13
+    ],
+    [
+     "it",
+     "com",
+     13,
+     13
+    ],
+    [
+     "foundation",
+     "services",
+     12,
+     10
+    ],
+    [
+     "agro",
+     "com",
+     12,
+     12
+    ],
+    [
+     "enterprises",
+     "services",
+     12,
+     10
+    ],
+    [
+     "products",
+     "com",
+     12,
+     11
+    ],
+    [
+     "producer",
+     "com",
+     11,
+     11
+    ],
+    [
+     "enterprises",
+     "com",
+     11,
+     10
+    ],
+    [
+     "global",
+     "com",
+     11,
+     11
+    ],
+    [
+     "traders",
+     "com",
+     11,
+     11
+    ],
+    [
+     "india",
+     "partners",
+     10,
+     10
+    ]
+   ],
+   "V1_model_in_class": {
+    "ADD1|filler": {
+     "n": 212,
+     "n_pos": 116,
+     "n_acc": 116,
+     "FP": 0,
+     "FN": 0
+    },
+    "ADD1|rare_or_garble": {
+     "n": 401,
+     "n_pos": 398,
+     "n_acc": 398,
+     "FP": 0,
+     "FN": 0
+    },
+    "ADD1|vocab_nonfiller": {
+     "n": 345,
+     "n_pos": 73,
+     "n_acc": 73,
+     "FP": 0,
+     "FN": 0
+    },
+    "SWAP1|filler": {
+     "n": 315,
+     "n_pos": 298,
+     "n_acc": 295,
+     "FP": 0,
+     "FN": 3
+    },
+    "SWAP1|rare_or_garble": {
+     "n": 284,
+     "n_pos": 232,
+     "n_acc": 227,
+     "FP": 0,
+     "FN": 5
+    },
+    "SWAP1|vocab_nonfiller": {
+     "n": 910,
+     "n_pos": 573,
+     "n_acc": 568,
+     "FP": 1,
+     "FN": 6
+    }
+   },
+   "V1_total_FP": 76,
+   "V1_total_FN": 758,
+   "auc_flag_vocab_nonfiller": 0.6139,
+   "n_auc_rows": 6472,
+   "true_vocab_swap_examples": [
+    "Abhishek Foundation | Plot No. F- 4/19, Midc Tarapur Boisar, Thane, Maharashtra  ->  Abhishek Services | MH, Midc Tarapur Boisar, Navi Mumbai Region, Plot No. F- 4/19",
+    "WV Consultants Pvt Ltd | 14077 Prestige Songofsout, Yelenahalli Bangalore, Bangalore South, Bangalore, Karnataka  ->  Wvconsultants.Com | H.no 14077 Prestige Songofsout, Yelenahalli Bangalore, Bangalore South, Bangalore, \u0c95\u0cb0\u0ccd\u0ca8\u0cbe\u0c9f\u0c95",
+    "Urban Enterprises Private Limited | 50 G/F F/P Mashihgarh, Delhi, South Delhi, Delhi  ->  urbanentprivate.com | Delhi, #50 G/f F/p Mashihgarh, South Delhi, DL",
+    "Ecogreen Acres | 1165/2 Behrampur Road Khandsa, Gurgaon, Haryana  ->  Ecogreen Services | 1165/2 Behrampur Road Khandsa, Gurgaon, \u0939\u0930\u093f\u092f\u093e\u0923\u093e",
+    "Vaayuesh Ansari Private Limited | G-40 G Block Shakarpur, New Delhi, East Delhi, Delhi  ->  Vaayuesh Private Limited Services | G-40 G BLOCK SHAKARPUR, NEW DELHI, \u0926\u093f\u0932\u094d\u0932\u0940",
+    "Dynamic Technology Private Limited | C/O Durgesh Singh Yadav Ward No.01, Bypass Road, Aron, Guna, Madhya Pradesh  ->  Dynamic Pr\u00edvate Limited (Services) | C/o Durgesh Singh Yadav Ward No.01, Aron, \u092e\u0927\u094d\u092f \u092a\u094d\u0930\u0926\u0947\u0936",
+    "Krishna & Co | No 57A, Race Course, Bala Nilayam, Coimbatore, Tamil Nadu  ->  KC | No 57A, Race Course, Bala Nilayam, Coimbatore, Tamil Nadu",
+    "Bengal & Sons Private Limited | Chennai, No. 284/6 Lakshman Nagar Kandanchavadi, Tamil Nadu  ->  bengalsons.com | ##284/6 LAKSHAN NAGAR KANDANCHAVADI, CHENNAI, \u0ba4\u0bae\u0bbf\u0bb4\u0bcd\u0ba8\u0bbe\u0b9f\u0bc1",
+    "Knight & Brothers Pvt. Ltd. | Nanda Bda Permitted Pl No, 282-Bbsr, Bhubaneswar, Khordha, Orissa  ->  knightbrothers.com | NANDA BDA PERMITTED PL NO, -##282-BBSR, BHUBANESWAR, Orissa",
+    "Creative Agro Pvt Ltd | 302 Ford House Nyaymurti, Sitarampatkarmarg Gamdevi, Mumbai, Maharashtra  ->  *** Creative Creative Pvt Ltd Services | NO 302 FORD HOUSE NYAYMURTI, MUMBAI, Maharashtra",
+    "Gurunanak & Sons | Bareilly, Uttar Pradesh, Bareilly, 35-A Civil Lines  ->  Gurunanak + Services | #35-A Civil Lines, Bareilly, \u0909\u0924\u094d\u0924\u0930 \u092a\u094d\u0930\u0926\u0947\u0936",
+    "Shyam Builders Limited | B-453 G/F Old Seemapuri Near Som Bazar Road, Delhi, East Delhi, Delhi  ->  SHYAMBUILDERS.COM | B-453  G/F OLD SEEMAPURI NEAR SOM BAZAR ROAD, DELHI, Delhi"
+   ],
+   "false_vocab_swap_examples": [
+    "Sree Care Pvt Ltd | Kamal Office 1 & 01 Cts No 1306 1St Flr S'Ngr, Pune, Maharashtra  ->  Sree Consultancy Pvt | Kamal Office 1/2 & 01 Cts No 1306 10St Flr S'ngr, Pune, \u092e\u0939\u093e\u0930\u093e\u0937\u094d\u091f\u094d\u0930",
+    "Jay Hospitality Private Limited | Jayasree 1/939E(2/243) Ranni Lane, H No.76, Vazhayila, Peroorka, Da Po, Thiruvananthapuram, Thiruvananthapuram, Trivandrum, Kerala  ->  Dr Jay Services Private Limited | JAYASREE 1/939E(2/244) RANNI LANE, H NO.76, VAZHAYILA, PEROORKA, DA PO, THIRUVANANTHAPURAM, THIRUVANANTHAPURAM, Kerala",
+    "Gold Marketing Limited | C/O Aslam Ali, Nadibhag, Tetultala, Mudiahat, North 24 Parganas, West Bengal  ->  Gold  Consultancy | North 24 Parganas, Hn 75 C/o Samsul Ali Mondal, Rajarhat, WB",
+    "Pathways Entertainment | Flat No B-19 Fifth Floor Near Shri Ram Apartment Sector 4 Plot No 32, Dwarka, West Delhi, Delhi  ->  Shri pathways apparels | FLAT NO B-19 FIFTH FLOOR NEAR SHRI RAM APARTMENT SECTOR 4 PLOT NO 39, DWARKA, \u0926\u093f\u0932\u094d\u0932\u0940",
+    "EMB Solutions | Mumbai, Mumbai City, Maharashtra, Flat No. B/2, Om Prathamesh Chs Ltd Dewulwadi, Chakala, Andheri (East)  ->  Om Solutions | Flat No.2., Ground Floor, Salima Abad Fidai Baug, Andheri (West), Mumbai, MH",
+    "Premsagar Technologies Co | Plot 242/243/244 Flat 5 Sector 21 Nerul, Navimumbai, Maharashtra, Thane  ->  Premsagar Venture Co | Plot 242/243/244 Flat 5 Sector 26 Nerul, Navimumbai, Thane, \u092e\u0939\u093e\u0930\u093e\u0937\u094d\u091f\u094d\u0930",
+    "Maa Builders | Office No 101 1St Floor, President House Opp.. C.N.Vidyalaya, Nr.Ambawadi Circle, Ambawadi, Ahmedabad, Gujarat  ->  Maa Investment | Office No 101- 6St Floor, President House Opp.. C.n.vidyalaya, Nr.ambawadi Circle, Ahmedabad, Ahmadabad, GJ",
+    "Puttur Trade Limited | 13-2-511 - 65B Nandila House Puttur Post, Puttur, Dakshina Kannada, Karnataka  ->  Puttur Steels Ltd | 13-2-513 - 65B Nandila House Puttur Post, Dakshina Kannada, Puttur, KA"
+   ]
+  }
+ }
+}

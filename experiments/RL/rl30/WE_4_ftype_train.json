@@ -1,0 +1,423 @@
+{
+ "split": "train",
+ "pop_type": {
+  "US": {
+   "F": {
+    "del_real": {
+     "match": 134581,
+     "nonmatch": 1062,
+     "n": 135643,
+     "share": 0.1392,
+     "match_rate": 0.9922
+    },
+    "typo": {
+     "match": 277929,
+     "nonmatch": 6480,
+     "n": 284409,
+     "share": 0.2919,
+     "match_rate": 0.9772
+    },
+    "legal": {
+     "match": 386095,
+     "nonmatch": 1385,
+     "n": 387480,
+     "share": 0.3977,
+     "match_rate": 0.9964
+    },
+    "sub_real": {
+     "match": 160850,
+     "nonmatch": 5956,
+     "n": 166806,
+     "share": 0.1712,
+     "match_rate": 0.9643
+    }
+   },
+   "M": {
+    "legal": {
+     "match": 61397,
+     "nonmatch": 590,
+     "n": 61987,
+     "share": 0.3997,
+     "match_rate": 0.9905
+    },
+    "sub_real": {
+     "match": 25063,
+     "nonmatch": 1379,
+     "n": 26442,
+     "share": 0.1705,
+     "match_rate": 0.9478
+    },
+    "typo": {
+     "match": 43696,
+     "nonmatch": 1116,
+     "n": 44812,
+     "share": 0.289,
+     "match_rate": 0.9751
+    },
+    "del_real": {
+     "match": 21373,
+     "nonmatch": 451,
+     "n": 21824,
+     "share": 0.1407,
+     "match_rate": 0.9793
+    }
+   }
+  },
+  "India": {
+   "M": {
+    "typo": {
+     "match": 26667,
+     "nonmatch": 2328,
+     "n": 28995,
+     "share": 0.231,
+     "match_rate": 0.9197
+    },
+    "legal": {
+     "match": 56004,
+     "nonmatch": 759,
+     "n": 56763,
+     "share": 0.4522,
+     "match_rate": 0.9866
+    },
+    "del_real": {
+     "match": 4040,
+     "nonmatch": 4684,
+     "n": 8724,
+     "share": 0.0695,
+     "match_rate": 0.4631
+    },
+    "sub_real": {
+     "nonmatch": 14265,
+     "match": 16791,
+     "n": 31056,
+     "share": 0.2474,
+     "match_rate": 0.5407
+    }
+   },
+   "F": {
+    "typo": {
+     "match": 49540,
+     "nonmatch": 1326,
+     "n": 50866,
+     "share": 0.2379,
+     "match_rate": 0.9739
+    },
+    "legal": {
+     "match": 103476,
+     "nonmatch": 1606,
+     "n": 105082,
+     "share": 0.4916,
+     "match_rate": 0.9847
+    },
+    "sub_real": {
+     "nonmatch": 8771,
+     "match": 31507,
+     "n": 40278,
+     "share": 0.1884,
+     "match_rate": 0.7822
+    },
+    "del_real": {
+     "nonmatch": 10130,
+     "match": 7417,
+     "n": 17547,
+     "share": 0.0821,
+     "match_rate": 0.4227
+    }
+   }
+  }
+ },
+ "token_type": {
+  "US": {
+   "inc": {
+    "legal": {
+     "match": 115097,
+     "nonmatch": 510
+    },
+    "typo": {
+     "match": 2643,
+     "nonmatch": 9
+    },
+    "sub_real": {
+     "match": 22656,
+     "nonmatch": 198
+    }
+   },
+   "llc": {
+    "legal": {
+     "match": 129695,
+     "nonmatch": 557
+    },
+    "sub_real": {
+     "match": 2936,
+     "nonmatch": 324
+    },
+    "typo": {
+     "match": 2126,
+     "nonmatch": 13
+    }
+   },
+   "the": {
+    "del_real": {
+     "match": 27738,
+     "nonmatch": 1
+    },
+    "sub_real": {
+     "match": 100
+    }
+   },
+   "services": {
+    "typo": {
+     "match": 899
+    },
+    "del_real": {
+     "match": 7144
+    },
+    "sub_real": {
+     "match": 39498,
+     "nonmatch": 1
+    }
+   },
+   "ltd": {
+    "legal": {
+     "match": 21443,
+     "nonmatch": 307
+    },
+    "sub_real": {
+     "nonmatch": 5
+    },
+    "typo": {
+     "match": 18
+    }
+   },
+   "dental": {
+    "typo": {
+     "match": 945
+    },
+    "sub_real": {
+     "match": 384,
+     "nonmatch": 1
+    },
+    "del_real": {
+     "match": 51
+    }
+   },
+   "global": {
+    "typo": {
+     "match": 1217,
+     "nonmatch": 10
+    },
+    "sub_real": {
+     "match": 531
+    },
+    "del_real": {
+     "match": 218
+    }
+   },
+   "family": {
+    "typo": {
+     "match": 727,
+     "nonmatch": 19
+    },
+    "sub_real": {
+     "match": 301
+    },
+    "del_real": {
+     "match": 7
+    }
+   },
+   "centre": {
+    "sub_real": {
+     "match": 654
+    }
+   },
+   "union": {
+    "typo": {
+     "match": 658
+    },
+    "sub_real": {
+     "match": 398
+    },
+    "del_real": {
+     "match": 186
+    }
+   },
+   "tech": {
+    "sub_real": {
+     "match": 71
+    },
+    "typo": {
+     "match": 52
+    },
+    "del_real": {
+     "match": 27
+    }
+   },
+   "limited": {
+    "legal": {
+     "match": 281
+    },
+    "typo": {
+     "match": 6
+    }
+   },
+   "sarl": {
+    "typo": {
+     "match": 1
+    }
+   },
+   "sas": {
+    "typo": {
+     "match": 5
+    }
+   },
+   "amis": {
+    "typo": {
+     "match": 1
+    },
+    "sub_real": {
+     "match": 1
+    }
+   },
+   "bordeaux": {
+    "typo": {
+     "match": 1
+    }
+   }
+  },
+  "India": {
+   "limited": {
+    "legal": {
+     "match": 64647,
+     "nonmatch": 366
+    },
+    "sub_real": {
+     "match": 88,
+     "nonmatch": 1405
+    },
+    "typo": {
+     "match": 886
+    }
+   },
+   "ltd": {
+    "legal": {
+     "match": 42068,
+     "nonmatch": 66
+    },
+    "sub_real": {
+     "nonmatch": 468,
+     "match": 64
+    },
+    "typo": {
+     "match": 271
+    }
+   },
+   "services": {
+    "sub_real": {
+     "match": 8949,
+     "nonmatch": 313
+    },
+    "typo": {
+     "match": 925,
+     "nonmatch": 5
+    },
+    "del_real": {
+     "match": 416,
+     "nonmatch": 4
+    }
+   },
+   "tech": {
+    "typo": {
+     "match": 151,
+     "nonmatch": 1
+    },
+    "sub_real": {
+     "nonmatch": 88,
+     "match": 200
+    },
+    "del_real": {
+     "match": 38,
+     "nonmatch": 3
+    }
+   },
+   "the": {
+    "del_real": {
+     "match": 514
+    },
+    "sub_real": {
+     "nonmatch": 1,
+     "match": 1
+    }
+   },
+   "global": {
+    "typo": {
+     "match": 293
+    },
+    "sub_real": {
+     "match": 171,
+     "nonmatch": 102
+    },
+    "del_real": {
+     "match": 42,
+     "nonmatch": 1
+    }
+   },
+   "centre": {
+    "del_real": {
+     "match": 64,
+     "nonmatch": 1
+    },
+    "sub_real": {
+     "match": 132,
+     "nonmatch": 17
+    },
+    "typo": {
+     "match": 79
+    }
+   },
+   "llc": {
+    "legal": {
+     "match": 1
+    }
+   },
+   "dental": {
+    "sub_real": {
+     "match": 2
+    },
+    "typo": {
+     "match": 3
+    }
+   },
+   "club": {
+    "sub_real": {
+     "match": 10,
+     "nonmatch": 5
+    },
+    "typo": {
+     "match": 9
+    }
+   },
+   "family": {
+    "sub_real": {
+     "nonmatch": 1
+    },
+    "typo": {
+     "match": 3
+    }
+   },
+   "union": {
+    "typo": {
+     "match": 2
+    },
+    "sub_real": {
+     "nonmatch": 2,
+     "match": 1
+    }
+   },
+   "sas": {
+    "typo": {
+     "match": 1
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,117 @@
+{
+ "k=1.00": {
+  "veto any rr<=0 & p<.95": {
+   "France_fp_total": 0.0226,
+   "vol": 0.0541,
+   "fp": 0.007,
+   "fp_rate": 0.129,
+   "dF_pp": -0.279
+  },
+  "rr++ & p<.95": {
+   "France_fp_total": 0.0226,
+   "vol": 0.0948,
+   "fp": 0.0114,
+   "fp_rate": 0.12,
+   "dF_pp": -0.515
+  },
+  "threshold .95": {
+   "France_fp_total": 0.0226,
+   "vol": 0.1518,
+   "fp": 0.019,
+   "fp_rate": 0.125,
+   "dF_pp": -0.801
+  }
+ },
+ "k=1.68": {
+  "veto any rr<=0 & p<.95": {
+   "France_fp_total": 0.0351,
+   "vol": 0.0541,
+   "fp": 0.0106,
+   "fp_rate": 0.197,
+   "dF_pp": -0.164
+  },
+  "rr++ & p<.95": {
+   "France_fp_total": 0.0351,
+   "vol": 0.0948,
+   "fp": 0.0175,
+   "fp_rate": 0.185,
+   "dF_pp": -0.323
+  },
+  "threshold .95": {
+   "France_fp_total": 0.0351,
+   "vol": 0.1518,
+   "fp": 0.0291,
+   "fp_rate": 0.192,
+   "dF_pp": -0.485
+  }
+ },
+ "k=6.77": {
+  "veto any rr<=0 & p<.95": {
+   "France_fp_total": 0.0939,
+   "vol": 0.0541,
+   "fp": 0.0257,
+   "fp_rate": 0.476,
+   "dF_pp": 0.307
+  },
+  "rr++ & p<.95": {
+   "France_fp_total": 0.0939,
+   "vol": 0.0948,
+   "fp": 0.0436,
+   "fp_rate": 0.461,
+   "dF_pp": 0.494
+  },
+  "threshold .95": {
+   "France_fp_total": 0.0939,
+   "vol": 0.1518,
+   "fp": 0.0712,
+   "fp_rate": 0.469,
+   "dF_pp": 0.833
+  }
+ },
+ "k=7.54": {
+  "veto any rr<=0 & p<.95": {
+   "France_fp_total": 0.1,
+   "vol": 0.0541,
+   "fp": 0.027,
+   "fp_rate": 0.5,
+   "dF_pp": 0.349
+  },
+  "rr++ & p<.95": {
+   "France_fp_total": 0.1,
+   "vol": 0.0948,
+   "fp": 0.046,
+   "fp_rate": 0.486,
+   "dF_pp": 0.569
+  },
+  "threshold .95": {
+   "France_fp_total": 0.1,
+   "vol": 0.1518,
+   "fp": 0.075,
+   "fp_rate": 0.494,
+   "dF_pp": 0.951
+  }
+ },
+ "k=20.60": {
+  "veto any rr<=0 & p<.95": {
+   "France_fp_total": 0.1681,
+   "vol": 0.0541,
+   "fp": 0.0385,
+   "fp_rate": 0.713,
+   "dF_pp": 0.709
+  },
+  "rr++ & p<.95": {
+   "France_fp_total": 0.1681,
+   "vol": 0.0948,
+   "fp": 0.0672,
+   "fp_rate": 0.709,
+   "dF_pp": 1.232
+  },
+  "threshold .95": {
+   "France_fp_total": 0.1681,
+   "vol": 0.1518,
+   "fp": 0.1082,
+   "fp_rate": 0.713,
+   "dF_pp": 1.99
+  }
+ }
+}

@@ -1,0 +1,332 @@
+{
+ "France": {
+  "RULE3": {
+   "n": 3342,
+   "neff": 3342.0,
+   "f_p1": 0.429,
+   "se": 0.1
+  },
+  "all_nonflagged_raw": {
+   "n": 440377,
+   "neff": 440377.0,
+   "f_p1": -2.89,
+   "se": 0.011
+  },
+  "all_nonflagged_pmatched": {
+   "n": 440377,
+   "neff": 59536.2,
+   "f_p1": -2.548,
+   "se": 0.03
+  },
+  "N_SAME_same_num_street_raw": {
+   "n": 352263,
+   "neff": 352263.0,
+   "f_p1": -2.009,
+   "se": 0.012
+  },
+  "N_SAME_same_num_street_pmatched": {
+   "n": 352263,
+   "neff": 2510.9,
+   "f_p1": -2.186,
+   "se": 0.143
+  },
+  "N_SAME_exact_addr_raw": {
+   "n": 63940,
+   "neff": 63940.0,
+   "f_p1": -0.916,
+   "se": 0.026
+  },
+  "N_SAME_exact_addr_pmatched": {
+   "n": 63940,
+   "neff": 159.3,
+   "f_p1": -0.937,
+   "se": 0.528
+  },
+  "any_type_not_numshift_raw": {
+   "n": 438890,
+   "neff": 438890.0,
+   "f_p1": -2.874,
+   "se": 0.011
+  },
+  "any_type_not_numshift_pmatched": {
+   "n": 438890,
+   "neff": 55879.3,
+   "f_p1": -2.556,
+   "se": 0.031
+  },
+  "N_SAME_GT10_or_DIGINDEL_samestreet_raw": {
+   "n": 6267,
+   "neff": 6267.0,
+   "f_p1": -0.451,
+   "se": 0.081
+  },
+  "N_SAME_GT10_or_DIGINDEL_samestreet_pmatched": {
+   "n": 6267,
+   "neff": 3860.9,
+   "f_p1": 0.099,
+   "se": 0.097
+  },
+  "band[0.78,0.9)_RULE3": {
+   "n": 1150,
+   "neff": 1150.0,
+   "f_p1": 0.987,
+   "se": 0.156
+  },
+  "band[0.78,0.9)_nonflagged": {
+   "n": 17401,
+   "neff": 17401.0,
+   "f_p1": 0.138,
+   "se": 0.046
+  },
+  "band[0.9,0.98)_RULE3": {
+   "n": 1571,
+   "neff": 1571.0,
+   "f_p1": 0.536,
+   "se": 0.144
+  },
+  "band[0.9,0.98)_nonflagged": {
+   "n": 37844,
+   "neff": 37844.0,
+   "f_p1": 0.207,
+   "se": 0.031
+  },
+  "band[0.98,1.0001)_RULE3": {
+   "n": 655,
+   "neff": 655.0,
+   "f_p1": -0.662,
+   "se": 0.255
+  },
+  "band[0.98,1.0001)_nonflagged": {
+   "n": 428193,
+   "neff": 428193.0,
+   "f_p1": -2.677,
+   "se": 0.011
+  }
+ },
+ "US": {
+  "RULE3": {
+   "n": 1523,
+   "neff": 1523.0,
+   "f_p1": -0.689,
+   "se": 0.159
+  },
+  "all_nonflagged_raw": {
+   "n": 261253,
+   "neff": 261253.0,
+   "f_p1": -0.282,
+   "se": 0.012
+  },
+  "all_nonflagged_pmatched": {
+   "n": 261253,
+   "neff": 38509.3,
+   "f_p1": -0.284,
+   "se": 0.03
+  },
+  "N_SAME_same_num_street_raw": {
+   "n": 117273,
+   "neff": 117273.0,
+   "f_p1": -0.195,
+   "se": 0.017
+  },
+  "N_SAME_same_num_street_pmatched": {
+   "n": 117273,
+   "neff": 2978.2,
+   "f_p1": -0.318,
+   "se": 0.11
+  },
+  "N_SAME_exact_addr_raw": {
+   "n": 16641,
+   "neff": 16641.0,
+   "f_p1": -0.267,
+   "se": 0.046
+  },
+  "N_SAME_exact_addr_pmatched": {
+   "n": 16641,
+   "neff": 109.7,
+   "f_p1": 0.194,
+   "se": 0.537
+  },
+  "any_type_not_numshift_raw": {
+   "n": 247904,
+   "neff": 247904.0,
+   "f_p1": -0.27,
+   "se": 0.012
+  },
+  "any_type_not_numshift_pmatched": {
+   "n": 247904,
+   "neff": 30719.6,
+   "f_p1": -0.241,
+   "se": 0.034
+  },
+  "N_SAME_GT10_or_DIGINDEL_samestreet_raw": {
+   "n": 9770,
+   "neff": 9770.0,
+   "f_p1": -0.32,
+   "se": 0.061
+  },
+  "N_SAME_GT10_or_DIGINDEL_samestreet_pmatched": {
+   "n": 9770,
+   "neff": 3851.4,
+   "f_p1": -0.346,
+   "se": 0.097
+  },
+  "band[0.78,0.9)_RULE3": {
+   "n": 112,
+   "neff": 112.0,
+   "f_p1": -0.129,
+   "se": 0.554
+  },
+  "band[0.78,0.9)_nonflagged": {
+   "n": 1894,
+   "neff": 1894.0,
+   "f_p1": 0.164,
+   "se": 0.13
+  },
+  "band[0.9,0.98)_RULE3": {
+   "n": 264,
+   "neff": 264.0,
+   "f_p1": -1.614,
+   "se": 0.41
+  },
+  "band[0.9,0.98)_nonflagged": {
+   "n": 5404,
+   "neff": 5404.0,
+   "f_p1": -0.219,
+   "se": 0.081
+  },
+  "band[0.98,1.0001)_RULE3": {
+   "n": 1153,
+   "neff": 1153.0,
+   "f_p1": -0.512,
+   "se": 0.18
+  },
+  "band[0.98,1.0001)_nonflagged": {
+   "n": 255081,
+   "neff": 255081.0,
+   "f_p1": -0.272,
+   "se": 0.012
+  }
+ },
+ "India": {
+  "RULE3": {
+   "n": 1049,
+   "neff": 1049.0,
+   "f_p1": -0.255,
+   "se": 0.182
+  },
+  "all_nonflagged_raw": {
+   "n": 268727,
+   "neff": 268727.0,
+   "f_p1": -0.243,
+   "se": 0.011
+  },
+  "all_nonflagged_pmatched": {
+   "n": 268727,
+   "neff": 109840.5,
+   "f_p1": -0.229,
+   "se": 0.018
+  },
+  "N_SAME_same_num_street_raw": {
+   "n": 53474,
+   "neff": 53474.0,
+   "f_p1": 0.025,
+   "se": 0.025
+  },
+  "N_SAME_same_num_street_pmatched": {
+   "n": 53474,
+   "neff": 3243.4,
+   "f_p1": 0.04,
+   "se": 0.1
+  },
+  "N_SAME_exact_addr_raw": {
+   "n": 10610,
+   "neff": 10610.0,
+   "f_p1": 0.22,
+   "se": 0.054
+  },
+  "N_SAME_exact_addr_pmatched": {
+   "n": 10610,
+   "neff": 130.6,
+   "f_p1": 1.061,
+   "se": 0.418
+  },
+  "any_type_not_numshift_raw": {
+   "n": 222057,
+   "neff": 222057.0,
+   "f_p1": -0.214,
+   "se": 0.012
+  },
+  "any_type_not_numshift_pmatched": {
+   "n": 222057,
+   "neff": 75108.1,
+   "f_p1": -0.15,
+   "se": 0.021
+  },
+  "N_SAME_GT10_or_DIGINDEL_samestreet_raw": {
+   "n": 7212,
+   "neff": 7212.0,
+   "f_p1": 0.007,
+   "se": 0.067
+  },
+  "N_SAME_GT10_or_DIGINDEL_samestreet_pmatched": {
+   "n": 7212,
+   "neff": 2544.3,
+   "f_p1": -0.051,
+   "se": 0.114
+  },
+  "band[0.78,0.9)_RULE3": {
+   "n": 30,
+   "neff": 30.0,
+   "f_p1": 1.028,
+   "se": 0.878
+  },
+  "band[0.78,0.9)_nonflagged": {
+   "n": 2454,
+   "neff": 2454.0,
+   "f_p1": 0.118,
+   "se": 0.114
+  },
+  "band[0.9,0.98)_RULE3": {
+   "n": 138,
+   "neff": 138.0,
+   "f_p1": -0.366,
+   "se": 0.508
+  },
+  "band[0.9,0.98)_nonflagged": {
+   "n": 7511,
+   "neff": 7511.0,
+   "f_p1": -0.118,
+   "se": 0.067
+  },
+  "band[0.98,1.0001)_RULE3": {
+   "n": 886,
+   "neff": 886.0,
+   "f_p1": -0.263,
+   "se": 0.198
+  },
+  "band[0.98,1.0001)_nonflagged": {
+   "n": 260036,
+   "neff": 260036.0,
+   "f_p1": -0.234,
+   "se": 0.012
+  }
+ },
+ "V1_pmatched_FP": {
+  "US": {
+   "RULE3_n": 177,
+   "RULE3_FP_rate": 0.0395,
+   "RULE3_expected_FP_from_p": 3.52,
+   "RULE3_FP": 7,
+   "control_pmatched_FP_rate": 0.014,
+   "control_raw_FP_rate": 0.0019
+  },
+  "India": {
+   "RULE3_n": 82,
+   "RULE3_FP_rate": 0.0122,
+   "RULE3_expected_FP_from_p": 0.97,
+   "RULE3_FP": 1,
+   "control_pmatched_FP_rate": 0.01,
+   "control_raw_FP_rate": 0.0028
+  }
+ }
+}

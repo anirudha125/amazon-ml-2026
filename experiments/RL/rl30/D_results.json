@@ -1,0 +1,3848 @@
+{
+ "n": {
+  "FR5": 879329,
+  "FR5_final": 854396,
+  "FR5_mcdropped": 24933,
+  "FR5_new_vs_S004": 10233,
+  "FR4only(dropped by S005)": 33226,
+  "US5": 300000,
+  "IN5": 300000,
+  "V1_US_acc": 40362,
+  "V1_IN_acc": 26991,
+  "V1_US_pos": 41559,
+  "V1_IN_pos": 27673
+ },
+ "type_rates": {
+  "FR5": {
+   "nt": {
+    "N_SAME": 0.75635,
+    "N_HANDLE": 0.07445,
+    "N_SWAP1": 0.06152,
+    "N_TYPO": 0.03092,
+    "N_DROP": 0.02231,
+    "N_ADD": 0.0164,
+    "N_DISJOINT": 0.0133,
+    "N_ALIAS": 0.01244,
+    "N_ACRONYM": 0.00864,
+    "N_STEM": 0.00178,
+    "N_LEGAL_ONLY_REC": 0.00136,
+    "N_MULTI": 0.00052,
+    "N_JOIN": 0.0
+   },
+   "ht": {
+    "H_SAME": 0.88221,
+    "H_RECMISS": 0.05691,
+    "H_NA": 0.02608,
+    "H_GT10_ODD": 0.00913,
+    "H_GT10_EVEN": 0.00657,
+    "H_DIGSUB": 0.00451,
+    "H_NONE": 0.00401,
+    "H_DIGINDEL": 0.00322,
+    "H_D3_10_ODD": 0.00214,
+    "H_D2": 0.00208,
+    "H_D1": 0.00204,
+    "H_D3_10_EVEN": 0.0008,
+    "H_S1MISS": 0.00015,
+    "H_PERM": 0.00015
+   },
+   "st": {
+    "S_SAME": 0.77187,
+    "S_TYPO": 0.11019,
+    "S_NA": 0.08872,
+    "S_DIFF": 0.01967,
+    "S_PARTIAL": 0.00955
+   },
+   "ct": {
+    "C_SAME": 0.97318,
+    "C_NA": 0.02608,
+    "C_DIFF": 0.00074
+   },
+   "ut": {
+    "U_NONE": 0.96359,
+    "U_NA": 0.02608,
+    "U_SAME": 0.00749,
+    "U_RECDROP": 0.00282,
+    "U_RECADD": 3e-05
+   },
+   "swap_kind": {
+    "": 0.93848,
+    "WORD": 0.04537,
+    "GARBLE": 0.01583,
+    "RARE_A": 0.00033
+   }
+  },
+  "FR5_final": {
+   "nt": {
+    "N_SAME": 0.75864,
+    "N_HANDLE": 0.07392,
+    "N_SWAP1": 0.05951,
+    "N_TYPO": 0.03146,
+    "N_DROP": 0.02164,
+    "N_ADD": 0.01661,
+    "N_DISJOINT": 0.0136,
+    "N_ALIAS": 0.01266,
+    "N_ACRONYM": 0.00888,
+    "N_LEGAL_ONLY_REC": 0.00138,
+    "N_STEM": 0.00123,
+    "N_MULTI": 0.00046,
+    "N_JOIN": 0.0
+   },
+   "ht": {
+    "H_SAME": 0.89613,
+    "H_RECMISS": 0.05135,
+    "H_NA": 0.02652,
+    "H_GT10_ODD": 0.00661,
+    "H_NONE": 0.00405,
+    "H_GT10_EVEN": 0.00397,
+    "H_DIGSUB": 0.00351,
+    "H_D3_10_ODD": 0.00194,
+    "H_D2": 0.00172,
+    "H_DIGINDEL": 0.00172,
+    "H_D1": 0.00168,
+    "H_D3_10_EVEN": 0.00059,
+    "H_S1MISS": 0.00013,
+    "H_PERM": 8e-05
+   },
+   "st": {
+    "S_SAME": 0.78728,
+    "S_TYPO": 0.11262,
+    "S_NA": 0.08359,
+    "S_PARTIAL": 0.00915,
+    "S_DIFF": 0.00735
+   },
+   "ct": {
+    "C_SAME": 0.97329,
+    "C_NA": 0.02652,
+    "C_DIFF": 0.00019
+   },
+   "ut": {
+    "U_NONE": 0.96307,
+    "U_NA": 0.02652,
+    "U_SAME": 0.0077,
+    "U_RECDROP": 0.0027,
+    "U_RECADD": 1e-05
+   },
+   "swap_kind": {
+    "": 0.94049,
+    "WORD": 0.04443,
+    "GARBLE": 0.01495,
+    "RARE_A": 0.00013
+   }
+  },
+  "FR5_mcdropped": {
+   "nt": {
+    "N_SAME": 0.67806,
+    "N_SWAP1": 0.13043,
+    "N_HANDLE": 0.09253,
+    "N_DROP": 0.0454,
+    "N_STEM": 0.02054,
+    "N_TYPO": 0.01231,
+    "N_ADD": 0.00914,
+    "N_ALIAS": 0.00485,
+    "N_DISJOINT": 0.00325,
+    "N_MULTI": 0.00249,
+    "N_LEGAL_ONLY_REC": 0.00068,
+    "N_ACRONYM": 0.00032
+   },
+   "ht": {
+    "H_SAME": 0.40513,
+    "H_RECMISS": 0.24738,
+    "H_GT10_EVEN": 0.09574,
+    "H_GT10_ODD": 0.09558,
+    "H_DIGINDEL": 0.05483,
+    "H_DIGSUB": 0.03862,
+    "H_D2": 0.0144,
+    "H_D1": 0.0144,
+    "H_NA": 0.01083,
+    "H_D3_10_ODD": 0.00878,
+    "H_D3_10_EVEN": 0.00798,
+    "H_NONE": 0.00277,
+    "H_PERM": 0.00249,
+    "H_S1MISS": 0.00108
+   },
+   "st": {
+    "S_DIFF": 0.4417,
+    "S_NA": 0.26451,
+    "S_SAME": 0.24373,
+    "S_TYPO": 0.02683,
+    "S_PARTIAL": 0.02322
+   },
+   "ct": {
+    "C_SAME": 0.96944,
+    "C_DIFF": 0.01973,
+    "C_NA": 0.01083
+   },
+   "ut": {
+    "U_NONE": 0.98135,
+    "U_NA": 0.01083,
+    "U_RECDROP": 0.00698,
+    "U_RECADD": 0.00048,
+    "U_SAME": 0.00036
+   },
+   "swap_kind": {
+    "": 0.86957,
+    "WORD": 0.07749,
+    "GARBLE": 0.04576,
+    "RARE_A": 0.00718
+   }
+  },
+  "FR5_new_vs_S004": {
+   "nt": {
+    "N_SAME": 0.33011,
+    "N_DISJOINT": 0.24226,
+    "N_SWAP1": 0.1589,
+    "N_ACRONYM": 0.15245,
+    "N_DROP": 0.03606,
+    "N_HANDLE": 0.02551,
+    "N_ADD": 0.0173,
+    "N_LEGAL_ONLY_REC": 0.01573,
+    "N_TYPO": 0.01163,
+    "N_MULTI": 0.00674,
+    "N_STEM": 0.00332
+   },
+   "ht": {
+    "H_SAME": 0.58917,
+    "H_NA": 0.28252,
+    "H_RECMISS": 0.03899,
+    "H_GT10_ODD": 0.02443,
+    "H_DIGSUB": 0.01935,
+    "H_D3_10_ODD": 0.01573,
+    "H_D1": 0.00704,
+    "H_D2": 0.00645,
+    "H_GT10_EVEN": 0.00508,
+    "H_DIGINDEL": 0.00381,
+    "H_NONE": 0.00313,
+    "H_D3_10_EVEN": 0.00293,
+    "H_PERM": 0.00078,
+    "H_S1MISS": 0.00059
+   },
+   "st": {
+    "S_SAME": 0.59201,
+    "S_NA": 0.32649,
+    "S_TYPO": 0.06254,
+    "S_DIFF": 0.01212,
+    "S_PARTIAL": 0.00684
+   },
+   "ct": {
+    "C_SAME": 0.71553,
+    "C_NA": 0.28252,
+    "C_DIFF": 0.00195
+   },
+   "ut": {
+    "U_NONE": 0.70771,
+    "U_NA": 0.28252,
+    "U_SAME": 0.00733,
+    "U_RECDROP": 0.00235,
+    "U_RECADD": 0.0001
+   },
+   "swap_kind": {
+    "": 0.8411,
+    "WORD": 0.14981,
+    "GARBLE": 0.00831,
+    "RARE_A": 0.00078
+   }
+  },
+  "FR4only(dropped by S005)": {
+   "nt": {
+    "N_SAME": 0.42741,
+    "N_SWAP1": 0.24282,
+    "N_DISJOINT": 0.10221,
+    "N_HANDLE": 0.05324,
+    "N_DROP": 0.04758,
+    "N_ADD": 0.03579,
+    "N_ACRONYM": 0.03031,
+    "N_STEM": 0.02889,
+    "N_TYPO": 0.01953,
+    "N_MULTI": 0.00476,
+    "N_ALIAS": 0.00409,
+    "N_LEGAL_ONLY_REC": 0.00337
+   },
+   "ht": {
+    "H_SAME": 0.44501,
+    "H_RECMISS": 0.10868,
+    "H_NA": 0.09294,
+    "H_GT10_ODD": 0.09231,
+    "H_GT10_EVEN": 0.07136,
+    "H_DIGSUB": 0.05002,
+    "H_DIGINDEL": 0.04466,
+    "H_D1": 0.02775,
+    "H_D2": 0.02576,
+    "H_D3_10_ODD": 0.02414,
+    "H_D3_10_EVEN": 0.01047,
+    "H_PERM": 0.00343,
+    "H_NONE": 0.00241,
+    "H_S1MISS": 0.00105
+   },
+   "st": {
+    "S_SAME": 0.43487,
+    "S_DIFF": 0.2867,
+    "S_NA": 0.20713,
+    "S_TYPO": 0.0456,
+    "S_PARTIAL": 0.0257
+   },
+   "ct": {
+    "C_SAME": 0.88867,
+    "C_NA": 0.09294,
+    "C_DIFF": 0.01839
+   },
+   "ut": {
+    "U_NONE": 0.89909,
+    "U_NA": 0.09294,
+    "U_RECDROP": 0.00424,
+    "U_SAME": 0.00289,
+    "U_RECADD": 0.00075,
+    "U_CHANGE": 9e-05
+   },
+   "swap_kind": {
+    "": 0.75718,
+    "WORD": 0.19265,
+    "GARBLE": 0.03967,
+    "RARE_A": 0.0105
+   }
+  },
+  "US5": {
+   "nt": {
+    "N_SAME": 0.58695,
+    "N_TYPO": 0.09627,
+    "N_SWAP1": 0.09129,
+    "N_HANDLE": 0.0774,
+    "N_DROP": 0.06711,
+    "N_ADD": 0.04281,
+    "N_ALIAS": 0.01885,
+    "N_DISJOINT": 0.01382,
+    "N_MULTI": 0.00313,
+    "N_STEM": 0.00149,
+    "N_ACRONYM": 0.00069,
+    "N_LEGAL_ONLY_REC": 0.00019
+   },
+   "ht": {
+    "H_SAME": 0.80295,
+    "H_RECMISS": 0.07549,
+    "H_DIGINDEL": 0.03921,
+    "H_NA": 0.02811,
+    "H_GT10_EVEN": 0.0195,
+    "H_GT10_ODD": 0.01665,
+    "H_DIGSUB": 0.00778,
+    "H_D1": 0.00451,
+    "H_D2": 0.00438,
+    "H_D3_10_ODD": 0.00079,
+    "H_D3_10_EVEN": 0.0005,
+    "H_PERM": 0.00013
+   },
+   "st": {
+    "S_SAME": 0.75482,
+    "S_NA": 0.18318,
+    "S_TYPO": 0.02711,
+    "S_PARTIAL": 0.01832,
+    "S_DIFF": 0.01657
+   },
+   "ct": {
+    "C_SAME": 0.83769,
+    "C_DIFF": 0.12185,
+    "C_NA": 0.04047
+   },
+   "ut": {
+    "U_NONE": 0.82673,
+    "U_RECDROP": 0.1033,
+    "U_SAME": 0.04184,
+    "U_NA": 0.02811,
+    "U_RECADD": 1e-05,
+    "U_CHANGE": 1e-05
+   },
+   "swap_kind": {
+    "": 0.90871,
+    "WORD": 0.05766,
+    "GARBLE": 0.03294,
+    "RARE_A": 0.00069
+   }
+  },
+  "IN5": {
+   "nt": {
+    "N_SAME": 0.51468,
+    "N_NONLATIN": 0.17157,
+    "N_SWAP1": 0.07356,
+    "N_TYPO": 0.07147,
+    "N_HANDLE": 0.05607,
+    "N_ADD": 0.05128,
+    "N_DROP": 0.02526,
+    "N_DISJOINT": 0.01599,
+    "N_ALIAS": 0.01176,
+    "N_LEGAL_ONLY_REC": 0.00237,
+    "N_ACRONYM": 0.00234,
+    "N_MULTI": 0.00197,
+    "N_STEM": 0.00164,
+    "N_JOIN": 3e-05
+   },
+   "ht": {
+    "H_SAME": 0.67735,
+    "H_GT10_ODD": 0.07186,
+    "H_GT10_EVEN": 0.07097,
+    "H_NONE": 0.07067,
+    "H_DIGINDEL": 0.02454,
+    "H_NA": 0.0215,
+    "H_S1MISS": 0.01465,
+    "H_RECMISS": 0.01463,
+    "H_DIGSUB": 0.01398,
+    "H_D1": 0.00853,
+    "H_D2": 0.00741,
+    "H_D3_10_ODD": 0.00208,
+    "H_D3_10_EVEN": 0.00157,
+    "H_PERM": 0.00024
+   },
+   "st": {
+    "S_NA": 0.5262,
+    "S_SAME": 0.38403,
+    "S_TYPO": 0.04039,
+    "S_DIFF": 0.03085,
+    "S_PARTIAL": 0.01853
+   },
+   "ct": {
+    "C_SAME": 0.95159,
+    "C_NA": 0.04162,
+    "C_DIFF": 0.00679
+   },
+   "ut": {
+    "U_NONE": 0.80716,
+    "U_SAME": 0.11346,
+    "U_RECDROP": 0.03241,
+    "U_NA": 0.0215,
+    "U_RECADD": 0.01388,
+    "U_CHANGE": 0.01159
+   },
+   "swap_kind": {
+    "": 0.92644,
+    "WORD": 0.05111,
+    "GARBLE": 0.02019,
+    "RARE_A": 0.00226
+   }
+  },
+  "V1_US_acc": {
+   "nt": {
+    "N_SAME": 0.58778,
+    "N_TYPO": 0.09831,
+    "N_SWAP1": 0.09068,
+    "N_HANDLE": 0.07616,
+    "N_DROP": 0.06558,
+    "N_ADD": 0.04242,
+    "N_ALIAS": 0.0192,
+    "N_DISJOINT": 0.01437,
+    "N_MULTI": 0.00325,
+    "N_STEM": 0.00136,
+    "N_ACRONYM": 0.00067,
+    "N_LEGAL_ONLY_REC": 0.00022
+   },
+   "ht": {
+    "H_SAME": 0.81037,
+    "H_RECMISS": 0.075,
+    "H_DIGINDEL": 0.03776,
+    "H_NA": 0.0249,
+    "H_GT10_EVEN": 0.01997,
+    "H_GT10_ODD": 0.01561,
+    "H_DIGSUB": 0.00716,
+    "H_D1": 0.00448,
+    "H_D2": 0.00349,
+    "H_D3_10_ODD": 0.00057,
+    "H_D3_10_EVEN": 0.00052,
+    "H_PERM": 0.00017
+   },
+   "st": {
+    "S_SAME": 0.75398,
+    "S_NA": 0.1823,
+    "S_TYPO": 0.0301,
+    "S_PARTIAL": 0.01831,
+    "S_DIFF": 0.01531
+   },
+   "ct": {
+    "C_SAME": 0.84012,
+    "C_DIFF": 0.12356,
+    "C_NA": 0.03632
+   },
+   "ut": {
+    "U_NONE": 0.83309,
+    "U_RECDROP": 0.09962,
+    "U_SAME": 0.04239,
+    "U_NA": 0.0249
+   },
+   "swap_kind": {
+    "": 0.90932,
+    "WORD": 0.05817,
+    "GARBLE": 0.03208,
+    "RARE_A": 0.00042
+   }
+  },
+  "V1_IN_acc": {
+   "nt": {
+    "N_SAME": 0.5158,
+    "N_NONLATIN": 0.16913,
+    "N_TYPO": 0.07191,
+    "N_SWAP1": 0.07139,
+    "N_HANDLE": 0.05835,
+    "N_ADD": 0.05372,
+    "N_DROP": 0.02449,
+    "N_DISJOINT": 0.01475,
+    "N_ALIAS": 0.0123,
+    "N_MULTI": 0.0023,
+    "N_LEGAL_ONLY_REC": 0.00226,
+    "N_ACRONYM": 0.00193,
+    "N_STEM": 0.00163,
+    "N_JOIN": 4e-05
+   },
+   "ht": {
+    "H_SAME": 0.67837,
+    "H_NONE": 0.07495,
+    "H_GT10_ODD": 0.0705,
+    "H_GT10_EVEN": 0.06969,
+    "H_DIGINDEL": 0.0246,
+    "H_NA": 0.02112,
+    "H_S1MISS": 0.01519,
+    "H_DIGSUB": 0.0136,
+    "H_RECMISS": 0.01334,
+    "H_D1": 0.00845,
+    "H_D2": 0.00719,
+    "H_D3_10_EVEN": 0.00156,
+    "H_D3_10_ODD": 0.00133,
+    "H_PERM": 0.00011
+   },
+   "st": {
+    "S_NA": 0.51969,
+    "S_SAME": 0.38865,
+    "S_TYPO": 0.04068,
+    "S_DIFF": 0.03264,
+    "S_PARTIAL": 0.01834
+   },
+   "ct": {
+    "C_SAME": 0.95195,
+    "C_NA": 0.04049,
+    "C_DIFF": 0.00756
+   },
+   "ut": {
+    "U_NONE": 0.79886,
+    "U_SAME": 0.11952,
+    "U_RECDROP": 0.03264,
+    "U_NA": 0.02112,
+    "U_RECADD": 0.01541,
+    "U_CHANGE": 0.01245
+   },
+   "swap_kind": {
+    "": 0.92861,
+    "WORD": 0.04935,
+    "GARBLE": 0.01993,
+    "RARE_A": 0.00211
+   }
+  },
+  "V1_US_pos": {
+   "nt": {
+    "N_SAME": 0.5843,
+    "N_TYPO": 0.09769,
+    "N_SWAP1": 0.09173,
+    "N_HANDLE": 0.07479,
+    "N_DROP": 0.06574,
+    "N_ADD": 0.04401,
+    "N_ALIAS": 0.01865,
+    "N_DISJOINT": 0.01747,
+    "N_MULTI": 0.00332,
+    "N_STEM": 0.00132,
+    "N_ACRONYM": 0.00077,
+    "N_LEGAL_ONLY_REC": 0.00022
+   },
+   "ht": {
+    "H_SAME": 0.79001,
+    "H_RECMISS": 0.07377,
+    "H_NA": 0.045,
+    "H_DIGINDEL": 0.03739,
+    "H_GT10_EVEN": 0.02014,
+    "H_GT10_ODD": 0.0161,
+    "H_DIGSUB": 0.00739,
+    "H_D1": 0.005,
+    "H_D2": 0.0039,
+    "H_D3_10_ODD": 0.0006,
+    "H_D3_10_EVEN": 0.00053,
+    "H_PERM": 0.00017
+   },
+   "st": {
+    "S_SAME": 0.73779,
+    "S_NA": 0.19962,
+    "S_TYPO": 0.02948,
+    "S_PARTIAL": 0.01805,
+    "S_DIFF": 0.01506
+   },
+   "ct": {
+    "C_SAME": 0.82218,
+    "C_DIFF": 0.12166,
+    "C_NA": 0.05616
+   },
+   "ut": {
+    "U_NONE": 0.81523,
+    "U_RECDROP": 0.09837,
+    "U_NA": 0.045,
+    "U_SAME": 0.04141
+   },
+   "swap_kind": {
+    "": 0.90827,
+    "WORD": 0.05905,
+    "GARBLE": 0.03227,
+    "RARE_A": 0.00041
+   }
+  },
+  "V1_IN_pos": {
+   "nt": {
+    "N_SAME": 0.51465,
+    "N_NONLATIN": 0.16561,
+    "N_SWAP1": 0.07303,
+    "N_TYPO": 0.07159,
+    "N_HANDLE": 0.05775,
+    "N_ADD": 0.05507,
+    "N_DROP": 0.02454,
+    "N_DISJOINT": 0.01753,
+    "N_ALIAS": 0.012,
+    "N_MULTI": 0.00235,
+    "N_LEGAL_ONLY_REC": 0.00224,
+    "N_ACRONYM": 0.00195,
+    "N_STEM": 0.00166,
+    "N_JOIN": 4e-05
+   },
+   "ht": {
+    "H_SAME": 0.6648,
+    "H_NONE": 0.07336,
+    "H_GT10_ODD": 0.06963,
+    "H_GT10_EVEN": 0.06877,
+    "H_NA": 0.03769,
+    "H_DIGINDEL": 0.02468,
+    "H_S1MISS": 0.01478,
+    "H_DIGSUB": 0.01362,
+    "H_RECMISS": 0.01333,
+    "H_D1": 0.00882,
+    "H_D2": 0.00748,
+    "H_D3_10_EVEN": 0.00159,
+    "H_D3_10_ODD": 0.00134,
+    "H_PERM": 0.00011
+   },
+   "st": {
+    "S_NA": 0.52871,
+    "S_SAME": 0.38109,
+    "S_TYPO": 0.03997,
+    "S_DIFF": 0.0322,
+    "S_PARTIAL": 0.01803
+   },
+   "ct": {
+    "C_SAME": 0.93521,
+    "C_NA": 0.05681,
+    "C_DIFF": 0.00799
+   },
+   "ut": {
+    "U_NONE": 0.78484,
+    "U_SAME": 0.11705,
+    "U_NA": 0.03769,
+    "U_RECDROP": 0.03292,
+    "U_RECADD": 0.01507,
+    "U_CHANGE": 0.01243
+   },
+   "swap_kind": {
+    "": 0.92697,
+    "WORD": 0.05074,
+    "GARBLE": 0.0202,
+    "RARE_A": 0.0021
+   }
+  }
+ },
+ "flag_rates": {
+  "FR5": {
+   "swap_same_addr": 0.05345,
+   "wordswap_same_addr": 0.04026,
+   "wordswap_any": 0.04537,
+   "garble_swap": 0.01583,
+   "swap_any": 0.06152,
+   "street_sub_same_num_city": 0.01404,
+   "street_diff_same_num": 0.01455,
+   "num_shift_same_street": 0.02444,
+   "hnum_shift": 0.03064,
+   "unit_change": 0.0,
+   "exact_addr": 0.15334,
+   "name_exact_addr_shift": 0.01894,
+   "name_exact_street_sub": 0.01071,
+   "legal_diff": 0.2634
+  },
+  "FR5_final": {
+   "swap_same_addr": 0.05424,
+   "wordswap_same_addr": 0.04089,
+   "wordswap_any": 0.04443,
+   "garble_swap": 0.01495,
+   "swap_any": 0.05951,
+   "street_sub_same_num_city": 0.00511,
+   "street_diff_same_num": 0.00525,
+   "num_shift_same_street": 0.01904,
+   "hnum_shift": 0.02182,
+   "unit_change": 0.0,
+   "exact_addr": 0.15736,
+   "name_exact_addr_shift": 0.0156,
+   "name_exact_street_sub": 0.00423,
+   "legal_diff": 0.2613
+  },
+  "FR5_mcdropped": {
+   "swap_same_addr": 0.02623,
+   "wordswap_same_addr": 0.01893,
+   "wordswap_any": 0.07749,
+   "garble_swap": 0.04576,
+   "swap_any": 0.13043,
+   "street_sub_same_num_city": 0.31982,
+   "street_diff_same_num": 0.33349,
+   "num_shift_same_street": 0.20932,
+   "hnum_shift": 0.33281,
+   "unit_change": 0.0,
+   "exact_addr": 0.01572,
+   "name_exact_addr_shift": 0.13364,
+   "name_exact_street_sub": 0.2329,
+   "legal_diff": 0.33534
+  },
+  "FR5_new_vs_S004": {
+   "swap_same_addr": 0.12176,
+   "wordswap_same_addr": 0.12039,
+   "wordswap_any": 0.14981,
+   "garble_swap": 0.00831,
+   "swap_any": 0.1589,
+   "street_sub_same_num_city": 0.00469,
+   "street_diff_same_num": 0.00547,
+   "num_shift_same_street": 0.07681,
+   "hnum_shift": 0.08561,
+   "unit_change": 0.0,
+   "exact_addr": 0.17805,
+   "name_exact_addr_shift": 0.04828,
+   "name_exact_street_sub": 0.00235,
+   "legal_diff": 0.59679
+  },
+  "FR4only(dropped by S005)": {
+   "swap_same_addr": 0.11292,
+   "wordswap_same_addr": 0.10958,
+   "wordswap_any": 0.19265,
+   "garble_swap": 0.03967,
+   "swap_any": 0.24282,
+   "street_sub_same_num_city": 0.14248,
+   "street_diff_same_num": 0.1537,
+   "num_shift_same_street": 0.19987,
+   "hnum_shift": 0.34991,
+   "unit_change": 9e-05,
+   "exact_addr": 0.06742,
+   "name_exact_addr_shift": 0.10293,
+   "name_exact_street_sub": 0.06579,
+   "legal_diff": 0.4206
+  },
+  "US5": {
+   "swap_same_addr": 0.06534,
+   "wordswap_same_addr": 0.04154,
+   "wordswap_any": 0.05766,
+   "garble_swap": 0.03294,
+   "swap_any": 0.09129,
+   "street_sub_same_num_city": 0.01207,
+   "street_diff_same_num": 0.01404,
+   "num_shift_same_street": 0.07123,
+   "hnum_shift": 0.09345,
+   "unit_change": 1e-05,
+   "exact_addr": 0.12742,
+   "name_exact_addr_shift": 0.0436,
+   "name_exact_street_sub": 0.00744,
+   "legal_diff": 0.27499
+  },
+  "IN5": {
+   "swap_same_addr": 0.02683,
+   "wordswap_same_addr": 0.01878,
+   "wordswap_any": 0.05111,
+   "garble_swap": 0.02019,
+   "swap_any": 0.07356,
+   "street_sub_same_num_city": 0.00666,
+   "street_diff_same_num": 0.00682,
+   "num_shift_same_street": 0.05935,
+   "hnum_shift": 0.20119,
+   "unit_change": 0.01159,
+   "exact_addr": 0.10612,
+   "name_exact_addr_shift": 0.03136,
+   "name_exact_street_sub": 0.00321,
+   "legal_diff": 0.36334
+  },
+  "V1_US_acc": {
+   "swap_same_addr": 0.06528,
+   "wordswap_same_addr": 0.04195,
+   "wordswap_any": 0.05817,
+   "garble_swap": 0.03208,
+   "swap_any": 0.09068,
+   "street_sub_same_num_city": 0.0113,
+   "street_diff_same_num": 0.01311,
+   "num_shift_same_street": 0.06761,
+   "hnum_shift": 0.08974,
+   "unit_change": 0.0,
+   "exact_addr": 0.12725,
+   "name_exact_addr_shift": 0.04118,
+   "name_exact_street_sub": 0.00691,
+   "legal_diff": 0.27499
+  },
+  "V1_IN_acc": {
+   "swap_same_addr": 0.02571,
+   "wordswap_same_addr": 0.01804,
+   "wordswap_any": 0.04935,
+   "garble_swap": 0.01993,
+   "swap_any": 0.07139,
+   "street_sub_same_num_city": 0.00722,
+   "street_diff_same_num": 0.00741,
+   "num_shift_same_street": 0.05917,
+   "hnum_shift": 0.19703,
+   "unit_change": 0.01245,
+   "exact_addr": 0.1024,
+   "name_exact_addr_shift": 0.03049,
+   "name_exact_street_sub": 0.0037,
+   "legal_diff": 0.36786
+  },
+  "V1_US_pos": {
+   "swap_same_addr": 0.06343,
+   "wordswap_same_addr": 0.04076,
+   "wordswap_any": 0.05905,
+   "garble_swap": 0.03227,
+   "swap_any": 0.09173,
+   "street_sub_same_num_city": 0.01112,
+   "street_diff_same_num": 0.0129,
+   "num_shift_same_street": 0.06915,
+   "hnum_shift": 0.09122,
+   "unit_change": 0.0,
+   "exact_addr": 0.12366,
+   "name_exact_addr_shift": 0.04184,
+   "name_exact_street_sub": 0.00671,
+   "legal_diff": 0.27826
+  },
+  "V1_IN_pos": {
+   "swap_same_addr": 0.02533,
+   "wordswap_same_addr": 0.01782,
+   "wordswap_any": 0.05074,
+   "garble_swap": 0.0202,
+   "swap_any": 0.07303,
+   "street_sub_same_num_city": 0.00705,
+   "street_diff_same_num": 0.00723,
+   "num_shift_same_street": 0.05847,
+   "hnum_shift": 0.19604,
+   "unit_change": 0.01243,
+   "exact_addr": 0.10068,
+   "name_exact_addr_shift": 0.02988,
+   "name_exact_street_sub": 0.00361,
+   "legal_diff": 0.37069
+  }
+ },
+ "v1_by_type": {
+  "nt": {
+   "US": {
+    "N_ACRONYM": {
+     "n_hard": 32,
+     "n_pos": 32,
+     "p_match_hard": 1.0,
+     "p_match_allcand": 0.44444,
+     "n_acc": 27,
+     "prec_new": 1.0,
+     "rec_new": 0.8438,
+     "FP": 0,
+     "FN": 5
+    },
+    "N_ADD": {
+     "n_hard": 9722,
+     "n_pos": 1829,
+     "p_match_hard": 0.1881,
+     "p_match_allcand": 0.05446,
+     "n_acc": 1712,
+     "prec_new": 0.9982,
+     "rec_new": 0.9344,
+     "FP": 3,
+     "FN": 120
+    },
+    "N_ALIAS": {
+     "n_hard": 783,
+     "n_pos": 775,
+     "p_match_hard": 0.9898,
+     "p_match_allcand": 0.04281,
+     "n_acc": 775,
+     "prec_new": 1.0,
+     "rec_new": 1.0,
+     "FP": 0,
+     "FN": 0
+    },
+    "N_DISJOINT": {
+     "n_hard": 2429,
+     "n_pos": 726,
+     "p_match_hard": 0.2989,
+     "p_match_allcand": 0.00093,
+     "n_acc": 580,
+     "prec_new": 0.9897,
+     "rec_new": 0.7906,
+     "FP": 6,
+     "FN": 152
+    },
+    "N_DROP": {
+     "n_hard": 6243,
+     "n_pos": 2732,
+     "p_match_hard": 0.4376,
+     "p_match_allcand": 0.06972,
+     "n_acc": 2647,
+     "prec_new": 0.9966,
+     "rec_new": 0.9656,
+     "FP": 9,
+     "FN": 94
+    },
+    "N_HANDLE": {
+     "n_hard": 4349,
+     "n_pos": 3108,
+     "p_match_hard": 0.7146,
+     "p_match_allcand": 0.04561,
+     "n_acc": 3074,
+     "prec_new": 0.9993,
+     "rec_new": 0.9884,
+     "FP": 2,
+     "FN": 36
+    },
+    "N_JOIN": {
+     "n_hard": 0,
+     "n_pos": 0,
+     "p_match_hard": null,
+     "p_match_allcand": 0.0,
+     "n_acc": 0,
+     "prec_new": null,
+     "rec_new": null,
+     "FP": 0,
+     "FN": 0
+    },
+    "N_LEGAL_ONLY_REC": {
+     "n_hard": 12,
+     "n_pos": 9,
+     "p_match_hard": 0.75,
+     "p_match_allcand": 0.00768,
+     "n_acc": 9,
+     "prec_new": 1.0,
+     "rec_new": 1.0,
+     "FP": 0,
+     "FN": 0
+    },
+    "N_MULTI": {
+     "n_hard": 1135,
+     "n_pos": 138,
+     "p_match_hard": 0.1216,
+     "p_match_allcand": 0.00043,
+     "n_acc": 131,
+     "prec_new": 0.9847,
+     "rec_new": 0.9348,
+     "FP": 2,
+     "FN": 9
+    },
+    "N_SAME": {
+     "n_hard": 36714,
+     "n_pos": 24283,
+     "p_match_hard": 0.6614,
+     "p_match_allcand": 0.28993,
+     "n_acc": 23724,
+     "prec_new": 0.9982,
+     "rec_new": 0.9753,
+     "FP": 42,
+     "FN": 601
+    },
+    "N_STEM": {
+     "n_hard": 180,
+     "n_pos": 55,
+     "p_match_hard": 0.3056,
+     "p_match_allcand": 0.06548,
+     "n_acc": 55,
+     "prec_new": 0.9818,
+     "rec_new": 0.9818,
+     "FP": 1,
+     "FN": 1
+    },
+    "N_SWAP1": {
+     "n_hard": 9886,
+     "n_pos": 3812,
+     "p_match_hard": 0.3856,
+     "p_match_allcand": 0.02412,
+     "n_acc": 3660,
+     "prec_new": 0.9975,
+     "rec_new": 0.9578,
+     "FP": 9,
+     "FN": 161
+    },
+    "N_TYPO": {
+     "n_hard": 5496,
+     "n_pos": 4060,
+     "p_match_hard": 0.7387,
+     "p_match_allcand": 0.31434,
+     "n_acc": 3968,
+     "prec_new": 0.9957,
+     "rec_new": 0.9732,
+     "FP": 17,
+     "FN": 109
+    }
+   },
+   "India": {
+    "N_ACRONYM": {
+     "n_hard": 54,
+     "n_pos": 54,
+     "p_match_hard": 1.0,
+     "p_match_allcand": 0.57447,
+     "n_acc": 52,
+     "prec_new": 1.0,
+     "rec_new": 0.963,
+     "FP": 0,
+     "FN": 2
+    },
+    "N_ADD": {
+     "n_hard": 4001,
+     "n_pos": 1524,
+     "p_match_hard": 0.3809,
+     "p_match_allcand": 0.07945,
+     "n_acc": 1450,
+     "prec_new": 0.9959,
+     "rec_new": 0.9475,
+     "FP": 6,
+     "FN": 80
+    },
+    "N_ALIAS": {
+     "n_hard": 341,
+     "n_pos": 332,
+     "p_match_hard": 0.9736,
+     "p_match_allcand": 0.08689,
+     "n_acc": 332,
+     "prec_new": 1.0,
+     "rec_new": 1.0,
+     "FP": 0,
+     "FN": 0
+    },
+    "N_DISJOINT": {
+     "n_hard": 2099,
+     "n_pos": 485,
+     "p_match_hard": 0.2311,
+     "p_match_allcand": 0.00088,
+     "n_acc": 398,
+     "prec_new": 0.9874,
+     "rec_new": 0.8103,
+     "FP": 5,
+     "FN": 92
+    },
+    "N_DROP": {
+     "n_hard": 1611,
+     "n_pos": 679,
+     "p_match_hard": 0.4215,
+     "p_match_allcand": 0.0335,
+     "n_acc": 661,
+     "prec_new": 0.9985,
+     "rec_new": 0.972,
+     "FP": 1,
+     "FN": 19
+    },
+    "N_HANDLE": {
+     "n_hard": 2021,
+     "n_pos": 1598,
+     "p_match_hard": 0.7907,
+     "p_match_allcand": 0.03564,
+     "n_acc": 1575,
+     "prec_new": 0.9987,
+     "rec_new": 0.9844,
+     "FP": 2,
+     "FN": 25
+    },
+    "N_JOIN": {
+     "n_hard": 1,
+     "n_pos": 1,
+     "p_match_hard": 1.0,
+     "p_match_allcand": 0.04762,
+     "n_acc": 1,
+     "prec_new": 1.0,
+     "rec_new": 1.0,
+     "FP": 0,
+     "FN": 0
+    },
+    "N_LEGAL_ONLY_REC": {
+     "n_hard": 75,
+     "n_pos": 62,
+     "p_match_hard": 0.8267,
+     "p_match_allcand": 0.03171,
+     "n_acc": 61,
+     "prec_new": 1.0,
+     "rec_new": 0.9839,
+     "FP": 0,
+     "FN": 1
+    },
+    "N_MULTI": {
+     "n_hard": 658,
+     "n_pos": 65,
+     "p_match_hard": 0.0988,
+     "p_match_allcand": 0.00081,
+     "n_acc": 62,
+     "prec_new": 1.0,
+     "rec_new": 0.9538,
+     "FP": 0,
+     "FN": 3
+    },
+    "N_NONLATIN": {
+     "n_hard": 5325,
+     "n_pos": 4583,
+     "p_match_hard": 0.8607,
+     "p_match_allcand": 0.04218,
+     "n_acc": 4565,
+     "prec_new": 0.9956,
+     "rec_new": 0.9917,
+     "FP": 20,
+     "FN": 38
+    },
+    "N_SAME": {
+     "n_hard": 20359,
+     "n_pos": 14242,
+     "p_match_hard": 0.6995,
+     "p_match_allcand": 0.29597,
+     "n_acc": 13922,
+     "prec_new": 0.9986,
+     "rec_new": 0.9761,
+     "FP": 20,
+     "FN": 340
+    },
+    "N_STEM": {
+     "n_hard": 446,
+     "n_pos": 46,
+     "p_match_hard": 0.1031,
+     "p_match_allcand": 0.01016,
+     "n_acc": 44,
+     "prec_new": 0.9545,
+     "rec_new": 0.913,
+     "FP": 2,
+     "FN": 4
+    },
+    "N_SWAP1": {
+     "n_hard": 6056,
+     "n_pos": 2021,
+     "p_match_hard": 0.3337,
+     "p_match_allcand": 0.01439,
+     "n_acc": 1927,
+     "prec_new": 0.9933,
+     "rec_new": 0.9471,
+     "FP": 13,
+     "FN": 107
+    },
+    "N_TYPO": {
+     "n_hard": 2939,
+     "n_pos": 1981,
+     "p_match_hard": 0.674,
+     "p_match_allcand": 0.17109,
+     "n_acc": 1941,
+     "prec_new": 0.9964,
+     "rec_new": 0.9763,
+     "FP": 7,
+     "FN": 47
+    }
+   }
+  },
+  "ht": {
+   "US": {
+    "H_D1": {
+     "n_hard": 503,
+     "n_pos": 208,
+     "p_match_hard": 0.4135,
+     "p_match_allcand": 0.04044,
+     "n_acc": 181,
+     "prec_new": 0.9779,
+     "rec_new": 0.851,
+     "FP": 4,
+     "FN": 31
+    },
+    "H_D2": {
+     "n_hard": 452,
+     "n_pos": 162,
+     "p_match_hard": 0.3584,
+     "p_match_allcand": 0.03157,
+     "n_acc": 141,
+     "prec_new": 0.9574,
+     "rec_new": 0.8333,
+     "FP": 6,
+     "FN": 27
+    },
+    "H_D3_10_EVEN": {
+     "n_hard": 122,
+     "n_pos": 22,
+     "p_match_hard": 0.1803,
+     "p_match_allcand": 0.00579,
+     "n_acc": 21,
+     "prec_new": 0.9524,
+     "rec_new": 0.9091,
+     "FP": 1,
+     "FN": 2
+    },
+    "H_D3_10_ODD": {
+     "n_hard": 555,
+     "n_pos": 25,
+     "p_match_hard": 0.045,
+     "p_match_allcand": 0.00377,
+     "n_acc": 23,
+     "prec_new": 0.913,
+     "rec_new": 0.84,
+     "FP": 2,
+     "FN": 4
+    },
+    "H_DIGINDEL": {
+     "n_hard": 1697,
+     "n_pos": 1554,
+     "p_match_hard": 0.9157,
+     "p_match_allcand": 0.04353,
+     "n_acc": 1524,
+     "prec_new": 0.9941,
+     "rec_new": 0.9749,
+     "FP": 9,
+     "FN": 39
+    },
+    "H_DIGSUB": {
+     "n_hard": 1029,
+     "n_pos": 307,
+     "p_match_hard": 0.2983,
+     "p_match_allcand": 0.00801,
+     "n_acc": 289,
+     "prec_new": 0.9862,
+     "rec_new": 0.9283,
+     "FP": 4,
+     "FN": 22
+    },
+    "H_GT10_EVEN": {
+     "n_hard": 1494,
+     "n_pos": 837,
+     "p_match_hard": 0.5602,
+     "p_match_allcand": 0.0017,
+     "n_acc": 806,
+     "prec_new": 0.995,
+     "rec_new": 0.9582,
+     "FP": 4,
+     "FN": 35
+    },
+    "H_GT10_ODD": {
+     "n_hard": 1982,
+     "n_pos": 669,
+     "p_match_hard": 0.3375,
+     "p_match_allcand": 0.00167,
+     "n_acc": 630,
+     "prec_new": 0.9937,
+     "rec_new": 0.9357,
+     "FP": 4,
+     "FN": 43
+    },
+    "H_NA": {
+     "n_hard": 31692,
+     "n_pos": 1870,
+     "p_match_hard": 0.059,
+     "p_match_allcand": 0.00738,
+     "n_acc": 1005,
+     "prec_new": 0.9701,
+     "rec_new": 0.5214,
+     "FP": 30,
+     "FN": 895
+    },
+    "H_PERM": {
+     "n_hard": 44,
+     "n_pos": 7,
+     "p_match_hard": 0.1591,
+     "p_match_allcand": 0.00309,
+     "n_acc": 7,
+     "prec_new": 1.0,
+     "rec_new": 1.0,
+     "FP": 0,
+     "FN": 0
+    },
+    "H_RECMISS": {
+     "n_hard": 3690,
+     "n_pos": 3066,
+     "p_match_hard": 0.8309,
+     "p_match_allcand": 0.03367,
+     "n_acc": 3027,
+     "prec_new": 0.9983,
+     "rec_new": 0.9856,
+     "FP": 5,
+     "FN": 44
+    },
+    "H_SAME": {
+     "n_hard": 33721,
+     "n_pos": 32832,
+     "p_match_hard": 0.9736,
+     "p_match_allcand": 0.18381,
+     "n_acc": 32708,
+     "prec_new": 0.9993,
+     "rec_new": 0.9956,
+     "FP": 22,
+     "FN": 146
+    }
+   },
+   "India": {
+    "H_D1": {
+     "n_hard": 379,
+     "n_pos": 244,
+     "p_match_hard": 0.6438,
+     "p_match_allcand": 0.01001,
+     "n_acc": 228,
+     "prec_new": 0.9956,
+     "rec_new": 0.9303,
+     "FP": 1,
+     "FN": 17
+    },
+    "H_D2": {
+     "n_hard": 312,
+     "n_pos": 207,
+     "p_match_hard": 0.6635,
+     "p_match_allcand": 0.01023,
+     "n_acc": 194,
+     "prec_new": 0.9948,
+     "rec_new": 0.9324,
+     "FP": 1,
+     "FN": 14
+    },
+    "H_D3_10_EVEN": {
+     "n_hard": 83,
+     "n_pos": 44,
+     "p_match_hard": 0.5301,
+     "p_match_allcand": 0.00368,
+     "n_acc": 42,
+     "prec_new": 1.0,
+     "rec_new": 0.9545,
+     "FP": 0,
+     "FN": 2
+    },
+    "H_D3_10_ODD": {
+     "n_hard": 124,
+     "n_pos": 37,
+     "p_match_hard": 0.2984,
+     "p_match_allcand": 0.0024,
+     "n_acc": 36,
+     "prec_new": 1.0,
+     "rec_new": 0.973,
+     "FP": 0,
+     "FN": 1
+    },
+    "H_DIGINDEL": {
+     "n_hard": 875,
+     "n_pos": 683,
+     "p_match_hard": 0.7806,
+     "p_match_allcand": 0.01489,
+     "n_acc": 664,
+     "prec_new": 0.997,
+     "rec_new": 0.9693,
+     "FP": 2,
+     "FN": 21
+    },
+    "H_DIGSUB": {
+     "n_hard": 597,
+     "n_pos": 377,
+     "p_match_hard": 0.6315,
+     "p_match_allcand": 0.00633,
+     "n_acc": 367,
+     "prec_new": 0.9837,
+     "rec_new": 0.9576,
+     "FP": 6,
+     "FN": 16
+    },
+    "H_GT10_EVEN": {
+     "n_hard": 2481,
+     "n_pos": 1903,
+     "p_match_hard": 0.767,
+     "p_match_allcand": 0.00735,
+     "n_acc": 1881,
+     "prec_new": 0.9963,
+     "rec_new": 0.9848,
+     "FP": 7,
+     "FN": 29
+    },
+    "H_GT10_ODD": {
+     "n_hard": 2586,
+     "n_pos": 1927,
+     "p_match_hard": 0.7452,
+     "p_match_allcand": 0.00706,
+     "n_acc": 1903,
+     "prec_new": 0.9958,
+     "rec_new": 0.9834,
+     "FP": 8,
+     "FN": 32
+    },
+    "H_NA": {
+     "n_hard": 15179,
+     "n_pos": 1043,
+     "p_match_hard": 0.0687,
+     "p_match_allcand": 0.01123,
+     "n_acc": 570,
+     "prec_new": 0.9684,
+     "rec_new": 0.5292,
+     "FP": 18,
+     "FN": 491
+    },
+    "H_NONE": {
+     "n_hard": 2126,
+     "n_pos": 2030,
+     "p_match_hard": 0.9548,
+     "p_match_allcand": 0.0786,
+     "n_acc": 2023,
+     "prec_new": 0.9985,
+     "rec_new": 0.9951,
+     "FP": 3,
+     "FN": 10
+    },
+    "H_PERM": {
+     "n_hard": 7,
+     "n_pos": 3,
+     "p_match_hard": 0.4286,
+     "p_match_allcand": 0.00187,
+     "n_acc": 3,
+     "prec_new": 1.0,
+     "rec_new": 1.0,
+     "FP": 0,
+     "FN": 0
+    },
+    "H_RECMISS": {
+     "n_hard": 589,
+     "n_pos": 369,
+     "p_match_hard": 0.6265,
+     "p_match_allcand": 0.0071,
+     "n_acc": 360,
+     "prec_new": 1.0,
+     "rec_new": 0.9756,
+     "FP": 0,
+     "FN": 9
+    },
+    "H_S1MISS": {
+     "n_hard": 525,
+     "n_pos": 409,
+     "p_match_hard": 0.779,
+     "p_match_allcand": 0.00679,
+     "n_acc": 410,
+     "prec_new": 0.9829,
+     "rec_new": 0.9853,
+     "FP": 7,
+     "FN": 6
+    },
+    "H_SAME": {
+     "n_hard": 20123,
+     "n_pos": 18397,
+     "p_match_hard": 0.9142,
+     "p_match_allcand": 0.19459,
+     "n_acc": 18310,
+     "prec_new": 0.9987,
+     "rec_new": 0.994,
+     "FP": 23,
+     "FN": 110
+    }
+   }
+  },
+  "st": {
+   "US": {
+    "S_DIFF": {
+     "n_hard": 908,
+     "n_pos": 626,
+     "p_match_hard": 0.6894,
+     "p_match_allcand": 0.00089,
+     "n_acc": 618,
+     "prec_new": 0.9951,
+     "rec_new": 0.9824,
+     "FP": 3,
+     "FN": 11
+    },
+    "S_NA": {
+     "n_hard": 39311,
+     "n_pos": 8296,
+     "p_match_hard": 0.211,
+     "p_match_allcand": 0.01559,
+     "n_acc": 7358,
+     "prec_new": 0.9951,
+     "rec_new": 0.8826,
+     "FP": 36,
+     "FN": 974
+    },
+    "S_PARTIAL": {
+     "n_hard": 838,
+     "n_pos": 750,
+     "p_match_hard": 0.895,
+     "p_match_allcand": 0.0181,
+     "n_acc": 739,
+     "prec_new": 0.9986,
+     "rec_new": 0.984,
+     "FP": 1,
+     "FN": 12
+    },
+    "S_SAME": {
+     "n_hard": 34583,
+     "n_pos": 30662,
+     "p_match_hard": 0.8866,
+     "p_match_allcand": 0.13772,
+     "n_acc": 30432,
+     "prec_new": 0.9983,
+     "rec_new": 0.9908,
+     "FP": 51,
+     "FN": 281
+    },
+    "S_TYPO": {
+     "n_hard": 1341,
+     "n_pos": 1225,
+     "p_match_hard": 0.9135,
+     "p_match_allcand": 0.08027,
+     "n_acc": 1215,
+     "prec_new": 1.0,
+     "rec_new": 0.9918,
+     "FP": 0,
+     "FN": 10
+    }
+   },
+   "India": {
+    "S_DIFF": {
+     "n_hard": 1198,
+     "n_pos": 891,
+     "p_match_hard": 0.7437,
+     "p_match_allcand": 0.00454,
+     "n_acc": 881,
+     "prec_new": 0.9989,
+     "rec_new": 0.9877,
+     "FP": 1,
+     "FN": 11
+    },
+    "S_NA": {
+     "n_hard": 31748,
+     "n_pos": 14631,
+     "p_match_hard": 0.4608,
+     "p_match_allcand": 0.0196,
+     "n_acc": 14027,
+     "prec_new": 0.9959,
+     "rec_new": 0.9548,
+     "FP": 57,
+     "FN": 661
+    },
+    "S_PARTIAL": {
+     "n_hard": 640,
+     "n_pos": 499,
+     "p_match_hard": 0.7797,
+     "p_match_allcand": 0.00998,
+     "n_acc": 495,
+     "prec_new": 1.0,
+     "rec_new": 0.992,
+     "FP": 0,
+     "FN": 4
+    },
+    "S_SAME": {
+     "n_hard": 11204,
+     "n_pos": 10546,
+     "p_match_hard": 0.9413,
+     "p_match_allcand": 0.29537,
+     "n_acc": 10490,
+     "prec_new": 0.9986,
+     "rec_new": 0.9933,
+     "FP": 15,
+     "FN": 71
+    },
+    "S_TYPO": {
+     "n_hard": 1196,
+     "n_pos": 1106,
+     "p_match_hard": 0.9247,
+     "p_match_allcand": 0.14114,
+     "n_acc": 1098,
+     "prec_new": 0.9973,
+     "rec_new": 0.9901,
+     "FP": 3,
+     "FN": 11
+    }
+   }
+  },
+  "ct": {
+   "US": {
+    "C_DIFF": {
+     "n_hard": 6235,
+     "n_pos": 5056,
+     "p_match_hard": 0.8109,
+     "p_match_allcand": 0.00588,
+     "n_acc": 4987,
+     "prec_new": 0.998,
+     "rec_new": 0.9844,
+     "FP": 10,
+     "FN": 79
+    },
+    "C_NA": {
+     "n_hard": 32233,
+     "n_pos": 2334,
+     "p_match_hard": 0.0724,
+     "p_match_allcand": 0.00851,
+     "n_acc": 1466,
+     "prec_new": 0.9782,
+     "rec_new": 0.6144,
+     "FP": 32,
+     "FN": 900
+    },
+    "C_SAME": {
+     "n_hard": 38513,
+     "n_pos": 34169,
+     "p_match_hard": 0.8872,
+     "p_match_allcand": 0.08993,
+     "n_acc": 33909,
+     "prec_new": 0.9986,
+     "rec_new": 0.991,
+     "FP": 49,
+     "FN": 309
+    }
+   },
+   "India": {
+    "C_DIFF": {
+     "n_hard": 603,
+     "n_pos": 221,
+     "p_match_hard": 0.3665,
+     "p_match_allcand": 0.00067,
+     "n_acc": 204,
+     "prec_new": 1.0,
+     "rec_new": 0.9231,
+     "FP": 0,
+     "FN": 17
+    },
+    "C_NA": {
+     "n_hard": 15830,
+     "n_pos": 1572,
+     "p_match_hard": 0.0993,
+     "p_match_allcand": 0.0136,
+     "n_acc": 1093,
+     "prec_new": 0.9826,
+     "rec_new": 0.6832,
+     "FP": 19,
+     "FN": 498
+    },
+    "C_SAME": {
+     "n_hard": 29553,
+     "n_pos": 25880,
+     "p_match_hard": 0.8757,
+     "p_match_allcand": 0.04377,
+     "n_acc": 25694,
+     "prec_new": 0.9978,
+     "rec_new": 0.9906,
+     "FP": 57,
+     "FN": 243
+    }
+   }
+  },
+  "ut": {
+   "US": {
+    "U_CHANGE": {
+     "n_hard": 77,
+     "n_pos": 0,
+     "p_match_hard": 0.0,
+     "p_match_allcand": 0.0,
+     "n_acc": 0,
+     "prec_new": null,
+     "rec_new": null,
+     "FP": 0,
+     "FN": 0
+    },
+    "U_NA": {
+     "n_hard": 31692,
+     "n_pos": 1870,
+     "p_match_hard": 0.059,
+     "p_match_allcand": 0.00738,
+     "n_acc": 1005,
+     "prec_new": 0.9701,
+     "rec_new": 0.5214,
+     "FP": 30,
+     "FN": 895
+    },
+    "U_NONE": {
+     "n_hard": 38339,
+     "n_pos": 33880,
+     "p_match_hard": 0.8837,
+     "p_match_allcand": 0.03232,
+     "n_acc": 33625,
+     "prec_new": 0.9985,
+     "rec_new": 0.991,
+     "FP": 51,
+     "FN": 306
+    },
+    "U_RECADD": {
+     "n_hard": 12,
+     "n_pos": 0,
+     "p_match_hard": 0.0,
+     "p_match_allcand": 0.0,
+     "n_acc": 0,
+     "prec_new": null,
+     "rec_new": null,
+     "FP": 0,
+     "FN": 0
+    },
+    "U_RECDROP": {
+     "n_hard": 4978,
+     "n_pos": 4088,
+     "p_match_hard": 0.8212,
+     "p_match_allcand": 0.02409,
+     "n_acc": 4021,
+     "prec_new": 0.9975,
+     "rec_new": 0.9812,
+     "FP": 10,
+     "FN": 77
+    },
+    "U_SAME": {
+     "n_hard": 1883,
+     "n_pos": 1721,
+     "p_match_hard": 0.914,
+     "p_match_allcand": 0.19639,
+     "n_acc": 1711,
+     "prec_new": 1.0,
+     "rec_new": 0.9942,
+     "FP": 0,
+     "FN": 10
+    }
+   },
+   "India": {
+    "U_CHANGE": {
+     "n_hard": 491,
+     "n_pos": 344,
+     "p_match_hard": 0.7006,
+     "p_match_allcand": 0.01113,
+     "n_acc": 336,
+     "prec_new": 0.994,
+     "rec_new": 0.9709,
+     "FP": 2,
+     "FN": 10
+    },
+    "U_NA": {
+     "n_hard": 15179,
+     "n_pos": 1043,
+     "p_match_hard": 0.0687,
+     "p_match_allcand": 0.01123,
+     "n_acc": 570,
+     "prec_new": 0.9684,
+     "rec_new": 0.5292,
+     "FP": 18,
+     "FN": 491
+    },
+    "U_NONE": {
+     "n_hard": 24914,
+     "n_pos": 21719,
+     "p_match_hard": 0.8718,
+     "p_match_allcand": 0.03065,
+     "n_acc": 21562,
+     "prec_new": 0.9977,
+     "rec_new": 0.9905,
+     "FP": 49,
+     "FN": 206
+    },
+    "U_RECADD": {
+     "n_hard": 526,
+     "n_pos": 417,
+     "p_match_hard": 0.7928,
+     "p_match_allcand": 0.0056,
+     "n_acc": 416,
+     "prec_new": 1.0,
+     "rec_new": 0.9976,
+     "FP": 0,
+     "FN": 1
+    },
+    "U_RECDROP": {
+     "n_hard": 1446,
+     "n_pos": 911,
+     "p_match_hard": 0.63,
+     "p_match_allcand": 0.00752,
+     "n_acc": 881,
+     "prec_new": 0.9966,
+     "rec_new": 0.9638,
+     "FP": 3,
+     "FN": 33
+    },
+    "U_SAME": {
+     "n_hard": 3430,
+     "n_pos": 3239,
+     "p_match_hard": 0.9443,
+     "p_match_allcand": 0.39356,
+     "n_acc": 3226,
+     "prec_new": 0.9988,
+     "rec_new": 0.9948,
+     "FP": 4,
+     "FN": 17
+    }
+   }
+  },
+  "swap_kind": {
+   "US": {
+    "": {
+     "n_hard": 67095,
+     "n_pos": 37747,
+     "p_match_hard": 0.5626,
+     "p_match_allcand": 0.02783,
+     "n_acc": 36702,
+     "prec_new": 0.9978,
+     "rec_new": 0.9701,
+     "FP": 82,
+     "FN": 1127
+    },
+    "GARBLE": {
+     "n_hard": 2865,
+     "n_pos": 1341,
+     "p_match_hard": 0.4681,
+     "p_match_allcand": 0.05262,
+     "n_acc": 1295,
+     "prec_new": 0.9977,
+     "rec_new": 0.9635,
+     "FP": 3,
+     "FN": 49
+    },
+    "RARE_A": {
+     "n_hard": 150,
+     "n_pos": 17,
+     "p_match_hard": 0.1133,
+     "p_match_allcand": 0.00193,
+     "n_acc": 17,
+     "prec_new": 1.0,
+     "rec_new": 1.0,
+     "FP": 0,
+     "FN": 0
+    },
+    "WORD": {
+     "n_hard": 6871,
+     "n_pos": 2454,
+     "p_match_hard": 0.3572,
+     "p_match_allcand": 0.01983,
+     "n_acc": 2348,
+     "prec_new": 0.9974,
+     "rec_new": 0.9544,
+     "FP": 6,
+     "FN": 112
+    }
+   },
+   "India": {
+    "": {
+     "n_hard": 39930,
+     "n_pos": 25652,
+     "p_match_hard": 0.6424,
+     "p_match_allcand": 0.02864,
+     "n_acc": 25064,
+     "prec_new": 0.9975,
+     "rec_new": 0.9746,
+     "FP": 63,
+     "FN": 651
+    },
+    "GARBLE": {
+     "n_hard": 1555,
+     "n_pos": 559,
+     "p_match_hard": 0.3595,
+     "p_match_allcand": 0.02023,
+     "n_acc": 538,
+     "prec_new": 0.9888,
+     "rec_new": 0.9517,
+     "FP": 6,
+     "FN": 27
+    },
+    "RARE_A": {
+     "n_hard": 142,
+     "n_pos": 58,
+     "p_match_hard": 0.4085,
+     "p_match_allcand": 0.00423,
+     "n_acc": 57,
+     "prec_new": 0.9825,
+     "rec_new": 0.9655,
+     "FP": 1,
+     "FN": 2
+    },
+    "WORD": {
+     "n_hard": 4359,
+     "n_pos": 1404,
+     "p_match_hard": 0.3221,
+     "p_match_allcand": 0.01417,
+     "n_acc": 1332,
+     "prec_new": 0.9955,
+     "rec_new": 0.9444,
+     "FP": 6,
+     "FN": 78
+    }
+   }
+  },
+  "swap_same_addr": {
+   "US": {
+    "False": {
+     "n_hard": 74253,
+     "n_pos": 38923,
+     "p_match_hard": 0.5242,
+     "p_match_allcand": 0.02575,
+     "n_acc": 37727,
+     "prec_new": 0.9977,
+     "rec_new": 0.967,
+     "FP": 88,
+     "FN": 1284
+    },
+    "True": {
+     "n_hard": 2728,
+     "n_pos": 2636,
+     "p_match_hard": 0.9663,
+     "p_match_allcand": 0.93875,
+     "n_acc": 2635,
+     "prec_new": 0.9989,
+     "rec_new": 0.9985,
+     "FP": 3,
+     "FN": 4
+    }
+   },
+   "India": {
+    "False": {
+     "n_hard": 45245,
+     "n_pos": 26972,
+     "p_match_hard": 0.5961,
+     "p_match_allcand": 0.02606,
+     "n_acc": 26297,
+     "prec_new": 0.9972,
+     "rec_new": 0.9723,
+     "FP": 73,
+     "FN": 748
+    },
+    "True": {
+     "n_hard": 741,
+     "n_pos": 701,
+     "p_match_hard": 0.946,
+     "p_match_allcand": 0.6607,
+     "n_acc": 694,
+     "prec_new": 0.9957,
+     "rec_new": 0.9857,
+     "FP": 3,
+     "FN": 10
+    }
+   }
+  },
+  "wordswap_same_addr": {
+   "US": {
+    "False": {
+     "n_hard": 75245,
+     "n_pos": 39865,
+     "p_match_hard": 0.5298,
+     "p_match_allcand": 0.02636,
+     "n_acc": 38669,
+     "prec_new": 0.9977,
+     "rec_new": 0.9678,
+     "FP": 89,
+     "FN": 1285
+    },
+    "True": {
+     "n_hard": 1736,
+     "n_pos": 1694,
+     "p_match_hard": 0.9758,
+     "p_match_allcand": 0.94321,
+     "n_acc": 1693,
+     "prec_new": 0.9988,
+     "rec_new": 0.9982,
+     "FP": 2,
+     "FN": 3
+    }
+   },
+   "India": {
+    "False": {
+     "n_hard": 45461,
+     "n_pos": 27180,
+     "p_match_hard": 0.5979,
+     "p_match_allcand": 0.02625,
+     "n_acc": 26504,
+     "prec_new": 0.9972,
+     "rec_new": 0.9724,
+     "FP": 75,
+     "FN": 751
+    },
+    "True": {
+     "n_hard": 525,
+     "n_pos": 493,
+     "p_match_hard": 0.939,
+     "p_match_allcand": 0.64444,
+     "n_acc": 487,
+     "prec_new": 0.9979,
+     "rec_new": 0.9858,
+     "FP": 1,
+     "FN": 7
+    }
+   }
+  },
+  "wordswap_any": {
+   "US": {
+    "False": {
+     "n_hard": 70110,
+     "n_pos": 39105,
+     "p_match_hard": 0.5578,
+     "p_match_allcand": 0.02812,
+     "n_acc": 38014,
+     "prec_new": 0.9978,
+     "rec_new": 0.9699,
+     "FP": 85,
+     "FN": 1176
+    },
+    "True": {
+     "n_hard": 6871,
+     "n_pos": 2454,
+     "p_match_hard": 0.3572,
+     "p_match_allcand": 0.01983,
+     "n_acc": 2348,
+     "prec_new": 0.9974,
+     "rec_new": 0.9544,
+     "FP": 6,
+     "FN": 112
+    }
+   },
+   "India": {
+    "False": {
+     "n_hard": 41627,
+     "n_pos": 26269,
+     "p_match_hard": 0.6311,
+     "p_match_allcand": 0.02803,
+     "n_acc": 25659,
+     "prec_new": 0.9973,
+     "rec_new": 0.9741,
+     "FP": 70,
+     "FN": 680
+    },
+    "True": {
+     "n_hard": 4359,
+     "n_pos": 1404,
+     "p_match_hard": 0.3221,
+     "p_match_allcand": 0.01417,
+     "n_acc": 1332,
+     "prec_new": 0.9955,
+     "rec_new": 0.9444,
+     "FP": 6,
+     "FN": 78
+    }
+   }
+  },
+  "garble_swap": {
+   "US": {
+    "False": {
+     "n_hard": 74116,
+     "n_pos": 40218,
+     "p_match_hard": 0.5426,
+     "p_match_allcand": 0.02701,
+     "n_acc": 39067,
+     "prec_new": 0.9977,
+     "rec_new": 0.9692,
+     "FP": 88,
+     "FN": 1239
+    },
+    "True": {
+     "n_hard": 2865,
+     "n_pos": 1341,
+     "p_match_hard": 0.4681,
+     "p_match_allcand": 0.05262,
+     "n_acc": 1295,
+     "prec_new": 0.9977,
+     "rec_new": 0.9635,
+     "FP": 3,
+     "FN": 49
+    }
+   },
+   "India": {
+    "False": {
+     "n_hard": 44431,
+     "n_pos": 27114,
+     "p_match_hard": 0.6102,
+     "p_match_allcand": 0.02688,
+     "n_acc": 26453,
+     "prec_new": 0.9974,
+     "rec_new": 0.973,
+     "FP": 70,
+     "FN": 731
+    },
+    "True": {
+     "n_hard": 1555,
+     "n_pos": 559,
+     "p_match_hard": 0.3595,
+     "p_match_allcand": 0.02023,
+     "n_acc": 538,
+     "prec_new": 0.9888,
+     "rec_new": 0.9517,
+     "FP": 6,
+     "FN": 27
+    }
+   }
+  },
+  "swap_any": {
+   "US": {
+    "False": {
+     "n_hard": 67095,
+     "n_pos": 37747,
+     "p_match_hard": 0.5626,
+     "p_match_allcand": 0.02783,
+     "n_acc": 36702,
+     "prec_new": 0.9978,
+     "rec_new": 0.9701,
+     "FP": 82,
+     "FN": 1127
+    },
+    "True": {
+     "n_hard": 9886,
+     "n_pos": 3812,
+     "p_match_hard": 0.3856,
+     "p_match_allcand": 0.02412,
+     "n_acc": 3660,
+     "prec_new": 0.9975,
+     "rec_new": 0.9578,
+     "FP": 9,
+     "FN": 161
+    }
+   },
+   "India": {
+    "False": {
+     "n_hard": 39930,
+     "n_pos": 25652,
+     "p_match_hard": 0.6424,
+     "p_match_allcand": 0.02864,
+     "n_acc": 25064,
+     "prec_new": 0.9975,
+     "rec_new": 0.9746,
+     "FP": 63,
+     "FN": 651
+    },
+    "True": {
+     "n_hard": 6056,
+     "n_pos": 2021,
+     "p_match_hard": 0.3337,
+     "p_match_allcand": 0.01439,
+     "n_acc": 1927,
+     "prec_new": 0.9933,
+     "rec_new": 0.9471,
+     "FP": 13,
+     "FN": 107
+    }
+   }
+  },
+  "street_sub_same_num_city": {
+   "US": {
+    "False": {
+     "n_hard": 76500,
+     "n_pos": 41097,
+     "p_match_hard": 0.5372,
+     "p_match_allcand": 0.02722,
+     "n_acc": 39906,
+     "prec_new": 0.9977,
+     "rec_new": 0.9688,
+     "FP": 90,
+     "FN": 1281
+    },
+    "True": {
+     "n_hard": 481,
+     "n_pos": 462,
+     "p_match_hard": 0.9605,
+     "p_match_allcand": 0.10997,
+     "n_acc": 456,
+     "prec_new": 0.9978,
+     "rec_new": 0.9848,
+     "FP": 1,
+     "FN": 7
+    }
+   },
+   "India": {
+    "False": {
+     "n_hard": 45723,
+     "n_pos": 27478,
+     "p_match_hard": 0.601,
+     "p_match_allcand": 0.02665,
+     "n_acc": 26796,
+     "prec_new": 0.9972,
+     "rec_new": 0.9724,
+     "FP": 76,
+     "FN": 758
+    },
+    "True": {
+     "n_hard": 263,
+     "n_pos": 195,
+     "p_match_hard": 0.7414,
+     "p_match_allcand": 0.03851,
+     "n_acc": 195,
+     "prec_new": 1.0,
+     "rec_new": 1.0,
+     "FP": 0,
+     "FN": 0
+    }
+   }
+  },
+  "street_diff_same_num": {
+   "US": {
+    "False": {
+     "n_hard": 76412,
+     "n_pos": 41023,
+     "p_match_hard": 0.5369,
+     "p_match_allcand": 0.02916,
+     "n_acc": 39833,
+     "prec_new": 0.9977,
+     "rec_new": 0.9688,
+     "FP": 90,
+     "FN": 1280
+    },
+    "True": {
+     "n_hard": 569,
+     "n_pos": 536,
+     "p_match_hard": 0.942,
+     "p_match_allcand": 0.005,
+     "n_acc": 529,
+     "prec_new": 0.9981,
+     "rec_new": 0.9851,
+     "FP": 1,
+     "FN": 8
+    }
+   },
+   "India": {
+    "False": {
+     "n_hard": 45700,
+     "n_pos": 27473,
+     "p_match_hard": 0.6012,
+     "p_match_allcand": 0.02682,
+     "n_acc": 26791,
+     "prec_new": 0.9972,
+     "rec_new": 0.9724,
+     "FP": 76,
+     "FN": 758
+    },
+    "True": {
+     "n_hard": 286,
+     "n_pos": 200,
+     "p_match_hard": 0.6993,
+     "p_match_allcand": 0.01669,
+     "n_acc": 200,
+     "prec_new": 1.0,
+     "rec_new": 1.0,
+     "FP": 0,
+     "FN": 0
+    }
+   }
+  },
+  "num_shift_same_street": {
+   "US": {
+    "False": {
+     "n_hard": 70839,
+     "n_pos": 38685,
+     "p_match_hard": 0.5461,
+     "p_match_allcand": 0.02933,
+     "n_acc": 37633,
+     "prec_new": 0.9984,
+     "rec_new": 0.9712,
+     "FP": 61,
+     "FN": 1113
+    },
+    "True": {
+     "n_hard": 6142,
+     "n_pos": 2874,
+     "p_match_hard": 0.4679,
+     "p_match_allcand": 0.0147,
+     "n_acc": 2729,
+     "prec_new": 0.989,
+     "rec_new": 0.9391,
+     "FP": 30,
+     "FN": 175
+    }
+   },
+   "India": {
+    "False": {
+     "n_hard": 44044,
+     "n_pos": 26055,
+     "p_match_hard": 0.5916,
+     "p_match_allcand": 0.02576,
+     "n_acc": 25394,
+     "prec_new": 0.9973,
+     "rec_new": 0.972,
+     "FP": 68,
+     "FN": 729
+    },
+    "True": {
+     "n_hard": 1942,
+     "n_pos": 1618,
+     "p_match_hard": 0.8332,
+     "p_match_allcand": 0.06566,
+     "n_acc": 1597,
+     "prec_new": 0.995,
+     "rec_new": 0.9821,
+     "FP": 8,
+     "FN": 29
+    }
+   }
+  },
+  "hnum_shift": {
+   "US": {
+    "False": {
+     "n_hard": 69103,
+     "n_pos": 37768,
+     "p_match_hard": 0.5465,
+     "p_match_allcand": 0.07221,
+     "n_acc": 36740,
+     "prec_new": 0.9984,
+     "rec_new": 0.9713,
+     "FP": 57,
+     "FN": 1085
+    },
+    "True": {
+     "n_hard": 7878,
+     "n_pos": 3791,
+     "p_match_hard": 0.4812,
+     "p_match_allcand": 0.00382,
+     "n_acc": 3622,
+     "prec_new": 0.9906,
+     "rec_new": 0.9465,
+     "FP": 34,
+     "FN": 203
+    }
+   },
+   "India": {
+    "False": {
+     "n_hard": 38542,
+     "n_pos": 22248,
+     "p_match_hard": 0.5772,
+     "p_match_allcand": 0.06836,
+     "n_acc": 21673,
+     "prec_new": 0.9976,
+     "rec_new": 0.9719,
+     "FP": 51,
+     "FN": 626
+    },
+    "True": {
+     "n_hard": 7444,
+     "n_pos": 5425,
+     "p_match_hard": 0.7288,
+     "p_match_allcand": 0.00763,
+     "n_acc": 5318,
+     "prec_new": 0.9953,
+     "rec_new": 0.9757,
+     "FP": 25,
+     "FN": 132
+    }
+   }
+  },
+  "unit_change": {
+   "US": {
+    "False": {
+     "n_hard": 76904,
+     "n_pos": 41559,
+     "p_match_hard": 0.5404,
+     "p_match_allcand": 0.02763,
+     "n_acc": 40362,
+     "prec_new": 0.9977,
+     "rec_new": 0.969,
+     "FP": 91,
+     "FN": 1288
+    },
+    "True": {
+     "n_hard": 77,
+     "n_pos": 0,
+     "p_match_hard": 0.0,
+     "p_match_allcand": 0.0,
+     "n_acc": 0,
+     "prec_new": null,
+     "rec_new": null,
+     "FP": 0,
+     "FN": 0
+    }
+   },
+   "India": {
+    "False": {
+     "n_hard": 45495,
+     "n_pos": 27329,
+     "p_match_hard": 0.6007,
+     "p_match_allcand": 0.02718,
+     "n_acc": 26655,
+     "prec_new": 0.9972,
+     "rec_new": 0.9726,
+     "FP": 74,
+     "FN": 748
+    },
+    "True": {
+     "n_hard": 491,
+     "n_pos": 344,
+     "p_match_hard": 0.7006,
+     "p_match_allcand": 0.01113,
+     "n_acc": 336,
+     "prec_new": 0.994,
+     "rec_new": 0.9709,
+     "FP": 2,
+     "FN": 10
+    }
+   }
+  },
+  "exact_addr": {
+   "US": {
+    "False": {
+     "n_hard": 71725,
+     "n_pos": 36420,
+     "p_match_hard": 0.5078,
+     "p_match_allcand": 0.02415,
+     "n_acc": 35226,
+     "prec_new": 0.9976,
+     "rec_new": 0.9649,
+     "FP": 85,
+     "FN": 1279
+    },
+    "True": {
+     "n_hard": 5256,
+     "n_pos": 5139,
+     "p_match_hard": 0.9777,
+     "p_match_allcand": 0.80097,
+     "n_acc": 5136,
+     "prec_new": 0.9988,
+     "rec_new": 0.9982,
+     "FP": 6,
+     "FN": 9
+    }
+   },
+   "India": {
+    "False": {
+     "n_hard": 43119,
+     "n_pos": 24887,
+     "p_match_hard": 0.5772,
+     "p_match_allcand": 0.02409,
+     "n_acc": 24227,
+     "prec_new": 0.9969,
+     "rec_new": 0.9705,
+     "FP": 75,
+     "FN": 735
+    },
+    "True": {
+     "n_hard": 2867,
+     "n_pos": 2786,
+     "p_match_hard": 0.9717,
+     "p_match_allcand": 0.85802,
+     "n_acc": 2764,
+     "prec_new": 0.9996,
+     "rec_new": 0.9917,
+     "FP": 1,
+     "FN": 23
+    }
+   }
+  },
+  "name_exact_addr_shift": {
+   "US": {
+    "False": {
+     "n_hard": 73697,
+     "n_pos": 39820,
+     "p_match_hard": 0.5403,
+     "p_match_allcand": 0.02639,
+     "n_acc": 38700,
+     "prec_new": 0.9981,
+     "rec_new": 0.97,
+     "FP": 73,
+     "FN": 1193
+    },
+    "True": {
+     "n_hard": 3284,
+     "n_pos": 1739,
+     "p_match_hard": 0.5295,
+     "p_match_allcand": 0.33036,
+     "n_acc": 1662,
+     "prec_new": 0.9892,
+     "rec_new": 0.9454,
+     "FP": 18,
+     "FN": 95
+    }
+   },
+   "India": {
+    "False": {
+     "n_hard": 45124,
+     "n_pos": 26846,
+     "p_match_hard": 0.5949,
+     "p_match_allcand": 0.02594,
+     "n_acc": 26168,
+     "prec_new": 0.9972,
+     "rec_new": 0.972,
+     "FP": 74,
+     "FN": 752
+    },
+    "True": {
+     "n_hard": 862,
+     "n_pos": 827,
+     "p_match_hard": 0.9594,
+     "p_match_allcand": 0.7117,
+     "n_acc": 823,
+     "prec_new": 0.9976,
+     "rec_new": 0.9927,
+     "FP": 2,
+     "FN": 6
+    }
+   }
+  },
+  "name_exact_street_sub": {
+   "US": {
+    "False": {
+     "n_hard": 76702,
+     "n_pos": 41280,
+     "p_match_hard": 0.5382,
+     "p_match_allcand": 0.02727,
+     "n_acc": 40083,
+     "prec_new": 0.9977,
+     "rec_new": 0.9688,
+     "FP": 91,
+     "FN": 1288
+    },
+    "True": {
+     "n_hard": 279,
+     "n_pos": 279,
+     "p_match_hard": 1.0,
+     "p_match_allcand": 1.0,
+     "n_acc": 279,
+     "prec_new": 1.0,
+     "rec_new": 1.0,
+     "FP": 0,
+     "FN": 0
+    }
+   },
+   "India": {
+    "False": {
+     "n_hard": 45879,
+     "n_pos": 27573,
+     "p_match_hard": 0.601,
+     "p_match_allcand": 0.02661,
+     "n_acc": 26891,
+     "prec_new": 0.9972,
+     "rec_new": 0.9725,
+     "FP": 76,
+     "FN": 758
+    },
+    "True": {
+     "n_hard": 107,
+     "n_pos": 100,
+     "p_match_hard": 0.9346,
+     "p_match_allcand": 0.93458,
+     "n_acc": 100,
+     "prec_new": 1.0,
+     "rec_new": 1.0,
+     "FP": 0,
+     "FN": 0
+    }
+   }
+  },
+  "legal_diff": {
+   "US": {
+    "False": {
+     "n_hard": 48881,
+     "n_pos": 29995,
+     "p_match_hard": 0.6136,
+     "p_match_allcand": 0.05064,
+     "n_acc": 29263,
+     "prec_new": 0.9977,
+     "rec_new": 0.9734,
+     "FP": 67,
+     "FN": 799
+    },
+    "True": {
+     "n_hard": 28100,
+     "n_pos": 11564,
+     "p_match_hard": 0.4115,
+     "p_match_allcand": 0.01254,
+     "n_acc": 11099,
+     "prec_new": 0.9978,
+     "rec_new": 0.9577,
+     "FP": 24,
+     "FN": 489
+    }
+   },
+   "India": {
+    "False": {
+     "n_hard": 26157,
+     "n_pos": 17415,
+     "p_match_hard": 0.6658,
+     "p_match_allcand": 0.06233,
+     "n_acc": 17062,
+     "prec_new": 0.9969,
+     "rec_new": 0.9767,
+     "FP": 53,
+     "FN": 406
+    },
+    "True": {
+     "n_hard": 19829,
+     "n_pos": 10258,
+     "p_match_hard": 0.5173,
+     "p_match_allcand": 0.01355,
+     "n_acc": 9929,
+     "prec_new": 0.9977,
+     "rec_new": 0.9657,
+     "FP": 23,
+     "FN": 352
+    }
+   }
+  }
+ },
+ "fr_wordswap_top": [
+  [
+   "club",
+   "fils",
+   783
+  ],
+  [
+   "france",
+   "fils",
+   558
+  ],
+  [
+   "club",
+   "services",
+   538
+  ],
+  [
+   "saint",
+   "st",
+   487
+  ],
+  [
+   "club",
+   "associes",
+   397
+  ],
+  [
+   "amicale",
+   "fils",
+   372
+  ],
+  [
+   "ecole",
+   "fils",
+   356
+  ],
+  [
+   "amis",
+   "fils",
+   339
+  ],
+  [
+   "ecole",
+   "services",
+   329
+  ],
+  [
+   "sportive",
+   "fils",
+   329
+  ],
+  [
+   "amicale",
+   "services",
+   314
+  ],
+  [
+   "france",
+   "services",
+   313
+  ],
+  [
+   "primaire",
+   "fils",
+   308
+  ],
+  [
+   "france",
+   "associes",
+   307
+  ],
+  [
+   "comite",
+   "fils",
+   298
+  ],
+  [
+   "parents",
+   "fils",
+   286
+  ],
+  [
+   "amicale",
+   "associes",
+   267
+  ],
+  [
+   "comite",
+   "services",
+   260
+  ],
+  [
+   "club",
+   "cb",
+   260
+  ],
+  [
+   "sportive",
+   "services",
+   245
+  ],
+  [
+   "club",
+   "comite",
+   245
+  ],
+  [
+   "ecole",
+   "associes",
+   244
+  ],
+  [
+   "amicale",
+   "amis",
+   232
+  ],
+  [
+   "fetes",
+   "fils",
+   227
+  ],
+  [
+   "amis",
+   "services",
+   220
+  ],
+  [
+   "centre",
+   "fils",
+   219
+  ],
+  [
+   "primaire",
+   "services",
+   202
+  ],
+  [
+   "comite",
+   "associes",
+   194
+  ],
+  [
+   "club",
+   "centre",
+   191
+  ],
+  [
+   "sante",
+   "services",
+   189
+  ],
+  [
+   "amis",
+   "associes",
+   188
+  ],
+  [
+   "sportive",
+   "associes",
+   182
+  ],
+  [
+   "centre",
+   "services",
+   178
+  ],
+  [
+   "freres",
+   "fils",
+   177
+  ],
+  [
+   "parents",
+   "services",
+   174
+  ],
+  [
+   "club",
+   "france",
+   173
+  ],
+  [
+   "loisirs",
+   "fils",
+   165
+  ],
+  [
+   "union",
+   "services",
+   162
+  ],
+  [
+   "societe",
+   "services",
+   161
+  ],
+  [
+   "maternelle",
+   "services",
+   152
+  ]
+ ],
+ "fr_wordswap_n_distinct_pairs": 3024,
+ "fr_wordswap_top_from": [
+  [
+   "club",
+   4153
+  ],
+  [
+   "amicale",
+   2103
+  ],
+  [
+   "ecole",
+   1858
+  ],
+  [
+   "comite",
+   1778
+  ],
+  [
+   "sportive",
+   1706
+  ],
+  [
+   "amis",
+   1622
+  ],
+  [
+   "france",
+   1327
+  ],
+  [
+   "centre",
+   1294
+  ],
+  [
+   "parents",
+   1243
+  ],
+  [
+   "primaire",
+   1092
+  ],
+  [
+   "societe",
+   986
+  ],
+  [
+   "sante",
+   929
+  ],
+  [
+   "college",
+   890
+  ],
+  [
+   "fetes",
+   850
+  ],
+  [
+   "union",
+   841
+  ],
+  [
+   "saint",
+   791
+  ],
+  [
+   "maison",
+   758
+  ],
+  [
+   "loisirs",
+   697
+  ],
+  [
+   "anciens",
+   665
+  ],
+  [
+   "compagnie",
+   648
+  ],
+  [
+   "sport",
+   616
+  ],
+  [
+   "section",
+   586
+  ],
+  [
+   "pharmacie",
+   584
+  ],
+  [
+   "federation",
+   556
+  ],
+  [
+   "maternelle",
+   527
+  ]
+ ],
+ "fr_wordswap_top_to": [
+  [
+   "fils",
+   7093
+  ],
+  [
+   "services",
+   6421
+  ],
+  [
+   "associes",
+   4702
+  ],
+  [
+   "club",
+   1881
+  ],
+  [
+   "comite",
+   1839
+  ],
+  [
+   "france",
+   1561
+  ],
+  [
+   "developpement",
+   1296
+  ],
+  [
+   "amis",
+   1287
+  ],
+  [
+   "centre",
+   1194
+  ],
+  [
+   "amicale",
+   1075
+  ],
+  [
+   "societe",
+   942
+  ],
+  [
+   "service",
+   927
+  ],
+  [
+   "fetes",
+   775
+  ],
+  [
+   "compagnie",
+   664
+  ],
+  [
+   "ecole",
+   573
+  ],
+  [
+   "parents",
+   525
+  ],
+  [
+   "st",
+   515
+  ],
+  [
+   "sante",
+   494
+  ],
+  [
+   "section",
+   473
+  ],
+  [
+   "federation",
+   407
+  ],
+  [
+   "college",
+   352
+  ],
+  [
+   "lycee",
+   318
+  ],
+  [
+   "loisirs",
+   296
+  ],
+  [
+   "anciens",
+   281
+  ],
+  [
+   "cb",
+   264
+  ]
+ ],
+ "US5_wordswap_top": [
+  [
+   "care",
+   "center",
+   105
+  ],
+  [
+   "associates",
+   "center",
+   104
+  ],
+  [
+   "partners",
+   "center",
+   97
+  ],
+  [
+   "care",
+   "services",
+   83
+  ],
+  [
+   "partners",
+   "services",
+   75
+  ],
+  [
+   "center",
+   "services",
+   74
+  ],
+  [
+   "associates",
+   "services",
+   74
+  ],
+  [
+   "health",
+   "center",
+   63
+  ],
+  [
+   "clinic",
+   "center",
+   54
+  ],
+  [
+   "clinic",
+   "services",
+   51
+  ],
+  [
+   "dds",
+   "center",
+   51
+  ],
+  [
+   "care",
+   "service",
+   45
+  ],
+  [
+   "health",
+   "services",
+   44
+  ],
+  [
+   "md",
+   "center",
+   43
+  ],
+  [
+   "medicine",
+   "center",
+   42
+  ],
+  [
+   "association",
+   "services",
+   38
+  ],
+  [
+   "associates",
+   "service",
+   38
+  ],
+  [
+   "partners",
+   "service",
+   35
+  ],
+  [
+   "capital",
+   "center",
+   34
+  ],
+  [
+   "global",
+   "services",
+   33
+  ],
+  [
+   "alliance",
+   "center",
+   33
+  ],
+  [
+   "do",
+   "center",
+   33
+  ],
+  [
+   "medicine",
+   "services",
+   32
+  ],
+  [
+   "specialists",
+   "services",
+   30
+  ],
+  [
+   "care",
+   "partners",
+   30
+  ]
+ ],
+ "IN5_wordswap_top": [
+  [
+   "india",
+   "center",
+   341
+  ],
+  [
+   "india",
+   "services",
+   244
+  ],
+  [
+   "brothers",
+   "center",
+   156
+  ],
+  [
+   "trading",
+   "center",
+   143
+  ],
+  [
+   "services",
+   "center",
+   133
+  ],
+  [
+   "india",
+   "service",
+   128
+  ],
+  [
+   "solutions",
+   "center",
+   126
+  ],
+  [
+   "india",
+   "partners",
+   114
+  ],
+  [
+   "trading",
+   "services",
+   114
+  ],
+  [
+   "brothers",
+   "services",
+   111
+  ],
+  [
+   "traders",
+   "center",
+   106
+  ],
+  [
+   "solutions",
+   "services",
+   104
+  ],
+  [
+   "foundation",
+   "center",
+   92
+  ],
+  [
+   "technologies",
+   "center",
+   82
+  ],
+  [
+   "trust",
+   "center",
+   82
+  ],
+  [
+   "enterprises",
+   "center",
+   81
+  ],
+  [
+   "technologies",
+   "services",
+   75
+  ],
+  [
+   "traders",
+   "services",
+   75
+  ],
+  [
+   "consultants",
+   "center",
+   75
+  ],
+  [
+   "foundation",
+   "services",
+   75
+  ],
+  [
+   "ventures",
+   "center",
+   73
+  ],
+  [
+   "technology",
+   "center",
+   72
+  ],
+  [
+   "industries",
+   "center",
+   68
+  ],
+  [
+   "foods",
+   "center",
+   67
+  ],
+  [
+   "developers",
+   "center",
+   65
+  ]
+ ],
+ "V1_US_wordswap_top": [
+  [
+   "center",
+   "services",
+   35,
+   10,
+   10
+  ],
+  [
+   "center",
+   "enterprises",
+   34,
+   0,
+   0
+  ],
+  [
+   "care",
+   "center",
+   31,
+   17,
+   16
+  ],
+  [
+   "partners",
+   "center",
+   31,
+   9,
+   9
+  ],
+  [
+   "partners",
+   "enterprises",
+   27,
+   0,
+   0
+  ],
+  [
+   "foundation",
+   "fund",
+   23,
+   0,
+   0
+  ],
+  [
+   "center",
+   "service",
+   22,
+   4,
+   4
+  ],
+  [
+   "health",
+   "center",
+   18,
+   4,
+   4
+  ],
+  [
+   "network",
+   "center",
+   18,
+   3,
+   3
+  ],
+  [
+   "group",
+   "center",
+   18,
+   0,
+   0
+  ],
+  [
+   "care",
+   "enterprises",
+   17,
+   0,
+   0
+  ],
+  [
+   "care",
+   "services",
+   17,
+   8,
+   8
+  ],
+  [
+   "center",
+   "partners",
+   17,
+   4,
+   4
+  ],
+  [
+   "associates",
+   "center",
+   16,
+   11,
+   11
+  ],
+  [
+   "health",
+   "services",
+   15,
+   13,
+   12
+  ],
+  [
+   "companies",
+   "center",
+   14,
+   1,
+   1
+  ],
+  [
+   "care",
+   "ce",
+   14,
+   11,
+   10
+  ],
+  [
+   "downtown",
+   "uptown",
+   14,
+   0,
+   0
+  ],
+  [
+   "medicine",
+   "center",
+   14,
+   5,
+   5
+  ],
+  [
+   "fund",
+   "foundation",
+   14,
+   0,
+   0
+  ],
+  [
+   "industries",
+   "center",
+   14,
+   11,
+   11
+  ],
+  [
+   "partners",
+   "services",
+   14,
+   3,
+   3
+  ],
+  [
+   "council",
+   "center",
+   13,
+   1,
+   0
+  ],
+  [
+   "trust",
+   "center",
+   13,
+   4,
+   4
+  ],
+  [
+   "ii",
+   "enterprises",
+   13,
+   0,
+   0
+  ]
+ ],
+ "V1_India_wordswap_top": [
+  [
+   "services",
+   "center",
+   61,
+   19,
+   18
+  ],
+  [
+   "india",
+   "center",
+   55,
+   29,
+   29
+  ],
+  [
+   "trading",
+   "center",
+   52,
+   18,
+   18
+  ],
+  [
+   "trading",
+   "services",
+   51,
+   12,
+   11
+  ],
+  [
+   "india",
+   "services",
+   47,
+   28,
+   27
+  ],
+  [
+   "solutions",
+   "services",
+   36,
+   7,
+   6
+  ],
+  [
+   "enterprises",
+   "services",
+   32,
+   9,
+   9
+  ],
+  [
+   "ventures",
+   "services",
+   30,
+   6,
+   6
+  ],
+  [
+   "care",
+   "center",
+   30,
+   4,
+   3
+  ],
+  [
+   "brothers",
+   "services",
+   30,
+   11,
+   10
+  ],
+  [
+   "brothers",
+   "center",
+   29,
+   11,
+   11
+  ],
+  [
+   "global",
+   "center",
+   29,
+   6,
+   5
+  ],
+  [
+   "global",
+   "services",
+   28,
+   4,
+   3
+  ],
+  [
+   "power",
+   "center",
+   28,
+   4,
+   3
+  ],
+  [
+   "enterprises",
+   "energy",
+   26,
+   0,
+   0
+  ],
+  [
+   "trading",
+   "traders",
+   26,
+   0,
+   0
+  ],
+  [
+   "services",
+   "partners",
+   25,
+   6,
+   7
+  ],
+  [
+   "power",
+   "services",
+   25,
+   4,
+   3
+  ],
+  [
+   "international",
+   "services",
+   25,
+   6,
+   6
+  ],
+  [
+   "engineering",
+   "energy",
+   24,
+   0,
+   0
+  ],
+  [
+   "sons",
+   "center",
+   24,
+   8,
+   8
+  ],
+  [
+   "consultancy",
+   "center",
+   24,
+   9,
+   9
+  ],
+  [
+   "ventures",
+   "center",
+   24,
+   6,
+   6
+  ],
+  [
+   "foundation",
+   "center",
+   24,
+   8,
+   7
+  ],
+  [
+   "consultants",
+   "center",
+   23,
+   14,
+   13
+  ]
+ ],
+ "fr_top_drop": [
+  [
+   "france",
+   2389
+  ],
+  [
+   "club",
+   1218
+  ],
+  [
+   "fils",
+   866
+  ],
+  [
+   "freres",
+   865
+  ],
+  [
+   "compagnie",
+   768
+  ],
+  [
+   "amicale",
+   736
+  ],
+  [
+   "ecole",
+   734
+  ],
+  [
+   "comite",
+   693
+  ],
+  [
+   "sportive",
+   528
+  ],
+  [
+   "amis",
+   451
+  ],
+  [
+   "primaire",
+   443
+  ],
+  [
+   "centre",
+   399
+  ],
+  [
+   "union",
+   362
+  ],
+  [
+   "sante",
+   357
+  ],
+  [
+   "parents",
+   344
+  ],
+  [
+   "maternelle",
+   322
+  ],
+  [
+   "saint",
+   290
+  ],
+  [
+   "societe",
+   287
+  ],
+  [
+   "college",
+   287
+  ],
+  [
+   "fetes",
+   279
+  ],
+  [
+   "sainte",
+   264
+  ],
+  [
+   "anciens",
+   259
+  ],
+  [
+   "maison",
+   241
+  ],
+  [
+   "pharmacie",
+   216
+  ],
+  [
+   "service",
+   212
+  ]
+ ],
+ "fr_top_add": [
+  [
+   "fils",
+   2381
+  ],
+  [
+   "k",
+   2112
+  ],
+  [
+   "services",
+   1800
+  ],
+  [
+   "associes",
+   1660
+  ],
+  [
+   "developpement",
+   1220
+  ],
+  [
+   "france",
+   1215
+  ],
+  [
+   "f",
+   1061
+  ],
+  [
+   "b",
+   996
+  ],
+  [
+   "compagnie",
+   879
+  ],
+  [
+   "fka",
+   549
+  ],
+  [
+   "labs",
+   139
+  ],
+  [
+   "one",
+   137
+  ],
+  [
+   "society",
+   110
+  ],
+  [
+   "board",
+   108
+  ],
+  [
+   "district",
+   106
+  ],
+  [
+   "authority",
+   104
+  ],
+  [
+   "trust",
+   102
+  ],
+  [
+   "foundation",
+   99
+  ],
+  [
+   "commission",
+   95
+  ],
+  [
+   "association",
+   84
+  ],
+  [
+   "council",
+   81
+  ],
+  [
+   "federation",
+   78
+  ],
+  [
+   "5a",
+   69
+  ],
+  [
+   "e",
+   67
+  ],
+  [
+   "groupe",
+   52
+  ]
+ ],
+ "char_edit": {
+  "FR5": [
+   {
+    "multi": 0.56,
+    "ins1": 0.1071,
+    "sub1": 0.0878,
+    "leet": 0.0747,
+    "del1": 0.0636,
+    "scramble": 0.0525,
+    "transpose": 0.0414,
+    "double_ins": 0.0112,
+    "double_del": 0.0018
+   },
+   34146
+  ],
+  "FR4only(dropped by S005)": [
+   {
+    "multi": 0.4771,
+    "sub1": 0.176,
+    "ins1": 0.1562,
+    "del1": 0.0889,
+    "scramble": 0.0311,
+    "double_ins": 0.0242,
+    "transpose": 0.0224,
+    "leet": 0.0216,
+    "double_del": 0.0026
+   },
+   1159
+  ],
+  "US5": [
+   {
+    "multi": 0.481,
+    "leet": 0.24,
+    "sub1": 0.0857,
+    "ins1": 0.0572,
+    "scramble": 0.0505,
+    "del1": 0.044,
+    "transpose": 0.0334,
+    "double_ins": 0.0056,
+    "double_del": 0.0027
+   },
+   32759
+  ],
+  "IN5": [
+   {
+    "multi": 0.48,
+    "leet": 0.2468,
+    "sub1": 0.0993,
+    "ins1": 0.0499,
+    "scramble": 0.0479,
+    "del1": 0.0372,
+    "transpose": 0.0303,
+    "double_ins": 0.007,
+    "double_del": 0.0017
+   },
+   24601
+  ],
+  "V1_US_acc": [
+   {
+    "multi": 0.4706,
+    "leet": 0.25,
+    "sub1": 0.0892,
+    "ins1": 0.0558,
+    "scramble": 0.0456,
+    "transpose": 0.0409,
+    "del1": 0.0389,
+    "double_ins": 0.0067,
+    "double_del": 0.0022
+   },
+   4496
+  ],
+  "V1_IN_acc": [
+   {
+    "multi": 0.5005,
+    "leet": 0.2372,
+    "sub1": 0.0956,
+    "ins1": 0.0482,
+    "scramble": 0.0473,
+    "del1": 0.0361,
+    "transpose": 0.0271,
+    "double_ins": 0.0063,
+    "double_del": 0.0018
+   },
+   2218
+  ]
+ }
+}

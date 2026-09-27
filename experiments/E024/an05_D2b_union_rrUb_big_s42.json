@@ -1,0 +1,639 @@
+{
+ "arm": "D2b_union_rrUb_big",
+ "seed": 42,
+ "th": 0.7200000000000001,
+ "macro": 98.53198299364479,
+ "fix_retrieval_FN": 0.07476722064587715,
+ "fix_scorer_FN": 0.9807937815067058,
+ "fix_scorer_FP": 0.4217780151730466,
+ "fix_FP_singletons_only": 0.08000000000000229,
+ "oracle_on_pool": 99.93365529751742,
+ "counts": {
+  "retrieval_FN": 146,
+  "scorer_FN": 2167,
+  "FP": 333,
+  "TP": 67065,
+  "singleton_FP_entities": 16,
+  "n_singletons": 1082
+ },
+ "taxonomy": {
+  "FP": {
+   "channel": {
+    "dense_only": 68,
+    "both": 259,
+    "lex_only": 6
+   },
+   "indic_name": {
+    "False": 312,
+    "True": 21
+   },
+   "cand_addr_missing": {
+    "False": 224,
+    "True": 109
+   },
+   "exact_name": {
+    "False": 283,
+    "True": 50
+   },
+   "country": {
+    "US": 188,
+    "India": 145
+   },
+   "band": {
+    "<.95": 125,
+    "<th+.1": 133,
+    ">=.95": 75
+   },
+   "owned_by_other_S1": {
+    "False": 262,
+    "True": 71
+   },
+   "singleton_S1": {
+    "False": 317,
+    "True": 16
+   },
+   "n": 333
+  },
+  "scorer_FN": {
+   "channel": {
+    "dense_only": 1000,
+    "both": 1101,
+    "lex_only": 66
+   },
+   "indic_name": {
+    "False": 2130,
+    "True": 37
+   },
+   "cand_addr_missing": {
+    "True": 1442,
+    "False": 725
+   },
+   "exact_name": {
+    "False": 1890,
+    "True": 277
+   },
+   "country": {
+    "US": 1382,
+    "India": 785
+   },
+   "band": {
+    "<.3": 1234,
+    "<th-.1": 664,
+    ">=th-.1": 269
+   },
+   "n": 2167
+  },
+  "TP": {
+   "channel": {
+    "both": 63919,
+    "dense_only": 3112,
+    "lex_only": 34
+   },
+   "indic_name": {
+    "False": 62182,
+    "True": 4883
+   },
+   "cand_addr_missing": {
+    "False": 65594,
+    "True": 1471
+   },
+   "exact_name": {
+    "False": 52202,
+    "True": 14863
+   },
+   "country": {
+    "US": 40177,
+    "India": 26888
+   },
+   "band": {
+    ">=.95": 65081,
+    "<.95": 1559,
+    "<th+.1": 425
+   },
+   "n": 67065
+  },
+  "retrieval_FN": {
+   "indic_name": 7,
+   "addr_missing": 106,
+   "n": 146
+  },
+  "retrieval_FN_examples": [
+   {
+    "s1": [
+     "Behavioral Health Associates, Inc",
+     "37 Liverpool Lane, Charleston, WV"
+    ],
+    "gt": [
+     "BEHAVIORAL HEALTH INC ASSOCIATES",
+     ""
+    ]
+   },
+   {
+    "s1": [
+     "Cinder Co",
+     "2253 Moss Court, CA, Thousand Oaks"
+    ],
+    "gt": [
+     "Cinder Trading",
+     ""
+    ]
+   },
+   {
+    "s1": [
+     "Downtown Hair Studio",
+     "Lincoln, 5851 Meadowbrook Lane, NE"
+    ],
+    "gt": [
+     "Downtown Hair Enterprises",
+     ""
+    ]
+   },
+   {
+    "s1": [
+     "Heart Fellowship VI",
+     "513 Leatha Lane, Cleveland, TN"
+    ],
+    "gt": [
+     "Heart VI Services",
+     ""
+    ]
+   },
+   {
+    "s1": [
+     "Horizon Better",
+     "12066 Sperry Road, Chesterland, OH"
+    ],
+    "gt": [
+     "Horizon Partners Partners",
+     ""
+    ]
+   },
+   {
+    "s1": [
+     "Orthopedic Care LLC",
+     "288 Georgetown Boulevard, Ankeny, IA"
+    ],
+    "gt": [
+     "Orthopedic Orthopedic Care",
+     ""
+    ]
+   },
+   {
+    "s1": [
+     "Oncology Care LLC",
+     "5512 Armitos Avenue, Unit 36, Goleta, CA"
+    ],
+    "gt": [
+     "Oncology Care Industries",
+     ""
+    ]
+   },
+   {
+    "s1": [
+     "Pediatric Dentistry Group",
+     "42269 Rhett Drive, Loudoun County, VA"
+    ],
+    "gt": [
+     "Pediatric Ddentitry Group",
+     ""
+    ]
+   },
+   {
+    "s1": [
+     "Pediatric Dental Care",
+     "6301 Shadow Valle Drive, Burleson, TX"
+    ],
+    "gt": [
+     "Pediatric  Care 5ervices #71001",
+     ""
+    ]
+   },
+   {
+    "s1": [
+     "Womens Health Associates LLC",
+     "3398 Bradley Road, Westlake, OH"
+    ],
+    "gt": [
+     "Womens Hea1th-Associates",
+     ""
+    ]
+   },
+   {
+    "s1": [
+     "Pediatric Dental Associates LLC",
+     "131 Nantucket Circle, Painesville Township, OH"
+    ],
+    "gt": [
+     "Pediatric Dental Asfsocnates  LLC",
+     ""
+    ]
+   },
+   {
+    "s1": [
+     "Surgical Partners LLC",
+     "South Strabane Township, PA, 380 Quarry Road"
+    ],
+    "gt": [
+     "Surgical Partners Industries",
+     ""
+    ]
+   }
+  ]
+ },
+ "examples": {
+  "FP": [
+   {
+    "p": 0.764,
+    "s1": [
+     "GF Gulf Carlyle LLC",
+     "23 Pisgah Forest Circle, Greensboro, NC"
+    ],
+    "cand": [
+     "gf gulf carlyle llc",
+     ""
+    ],
+    "ch": "both",
+    "singleton": true
+   },
+   {
+    "p": 0.847,
+    "s1": [
+     "Mumbai Homes Co",
+     "4, 14, Floor -2Nd, Plot-36, Mehta House, Mumbai, Maharashtra"
+    ],
+    "cand": [
+     "MUMBAI HOME",
+     "4-1, Mumbai, \u092e\u0939\u093e\u0930\u093e\u0937\u094d\u091f\u094d\u0930"
+    ],
+    "ch": "dense_only",
+    "singleton": false
+   },
+   {
+    "p": 0.899,
+    "s1": [
+     "Ambica & Co Co",
+     "H.No 1-98/7/3, Plat No Arunodaya Colony Jubilee Hills, Telangana, Hyderabad, Telangana"
+    ],
+    "cand": [
+     "Ambica &",
+     "H.no: 006-3-1198, Hyderabad, TG"
+    ],
+    "ch": "dense_only",
+    "singleton": false
+   },
+   {
+    "p": 0.739,
+    "s1": [
+     "Srinidhi Hospital",
+     "P-149, Lake Town Block B, Ground Floor, Kolkata, Kolkata, Howrah, West Bengal"
+    ],
+    "cand": [
+     "Srinidhi H\u00f3spital",
+     ""
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.84,
+    "s1": [
+     "Pioneer Nextera LLC",
+     "Unit 3, Woburn, MA, 134 Cambridge Road"
+    ],
+    "cand": [
+     "Pioneer Nextera LLC Service",
+     ""
+    ],
+    "ch": "dense_only",
+    "singleton": false
+   },
+   {
+    "p": 0.721,
+    "s1": [
+     "Jaisalmer India Private Limited",
+     "C/O Md Anas Ankurhati, Cheakpost Prasastha, Uluberia - I, Howrah, West Bengal"
+    ],
+    "cand": [
+     "India  Jaisalmer Private Limited Center",
+     ""
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.858,
+    "s1": [
+     "Mumbai Tech Private Limited",
+     "Aakar Saakar, Niraakar Chs Ltd, Maharashtra, Mumbai, C/108, Mumbai"
+    ],
+    "cand": [
+     "Pyraorbi Labs",
+     "C/108, Aakar Saakar, Niraakar Chs Ltd, Mumbai, Maharashtra"
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.968,
+    "s1": [
+     "Federal Financial Advisors",
+     "404 Kenway Street, Berea, KY"
+    ],
+    "cand": [
+     "Federal Financial Advbifosr (LLC)",
+     "40 Kenway St, Berea, Kentucky"
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.923,
+    "s1": [
+     "Solay Jab",
+     "224 Mullock Road, Greenville, NY"
+    ],
+    "cand": [
+     "Soliy Jab Inc.",
+     "224 1/2 Mullock Road, Middletown, New York"
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.991,
+    "s1": [
+     "Schmidt's Coastal Retail",
+     "209 11th Street, Herrin, IL"
+    ],
+    "cand": [
+     "Schmidt Coastal (Retail)",
+     "210 11ND STREET, HERRIN, IL"
+    ],
+    "ch": "dense_only",
+    "singleton": false
+   },
+   {
+    "p": 0.753,
+    "s1": [
+     "Sunrise Exports Private Limited",
+     "Kolkata, 5F Esdverest46 \\C Chowringhee Road, Calcutta, West Bengal"
+    ],
+    "cand": [
+     "Surya Consu1tants Private Ltd",
+     "Door No 5F Esdvrest46 \\C Chowringhee Road, Calcutta, WB"
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.75,
+    "s1": [
+     "Unified Nutrition Group",
+     "2255 Sidewinder Drive, Unit 628, Park City (summit Co), UT"
+    ],
+    "cand": [
+     "Partners Unified Nutrition Group",
+     "225 SIDEWINDER DRIVE, PARK CITY (SUMMIT CO), UT"
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.806,
+    "s1": [
+     "Coastal Society, LLC",
+     "10310 Covingtonwood Drive, Charlotte, NC"
+    ],
+    "cand": [
+     "Synbelo",
+     "10310 Covingtonwood Drive, Charlotte, NC"
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.898,
+    "s1": [
+     "Mountain Secure Neurosciences",
+     "170 Dunlap Drive, Charles Town, WV"
+    ],
+    "cand": [
+     "Vantagecira",
+     "170 DUNLAP DRIVE, CHARLES TOWN, WV"
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.89,
+    "s1": [
+     "Tech International Private Limited",
+     "Plot No. 06, Khamla Road, Nehru Nagar, Nagpur, Maharashtra"
+    ],
+    "cand": [
+     "\u091f\u0947\u0915 \u0907\u0902\u091f\u0930\u0928\u0947\u0936\u0928\u0932 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+     "PLOT NO 66, NAGPUR, Maharashtra"
+    ],
+    "ch": "dense_only",
+    "singleton": false
+   }
+  ],
+  "scorer_FN": [
+   {
+    "p": 0.131,
+    "s1": [
+     "Newburn Cornerstone Net, LLC",
+     "2378 Glen Ellen Circle, Sacramento, CA"
+    ],
+    "cand": [
+     "Newburn Cornerstone Net, Llc",
+     ""
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.028,
+    "s1": [
+     "Prairie Pediatrics",
+     "796 Cotton Grove Road, Jackson, TN"
+    ],
+    "cand": [
+     "Prairie-Pediatrics",
+     ""
+    ],
+    "ch": "dense_only",
+    "singleton": false
+   },
+   {
+    "p": 0.157,
+    "s1": [
+     "First Security",
+     "1606, Mathasur Suraj Road, Mahesana, Kadi, Gujarat, Survey No. 1605"
+    ],
+    "cand": [
+     "Shri First Security",
+     ""
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.001,
+    "s1": [
+     "Regional Capital Partners, Inc",
+     "3103 Legacy Oaks Place, Asheville, NC"
+    ],
+    "cand": [
+     "REGIONAL CAPITAL PARTNERS PARTNERS",
+     ""
+    ],
+    "ch": "dense_only",
+    "singleton": false
+   },
+   {
+    "p": 0.217,
+    "s1": [
+     "Creative Packaging Partners Center",
+     "607 Vance Street, Gastonia, NC"
+    ],
+    "cand": [
+     "Creative Packaging Partners Center Ltd",
+     ""
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.041,
+    "s1": [
+     "Infinity Legal Pvt. Ltd.",
+     "No.1 K.No 226/25 Thirumenahalli Village, Yelhanka, Bangalore North, Bangalore, Karnataka"
+    ],
+    "cand": [
+     "Infinity Pvt.-Ltd. Partners",
+     ""
+    ],
+    "ch": "dense_only",
+    "singleton": false
+   },
+   {
+    "p": 0.03,
+    "s1": [
+     "Southern Impex Limited",
+     "Higduplex Flat No., Chitrapuri Colony, Rangareddy, Telangana"
+    ],
+    "cand": [
+     "SOUTHERN IMPEX Enterprises",
+     ""
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.044,
+    "s1": [
+     "Allied Society",
+     "MA, Manchester-by-the-sea, 10 Brook Street"
+    ],
+    "cand": [
+     "Allied [Sooiety]",
+     ""
+    ],
+    "ch": "dense_only",
+    "singleton": false
+   },
+   {
+    "p": 0.044,
+    "s1": [
+     "Hernandez and Mann State, Inc",
+     "215 Robindale Drive, Berlin, CT"
+    ],
+    "cand": [
+     "Hernandez and (Mann)",
+     ""
+    ],
+    "ch": "dense_only",
+    "singleton": false
+   },
+   {
+    "p": 0.001,
+    "s1": [
+     "Bricklayers Local Union 247 PC",
+     "WY, Cheyenne, 1827 19th Street, Unit 1"
+    ],
+    "cand": [
+     "Bricklayers Local Union Enterprises",
+     ""
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.111,
+    "s1": [
+     "Ambitious Foundation",
+     "Gat No.114, Lotus Park Khotwadi, Hatkanangle, Kolhapur, Maharashtra"
+    ],
+    "cand": [
+     "Ambitious Foundation Corporation",
+     ""
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.276,
+    "s1": [
+     "Delta Trust",
+     "1283 Baccarat Drive, Columbus, OH"
+    ],
+    "cand": [
+     "Delta-Trust LLC",
+     "1320 Baccarat Drive, Ohio, Columbus"
+    ],
+    "ch": "both",
+    "singleton": false
+   },
+   {
+    "p": 0.191,
+    "s1": [
+     "Dusty Gray General LLC",
+     "145 East Street, Smyrna, DE"
+    ],
+    "cand": [
+     "Dusty Gao General [LLC]",
+     ""
+    ],
+    "ch": "dense_only",
+    "singleton": false
+   },
+   {
+    "p": 0.002,
+    "s1": [
+     "Foot & Ankle Center LLC",
+     "610 Van Brunt Avenue, Somerton, AZ"
+    ],
+    "cand": [
+     "Foot & Ankle Center Llc Trading",
+     ""
+    ],
+    "ch": "dense_only",
+    "singleton": false
+   },
+   {
+    "p": 0.256,
+    "s1": [
+     "Ashoka Traders Pvt Ltd",
+     "Zia Radio Centre, Araria, Bihar"
+    ],
+    "cand": [
+     "Ashoka Traders  Pvt Ltd",
+     ""
+    ],
+    "ch": "both",
+    "singleton": false
+   }
+  ]
+ }
+}

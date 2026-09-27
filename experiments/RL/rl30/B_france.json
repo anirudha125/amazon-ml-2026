@@ -1,0 +1,773 @@
+{
+ "colocation_density": {
+  "France": {
+   "n_s1": 259452,
+   "share_s1_colocated": 0.1444
+  },
+  "US": {
+   "n_s1": 663106,
+   "share_s1_colocated": 0.0532
+  },
+  "India": {
+   "n_s1": 809986,
+   "share_s1_colocated": 0.0609
+  }
+ },
+ "S2_token_role_France": {
+  "n_france_s1": 259452,
+  "colocated_pairs": 65959,
+  "near_dup_colocated_pairs": 501,
+  "n_tokens_cdf_ge20": 349,
+  "spearman_prodidf_vs_contrast_rate": -0.1342,
+  "spearman_prodidf_vs_fill_rate": -0.397,
+  "spearman_contrast_vs_fill_rate": 0.1599,
+  "top_contrast_tokens": [
+   {
+    "tok": "ecole",
+    "contrast_pairs": 36,
+    "colocated_s1_with_tok": 2194,
+    "france_s1_df": 15668,
+    "contrast_rate": 0.0163,
+    "prod_idf": 5.06,
+    "prod_idf_pctile_france_occ": 0.335,
+    "fill_rate_accepted": 0.135
+   },
+   {
+    "tok": "club",
+    "contrast_pairs": 34,
+    "colocated_s1_with_tok": 3292,
+    "france_s1_df": 22672,
+    "contrast_rate": 0.0103,
+    "prod_idf": 4.32,
+    "prod_idf_pctile_france_occ": 0.187,
+    "fill_rate_accepted": 0.173
+   },
+   {
+    "tok": "amicale",
+    "contrast_pairs": 31,
+    "colocated_s1_with_tok": 2050,
+    "france_s1_df": 14389,
+    "contrast_rate": 0.015,
+    "prod_idf": 4.79,
+    "prod_idf_pctile_france_occ": 0.275,
+    "fill_rate_accepted": 0.161
+   },
+   {
+    "tok": "sportive",
+    "contrast_pairs": 26,
+    "colocated_s1_with_tok": 1137,
+    "france_s1_df": 8234,
+    "contrast_rate": 0.0227,
+    "prod_idf": 5.35,
+    "prod_idf_pctile_france_occ": 0.414,
+    "fill_rate_accepted": 0.186
+   },
+   {
+    "tok": "centre",
+    "contrast_pairs": 24,
+    "colocated_s1_with_tok": 1519,
+    "france_s1_df": 10518,
+    "contrast_rate": 0.0157,
+    "prod_idf": 4.83,
+    "prod_idf_pctile_france_occ": 0.288,
+    "fill_rate_accepted": 0.158
+   },
+   {
+    "tok": "sas",
+    "contrast_pairs": 24,
+    "colocated_s1_with_tok": 7466,
+    "france_s1_df": 52278,
+    "contrast_rate": 0.0032,
+    "prod_idf": 3.5,
+    "prod_idf_pctile_france_occ": 0.157,
+    "fill_rate_accepted": 0.404
+   },
+   {
+    "tok": "sarl",
+    "contrast_pairs": 23,
+    "colocated_s1_with_tok": 10416,
+    "france_s1_df": 73486,
+    "contrast_rate": 0.0022,
+    "prod_idf": 3.16,
+    "prod_idf_pctile_france_occ": 0.092,
+    "fill_rate_accepted": 0.319
+   },
+   {
+    "tok": "comite",
+    "contrast_pairs": 22,
+    "colocated_s1_with_tok": 2013,
+    "france_s1_df": 13832,
+    "contrast_rate": 0.0109,
+    "prod_idf": 5.16,
+    "prod_idf_pctile_france_occ": 0.393,
+    "fill_rate_accepted": 0.175
+   },
+   {
+    "tok": "bordeaux",
+    "contrast_pairs": 15,
+    "colocated_s1_with_tok": 814,
+    "france_s1_df": 5169,
+    "contrast_rate": 0.0182,
+    "prod_idf": 5.81,
+    "prod_idf_pctile_france_occ": 0.502,
+    "fill_rate_accepted": 0.086
+   },
+   {
+    "tok": "nantes",
+    "contrast_pairs": 13,
+    "colocated_s1_with_tok": 845,
+    "france_s1_df": 4465,
+    "contrast_rate": 0.0152,
+    "prod_idf": 5.96,
+    "prod_idf_pctile_france_occ": 0.529,
+    "fill_rate_accepted": 0.086
+   },
+   {
+    "tok": "union",
+    "contrast_pairs": 13,
+    "colocated_s1_with_tok": 1212,
+    "france_s1_df": 8630,
+    "contrast_rate": 0.0106,
+    "prod_idf": 4.93,
+    "prod_idf_pctile_france_occ": 0.315,
+    "fill_rate_accepted": 0.141
+   },
+   {
+    "tok": "primaire",
+    "contrast_pairs": 13,
+    "colocated_s1_with_tok": 968,
+    "france_s1_df": 6716,
+    "contrast_rate": 0.0133,
+    "prod_idf": 5.55,
+    "prod_idf_pctile_france_occ": 0.446,
+    "fill_rate_accepted": 0.153
+   },
+   {
+    "tok": "amis",
+    "contrast_pairs": 12,
+    "colocated_s1_with_tok": 1021,
+    "france_s1_df": 6915,
+    "contrast_rate": 0.0116,
+    "prod_idf": 5.52,
+    "prod_idf_pctile_france_occ": 0.438,
+    "fill_rate_accepted": 0.206
+   },
+   {
+    "tok": "college",
+    "contrast_pairs": 11,
+    "colocated_s1_with_tok": 1013,
+    "france_s1_df": 7059,
+    "contrast_rate": 0.0108,
+    "prod_idf": 6.08,
+    "prod_idf_pctile_france_occ": 0.559,
+    "fill_rate_accepted": 0.15
+   },
+   {
+    "tok": "societe",
+    "contrast_pairs": 11,
+    "colocated_s1_with_tok": 610,
+    "france_s1_df": 4084,
+    "contrast_rate": 0.0177,
+    "prod_idf": 6.05,
+    "prod_idf_pctile_france_occ": 0.55,
+    "fill_rate_accepted": 0.229
+   },
+   {
+    "tok": "sante",
+    "contrast_pairs": 10,
+    "colocated_s1_with_tok": 778,
+    "france_s1_df": 5623,
+    "contrast_rate": 0.0127,
+    "prod_idf": 6.32,
+    "prod_idf_pctile_france_occ": 0.61,
+    "fill_rate_accepted": 0.163
+   },
+   {
+    "tok": "lille",
+    "contrast_pairs": 9,
+    "colocated_s1_with_tok": 868,
+    "france_s1_df": 4204,
+    "contrast_rate": 0.0103,
+    "prod_idf": 6.02,
+    "prod_idf_pctile_france_occ": 0.54,
+    "fill_rate_accepted": 0.085
+   },
+   {
+    "tok": "sport",
+    "contrast_pairs": 9,
+    "colocated_s1_with_tok": 411,
+    "france_s1_df": 2729,
+    "contrast_rate": 0.0214,
+    "prod_idf": 6.45,
+    "prod_idf_pctile_france_occ": 0.621,
+    "fill_rate_accepted": 0.192
+   },
+   {
+    "tok": "fetes",
+    "contrast_pairs": 9,
+    "colocated_s1_with_tok": 576,
+    "france_s1_df": 3847,
+    "contrast_rate": 0.0154,
+    "prod_idf": 6.11,
+    "prod_idf_pctile_france_occ": 0.574,
+    "fill_rate_accepted": 0.214
+   },
+   {
+    "tok": "anciens",
+    "contrast_pairs": 9,
+    "colocated_s1_with_tok": 511,
+    "france_s1_df": 3560,
+    "contrast_rate": 0.0173,
+    "prod_idf": 6.19,
+    "prod_idf_pctile_france_occ": 0.583,
+    "fill_rate_accepted": 0.185
+   },
+   {
+    "tok": "parents",
+    "contrast_pairs": 9,
+    "colocated_s1_with_tok": 769,
+    "france_s1_df": 5319,
+    "contrast_rate": 0.0116,
+    "prod_idf": 5.79,
+    "prod_idf_pctile_france_occ": 0.482,
+    "fill_rate_accepted": 0.199
+   },
+   {
+    "tok": "eurl",
+    "contrast_pairs": 8,
+    "colocated_s1_with_tok": 2361,
+    "france_s1_df": 16980,
+    "contrast_rate": 0.0034,
+    "prod_idf": 4.63,
+    "prod_idf_pctile_france_occ": 0.257,
+    "fill_rate_accepted": 0.438
+   },
+   {
+    "tok": "compagnie",
+    "contrast_pairs": 8,
+    "colocated_s1_with_tok": 507,
+    "france_s1_df": 3514,
+    "contrast_rate": 0.0155,
+    "prod_idf": 6.2,
+    "prod_idf_pctile_france_occ": 0.588,
+    "fill_rate_accepted": 0.303
+   },
+   {
+    "tok": "culturelle",
+    "contrast_pairs": 8,
+    "colocated_s1_with_tok": 392,
+    "france_s1_df": 2890,
+    "contrast_rate": 0.0199,
+    "prod_idf": 6.4,
+    "prod_idf_pctile_france_occ": 0.614,
+    "fill_rate_accepted": 0.163
+   },
+   {
+    "tok": "maternelle",
+    "contrast_pairs": 8,
+    "colocated_s1_with_tok": 725,
+    "france_s1_df": 4981,
+    "contrast_rate": 0.0109,
+    "prod_idf": 5.85,
+    "prod_idf_pctile_france_occ": 0.521,
+    "fill_rate_accepted": 0.131
+   }
+  ],
+  "top_contrast_token_pairs": [
+   [
+    [
+     "sarl",
+     "sas"
+    ],
+    13
+   ],
+   [
+    [
+     "centre",
+     "club"
+    ],
+    6
+   ],
+   [
+    [
+     "enterprises"
+    ],
+    5
+   ],
+   [
+    [
+     "eurl",
+     "sarl"
+    ],
+    4
+   ],
+   [
+    [
+     "sas"
+    ],
+    4
+   ],
+   [
+    [
+     "ecole",
+     "sportive"
+    ],
+    3
+   ],
+   [
+    [
+     "comite",
+     "ecole"
+    ],
+    3
+   ],
+   [
+    [
+     "amicale",
+     "ecole"
+    ],
+    3
+   ],
+   [
+    [
+     "sas",
+     "sasu"
+    ],
+    3
+   ],
+   [
+    [
+     "amicale",
+     "amis"
+    ],
+    3
+   ],
+   [
+    [
+     "anciens",
+     "parents"
+    ],
+    2
+   ],
+   [
+    [
+     "ecole",
+     "primaire"
+    ],
+    2
+   ],
+   [
+    [
+     "collectif",
+     "sportive"
+    ],
+    2
+   ],
+   [
+    [
+     "ecole",
+     "union"
+    ],
+    2
+   ],
+   [
+    [
+     "centre",
+     "comite"
+    ],
+    2
+   ]
+  ],
+  "near_dup_examples": [
+   [
+    "Autrement Ecole SARL",
+    "Locale Ecole SARL",
+    "2 RUE Capitaine Kleber Dupuy, Rs le Pauillac Apt 46, Bordeaux, Nouvelle-Aquitaine"
+   ],
+   [
+    "UN Union SAS",
+    "Nantes Union SAS",
+    "12 Rue de la Gymnastique, Nantes, Pays de la Loire"
+   ],
+   [
+    "La Teste-de-Buch Primaire SARL",
+    "La Teste-de-Buch Groupe SARL",
+    "47 Rue Jean Saint-Marc, La Teste-de-Buch, Nouvelle-Aquitaine"
+   ],
+   [
+    "Elsa & Cie SARL",
+    "Qg & Cie SARL",
+    "10 Rue Edmond Besse, Bordeaux, Nouvelle-Aquitaine"
+   ],
+   [
+    "Bordeaux Pharmacie SAS",
+    "Bordeaux Sportive SAS",
+    "16 Rue Chantecrit, Bordeaux, Nouvelle-Aquitaine"
+   ],
+   [
+    "Nantes Ecole SARL",
+    "Nantes Amicale SARL",
+    "8 RUE Arsene Leloup, Pole associatif Desire Colombe, Nantes, Pays de la Loire"
+   ],
+   [
+    "Bordeaux Club SARL",
+    "FN Club SARL",
+    "26 Rue Professeur Daguin, Bordeaux, Nouvelle-Aquitaine"
+   ],
+   [
+    "Dunkerque Centre SARL",
+    "Dunkerque Ecole SARL",
+    "220 Rue de Cambrai, Dunkerque, Hauts-de-France"
+   ],
+   [
+    "Xandre & Fr\u00e8res SARL",
+    "Sages & Fr\u00e8res SARL",
+    "26 RUE Raze, Bordeaux, Nouvelle-Aquitaine"
+   ],
+   [
+    "Retro Primaire SARL",
+    "Behourd Primaire SARL",
+    "50 Rue de Saint-Gen\u00e8s, Bordeaux, Nouvelle-Aquitaine"
+   ],
+   [
+    "Nantes Ecole SARL",
+    "Nantes Residence SARL",
+    "5 BD de Stalingrad, Nantes, Pays de la Loire"
+   ],
+   [
+    "Droit Comite SARL",
+    "Doenologie Comite SARL",
+    "21 bis Avenue de la Marne, Tourcoing, Hauts-de-France"
+   ]
+  ],
+  "legal_forms_not_in_rl27_SUFFIX": [
+   "earl",
+   "ei",
+   "eirl",
+   "eurl",
+   "gie",
+   "pllc",
+   "sa",
+   "sarl",
+   "sas",
+   "sasu",
+   "sca",
+   "sci",
+   "scop",
+   "scs",
+   "selarl",
+   "snc"
+  ],
+  "share_france_s1_with_legal_form_not_in_SUFFIX": 0.689
+ },
+ "examples_France_kept_cc_closer_unclaimed": [
+  {
+   "s1_name": "Lamoma Institut SAS",
+   "s1_addr": "5 All\u00e9e des Flamants, Saint-Nazaire, Pays de la Loire",
+   "rec_name": "lamomainstitut.com",
+   "rec_addr": "5 Alee Des Flamants, Saint-nazaire",
+   "p": 1.0,
+   "colocated_names": [
+    "Action (France) Amis SCI",
+    "Creations Foyer SASU",
+    "Broc (France) Club SASU",
+    "\u00c9tablissements Agreee"
+   ]
+  },
+  {
+   "s1_name": "Nantes Centre",
+   "s1_addr": "167 RUE du Croissant, Nantes, Pays de la Loire",
+   "rec_name": "nantescentre.com",
+   "rec_addr": "167 R DU CROISSANT, NANTES",
+   "p": 1.0,
+   "colocated_names": [
+    "Nantes Theatre SAS"
+   ]
+  },
+  {
+   "s1_name": "Saint-Nazaire Amicale SA",
+   "s1_addr": "Pays de la Loire, Saint-Nazaire, 26 Rue Th\u00e9ophile Lefebvre",
+   "rec_name": "Saintnazaireamicale.Com",
+   "rec_addr": "26 Rue Theophile Lefebvre, Saint-nazaire",
+   "p": 1.0,
+   "colocated_names": [
+    "Time Ecole SAS",
+    "Pro Anciens SCI",
+    "Defense Maternelle SAS",
+    "Ministere & Cie"
+   ]
+  }
+ ],
+ "examples_France_kept_name_diff_is_contrast_token": [
+  {
+   "s1_name": "<< Team Ecole",
+   "rec_name": "<< Team Services",
+   "s1_addr": "175 Boulevard du Pr\u00e9sident Franklin Roosevelt, Bordeaux, Nouvelle-Aquitaine",
+   "rec_addr": "N\u00b0 175 Boulevard Du Pr\u00e9sident Franklin Roosevelt, Bordeaux, Gironde",
+   "p": 0.999
+  },
+  {
+   "s1_name": "F\u00e9d\u00e9ration de Dafn",
+   "rec_name": "F\u00e9d\u00e9ration de Dafn EURL",
+   "s1_addr": "Hauts-de-France, 20 Rue Marc Sangnier, Tourcoing",
+   "rec_addr": "20 R MARC SANGNIER, TOURCOING, Nord",
+   "p": 0.981
+  },
+  {
+   "s1_name": "Bordeaux Ecole SARL",
+   "rec_name": "Bordeaux Ecole",
+   "s1_addr": "34 Rue Raymond Poincar\u00e9, Bordeaux, Nouvelle-Aquitaine",
+   "rec_addr": "34 R. Raymond Poincar\u00e9, Bordeaux, Gironde",
+   "p": 1.0
+  },
+  {
+   "s1_name": "\u00c9tablissements Animals",
+   "rec_name": "\u00c9TABLISSEMENTS ANIMALS EURL",
+   "s1_addr": "13 Rue Calixte Camelle, Pessac, Nouvelle-Aquitaine",
+   "rec_addr": "13 RUE CALIXTE CAMELLE, PESSAC",
+   "p": 0.998
+  },
+  {
+   "s1_name": "Generations Sportive SCI",
+   "rec_name": "Generations SCI & Associ\u00e9s",
+   "s1_addr": "Pays de la Loire, 3 Du Docteur Zamenhof, Nantes",
+   "rec_addr": "3 Du Docteur Zamenhof, Nantes, Pays de la Loire",
+   "p": 0.987
+  },
+  {
+   "s1_name": "Ecoute Sportive SAS",
+   "rec_name": "Ecoute Sportive",
+   "s1_addr": "Pornic, 9 Rue des C\u00e8dres, Pays de la Loire",
+   "rec_addr": "9 R. Des C\u00e8dres, Pornic",
+   "p": 1.0
+  },
+  {
+   "s1_name": "Artistes Culture SARL",
+   "rec_name": "Artistes Culture",
+   "s1_addr": "Hauts-de-France, Lille, 38 Avenue Marx Dormoy",
+   "rec_addr": "38 AVENUE MARX DORMOY, Hauts-de-France, LILLE",
+   "p": 1.0
+  },
+  {
+   "s1_name": "Vieux Amicale",
+   "rec_name": "Vieux  Aimocfae",
+   "s1_addr": "16 Rue Bouguereau, Lille, Hauts-de-France",
+   "rec_addr": "16 Rue Bouguereau, Lille, Hauts-de-France",
+   "p": 1.0
+  },
+  {
+   "s1_name": "Comit\u00e9 des Developpement",
+   "rec_name": "Comit\u00e9 des Developpement EURL",
+   "s1_addr": "2 Rue Xavier Arnozan, Pessac, Nouvelle-Aquitaine",
+   "rec_addr": "2 RUE XAVIER ARNOZAN, PESSAC, Nouvelle-Aquitaine",
+   "p": 0.997
+  },
+  {
+   "s1_name": "Arts Societe SARL",
+   "rec_name": "Arts  Societe",
+   "s1_addr": "110 AV du Pont Loby, 59640, Dunkerque, Hauts-de-France",
+   "rec_addr": "110 AV DU PONT LOBY, 59640, DUNKERQUE",
+   "p": 1.0
+  }
+ ],
+ "accepted_pair_signal_density": {
+  "France": {
+   "n_accepted": 879329,
+   "n_kept_final": 854396,
+   "n_s1_with_kept": 244988,
+   "kept_final": {
+    "has_colocated_S1": {
+     "n_pairs": 120098,
+     "per_1k_s1": 490.22
+    },
+    "cc_closer_colocated": {
+     "n_pairs": 580,
+     "per_1k_s1": 2.37
+    },
+    "cc_closer_and_closer_claims": {
+     "n_pairs": 53,
+     "per_1k_s1": 0.22
+    },
+    "cc_closer_unclaimed": {
+     "n_pairs": 527,
+     "per_1k_s1": 2.15
+    },
+    "share_street_both": 0.9154,
+    "street_mismatch_given_both": 0.142,
+    "street_mismatch_with_addrwords_j_ge_0_8": {
+     "n_pairs": 873,
+     "per_1k_s1": 3.56
+    },
+    "house_mismatch_given_both": 0.0257,
+    "house_mismatch_same_street": {
+     "n_pairs": 14408,
+     "per_1k_s1": 58.81
+    },
+    "name_one_token_substitution": {
+     "n_pairs": 86221,
+     "per_1k_s1": 351.94
+    },
+    "name_legal_form_only_difference": {
+     "n_pairs": 146131,
+     "per_1k_s1": 596.48
+    },
+    "name_diff_is_france_top_contrast_token": {
+     "n_pairs": 157057,
+     "per_1k_s1": 641.08
+    }
+   }
+  },
+  "US": {
+   "n_accepted": 2236533,
+   "n_kept_final": 2236158,
+   "n_s1_with_kept": 624748,
+   "kept_final": {
+    "has_colocated_S1": {
+     "n_pairs": 117934,
+     "per_1k_s1": 188.77
+    },
+    "cc_closer_colocated": {
+     "n_pairs": 238,
+     "per_1k_s1": 0.38
+    },
+    "cc_closer_and_closer_claims": {
+     "n_pairs": 10,
+     "per_1k_s1": 0.02
+    },
+    "cc_closer_unclaimed": {
+     "n_pairs": 228,
+     "per_1k_s1": 0.36
+    },
+    "share_street_both": 0.8008,
+    "street_mismatch_given_both": 0.078,
+    "street_mismatch_with_addrwords_j_ge_0_8": {
+     "n_pairs": 2851,
+     "per_1k_s1": 4.56
+    },
+    "house_mismatch_given_both": 0.1213,
+    "house_mismatch_same_street": {
+     "n_pairs": 153839,
+     "per_1k_s1": 246.24
+    },
+    "name_one_token_substitution": {
+     "n_pairs": 447377,
+     "per_1k_s1": 716.09
+    },
+    "name_legal_form_only_difference": {
+     "n_pairs": 384926,
+     "per_1k_s1": 616.13
+    },
+    "name_diff_is_france_top_contrast_token": {
+     "n_pairs": 2876,
+     "per_1k_s1": 4.6
+    }
+   }
+  },
+  "India": {
+   "n_accepted": 2730863,
+   "n_kept_final": 2728351,
+   "n_s1_with_kept": 763161,
+   "kept_final": {
+    "has_colocated_S1": {
+     "n_pairs": 163388,
+     "per_1k_s1": 214.09
+    },
+    "cc_closer_colocated": {
+     "n_pairs": 732,
+     "per_1k_s1": 0.96
+    },
+    "cc_closer_and_closer_claims": {
+     "n_pairs": 45,
+     "per_1k_s1": 0.06
+    },
+    "cc_closer_unclaimed": {
+     "n_pairs": 687,
+     "per_1k_s1": 0.9
+    },
+    "share_street_both": 0.4557,
+    "street_mismatch_given_both": 0.2007,
+    "street_mismatch_with_addrwords_j_ge_0_8": {
+     "n_pairs": 86345,
+     "per_1k_s1": 113.14
+    },
+    "house_mismatch_given_both": 0.2359,
+    "house_mismatch_same_street": {
+     "n_pairs": 132210,
+     "per_1k_s1": 173.24
+    },
+    "name_one_token_substitution": {
+     "n_pairs": 647374,
+     "per_1k_s1": 848.28
+    },
+    "name_legal_form_only_difference": {
+     "n_pairs": 721576,
+     "per_1k_s1": 945.51
+    },
+    "name_diff_is_france_top_contrast_token": {
+     "n_pairs": 3347,
+     "per_1k_s1": 4.39
+    }
+   }
+  }
+ },
+ "France_rl27_on_kept_final": {
+  "located": 854396,
+  "rv_rank_cc1_unclaimed": {
+   "n": 527,
+   "mean": 2.8159,
+   "share_eq1": 0.5693,
+   "share_gt0": 1.0
+  },
+  "rv_rank_cc1_claimed": {
+   "n": 53,
+   "mean": 3.1887,
+   "share_eq1": 0.3774,
+   "share_gt0": 1.0
+  },
+  "rv_rank_cc0_has": {
+   "n": 119518,
+   "mean": 1.2785,
+   "share_eq1": 0.9381,
+   "share_gt0": 1.0
+  },
+  "rv_rank_all_kept": {
+   "n": 854396,
+   "mean": 1.2245,
+   "share_eq1": 0.955,
+   "share_gt0": 1.0
+  },
+  "coloc_all_kept": {
+   "n": 854396,
+   "mean": 0.6791,
+   "share_eq1": 0.0746,
+   "share_gt0": 0.1406
+  },
+  "nf_a_kept": {
+   "n": 854396,
+   "mean": 0.6756,
+   "share_eq1": 0.6756,
+   "share_gt0": 0.6756
+  },
+  "nf_a_kept_legal_only_diff": {
+   "n": 146131,
+   "mean": 0.6459,
+   "share_eq1": 0.6459,
+   "share_gt0": 0.6459
+  },
+  "nf_a_kept_not_legal_only": {
+   "n": 708265,
+   "mean": 0.6818,
+   "share_eq1": 0.6818,
+   "share_gt0": 0.6818
+  },
+  "rv_gap_lt0_cc1_unclaimed": 0.4269,
+  "p_mean_cc1_unclaimed": 0.9414,
+  "p_share_ge_0_97_cc1_unclaimed": 0.5465,
+  "addr_token_set_ge_0_9_given_street_mismatch": 0.3551,
+  "p_mean_street_mismatch": 0.9928,
+  "p_mean_street_match": 0.9937,
+  "p_mean_name_diff_is_contrast_tok": 0.988,
+  "p_share_ge_0_97_name_diff_is_contrast_tok": 0.8966
+ },
+ "runtime_s": 728.5
+}

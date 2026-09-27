@@ -1,0 +1,945 @@
+{
+ "France_p5": {
+  "A=num&street|same_core": 1781.64,
+  "D:street_diff|same_core": 312.03,
+  "A=num&street|swap1": 258.44,
+  "A=num&street|disjoint": 217.39,
+  "A=num&street|rec_adds2+": 186.87,
+  "A~nonum|same_core": 131.64,
+  "E|same_core": 76.24,
+  "D:num_diff|same_core": 70.42,
+  "A=num&street|rec_drops": 60.26,
+  "D:street_diff|swap1": 42.29,
+  "A=num&street|rec_adds": 34.37,
+  "A=num&street|acronym": 30.94,
+  "D:street_diff|disjoint": 29.54,
+  "A=num&street|other": 23.58,
+  "D:street_diff|rec_adds2+": 21.81,
+  "A~nonum|swap1": 17.68,
+  "A~nonum|disjoint": 13.14,
+  "D:num_diff|swap1": 10.17,
+  "A~nonum|rec_adds2+": 9.49,
+  "D:street_diff|rec_drops": 8.21,
+  "A=num&street|rec_drops2+": 7.44,
+  "D:num_diff|disjoint": 7.03,
+  "D:street_diff|rec_adds": 5.76,
+  "E|rec_adds2+": 4.85,
+  "E|swap1": 4.68,
+  "D:street_diff|other": 3.8,
+  "D:num_diff|rec_adds2+": 3.64,
+  "A~nonum|rec_drops": 3.48,
+  "A~nonum|rec_adds": 2.32,
+  "D:num_diff|rec_drops": 2.3,
+  "A~nonum|other": 1.5,
+  "D:street_diff|acronym": 1.4,
+  "E|rec_drops": 1.26,
+  "E|rec_adds": 1.02,
+  "D:num_diff|rec_adds": 0.67,
+  "D:num_diff|rec_drops2+": 0.38,
+  "D:num_diff|other": 0.38,
+  "E|other": 0.32,
+  "A~nonum|acronym": 0.28,
+  "D:street_diff|rec_drops2+": 0.21,
+  "D:num_diff|acronym": 0.19,
+  "A~nonum|rec_drops2+": 0.1,
+  "E|rec_drops2+": 0.02
+ },
+ "France_p6": {
+  "A=num&street|same_core": 1777.71,
+  "D:street_diff|same_core": 301.89,
+  "A=num&street|swap1": 251.37,
+  "A=num&street|disjoint": 221.66,
+  "A=num&street|rec_adds2+": 186.91,
+  "A~nonum|same_core": 127.16,
+  "E|same_core": 77.71,
+  "A=num&street|rec_drops": 60.2,
+  "D:num_diff|same_core": 51.6,
+  "D:street_diff|swap1": 39.96,
+  "A=num&street|acronym": 33.09,
+  "A=num&street|rec_adds": 30.7,
+  "D:street_diff|disjoint": 29.77,
+  "A=num&street|other": 22.72,
+  "D:street_diff|rec_adds2+": 21.46,
+  "A~nonum|swap1": 16.7,
+  "A~nonum|disjoint": 13.17,
+  "A~nonum|rec_adds2+": 9.37,
+  "D:num_diff|swap1": 9.07,
+  "D:street_diff|rec_drops": 7.94,
+  "A=num&street|rec_drops2+": 7.31,
+  "D:num_diff|disjoint": 6.98,
+  "E|swap1": 5.3,
+  "E|rec_adds2+": 5.2,
+  "D:street_diff|rec_adds": 4.86,
+  "A~nonum|rec_drops": 3.62,
+  "D:street_diff|other": 3.44,
+  "D:num_diff|rec_adds2+": 2.83,
+  "D:num_diff|rec_drops": 2.63,
+  "A~nonum|rec_adds": 2.02,
+  "A~nonum|other": 1.65,
+  "D:street_diff|acronym": 1.54,
+  "E|rec_drops": 1.38,
+  "E|rec_adds": 1.08,
+  "D:num_diff|rec_drops2+": 0.52,
+  "D:num_diff|rec_adds": 0.44,
+  "D:num_diff|other": 0.43,
+  "E|other": 0.34,
+  "A~nonum|acronym": 0.34,
+  "D:num_diff|acronym": 0.19,
+  "D:street_diff|rec_drops2+": 0.16,
+  "A~nonum|rec_drops2+": 0.11,
+  "E|rec_drops2+": 0.02
+ },
+ "US_p5": {
+  "A=num&street|same_core": 1190.57,
+  "A=num&street|swap1": 410.74,
+  "D:street_diff|same_core": 309.83,
+  "A=num&street|disjoint": 174.41,
+  "D:num_diff|same_core": 164.35,
+  "A~nonum|same_core": 131.45,
+  "A=num&street|rec_drops": 128.75,
+  "A=num&street|rec_adds2+": 126.56,
+  "D:street_diff|swap1": 106.22,
+  "A=num&street|rec_adds": 92.55,
+  "E|same_core": 65.18,
+  "D:num_diff|swap1": 56.67,
+  "A=num&street|rec_drops2+": 51.29,
+  "A~nonum|swap1": 44.72,
+  "D:street_diff|disjoint": 41.51,
+  "A=num&street|other": 32.76,
+  "D:street_diff|rec_drops": 31.65,
+  "D:street_diff|rec_adds": 24.79,
+  "D:num_diff|disjoint": 21.87,
+  "A~nonum|disjoint": 17.67,
+  "D:num_diff|rec_drops": 16.94,
+  "E|swap1": 15.19,
+  "A~nonum|rec_drops": 13.52,
+  "D:num_diff|rec_adds": 13.34,
+  "D:street_diff|rec_adds2+": 10.77,
+  "A~nonum|rec_adds": 10.38,
+  "D:street_diff|rec_drops2+": 10.04,
+  "D:num_diff|rec_adds2+": 8.57,
+  "D:street_diff|other": 7.86,
+  "D:num_diff|rec_drops2+": 5.78,
+  "A~nonum|rec_adds2+": 4.96,
+  "D:num_diff|other": 4.67,
+  "E|rec_adds": 4.29,
+  "A~nonum|rec_drops2+": 4.12,
+  "E|rec_drops": 4.08,
+  "A~nonum|other": 3.4,
+  "E|rec_adds2+": 2.32,
+  "A=num&street|acronym": 2.3,
+  "E|rec_drops2+": 1.81,
+  "E|other": 0.83,
+  "D:num_diff|acronym": 0.13,
+  "A~nonum|acronym": 0.07,
+  "D:street_diff|acronym": 0.05
+ },
+ "US_p6": {
+  "A=num&street|same_core": 1190.77,
+  "A=num&street|swap1": 411.17,
+  "D:street_diff|same_core": 310.32,
+  "A=num&street|disjoint": 174.84,
+  "D:num_diff|same_core": 165.2,
+  "A~nonum|same_core": 131.48,
+  "A=num&street|rec_drops": 128.79,
+  "A=num&street|rec_adds2+": 126.56,
+  "D:street_diff|swap1": 106.6,
+  "A=num&street|rec_adds": 92.53,
+  "E|same_core": 67.05,
+  "D:num_diff|swap1": 57.05,
+  "A=num&street|rec_drops2+": 51.3,
+  "A~nonum|swap1": 44.89,
+  "D:street_diff|disjoint": 41.91,
+  "A=num&street|other": 32.8,
+  "D:street_diff|rec_drops": 31.79,
+  "D:street_diff|rec_adds": 24.83,
+  "D:num_diff|disjoint": 22.23,
+  "A~nonum|disjoint": 17.81,
+  "D:num_diff|rec_drops": 17.1,
+  "E|swap1": 16.59,
+  "A~nonum|rec_drops": 13.53,
+  "D:num_diff|rec_adds": 13.39,
+  "D:street_diff|rec_adds2+": 10.79,
+  "A~nonum|rec_adds": 10.39,
+  "D:street_diff|rec_drops2+": 10.09,
+  "D:num_diff|rec_adds2+": 8.6,
+  "D:street_diff|other": 7.9,
+  "D:num_diff|rec_drops2+": 5.8,
+  "A~nonum|rec_adds2+": 4.95,
+  "D:num_diff|other": 4.75,
+  "E|rec_adds": 4.63,
+  "E|rec_drops": 4.17,
+  "A~nonum|rec_drops2+": 4.13,
+  "A~nonum|other": 3.4,
+  "E|rec_adds2+": 2.49,
+  "A=num&street|acronym": 2.31,
+  "E|rec_drops2+": 1.85,
+  "E|other": 0.98,
+  "D:num_diff|acronym": 0.14,
+  "A~nonum|acronym": 0.07,
+  "D:street_diff|acronym": 0.05
+ },
+ "India_p5": {
+  "A=num&street|same_core": 842.77,
+  "A=num&street|rec_drops2+": 294.79,
+  "D:street_diff|same_core": 264.17,
+  "D:num_diff|same_core": 263.86,
+  "A=num&street|swap1": 243.86,
+  "A=num&street|rec_adds": 153.51,
+  "D:street_diff|rec_drops2+": 147.24,
+  "A=num&street|disjoint": 134.52,
+  "A~nonum|same_core": 127.68,
+  "D:num_diff|rec_drops2+": 94.28,
+  "A=num&street|rec_adds2+": 88.63,
+  "D:street_diff|swap1": 82.03,
+  "D:num_diff|swap1": 76.15,
+  "A~nonum|rec_drops2+": 52.16,
+  "E|same_core": 52.08,
+  "D:street_diff|rec_adds": 48.55,
+  "D:num_diff|rec_adds": 47.28,
+  "A=num&street|rec_drops": 42.52,
+  "A~nonum|swap1": 37.31,
+  "A=num&street|other": 36.95,
+  "D:street_diff|disjoint": 36.75,
+  "D:num_diff|disjoint": 36.28,
+  "A~nonum|rec_adds": 22.46,
+  "A~nonum|disjoint": 19.83,
+  "D:num_diff|rec_adds2+": 16.01,
+  "D:street_diff|rec_adds2+": 12.45,
+  "D:street_diff|other": 11.48,
+  "D:num_diff|other": 11.42,
+  "D:street_diff|rec_drops": 11.35,
+  "A~nonum|rec_adds2+": 11.19,
+  "D:num_diff|rec_drops": 10.3,
+  "E|rec_adds": 8.22,
+  "A=num&street|acronym": 7.91,
+  "E|swap1": 7.68,
+  "A~nonum|rec_drops": 6.61,
+  "A~nonum|other": 5.95,
+  "E|rec_adds2+": 2.02,
+  "A~nonum|acronym": 0.93,
+  "E|other": 0.89,
+  "E|rec_drops": 0.51,
+  "D:num_diff|acronym": 0.47,
+  "D:street_diff|acronym": 0.03,
+  "E|rec_drops2+": 0.01
+ },
+ "India_p6": {
+  "A=num&street|same_core": 842.74,
+  "A=num&street|rec_drops2+": 294.7,
+  "D:street_diff|same_core": 264.74,
+  "D:num_diff|same_core": 264.06,
+  "A=num&street|swap1": 244.2,
+  "A=num&street|rec_adds": 153.53,
+  "D:street_diff|rec_drops2+": 148.6,
+  "A=num&street|disjoint": 134.98,
+  "A~nonum|same_core": 127.71,
+  "D:num_diff|rec_drops2+": 94.27,
+  "A=num&street|rec_adds2+": 88.64,
+  "D:street_diff|swap1": 83.03,
+  "D:num_diff|swap1": 76.62,
+  "E|same_core": 54.3,
+  "A~nonum|rec_drops2+": 52.06,
+  "D:street_diff|rec_adds": 48.7,
+  "D:num_diff|rec_adds": 47.62,
+  "A=num&street|rec_drops": 42.52,
+  "D:street_diff|disjoint": 37.48,
+  "A~nonum|swap1": 37.39,
+  "A=num&street|other": 36.92,
+  "D:num_diff|disjoint": 36.47,
+  "A~nonum|rec_adds": 22.49,
+  "A~nonum|disjoint": 19.98,
+  "D:num_diff|rec_adds2+": 16.09,
+  "D:street_diff|rec_adds2+": 12.49,
+  "D:street_diff|other": 11.73,
+  "D:num_diff|other": 11.62,
+  "D:street_diff|rec_drops": 11.51,
+  "A~nonum|rec_adds2+": 11.2,
+  "D:num_diff|rec_drops": 10.39,
+  "E|swap1": 9.09,
+  "E|rec_adds": 8.94,
+  "A=num&street|acronym": 8.0,
+  "A~nonum|rec_drops": 6.6,
+  "A~nonum|other": 5.98,
+  "E|rec_adds2+": 2.25,
+  "E|other": 1.12,
+  "A~nonum|acronym": 0.92,
+  "E|rec_drops": 0.52,
+  "D:num_diff|acronym": 0.49,
+  "D:street_diff|acronym": 0.02,
+  "E|rec_drops2+": 0.01,
+  "E|disjoint": 0.0
+ },
+ "V1_US_p_NEW": {
+  "A=num&street|acronym": [
+   2.41,
+   0.0
+  ],
+  "A=num&street|disjoint": [
+   173.35,
+   0.665
+  ],
+  "A=num&street|other": [
+   33.14,
+   0.249
+  ],
+  "A=num&street|rec_adds": [
+   92.62,
+   0.0
+  ],
+  "A=num&street|rec_adds2+": [
+   126.17,
+   0.0
+  ],
+  "A=num&street|rec_drops": [
+   126.67,
+   0.0
+  ],
+  "A=num&street|rec_drops2+": [
+   52.83,
+   0.0
+  ],
+  "A=num&street|same_core": [
+   1191.88,
+   0.0
+  ],
+  "A=num&street|swap1": [
+   404.6,
+   0.581
+  ],
+  "A~nonum|disjoint": [
+   16.45,
+   0.0
+  ],
+  "A~nonum|other": [
+   4.15,
+   0.0
+  ],
+  "A~nonum|rec_adds": [
+   8.89,
+   0.0
+  ],
+  "A~nonum|rec_adds2+": [
+   4.98,
+   0.0
+  ],
+  "A~nonum|rec_drops": [
+   13.46,
+   0.166
+  ],
+  "A~nonum|rec_drops2+": [
+   5.07,
+   0.0
+  ],
+  "A~nonum|same_core": [
+   130.99,
+   0.0
+  ],
+  "A~nonum|swap1": [
+   42.94,
+   0.083
+  ],
+  "D:num_diff|acronym": [
+   0.08,
+   0.0
+  ],
+  "D:num_diff|disjoint": [
+   20.77,
+   0.0
+  ],
+  "D:num_diff|other": [
+   3.74,
+   0.166
+  ],
+  "D:num_diff|rec_adds": [
+   11.79,
+   0.083
+  ],
+  "D:num_diff|rec_adds2+": [
+   6.98,
+   0.0
+  ],
+  "D:num_diff|rec_drops": [
+   15.45,
+   0.249
+  ],
+  "D:num_diff|rec_drops2+": [
+   5.81,
+   0.0
+  ],
+  "D:num_diff|same_core": [
+   159.81,
+   1.246
+  ],
+  "D:num_diff|swap1": [
+   52.5,
+   0.665
+  ],
+  "D:street_diff|disjoint": [
+   40.37,
+   0.0
+  ],
+  "D:street_diff|other": [
+   8.89,
+   0.083
+  ],
+  "D:street_diff|rec_adds": [
+   26.25,
+   0.0
+  ],
+  "D:street_diff|rec_adds2+": [
+   11.79,
+   0.0
+  ],
+  "D:street_diff|rec_drops": [
+   31.9,
+   0.166
+  ],
+  "D:street_diff|rec_drops2+": [
+   10.8,
+   0.0
+  ],
+  "D:street_diff|same_core": [
+   318.71,
+   0.415
+  ],
+  "D:street_diff|swap1": [
+   112.88,
+   0.249
+  ],
+  "E|other": [
+   1.08,
+   0.0
+  ],
+  "E|rec_adds": [
+   3.65,
+   0.166
+  ],
+  "E|rec_adds2+": [
+   2.16,
+   0.0
+  ],
+  "E|rec_drops": [
+   4.4,
+   0.166
+  ],
+  "E|rec_drops2+": [
+   0.42,
+   0.0
+  ],
+  "E|same_core": [
+   56.07,
+   1.744
+  ],
+  "E|swap1": [
+   15.7,
+   0.415
+  ]
+ },
+ "V1_India_p_NEW": {
+  "A=num&street|acronym": [
+   6.41,
+   0.0
+  ],
+  "A=num&street|disjoint": [
+   132.02,
+   0.251
+  ],
+  "A=num&street|other": [
+   31.03,
+   0.0
+  ],
+  "A=num&street|rec_adds": [
+   153.0,
+   0.0
+  ],
+  "A=num&street|rec_adds2+": [
+   92.7,
+   0.0
+  ],
+  "A=num&street|rec_drops": [
+   45.47,
+   0.0
+  ],
+  "A=num&street|rec_drops2+": [
+   289.41,
+   0.126
+  ],
+  "A=num&street|same_core": [
+   857.93,
+   0.0
+  ],
+  "A=num&street|swap1": [
+   247.46,
+   0.879
+  ],
+  "A~nonum|acronym": [
+   0.88,
+   0.0
+  ],
+  "A~nonum|disjoint": [
+   25.0,
+   0.126
+  ],
+  "A~nonum|other": [
+   6.78,
+   0.126
+  ],
+  "A~nonum|rec_adds": [
+   22.23,
+   0.0
+  ],
+  "A~nonum|rec_adds2+": [
+   10.43,
+   0.0
+  ],
+  "A~nonum|rec_drops": [
+   7.03,
+   0.0
+  ],
+  "A~nonum|rec_drops2+": [
+   44.97,
+   0.377
+  ],
+  "A~nonum|same_core": [
+   133.9,
+   0.251
+  ],
+  "A~nonum|swap1": [
+   39.69,
+   0.251
+  ],
+  "D:num_diff|acronym": [
+   0.5,
+   0.0
+  ],
+  "D:num_diff|disjoint": [
+   37.93,
+   0.126
+  ],
+  "D:num_diff|other": [
+   11.18,
+   0.0
+  ],
+  "D:num_diff|rec_adds": [
+   45.22,
+   0.126
+  ],
+  "D:num_diff|rec_adds2+": [
+   16.2,
+   0.0
+  ],
+  "D:num_diff|rec_drops": [
+   9.42,
+   0.126
+  ],
+  "D:num_diff|rec_drops2+": [
+   95.09,
+   0.628
+  ],
+  "D:num_diff|same_core": [
+   253.49,
+   0.0
+  ],
+  "D:num_diff|swap1": [
+   74.86,
+   0.377
+  ],
+  "D:street_diff|acronym": [
+   0.13,
+   0.0
+  ],
+  "D:street_diff|disjoint": [
+   39.69,
+   0.502
+  ],
+  "D:street_diff|other": [
+   12.31,
+   0.126
+  ],
+  "D:street_diff|rec_adds": [
+   49.49,
+   0.502
+  ],
+  "D:street_diff|rec_adds2+": [
+   14.07,
+   0.0
+  ],
+  "D:street_diff|rec_drops": [
+   10.55,
+   0.0
+  ],
+  "D:street_diff|rec_drops2+": [
+   156.76,
+   1.382
+  ],
+  "D:street_diff|same_core": [
+   266.93,
+   0.377
+  ],
+  "D:street_diff|swap1": [
+   78.63,
+   0.628
+  ],
+  "E|other": [
+   1.0,
+   0.0
+  ],
+  "E|rec_adds": [
+   9.67,
+   0.377
+  ],
+  "E|rec_adds2+": [
+   2.64,
+   0.126
+  ],
+  "E|rec_drops": [
+   0.5,
+   0.0
+  ],
+  "E|same_core": [
+   50.24,
+   1.382
+  ],
+  "E|swap1": [
+   7.54,
+   0.377
+  ]
+ },
+ "V1_US_p_RRL": {
+  "A=num&street|acronym": [
+   2.41,
+   0.0
+  ],
+  "A=num&street|disjoint": [
+   174.02,
+   0.498
+  ],
+  "A=num&street|other": [
+   33.23,
+   0.249
+  ],
+  "A=num&street|rec_adds": [
+   92.62,
+   0.0
+  ],
+  "A=num&street|rec_adds2+": [
+   126.17,
+   0.0
+  ],
+  "A=num&street|rec_drops": [
+   126.67,
+   0.0
+  ],
+  "A=num&street|rec_drops2+": [
+   52.91,
+   0.0
+  ],
+  "A=num&street|same_core": [
+   1191.88,
+   0.0
+  ],
+  "A=num&street|swap1": [
+   405.6,
+   0.665
+  ],
+  "A~nonum|disjoint": [
+   16.94,
+   0.0
+  ],
+  "A~nonum|other": [
+   4.15,
+   0.0
+  ],
+  "A~nonum|rec_adds": [
+   8.97,
+   0.0
+  ],
+  "A~nonum|rec_adds2+": [
+   4.98,
+   0.0
+  ],
+  "A~nonum|rec_drops": [
+   13.46,
+   0.166
+  ],
+  "A~nonum|rec_drops2+": [
+   5.07,
+   0.0
+  ],
+  "A~nonum|same_core": [
+   131.16,
+   0.0
+  ],
+  "A~nonum|swap1": [
+   42.94,
+   0.083
+  ],
+  "D:num_diff|acronym": [
+   0.08,
+   0.0
+  ],
+  "D:num_diff|disjoint": [
+   21.18,
+   0.0
+  ],
+  "D:num_diff|other": [
+   3.74,
+   0.083
+  ],
+  "D:num_diff|rec_adds": [
+   12.13,
+   0.166
+  ],
+  "D:num_diff|rec_adds2+": [
+   6.98,
+   0.0
+  ],
+  "D:num_diff|rec_drops": [
+   15.45,
+   0.249
+  ],
+  "D:num_diff|rec_drops2+": [
+   6.06,
+   0.083
+  ],
+  "D:num_diff|same_core": [
+   160.06,
+   0.914
+  ],
+  "D:num_diff|swap1": [
+   52.83,
+   0.415
+  ],
+  "D:street_diff|disjoint": [
+   40.87,
+   0.083
+  ],
+  "D:street_diff|other": [
+   8.89,
+   0.083
+  ],
+  "D:street_diff|rec_adds": [
+   26.41,
+   0.083
+  ],
+  "D:street_diff|rec_adds2+": [
+   11.79,
+   0.0
+  ],
+  "D:street_diff|rec_drops": [
+   32.23,
+   0.166
+  ],
+  "D:street_diff|rec_drops2+": [
+   10.96,
+   0.083
+  ],
+  "D:street_diff|same_core": [
+   319.63,
+   0.581
+  ],
+  "D:street_diff|swap1": [
+   113.46,
+   0.083
+  ],
+  "E|other": [
+   1.33,
+   0.083
+  ],
+  "E|rec_adds": [
+   3.99,
+   0.498
+  ],
+  "E|rec_adds2+": [
+   2.24,
+   0.0
+  ],
+  "E|rec_drops": [
+   4.49,
+   0.166
+  ],
+  "E|rec_drops2+": [
+   0.42,
+   0.0
+  ],
+  "E|same_core": [
+   57.9,
+   1.994
+  ],
+  "E|swap1": [
+   16.7,
+   0.415
+  ]
+ },
+ "V1_India_p_RRL": {
+  "A=num&street|acronym": [
+   6.53,
+   0.0
+  ],
+  "A=num&street|disjoint": [
+   133.27,
+   0.502
+  ],
+  "A=num&street|other": [
+   31.03,
+   0.0
+  ],
+  "A=num&street|rec_adds": [
+   153.0,
+   0.0
+  ],
+  "A=num&street|rec_adds2+": [
+   92.7,
+   0.0
+  ],
+  "A=num&street|rec_drops": [
+   45.47,
+   0.0
+  ],
+  "A=num&street|rec_drops2+": [
+   289.41,
+   0.0
+  ],
+  "A=num&street|same_core": [
+   858.31,
+   0.126
+  ],
+  "A=num&street|swap1": [
+   248.21,
+   0.754
+  ],
+  "A~nonum|acronym": [
+   0.88,
+   0.0
+  ],
+  "A~nonum|disjoint": [
+   25.12,
+   0.126
+  ],
+  "A~nonum|other": [
+   6.66,
+   0.0
+  ],
+  "A~nonum|rec_adds": [
+   22.23,
+   0.0
+  ],
+  "A~nonum|rec_adds2+": [
+   10.55,
+   0.0
+  ],
+  "A~nonum|rec_drops": [
+   7.03,
+   0.0
+  ],
+  "A~nonum|rec_drops2+": [
+   44.84,
+   0.251
+  ],
+  "A~nonum|same_core": [
+   134.03,
+   0.126
+  ],
+  "A~nonum|swap1": [
+   39.69,
+   0.377
+  ],
+  "D:num_diff|acronym": [
+   0.5,
+   0.0
+  ],
+  "D:num_diff|disjoint": [
+   38.56,
+   0.0
+  ],
+  "D:num_diff|other": [
+   11.56,
+   0.0
+  ],
+  "D:num_diff|rec_adds": [
+   45.72,
+   0.126
+  ],
+  "D:num_diff|rec_adds2+": [
+   16.33,
+   0.0
+  ],
+  "D:num_diff|rec_drops": [
+   9.3,
+   0.0
+  ],
+  "D:num_diff|rec_drops2+": [
+   94.96,
+   0.251
+  ],
+  "D:num_diff|same_core": [
+   254.11,
+   0.126
+  ],
+  "D:num_diff|swap1": [
+   75.62,
+   0.377
+  ],
+  "D:street_diff|acronym": [
+   0.13,
+   0.0
+  ],
+  "D:street_diff|disjoint": [
+   40.57,
+   0.502
+  ],
+  "D:street_diff|other": [
+   12.56,
+   0.126
+  ],
+  "D:street_diff|rec_adds": [
+   49.62,
+   0.126
+  ],
+  "D:street_diff|rec_adds2+": [
+   14.19,
+   0.0
+  ],
+  "D:street_diff|rec_drops": [
+   10.68,
+   0.0
+  ],
+  "D:street_diff|rec_drops2+": [
+   158.4,
+   1.131
+  ],
+  "D:street_diff|same_core": [
+   267.55,
+   0.628
+  ],
+  "D:street_diff|swap1": [
+   80.39,
+   0.754
+  ],
+  "E|other": [
+   1.13,
+   0.0
+  ],
+  "E|rec_adds": [
+   10.55,
+   0.502
+  ],
+  "E|rec_adds2+": [
+   3.01,
+   0.126
+  ],
+  "E|rec_drops": [
+   0.5,
+   0.0
+  ],
+  "E|same_core": [
+   51.63,
+   1.256
+  ],
+  "E|swap1": [
+   10.05,
+   1.131
+  ]
+ }
+}

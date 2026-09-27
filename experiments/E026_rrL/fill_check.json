@@ -1,0 +1,172 @@
+{
+ "gate": "PASS iff V1 |fill delta| <= 0.03 pp with 95% CI containing 0 AND changed S1 <= 1% in every test country",
+ "model": {
+  "path": "/teamspace/studios/this_studio/amazon-ml-challenge-2026/experiments/RL/rl27_model_NEW_s42.pkl",
+  "th": 0.7800000000000001,
+  "n_feat": 112
+ },
+ "V1": {
+  "missing_top10_pairs": 12631,
+  "top10_pairs": 200000,
+  "reproduces_stored_S005_model_preds_max_abs_dp": 2.98019476874245e-08,
+  "S005_recipe_NaN": 98.802,
+  "full_rrUb": 98.803,
+  "fill_delta_pp": 0.0004,
+  "ci95": [
+   0.0,
+   0.0009
+  ],
+  "p_delta_le0": 0.1329,
+  "TP": [
+   67186,
+   67188
+  ],
+  "FP": [
+   167,
+   167
+  ],
+  "FN": [
+   2192,
+   2190
+  ],
+  "precision": [
+   99.7521,
+   99.7521
+  ],
+  "recall": [
+   96.8405,
+   96.8434
+  ],
+  "changed_pair_decisions": 2,
+  "changed_true": 2,
+  "changed_S1": 2,
+  "n_S1": 20000,
+  "US": [
+   98.774,
+   98.774
+  ],
+  "India": [
+   98.846,
+   98.846
+  ],
+  "RRL_vs_full_rrUb_S005_model": [
+   0.144,
+   0.098,
+   0.192
+  ],
+  "CTRL_refit_vs_full_rrUb_S005_model": [
+   -0.006,
+   -0.038,
+   0.026
+  ]
+ },
+ "V0": {
+  "missing_top10_pairs": 1284,
+  "top10_pairs": 20010,
+  "reproduces_stored_S005_model_preds_max_abs_dp": 2.979570612460236e-08,
+  "S005_recipe_NaN": 98.689,
+  "full_rrUb": 98.691,
+  "fill_delta_pp": 0.0024,
+  "ci95": [
+   0.0,
+   0.0071
+  ],
+  "p_delta_le0": 0.3681,
+  "TP": [
+   6685,
+   6686
+  ],
+  "FP": [
+   17,
+   17
+  ],
+  "FN": [
+   235,
+   234
+  ],
+  "precision": [
+   99.7463,
+   99.7464
+  ],
+  "recall": [
+   96.604,
+   96.6185
+  ],
+  "changed_pair_decisions": 1,
+  "changed_true": 1,
+  "changed_S1": 1,
+  "n_S1": 2001,
+  "US": [
+   98.467,
+   98.467
+  ],
+  "India": [
+   99.021,
+   99.027
+  ],
+  "RRL_vs_full_rrUb_S005_model": [
+   0.146,
+   -0.003,
+   0.275
+  ],
+  "CTRL_refit_vs_full_rrUb_S005_model": [
+   -0.027,
+   -0.154,
+   0.056
+  ]
+ },
+ "test_France": {
+  "n_S1": 259452,
+  "missing_top10_pairs": 53536,
+  "accepted_under_S005_recipe": 33,
+  "prob_mismatch_vs_saved_S005": 0,
+  "rejected_but_in_saved_S005": 0,
+  "maxclaim_S005_saved_reproduces_S005_tsv_rows_differ": 0,
+  "pair_flips_before_maxclaim": {
+   "reject->accept": 711,
+   "accept->reject": 1
+  },
+  "changed_S1_after_maxclaim": 533,
+  "changed_S1_pct": 0.2054,
+  "links_added": 517,
+  "links_removed": 26,
+  "secs": 110.3
+ },
+ "test_US": {
+  "n_S1": 663106,
+  "missing_top10_pairs": 330737,
+  "accepted_under_S005_recipe": 40,
+  "prob_mismatch_vs_saved_S005": 0,
+  "rejected_but_in_saved_S005": 0,
+  "maxclaim_S005_saved_reproduces_S005_tsv_rows_differ": 0,
+  "pair_flips_before_maxclaim": {
+   "reject->accept": 91,
+   "accept->reject": 3
+  },
+  "changed_S1_after_maxclaim": 88,
+  "changed_S1_pct": 0.0133,
+  "links_added": 90,
+  "links_removed": 3,
+  "secs": 269.3
+ },
+ "test_India": {
+  "n_S1": 809986,
+  "missing_top10_pairs": 196511,
+  "accepted_under_S005_recipe": 23,
+  "prob_mismatch_vs_saved_S005": 0,
+  "rejected_but_in_saved_S005": 0,
+  "maxclaim_S005_saved_reproduces_S005_tsv_rows_differ": 0,
+  "pair_flips_before_maxclaim": {
+   "reject->accept": 52,
+   "accept->reject": 3
+  },
+  "changed_S1_after_maxclaim": 53,
+  "changed_S1_pct": 0.0065,
+  "links_added": 50,
+  "links_removed": 3,
+  "secs": 341.4
+ },
+ "verdict": "PASS",
+ "ok_v1": true,
+ "ok_test": true
+}

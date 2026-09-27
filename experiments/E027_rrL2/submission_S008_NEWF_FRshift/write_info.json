@@ -1,0 +1,30 @@
+{
+ "arm": "NEWF",
+ "france_rows_from": "../E027_FR/submission_S007FR_shift",
+ "us_india_vs_S006": {
+  "US": {
+   "rows_differ": 11039,
+   "added": 5043,
+   "removed": 6368,
+   "pred": 2240634
+  },
+  "India": {
+   "rows_differ": 13432,
+   "added": 6871,
+   "removed": 7010,
+   "pred": 2737184
+  }
+ },
+ "maxclaim": {
+  "US": {
+   "maxclaim_removed": 471
+  },
+  "India": {
+   "maxclaim_removed": 2581
+  }
+ },
+ "sha256": {
+  "matching_results.tsv": "34d6c9e127237a0a38d20b31c8b50b812fa1cecc61401f1cd199a574e6745ad4",
+  "candidate_pairs.tsv": "1e95e08725eeb3d9425345758a01cca70573a582d4e96ed1b388033c99d0f0f3"
+ }
+}

@@ -1,0 +1,878 @@
+{
+ "v1_flag_summary": {
+  "US|same_addr|DIST|N_ADD": {
+   "n_rows": 9,
+   "n_weighted": 9.0,
+   "n_pos": 8,
+   "p_match": 0.8889,
+   "mean_p_new": 0.8776,
+   "n_acc": 8,
+   "FP": 0,
+   "FN": 0,
+   "prec_acc": 1.0
+  },
+  "US|same_addr|DIST|N_SWAP1": {
+   "n_rows": 52,
+   "n_weighted": 109.0,
+   "n_pos": 16,
+   "p_match": 0.1468,
+   "mean_p_new": 0.1551,
+   "n_acc": 16,
+   "FP": 0,
+   "FN": 0,
+   "prec_acc": 1.0
+  },
+  "US|same_addr|FILL|N_ADD": {
+   "n_rows": 422,
+   "n_weighted": 422.0,
+   "n_pos": 419,
+   "p_match": 0.9929,
+   "mean_p_new": 0.9921,
+   "n_acc": 419,
+   "FP": 0,
+   "FN": 0,
+   "prec_acc": 1.0
+  },
+  "US|same_addr|FILL|N_SWAP1": {
+   "n_rows": 1676,
+   "n_weighted": 1676.0,
+   "n_pos": 1667,
+   "p_match": 0.9946,
+   "mean_p_new": 0.9944,
+   "n_acc": 1666,
+   "FP": 2,
+   "FN": 3,
+   "prec_acc": 0.9988
+  },
+  "US|same_addr|OTHER|N_ADD": {
+   "n_rows": 918,
+   "n_weighted": 918.0,
+   "n_pos": 910,
+   "p_match": 0.9913,
+   "mean_p_new": 0.9911,
+   "n_acc": 909,
+   "FP": 0,
+   "FN": 1,
+   "prec_acc": 1.0
+  },
+  "US|same_addr|OTHER|N_SWAP1": {
+   "n_rows": 1038,
+   "n_weighted": 1057.0,
+   "n_pos": 987,
+   "p_match": 0.9338,
+   "mean_p_new": 0.9371,
+   "n_acc": 987,
+   "FP": 1,
+   "FN": 1,
+   "prec_acc": 0.999
+  },
+  "US|other_addr|DIST|N_ADD": {
+   "n_rows": 5624,
+   "n_weighted": 19969.0,
+   "n_pos": 71,
+   "p_match": 0.0036,
+   "mean_p_new": 0.0032,
+   "n_acc": 8,
+   "FP": 0,
+   "FN": 63,
+   "prec_acc": 1.0
+  },
+  "US|other_addr|DIST|N_SWAP1": {
+   "n_rows": 6880,
+   "n_weighted": 105661.0,
+   "n_pos": 13,
+   "p_match": 0.0001,
+   "mean_p_new": 0.0002,
+   "n_acc": 2,
+   "FP": 0,
+   "FN": 11,
+   "prec_acc": 1.0
+  },
+  "US|other_addr|FILL|N_ADD": {
+   "n_rows": 2410,
+   "n_weighted": 6058.0,
+   "n_pos": 174,
+   "p_match": 0.0287,
+   "mean_p_new": 0.0306,
+   "n_acc": 148,
+   "FP": 2,
+   "FN": 28,
+   "prec_acc": 0.9865
+  },
+  "US|other_addr|FILL|N_SWAP1": {
+   "n_rows": 4061,
+   "n_weighted": 14625.0,
+   "n_pos": 711,
+   "p_match": 0.0486,
+   "mean_p_new": 0.0463,
+   "n_acc": 619,
+   "FP": 4,
+   "FN": 96,
+   "prec_acc": 0.9935
+  },
+  "US|other_addr|OTHER|N_ADD": {
+   "n_rows": 1532,
+   "n_weighted": 6206.0,
+   "n_pos": 247,
+   "p_match": 0.0398,
+   "mean_p_new": 0.0398,
+   "n_acc": 220,
+   "FP": 1,
+   "FN": 28,
+   "prec_acc": 0.9955
+  },
+  "US|other_addr|OTHER|N_SWAP1": {
+   "n_rows": 3588,
+   "n_weighted": 34938.0,
+   "n_pos": 418,
+   "p_match": 0.012,
+   "mean_p_new": 0.0118,
+   "n_acc": 370,
+   "FP": 2,
+   "FN": 50,
+   "prec_acc": 0.9946
+  },
+  "India|same_addr|DIST|N_ADD": {
+   "n_rows": 48,
+   "n_weighted": 618.0,
+   "n_pos": 6,
+   "p_match": 0.0097,
+   "mean_p_new": 0.01,
+   "n_acc": 6,
+   "FP": 0,
+   "FN": 0,
+   "prec_acc": 1.0
+  },
+  "India|same_addr|DIST|N_SWAP1": {
+   "n_rows": 46,
+   "n_weighted": 274.0,
+   "n_pos": 13,
+   "p_match": 0.0474,
+   "mean_p_new": 0.0422,
+   "n_acc": 11,
+   "FP": 0,
+   "FN": 2,
+   "prec_acc": 1.0
+  },
+  "India|same_addr|FILL|N_ADD": {
+   "n_rows": 195,
+   "n_weighted": 195.0,
+   "n_pos": 195,
+   "p_match": 1.0,
+   "mean_p_new": 0.9966,
+   "n_acc": 195,
+   "FP": 0,
+   "FN": 0,
+   "prec_acc": 1.0
+  },
+  "India|same_addr|FILL|N_SWAP1": {
+   "n_rows": 565,
+   "n_weighted": 584.0,
+   "n_pos": 550,
+   "p_match": 0.9418,
+   "mean_p_new": 0.9385,
+   "n_acc": 547,
+   "FP": 2,
+   "FN": 5,
+   "prec_acc": 0.9963
+  },
+  "India|same_addr|OTHER|N_ADD": {
+   "n_rows": 418,
+   "n_weighted": 418.0,
+   "n_pos": 417,
+   "p_match": 0.9976,
+   "mean_p_new": 0.9951,
+   "n_acc": 416,
+   "FP": 0,
+   "FN": 1,
+   "prec_acc": 1.0
+  },
+  "India|same_addr|OTHER|N_SWAP1": {
+   "n_rows": 219,
+   "n_weighted": 276.0,
+   "n_pos": 211,
+   "p_match": 0.7645,
+   "mean_p_new": 0.7612,
+   "n_acc": 209,
+   "FP": 1,
+   "FN": 3,
+   "prec_acc": 0.9952
+  },
+  "India|other_addr|DIST|N_ADD": {
+   "n_rows": 1787,
+   "n_weighted": 12256.0,
+   "n_pos": 29,
+   "p_match": 0.0024,
+   "mean_p_new": 0.0018,
+   "n_acc": 3,
+   "FP": 0,
+   "FN": 26,
+   "prec_acc": 1.0
+  },
+  "India|other_addr|DIST|N_SWAP1": {
+   "n_rows": 5494,
+   "n_weighted": 97264.0,
+   "n_pos": 11,
+   "p_match": 0.0001,
+   "mean_p_new": 0.0002,
+   "n_acc": 11,
+   "FP": 1,
+   "FN": 1,
+   "prec_acc": 0.9091
+  },
+  "India|other_addr|FILL|N_ADD": {
+   "n_rows": 969,
+   "n_weighted": 2432.0,
+   "n_pos": 356,
+   "p_match": 0.1464,
+   "mean_p_new": 0.1472,
+   "n_acc": 339,
+   "FP": 3,
+   "FN": 20,
+   "prec_acc": 0.9912
+  },
+  "India|other_addr|FILL|N_SWAP1": {
+   "n_rows": 3768,
+   "n_weighted": 13762.0,
+   "n_pos": 889,
+   "p_match": 0.0646,
+   "mean_p_new": 0.0643,
+   "n_acc": 822,
+   "FP": 5,
+   "FN": 72,
+   "prec_acc": 0.9939
+  },
+  "India|other_addr|OTHER|N_ADD": {
+   "n_rows": 1343,
+   "n_weighted": 3262.0,
+   "n_pos": 521,
+   "p_match": 0.1597,
+   "mean_p_new": 0.1587,
+   "n_acc": 491,
+   "FP": 3,
+   "FN": 33,
+   "prec_acc": 0.9939
+  },
+  "India|other_addr|OTHER|N_SWAP1": {
+   "n_rows": 2683,
+   "n_weighted": 28276.0,
+   "n_pos": 347,
+   "p_match": 0.0123,
+   "mean_p_new": 0.0127,
+   "n_acc": 327,
+   "FP": 4,
+   "FN": 24,
+   "prec_acc": 0.9878
+  },
+  "ALL|same_addr|DIST|N_ADD": {
+   "n_rows": 57,
+   "n_weighted": 627.0,
+   "n_pos": 14,
+   "p_match": 0.0223,
+   "mean_p_new": 0.0225,
+   "n_acc": 14,
+   "FP": 0,
+   "FN": 0,
+   "prec_acc": 1.0
+  },
+  "ALL|same_addr|DIST|N_SWAP1": {
+   "n_rows": 98,
+   "n_weighted": 383.0,
+   "n_pos": 29,
+   "p_match": 0.0757,
+   "mean_p_new": 0.0744,
+   "n_acc": 27,
+   "FP": 0,
+   "FN": 2,
+   "prec_acc": 1.0
+  },
+  "ALL|same_addr|FILL|N_ADD": {
+   "n_rows": 617,
+   "n_weighted": 617.0,
+   "n_pos": 614,
+   "p_match": 0.9951,
+   "mean_p_new": 0.9935,
+   "n_acc": 614,
+   "FP": 0,
+   "FN": 0,
+   "prec_acc": 1.0
+  },
+  "ALL|same_addr|FILL|N_SWAP1": {
+   "n_rows": 2241,
+   "n_weighted": 2260.0,
+   "n_pos": 2217,
+   "p_match": 0.981,
+   "mean_p_new": 0.9799,
+   "n_acc": 2213,
+   "FP": 4,
+   "FN": 8,
+   "prec_acc": 0.9982
+  },
+  "ALL|same_addr|OTHER|N_ADD": {
+   "n_rows": 1336,
+   "n_weighted": 1336.0,
+   "n_pos": 1327,
+   "p_match": 0.9933,
+   "mean_p_new": 0.9923,
+   "n_acc": 1325,
+   "FP": 0,
+   "FN": 2,
+   "prec_acc": 1.0
+  },
+  "ALL|same_addr|OTHER|N_SWAP1": {
+   "n_rows": 1257,
+   "n_weighted": 1333.0,
+   "n_pos": 1198,
+   "p_match": 0.8987,
+   "mean_p_new": 0.9007,
+   "n_acc": 1196,
+   "FP": 2,
+   "FN": 4,
+   "prec_acc": 0.9983
+  },
+  "ALL|other_addr|DIST|N_ADD": {
+   "n_rows": 7411,
+   "n_weighted": 32225.0,
+   "n_pos": 100,
+   "p_match": 0.0031,
+   "mean_p_new": 0.0026,
+   "n_acc": 11,
+   "FP": 0,
+   "FN": 89,
+   "prec_acc": 1.0
+  },
+  "ALL|other_addr|DIST|N_SWAP1": {
+   "n_rows": 12374,
+   "n_weighted": 202925.0,
+   "n_pos": 24,
+   "p_match": 0.0001,
+   "mean_p_new": 0.0002,
+   "n_acc": 13,
+   "FP": 1,
+   "FN": 12,
+   "prec_acc": 0.9231
+  },
+  "ALL|other_addr|FILL|N_ADD": {
+   "n_rows": 3379,
+   "n_weighted": 8490.0,
+   "n_pos": 530,
+   "p_match": 0.0624,
+   "mean_p_new": 0.064,
+   "n_acc": 487,
+   "FP": 5,
+   "FN": 48,
+   "prec_acc": 0.9897
+  },
+  "ALL|other_addr|FILL|N_SWAP1": {
+   "n_rows": 7829,
+   "n_weighted": 28387.0,
+   "n_pos": 1600,
+   "p_match": 0.0564,
+   "mean_p_new": 0.055,
+   "n_acc": 1441,
+   "FP": 9,
+   "FN": 168,
+   "prec_acc": 0.9938
+  },
+  "ALL|other_addr|OTHER|N_ADD": {
+   "n_rows": 2875,
+   "n_weighted": 9468.0,
+   "n_pos": 768,
+   "p_match": 0.0811,
+   "mean_p_new": 0.0807,
+   "n_acc": 711,
+   "FP": 4,
+   "FN": 61,
+   "prec_acc": 0.9944
+  },
+  "ALL|other_addr|OTHER|N_SWAP1": {
+   "n_rows": 6271,
+   "n_weighted": 63214.0,
+   "n_pos": 765,
+   "p_match": 0.0121,
+   "mean_p_new": 0.0122,
+   "n_acc": 697,
+   "FP": 6,
+   "FN": 74,
+   "prec_acc": 0.9914
+  }
+ },
+ "v1_total_errors": {
+  "FP": 167,
+  "FN": 2046,
+  "n_pos": 69232
+ },
+ "v1_errors_in_flagged": {
+  "DIST": {
+   "FP": 1,
+   "FN": 103
+  },
+  "FILL": {
+   "FP": 18,
+   "FN": 224
+  },
+  "OTHER": {
+   "FP": 12,
+   "FN": 141
+  }
+ },
+ "v1_errors_in_flagged_same_addr": {
+  "DIST": {
+   "FP": 0,
+   "FN": 2
+  },
+  "FILL": {
+   "FP": 4,
+   "FN": 8
+  },
+  "OTHER": {
+   "FP": 2,
+   "FN": 6
+  }
+ },
+ "v1_calibration_by_flag": {
+  "[0.0, 0.01)|DIST": {
+   "n": 17316,
+   "n_pos": 31,
+   "y_rate": 0.0001,
+   "mean_p": 0.0001
+  },
+  "[0.0, 0.01)|FILL": {
+   "n": 6943,
+   "n_pos": 30,
+   "y_rate": 0.0009,
+   "mean_p": 0.0007
+  },
+  "[0.01, 0.1)|DIST": {
+   "n": 2509,
+   "n_pos": 64,
+   "y_rate": 0.0255,
+   "mean_p": 0.0231
+  },
+  "[0.01, 0.1)|FILL": {
+   "n": 1910,
+   "n_pos": 63,
+   "y_rate": 0.033,
+   "mean_p": 0.0293
+  },
+  "[0.1, 0.5)|DIST": {
+   "n": 46,
+   "n_pos": 7,
+   "y_rate": 0.1522,
+   "mean_p": 0.1984
+  },
+  "[0.1, 0.5)|FILL": {
+   "n": 393,
+   "n_pos": 91,
+   "y_rate": 0.2316,
+   "mean_p": 0.2019
+  },
+  "[0.5, 0.78)|DIST": {
+   "n": 4,
+   "n_pos": 1,
+   "y_rate": 0.25,
+   "mean_p": 0.6642
+  },
+  "[0.5, 0.78)|FILL": {
+   "n": 65,
+   "n_pos": 40,
+   "y_rate": 0.6154,
+   "mean_p": 0.6248
+  },
+  "[0.78, 0.95)|DIST": {
+   "n": 3,
+   "n_pos": 2,
+   "y_rate": 0.6667,
+   "mean_p": 0.8766
+  },
+  "[0.78, 0.95)|FILL": {
+   "n": 114,
+   "n_pos": 107,
+   "y_rate": 0.9386,
+   "mean_p": 0.8918
+  },
+  "[0.95, 0.99)|DIST": {
+   "n": 8,
+   "n_pos": 8,
+   "y_rate": 1.0,
+   "mean_p": 0.9689
+  },
+  "[0.95, 0.99)|FILL": {
+   "n": 213,
+   "n_pos": 206,
+   "y_rate": 0.9671,
+   "mean_p": 0.977
+  },
+  "[0.99, 0.999)|DIST": {
+   "n": 16,
+   "n_pos": 16,
+   "y_rate": 1.0,
+   "mean_p": 0.9966
+  },
+  "[0.99, 0.999)|FILL": {
+   "n": 789,
+   "n_pos": 788,
+   "y_rate": 0.9987,
+   "mean_p": 0.9969
+  },
+  "[0.999, 1.0)|DIST": {
+   "n": 38,
+   "n_pos": 38,
+   "y_rate": 1.0,
+   "mean_p": 0.9998
+  },
+  "[0.999, 1.0)|FILL": {
+   "n": 3639,
+   "n_pos": 3636,
+   "y_rate": 0.9992,
+   "mean_p": 0.9998
+  }
+ },
+ "v1_logloss_flagged_set": {
+  "n": 34006,
+  "ll_p_new": 1320.01,
+  "ll_bin_only": 1520.13,
+  "ll_bin_x_flag": 1491.17
+ },
+ "auc_y|same_addr_DIST|FILL": {
+  "n": 3013,
+  "n_pos": 2874,
+  "p": 0.9959,
+  "p_base": 0.9949,
+  "dmin": 0.9058,
+  "idf_c_only_max": 0.1931,
+  "idf_c_only_sum": 0.1819,
+  "n_c_only": 0.3568,
+  "frac_idf_c_only": 0.2289,
+  "idf_s1_only_max": 0.4672,
+  "idf_c_only_soft": 0.2036,
+  "n_c_only_soft": 0.392,
+  "tok_set_name": 0.5383,
+  "jac_name": 0.6338,
+  "nf_n": 0.7353,
+  "nf_a": 0.8207,
+  "af_n": 0.4329,
+  "af_a": 0.4741,
+  "coloc": 0.4969,
+  "dupf": 0.4901,
+  "rv_rank": 0.4415,
+  "rv_sa": 0.5549,
+  "rv_so": 0.4345,
+  "rv_gap": 0.5671,
+  "flag_is_FILL": 0.8954
+ },
+ "auc_y|same_addr_SWAP1_word": {
+  "n": 2339,
+  "n_pos": 2246,
+  "p": 0.9942,
+  "p_base": 0.9924,
+  "dmin": 0.8727,
+  "idf_c_only_max": 0.167,
+  "idf_c_only_sum": 0.1584,
+  "n_c_only": 0.3557,
+  "frac_idf_c_only": 0.1546,
+  "idf_s1_only_max": 0.3635,
+  "idf_c_only_soft": 0.192,
+  "n_c_only_soft": 0.399,
+  "tok_set_name": 0.6195,
+  "jac_name": 0.7296,
+  "nf_n": 0.7089,
+  "nf_a": 0.8435,
+  "af_n": 0.4341,
+  "af_a": 0.4868,
+  "coloc": 0.4968,
+  "dupf": 0.4579,
+  "rv_rank": 0.4082,
+  "rv_sa": 0.5935,
+  "rv_so": 0.4226,
+  "rv_gap": 0.58,
+  "flag_is_FILL": 0.8645
+ },
+ "auc_y|all_DIST|FILL": {
+  "n": 34006,
+  "n_pos": 5128,
+  "p": 0.994,
+  "p_base": 0.9935,
+  "dmin": 0.8433,
+  "idf_c_only_max": 0.2874,
+  "idf_c_only_sum": 0.2584,
+  "n_c_only": 0.3771,
+  "frac_idf_c_only": 0.2268,
+  "idf_s1_only_max": 0.5091,
+  "idf_c_only_soft": 0.2559,
+  "n_c_only_soft": 0.3898,
+  "tok_set_name": 0.5693,
+  "jac_name": 0.6878,
+  "nf_n": 0.4885,
+  "nf_a": 0.7074,
+  "af_n": 0.4952,
+  "af_a": 0.7095,
+  "coloc": 0.5008,
+  "dupf": 0.372,
+  "rv_rank": 0.0603,
+  "rv_sa": 0.9475,
+  "rv_so": 0.0773,
+  "rv_gap": 0.953,
+  "flag_is_FILL": 0.8261
+ },
+ "v1_errors_examples": [
+  "US FILL N_SWAP1 y=0 p=1.000 dmin=3.951 nf_n=5122.0 rv_rank=3.0 | Orthopedic Partners Inc | 3333 85th Street, Chicago, IL  ->  ORTHOPEDIC \u00cdNC CENTER | 3333 85TH STREET, CHICAGO, IL",
+  "US FILL N_SWAP1 y=0 p=1.000 dmin=1.091 nf_n=0.0 rv_rank=3.0 | Pediatric Dental Premier Associates | 2816 Hazelwood Avenue, Fort Wayne, IN  ->  Pediatric Denta1 Associates Board | 2816 HAZELWOOD AVENUE, FORT WAYNE, IN",
+  "US FILL N_SWAP1 y=1 p=0.609 dmin=0.560 nf_n=0.0 rv_rank=1.0 | Massa, April L., DO | 736 Travers Avenue, Chicago Heights, IL  ->  Massa, Al L., D\u00d3 | 736 Travers Ave, Chicago Heights, Illinois",
+  "US FILL N_SWAP1 y=1 p=0.543 dmin=1.095 nf_n=1.0 rv_rank=1.0 | Beacon Biomedical Systems | 4592 Whites Creek Pike, Nashville, TN  ->  Beacon Systems Partners | 04592 Whites Creek Pike, Whites Creek, Tennessee",
+  "US FILL N_SWAP1 y=1 p=0.565 dmin=1.095 nf_n=118.0 rv_rank=1.0 | Empire Ligand | 3018 Creek Valley Drive, Garland, TX  ->  EMPIRE P\u00c1RTNERS | 3018 1/2 CREEK VALLEY DR, GARLAND, TX",
+  "India FILL N_SWAP1 y=1 p=0.721 dmin=2.576 nf_n=2.0 rv_rank=1.0 | Panipat Tradecom Clinic | Khasara No 3741/2, Krishanpura Behind Hotel Regency, G. T. Road, Panipat, Haryana  ->  Panipat Clinic Services | Panipat, Khaara No 3741, HR",
+  "India FILL N_SWAP1 y=1 p=0.107 dmin=26.032 nf_n=4013.0 rv_rank=11.0 | Bharat Infra Private Limited | Ward No. 17, 23 S.P.M. Western Region, Khasra No. 7/2, Hoshangabad, Hoshangabad, Madhya Pradesh  ->  Bharat Private Limited Center | Ward No. 17, Mumbai, MP",
+  "India FILL N_SWAP1 y=0 p=0.987 dmin=39.432 nf_n=39.0 rv_rank=2.0 | NL Wrappers LLP | Flat No.3, Mount Prospect Chs 20 Union Park, 3Rd Road Khar West, Mumbai, Mumbai City, Maharashtra  ->  NL LLP Service | Mumbai City, Flat No.010, Mumbai, Mount Prospect Chs 20 Union Park, 3Rd Road Khar West, MH",
+  "India FILL N_SWAP1 y=1 p=0.064 dmin=26.032 nf_n=1.0 rv_rank=11.0 | Pune City Next Private Limited | Office No 1, 1233/C, K G Mansion, Apte Road, Opp Kohinoor Hotel, Pune City, Pune, Maharashtra  ->  LIMITED PUNE NEXT PRIVATE CENTER | OFFICE NO #1, ERANDWANE, \u092e\u0939\u093e\u0930\u093e\u0937\u094d\u091f\u094d\u0930",
+  "India DIST N_SWAP1 y=1 p=0.001 dmin=0.000 nf_n=42.0 rv_rank=1.0 | Hyderabad Systems Private Limited | Plot No. 44, Ida Mallapur, Near Bel, Mallapur, Hyderabad, Telangana  ->  Hyderabad Technologies Private Limited | PLOT NO. 044 , IDA MALLAPUR, NEAR BEL, MALLAPUR, HYDERABAD, Telangana",
+  "India DIST N_SWAP1 y=1 p=0.000 dmin=0.000 nf_n=42.0 rv_rank=1.0 | Hyderabad Systems Private Limited | Plot No. 44, Ida Mallapur, Near Bel, Mallapur, Hyderabad, Telangana  ->  Hyderabad Technologies  Private Limited | Telangana, PLOT NO. 044 , IDA MALLAPUR, NEAR BEL, MALLAPUR, HYDERABAD",
+  "India FILL N_SWAP1 y=0 p=0.833 dmin=2.576 nf_n=4297.0 rv_rank=1.0 | Vision Investments | Tower C 9Th Flr 901 Mangalkirti Apartment, Vadodara, Gujarat  ->  Vision Services | \u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4, TOWER C 9TH FLR 904 MANGALKIRTI APARTMENT, VADODARA",
+  "India FILL N_SWAP1 y=1 p=0.363 dmin=39.432 nf_n=8793.0 rv_rank=11.0 | Delhi Tech Pvt Ltd | House No.-128, Block-G, Pkt-4, Sector-11, Rohini, Delhi, North West Delhi, Delhi  ->  Ltd Delhi Pvt (S\u00e9rvice) | House No.-128/7, Delhi, North West Delhi, \u0926\u093f\u0932\u094d\u0932\u0940",
+  "India FILL N_SWAP1 y=1 p=0.719 dmin=2.576 nf_n=3904.0 rv_rank=3.0 | Pioneer Impex | Shop No 245, 2Nd Floor, Baba Chitru Complex Wazirabad, Sector-52, Gurgaon, Haryana  ->  Pioneer S\u00e9rvices | \u0939\u0930\u093f\u092f\u093e\u0923\u093e, Shop No 245/5, Gurgaon"
+ ],
+ "v1_DIST_same_addr_examples": [
+  "US N_SWAP1 y=0 p=0.005 Hoch Cell P.C. -> Caron Cell",
+  "India N_ADD y=0 p=0.000 CP Research Pvt Ltd -> CP Research Holdings Pvt Ltd.",
+  "India N_ADD y=0 p=0.000 Soham Impex Private Limited -> SOHAM IMXP HOLDINGS PRIVATE LIMITED",
+  "India N_ADD y=1 p=1.000 Services Psj Finance Clinic -> Zephlumdelta One f/k/a Services Psj Finance Clinic",
+  "US N_SWAP1 y=0 p=0.003 Libby For Inc -> Gilliam For Inc",
+  "US N_ADD y=1 p=1.000 Chelsy Barrett, D.D.S., DDS PC -> Chelsy Barrett,D.D.5., DDS PC",
+  "US N_SWAP1 y=0 p=0.002 Touhey's Roofing LP -> Hansen Roofing Lp",
+  "India N_ADD y=0 p=0.005 Sona Mercantile Private Limited -> Sona Mercantile Enterprises  Private Limited - 5941251510",
+  "US N_ADD y=1 p=1.000 Lucky Bakery! Inc -> Lucky Bakr!Y Inc",
+  "India N_ADD y=0 p=0.000 Consultancy Stockwell Products Private Limited -> Consultancy Stockwell Products Group Limited Service",
+  "India N_SWAP1 y=0 p=0.003 Bengaluru Education Private Limited -> BENGALURU CAD PRIVATE (LTD)",
+  "India N_ADD y=0 p=0.000 Essel & Sons Private Limited -> Essel & Sons Ventures Private Limited",
+  "India N_ADD y=1 p=1.000 BP Granites Private Limited -> Veozeph One F/K/A BP Granites Private Limited",
+  "US N_SWAP1 y=1 p=1.000 Mays & Saez PLLC -> Mays and Sz [PLLC]",
+  "India N_SWAP1 y=0 p=0.001 Astrum Storage Private Limited -> Astrum Tracom Private",
+  "US N_SWAP1 y=0 p=0.002 Mateja Holdings Inc -> CELESTINE HOLDINGS  INC",
+  "US N_SWAP1 y=0 p=0.001 Harrison Holdings Inc -> Churchill Holdings  Inc",
+  "India N_SWAP1 y=0 p=0.000 Kmk Tradelink -> KMK INFOSYSTEMS LIMITED",
+  "India N_ADD y=1 p=1.000 Laxmi Super Systems Private Limited -> Fayeyuma One d/b/a Laxmi Super Systems Private Limited",
+  "India N_SWAP1 y=0 p=0.011 Victory Express Private Limited -> Smt VICTORY PRIVATE INFRACON LIMITED",
+  "India N_ADD y=0 p=0.031 Best Systems Private Limited -> Best-Systems Automobiles Prfiahae Limited",
+  "US N_ADD y=1 p=0.995 Hyacinthie K. Ngo, DPM, P.C. -> P.C. K. Ng,Go DPM, Hyacinthie",
+  "India N_SWAP1 y=0 p=0.000 Npb Technologies Pvt. Ltd. -> mumbai technologies private limited",
+  "India N_SWAP1 y=0 p=0.015 Gautam Budh Nagar Performance Private Limited -> 6autam Budh Nagar Parts Private Ltd",
+  "US N_ADD y=1 p=1.000 Johnston and Johnson, LLC -> LLC Johnston and Johno,n",
+  "India N_SWAP1 y=1 p=1.000 Luckystar & Sons LLP -> Mr Luckystar & Ss LLP",
+  "India N_SWAP1 y=0 p=0.002 Gujarat Foods Pvt Ltd -> Gujarat  Enterprises Pvt Ltd",
+  "India N_ADD y=0 p=0.009 Raj Surya Producer Pvt Ltd -> Raj Surya Producer Bakery Bakery Pvt ([Ltd])",
+  "India N_SWAP1 y=0 p=0.035 Media Solemn Wholesale Partners -> Media Solemn One Partners",
+  "India N_ADD y=0 p=0.003 United Products LLP -> United  Products LLP Trading",
+  "US N_SWAP1 y=0 p=0.004 Foot & Ankle Specialists Inc -> FOOT & ANKLE CARE",
+  "US N_SWAP1 y=0 p=0.000 Ciel's Express Spa -> Roberts Express Spa",
+  "India N_ADD y=0 p=0.000 Forceone College -> Forceone College Infratech",
+  "India N_ADD y=0 p=0.029 Bangalore South Technologies Ltd -> Bangalore South Technologies Industries Ltd.",
+  "US N_SWAP1 y=1 p=1.000 Direct All Obic LLC -> Direct All \u00d3c LLC",
+  "US N_SWAP1 y=1 p=0.995 Eichelberger Axiom LLC -> Eichelberger Am LLC",
+  "India N_SWAP1 y=0 p=0.000 Circuit Business Private Limited -> Circuit Ram Private Limited",
+  "India N_ADD y=0 p=0.001 Sln Events Private Limited -> Sln Events Group Group Private L\u00edmited",
+  "US N_SWAP1 y=0 p=0.001 Flores Assets PC -> Garcia Assets PC",
+  "India N_ADD y=0 p=0.000 Apollo Seva Samiti -> Apollo Seva Ventures Samiti"
+ ],
+ "v1_top_record_only_tokens_same_addr": {
+  "US:center": {
+   "n": 821,
+   "ratio_FRunits": 3.951,
+   "df": 15977
+  },
+  "US:services": {
+   "n": 607,
+   "ratio_FRunits": 12.781,
+   "df": 3614
+  },
+  "India:center": {
+   "n": 320,
+   "ratio_FRunits": 26.032,
+   "df": 3117
+  },
+  "US:service": {
+   "n": 307,
+   "ratio_FRunits": 10.245,
+   "df": 2119
+  },
+  "US:incorporated": {
+   "n": 271,
+   "ratio_FRunits": 6743.738,
+   "df": 3
+  },
+  "US:partners": {
+   "n": 242,
+   "ratio_FRunits": 1.095,
+   "df": 14857
+  },
+  "India:services": {
+   "n": 212,
+   "ratio_FRunits": 2.576,
+   "df": 22238
+  },
+  "US:k": {
+   "n": 158,
+   "ratio_FRunits": 7.04,
+   "df": 1302
+  },
+  "India:service": {
+   "n": 121,
+   "ratio_FRunits": 39.432,
+   "df": 689
+  },
+  "US:f": {
+   "n": 99,
+   "ratio_FRunits": 4.54,
+   "df": 1278
+  },
+  "India:partners": {
+   "n": 95,
+   "ratio_FRunits": 4.182,
+   "df": 5179
+  },
+  "US:id": {
+   "n": 84,
+   "ratio_FRunits": 548.65,
+   "df": 11
+  },
+  "US:www": {
+   "n": 75,
+   "ratio_FRunits": 6297.229,
+   "df": 0
+  },
+  "India:k": {
+   "n": 75,
+   "ratio_FRunits": 80.417,
+   "df": 82
+  },
+  "US:com": {
+   "n": 73,
+   "ratio_FRunits": 6253.549,
+   "df": 0
+  },
+  "US:b": {
+   "n": 65,
+   "ratio_FRunits": 2.445,
+   "df": 1361
+  },
+  "US:fka": {
+   "n": 48,
+   "ratio_FRunits": 2780.973,
+   "df": 0
+  },
+  "India:f": {
+   "n": 43,
+   "ratio_FRunits": 174.422,
+   "df": 20
+  },
+  "India:com": {
+   "n": 27,
+   "ratio_FRunits": 65.015,
+   "df": 121
+  },
+  "India:b": {
+   "n": 26,
+   "ratio_FRunits": 29.976,
+   "df": 95
+  },
+  "India:id": {
+   "n": 21,
+   "ratio_FRunits": 70.46,
+   "df": 85
+  },
+  "India:www": {
+   "n": 20,
+   "ratio_FRunits": 3243.715,
+   "df": 2
+  },
+  "US:district": {
+   "n": 15,
+   "ratio_FRunits": 97.876,
+   "df": 9
+  },
+  "US:trust": {
+   "n": 13,
+   "ratio_FRunits": 0.269,
+   "df": 2924
+  },
+  "US:federation": {
+   "n": 13,
+   "ratio_FRunits": 0.41,
+   "df": 1882
+  },
+  "US:commission": {
+   "n": 13,
+   "ratio_FRunits": 1.075,
+   "df": 806
+  },
+  "US:authority": {
+   "n": 12,
+   "ratio_FRunits": 924.564,
+   "df": 0
+  },
+  "US:board": {
+   "n": 12,
+   "ratio_FRunits": 1.091,
+   "df": 821
+  },
+  "US:5ervices": {
+   "n": 12,
+   "ratio_FRunits": 444.082,
+   "df": 0
+  },
+  "India:fka": {
+   "n": 12,
+   "ratio_FRunits": 881.009,
+   "df": 2
+  },
+  "US:foundation": {
+   "n": 11,
+   "ratio_FRunits": 0.519,
+   "df": 1881
+  },
+  "US:society": {
+   "n": 11,
+   "ratio_FRunits": 0.44,
+   "df": 1885
+  },
+  "US:council": {
+   "n": 11,
+   "ratio_FRunits": 0.441,
+   "df": 2014
+  },
+  "US:association": {
+   "n": 8,
+   "ratio_FRunits": 0.265,
+   "df": 2825
+  },
+  "US:labs": {
+   "n": 8,
+   "ratio_FRunits": 0.284,
+   "df": 1771
+  },
+  "US:ce": {
+   "n": 7,
+   "ratio_FRunits": 31.261,
+   "df": 17
+  },
+  "India:one": {
+   "n": 7,
+   "ratio_FRunits": 0.097,
+   "df": 3839
+  },
+  "US:one": {
+   "n": 6,
+   "ratio_FRunits": 2.066,
+   "df": 222
+  },
+  "India:industries": {
+   "n": 6,
+   "ratio_FRunits": 0.0,
+   "df": 12050
+  },
+  "India:group": {
+   "n": 6,
+   "ratio_FRunits": 0.0,
+   "df": 8190
+  }
+ }
+}

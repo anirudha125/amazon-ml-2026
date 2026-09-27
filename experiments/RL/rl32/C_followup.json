@@ -1,0 +1,634 @@
+{
+ "vetoes_vs_threshold": {
+  "V1_S006": {
+   "any rr<=0 & p<.95": {
+    "n": 377,
+    "fp": 46,
+    "prec": 0.878,
+    "fp_expected_at_band_precision": 46.1,
+    "veto_dF_pp": [
+     -0.0874,
+     -0.1236,
+     -0.0519
+    ],
+    "matched_threshold_fp": 65,
+    "matched_threshold_dF_pp": [
+     -0.0576,
+     -0.0954,
+     -0.023
+    ]
+   },
+   "rr-- & p<.95": {
+    "n": 131,
+    "fp": 9,
+    "prec": 0.9313,
+    "fp_expected_at_band_precision": 16.6,
+    "veto_dF_pp": [
+     -0.0419,
+     -0.0574,
+     -0.0281
+    ],
+    "matched_threshold_fp": 22,
+    "matched_threshold_dF_pp": [
+     -0.0216,
+     -0.0396,
+     -0.0047
+    ]
+   },
+   "rrL<=0 & p<.95": {
+    "n": 182,
+    "fp": 18,
+    "prec": 0.9011,
+    "fp_expected_at_band_precision": 23.1,
+    "veto_dF_pp": [
+     -0.0472,
+     -0.0648,
+     -0.0305
+    ],
+    "matched_threshold_fp": 32,
+    "matched_threshold_dF_pp": [
+     -0.0218,
+     -0.0427,
+     -0.0001
+    ]
+   },
+   "any rr<=0 & p<.90": {
+    "n": 243,
+    "fp": 36,
+    "prec": 0.8519,
+    "fp_expected_at_band_precision": 37.4,
+    "veto_dF_pp": [
+     -0.0585,
+     -0.0891,
+     -0.0295
+    ],
+    "matched_threshold_fp": 46,
+    "matched_threshold_dF_pp": [
+     -0.0241,
+     -0.0529,
+     0.0035
+    ]
+   },
+   "dense miss & p<.95": {
+    "n": 14,
+    "fp": 1,
+    "prec": 0.9286,
+    "fp_expected_at_band_precision": 1.7,
+    "veto_dF_pp": [
+     -0.0033,
+     -0.0075,
+     0.0013
+    ],
+    "matched_threshold_fp": 5,
+    "matched_threshold_dF_pp": [
+     0.0013,
+     -0.0039,
+     0.007
+    ]
+   },
+   "other rejects & any rr<=0": {
+    "n": 198,
+    "fp": 31,
+    "prec": 0.8434,
+    "fp_expected_at_band_precision": 23.6,
+    "veto_dF_pp": [
+     -0.0438,
+     -0.0711,
+     -0.0165
+    ],
+    "matched_threshold_fp": 37,
+    "matched_threshold_dF_pp": [
+     -0.0212,
+     -0.0429,
+     0.0015
+    ]
+   },
+   ">=.99 & rr_min<=0": {
+    "n": 81,
+    "fp": 0,
+    "prec": 1.0,
+    "fp_expected_at_band_precision": 0.0,
+    "veto_dF_pp": [
+     -0.0367,
+     -0.0493,
+     -0.0264
+    ],
+    "matched_threshold_fp": 14,
+    "matched_threshold_dF_pp": [
+     -0.0158,
+     -0.0316,
+     -0.0015
+    ]
+   }
+  },
+  "V1_S005": {
+   "any rr<=0 & p<.95": {
+    "n": 284,
+    "fp": 43,
+    "prec": 0.8486,
+    "fp_expected_at_band_precision": 30.7,
+    "veto_dF_pp": [
+     -0.0638,
+     -0.1012,
+     -0.0283
+    ],
+    "matched_threshold_fp": 42,
+    "matched_threshold_dF_pp": [
+     -0.0626,
+     -0.0969,
+     -0.026
+    ]
+   },
+   "rr-- & p<.95": {
+    "n": 101,
+    "fp": 8,
+    "prec": 0.9208,
+    "fp_expected_at_band_precision": 10.4,
+    "veto_dF_pp": [
+     -0.0474,
+     -0.0722,
+     -0.0248
+    ],
+    "matched_threshold_fp": 13,
+    "matched_threshold_dF_pp": [
+     -0.0306,
+     -0.0532,
+     -0.0098
+    ]
+   },
+   "rrL<=0 & p<.95": {
+    "n": 161,
+    "fp": 37,
+    "prec": 0.7702,
+    "fp_expected_at_band_precision": 17.2,
+    "veto_dF_pp": [
+     -0.0201,
+     -0.0509,
+     0.0091
+    ],
+    "matched_threshold_fp": 25,
+    "matched_threshold_dF_pp": [
+     -0.0403,
+     -0.0698,
+     -0.0089
+    ]
+   },
+   "any rr<=0 & p<.90": {
+    "n": 175,
+    "fp": 32,
+    "prec": 0.8171,
+    "fp_expected_at_band_precision": 23.9,
+    "veto_dF_pp": [
+     -0.0254,
+     -0.0529,
+     0.0028
+    ],
+    "matched_threshold_fp": 28,
+    "matched_threshold_dF_pp": [
+     -0.0459,
+     -0.0785,
+     -0.0137
+    ]
+   },
+   "dense miss & p<.95": {
+    "n": 20,
+    "fp": 3,
+    "prec": 0.85,
+    "fp_expected_at_band_precision": 2.0,
+    "veto_dF_pp": [
+     -0.0009,
+     -0.0056,
+     0.005
+    ],
+    "matched_threshold_fp": 3,
+    "matched_threshold_dF_pp": [
+     -0.0051,
+     -0.0195,
+     0.0099
+    ]
+   },
+   "other rejects & any rr<=0": {
+    "n": 73,
+    "fp": 38,
+    "prec": 0.4795,
+    "fp_expected_at_band_precision": 6.5,
+    "veto_dF_pp": [
+     0.0354,
+     0.0166,
+     0.0572
+    ],
+    "matched_threshold_fp": 10,
+    "matched_threshold_dF_pp": [
+     -0.0196,
+     -0.0398,
+     -0.0005
+    ]
+   },
+   ">=.99 & rr_min<=0": {
+    "n": 82,
+    "fp": 2,
+    "prec": 0.9756,
+    "fp_expected_at_band_precision": 0.0,
+    "veto_dF_pp": [
+     -0.0337,
+     -0.049,
+     -0.0211
+    ],
+    "matched_threshold_fp": 10,
+    "matched_threshold_dF_pp": [
+     -0.023,
+     -0.0435,
+     -0.0035
+    ]
+   }
+  },
+  "T_S006": {
+   "any rr<=0 & p<.95": {
+    "n": 852,
+    "fp": 91,
+    "prec": 0.8932,
+    "fp_expected_at_band_precision": 110.3,
+    "veto_dF_pp": [
+     -0.0894,
+     -0.1106,
+     -0.0695
+    ],
+    "matched_threshold_fp": 165,
+    "matched_threshold_dF_pp": [
+     -0.0614,
+     -0.0874,
+     -0.0357
+    ]
+   },
+   "rr-- & p<.95": {
+    "n": 307,
+    "fp": 24,
+    "prec": 0.9218,
+    "fp_expected_at_band_precision": 40.3,
+    "veto_dF_pp": [
+     -0.0367,
+     -0.048,
+     -0.0266
+    ],
+    "matched_threshold_fp": 63,
+    "matched_threshold_dF_pp": [
+     -0.0184,
+     -0.0344,
+     -0.0027
+    ]
+   },
+   "rrL<=0 & p<.95": {
+    "n": 420,
+    "fp": 35,
+    "prec": 0.9167,
+    "fp_expected_at_band_precision": 55.0,
+    "veto_dF_pp": [
+     -0.0457,
+     -0.0592,
+     -0.033
+    ],
+    "matched_threshold_fp": 83,
+    "matched_threshold_dF_pp": [
+     -0.0315,
+     -0.0503,
+     -0.0135
+    ]
+   },
+   "any rr<=0 & p<.90": {
+    "n": 567,
+    "fp": 80,
+    "prec": 0.8589,
+    "fp_expected_at_band_precision": 92.4,
+    "veto_dF_pp": [
+     -0.0499,
+     -0.0676,
+     -0.0318
+    ],
+    "matched_threshold_fp": 121,
+    "matched_threshold_dF_pp": [
+     -0.0305,
+     -0.0509,
+     -0.0109
+    ]
+   },
+   "dense miss & p<.95": {
+    "n": 46,
+    "fp": 10,
+    "prec": 0.7826,
+    "fp_expected_at_band_precision": 6.0,
+    "veto_dF_pp": [
+     -0.0016,
+     -0.0077,
+     0.0044
+    ],
+    "matched_threshold_fp": 13,
+    "matched_threshold_dF_pp": [
+     0.0012,
+     -0.0033,
+     0.007
+    ]
+   },
+   "other rejects & any rr<=0": {
+    "n": 413,
+    "fp": 61,
+    "prec": 0.8523,
+    "fp_expected_at_band_precision": 51.8,
+    "veto_dF_pp": [
+     -0.0335,
+     -0.0491,
+     -0.0187
+    ],
+    "matched_threshold_fp": 82,
+    "matched_threshold_dF_pp": [
+     -0.031,
+     -0.0499,
+     -0.0133
+    ]
+   },
+   ">=.99 & rr_min<=0": {
+    "n": 228,
+    "fp": 5,
+    "prec": 0.9781,
+    "fp_expected_at_band_precision": 0.1,
+    "veto_dF_pp": [
+     -0.0319,
+     -0.0396,
+     -0.0244
+    ],
+    "matched_threshold_fp": 49,
+    "matched_threshold_dF_pp": [
+     -0.0134,
+     -0.0274,
+     0.0009
+    ]
+   }
+  },
+  "T_S005": {
+   "any rr<=0 & p<.95": {
+    "n": 795,
+    "fp": 161,
+    "prec": 0.7975,
+    "fp_expected_at_band_precision": 98.2,
+    "veto_dF_pp": [
+     -0.0231,
+     -0.0475,
+     0.0009
+    ],
+    "matched_threshold_fp": 151,
+    "matched_threshold_dF_pp": [
+     -0.0463,
+     -0.0686,
+     -0.0245
+    ]
+   },
+   "rr-- & p<.95": {
+    "n": 299,
+    "fp": 34,
+    "prec": 0.8863,
+    "fp_expected_at_band_precision": 36.1,
+    "veto_dF_pp": [
+     -0.0332,
+     -0.0458,
+     -0.0212
+    ],
+    "matched_threshold_fp": 60,
+    "matched_threshold_dF_pp": [
+     -0.0126,
+     -0.0251,
+     0.0
+    ]
+   },
+   "rrL<=0 & p<.95": {
+    "n": 499,
+    "fp": 147,
+    "prec": 0.7054,
+    "fp_expected_at_band_precision": 61.6,
+    "veto_dF_pp": [
+     0.0224,
+     0.0006,
+     0.0439
+    ],
+    "matched_threshold_fp": 97,
+    "matched_threshold_dF_pp": [
+     -0.0245,
+     -0.0426,
+     -0.0077
+    ]
+   },
+   "any rr<=0 & p<.90": {
+    "n": 524,
+    "fp": 130,
+    "prec": 0.7519,
+    "fp_expected_at_band_precision": 81.8,
+    "veto_dF_pp": [
+     -0.0056,
+     -0.0264,
+     0.0162
+    ],
+    "matched_threshold_fp": 102,
+    "matched_threshold_dF_pp": [
+     -0.026,
+     -0.0446,
+     -0.0087
+    ]
+   },
+   "dense miss & p<.95": {
+    "n": 44,
+    "fp": 8,
+    "prec": 0.8182,
+    "fp_expected_at_band_precision": 5.4,
+    "veto_dF_pp": [
+     -0.0029,
+     -0.0083,
+     0.0015
+    ],
+    "matched_threshold_fp": 11,
+    "matched_threshold_dF_pp": [
+     -0.0064,
+     -0.0146,
+     0.0002
+    ]
+   },
+   "other rejects & any rr<=0": {
+    "n": 273,
+    "fp": 151,
+    "prec": 0.4469,
+    "fp_expected_at_band_precision": 31.6,
+    "veto_dF_pp": [
+     0.0681,
+     0.0494,
+     0.0889
+    ],
+    "matched_threshold_fp": 56,
+    "matched_threshold_dF_pp": [
+     -0.0108,
+     -0.0229,
+     0.0017
+    ]
+   },
+   ">=.99 & rr_min<=0": {
+    "n": 182,
+    "fp": 6,
+    "prec": 0.967,
+    "fp_expected_at_band_precision": 0.0,
+    "veto_dF_pp": [
+     -0.0257,
+     -0.0339,
+     -0.0178
+    ],
+    "matched_threshold_fp": 36,
+    "matched_threshold_dF_pp": [
+     -0.0101,
+     -0.0214,
+     0.0011
+    ]
+   }
+  }
+ },
+ "scenario_c_count_shift": {
+  "S006": {
+   "odds_mult": 1.682,
+   "France_fp_per_s1": 0.0351,
+   "any rr<=0 & p<.95": {
+    "vol_per_s1": 0.05406,
+    "fp_captured_per_s1": 0.01064,
+    "tp_lost_per_s1": 0.04342,
+    "dF_France_pp": -0.164,
+    "dLB": -0.00025
+   },
+   "rr-- & p<.95": {
+    "vol_per_s1": 0.00944,
+    "fp_captured_per_s1": 0.00126,
+    "tp_lost_per_s1": 0.00817,
+    "dF_France_pp": -0.047,
+    "dLB": -7e-05
+   },
+   "any rr<=0 (all)": {
+    "vol_per_s1": 0.07793,
+    "fp_captured_per_s1": 0.01111,
+    "tp_lost_per_s1": 0.06681,
+    "dF_France_pp": -0.369,
+    "dLB": -0.00055
+   },
+   "threshold raise to .95 (all cells)": {
+    "vol_per_s1": 0.15185,
+    "fp_captured_per_s1": 0.02912,
+    "tp_lost_per_s1": 0.12272,
+    "dF_France_pp": -0.485,
+    "dLB": -0.00073
+   }
+  },
+  "S005": {
+   "odds_mult": 3.034,
+   "France_fp_per_s1": 0.07256,
+   "any rr<=0 & p<.95": {
+    "vol_per_s1": 0.06304,
+    "fp_captured_per_s1": 0.03476,
+    "tp_lost_per_s1": 0.02828,
+    "dF_France_pp": 0.508,
+    "dLB": 0.00076
+   },
+   "rr-- & p<.95": {
+    "vol_per_s1": 0.01258,
+    "fp_captured_per_s1": 0.00372,
+    "tp_lost_per_s1": 0.00886,
+    "dF_France_pp": 0.001,
+    "dLB": 0.0
+   },
+   "any rr<=0 (all)": {
+    "vol_per_s1": 0.1097,
+    "fp_captured_per_s1": 0.04715,
+    "tp_lost_per_s1": 0.06255,
+    "dF_France_pp": 0.467,
+    "dLB": 0.0007
+   },
+   "threshold raise to .95 (all cells)": {
+    "vol_per_s1": 0.14839,
+    "fp_captured_per_s1": 0.0525,
+    "tp_lost_per_s1": 0.09589,
+    "dF_France_pp": 0.278,
+    "dLB": 0.00042
+   }
+  }
+ },
+ "band99_tail": {
+  "S006": {
+   "V1_fp_in_band": 15,
+   "V1_rrmin_fp_median": 5.469,
+   "V1_rrmin_tp_p05": 5.188,
+   "rr_min<fp_median": {
+    "cut": 5.469,
+    "V1_n": 3518,
+    "V1_fp": 6,
+    "V1_per_s1": 0.1759,
+    "T_n": 9402,
+    "T_fp": 21,
+    "T_per_s1": 0.18083,
+    "France_per_s1": 0.20332,
+    "US_per_s1": 0.19024,
+    "India_per_s1": 0.20272
+   },
+   "rr_min<fp_p75": {
+    "cut": 7.391,
+    "V1_n": 7054,
+    "V1_fp": 11,
+    "V1_per_s1": 0.3527,
+    "T_n": 18773,
+    "T_fp": 29,
+    "T_per_s1": 0.36106,
+    "France_per_s1": 0.37717,
+    "US_per_s1": 0.36149,
+    "India_per_s1": 0.40457
+   }
+  },
+  "S005": {
+   "V1_fp_in_band": 16,
+   "V1_rrmin_fp_median": 4.242,
+   "V1_rrmin_tp_p05": 5.781,
+   "rr_min<fp_median": {
+    "cut": 4.242,
+    "V1_n": 1935,
+    "V1_fp": 8,
+    "V1_per_s1": 0.09675,
+    "T_n": 4998,
+    "T_fp": 21,
+    "T_per_s1": 0.09613,
+    "France_per_s1": 0.18591,
+    "US_per_s1": 0.11306,
+    "India_per_s1": 0.10115
+   },
+   "rr_min<fp_p75": {
+    "cut": 7.367,
+    "V1_n": 6217,
+    "V1_fp": 12,
+    "V1_per_s1": 0.31085,
+    "T_n": 16508,
+    "T_fp": 30,
+    "T_per_s1": 0.3175,
+    "France_per_s1": 0.41221,
+    "US_per_s1": 0.32681,
+    "India_per_s1": 0.3429
+   }
+  }
+ },
+ "transitions_odds": {
+  "k=1 (V1-like precision)": {
+   "rem_false": 0.535,
+   "add_true": 0.84,
+   "dF_France_pp": 0.768,
+   "dLB_France_part": 0.00115
+  },
+  "k=exp(.52)": {
+   "rem_false": 0.659,
+   "add_true": 0.757,
+   "dF_France_pp": 0.921,
+   "dLB_France_part": 0.00138
+  },
+  "k=exp(1.11)": {
+   "rem_false": 0.777,
+   "add_true": 0.633,
+   "dF_France_pp": 0.993,
+   "dLB_France_part": 0.00149
+  }
+ }
+}

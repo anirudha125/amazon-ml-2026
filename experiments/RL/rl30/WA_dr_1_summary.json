@@ -1,0 +1,68 @@
+{
+ "France_accepted_rows": 879329,
+ "France_accepted_kept_final": 854396,
+ "France_n_band": {
+  "0": 750903,
+  "2": 87278,
+  "1": 16215
+ },
+ "France_n_band_street": {
+  "0_True": 595690,
+  "2_True": 49677,
+  "0_False": 155213,
+  "2_False": 37601,
+  "1_True": 11244,
+  "1_False": 4971
+ },
+ "France_PP_pairs": 595690,
+ "France_PP_distinct_S1": 226842,
+ "France_PP_pairs_per_S1_quantiles": {
+  "0.5": 2.0,
+  "0.9": 4.0,
+  "0.99": 6.0
+ },
+ "US_accepted_rows": 2236533,
+ "US_accepted_kept_final": 2236158,
+ "US_n_band": {
+  "0": 1146022,
+  "2": 53846,
+  "1": 132
+ },
+ "US_n_band_street": {
+  "0_True": 789319,
+  "0_False": 356703,
+  "2_False": 39758,
+  "2_True": 14088,
+  "1_True": 67,
+  "1_False": 65
+ },
+ "US_PP_pairs": 789319,
+ "US_PP_distinct_S1": 434659,
+ "US_PP_pairs_per_S1_quantiles": {
+  "0.5": 2.0,
+  "0.9": 3.0,
+  "0.99": 5.0
+ },
+ "India_accepted_rows": 2730863,
+ "India_accepted_kept_final": 2728351,
+ "India_n_band": {
+  "0": 1133873,
+  "2": 65390,
+  "1": 737
+ },
+ "India_n_band_street": {
+  "0_False": 762121,
+  "0_True": 371752,
+  "2_False": 58602,
+  "2_True": 6788,
+  "1_False": 559,
+  "1_True": 178
+ },
+ "India_PP_pairs": 371752,
+ "India_PP_distinct_S1": 233413,
+ "India_PP_pairs_per_S1_quantiles": {
+  "0.5": 1.0,
+  "0.9": 3.0,
+  "0.99": 4.0
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "US": {
+  "heldout": "India",
+  "accepted_per_s1_train_country": 3.3662,
+  "accepted_per_s1_heldout_th72": 3.4119,
+  "th_acccount": 0.92,
+  "dF_acccount": [
+   -0.0832,
+   -0.2085,
+   0.0341
+  ],
+  "dF_countmatched": [
+   0.0446,
+   -0.0222,
+   0.107
+  ]
+ },
+ "IN": {
+  "heldout": "US",
+  "accepted_per_s1_train_country": 3.4064,
+  "accepted_per_s1_heldout_th72": 3.3624,
+  "th_acccount": 0.45,
+  "dF_acccount": [
+   -0.2953,
+   -0.3777,
+   -0.2225
+  ],
+  "dF_countmatched": [
+   0.0033,
+   -0.0273,
+   0.0369
+  ]
+ },
+ "USB": {
+  "heldout": "India",
+  "accepted_per_s1_train_country": 3.3641,
+  "accepted_per_s1_heldout_th72": 3.4079,
+  "th_acccount": 0.92,
+  "dF_acccount": [
+   -0.0998,
+   -0.2198,
+   0.0203
+  ],
+  "dF_countmatched": [
+   -0.009,
+   -0.06,
+   0.0351
+  ]
+ },
+ "pooled_US_IN_countmatched_dF": [
+  0.0198,
+  -0.0135,
+  0.0512
+ ]
+}

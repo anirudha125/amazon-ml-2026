@@ -1,0 +1,21 @@
+{
+ "init": "/teamspace/studios/this_studio/amazon-ml-challenge-2026/experiments/E026_rrL/model_rrL",
+ "rev": null,
+ "n_pairs": 964024,
+ "epochs": 1.0,
+ "bs": 256,
+ "micro": 128,
+ "lr": 2e-05,
+ "seed": 42,
+ "wd": 0.01,
+ "steps": 3766,
+ "t_train": 1763.7,
+ "pairs_per_s": 547,
+ "vram_peak_gb": 25.3,
+ "gpu_util_mean": 97.3467278989667,
+ "gpu_mem_used_max_mb": 38737.0,
+ "final_loss": 0.05697898186277598,
+ "attn": "sdpa",
+ "n_tok": 4,
+ "n_params": 559891457
+}

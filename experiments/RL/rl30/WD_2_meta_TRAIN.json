@@ -1,0 +1,42 @@
+{
+ "TRAIN_V1": {
+  "n_pool_rows": 2550505,
+  "n_s1": 20000,
+  "n_same_addr": 59489,
+  "n_pos_pool": 69232,
+  "n_s1_by_country": {
+   "India": 7961,
+   "US": 12039
+  }
+ },
+ "TRAIN_T0": {
+  "n_pool_rows": 254226,
+  "n_s1": 1994,
+  "n_same_addr": 6145,
+  "n_pos_pool": 6918,
+  "n_s1_by_country": {
+   "India": 797,
+   "US": 1197
+  }
+ },
+ "TRAIN_E014": {
+  "n_pool_rows": 1276137,
+  "n_s1": 10000,
+  "n_same_addr": 29501,
+  "n_pos_pool": 34447,
+  "n_s1_by_country": {
+   "India": 4008,
+   "US": 5992
+  }
+ },
+ "TRAIN_T2X": {
+  "n_pool_rows": 5099574,
+  "n_s1": 40000,
+  "n_same_addr": 120230,
+  "n_pos_pool": 138355,
+  "n_s1_by_country": {
+   "India": 16156,
+   "US": 23844
+  }
+ }
+}

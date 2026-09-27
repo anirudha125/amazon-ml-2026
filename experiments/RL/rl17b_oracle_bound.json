@@ -1,0 +1,46 @@
+{
+ "PROD_V1": {
+  "accepted_fp": 483,
+  "flagged": 724,
+  "flagged_fp": 43,
+  "oracle_refinement_delta_pp": 0.044,
+  "ci95": [
+   0.03,
+   0.058
+  ],
+  "remove_all_fp_delta_pp": 0.636
+ },
+ "B2s42_V1": {
+  "accepted_fp": 753,
+  "flagged": 817,
+  "flagged_fp": 55,
+  "oracle_refinement_delta_pp": 0.052,
+  "ci95": [
+   0.037,
+   0.068
+  ],
+  "remove_all_fp_delta_pp": 1.009
+ },
+ "B2s43_V1": {
+  "accepted_fp": 570,
+  "flagged": 782,
+  "flagged_fp": 38,
+  "oracle_refinement_delta_pp": 0.04,
+  "ci95": [
+   0.025,
+   0.057
+  ],
+  "remove_all_fp_delta_pp": 0.773
+ },
+ "B2s44_V1": {
+  "accepted_fp": 595,
+  "flagged": 790,
+  "flagged_fp": 39,
+  "oracle_refinement_delta_pp": 0.036,
+  "ci95": [
+   0.024,
+   0.05
+  ],
+  "remove_all_fp_delta_pp": 0.797
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "S006": 98.947,
+ "W0.0": {
+  "macro": 98.143,
+  "dF": -0.803,
+  "ci": [
+   -0.9,
+   -0.709
+  ],
+  "dF_US": -0.627,
+  "dF_India": -1.069,
+  "removed_per_s1": 0.052,
+  "removed_false": 0.086,
+  "added_per_s1": 0.0225,
+  "added_true": 0.349,
+  "sum_p6_minus_sum_pnorr": -0.0008
+ },
+ "W0.25": {
+  "macro": 98.527,
+  "dF": -0.42,
+  "ci": [
+   -0.498,
+   -0.346
+  ],
+  "dF_US": -0.363,
+  "dF_India": -0.506,
+  "removed_per_s1": 0.0414,
+  "removed_false": 0.099,
+  "added_per_s1": 0.0102,
+  "added_true": 0.562,
+  "sum_p6_minus_sum_pnorr": -0.0008
+ },
+ "W0.5": {
+  "macro": 98.743,
+  "dF": -0.204,
+  "ci": [
+   -0.263,
+   -0.145
+  ],
+  "dF_US": -0.181,
+  "dF_India": -0.237,
+  "removed_per_s1": 0.0268,
+  "removed_false": 0.123,
+  "added_per_s1": 0.0044,
+  "added_true": 0.693,
+  "sum_p6_minus_sum_pnorr": -0.0008
+ },
+ "W0.75": {
+  "macro": 98.92,
+  "dF": -0.027,
+  "ci": [
+   -0.062,
+   0.007
+  ],
+  "dF_US": -0.025,
+  "dF_India": -0.029,
+  "removed_per_s1": 0.0079,
+  "removed_false": 0.272,
+  "added_per_s1": 0.0018,
+  "added_true": 0.622,
+  "sum_p6_minus_sum_pnorr": -0.0008
+ }
+}

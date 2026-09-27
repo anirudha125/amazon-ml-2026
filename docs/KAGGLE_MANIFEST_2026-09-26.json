@@ -1,0 +1,694 @@
+{
+ "generated_utc": "2026-09-26T05:44:32Z",
+ "project_root": "/kaggle/working/amlc",
+ "environment": {
+  "python": "3.12.13",
+  "platform": "Linux-6.12.90+-x86_64-with-glibc2.35",
+  "cpu_model": "Intel(R) Xeon(R) CPU @ 2.00GHz",
+  "cpu_count": 4,
+  "ram_total_gib": 31.3,
+  "ram_available_gib": 29.5,
+  "disk_kaggle_working": "/dev/loop2       20G  2.6G   17G  13% /kaggle/working",
+  "nvidia_driver": "580.159.04",
+  "nvidia_smi_cuda": "CUDA Version: 13.0",
+  "nvcc": "Cuda compilation tools, release 12.8, V12.8.93",
+  "torch": "2.10.0+cu128",
+  "torch_cuda": "12.8",
+  "cudnn": 91002,
+  "cuda_available": true,
+  "gpus": [
+   {
+    "index": 0,
+    "name": "Tesla T4",
+    "total_mem_gib": 14.56,
+    "compute_capability": "7.5",
+    "multiprocessors": 40
+   },
+   {
+    "index": 1,
+    "name": "Tesla T4",
+    "total_mem_gib": 14.56,
+    "compute_capability": "7.5",
+    "multiprocessors": 40
+   }
+  ],
+  "internet": {
+   "pypi": "200",
+   "huggingface": "200"
+  }
+ },
+ "packages": {
+  "numpy": {
+   "kaggle_version": "2.0.2",
+   "license": "BSD License",
+   "local_version": "2.2.6"
+  },
+  "pandas": {
+   "kaggle_version": "2.3.3",
+   "license": "BSD License",
+   "local_version": "2.3.2"
+  },
+  "scipy": {
+   "kaggle_version": "1.16.3",
+   "license": "BSD License",
+   "local_version": "1.17.0"
+  },
+  "scikit-learn": {
+   "kaggle_version": "1.6.1",
+   "license": "BSD License",
+   "local_version": "1.8.0"
+  },
+  "lightgbm": {
+   "kaggle_version": "4.6.0",
+   "license": "MIT License",
+   "local_version": "4.7.0"
+  },
+  "rapidfuzz": {
+   "kaggle_version": "3.14.6",
+   "license": "MIT",
+   "local_version": "3.14.6"
+  },
+  "numba": {
+   "kaggle_version": "0.60.0",
+   "license": "BSD",
+   "local_version": "0.67.0"
+  },
+  "llvmlite": {
+   "kaggle_version": "0.43.0",
+   "license": "BSD",
+   "local_version": "0.49.0"
+  },
+  "psutil": {
+   "kaggle_version": "5.9.5",
+   "license": "BSD-3-Clause",
+   "local_version": "7.0.0"
+  },
+  "torch": {
+   "kaggle_version": "2.10.0+cu128",
+   "license": "BSD-3-Clause",
+   "local_version": null
+  },
+  "transformers": {
+   "kaggle_version": "5.0.0",
+   "license": "Apache 2.0 License",
+   "local_version": null
+  },
+  "sentence-transformers": {
+   "kaggle_version": "5.4.1",
+   "license": "Apache 2.0",
+   "local_version": null
+  },
+  "tokenizers": {
+   "kaggle_version": "0.22.2",
+   "license": "Apache Software License",
+   "local_version": null
+  },
+  "safetensors": {
+   "kaggle_version": "0.7.0",
+   "license": "Apache Software License",
+   "local_version": null
+  },
+  "huggingface-hub": {
+   "kaggle_version": "1.11.0",
+   "license": "Apache-2.0",
+   "local_version": null
+  },
+  "accelerate": {
+   "kaggle_version": "1.13.0",
+   "license": "Apache",
+   "local_version": null
+  },
+  "pyarrow": {
+   "kaggle_version": "24.0.0",
+   "license": "Apache-2.0",
+   "local_version": null
+  }
+ },
+ "installed_by_setup": [
+  {
+   "package": "rapidfuzz",
+   "version": "3.14.6",
+   "source": "PyPI (pypi.org)",
+   "flags": "--no-deps",
+   "license": "MIT",
+   "reason": "pair features (src/pair_features.py, golden run_reproduce.py)"
+  }
+ ],
+ "version_mismatch_vs_local": {
+  "numpy": [
+   "2.2.6",
+   "2.0.2"
+  ],
+  "pandas": [
+   "2.3.2",
+   "2.3.3"
+  ],
+  "scipy": [
+   "1.17.0",
+   "1.16.3"
+  ],
+  "scikit-learn": [
+   "1.8.0",
+   "1.6.1"
+  ],
+  "lightgbm": [
+   "4.7.0",
+   "4.6.0"
+  ],
+  "numba": [
+   "0.67.0",
+   "0.60.0"
+  ],
+  "llvmlite": [
+   "0.49.0",
+   "0.43.0"
+  ],
+  "psutil": [
+   "7.0.0",
+   "5.9.5"
+  ]
+ },
+ "candidate_models": [
+  {
+   "model_id": "intfloat/multilingual-e5-small",
+   "source": "https://huggingface.co/intfloat/multilingual-e5-small",
+   "revision_sha": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+   "license": "mit",
+   "params_total": 117654272,
+   "params_by_dtype": {
+    "I64": 512,
+    "F32": 117653760
+   },
+   "downloaded": false,
+   "competition_compliant_license_and_size": true
+  },
+  {
+   "model_id": "intfloat/multilingual-e5-base",
+   "source": "https://huggingface.co/intfloat/multilingual-e5-base",
+   "revision_sha": "d128750597153bb5987e10b1c3493a34e5a4502a",
+   "license": "mit",
+   "params_total": 278044162,
+   "params_by_dtype": {
+    "I64": 514,
+    "F32": 278043648
+   },
+   "downloaded": false,
+   "competition_compliant_license_and_size": true
+  },
+  {
+   "model_id": "intfloat/multilingual-e5-large",
+   "source": "https://huggingface.co/intfloat/multilingual-e5-large",
+   "revision_sha": "3d7cfbdacd47fdda877c5cd8a79fbcc4f2a574f3",
+   "license": "mit",
+   "params_total": 559890946,
+   "params_by_dtype": {
+    "I64": 514,
+    "F32": 559890432
+   },
+   "downloaded": false,
+   "competition_compliant_license_and_size": true
+  },
+  {
+   "model_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+   "source": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+   "revision_sha": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+   "license": "apache-2.0",
+   "params_total": 117654272,
+   "params_by_dtype": {
+    "I64": 512,
+    "F32": 117653760
+   },
+   "downloaded": false,
+   "competition_compliant_license_and_size": true
+  },
+  {
+   "model_id": "sentence-transformers/LaBSE",
+   "source": "https://huggingface.co/sentence-transformers/LaBSE",
+   "revision_sha": "836121a0533e5664b21c7aacc5d22951f2b8b25b",
+   "license": "apache-2.0",
+   "params_total": 470927360,
+   "params_by_dtype": {
+    "I64": 512,
+    "F32": 470926848
+   },
+   "downloaded": false,
+   "competition_compliant_license_and_size": true
+  },
+  {
+   "model_id": "BAAI/bge-m3",
+   "source": "https://huggingface.co/BAAI/bge-m3",
+   "revision_sha": "5617a9f61b028005a4858fdac845db406aefb181",
+   "license": "mit",
+   "params_total": null,
+   "params_by_dtype": null,
+   "downloaded": false,
+   "competition_compliant_license_and_size": null,
+   "params_note": "HF API returned no safetensors parameter count; verify from weights before use"
+  }
+ ],
+ "models_downloaded": [],
+ "files": [
+  {
+   "path": "src/an01_fp_ownership.py",
+   "bytes": 5193,
+   "sha256": "3857c399cac901e06bd6b52065321e30593a4b80d5ec239054c7b2502e6eb521",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/an02_script_errors.py",
+   "bytes": 1956,
+   "sha256": "fec20f3382d327646f27d7e2c4c828d9ac701e82b4284ad722f02646ae6dbc0c",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/an03_analyze.py",
+   "bytes": 5215,
+   "sha256": "c235c69fac5aa323f83d1f65e76075b35a393926278e1dea5c461c75194b29bb",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/an03_retrieval_miss_audit.py",
+   "bytes": 4804,
+   "sha256": "90b43a7ab712b56705f9d0e212dd438b38caef013427e71abb7d20ca2d5b20f6",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/build_pools.py",
+   "bytes": 5004,
+   "sha256": "22c974ddd975c58d6553450272a393e921f347e8487b59f8e3e942ab41934ef7",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/corpus_stats.py",
+   "bytes": 3886,
+   "sha256": "b4a2d37071c0507fda0fe80a5994f68bce15075d331b624176a2ba15b55d7020",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/e009_numeric_features.py",
+   "bytes": 13062,
+   "sha256": "45fe97ad506ab9111b6bfcb93f52e0b2511c0e6f6349ebd9685c4314815b169c",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/e010_learning_curve.py",
+   "bytes": 3678,
+   "sha256": "880f5867e16de6efb94b2656f54b8c6c32966d7a027dc1edfadd8a43f72de7db",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/e011_indic_normalization.py",
+   "bytes": 5926,
+   "sha256": "bdd9f0da1b21f2985374b65a1735d75760b8d3232f94e350e0db0ff833d029b8",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/e012_entity_decision.py",
+   "bytes": 4549,
+   "sha256": "ce0538661ba5fe3cb1b80c447473ae82e24a86766f59f6043cf172443d5afa48",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/e013_stage2_stability.py",
+   "bytes": 3434,
+   "sha256": "5bab7eee4c51d88b2955b3811993970f4348d06fc933cf9870f59d74b033112a",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/e014_train_expansion.py",
+   "bytes": 10761,
+   "sha256": "3e1c776f871320b1de907c34396096b4f6b74c8319af2a0c94c83c591fcf05f5",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/e016_scale.py",
+   "bytes": 14110,
+   "sha256": "4b1d3bc4b396e5ee1420877740b000ea5ae6819915a2f598ed1549b8c630dc25",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/feature_pipeline.py",
+   "bytes": 6779,
+   "sha256": "19d808dc1319daa74f9ecf2fbf94c898024d42015ab2ee58389e92596defdc7b",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/fetch_raw_text.py",
+   "bytes": 1401,
+   "sha256": "2493b71ac5bf0f289b34f8b0054b77c16283647137232c81b40bba582a6d421d",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/harness.py",
+   "bytes": 8393,
+   "sha256": "e17570710dce8836a26cca5400a95a81b73fd7ba4bc2e38f9f5dad75b6834860",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/pair_features.py",
+   "bytes": 6877,
+   "sha256": "e1eb479c1d8d34d756849b1bdf8da3e2edaeba2366758f6660658f4930e503e7",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/predict_test.py",
+   "bytes": 12817,
+   "sha256": "da7986a28a35809621c9d0c289ddc612bf7c46b2279d47da4e491964a674e36d",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/recon02_ambiguity.py",
+   "bytes": 18253,
+   "sha256": "7cba43818b4acd682287cdecb1e665fcadf90011fa5d1c7b6e7efc68dea3f34d",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/recon03_retrieval_benchmark.py",
+   "bytes": 29157,
+   "sha256": "57f932093685789c39da4981cff242d77b122a1a52e4fc931ea3cee1f9a50282",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/recon04_fallback_diagnostic.py",
+   "bytes": 25659,
+   "sha256": "55c1e69ff3888ce16709bbab30dc9651926f4ea9d4de523a593f1069ea54ac04",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/recon05_baseline_scorer.py",
+   "bytes": 37912,
+   "sha256": "9095986c5ae034e20eab075d5dc647a8c2d2160e5daa26ccf56f2700d29ab913",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/recon06_cache_scores.py",
+   "bytes": 8387,
+   "sha256": "a5c31997375d5fc4fa89968c6f910f57c62e357170c1bbc431a98ece582afe56",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/recon06_structural_and_experiment.py",
+   "bytes": 24478,
+   "sha256": "206c7c2b35be0a8623a2e2202a26131e3bd39734d0395db16079fdeb6da68032",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/recon07_diagnostic.py",
+   "bytes": 20875,
+   "sha256": "59c2ad34b6790c9509877ca5283e3dc30e42f4ed32a1fa539d13f35367e8edf6",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/recon08_precompute_address_counts.py",
+   "bytes": 2864,
+   "sha256": "adadca04524d3cf35350960fd494164ff8f1f7be125b36e52f4fdba354106f67",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/recon08_relational_features.py",
+   "bytes": 30695,
+   "sha256": "a82d489c32389e8fa045686a8e17c57c033a8bb136d7713e04ebb560e1c38324",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/retrieval_engine.py",
+   "bytes": 7918,
+   "sha256": "7843d91edf03e9765ed4583b4bf0ce69cac48b54fa8a73d7c7c44776c693ab85",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "src/translit.py",
+   "bytes": 6033,
+   "sha256": "1fbbe33d063d508017815c563149c7b363cbd37a8151b653b74c41845f0214d5",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "AGENTS.md",
+   "bytes": 2258,
+   "sha256": "49cb91d4675f01ad0a647ef36de93756bfdee3c7f3f17b2f7240d23fe7052358",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/E014/e014_LFnew_10000_translit.npy",
+   "bytes": 396490100,
+   "sha256": "2c543833897eda7b336afcbd52012ac5ea4c6a2cb9fe488f58447fb92a4d5463",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/E014/e014_feats_10000_translit.pkl",
+   "bytes": 185468248,
+   "sha256": "28f4cbc1164fe91c2f73dd0d0440e8f4195470c3aef2ccdffce2ddce8c6f2aed",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/E014/e014_results_10000_translit_lam1.0.json",
+   "bytes": 6462,
+   "sha256": "23d616f829dff24a43a4c12948cb4f324b641f837468dddf43fedb935b7db39c",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/E014/e014_run.log",
+   "bytes": 4533,
+   "sha256": "d2a0b43b311f5e77b17273d6c9d6cc100d7dd7bffb901a26d4da9a6774e1e24f",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/RECON-08_GOLDEN/README.md",
+   "bytes": 6501,
+   "sha256": "93245edbac2701e39d57071c92080eab7e12eb4f91fe235df36e36f246196f83",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/RECON-08_GOLDEN/cache/exact_splits.pkl",
+   "bytes": 59485,
+   "sha256": "ea4003bb9b42e10e9bf1f3139c875c6f7215e93ff1f9321f8db1e6eed0b14a76",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/RECON-08_GOLDEN/cache/recon05_candidates.pkl",
+   "bytes": 96577386,
+   "sha256": "0730f9186cfdc307b7984e087a0c6f3fc85f63a4c2f16b9067cfb8ca2b07be4d",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/RECON-08_GOLDEN/cache/recon07_features.pkl",
+   "bytes": 97240038,
+   "sha256": "488b741624bbd65e577afb589879794800b0b574875aecd0c0a32ac829557283",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/RECON-08_GOLDEN/cache/recon08_addr_counts.pkl",
+   "bytes": 17357948,
+   "sha256": "8af9c1e68cd2881f6af0664eb8a4c43276740eb8891e16a68a11814be8c53860",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/RECON-08_GOLDEN/cache/recon08_results.pkl",
+   "bytes": 9128011,
+   "sha256": "fc371db950f3081bf318cbceb837360dcd3ffca1f3fbd8529187df393094d27b",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/RECON-08_GOLDEN/cache/recon08_token_idf.pkl",
+   "bytes": 1300358,
+   "sha256": "a74c699aba646828d62ca6df2f88c407154db9619fd7a5cb92fdefbe0b1ec789",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/RECON-08_GOLDEN/checksums.sha256",
+   "bytes": 2883,
+   "sha256": "b01a0b4c36f5e1cce7a604fec465ccca002b33be8e9d2269baadcbd52b0f7932",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/RECON-08_GOLDEN/config/golden_baseline_config.json",
+   "bytes": 6558,
+   "sha256": "226dcc003f56e55118f35bc3b426dee78db6eb3c75b847abd896163878266464",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/RECON-08_GOLDEN/docs/eda_report.md",
+   "bytes": 7249,
+   "sha256": "dfbfe344b770e7c0d39e85571c1e8b28edc10b1a1d8cd2099792ef0cf7d73db3",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/RECON-08_GOLDEN/docs/problem_analysis.md",
+   "bytes": 6377,
+   "sha256": "0d013246f2d1c379f02a0e13e9f5646bde1b71d81c344e03932f2cb7c1a58cb9",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/RECON-08_GOLDEN/docs/recon02_ambiguity_report.md",
+   "bytes": 13882,
+   "sha256": "b114302f4b1701bb73c0e219625a08a6f7ae341d9c702ae28f96ab0674561c4f",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/RECON-08_GOLDEN/docs/recon05_baseline_scorer_report.md",
+   "bytes": 11386,
+   "sha256": "c7d427ab370ecddb35c7db20fcd663cd3ccf4572e4c3ee38172b9750c4882dc2",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/RECON-08_GOLDEN/docs/recon06_precision_lever_report.md",
+   "bytes": 9511,
+   "sha256": "c7d9e5d7630fc722626f1c8db3583c02b36ff1a844fee96dab7474629e16165d",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/RECON-08_GOLDEN/docs/recon07_capacity_probe_report.md",
+   "bytes": 8474,
+   "sha256": "e1a7ffc89b8c95b9054f3c6cdd8f2d5aadb8688a68944f8803782e5fc174763f",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/RECON-08_GOLDEN/docs/recon08_relational_features_report.md",
+   "bytes": 21322,
+   "sha256": "68781693f7a83a531f271e2becc8bca1dcf9fc1f7ce3a423f68c026d24462e94",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/RECON-08_GOLDEN/run_reproduce.py",
+   "bytes": 15828,
+   "sha256": "1d5ddf12410c06fa6b49bfea3920748df07c31eeb32838c0d4dc14195ef9d407",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/RECON-08_GOLDEN/src/recon02_ambiguity.py",
+   "bytes": 18253,
+   "sha256": "7cba43818b4acd682287cdecb1e665fcadf90011fa5d1c7b6e7efc68dea3f34d",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/RECON-08_GOLDEN/src/recon03_retrieval_benchmark.py",
+   "bytes": 29157,
+   "sha256": "57f932093685789c39da4981cff242d77b122a1a52e4fc931ea3cee1f9a50282",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/RECON-08_GOLDEN/src/recon04_fallback_diagnostic.py",
+   "bytes": 25659,
+   "sha256": "55c1e69ff3888ce16709bbab30dc9651926f4ea9d4de523a593f1069ea54ac04",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/RECON-08_GOLDEN/src/recon05_baseline_scorer.py",
+   "bytes": 37912,
+   "sha256": "9095986c5ae034e20eab075d5dc647a8c2d2160e5daa26ccf56f2700d29ab913",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/RECON-08_GOLDEN/src/recon06_cache_scores.py",
+   "bytes": 8387,
+   "sha256": "a5c31997375d5fc4fa89968c6f910f57c62e357170c1bbc431a98ece582afe56",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/RECON-08_GOLDEN/src/recon06_structural_and_experiment.py",
+   "bytes": 24478,
+   "sha256": "206c7c2b35be0a8623a2e2202a26131e3bd39734d0395db16079fdeb6da68032",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/RECON-08_GOLDEN/src/recon07_diagnostic.py",
+   "bytes": 20875,
+   "sha256": "59c2ad34b6790c9509877ca5283e3dc30e42f4ed32a1fa539d13f35367e8edf6",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/RECON-08_GOLDEN/src/recon08_precompute_address_counts.py",
+   "bytes": 2864,
+   "sha256": "adadca04524d3cf35350960fd494164ff8f1f7be125b36e52f4fdba354106f67",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/RECON-08_GOLDEN/src/recon08_relational_features.py",
+   "bytes": 30695,
+   "sha256": "a82d489c32389e8fa045686a8e17c57c033a8bb136d7713e04ebb560e1c38324",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/_shared/corpus_stats_train.pkl",
+   "bytes": 152226791,
+   "sha256": "e4091454705c20823703603cbe617cfdec55363fbdc018cabc1698fb2de2688a",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/_shared/e008_features.pkl",
+   "bytes": 104718300,
+   "sha256": "38eec3f547db505567ba2757a687c315cf5e700f8fce32fe3766ceec5116ee5c",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/_shared/e008_stage2_preds.pkl",
+   "bytes": 5492436,
+   "sha256": "4702b2df3e5c7b7743a666f8f172ab4c1c81c3a558d11cac549ede25c6fed731",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/_shared/pools/train_India_e014_10000.pkl",
+   "bytes": 116388566,
+   "sha256": "d5aacc99edbb2ccdfa67913c1960913d62611550ce46bcea7209124afea91987",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/_shared/pools/train_US_e014_10000.pkl",
+   "bytes": 140272393,
+   "sha256": "1aaa9b68a10f1cec9dfc83c874383a7622587f2292e906446f77c01acb381366",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "experiments/_shared/raw_text.pkl",
+   "bytes": 40656285,
+   "sha256": "4b726329f8efe779253d409762141fe6301de87f58fae6bf56180932cf08f40f",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "student_resource/dataset/train/train_source1.tsv",
+   "bytes": 210069713,
+   "sha256": "591af0e1dfeb65cab71ea6ee8cb69df00f92d6ba6fa79e05746c938775d14973",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "student_resource/dataset/train/train_ground_truth.tsv",
+   "bytes": 127015583,
+   "sha256": "70bc1d8a16c667e0155c2105d0ab2ebe41d7e7a85d8a529e3ca81c6c3a5af037",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "student_resource/dataset/train/train_source2.tsv",
+   "bytes": 489301488,
+   "sha256": "6336c1a055eec79cf8a6d99fdc8d32a2e4d9dc2662e00963cb35d66b89ed09ed",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "student_resource/dataset/train/train_source3.tsv",
+   "bytes": 503705637,
+   "sha256": "67da22f5151898ff3006febd836c1a159e97ae95efa7257a5aff4fda685e58e9",
+   "verified_on_kaggle": true
+  },
+  {
+   "path": "kaggle_bootstrap.py",
+   "bytes": 2347,
+   "sha256": "64a8878e2ddcd3f67598f68624c0d059e4c051401f8987b9c9d5add9d1bfc765",
+   "verified_on_kaggle": true
+  }
+ ],
+ "files_summary": {
+  "n": 71,
+  "total_bytes": 2694122693,
+  "mismatches": 0
+ },
+ "excluded": [
+  "student_resource/dataset/test/* (full test set not uploaded, per instruction)",
+  "experiments/_shared/corpus_stats_test*.pkl, experiments/_shared/pools/test_* (test-derived)",
+  "experiments/E009, E011 caches (not needed by E014 path)",
+  "__pycache__"
+ ],
+ "notes": [
+  "/kaggle/working is ephemeral: contents are lost when the session ends unless the notebook version is saved.",
+  "Saving a notebook version stores /kaggle/working as notebook output (private by default); contains competition train data.",
+  "LightGBM/sklearn/numpy differ from the local environment; E014 numbers are not yet re-verified on Kaggle."
+ ]
+}

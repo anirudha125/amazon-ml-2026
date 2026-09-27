@@ -1,0 +1,1718 @@
+{
+ "France": {
+  "chunks": 173,
+  "pool_pairs": 33180559,
+  "nd_pairs": 2921426,
+  "nd_accepted": 254755,
+  "nd_kept": 244928,
+  "accepted_total_pairs_all_chunks": 879329,
+  "acc_rate_by_llr_bin": {
+   "all_nd": [
+    {
+     "bin": "[-99,-2)",
+     "pairs": 92339,
+     "accepted": 6581,
+     "kept": 6545,
+     "acc_rate": 0.0713
+    },
+    {
+     "bin": "[-2,-1)",
+     "pairs": 347723,
+     "accepted": 67662,
+     "kept": 66567,
+     "acc_rate": 0.1946
+    },
+    {
+     "bin": "[-1,0)",
+     "pairs": 1358226,
+     "accepted": 152175,
+     "kept": 146034,
+     "acc_rate": 0.112
+    },
+    {
+     "bin": "[0,1)",
+     "pairs": 201702,
+     "accepted": 11410,
+     "kept": 10920,
+     "acc_rate": 0.0566
+    },
+    {
+     "bin": "[1,2)",
+     "pairs": 210593,
+     "accepted": 6394,
+     "kept": 5681,
+     "acc_rate": 0.0304
+    },
+    {
+     "bin": "[2,99)",
+     "pairs": 660491,
+     "accepted": 8319,
+     "kept": 7092,
+     "acc_rate": 0.0126
+    }
+   ],
+   "real_word": [
+    {
+     "bin": "[-99,-2)",
+     "pairs": 64485,
+     "accepted": 5457,
+     "kept": 5433,
+     "acc_rate": 0.0846
+    },
+    {
+     "bin": "[-2,-1)",
+     "pairs": 330775,
+     "accepted": 65396,
+     "kept": 64326,
+     "acc_rate": 0.1977
+    },
+    {
+     "bin": "[-1,0)",
+     "pairs": 1292066,
+     "accepted": 129822,
+     "kept": 124068,
+     "acc_rate": 0.1005
+    },
+    {
+     "bin": "[0,1)",
+     "pairs": 185486,
+     "accepted": 7470,
+     "kept": 7018,
+     "acc_rate": 0.0403
+    },
+    {
+     "bin": "[1,2)",
+     "pairs": 160736,
+     "accepted": 2681,
+     "kept": 2165,
+     "acc_rate": 0.0167
+    },
+    {
+     "bin": "[2,99)",
+     "pairs": 483664,
+     "accepted": 1365,
+     "kept": 598,
+     "acc_rate": 0.0028
+    }
+   ],
+   "real_word_same_addr": [
+    {
+     "bin": "[-99,-2)",
+     "pairs": 6447,
+     "accepted": 4610,
+     "kept": 4610,
+     "acc_rate": 0.7151
+    },
+    {
+     "bin": "[-2,-1)",
+     "pairs": 56034,
+     "accepted": 54091,
+     "kept": 54017,
+     "acc_rate": 0.9653
+    },
+    {
+     "bin": "[-1,0)",
+     "pairs": 130493,
+     "accepted": 101309,
+     "kept": 100784,
+     "acc_rate": 0.7764
+    },
+    {
+     "bin": "[0,1)",
+     "pairs": 10731,
+     "accepted": 6090,
+     "kept": 6071,
+     "acc_rate": 0.5675
+    },
+    {
+     "bin": "[1,2)",
+     "pairs": 2404,
+     "accepted": 1826,
+     "kept": 1811,
+     "acc_rate": 0.7596
+    },
+    {
+     "bin": "[2,99)",
+     "pairs": 3363,
+     "accepted": 538,
+     "kept": 432,
+     "acc_rate": 0.16
+    }
+   ],
+   "real_word_not_same_addr": [
+    {
+     "bin": "[-99,-2)",
+     "pairs": 58038,
+     "accepted": 847,
+     "kept": 823,
+     "acc_rate": 0.0146
+    },
+    {
+     "bin": "[-2,-1)",
+     "pairs": 274741,
+     "accepted": 11305,
+     "kept": 10309,
+     "acc_rate": 0.0411
+    },
+    {
+     "bin": "[-1,0)",
+     "pairs": 1161573,
+     "accepted": 28513,
+     "kept": 23284,
+     "acc_rate": 0.0245
+    },
+    {
+     "bin": "[0,1)",
+     "pairs": 174755,
+     "accepted": 1380,
+     "kept": 947,
+     "acc_rate": 0.0079
+    },
+    {
+     "bin": "[1,2)",
+     "pairs": 158332,
+     "accepted": 855,
+     "kept": 354,
+     "acc_rate": 0.0054
+    },
+    {
+     "bin": "[2,99)",
+     "pairs": 480301,
+     "accepted": 827,
+     "kept": 166,
+     "acc_rate": 0.0017
+    }
+   ]
+  },
+  "token_level": {
+   "n_tokens": 3141,
+   "spearman_s_vs_acc_rate": -0.3712,
+   "top_by_pool_count": [
+    [
+     "sarl",
+     471558,
+     0.1049,
+     0.281
+    ],
+    [
+     "sas",
+     375407,
+     0.1135,
+     0.271
+    ],
+    [
+     "sa",
+     152255,
+     0.1213,
+     0.191
+    ],
+    [
+     "club",
+     132196,
+     0.0441,
+     0.398
+    ],
+    [
+     "eurl",
+     124198,
+     0.135,
+     0.212
+    ],
+    [
+     "sasu",
+     102777,
+     0.1481,
+     0.175
+    ],
+    [
+     "sci",
+     93383,
+     0.1372,
+     0.154
+    ],
+    [
+     "france",
+     84472,
+     0.0551,
+     0.128
+    ],
+    [
+     "comite",
+     78254,
+     0.045,
+     0.416
+    ],
+    [
+     "amicale",
+     77951,
+     0.0411,
+     0.421
+    ],
+    [
+     "groupe",
+     58861,
+     0.0119,
+     0.092
+    ],
+    [
+     "union",
+     54469,
+     0.0213,
+     0.444
+    ],
+    [
+     "cie",
+     53529,
+     0.1696,
+     0.193
+    ],
+    [
+     "ecole",
+     51324,
+     0.0505,
+     0.38
+    ],
+    [
+     "de",
+     47403,
+     0.0382,
+     0.683
+    ],
+    [
+     "du",
+     44898,
+     0.0316,
+     0.749
+    ],
+    [
+     "college",
+     43920,
+     0.0287,
+     0.47
+    ],
+    [
+     "amis",
+     42273,
+     0.0656,
+     0.378
+    ],
+    [
+     "developpement",
+     39828,
+     0.0632,
+     0.083
+    ],
+    [
+     "sportive",
+     39652,
+     0.0534,
+     0.382
+    ],
+    [
+     "federation",
+     37752,
+     0.0268,
+     0.5
+    ],
+    [
+     "fils",
+     36520,
+     0.1544,
+     0.215
+    ],
+    [
+     "centre",
+     35232,
+     0.0719,
+     0.378
+    ],
+    [
+     "lycee",
+     33678,
+     0.0249,
+     0.515
+    ],
+    [
+     "maison",
+     33652,
+     0.0283,
+     0.565
+    ],
+    [
+     "holding",
+     33059,
+     0.0001,
+     0.241
+    ],
+    [
+     "pharmacie",
+     31596,
+     0.0211,
+     0.485
+    ],
+    [
+     "distribution",
+     31532,
+     0.0006,
+     0.363
+    ],
+    [
+     "ets",
+     31465,
+     0.0006,
+     0.983
+    ],
+    [
+     "ei",
+     30495,
+     0.0772,
+     0.344
+    ]
+   ],
+   "high_s_ge_0_9": [
+    [
+     "ets",
+     31465,
+     0.0006,
+     0.983
+    ],
+    [
+     "bordeaux",
+     30148,
+     0.0003,
+     0.985
+    ],
+    [
+     "nantes",
+     28879,
+     0.0005,
+     0.99
+    ],
+    [
+     "lille",
+     27677,
+     0.0008,
+     0.986
+    ],
+    [
+     "enterprises",
+     26259,
+     0.0013,
+     1.0
+    ],
+    [
+     "tourcoing",
+     11395,
+     0.0006,
+     0.985
+    ],
+    [
+     "dunkerque",
+     11217,
+     0.0005,
+     0.993
+    ],
+    [
+     "roubaix",
+     10296,
+     0.0006,
+     0.986
+    ],
+    [
+     "calais",
+     10245,
+     0.0009,
+     0.982
+    ],
+    [
+     "deleves",
+     7312,
+     0.0022,
+     0.934
+    ],
+    [
+     "chasse",
+     6136,
+     0.0016,
+     0.937
+    ],
+    [
+     "pessac",
+     5526,
+     0.0005,
+     0.995
+    ],
+    [
+     "merignac",
+     4314,
+     0.0005,
+     0.997
+    ],
+    [
+     "the",
+     4139,
+     0.0043,
+     0.991
+    ],
+    [
+     "communale",
+     3710,
+     0.0022,
+     0.926
+    ],
+    [
+     "nationale",
+     3571,
+     0.0,
+     0.93
+    ],
+    [
+     "pornic",
+     3435,
+     0.0009,
+     0.986
+    ],
+    [
+     "team",
+     2966,
+     0.0108,
+     0.939
+    ],
+    [
+     "cercle",
+     2885,
+     0.0049,
+     0.927
+    ],
+    [
+     "publique",
+     2803,
+     0.0021,
+     0.926
+    ]
+   ]
+  },
+  "accepted_real_word_existing_columns_by_llr": {
+   "llr<0": {
+    "n": 200675,
+    "kept": 193827,
+    "p_median": 0.9994,
+    "p_q10": 0.9503,
+    "share_p_lt_0_95": 0.0996,
+    "share_same_addr": 0.7974,
+    "share_rv_rank_gt1": 0.0727,
+    "share_dupf_gt0": 0.3452,
+    "share_nf_n_gt0": 0.6205,
+    "share_coloc_gt0": 0.1425,
+    "median_rv_gap": 0.3313,
+    "median_idf_s1_only_max": 3.499,
+    "median_idf_c_only_max": 3.16
+   },
+   "0<=llr<1": {
+    "n": 7470,
+    "kept": 7018,
+    "p_median": 0.99939,
+    "p_q10": 0.9041,
+    "share_p_lt_0_95": 0.1632,
+    "share_same_addr": 0.8153,
+    "share_rv_rank_gt1": 0.1216,
+    "share_dupf_gt0": 0.3799,
+    "share_nf_n_gt0": 0.5861,
+    "share_coloc_gt0": 0.1486,
+    "median_rv_gap": 0.296,
+    "median_idf_s1_only_max": 5.522,
+    "median_idf_c_only_max": 4.595
+   },
+   "1<=llr<2": {
+    "n": 2681,
+    "kept": 2165,
+    "p_median": 0.99978,
+    "p_q10": 0.8996,
+    "share_p_lt_0_95": 0.1637,
+    "share_same_addr": 0.6811,
+    "share_rv_rank_gt1": 0.2339,
+    "share_dupf_gt0": 0.5203,
+    "share_nf_n_gt0": 0.7467,
+    "share_coloc_gt0": 0.1533,
+    "median_rv_gap": 0.2812,
+    "median_idf_s1_only_max": 5.077,
+    "median_idf_c_only_max": 0.0
+   },
+   "llr>=2": {
+    "n": 1365,
+    "kept": 598,
+    "p_median": 0.96713,
+    "p_q10": 0.8186,
+    "share_p_lt_0_95": 0.4337,
+    "share_same_addr": 0.3941,
+    "share_rv_rank_gt1": 0.6571,
+    "share_dupf_gt0": 0.4403,
+    "share_nf_n_gt0": 0.7033,
+    "share_coloc_gt0": 0.2132,
+    "median_rv_gap": -0.3111,
+    "median_idf_s1_only_max": 8.564,
+    "median_idf_c_only_max": 9.371
+   }
+  },
+  "kept_real_llr>=1": {
+   "pairs": 2763,
+   "s1": 2666,
+   "share_country_s1": 0.01028,
+   "same_addr": 2243,
+   "rv_rank_eq1": 2510,
+   "rv_rank_eq1_and_dupf0": 1410
+  },
+  "kept_real_llr>=2": {
+   "pairs": 598,
+   "s1": 594,
+   "share_country_s1": 0.00229,
+   "same_addr": 432,
+   "rv_rank_eq1": 463,
+   "rv_rank_eq1_and_dupf0": 246
+  }
+ },
+ "US": {
+  "chunks": 21,
+  "pool_pairs": 3897713,
+  "nd_pairs": 406274,
+  "nd_accepted": 45495,
+  "nd_kept": 45491,
+  "accepted_total_pairs_all_chunks": 2236533,
+  "acc_rate_by_llr_bin": {
+   "all_nd": [
+    {
+     "bin": "[-99,-2)",
+     "pairs": 44841,
+     "accepted": 9149,
+     "kept": 9149,
+     "acc_rate": 0.204
+    },
+    {
+     "bin": "[-2,-1)",
+     "pairs": 96694,
+     "accepted": 15288,
+     "kept": 15287,
+     "acc_rate": 0.1581
+    },
+    {
+     "bin": "[-1,0)",
+     "pairs": 39337,
+     "accepted": 5141,
+     "kept": 5141,
+     "acc_rate": 0.1307
+    },
+    {
+     "bin": "[0,1)",
+     "pairs": 87650,
+     "accepted": 8980,
+     "kept": 8977,
+     "acc_rate": 0.1025
+    },
+    {
+     "bin": "[1,2)",
+     "pairs": 69269,
+     "accepted": 4100,
+     "kept": 4100,
+     "acc_rate": 0.0592
+    },
+    {
+     "bin": "[2,99)",
+     "pairs": 47659,
+     "accepted": 1238,
+     "kept": 1238,
+     "acc_rate": 0.026
+    }
+   ],
+   "real_word": [
+    {
+     "bin": "[-99,-2)",
+     "pairs": 38648,
+     "accepted": 8539,
+     "kept": 8539,
+     "acc_rate": 0.2209
+    },
+    {
+     "bin": "[-2,-1)",
+     "pairs": 91471,
+     "accepted": 13458,
+     "kept": 13457,
+     "acc_rate": 0.1471
+    },
+    {
+     "bin": "[-1,0)",
+     "pairs": 33684,
+     "accepted": 2735,
+     "kept": 2735,
+     "acc_rate": 0.0812
+    },
+    {
+     "bin": "[0,1)",
+     "pairs": 73071,
+     "accepted": 4447,
+     "kept": 4444,
+     "acc_rate": 0.0609
+    },
+    {
+     "bin": "[1,2)",
+     "pairs": 57910,
+     "accepted": 1708,
+     "kept": 1708,
+     "acc_rate": 0.0295
+    },
+    {
+     "bin": "[2,99)",
+     "pairs": 42349,
+     "accepted": 358,
+     "kept": 358,
+     "acc_rate": 0.0085
+    }
+   ],
+   "real_word_same_addr": [
+    {
+     "bin": "[-99,-2)",
+     "pairs": 5906,
+     "accepted": 5867,
+     "kept": 5867,
+     "acc_rate": 0.9934
+    },
+    {
+     "bin": "[-2,-1)",
+     "pairs": 9364,
+     "accepted": 9256,
+     "kept": 9256,
+     "acc_rate": 0.9885
+    },
+    {
+     "bin": "[-1,0)",
+     "pairs": 1992,
+     "accepted": 1934,
+     "kept": 1934,
+     "acc_rate": 0.9709
+    },
+    {
+     "bin": "[0,1)",
+     "pairs": 3327,
+     "accepted": 3117,
+     "kept": 3117,
+     "acc_rate": 0.9369
+    },
+    {
+     "bin": "[1,2)",
+     "pairs": 1322,
+     "accepted": 1199,
+     "kept": 1199,
+     "acc_rate": 0.907
+    },
+    {
+     "bin": "[2,99)",
+     "pairs": 282,
+     "accepted": 261,
+     "kept": 261,
+     "acc_rate": 0.9255
+    }
+   ],
+   "real_word_not_same_addr": [
+    {
+     "bin": "[-99,-2)",
+     "pairs": 32742,
+     "accepted": 2672,
+     "kept": 2672,
+     "acc_rate": 0.0816
+    },
+    {
+     "bin": "[-2,-1)",
+     "pairs": 82107,
+     "accepted": 4202,
+     "kept": 4201,
+     "acc_rate": 0.0512
+    },
+    {
+     "bin": "[-1,0)",
+     "pairs": 31692,
+     "accepted": 801,
+     "kept": 801,
+     "acc_rate": 0.0253
+    },
+    {
+     "bin": "[0,1)",
+     "pairs": 69744,
+     "accepted": 1330,
+     "kept": 1327,
+     "acc_rate": 0.0191
+    },
+    {
+     "bin": "[1,2)",
+     "pairs": 56588,
+     "accepted": 509,
+     "kept": 509,
+     "acc_rate": 0.009
+    },
+    {
+     "bin": "[2,99)",
+     "pairs": 42067,
+     "accepted": 97,
+     "kept": 97,
+     "acc_rate": 0.0023
+    }
+   ]
+  },
+  "token_level": {
+   "n_tokens": 896,
+   "spearman_s_vs_acc_rate": -0.5011,
+   "top_by_pool_count": [
+    [
+     "llc",
+     53336,
+     0.1179,
+     0.212
+    ],
+    [
+     "inc",
+     44514,
+     0.1235,
+     0.159
+    ],
+    [
+     "corp",
+     16791,
+     0.0886,
+     0.107
+    ],
+    [
+     "co",
+     16665,
+     0.0671,
+     0.039
+    ],
+    [
+     "ltd",
+     13690,
+     0.0758,
+     0.02
+    ],
+    [
+     "center",
+     11678,
+     0.2644,
+     0.218
+    ],
+    [
+     "partners",
+     10970,
+     0.096,
+     0.39
+    ],
+    [
+     "group",
+     10727,
+     0.0494,
+     0.551
+    ],
+    [
+     "lp",
+     8420,
+     0.164,
+     0.081
+    ],
+    [
+     "holdings",
+     7711,
+     0.0154,
+     0.239
+    ],
+    [
+     "services",
+     6339,
+     0.3538,
+     0.039
+    ],
+    [
+     "pc",
+     5142,
+     0.1099,
+     0.212
+    ],
+    [
+     "pllc",
+     4668,
+     0.0615,
+     0.295
+    ],
+    [
+     "enterprises",
+     4581,
+     0.0085,
+     0.466
+    ],
+    [
+     "corporation",
+     3996,
+     0.3211,
+     0.058
+    ],
+    [
+     "service",
+     3393,
+     0.3366,
+     0.006
+    ],
+    [
+     "the",
+     3198,
+     0.4343,
+     0.0
+    ],
+    [
+     "associates",
+     3132,
+     0.0699,
+     0.693
+    ],
+    [
+     "clinic",
+     2669,
+     0.051,
+     0.722
+    ],
+    [
+     "bay",
+     2609,
+     0.0011,
+     0.936
+    ],
+    [
+     "care",
+     2601,
+     0.09,
+     0.691
+    ],
+    [
+     "uptown",
+     2460,
+     0.0,
+     0.953
+    ],
+    [
+     "trading",
+     2341,
+     0.0073,
+     0.426
+    ],
+    [
+     "downtown",
+     2328,
+     0.0,
+     0.96
+    ],
+    [
+     "harbor",
+     2186,
+     0.0032,
+     0.85
+    ],
+    [
+     "silver",
+     2098,
+     0.0062,
+     0.849
+    ],
+    [
+     "global",
+     1946,
+     0.0216,
+     0.756
+    ],
+    [
+     "valley",
+     1913,
+     0.0063,
+     0.867
+    ],
+    [
+     "coastal",
+     1895,
+     0.0016,
+     0.829
+    ],
+    [
+     "blue",
+     1881,
+     0.0085,
+     0.905
+    ]
+   ],
+   "high_s_ge_0_9": [
+    [
+     "bay",
+     2609,
+     0.0011,
+     0.936
+    ],
+    [
+     "uptown",
+     2460,
+     0.0,
+     0.953
+    ],
+    [
+     "downtown",
+     2328,
+     0.0,
+     0.96
+    ],
+    [
+     "blue",
+     1881,
+     0.0085,
+     0.905
+    ],
+    [
+     "corner",
+     1575,
+     0.0013,
+     0.976
+    ],
+    [
+     "cure",
+     1255,
+     0.0024,
+     0.911
+    ],
+    [
+     "red",
+     1233,
+     0.0008,
+     0.984
+    ],
+    [
+     "pacific",
+     1137,
+     0.0097,
+     0.908
+    ],
+    [
+     "midwest",
+     1011,
+     0.0089,
+     0.916
+    ],
+    [
+     "cascade",
+     959,
+     0.0063,
+     0.915
+    ],
+    [
+     "desert",
+     904,
+     0.0044,
+     0.922
+    ],
+    [
+     "fresh",
+     899,
+     0.0122,
+     0.904
+    ],
+    [
+     "little",
+     889,
+     0.0022,
+     0.969
+    ],
+    [
+     "prairie",
+     865,
+     0.0081,
+     0.907
+    ],
+    [
+     "st",
+     810,
+     0.0025,
+     0.956
+    ],
+    [
+     "saint",
+     758,
+     0.0013,
+     0.982
+    ],
+    [
+     "big",
+     740,
+     0.0027,
+     0.976
+    ],
+    [
+     "southern",
+     657,
+     0.003,
+     0.918
+    ],
+    [
+     "lower",
+     644,
+     0.0,
+     0.95
+    ],
+    [
+     "upper",
+     602,
+     0.0,
+     0.987
+    ]
+   ]
+  },
+  "accepted_real_word_existing_columns_by_llr": {
+   "llr<0": {
+    "n": 24732,
+    "kept": 24731,
+    "p_median": 0.99991,
+    "p_q10": 0.9977,
+    "share_p_lt_0_95": 0.0161,
+    "share_same_addr": 0.6897,
+    "share_rv_rank_gt1": 0.0084,
+    "share_dupf_gt0": 0.2765,
+    "share_nf_n_gt0": 0.9801,
+    "share_coloc_gt0": 0.0555,
+    "median_rv_gap": 0.5242,
+    "median_idf_s1_only_max": 2.274,
+    "median_idf_c_only_max": 2.555
+   },
+   "0<=llr<1": {
+    "n": 4447,
+    "kept": 4444,
+    "p_median": 0.99988,
+    "p_q10": 0.9978,
+    "share_p_lt_0_95": 0.0135,
+    "share_same_addr": 0.7009,
+    "share_rv_rank_gt1": 0.0196,
+    "share_dupf_gt0": 0.2161,
+    "share_nf_n_gt0": 0.9002,
+    "share_coloc_gt0": 0.0474,
+    "median_rv_gap": 0.4874,
+    "median_idf_s1_only_max": 7.163,
+    "median_idf_c_only_max": 4.158
+   },
+   "1<=llr<2": {
+    "n": 1708,
+    "kept": 1708,
+    "p_median": 0.99988,
+    "p_q10": 0.9976,
+    "share_p_lt_0_95": 0.0193,
+    "share_same_addr": 0.702,
+    "share_rv_rank_gt1": 0.0228,
+    "share_dupf_gt0": 0.4573,
+    "share_nf_n_gt0": 0.7986,
+    "share_coloc_gt0": 0.0556,
+    "median_rv_gap": 0.4559,
+    "median_idf_s1_only_max": 6.114,
+    "median_idf_c_only_max": 4.508
+   },
+   "llr>=2": {
+    "n": 358,
+    "kept": 358,
+    "p_median": 0.99987,
+    "p_q10": 0.9978,
+    "share_p_lt_0_95": 0.0084,
+    "share_same_addr": 0.7291,
+    "share_rv_rank_gt1": 0.0307,
+    "share_dupf_gt0": 0.3101,
+    "share_nf_n_gt0": 0.8855,
+    "share_coloc_gt0": 0.067,
+    "median_rv_gap": 0.4559,
+    "median_idf_s1_only_max": 6.253,
+    "median_idf_c_only_max": 4.46
+   }
+  },
+  "kept_real_llr>=1": {
+   "pairs": 2066,
+   "s1": 1819,
+   "share_country_s1": 0.00274,
+   "same_addr": 1460,
+   "rv_rank_eq1": 2016,
+   "rv_rank_eq1_and_dupf0": 1148
+  },
+  "kept_real_llr>=2": {
+   "pairs": 358,
+   "s1": 323,
+   "share_country_s1": 0.00049,
+   "same_addr": 261,
+   "rv_rank_eq1": 347,
+   "rv_rank_eq1_and_dupf0": 242
+  }
+ },
+ "India": {
+  "chunks": 20,
+  "pool_pairs": 3870367,
+  "nd_pairs": 221372,
+  "nd_accepted": 40704,
+  "nd_kept": 40671,
+  "accepted_total_pairs_all_chunks": 2730863,
+  "acc_rate_by_llr_bin": {
+   "all_nd": [
+    {
+     "bin": "[-99,-2)",
+     "pairs": 61235,
+     "accepted": 22003,
+     "kept": 21990,
+     "acc_rate": 0.3593
+    },
+    {
+     "bin": "[-2,-1)",
+     "pairs": 13091,
+     "accepted": 3080,
+     "kept": 3077,
+     "acc_rate": 0.2353
+    },
+    {
+     "bin": "[-1,0)",
+     "pairs": 45671,
+     "accepted": 6959,
+     "kept": 6956,
+     "acc_rate": 0.1524
+    },
+    {
+     "bin": "[0,1)",
+     "pairs": 25747,
+     "accepted": 3590,
+     "kept": 3584,
+     "acc_rate": 0.1394
+    },
+    {
+     "bin": "[1,2)",
+     "pairs": 39492,
+     "accepted": 3206,
+     "kept": 3202,
+     "acc_rate": 0.0812
+    },
+    {
+     "bin": "[2,99)",
+     "pairs": 33131,
+     "accepted": 1294,
+     "kept": 1290,
+     "acc_rate": 0.0391
+    }
+   ],
+   "real_word": [
+    {
+     "bin": "[-99,-2)",
+     "pairs": 57152,
+     "accepted": 20147,
+     "kept": 20136,
+     "acc_rate": 0.3525
+    },
+    {
+     "bin": "[-2,-1)",
+     "pairs": 11710,
+     "accepted": 2566,
+     "kept": 2564,
+     "acc_rate": 0.2191
+    },
+    {
+     "bin": "[-1,0)",
+     "pairs": 37551,
+     "accepted": 3128,
+     "kept": 3127,
+     "acc_rate": 0.0833
+    },
+    {
+     "bin": "[0,1)",
+     "pairs": 20259,
+     "accepted": 1622,
+     "kept": 1619,
+     "acc_rate": 0.0801
+    },
+    {
+     "bin": "[1,2)",
+     "pairs": 32158,
+     "accepted": 1452,
+     "kept": 1450,
+     "acc_rate": 0.0452
+    },
+    {
+     "bin": "[2,99)",
+     "pairs": 28450,
+     "accepted": 498,
+     "kept": 497,
+     "acc_rate": 0.0175
+    }
+   ],
+   "real_word_same_addr": [
+    {
+     "bin": "[-99,-2)",
+     "pairs": 7586,
+     "accepted": 6795,
+     "kept": 6795,
+     "acc_rate": 0.8957
+    },
+    {
+     "bin": "[-2,-1)",
+     "pairs": 1045,
+     "accepted": 907,
+     "kept": 907,
+     "acc_rate": 0.8679
+    },
+    {
+     "bin": "[-1,0)",
+     "pairs": 2212,
+     "accepted": 1112,
+     "kept": 1112,
+     "acc_rate": 0.5027
+    },
+    {
+     "bin": "[0,1)",
+     "pairs": 877,
+     "accepted": 560,
+     "kept": 560,
+     "acc_rate": 0.6385
+    },
+    {
+     "bin": "[1,2)",
+     "pairs": 1020,
+     "accepted": 505,
+     "kept": 505,
+     "acc_rate": 0.4951
+    },
+    {
+     "bin": "[2,99)",
+     "pairs": 269,
+     "accepted": 170,
+     "kept": 170,
+     "acc_rate": 0.632
+    }
+   ],
+   "real_word_not_same_addr": [
+    {
+     "bin": "[-99,-2)",
+     "pairs": 49566,
+     "accepted": 13352,
+     "kept": 13341,
+     "acc_rate": 0.2694
+    },
+    {
+     "bin": "[-2,-1)",
+     "pairs": 10665,
+     "accepted": 1659,
+     "kept": 1657,
+     "acc_rate": 0.1556
+    },
+    {
+     "bin": "[-1,0)",
+     "pairs": 35339,
+     "accepted": 2016,
+     "kept": 2015,
+     "acc_rate": 0.057
+    },
+    {
+     "bin": "[0,1)",
+     "pairs": 19382,
+     "accepted": 1062,
+     "kept": 1059,
+     "acc_rate": 0.0548
+    },
+    {
+     "bin": "[1,2)",
+     "pairs": 31138,
+     "accepted": 947,
+     "kept": 945,
+     "acc_rate": 0.0304
+    },
+    {
+     "bin": "[2,99)",
+     "pairs": 28181,
+     "accepted": 328,
+     "kept": 327,
+     "acc_rate": 0.0116
+    }
+   ]
+  },
+  "token_level": {
+   "n_tokens": 348,
+   "spearman_s_vs_acc_rate": -0.4916,
+   "top_by_pool_count": [
+    [
+     "limited",
+     40426,
+     0.3366,
+     0.032
+    ],
+    [
+     "ltd",
+     19995,
+     0.4515,
+     0.01
+    ],
+    [
+     "private",
+     16252,
+     0.0905,
+     0.336
+    ],
+    [
+     "center",
+     8859,
+     0.3016,
+     0.008
+    ],
+    [
+     "services",
+     8228,
+     0.2448,
+     0.218
+    ],
+    [
+     "llp",
+     6892,
+     0.1547,
+     0.168
+    ],
+    [
+     "co",
+     6158,
+     0.1682,
+     0.156
+    ],
+    [
+     "enterprises",
+     5207,
+     0.0119,
+     0.387
+    ],
+    [
+     "industries",
+     3473,
+     0.0204,
+     0.381
+    ],
+    [
+     "partners",
+     3257,
+     0.2475,
+     0.053
+    ],
+    [
+     "group",
+     3101,
+     0.0564,
+     0.066
+    ],
+    [
+     "ventures",
+     3100,
+     0.0197,
+     0.394
+    ],
+    [
+     "service",
+     3050,
+     0.303,
+     0.015
+    ],
+    [
+     "public",
+     3009,
+     0.0086,
+     0.035
+    ],
+    [
+     "pvt",
+     3004,
+     0.0,
+     0.758
+    ],
+    [
+     "india",
+     2823,
+     0.1056,
+     0.378
+    ],
+    [
+     "holdings",
+     2664,
+     0.0233,
+     0.068
+    ],
+    [
+     "exports",
+     2562,
+     0.0121,
+     0.382
+    ],
+    [
+     "trading",
+     2512,
+     0.0494,
+     0.645
+    ],
+    [
+     "corp",
+     2436,
+     0.3103,
+     0.038
+    ],
+    [
+     "corporation",
+     2329,
+     0.3409,
+     0.039
+    ],
+    [
+     "company",
+     2230,
+     0.3444,
+     0.044
+    ],
+    [
+     "overseas",
+     2182,
+     0.0018,
+     0.045
+    ],
+    [
+     "solutions",
+     2116,
+     0.0468,
+     0.605
+    ],
+    [
+     "infratech",
+     2064,
+     0.0039,
+     0.045
+    ],
+    [
+     "technologies",
+     1659,
+     0.0579,
+     0.625
+    ],
+    [
+     "mr",
+     1650,
+     0.3994,
+     0.002
+    ],
+    [
+     "sri",
+     1647,
+     0.4007,
+     0.0
+    ],
+    [
+     "dr",
+     1600,
+     0.3956,
+     0.002
+    ],
+    [
+     "brothers",
+     1563,
+     0.0678,
+     0.495
+    ]
+   ],
+   "high_s_ge_0_9": [
+    [
+     "mumbai",
+     751,
+     0.0053,
+     0.97
+    ],
+    [
+     "sai",
+     486,
+     0.0185,
+     0.952
+    ],
+    [
+     "green",
+     420,
+     0.0286,
+     0.908
+    ],
+    [
+     "jai",
+     411,
+     0.0122,
+     0.983
+    ],
+    [
+     "jay",
+     411,
+     0.0073,
+     0.981
+    ],
+    [
+     "shree",
+     382,
+     0.0079,
+     0.95
+    ],
+    [
+     "bangalore",
+     374,
+     0.008,
+     0.941
+    ],
+    [
+     "al",
+     329,
+     0.0213,
+     0.973
+    ],
+    [
+     "one",
+     323,
+     0.0279,
+     0.956
+    ],
+    [
+     "pune",
+     320,
+     0.0,
+     0.973
+    ],
+    [
+     "chennai",
+     319,
+     0.0094,
+     0.969
+    ],
+    [
+     "eastern",
+     316,
+     0.0127,
+     0.967
+    ],
+    [
+     "hyderabad",
+     305,
+     0.0,
+     0.98
+    ],
+    [
+     "bharat",
+     300,
+     0.03,
+     0.936
+    ],
+    [
+     "east",
+     297,
+     0.0168,
+     0.954
+    ],
+    [
+     "kolkata",
+     296,
+     0.0034,
+     0.924
+    ],
+    [
+     "south",
+     284,
+     0.0176,
+     0.941
+    ],
+    [
+     "golden",
+     284,
+     0.0035,
+     0.948
+    ],
+    [
+     "gujarat",
+     284,
+     0.0141,
+     0.964
+    ],
+    [
+     "new",
+     282,
+     0.0071,
+     0.987
+    ]
+   ]
+  },
+  "accepted_real_word_existing_columns_by_llr": {
+   "llr<0": {
+    "n": 25841,
+    "kept": 25827,
+    "p_median": 0.99993,
+    "p_q10": 0.9976,
+    "share_p_lt_0_95": 0.0157,
+    "share_same_addr": 0.3411,
+    "share_rv_rank_gt1": 0.0507,
+    "share_dupf_gt0": 0.3289,
+    "share_nf_n_gt0": 0.9328,
+    "share_coloc_gt0": 0.0606,
+    "median_rv_gap": 0.4985,
+    "median_idf_s1_only_max": 1.286,
+    "median_idf_c_only_max": 2.555
+   },
+   "0<=llr<1": {
+    "n": 1622,
+    "kept": 1619,
+    "p_median": 0.99968,
+    "p_q10": 0.9927,
+    "share_p_lt_0_95": 0.029,
+    "share_same_addr": 0.3453,
+    "share_rv_rank_gt1": 0.0962,
+    "share_dupf_gt0": 0.3126,
+    "share_nf_n_gt0": 0.8755,
+    "share_coloc_gt0": 0.0598,
+    "median_rv_gap": 0.4352,
+    "median_idf_s1_only_max": 5.178,
+    "median_idf_c_only_max": 4.508
+   },
+   "1<=llr<2": {
+    "n": 1452,
+    "kept": 1450,
+    "p_median": 0.99973,
+    "p_q10": 0.9913,
+    "share_p_lt_0_95": 0.0351,
+    "share_same_addr": 0.3478,
+    "share_rv_rank_gt1": 0.1116,
+    "share_dupf_gt0": 0.5289,
+    "share_nf_n_gt0": 0.8809,
+    "share_coloc_gt0": 0.0613,
+    "median_rv_gap": 0.4372,
+    "median_idf_s1_only_max": 5.275,
+    "median_idf_c_only_max": 4.508
+   },
+   "llr>=2": {
+    "n": 498,
+    "kept": 497,
+    "p_median": 0.99988,
+    "p_q10": 0.9969,
+    "share_p_lt_0_95": 0.0281,
+    "share_same_addr": 0.3414,
+    "share_rv_rank_gt1": 0.1084,
+    "share_dupf_gt0": 0.51,
+    "share_nf_n_gt0": 0.7912,
+    "share_coloc_gt0": 0.0542,
+    "median_rv_gap": 0.4476,
+    "median_idf_s1_only_max": 5.874,
+    "median_idf_c_only_max": 9.416
+   }
+  },
+  "kept_real_llr>=1": {
+   "pairs": 1947,
+   "s1": 1778,
+   "share_country_s1": 0.0022,
+   "same_addr": 675,
+   "rv_rank_eq1": 1734,
+   "rv_rank_eq1_and_dupf0": 860
+  },
+  "kept_real_llr>=2": {
+   "pairs": 497,
+   "s1": 466,
+   "share_country_s1": 0.00058,
+   "same_addr": 170,
+   "rv_rank_eq1": 444,
+   "rv_rank_eq1_and_dupf0": 225
+  }
+ }
+}

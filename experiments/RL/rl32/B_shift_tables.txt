@@ -1,0 +1,117 @@
+pairs per S1 by p6 band (rebuilt sample): {"France": {"[0.01,0.05)": 0.8879, "[0.05,0.25)": 0.546, "[0.25,0.5)": 0.1919, "[0.5,0.72)": 0.1033, "[0.72,0.9)": 0.1135, "[0.9,0.99)": 0.2928, "[0.99,1.01)": 2.9362, "sum_p": 3.5409}, "US": {"[0.01,0.05)": 0.6681, "[0.05,0.25)": 0.1835, "[0.25,0.5)": 0.0593, "[0.5,0.72)": 0.0285, "[0.72,0.9)": 0.0286, "[0.9,0.99)": 0.1023, "[0.99,1.01)": 3.2479, "sum_p": 3.4494}, "India": {"[0.01,0.05)": 0.6384, "[0.05,0.25)": 0.1972, "[0.25,0.5)": 0.0523, "[0.5,0.72)": 0.0283, "[0.72,0.9)": 0.0302, "[0.9,0.99)": 0.1084, "[0.99,1.01)": 3.2414, "sum_p": 3.4487}}
+[A:all113] France vs US/India TEST accepted: AUC 0.9999; group gain {'NUM': 0.3505, 'X22_src_ctry': 0.3068, 'C_idf': 0.1228, 'TOK': 0.1222, 'RL27': 0.0381, 'X22_addr': 0.0276, 'X22_name': 0.014, 'D_addrcnt': 0.0054, 'rrL': 0.0054, 'dense': 0.0027, 'A_block': 0.0025, 'X22_rank': 0.0008, 'rrUb': 0.0007, 'B_ret': 0.0003, 'E_xsrc': 0.0002}
+   top gain: is_india=0.3054, lnum_len=0.2909, C_idf_min=0.11, addr_n_s1_only=0.0375, addr_frac_c_only=0.0373, max_shared_len=0.0225, rv_so=0.0182, num_jaccard=0.0148, rv_gap=0.0134, ad_tsort=0.013, s1_n_num=0.0126, addr_frac_s1_only=0.0118
+[A:no_is_india] France vs US/India TEST accepted: AUC 0.9997; group gain {'NUM': 0.3725, 'C_idf': 0.3014, 'TOK': 0.1259, 'RL27': 0.0685, 'X22_addr': 0.0588, 'X22_name': 0.0485, 'rrL': 0.0067, 'D_addrcnt': 0.0051, 'dense': 0.0044, 'A_block': 0.0041, 'X22_rank': 0.0019, 'X22_src_ctry': 0.0012, 'B_ret': 0.0005, 'E_xsrc': 0.0003, 'rrUb': 0.0002}
+   top gain: C_idf_min=0.2819, lnum_len=0.2245, c_n_num=0.0487, ad_tsort=0.0428, s1_n_num=0.0367, rv_so=0.0292, nm_jacc=0.0273, idf_s1_only_sum=0.0228, addr_n_s1_only=0.0223, rv_gap=0.0222, max_shared_len=0.0214, addr_frac_c_only=0.02
+[A:France_vs_US] AUC 0.9999; top: lnum_len=0.4488, C_idf_min=0.1021, addr_n_s1_only=0.061, addr_frac_c_only=0.0559, max_shared_len=0.0531, rv_gap=0.0315, num_jaccard=0.0253, rv_so=0.0213, ad_tsort=0.0188, addr_frac_s1_only=0.0165, s1_n_num=0.0148, ad_jacc=0.0109
+[A:US_vs_India control, no is_india] AUC 0.9997
+
+Univariate shift, accepted pairs (France vs US, KS; top 25):
+col                      grp           KS_US KS_USI    mean_F  mean_USI shift_sd S006gain
+lnum_len                 NUM           0.746  0.544     1.915     2.928    -0.86   0.0000
+max_shared_len           NUM           0.597  0.442     1.620     2.365    -0.45   0.0000
+rv_so                    RL27          0.443  0.368     0.675     0.540     0.68   0.0027
+rv_gap                   RL27          0.443  0.368     0.310     0.446    -0.56   0.0005
+addr_n_s1_only           TOK           0.358  0.227     2.183     1.954     0.10   0.0000
+ad_tsort                 X22_addr      0.344  0.333     0.796     0.831    -0.18   0.0001
+addr_frac_c_only         TOK           0.279  0.152     0.148     0.219    -0.24   0.0001
+C_idf_min                C_idf         0.272  0.447     4.315     3.584     0.27   0.0001
+s1_n_num                 NUM           0.234  0.386     1.031     1.622    -0.54   0.0000
+ad_lev                   X22_addr      0.217  0.222     0.624     0.657    -0.12   0.0000
+dcos                     dense         0.217  0.153     0.872     0.895    -0.29   0.0155
+num_jaccard              NUM           0.215  0.252     0.800     0.621     0.28   0.0000
+af_n                     RL27          0.203  0.045    61.281    26.614     0.04   0.0003
+c_n_num                  NUM           0.199  0.363     0.940     1.531    -0.52   0.0000
+af_a                     RL27          0.191  0.051     0.551     0.500     0.10   0.0000
+ad_tset                  X22_addr      0.181  0.074     0.898     0.891     0.04   0.0001
+rrL                      rrL           0.175  0.129     7.957     8.571    -0.33   0.8620
+addr_frac_s1_only        TOK           0.158  0.179     0.281     0.253     0.09   0.0001
+n_s1_unmatched_nums      NUM           0.156  0.125     0.058     0.226    -0.28   0.0000
+C_idf_sum                C_idf         0.155  0.111    16.324    15.905     0.04   0.0002
+all_s1_nums_matched      NUM           0.153  0.163     0.798     0.607     0.28   0.0000
+lnum_pool_frac           NUM           0.152  0.111     0.089     0.071     0.07   0.0001
+C_n_shared               C_idf         0.151  0.138     2.381     2.541    -0.12   0.0000
+idf_s1_only_sum          TOK           0.145  0.142     4.035     5.165    -0.17   0.0001
+ad_jacc                  X22_addr      0.142  0.112     0.623     0.605     0.07   0.0001
+
+S006 stage-2 mean SHAP (logit) by group, accepted:
+group          France       US    India   F-USIavg
+X22_name        0.146    0.131    0.109   +0.026
+X22_addr        0.180    0.208    0.206   -0.027
+X22_src_ctry    0.003    0.003   -0.003   +0.003
+X22_rank        0.147    0.170    0.146   -0.011
+A_block         1.188    1.179    1.237   -0.020
+B_ret           0.054    0.070    0.056   -0.009
+C_idf           0.033    0.023    0.046   -0.002
+D_addrcnt       0.014    0.010    0.007   +0.006
+E_xsrc         -0.016   -0.016   -0.013   -0.002
+NUM             0.303    0.291    0.234   +0.040
+TOK             0.933    0.902    0.795   +0.085
+dense           2.697    2.601    2.791   +0.001
+rrUb            2.964    3.103    3.097   -0.136
+RL27            2.761    2.905    2.632   -0.007
+rrL             9.713   10.171   10.369   -0.557
+logit           8.649    9.280    9.237   -0.610
+
+S006 stage-2 mean SHAP (logit) by group, band_.25_.72:
+group          France       US    India   F-USIavg
+X22_name        0.138    0.162    0.158   -0.023
+X22_addr        0.077    0.054    0.059   +0.021
+X22_src_ctry    0.002    0.001   -0.002   +0.002
+X22_rank        0.061    0.077    0.056   -0.005
+A_block         1.009    0.928    0.903   +0.093
+B_ret           0.020    0.035    0.023   -0.010
+C_idf           0.028   -0.002    0.052   +0.003
+D_addrcnt       0.014    0.043    0.007   -0.010
+E_xsrc         -0.005   -0.017   -0.007   +0.007
+NUM             0.216    0.224    0.229   -0.010
+TOK             0.961    1.120    1.014   -0.106
+dense           2.712    2.432    2.876   +0.057
+rrUb            1.248    1.099    1.177   +0.110
+RL27            1.394    2.040    1.237   -0.245
+rrL             4.367    4.014    4.466   +0.127
+logit          -0.230   -0.261   -0.225   +0.013
+
+S006 stage-2 mean SHAP (logit) by group, acc_.72_.99:
+group          France       US    India   F-USIavg
+X22_name        0.193    0.221    0.228   -0.032
+X22_addr        0.158    0.130    0.127   +0.029
+X22_src_ctry    0.003    0.002   -0.002   +0.004
+X22_rank        0.100    0.105    0.087   +0.004
+A_block         1.026    0.964    1.049   +0.020
+B_ret           0.033    0.046    0.039   -0.010
+C_idf           0.039    0.023    0.056   -0.001
+D_addrcnt       0.028    0.038    0.019   -0.001
+E_xsrc          0.000   -0.005   -0.003   +0.004
+NUM             0.274    0.288    0.220   +0.020
+TOK             1.003    1.129    1.030   -0.077
+dense           2.367    2.222    2.621   -0.055
+rrUb            1.700    1.521    1.607   +0.137
+RL27            2.642    3.370    2.487   -0.286
+rrL             5.883    5.646    6.097   +0.012
+logit           2.977    3.228    3.190   -0.232
+
+[B:France TEST vs T, p>=.05] 2-fold AUC [0.9999710898090116, 0.9999743291425086]; ESS 229/192439; query no-support (P>0.99) 0.9702 (accepted 0.9721); top gain is_india=0.2615, lnum_len=0.231, C_idf_min=0.1045, idf_c_only_max=0.0992, max_shared_len=0.0559, addr_frac_c_only=0.0283, addr_n_s1_only=0.0266, idf_c_only_sum=0.0236
+band               n_T      ESS  prec_T    pm_T prec_Tw   pm_Tw    q/S1    q_pm q_nosup
+[0.05,0.25)      12048     51.4  0.1158  0.1112  0.1000  0.1121  0.5460  0.1209  0.9591
+[0.25,0.5)        3448     19.4  0.3541  0.3572  0.1872  0.3472  0.1919  0.3597  0.9674
+[0.5,0.72)        1472      6.8  0.5340  0.6015  0.4009  0.5627  0.1033  0.6071  0.9743
+[0.72,0.9)        1593     16.2  0.8355  0.8258  0.7980  0.8390  0.1135  0.8225  0.9751
+[0.9,0.99)        5639     18.7  0.9768  0.9680  0.9914  0.9623  0.2928  0.9644  0.9739
+[0.99,1.01)     168239    138.0  0.9998  0.9996  0.9999  0.9994  2.9362  0.9995  0.9718
+  FP per S1 among accepted: covariate-shift 0.0257 | unweighted-T precision 0.0261 | model self-expectation 0.0320
+  true links per S1 (p>=.05 pairs): covariate-shift 3.4488 | model sum-p 3.5083
+
+[B:USI TEST vs T, p>=.05] 2-fold AUC [0.9991949743746525, 0.9992939208649477]; ESS 10233/192439; query no-support (P>0.99) 0.7339 (accepted 0.7405); top gain C_idf_min=0.3641, idf_c_only_max=0.3312, idf_c_only_sum=0.0604, idf_s1_only_sum=0.0489, C_idf_max=0.0373, idf_s1_only_max=0.0261, idf_s1_only_soft=0.026, is_india=0.0192
+band               n_T      ESS  prec_T    pm_T prec_Tw   pm_Tw    q/S1    q_pm q_nosup
+[0.05,0.25)      12048    839.2  0.1158  0.1112  0.0925  0.1065  0.1903  0.1094  0.6302
+[0.25,0.5)        3448    230.6  0.3541  0.3572  0.3066  0.3584  0.0558  0.3606  0.6935
+[0.5,0.72)        1472     56.6  0.5340  0.6015  0.5259  0.5943  0.0284  0.6037  0.7213
+[0.72,0.9)        1593     71.8  0.8355  0.8258  0.7742  0.8290  0.0294  0.8254  0.7243
+[0.9,0.99)        5639    234.0  0.9768  0.9680  0.9821  0.9705  0.1054  0.9686  0.7639
+[0.99,1.01)     168239   8845.5  0.9998  0.9996  0.9998  0.9996  3.2447  0.9996  0.7399
+  FP per S1 among accepted: covariate-shift 0.0092 | unweighted-T precision 0.0079 | model self-expectation 0.0097
+  true links per S1 (p>=.05 pairs): covariate-shift 3.4200 | model sum-p 3.4277
+
+kNN support (mean dist to 10 NN among T accepted, top-20 S006 features, IQR-scaled): {"France": {"median": 1.4381, "p90": 5.0098, "share_gt_USIp95": 0.0497, "share_gt_USIp99": 0.012}, "US": {"median": 1.1006, "p90": 3.8697, "share_gt_USIp95": 0.0338, "share_gt_USIp99": 0.0044}, "India": {"median": 1.4618, "p90": 5.5162, "share_gt_USIp95": 0.0662, "share_gt_USIp99": 0.0156}, "T_heldout": {"median": 1.2951, "p90": 4.3026, "share_gt_USIp95": 0.0362, "share_gt_USIp99": 0.0059}}
+pred_leaf support (T rows per leaf, S006 stage-2 300 trees), accepted pairs: {"France": {"min_leaf_T": 1533.0, "trees_leaf_lt100": 0.073, "share_any_leaf_lt20": 0.0005, "share_ge5_trees_lt100": 0.0012, "mean_leaf_pos_rate_min": 0.0072}, "US": {"min_leaf_T": 1885.0, "trees_leaf_lt100": 0.03, "share_any_leaf_lt20": 0.0003, "share_ge5_trees_lt100": 0.0007, "mean_leaf_pos_rate_min": 0.0073}, "India": {"min_leaf_T": 1484.0, "trees_leaf_lt100": 0.037, "share_any_leaf_lt20": 0.0007, "share_ge5_trees_lt100": 0.001, "mean_leaf_pos_rate_min": 0.0055}}

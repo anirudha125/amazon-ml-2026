@@ -1,0 +1,1292 @@
+{
+ "France_PP_pairs": 595690,
+ "France_PP_distinct_S1": 226842,
+ "repro_token_rates": {
+  "dunkerque": {
+   "claimed": 0.069,
+   "TA": 0.0693,
+   "TB": 0.0693,
+   "has_TA": 4402
+  },
+  "lille": {
+   "claimed": 0.078,
+   "TA": 0.0784,
+   "TB": 0.0784,
+   "has_TA": 8303
+  },
+  "bordeaux": {
+   "claimed": 0.085,
+   "TA": 0.0848,
+   "TB": 0.0848,
+   "has_TA": 10303
+  },
+  "ets": {
+   "claimed": 0.076,
+   "TA": 0.0762,
+   "TB": 0.0762,
+   "has_TA": 12183
+  },
+  "etablissements": {
+   "claimed": 0.076,
+   "TA": 0.0755,
+   "TB": 0.0755,
+   "has_TA": 12511
+  },
+  "club": {
+   "claimed": 0.145,
+   "TA": 0.1445,
+   "TB": 0.1445,
+   "has_TA": 51255
+  },
+  "ecole": {
+   "claimed": 0.117,
+   "TA": 0.1171,
+   "TB": 0.1171,
+   "has_TA": 34797
+  },
+  "amicale": {
+   "claimed": 0.135,
+   "TA": 0.1349,
+   "TB": 0.1349,
+   "has_TA": 32789
+  },
+  "parents": {
+   "claimed": 0.166,
+   "TA": 0.1661,
+   "TB": 0.1661,
+   "has_TA": 12406
+  },
+  "sarl": {
+   "claimed": 0.264,
+   "TA": 0.2637,
+   "TB": 0.2992,
+   "has_TA": 170235
+  },
+  "sas": {
+   "claimed": 0.265,
+   "TA": 0.2655,
+   "TB": 0.3753,
+   "has_TA": 122118
+  },
+  "eurl": {
+   "claimed": 0.26,
+   "TA": 0.2597,
+   "TB": 0.3681,
+   "has_TA": 39697
+  },
+  "sasu": {
+   "claimed": 0.259,
+   "TA": 0.2587,
+   "TB": 0.3668,
+   "has_TA": 25055
+  },
+  "freres": {
+   "claimed": 0.246,
+   "TA": 0.2463,
+   "TB": 0.2463,
+   "has_TA": 12011
+  }
+ },
+ "France_nonlegal_ge2000_TA": {
+  "n": 87,
+  "median": 0.1216,
+  "min": 0.0673,
+  "max": 0.2463
+ },
+ "France_content_ge2000_TA": {
+  "n": 83,
+  "median": 0.1227,
+  "min": 0.0673,
+  "max": 0.2463,
+  "p10": 0.0794,
+  "p90": 0.1655
+ },
+ "France_nonlegal_ge2000_TB": {
+  "n": 87,
+  "median": 0.1216,
+  "min": 0.0673,
+  "max": 0.2463
+ },
+ "France_content_ge2000_TB": {
+  "n": 83,
+  "median": 0.1227,
+  "min": 0.0673,
+  "max": 0.2463,
+  "p10": 0.0794,
+  "p90": 0.1655
+ },
+ "country_content_drop": {
+  "France_PP_content_ge300": {
+   "n": 339,
+   "median": 0.0928,
+   "p10": 0.074,
+   "p90": 0.1448,
+   "occurrence_weighted": 0.123
+  },
+  "France_PP_content_ge2000": {
+   "n": 83,
+   "median": 0.1227,
+   "p10": 0.0794,
+   "p90": 0.1655,
+   "occurrence_weighted": 0.1289
+  },
+  "US_PP_content_ge300": {
+   "n": 1162,
+   "median": 0.1982,
+   "p10": 0.1066,
+   "p90": 0.2554,
+   "occurrence_weighted": 0.1692
+  },
+  "US_PP_content_ge2000": {
+   "n": 210,
+   "median": 0.1306,
+   "p10": 0.1079,
+   "p90": 0.2381,
+   "occurrence_weighted": 0.1618
+  },
+  "US_trainGT_content_ge300": {
+   "n": 702,
+   "median": 0.1632,
+   "occurrence_weighted": 0.1687
+  },
+  "US_trainGT_content_ge2000": {
+   "n": 173,
+   "median": 0.1327,
+   "occurrence_weighted": 0.1607
+  },
+  "India_PP_content_ge300": {
+   "n": 254,
+   "median": 0.4195,
+   "p10": 0.1639,
+   "p90": 0.5156,
+   "occurrence_weighted": 0.3876
+  },
+  "India_PP_content_ge2000": {
+   "n": 74,
+   "median": 0.4357,
+   "p10": 0.2289,
+   "p90": 0.5113,
+   "occurrence_weighted": 0.3755
+  },
+  "India_trainGT_content_ge300": {
+   "n": 194,
+   "median": 0.4701,
+   "occurrence_weighted": 0.402
+  },
+  "India_trainGT_content_ge2000": {
+   "n": 40,
+   "median": 0.4247,
+   "occurrence_weighted": 0.3633
+  }
+ },
+ "France_S1_test": 259452,
+ "pp_vs_gt_validation": {
+  "US_TA": {
+   "n_all": 754,
+   "spearman_all": 0.9408,
+   "n_content": 706,
+   "spearman_content": 0.9389,
+   "pearson_content": 0.9427,
+   "median_ratio_all": 0.964,
+   "median_ratio_content": 0.9634,
+   "by_idf": {
+    "lowIDF": {
+     "n": 236,
+     "median_ratio": 0.9739,
+     "pooled_pp": 0.163,
+     "pooled_gt": 0.167,
+     "spearman": 0.9247
+    },
+    "midIDF": {
+     "n": 235,
+     "median_ratio": 0.9569,
+     "pooled_pp": 0.164,
+     "pooled_gt": 0.171,
+     "spearman": 0.9522
+    },
+    "highIDF": {
+     "n": 235,
+     "median_ratio": 0.9509,
+     "pooled_pp": 0.1764,
+     "pooled_gt": 0.1839,
+     "spearman": 0.892
+    }
+   },
+   "mean_abs_err_content": 0.0149,
+   "content_dr_gt_p10_p90": [
+    0.1046,
+    0.2481
+   ],
+   "content_dr_pp_p10_p90": [
+    0.0982,
+    0.2397
+   ],
+   "n_content_gt_5_30pct": 697,
+   "spearman_content_gt_5_30pct": 0.9371
+  },
+  "US_TB": {
+   "n_all": 750,
+   "spearman_all": 0.9413,
+   "n_content": 702,
+   "spearman_content": 0.9388,
+   "pearson_content": 0.9424,
+   "median_ratio_all": 0.9645,
+   "median_ratio_content": 0.9634,
+   "by_idf": {
+    "lowIDF": {
+     "n": 234,
+     "median_ratio": 0.9732,
+     "pooled_pp": 0.1625,
+     "pooled_gt": 0.1666,
+     "spearman": 0.924
+    },
+    "midIDF": {
+     "n": 234,
+     "median_ratio": 0.9573,
+     "pooled_pp": 0.1637,
+     "pooled_gt": 0.1706,
+     "spearman": 0.9524
+    },
+    "highIDF": {
+     "n": 234,
+     "median_ratio": 0.9503,
+     "pooled_pp": 0.1728,
+     "pooled_gt": 0.1809,
+     "spearman": 0.8909
+    }
+   },
+   "mean_abs_err_content": 0.0149,
+   "content_dr_gt_p10_p90": [
+    0.1046,
+    0.2479
+   ],
+   "content_dr_pp_p10_p90": [
+    0.0982,
+    0.2395
+   ],
+   "n_content_gt_5_30pct": 693,
+   "spearman_content_gt_5_30pct": 0.937
+  },
+  "India_TA": {
+   "n_all": 204,
+   "spearman_all": 0.9428,
+   "n_content": 194,
+   "spearman_content": 0.9346,
+   "pearson_content": 0.9909,
+   "median_ratio_all": 0.989,
+   "median_ratio_content": 0.9882,
+   "by_idf": {
+    "lowIDF": {
+     "n": 65,
+     "median_ratio": 0.9869,
+     "pooled_pp": 0.376,
+     "pooled_gt": 0.3804,
+     "spearman": 0.9833
+    },
+    "midIDF": {
+     "n": 64,
+     "median_ratio": 0.9927,
+     "pooled_pp": 0.4636,
+     "pooled_gt": 0.4664,
+     "spearman": 0.8072
+    },
+    "highIDF": {
+     "n": 65,
+     "median_ratio": 0.98,
+     "pooled_pp": 0.3875,
+     "pooled_gt": 0.3928,
+     "spearman": 0.8738
+    }
+   },
+   "mean_abs_err_content": 0.0141,
+   "content_dr_gt_p10_p90": [
+    0.1995,
+    0.5285
+   ],
+   "content_dr_pp_p10_p90": [
+    0.1898,
+    0.5206
+   ],
+   "n_content_gt_5_30pct": 50,
+   "spearman_content_gt_5_30pct": 0.9368
+  },
+  "India_TB": {
+   "n_all": 204,
+   "spearman_all": 0.9423,
+   "n_content": 194,
+   "spearman_content": 0.9346,
+   "pearson_content": 0.9909,
+   "median_ratio_all": 0.989,
+   "median_ratio_content": 0.9882,
+   "by_idf": {
+    "lowIDF": {
+     "n": 65,
+     "median_ratio": 0.9869,
+     "pooled_pp": 0.376,
+     "pooled_gt": 0.3804,
+     "spearman": 0.9833
+    },
+    "midIDF": {
+     "n": 64,
+     "median_ratio": 0.9927,
+     "pooled_pp": 0.4636,
+     "pooled_gt": 0.4664,
+     "spearman": 0.8072
+    },
+    "highIDF": {
+     "n": 65,
+     "median_ratio": 0.98,
+     "pooled_pp": 0.3875,
+     "pooled_gt": 0.3928,
+     "spearman": 0.8738
+    }
+   },
+   "mean_abs_err_content": 0.0141,
+   "content_dr_gt_p10_p90": [
+    0.1995,
+    0.5285
+   ],
+   "content_dr_pp_p10_p90": [
+    0.1898,
+    0.5206
+   ],
+   "n_content_gt_5_30pct": 50,
+   "spearman_content_gt_5_30pct": 0.9368
+  }
+ },
+ "France_PP_occurrences": 1838730,
+ "France_PP_occ_per_s1_token_mean": 2.629,
+ "France_PP_within_S1_token_drop_consistency": {
+  "n_groups": 545668,
+  "frac_all_drop": 0.0177,
+  "frac_mixed": 0.3645,
+  "overall_drop": 0.162
+ },
+ "France_split_half": {
+  "n_tok": 80,
+  "spearman": 0.9659,
+  "pearson": 0.9702,
+  "spearman_brown": 0.9849,
+  "n_tok_ge2000": 83,
+  "var_between": 0.001252,
+  "mean_binom_var": 2.1e-05,
+  "signal_share": 0.9835
+ },
+ "France_PP_drop_by_pos_content": {
+  "first_2": {
+   "n": 67952,
+   "dr": 0.0788
+  },
+  "first_3": {
+   "n": 420021,
+   "dr": 0.0775
+  },
+  "first_4": {
+   "n": 94359,
+   "dr": 0.0734
+  },
+  "first_5": {
+   "n": 6809,
+   "dr": 0.0731
+  },
+  "last_2": {
+   "n": 68016,
+   "dr": 0.1488
+  },
+  "last_3": {
+   "n": 88777,
+   "dr": 0.1318
+  },
+  "last_4": {
+   "n": 16433,
+   "dr": 0.1038
+  },
+  "last_5": {
+   "n": 5335,
+   "dr": 0.1031
+  },
+  "mid_3": {
+   "n": 361294,
+   "dr": 0.146
+  },
+  "mid_4": {
+   "n": 174747,
+   "dr": 0.1397
+  },
+  "mid_5": {
+   "n": 17185,
+   "dr": 0.1095
+  },
+  "mid_6": {
+   "n": 7321,
+   "dr": 0.0795
+  }
+ },
+ "France_PP_drop_by_pos_legal": {
+  "last_3": {
+   "n": 332404,
+   "dr": 0.333
+  },
+  "last_4": {
+   "n": 78551,
+   "dr": 0.3293
+  },
+  "last_5": {
+   "n": 3390,
+   "dr": 0.3153
+  },
+  "last_6": {
+   "n": 2433,
+   "dr": 0.2811
+  }
+ },
+ "France_position_adjustment_content_ge2000": {
+  "n_tok": 83,
+  "raw_min_max": [
+   0.0673,
+   0.2463
+  ],
+  "raw_max_over_min": 3.66,
+  "raw_p90_over_p10": 2.085,
+  "adj_ratio_min_max": [
+   0.637,
+   1.689
+  ],
+  "adj_ratio_p10_p90": [
+   0.855,
+   1.154
+  ],
+  "logit_var_raw": 0.0832,
+  "logit_var_after_pos_len": 0.0226,
+  "share_var_explained_by_pos_len": 0.728,
+  "spearman_obs_vs_first_share": -0.68,
+  "spearman_obs_vs_in_addr": -0.5029,
+  "spearman_obs_vs_idf": -0.207
+ },
+ "France_token_detail": {
+  "dunkerque": {
+   "n": 4402,
+   "obs": 0.0693,
+   "exp_pos_len": 0.0778,
+   "ratio": 0.89,
+   "first_share": 0.997,
+   "in_s1_addr_share": 0.993,
+   "obs_excl_abbrev": 0.0693
+  },
+  "lille": {
+   "n": 8303,
+   "obs": 0.0784,
+   "exp_pos_len": 0.0777,
+   "ratio": 1.01,
+   "first_share": 1.0,
+   "in_s1_addr_share": 1.0,
+   "obs_excl_abbrev": 0.0777
+  },
+  "bordeaux": {
+   "n": 10303,
+   "obs": 0.0848,
+   "exp_pos_len": 0.0777,
+   "ratio": 1.092,
+   "first_share": 1.0,
+   "in_s1_addr_share": 1.0,
+   "obs_excl_abbrev": 0.0843
+  },
+  "tourcoing": {
+   "n": 4469,
+   "obs": 0.0765,
+   "exp_pos_len": 0.0777,
+   "ratio": 0.985,
+   "first_share": 1.0,
+   "in_s1_addr_share": 0.999,
+   "obs_excl_abbrev": 0.0756
+  },
+  "roubaix": {
+   "n": 4279,
+   "obs": 0.0832,
+   "exp_pos_len": 0.0777,
+   "ratio": 1.071,
+   "first_share": 1.0,
+   "in_s1_addr_share": 0.999,
+   "obs_excl_abbrev": 0.0832
+  },
+  "ets": {
+   "n": 12183,
+   "obs": 0.0762,
+   "exp_pos_len": 0.0783,
+   "ratio": 0.973,
+   "first_share": 0.991,
+   "in_s1_addr_share": 0.0,
+   "obs_excl_abbrev": 0.0762
+  },
+  "etablissements": {
+   "n": 12511,
+   "obs": 0.0755,
+   "exp_pos_len": 0.0805,
+   "ratio": 0.938,
+   "first_share": 0.958,
+   "in_s1_addr_share": 0.0,
+   "obs_excl_abbrev": 0.0739
+  },
+  "club": {
+   "n": 51255,
+   "obs": 0.1445,
+   "exp_pos_len": 0.1327,
+   "ratio": 1.089,
+   "first_share": 0.171,
+   "in_s1_addr_share": 0.0,
+   "obs_excl_abbrev": 0.1397
+  },
+  "ecole": {
+   "n": 34797,
+   "obs": 0.1171,
+   "exp_pos_len": 0.1247,
+   "ratio": 0.939,
+   "first_share": 0.282,
+   "in_s1_addr_share": 0.002,
+   "obs_excl_abbrev": 0.115
+  },
+  "amicale": {
+   "n": 32789,
+   "obs": 0.1349,
+   "exp_pos_len": 0.1264,
+   "ratio": 1.067,
+   "first_share": 0.266,
+   "in_s1_addr_share": 0.0,
+   "obs_excl_abbrev": 0.1328
+  },
+  "parents": {
+   "n": 12406,
+   "obs": 0.1661,
+   "exp_pos_len": 0.1438,
+   "ratio": 1.155,
+   "first_share": 0.0,
+   "in_s1_addr_share": 0.0,
+   "obs_excl_abbrev": 0.1647
+  },
+  "freres": {
+   "n": 12011,
+   "obs": 0.2463,
+   "exp_pos_len": 0.1458,
+   "ratio": 1.689,
+   "first_share": 0.008,
+   "in_s1_addr_share": 0.001,
+   "obs_excl_abbrev": 0.1892
+  },
+  "fils": {
+   "n": 12246,
+   "obs": 0.176,
+   "exp_pos_len": 0.1459,
+   "ratio": 1.206,
+   "first_share": 0.006,
+   "in_s1_addr_share": 0.0,
+   "obs_excl_abbrev": 0.1684
+  },
+  "cie": {
+   "n": 13001,
+   "obs": 0.1922,
+   "exp_pos_len": 0.1463,
+   "ratio": 1.314,
+   "first_share": 0.0,
+   "in_s1_addr_share": 0.0,
+   "obs_excl_abbrev": 0.1922
+  },
+  "compagnie": {
+   "n": 8107,
+   "obs": 0.189,
+   "exp_pos_len": 0.144,
+   "ratio": 1.312,
+   "first_share": 0.0,
+   "in_s1_addr_share": 0.0,
+   "obs_excl_abbrev": 0.0787
+  },
+  "societe": {
+   "n": 9565,
+   "obs": 0.1695,
+   "exp_pos_len": 0.1439,
+   "ratio": 1.178,
+   "first_share": 0.0,
+   "in_s1_addr_share": 0.0,
+   "obs_excl_abbrev": 0.1677
+  },
+  "association": {
+   "n": 8813,
+   "obs": 0.0852,
+   "exp_pos_len": 0.0776,
+   "ratio": 1.099,
+   "first_share": 0.999,
+   "in_s1_addr_share": 0.0,
+   "obs_excl_abbrev": 0.0811
+  },
+  "sportive": {
+   "n": 19150,
+   "obs": 0.1508,
+   "exp_pos_len": 0.144,
+   "ratio": 1.047,
+   "first_share": 0.0,
+   "in_s1_addr_share": 0.0,
+   "obs_excl_abbrev": 0.1492
+  },
+  "comite": {
+   "n": 31447,
+   "obs": 0.1351,
+   "exp_pos_len": 0.1256,
+   "ratio": 1.076,
+   "first_share": 0.276,
+   "in_s1_addr_share": 0.0,
+   "obs_excl_abbrev": 0.0691
+  },
+  "centre": {
+   "n": 23427,
+   "obs": 0.1236,
+   "exp_pos_len": 0.1143,
+   "ratio": 1.081,
+   "first_share": 0.43,
+   "in_s1_addr_share": 0.001,
+   "obs_excl_abbrev": 0.1224
+  }
+ },
+ "France_top_abbrev_share": [
+  [
+   "communale",
+   0.664,
+   298
+  ],
+  [
+   "compagnie",
+   0.584,
+   1532
+  ],
+  [
+   "comite",
+   0.489,
+   4250
+  ],
+  [
+   "saint",
+   0.249,
+   1514
+  ],
+  [
+   "freres",
+   0.232,
+   2958
+  ],
+  [
+   "service",
+   0.118,
+   719
+  ],
+  [
+   "services",
+   0.115,
+   468
+  ],
+  [
+   "groupement",
+   0.075,
+   889
+  ],
+  [
+   "jean",
+   0.048,
+   392
+  ],
+  [
+   "association",
+   0.048,
+   751
+  ],
+  [
+   "fils",
+   0.043,
+   2155
+  ],
+  [
+   "team",
+   0.038,
+   346
+  ]
+ ],
+ "France_content_ge2000_excl_abbrev": {
+  "median": 0.1112,
+  "min": 0.0326,
+  "max": 0.1922,
+  "p10": 0.0765,
+  "p90": 0.1591
+ },
+ "France_PP_content_drop_by_in_addr": {
+  "False": {
+   "n": 1228766,
+   "dr": 0.1134
+  },
+  "True": {
+   "n": 99503,
+   "dr": 0.0969
+  }
+ },
+ "France_lille_by_in_addr_and_pos": {
+  "True_first": {
+   "n": 8303,
+   "dr": 0.0784
+  }
+ },
+ "France_bordeaux_by_in_addr_and_pos": {
+  "True_first": {
+   "n": 10303,
+   "dr": 0.0848
+  }
+ },
+ "France_dunkerque_by_in_addr_and_pos": {
+  "True_first": {
+   "n": 4369,
+   "dr": 0.0696
+  }
+ },
+ "France_content_drop_by_band": {
+  "band0_streetFalse": {
+   "n": 346638,
+   "dr": 0.094
+  },
+  "band0_streetTrue": {
+   "n": 1328269,
+   "dr": 0.1122
+  },
+  "band1_streetFalse": {
+   "n": 10931,
+   "dr": 0.1114
+  },
+  "band1_streetTrue": {
+   "n": 24678,
+   "dr": 0.1455
+  },
+  "band2_streetFalse": {
+   "n": 84658,
+   "dr": 0.1352
+  },
+  "band2_streetTrue": {
+   "n": 110606,
+   "dr": 0.5047
+  }
+ },
+ "France_street_pairs_LO_share": {
+  "False": {
+   "n": 521956,
+   "lo_share": 0.0249,
+   "himc_share": 0.0173
+  },
+  "True": {
+   "n": 134655,
+   "lo_share": 0.2723,
+   "himc_share": 0.0163
+  }
+ },
+ "France_token_drop_by_band": {
+  "dunkerque": {
+   "band0": [
+    4402,
+    0.0693
+   ],
+   "band1": [
+    468,
+    0.1068
+   ],
+   "band2": [
+    377,
+    0.3236
+   ]
+  },
+  "lille": {
+   "band0": [
+    8303,
+    0.0784
+   ],
+   "band1": [
+    1186,
+    0.0801
+   ],
+   "band2": [
+    566,
+    0.3993
+   ]
+  },
+  "bordeaux": {
+   "band0": [
+    10303,
+    0.0848
+   ],
+   "band1": [
+    1380,
+    0.0696
+   ],
+   "band2": [
+    764,
+    0.3272
+   ]
+  },
+  "tourcoing": {
+   "band0": [
+    4469,
+    0.0765
+   ],
+   "band1": [
+    501,
+    0.1198
+   ],
+   "band2": [
+    340,
+    0.2882
+   ]
+  },
+  "roubaix": {
+   "band0": [
+    4279,
+    0.0832
+   ],
+   "band1": [
+    480,
+    0.0875
+   ],
+   "band2": [
+    359,
+    0.3593
+   ]
+  },
+  "ets": {
+   "band0": [
+    12183,
+    0.0762
+   ],
+   "band1": [
+    221,
+    0.0905
+   ],
+   "band2": [
+    841,
+    0.3282
+   ]
+  },
+  "etablissements": {
+   "band0": [
+    12511,
+    0.0755
+   ],
+   "band1": [
+    99,
+    0.0808
+   ],
+   "band2": [
+    1000,
+    0.358
+   ]
+  },
+  "club": {
+   "band0": [
+    51255,
+    0.1445
+   ],
+   "band1": [
+    1809,
+    0.1299
+   ],
+   "band2": [
+    4335,
+    0.7333
+   ]
+  },
+  "ecole": {
+   "band0": [
+    34797,
+    0.1171
+   ],
+   "band1": [
+    1025,
+    0.1034
+   ],
+   "band2": [
+    3064,
+    0.7004
+   ]
+  },
+  "amicale": {
+   "band0": [
+    32789,
+    0.1349
+   ],
+   "band1": [
+    805,
+    0.1118
+   ],
+   "band2": [
+    2701,
+    0.6716
+   ]
+  },
+  "parents": {
+   "band0": [
+    12406,
+    0.1661
+   ],
+   "band1": [
+    234,
+    0.1795
+   ],
+   "band2": [
+    1021,
+    0.8658
+   ]
+  },
+  "freres": {
+   "band0": [
+    12011,
+    0.2463
+   ],
+   "band1": [
+    52,
+    0.3846
+   ],
+   "band2": [
+    734,
+    0.6335
+   ]
+  },
+  "fils": {
+   "band0": [
+    12246,
+    0.176
+   ],
+   "band1": [
+    42,
+    0.1905
+   ],
+   "band2": [
+    636,
+    0.7138
+   ]
+  },
+  "cie": {
+   "band0": [
+    13001,
+    0.1922
+   ],
+   "band1": [
+    82,
+    0.2439
+   ],
+   "band2": [
+    1171,
+    0.5892
+   ]
+  },
+  "compagnie": {
+   "band0": [
+    8107,
+    0.189
+   ],
+   "band1": [
+    111,
+    0.1532
+   ],
+   "band2": [
+    655,
+    0.8092
+   ]
+  },
+  "societe": {
+   "band0": [
+    9565,
+    0.1695
+   ],
+   "band1": [
+    208,
+    0.1538
+   ],
+   "band2": [
+    742,
+    0.8491
+   ]
+  },
+  "association": {
+   "band0": [
+    8813,
+    0.0852
+   ],
+   "band1": [
+    71,
+    0.1831
+   ],
+   "band2": [
+    974,
+    0.2772
+   ]
+  },
+  "sportive": {
+   "band0": [
+    19150,
+    0.1508
+   ],
+   "band1": [
+    581,
+    0.1566
+   ],
+   "band2": [
+    1482,
+    0.8968
+   ]
+  },
+  "comite": {
+   "band0": [
+    31447,
+    0.1351
+   ],
+   "band1": [
+    718,
+    0.1253
+   ],
+   "band2": [
+    2788,
+    0.6194
+   ]
+  },
+  "centre": {
+   "band0": [
+    23427,
+    0.1236
+   ],
+   "band1": [
+    516,
+    0.2151
+   ],
+   "band2": [
+    2055,
+    0.6579
+   ]
+  }
+ },
+ "France_stakes_accepted": {
+  "band0": {
+   "pairs_with_content_s1only": 112076,
+   "distinct_S1": 90219,
+   "frac_France_S1": 0.3477,
+   "token_occ": 173158,
+   "frac_tok_has_ge300": 0.7702,
+   "frac_tok_has_ge2000": 0.6549,
+   "frac_known_dr_outside_9_18pct": 0.1831
+  },
+  "band1": {
+   "pairs_with_content_s1only": 2858,
+   "distinct_S1": 2742,
+   "frac_France_S1": 0.0106,
+   "token_occ": 4659,
+   "frac_tok_has_ge300": 0.8429,
+   "frac_tok_has_ge2000": 0.7141,
+   "frac_known_dr_outside_9_18pct": 0.2773
+  },
+  "band2": {
+   "pairs_with_content_s1only": 45277,
+   "distinct_S1": 41180,
+   "frac_France_S1": 0.1587,
+   "token_occ": 64987,
+   "frac_tok_has_ge300": 0.8159,
+   "frac_tok_has_ge2000": 0.7276,
+   "frac_known_dr_outside_9_18pct": 0.139
+  }
+ },
+ "France_LO_band_S1_touched_frac": 0.1587,
+ "V1_macro_base": {
+  "all": 0.988024,
+  "US": 0.987738,
+  "India": 0.988457
+ },
+ "V1_oracle_slice_p0.3_0.99_known": {
+  "n_pairs": 1755,
+  "n_wrong_decisions": 310,
+  "macro": 0.98975,
+  "delta": 0.001726,
+  "delta_US": 0.001445,
+  "delta_India": 0.002151,
+  "n_S1_changed": 300
+ },
+ "V1_oracle_slice_p0.3_0.99_anycontent": {
+  "n_pairs": 2264,
+  "n_wrong_decisions": 404,
+  "macro": 0.990369,
+  "delta": 0.002345,
+  "delta_US": 0.002146,
+  "delta_India": 0.002645,
+  "n_S1_changed": 390
+ },
+ "V1_fixed_rule_w0.5": {
+  "delta": -9.6e-05,
+  "n_flips": 41,
+  "flips_to_accept_tp": 8,
+  "flips_to_accept_fp": 0,
+  "flips_to_reject_tp": 29,
+  "flips_to_reject_fp": 4
+ },
+ "V1_fixed_rule_w1.0": {
+  "delta": -0.000154,
+  "n_flips": 75,
+  "flips_to_accept_tp": 15,
+  "flips_to_accept_fp": 4,
+  "flips_to_reject_tp": 49,
+  "flips_to_reject_fp": 7
+ },
+ "V1": {
+  "US_selection": {
+   "y1_street": 27255,
+   "with_content_drop": 7800,
+   "P_p99_given_content_drop": 0.9508,
+   "P_p99_given_no_s1only": 0.9926,
+   "P_p78_given_content_drop": 0.9881,
+   "by_idf": {
+    "low": {
+     "n": 2603,
+     "P_p99": 0.9789
+    },
+    "mid": {
+     "n": 2597,
+     "P_p99": 0.9665
+    },
+    "high": {
+     "n": 2600,
+     "P_p99": 0.9069
+    }
+   }
+  },
+  "US_decision_bins_pairs_with_known_s1only_content": {
+   "0.02-0.2": {
+    "n": 1932,
+    "pos": 148,
+    "neg": 1784,
+    "auc_dr_max": 0.4398,
+    "auc_dr_min": 0.4178,
+    "auc_llr": 0.4195,
+    "auc_neg_idf_max": 0.4662,
+    "auc_p_within_bin": 0.7183
+   },
+   "0.2-0.5": {
+    "n": 320,
+    "pos": 101,
+    "neg": 219,
+    "auc_dr_max": 0.4532,
+    "auc_dr_min": 0.4877,
+    "auc_llr": 0.4786,
+    "auc_neg_idf_max": 0.4333,
+    "auc_p_within_bin": 0.5981
+   },
+   "0.5-0.78": {
+    "n": 142,
+    "pos": 87,
+    "neg": 55,
+    "auc_dr_max": 0.5356,
+    "auc_dr_min": 0.5531,
+    "auc_llr": 0.5499,
+    "auc_neg_idf_max": 0.5038,
+    "auc_p_within_bin": 0.5793
+   },
+   "0.78-0.95": {
+    "n": 208,
+    "pos": 194,
+    "neg": 14,
+    "auc_dr_max": 0.5479,
+    "auc_dr_min": 0.4422,
+    "auc_llr": 0.4468,
+    "auc_neg_idf_max": 0.4359,
+    "auc_p_within_bin": 0.6992
+   },
+   "0.95-0.99": {
+    "n": 397,
+    "pos": 387,
+    "neg": 10,
+    "auc_dr_max": 0.6079,
+    "auc_dr_min": 0.5087,
+    "auc_llr": 0.5596,
+    "auc_neg_idf_max": 0.3592,
+    "auc_p_within_bin": 0.6736
+   },
+   "0.99-1": {
+    "n": 8512,
+    "pos": 8509,
+    "neg": 3
+   }
+  },
+  "India_selection": {
+   "y1_street": 8673,
+   "with_content_drop": 3254,
+   "P_p99_given_content_drop": 0.949,
+   "P_p99_given_no_s1only": 0.9906,
+   "P_p78_given_content_drop": 0.9874,
+   "by_idf": {
+    "low": {
+     "n": 1091,
+     "P_p99": 0.9688
+    },
+    "mid": {
+     "n": 1088,
+     "P_p99": 0.9669
+    },
+    "high": {
+     "n": 1075,
+     "P_p99": 0.9107
+    }
+   }
+  },
+  "India_decision_bins_pairs_with_known_s1only_content": {
+   "0.02-0.2": {
+    "n": 1017,
+    "pos": 71,
+    "neg": 946,
+    "auc_dr_max": 0.5184,
+    "auc_dr_min": 0.5176,
+    "auc_llr": 0.5286,
+    "auc_neg_idf_max": 0.4615,
+    "auc_p_within_bin": 0.6946
+   },
+   "0.2-0.5": {
+    "n": 217,
+    "pos": 60,
+    "neg": 157,
+    "auc_dr_max": 0.4622,
+    "auc_dr_min": 0.4697,
+    "auc_llr": 0.4618,
+    "auc_neg_idf_max": 0.5278,
+    "auc_p_within_bin": 0.6135
+   },
+   "0.5-0.78": {
+    "n": 123,
+    "pos": 72,
+    "neg": 51,
+    "auc_dr_max": 0.5193,
+    "auc_dr_min": 0.5241,
+    "auc_llr": 0.5113,
+    "auc_neg_idf_max": 0.4116,
+    "auc_p_within_bin": 0.6743
+   },
+   "0.78-0.95": {
+    "n": 191,
+    "pos": 169,
+    "neg": 22,
+    "auc_dr_max": 0.5238,
+    "auc_dr_min": 0.5596,
+    "auc_llr": 0.5285,
+    "auc_neg_idf_max": 0.482,
+    "auc_p_within_bin": 0.7238
+   },
+   "0.95-0.99": {
+    "n": 435,
+    "pos": 424,
+    "neg": 11,
+    "auc_dr_max": 0.5094,
+    "auc_dr_min": 0.5096,
+    "auc_llr": 0.4478,
+    "auc_neg_idf_max": 0.4811,
+    "auc_p_within_bin": 0.7629
+   },
+   "0.99-1": {
+    "n": 8153,
+    "pos": 8150,
+    "neg": 3
+   }
+  }
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "n_top10": 2000000,
+ "rrL_pair_acc_TDa": 0.99433,
+ "n_wrong": 11338,
+ "n_near": 14158,
+ "n_hard": 22012,
+ "n_class": 161374,
+ "n_priority": 168551,
+ "n_tail": 451449,
+ "n_new": 664024,
+ "hard_rep_extra": 2,
+ "new_pos": 203873,
+ "wrong_by_class": {
+  "subname": 26,
+  "housenum": 11,
+  "emptyaddr": 6781
+ },
+ "n_replay": 300000,
+ "n_total": 964024,
+ "pos_total": 307678,
+ "secs": 1
+}

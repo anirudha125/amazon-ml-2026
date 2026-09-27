@@ -1,0 +1,2787 @@
+{
+ "S1_colocated_contrast": {
+  "n_pairs_S1_has_colocated": 167126,
+  "share_pairs": 0.0655,
+  "share_V1_S1_with_colocated": 0.0665,
+  "coloc_col_consistency": {
+   "share_rl27_coloc_equals_groupsize_minus1_nonempty_addr": 1.0,
+   "share_coloc_gt0_given_hasS": 1.0,
+   "share_hasS_given_coloc_gt0_nonempty": 1.0
+  },
+  "n_ccS": 67713,
+  "n_ccS_rel_p10": 173,
+  "n_hasS_rel_p10": 4899,
+  "n_ccR": 227647,
+  "n_ccR_rel_p10": 66,
+  "n_hasR_rel_p10": 647,
+  "n_ccS_sameaddr_rel": 48,
+  "by_country": {
+   "US": {
+    "hasS_rel": 3219,
+    "ccS_rel": 102,
+    "ccR_rel": 20
+   },
+   "India": {
+    "hasS_rel": 1680,
+    "ccS_rel": 71,
+    "ccR_rel": 46
+   }
+  },
+  "assoc_ccS_all_hasS": {
+   "n": 167126,
+   "pos": 67713,
+   "top_auc": [
+    [
+     "LF3:name_token_set",
+     0.8781
+    ],
+    [
+     "LF2:name_token_sort",
+     0.8645
+    ],
+    [
+     "LF0:name_lev_sim",
+     0.8256
+    ],
+    [
+     "LF1:name_jw_sim",
+     0.8151
+    ],
+    [
+     "LF33:idf_shared_ratio",
+     0.806
+    ],
+    [
+     "LF77:frac_idf_s1_only",
+     0.806
+    ],
+    [
+     "LF78:frac_idf_c_only",
+     0.8059
+    ],
+    [
+     "LF29:idf_shared_sum",
+     0.8055
+    ],
+    [
+     "LF31:idf_shared_max",
+     0.804
+    ],
+    [
+     "LF30:idf_shared_mean",
+     0.8031
+    ]
+   ],
+   "top_spearman_margin": [
+    [
+     "LF3:name_token_set",
+     0.7876
+    ],
+    [
+     "LF78:frac_idf_c_only",
+     0.7603
+    ],
+    [
+     "LF33:idf_shared_ratio",
+     0.7564
+    ],
+    [
+     "LF77:frac_idf_s1_only",
+     0.7564
+    ],
+    [
+     "LF29:idf_shared_sum",
+     0.7501
+    ],
+    [
+     "LF4:name_token_jaccard",
+     0.7453
+    ]
+   ],
+   "r2_margin_all97": 0.8148
+  },
+  "rv_crosstab_ccS_all_hasS": {
+   "P_rvrank_gt1_given_cc1": 0.9909,
+   "P_rvrank_gt1_given_cc0": 0.9479,
+   "P_rvgap_lt0_given_cc1": 0.9901,
+   "P_rvgap_lt0_given_cc0": 0.944
+  },
+  "assoc_ccS_rel_hasS": {
+   "n": 4899,
+   "pos": 173,
+   "top_auc": [
+    [
+     "LF3:name_token_set",
+     0.9873
+    ],
+    [
+     "LF2:name_token_sort",
+     0.9847
+    ],
+    [
+     "LF1:name_jw_sim",
+     0.9792
+    ],
+    [
+     "LF0:name_lev_sim",
+     0.9744
+    ],
+    [
+     "LF81:idf_s1_only_soft",
+     0.9641
+    ],
+    [
+     "LF79:n_s1_only_soft",
+     0.9581
+    ],
+    [
+     "LF33:idf_shared_ratio",
+     0.9447
+    ],
+    [
+     "LF77:frac_idf_s1_only",
+     0.9447
+    ],
+    [
+     "LF4:name_token_jaccard",
+     0.9444
+    ],
+    [
+     "LF78:frac_idf_c_only",
+     0.9438
+    ]
+   ],
+   "top_spearman_margin": [
+    [
+     "LF3:name_token_set",
+     0.6646
+    ],
+    [
+     "LF32:idf_shared_min",
+     0.5867
+    ],
+    [
+     "LF78:frac_idf_c_only",
+     0.5553
+    ],
+    [
+     "LF30:idf_shared_mean",
+     0.5334
+    ],
+    [
+     "LF33:idf_shared_ratio",
+     0.5018
+    ],
+    [
+     "LF77:frac_idf_s1_only",
+     0.5018
+    ]
+   ],
+   "r2_margin_all97": 0.7979
+  },
+  "rv_crosstab_ccS_rel_hasS": {
+   "P_rvrank_gt1_given_cc1": 0.7341,
+   "P_rvrank_gt1_given_cc0": 0.2017,
+   "P_rvgap_lt0_given_cc1": 0.7341,
+   "P_rvgap_lt0_given_cc0": 0.1972
+  },
+  "assoc_ccR_rel_hasR": {
+   "n": 647,
+   "pos": 66,
+   "top_auc": [
+    [
+     "LF3:name_token_set",
+     0.9722
+    ],
+    [
+     "LF2:name_token_sort",
+     0.9617
+    ],
+    [
+     "LF0:name_lev_sim",
+     0.9547
+    ],
+    [
+     "LF1:name_jw_sim",
+     0.9429
+    ],
+    [
+     "LF81:idf_s1_only_soft",
+     0.9311
+    ],
+    [
+     "LF79:n_s1_only_soft",
+     0.9291
+    ],
+    [
+     "LF30:idf_shared_mean",
+     0.9285
+    ],
+    [
+     "LF78:frac_idf_c_only",
+     0.9273
+    ],
+    [
+     "LF29:idf_shared_sum",
+     0.9259
+    ],
+    [
+     "LF33:idf_shared_ratio",
+     0.9248
+    ]
+   ],
+   "top_spearman_margin": [
+    [
+     "LF3:name_token_set",
+     0.7603
+    ],
+    [
+     "LF32:idf_shared_min",
+     0.6573
+    ],
+    [
+     "LF30:idf_shared_mean",
+     0.644
+    ],
+    [
+     "LF78:frac_idf_c_only",
+     0.6414
+    ],
+    [
+     "LF33:idf_shared_ratio",
+     0.6192
+    ],
+    [
+     "LF77:frac_idf_s1_only",
+     0.6192
+    ]
+   ],
+   "r2_margin_all97": 0.8764
+  },
+  "rv_crosstab_ccR_rel_hasR": {
+   "P_rvrank_gt1_given_cc1": 0.7576,
+   "P_rvrank_gt1_given_cc0": 0.2065,
+   "P_rvgap_lt0_given_cc1": 0.7576,
+   "P_rvgap_lt0_given_cc0": 0.2048
+  },
+  "residual_ccS": {
+   "bins": [
+    {
+     "bin": "[0.10,0.30)",
+     "sig1": {
+      "n": 95,
+      "y_rate": 0.2421,
+      "mean_p": 0.1796
+     },
+     "sig0": {
+      "n": 177,
+      "y_rate": 0.2203,
+      "mean_p": 0.1725
+     }
+    },
+    {
+     "bin": "[0.30,0.50)",
+     "sig1": {
+      "n": 33,
+      "y_rate": 0.303,
+      "mean_p": 0.4068
+     },
+     "sig0": {
+      "n": 84,
+      "y_rate": 0.5,
+      "mean_p": 0.3936
+     }
+    },
+    {
+     "bin": "[0.50,0.78)",
+     "sig1": {
+      "n": 22,
+      "y_rate": 0.3636,
+      "mean_p": 0.6141
+     },
+     "sig0": {
+      "n": 59,
+      "y_rate": 0.661,
+      "mean_p": 0.6291
+     }
+    },
+    {
+     "bin": "[0.78,0.90)",
+     "sig1": {
+      "n": 7,
+      "y_rate": 0.5714,
+      "mean_p": 0.8223
+     },
+     "sig0": {
+      "n": 39,
+      "y_rate": 0.7692,
+      "mean_p": 0.856
+     }
+    },
+    {
+     "bin": "[0.90,0.97)",
+     "sig1": {
+      "n": 2,
+      "y_rate": 0.5,
+      "mean_p": 0.9394
+     },
+     "sig0": {
+      "n": 70,
+      "y_rate": 0.9,
+      "mean_p": 0.9411
+     }
+    },
+    {
+     "bin": "[0.97,1.00)",
+     "sig1": {
+      "n": 14,
+      "y_rate": 0.7143,
+      "mean_p": 0.9922
+     },
+     "sig0": {
+      "n": 4297,
+      "y_rate": 0.9984,
+      "mean_p": 0.9992
+     }
+    }
+   ],
+   "at_threshold": {
+    "sig1": {
+     "accepted": 23,
+     "precision": 0.6522,
+     "FP": 8,
+     "expected_FP_from_p": 1.5,
+     "rejected_p10_78": 150,
+     "FN_in_rejected": 41,
+     "expected_pos_from_p": 44.0
+    },
+    "sig0": {
+     "accepted": 4406,
+     "precision": 0.9948,
+     "FP": 23,
+     "expected_FP_from_p": 13.2,
+     "rejected_p10_78": 320,
+     "FN_in_rejected": 120,
+     "expected_pos_from_p": 100.7
+    }
+   }
+  },
+  "residual_ccR": {
+   "bins": [
+    {
+     "bin": "[0.10,0.30)",
+     "sig1": {
+      "n": 35,
+      "y_rate": 0.2,
+      "mean_p": 0.174
+     },
+     "sig0": {
+      "n": 15,
+      "y_rate": 0.1333,
+      "mean_p": 0.1732
+     }
+    },
+    {
+     "bin": "[0.30,0.50)",
+     "sig1": {
+      "n": 14,
+      "y_rate": 0.3571,
+      "mean_p": 0.3963
+     },
+     "sig0": {
+      "n": 11,
+      "y_rate": 0.5455,
+      "mean_p": 0.3651
+     }
+    },
+    {
+     "bin": "[0.50,0.78)",
+     "sig1": {
+      "n": 7,
+      "y_rate": 0.1429,
+      "mean_p": 0.6078
+     },
+     "sig0": {
+      "n": 9,
+      "y_rate": 0.6667,
+      "mean_p": 0.6599
+     }
+    },
+    {
+     "bin": "[0.78,0.90)",
+     "sig1": {
+      "n": 5,
+      "y_rate": 0.6,
+      "mean_p": 0.8086
+     },
+     "sig0": {
+      "n": 2,
+      "y_rate": 0.5,
+      "mean_p": 0.8739
+     }
+    },
+    {
+     "bin": "[0.90,0.97)",
+     "sig1": {
+      "n": 1,
+      "y_rate": 0.0,
+      "mean_p": 0.9057
+     },
+     "sig0": {
+      "n": 4,
+      "y_rate": 1.0,
+      "mean_p": 0.9375
+     }
+    },
+    {
+     "bin": "[0.97,1.00)",
+     "sig1": {
+      "n": 4,
+      "y_rate": 0.75,
+      "mean_p": 0.9946
+     },
+     "sig0": {
+      "n": 540,
+      "y_rate": 0.9963,
+      "mean_p": 0.9996
+     }
+    }
+   ],
+   "at_threshold": {
+    "sig1": {
+     "accepted": 10,
+     "precision": 0.6,
+     "FP": 4,
+     "expected_FP_from_p": 1.1,
+     "rejected_p10_78": 56,
+     "FN_in_rejected": 13,
+     "expected_pos_from_p": 15.9
+    },
+    "sig0": {
+     "accepted": 546,
+     "precision": 0.9945,
+     "FP": 3,
+     "expected_FP_from_p": 0.7,
+     "rejected_p10_78": 35,
+     "FN_in_rejected": 14,
+     "expected_pos_from_p": 12.6
+    }
+   }
+  },
+  "residual_ccS_and_rvrank1": {
+   "bins": [
+    {
+     "bin": "[0.10,0.30)",
+     "sig1": {
+      "n": 20,
+      "y_rate": 0.15,
+      "mean_p": 0.2067
+     },
+     "sig0": {
+      "n": 252,
+      "y_rate": 0.2341,
+      "mean_p": 0.1725
+     }
+    },
+    {
+     "bin": "[0.30,0.50)",
+     "sig1": {
+      "n": 7,
+      "y_rate": 0.4286,
+      "mean_p": 0.4144
+     },
+     "sig0": {
+      "n": 110,
+      "y_rate": 0.4455,
+      "mean_p": 0.3963
+     }
+    },
+    {
+     "bin": "[0.50,0.78)",
+     "sig1": {
+      "n": 8,
+      "y_rate": 0.25,
+      "mean_p": 0.646
+     },
+     "sig0": {
+      "n": 73,
+      "y_rate": 0.6164,
+      "mean_p": 0.6227
+     }
+    },
+    {
+     "bin": "[0.78,0.90)",
+     "sig1": {
+      "n": 4,
+      "y_rate": 0.5,
+      "mean_p": 0.842
+     },
+     "sig0": {
+      "n": 42,
+      "y_rate": 0.7619,
+      "mean_p": 0.8517
+     }
+    },
+    {
+     "bin": "[0.90,0.97)",
+     "sig1": {
+      "n": 1,
+      "y_rate": 0.0,
+      "mean_p": 0.9111
+     },
+     "sig0": {
+      "n": 71,
+      "y_rate": 0.9014,
+      "mean_p": 0.9415
+     }
+    },
+    {
+     "bin": "[0.97,1.00)",
+     "sig1": {
+      "n": 6,
+      "y_rate": 0.8333,
+      "mean_p": 0.9929
+     },
+     "sig0": {
+      "n": 4305,
+      "y_rate": 0.9977,
+      "mean_p": 0.9992
+     }
+    }
+   ],
+   "at_threshold": {
+    "sig1": {
+     "accepted": 11,
+     "precision": 0.6364,
+     "FP": 4,
+     "expected_FP_from_p": 0.8,
+     "rejected_p10_78": 35,
+     "FN_in_rejected": 8,
+     "expected_pos_from_p": 12.2
+    },
+    "sig0": {
+     "accepted": 4418,
+     "precision": 0.9939,
+     "FP": 27,
+     "expected_FP_from_p": 13.9,
+     "rejected_p10_78": 435,
+     "FN_in_rejected": 153,
+     "expected_pos_from_p": 132.5
+    }
+   }
+  },
+  "auc_y_within_accepted_hasS": {
+   "marS": 0.723921430562279,
+   "rv_gap": 0.7210608927811761,
+   "p_new": 0.9720474115800436,
+   "n": 4429,
+   "FP": 31
+  },
+  "examples_ccS_rel_sameaddr": [
+   {
+    "s1_name": "Fetzer Royal Media",
+    "s1_addr": "102 Chestnut Street, Rutland, IL",
+    "rec_name": "Lumjax",
+    "rec_addr": "102 CHESTNUT STREET, RUTLAND, IL",
+    "y": 1,
+    "p": 0.266,
+    "sim_a": 16.66666603088379,
+    "best_other": 22.22222137451172,
+    "rv_rank": 2.0,
+    "rv_gap": -0.07276830077171326,
+    "coloc": 1.0
+   },
+   {
+    "s1_name": "Tribhuwan Sampatti Pvt Ltd",
+    "s1_addr": "Door No. 13 F/3 St. Anne S Complex, Melapudur, Convent Road, Tiruchirappalli, Tamil Nadu",
+    "rec_name": "Orbikelo One",
+    "rec_addr": "Door No. 13 F/3 St. Anne S Complex, Melapudur, Convent Road, Tiruchirappalli, Tamil Nadu",
+    "y": 0,
+    "p": 0.751,
+    "sim_a": 15.789473533630371,
+    "best_other": 35.89743423461914,
+    "rv_rank": 1.0,
+    "rv_gap": 0.004558307118713856,
+    "coloc": 1.0
+   }
+  ]
+ },
+ "S2_token_role": {
+  "US": {
+   "n_s1": 1323633,
+   "colocated_pairs": 148596,
+   "near_dup_pairs": 78,
+   "top_contrast": [
+    [
+     "inc",
+     4,
+     17102,
+     0.0,
+     1.71
+    ],
+    [
+     "cinder",
+     4,
+     33,
+     0.093,
+     7.91
+    ],
+    [
+     "horizon",
+     3,
+     456,
+     0.006,
+     5.31
+    ],
+    [
+     "associates",
+     2,
+     2615,
+     0.001,
+     3.6
+    ],
+    [
+     "compass",
+     2,
+     70,
+     0.025,
+     7.26
+    ],
+    [
+     "cascade",
+     2,
+     508,
+     0.004,
+     5.25
+    ],
+    [
+     "group",
+     2,
+     2326,
+     0.001,
+     3.74
+    ],
+    [
+     "global",
+     2,
+     840,
+     0.002,
+     4.72
+    ],
+    [
+     "llc",
+     2,
+     25555,
+     0.0,
+     1.31
+    ],
+    [
+     "prairie",
+     2,
+     448,
+     0.004,
+     5.35
+    ],
+    [
+     "obsidian",
+     2,
+     37,
+     0.043,
+     8.04
+    ],
+    [
+     "sequoia",
+     2,
+     45,
+     0.036,
+     7.96
+    ],
+    [
+     "interfaith",
+     2,
+     108,
+     0.017,
+     6.73
+    ],
+    [
+     "fresh",
+     2,
+     469,
+     0.004,
+     5.2
+    ],
+    [
+     "care",
+     2,
+     2955,
+     0.001,
+     3.45
+    ],
+    [
+     "partners",
+     1,
+     2144,
+     0.0,
+     3.82
+    ],
+    [
+     "westmoreland",
+     1,
+     2,
+     0.083,
+     10.42
+    ],
+    [
+     "enterprises",
+     1,
+     403,
+     0.002,
+     5.44
+    ],
+    [
+     "preferred",
+     1,
+     456,
+     0.002,
+     5.4
+    ],
+    [
+     "hd",
+     1,
+     4,
+     0.071,
+     10.71
+    ]
+   ],
+   "n_tokens_eval": 840,
+   "n_neardup_pairs_V1": 142205,
+   "n_neardup_pos": 17906,
+   "spearman_matchrate_vs_idf": -0.4285,
+   "spearman_matchrate_vs_contrast": 0.0399,
+   "spearman_idf_vs_contrast": -0.2433,
+   "spearman_fillrate_vs_idf": -0.0892,
+   "spearman_fillrate_vs_contrast": -0.0448,
+   "spearman_resid_vs_contrast": 0.0347,
+   "spearman_resid_vs_idf": 0.0286,
+   "pair_level": {
+    "spearman_rolesum_vs_idfsum": -0.4371,
+    "spearman_rolesum_vs_TOK_idf_s1only_plus_conly": -0.3776,
+    "r2_rolesum_on_LF71_86_29_34_0_4": 0.02,
+    "auc_y_rolesum": 0.5126532049007726,
+    "auc_y_idfsum": 0.5491181535889076,
+    "auc_y_p_new": 0.9991920873426499
+   },
+   "residual_rolesum_high": {
+    "bins": [
+     {
+      "bin": "[0.10,0.30)",
+      "sig1": {
+       "n": 155,
+       "y_rate": 0.2,
+       "mean_p": 0.1779
+      },
+      "sig0": {
+       "n": 792,
+       "y_rate": 0.1843,
+       "mean_p": 0.1722
+      }
+     },
+     {
+      "bin": "[0.30,0.50)",
+      "sig1": {
+       "n": 49,
+       "y_rate": 0.3469,
+       "mean_p": 0.3865
+      },
+      "sig0": {
+       "n": 242,
+       "y_rate": 0.3967,
+       "mean_p": 0.3871
+      }
+     },
+     {
+      "bin": "[0.50,0.78)",
+      "sig1": {
+       "n": 40,
+       "y_rate": 0.55,
+       "mean_p": 0.6214
+      },
+      "sig0": {
+       "n": 178,
+       "y_rate": 0.6124,
+       "mean_p": 0.6431
+      }
+     },
+     {
+      "bin": "[0.78,0.90)",
+      "sig1": {
+       "n": 21,
+       "y_rate": 1.0,
+       "mean_p": 0.8503
+      },
+      "sig0": {
+       "n": 152,
+       "y_rate": 0.8882,
+       "mean_p": 0.8529
+      }
+     },
+     {
+      "bin": "[0.90,0.97)",
+      "sig1": {
+       "n": 44,
+       "y_rate": 0.9091,
+       "mean_p": 0.947
+      },
+      "sig0": {
+       "n": 250,
+       "y_rate": 0.972,
+       "mean_p": 0.9437
+      }
+     },
+     {
+      "bin": "[0.97,1.00)",
+      "sig1": {
+       "n": 1979,
+       "y_rate": 0.999,
+       "mean_p": 0.999
+      },
+      "sig0": {
+       "n": 14799,
+       "y_rate": 0.9995,
+       "mean_p": 0.9991
+      }
+     }
+    ],
+    "at_threshold": {
+     "sig1": {
+      "accepted": 2044,
+      "precision": 0.9971,
+      "FP": 6,
+      "expected_FP_from_p": 7.4,
+      "rejected_p10_78": 244,
+      "FN_in_rejected": 70,
+      "expected_pos_from_p": 71.4
+     },
+     "sig0": {
+      "accepted": 15201,
+      "precision": 0.9979,
+      "FP": 32,
+      "expected_FP_from_p": 49.2,
+      "rejected_p10_78": 1212,
+      "FN_in_rejected": 351,
+      "expected_pos_from_p": 344.6
+     }
+    }
+   },
+   "tokens_lowest_matchrate": [
+    [
+     "lakeside",
+     149,
+     0.0,
+     11.96,
+     0.0
+    ],
+    [
+     "southern",
+     172,
+     0.0,
+     6.26,
+     0.0
+    ],
+    [
+     "scott",
+     107,
+     0.0,
+     6.96,
+     0.0
+    ],
+    [
+     "ray",
+     35,
+     0.0,
+     8.15,
+     0.0
+    ],
+    [
+     "rush",
+     33,
+     0.0,
+     7.72,
+     0.0
+    ],
+    [
+     "holder",
+     36,
+     0.0,
+     9.67,
+     0.0
+    ],
+    [
+     "hicks",
+     45,
+     0.0,
+     7.82,
+     0.0
+    ],
+    [
+     "hack",
+     38,
+     0.0,
+     10.98,
+     0.0
+    ],
+    [
+     "pasoft",
+     54,
+     0.0,
+     10.78,
+     0.0
+    ],
+    [
+     "sweet",
+     194,
+     0.0,
+     6.5,
+     0.0
+    ],
+    [
+     "lee",
+     75,
+     0.0,
+     6.47,
+     0.0
+    ],
+    [
+     "yu",
+     31,
+     0.0,
+     8.86,
+     0.0
+    ]
+   ],
+   "tokens_highest_matchrate": [
+    [
+     "local",
+     33,
+     0.758,
+     5.47,
+     0.0
+    ],
+    [
+     "therapy",
+     38,
+     0.579,
+     5.16,
+     0.0
+    ],
+    [
+     "school",
+     45,
+     0.578,
+     5.39,
+     0.0
+    ],
+    [
+     "and",
+     157,
+     0.541,
+     3.14,
+     0.0
+    ],
+    [
+     "dmd",
+     32,
+     0.5,
+     6.1,
+     0.0
+    ],
+    [
+     "md",
+     30,
+     0.5,
+     6.07,
+     0.0
+    ],
+    [
+     "do",
+     37,
+     0.486,
+     6.02,
+     0.0
+    ],
+    [
+     "hospital",
+     54,
+     0.426,
+     6.22,
+     0.0
+    ],
+    [
+     "the",
+     1341,
+     0.413,
+     6.53,
+     0.0
+    ],
+    [
+     "incorporated",
+     848,
+     0.409,
+     11.96,
+     0.0
+    ],
+    [
+     "body",
+     32,
+     0.344,
+     6.32,
+     0.0
+    ],
+    [
+     "dentistry",
+     47,
+     0.34,
+     5.54,
+     0.0
+    ]
+   ],
+   "tokens_largest_abs_resid": [
+    [
+     "automobile",
+     37,
+     0.108,
+     0.154,
+     7.81,
+     0.0
+    ],
+    [
+     "payment",
+     38,
+     0.158,
+     0.113,
+     6.66,
+     0.0
+    ],
+    [
+     "nexera",
+     41,
+     0.195,
+     0.154,
+     7.89,
+     0.0
+    ],
+    [
+     "local",
+     33,
+     0.758,
+     0.723,
+     5.47,
+     0.0
+    ],
+    [
+     "md",
+     30,
+     0.5,
+     0.533,
+     6.07,
+     0.0
+    ],
+    [
+     "lumeon",
+     30,
+     0.0,
+     0.033,
+     10.03,
+     0.0
+    ],
+    [
+     "methodist",
+     30,
+     0.067,
+     0.037,
+     7.53,
+     0.0
+    ],
+    [
+     "dragon",
+     31,
+     0.161,
+     0.131,
+     7.94,
+     0.0
+    ],
+    [
+     "beijing",
+     31,
+     0.161,
+     0.131,
+     7.88,
+     0.0
+    ],
+    [
+     "marshall",
+     35,
+     0.114,
+     0.143,
+     7.13,
+     0.0
+    ]
+   ]
+  },
+  "India": {
+   "n_s1": 883188,
+   "colocated_pairs": 70235,
+   "near_dup_pairs": 334,
+   "top_contrast": [
+    [
+     "india",
+     20,
+     3667,
+     0.005,
+     2.7
+    ],
+    [
+     "solutions",
+     12,
+     1304,
+     0.009,
+     3.72
+    ],
+    [
+     "services",
+     12,
+     1524,
+     0.008,
+     3.6
+    ],
+    [
+     "foundation",
+     9,
+     889,
+     0.01,
+     4.14
+    ],
+    [
+     "enterprises",
+     9,
+     786,
+     0.011,
+     4.29
+    ],
+    [
+     "media",
+     6,
+     523,
+     0.011,
+     4.61
+    ],
+    [
+     "gold",
+     6,
+     285,
+     0.02,
+     5.34
+    ],
+    [
+     "finance",
+     6,
+     597,
+     0.01,
+     4.51
+    ],
+    [
+     "golden",
+     6,
+     288,
+     0.02,
+     5.31
+    ],
+    [
+     "global",
+     5,
+     836,
+     0.006,
+     4.17
+    ],
+    [
+     "construction",
+     5,
+     612,
+     0.008,
+     4.58
+    ],
+    [
+     "infrastructure",
+     5,
+     573,
+     0.009,
+     4.57
+    ],
+    [
+     "new",
+     5,
+     623,
+     0.008,
+     4.49
+    ],
+    [
+     "software",
+     5,
+     610,
+     0.008,
+     4.58
+    ],
+    [
+     "alpha",
+     5,
+     221,
+     0.022,
+     5.46
+    ],
+    [
+     "infra",
+     5,
+     657,
+     0.007,
+     4.48
+    ],
+    [
+     "gujarat",
+     5,
+     248,
+     0.019,
+     5.42
+    ],
+    [
+     "sunrise",
+     5,
+     248,
+     0.019,
+     5.43
+    ],
+    [
+     "impex",
+     4,
+     527,
+     0.007,
+     4.71
+    ],
+    [
+     "producer",
+     4,
+     605,
+     0.007,
+     4.46
+    ]
+   ],
+   "n_tokens_eval": 240,
+   "n_neardup_pairs_V1": 58548,
+   "n_neardup_pos": 11220,
+   "spearman_matchrate_vs_idf": -0.0571,
+   "spearman_matchrate_vs_contrast": -0.2344,
+   "spearman_idf_vs_contrast": -0.1237,
+   "spearman_fillrate_vs_idf": -0.3205,
+   "spearman_fillrate_vs_contrast": 0.1877,
+   "spearman_resid_vs_contrast": 0.0087,
+   "spearman_resid_vs_idf": -0.0224,
+   "pair_level": {
+    "spearman_rolesum_vs_idfsum": -0.0616,
+    "spearman_rolesum_vs_TOK_idf_s1only_plus_conly": -0.0215,
+    "r2_rolesum_on_LF71_86_29_34_0_4": 0.1273,
+    "auc_y_rolesum": 0.5644594839864461,
+    "auc_y_idfsum": 0.5879736307939796,
+    "auc_y_p_new": 0.9992581703489373
+   },
+   "residual_rolesum_high": {
+    "bins": [
+     {
+      "bin": "[0.10,0.30)",
+      "sig1": {
+       "n": 117,
+       "y_rate": 0.1538,
+       "mean_p": 0.167
+      },
+      "sig0": {
+       "n": 345,
+       "y_rate": 0.1507,
+       "mean_p": 0.1753
+      }
+     },
+     {
+      "bin": "[0.30,0.50)",
+      "sig1": {
+       "n": 18,
+       "y_rate": 0.2778,
+       "mean_p": 0.3928
+      },
+      "sig0": {
+       "n": 157,
+       "y_rate": 0.3885,
+       "mean_p": 0.3931
+      }
+     },
+     {
+      "bin": "[0.50,0.78)",
+      "sig1": {
+       "n": 21,
+       "y_rate": 0.619,
+       "mean_p": 0.6369
+      },
+      "sig0": {
+       "n": 136,
+       "y_rate": 0.625,
+       "mean_p": 0.6282
+      }
+     },
+     {
+      "bin": "[0.78,0.90)",
+      "sig1": {
+       "n": 20,
+       "y_rate": 0.75,
+       "mean_p": 0.8556
+      },
+      "sig0": {
+       "n": 79,
+       "y_rate": 0.8608,
+       "mean_p": 0.8469
+      }
+     },
+     {
+      "bin": "[0.90,0.97)",
+      "sig1": {
+       "n": 49,
+       "y_rate": 1.0,
+       "mean_p": 0.9377
+      },
+      "sig0": {
+       "n": 164,
+       "y_rate": 0.9512,
+       "mean_p": 0.944
+      }
+     },
+     {
+      "bin": "[0.97,1.00)",
+      "sig1": {
+       "n": 1354,
+       "y_rate": 0.9963,
+       "mean_p": 0.9985
+      },
+      "sig0": {
+       "n": 9221,
+       "y_rate": 0.9996,
+       "mean_p": 0.9991
+      }
+     }
+    ],
+    "at_threshold": {
+     "sig1": {
+      "accepted": 1423,
+      "precision": 0.993,
+      "FP": 10,
+      "expected_FP_from_p": 8.0,
+      "rejected_p10_78": 156,
+      "FN_in_rejected": 36,
+      "expected_pos_from_p": 40.0
+     },
+     "sig0": {
+      "accepted": 9464,
+      "precision": 0.9976,
+      "FP": 23,
+      "expected_FP_from_p": 29.6,
+      "rejected_p10_78": 638,
+      "FN_in_rejected": 198,
+      "expected_pos_from_p": 207.6
+     }
+    }
+   },
+   "tokens_lowest_matchrate": [
+    [
+     "pune",
+     105,
+     0.0,
+     5.69,
+     0.005
+    ],
+    [
+     "pvt",
+     924,
+     0.0,
+     1.98,
+     0.0
+    ],
+    [
+     "bakery",
+     30,
+     0.0,
+     10.07,
+     0.077
+    ],
+    [
+     "hari",
+     44,
+     0.0,
+     5.44,
+     0.014
+    ],
+    [
+     "united",
+     58,
+     0.0,
+     5.39,
+     0.007
+    ],
+    [
+     "hyderabad",
+     156,
+     0.0,
+     5.99,
+     0.0
+    ],
+    [
+     "gujarat",
+     56,
+     0.0,
+     5.42,
+     0.019
+    ],
+    [
+     "all",
+     50,
+     0.0,
+     5.44,
+     0.0
+    ],
+    [
+     "perfect",
+     35,
+     0.0,
+     5.43,
+     0.004
+    ],
+    [
+     "one",
+     86,
+     0.0,
+     5.38,
+     0.011
+    ],
+    [
+     "textiles",
+     39,
+     0.0,
+     7.16,
+     0.0
+    ],
+    [
+     "premier",
+     61,
+     0.0,
+     5.43,
+     0.012
+    ]
+   ],
+   "tokens_highest_matchrate": [
+    [
+     "society",
+     59,
+     0.576,
+     5.06,
+     0.0
+    ],
+    [
+     "the",
+     65,
+     0.492,
+     11.44,
+     0.0
+    ],
+    [
+     "ltd",
+     5404,
+     0.457,
+     1.8,
+     0.0
+    ],
+    [
+     "shri",
+     442,
+     0.446,
+     11.99,
+     0.0
+    ],
+    [
+     "school",
+     49,
+     0.429,
+     5.07,
+     0.0
+    ],
+    [
+     "mr",
+     434,
+     0.378,
+     10.41,
+     0.0
+    ],
+    [
+     "dr",
+     450,
+     0.362,
+     9.85,
+     0.0
+    ],
+    [
+     "educational",
+     34,
+     0.353,
+     5.6,
+     0.0
+    ],
+    [
+     "corporation",
+     593,
+     0.349,
+     4.85,
+     0.0
+    ],
+    [
+     "limited",
+     10931,
+     0.348,
+     0.53,
+     0.0
+    ],
+    [
+     "company",
+     607,
+     0.328,
+     4.85,
+     0.0
+    ],
+    [
+     "seva",
+     47,
+     0.319,
+     5.74,
+     0.0
+    ]
+   ],
+   "tokens_largest_abs_resid": [
+    [
+     "home",
+     57,
+     0.123,
+     0.101,
+     5.52,
+     0.0
+    ],
+    [
+     "estates",
+     42,
+     0.071,
+     0.091,
+     6.52,
+     0.0
+    ],
+    [
+     "com",
+     56,
+     0.143,
+     0.127,
+     8.82,
+     0.0
+    ],
+    [
+     "seva",
+     47,
+     0.319,
+     0.304,
+     5.74,
+     0.0
+    ],
+    [
+     "control",
+     35,
+     0.086,
+     0.1,
+     8.32,
+     0.0
+    ],
+    [
+     "labs",
+     42,
+     0.095,
+     0.109,
+     6.84,
+     0.0
+    ],
+    [
+     "housing",
+     45,
+     0.111,
+     0.098,
+     6.9,
+     0.014
+    ],
+    [
+     "lakshmi",
+     77,
+     0.026,
+     0.037,
+     5.39,
+     0.0
+    ],
+    [
+     "systems",
+     234,
+     0.132,
+     0.122,
+     4.53,
+     0.005
+    ],
+    [
+     "tirupati",
+     63,
+     0.048,
+     0.038,
+     5.41,
+     0.004
+    ]
+   ]
+  }
+ },
+ "S3_street_overlap": {
+  "US": {
+   "n_both_street": 968165,
+   "share_pairs_both_street": 0.6388,
+   "n_rel": 33006,
+   "st_eq_rate_rel": 0.9193,
+   "all_top_auc_st_eq": [
+    [
+     "LF14:addr_token_set",
+     0.8305
+    ],
+    [
+     "LF12:addr_jw_sim",
+     0.8171
+    ],
+    [
+     "LF13:addr_token_sort",
+     0.8169
+    ],
+    [
+     "LF15:addr_token_jaccard",
+     0.8034
+    ],
+    [
+     "LF85:addr_frac_s1_only",
+     0.7937
+    ],
+    [
+     "LF86:addr_frac_c_only",
+     0.7897
+    ]
+   ],
+   "all_top_spearman_st_j": [
+    [
+     "LF14:addr_token_set",
+     0.497
+    ],
+    [
+     "LF12:addr_jw_sim",
+     0.4783
+    ],
+    [
+     "LF13:addr_token_sort",
+     0.4735
+    ],
+    [
+     "LF85:addr_frac_s1_only",
+     0.4697
+    ],
+    [
+     "LF86:addr_frac_c_only",
+     0.4642
+    ],
+    [
+     "LF15:addr_token_jaccard",
+     0.4573
+    ]
+   ],
+   "all_r2_st_j_on_addr_cols": 0.3594,
+   "all_r2_st_j_on_all97": 0.4432,
+   "all_P_street_mismatch_given_addr_token_set_ge_0.9": 0.0398,
+   "all_P_addr_token_set_lt_0.7_given_street_eq": 0.5732,
+   "rel_top_auc_st_eq": [
+    [
+     "LF85:addr_frac_s1_only",
+     0.7255
+    ],
+    [
+     "LF86:addr_frac_c_only",
+     0.725
+    ],
+    [
+     "LF15:addr_token_jaccard",
+     0.7233
+    ],
+    [
+     "LF14:addr_token_set",
+     0.7137
+    ],
+    [
+     "LF83:addr_n_s1_only",
+     0.7013
+    ],
+    [
+     "LF84:addr_n_c_only",
+     0.7001
+    ]
+   ],
+   "rel_top_spearman_st_j": [
+    [
+     "LF86:addr_frac_c_only",
+     0.2168
+    ],
+    [
+     "LF85:addr_frac_s1_only",
+     0.2167
+    ],
+    [
+     "LF15:addr_token_jaccard",
+     0.2144
+    ],
+    [
+     "LF14:addr_token_set",
+     0.2041
+    ],
+    [
+     "RL27:af_a",
+     0.2032
+    ],
+    [
+     "LF83:addr_n_s1_only",
+     0.1997
+    ]
+   ],
+   "rel_r2_st_j_on_addr_cols": 0.0764,
+   "rel_r2_st_j_on_all97": 0.1942,
+   "rel_P_street_mismatch_given_addr_token_set_ge_0.9": 0.0432,
+   "rel_P_addr_token_set_lt_0.7_given_street_eq": 0.031,
+   "residual_street_mismatch": {
+    "bins": [
+     {
+      "bin": "[0.10,0.30)",
+      "sig1": {
+       "n": 31,
+       "y_rate": 0.1613,
+       "mean_p": 0.1738
+      },
+      "sig0": {
+       "n": 278,
+       "y_rate": 0.2266,
+       "mean_p": 0.1797
+      }
+     },
+     {
+      "bin": "[0.30,0.50)",
+      "sig1": {
+       "n": 12,
+       "y_rate": 0.9167,
+       "mean_p": 0.3871
+      },
+      "sig0": {
+       "n": 114,
+       "y_rate": 0.4211,
+       "mean_p": 0.3977
+      }
+     },
+     {
+      "bin": "[0.50,0.78)",
+      "sig1": {
+       "n": 16,
+       "y_rate": 0.6875,
+       "mean_p": 0.6766
+      },
+      "sig0": {
+       "n": 154,
+       "y_rate": 0.6623,
+       "mean_p": 0.6539
+      }
+     },
+     {
+      "bin": "[0.78,0.90)",
+      "sig1": {
+       "n": 11,
+       "y_rate": 0.8182,
+       "mean_p": 0.8595
+      },
+      "sig0": {
+       "n": 137,
+       "y_rate": 0.8759,
+       "mean_p": 0.8532
+      }
+     },
+     {
+      "bin": "[0.90,0.97)",
+      "sig1": {
+       "n": 21,
+       "y_rate": 1.0,
+       "mean_p": 0.9409
+      },
+      "sig0": {
+       "n": 290,
+       "y_rate": 0.9345,
+       "mean_p": 0.9439
+      }
+     },
+     {
+      "bin": "[0.97,1.00)",
+      "sig1": {
+       "n": 2572,
+       "y_rate": 0.9992,
+       "mean_p": 0.9993
+      },
+      "sig0": {
+       "n": 29370,
+       "y_rate": 0.9995,
+       "mean_p": 0.9994
+      }
+     }
+    ],
+    "at_threshold": {
+     "sig1": {
+      "accepted": 2604,
+      "precision": 0.9985,
+      "FP": 4,
+      "expected_FP_from_p": 4.6,
+      "rejected_p10_78": 59,
+      "FN_in_rejected": 27,
+      "expected_pos_from_p": 20.9
+     },
+     "sig0": {
+      "accepted": 29797,
+      "precision": 0.9983,
+      "FP": 51,
+      "expected_FP_from_p": 54.7,
+      "rejected_p10_78": 546,
+      "FN_in_rejected": 213,
+      "expected_pos_from_p": 196.0
+     }
+    }
+   },
+   "auc_y_within_accepted": {
+    "n": 32401,
+    "FP": 55,
+    "st_j": 0.5032118626442499,
+    "addr_token_set": 0.5922069892019808,
+    "p_new": 0.9752373484426908
+   }
+  },
+  "India": {
+   "n_both_street": 269910,
+   "share_pairs_both_street": 0.2608,
+   "n_rel": 12678,
+   "st_eq_rate_rel": 0.7958,
+   "all_top_auc_st_eq": [
+    [
+     "LF15:addr_token_jaccard",
+     0.8485
+    ],
+    [
+     "LF14:addr_token_set",
+     0.844
+    ],
+    [
+     "LF86:addr_frac_c_only",
+     0.8417
+    ],
+    [
+     "LF12:addr_jw_sim",
+     0.8228
+    ],
+    [
+     "LF85:addr_frac_s1_only",
+     0.8178
+    ],
+    [
+     "LF13:addr_token_sort",
+     0.8113
+    ]
+   ],
+   "all_top_spearman_st_j": [
+    [
+     "LF15:addr_token_jaccard",
+     0.5043
+    ],
+    [
+     "LF14:addr_token_set",
+     0.4912
+    ],
+    [
+     "LF86:addr_frac_c_only",
+     0.4869
+    ],
+    [
+     "LF85:addr_frac_s1_only",
+     0.4835
+    ],
+    [
+     "LF13:addr_token_sort",
+     0.4659
+    ],
+    [
+     "LF12:addr_jw_sim",
+     0.4526
+    ]
+   ],
+   "all_r2_st_j_on_addr_cols": 0.4292,
+   "all_r2_st_j_on_all97": 0.4608,
+   "all_P_street_mismatch_given_addr_token_set_ge_0.9": 0.3646,
+   "all_P_addr_token_set_lt_0.7_given_street_eq": 0.217,
+   "rel_top_auc_st_eq": [
+    [
+     "RL27:af_a",
+     0.7524
+    ],
+    [
+     "LF12:addr_jw_sim",
+     0.7516
+    ],
+    [
+     "RL27:af_n",
+     0.7285
+    ],
+    [
+     "LF84:addr_n_c_only",
+     0.6966
+    ],
+    [
+     "LF86:addr_frac_c_only",
+     0.6728
+    ],
+    [
+     "LF14:addr_token_set",
+     0.6656
+    ]
+   ],
+   "rel_top_spearman_st_j": [
+    [
+     "RL27:af_a",
+     0.4325
+    ],
+    [
+     "LF12:addr_jw_sim",
+     0.3528
+    ],
+    [
+     "RL27:af_n",
+     0.3512
+    ],
+    [
+     "LF84:addr_n_c_only",
+     0.271
+    ],
+    [
+     "LF86:addr_frac_c_only",
+     0.2354
+    ],
+    [
+     "LF14:addr_token_set",
+     0.2328
+    ]
+   ],
+   "rel_r2_st_j_on_addr_cols": 0.2478,
+   "rel_r2_st_j_on_all97": 0.3219,
+   "rel_P_street_mismatch_given_addr_token_set_ge_0.9": 0.1646,
+   "rel_P_addr_token_set_lt_0.7_given_street_eq": 0.0214,
+   "residual_street_mismatch": {
+    "bins": [
+     {
+      "bin": "[0.10,0.30)",
+      "sig1": {
+       "n": 25,
+       "y_rate": 0.08,
+       "mean_p": 0.1912
+      },
+      "sig0": {
+       "n": 79,
+       "y_rate": 0.2658,
+       "mean_p": 0.1713
+      }
+     },
+     {
+      "bin": "[0.30,0.50)",
+      "sig1": {
+       "n": 21,
+       "y_rate": 0.2857,
+       "mean_p": 0.3888
+      },
+      "sig0": {
+       "n": 34,
+       "y_rate": 0.3235,
+       "mean_p": 0.392
+      }
+     },
+     {
+      "bin": "[0.50,0.78)",
+      "sig1": {
+       "n": 18,
+       "y_rate": 0.7222,
+       "mean_p": 0.6624
+      },
+      "sig0": {
+       "n": 50,
+       "y_rate": 0.56,
+       "mean_p": 0.6411
+      }
+     },
+     {
+      "bin": "[0.78,0.90)",
+      "sig1": {
+       "n": 27,
+       "y_rate": 0.8889,
+       "mean_p": 0.8489
+      },
+      "sig0": {
+       "n": 35,
+       "y_rate": 0.8286,
+       "mean_p": 0.8463
+      }
+     },
+     {
+      "bin": "[0.90,0.97)",
+      "sig1": {
+       "n": 34,
+       "y_rate": 0.9706,
+       "mean_p": 0.9433
+      },
+      "sig0": {
+       "n": 103,
+       "y_rate": 0.9515,
+       "mean_p": 0.9462
+      }
+     },
+     {
+      "bin": "[0.97,1.00)",
+      "sig1": {
+       "n": 2464,
+       "y_rate": 1.0,
+       "mean_p": 0.999
+      },
+      "sig0": {
+       "n": 9788,
+       "y_rate": 0.9996,
+       "mean_p": 0.9993
+      }
+     }
+    ],
+    "at_threshold": {
+     "sig1": {
+      "accepted": 2525,
+      "precision": 0.9984,
+      "FP": 4,
+      "expected_FP_from_p": 8.4,
+      "rejected_p10_78": 64,
+      "FN_in_rejected": 21,
+      "expected_pos_from_p": 24.9
+     },
+     "sig0": {
+      "accepted": 9926,
+      "precision": 0.9985,
+      "FP": 15,
+      "expected_FP_from_p": 18.0,
+      "rejected_p10_78": 163,
+      "FN_in_rejected": 60,
+      "expected_pos_from_p": 58.9
+     }
+    }
+   },
+   "auc_y_within_accepted": {
+    "n": 12451,
+    "FP": 19,
+    "st_j": 0.5013272200772201,
+    "addr_token_set": 0.5878145532750796,
+    "p_new": 0.9859784596626703
+   }
+  },
+  "all": {
+   "n_both_street": 1238075,
+   "share_pairs_both_street": 0.4854,
+   "n_rel": 45684,
+   "st_eq_rate_rel": 0.885,
+   "all_top_auc_st_eq": [
+    [
+     "LF14:addr_token_set",
+     0.8063
+    ],
+    [
+     "LF12:addr_jw_sim",
+     0.806
+    ],
+    [
+     "LF13:addr_token_sort",
+     0.798
+    ],
+    [
+     "LF83:addr_n_s1_only",
+     0.7911
+    ],
+    [
+     "LF84:addr_n_c_only",
+     0.7911
+    ],
+    [
+     "LF15:addr_token_jaccard",
+     0.7887
+    ]
+   ],
+   "all_top_spearman_st_j": [
+    [
+     "LF14:addr_token_set",
+     0.4822
+    ],
+    [
+     "LF12:addr_jw_sim",
+     0.4708
+    ],
+    [
+     "LF13:addr_token_sort",
+     0.4638
+    ],
+    [
+     "LF85:addr_frac_s1_only",
+     0.4593
+    ],
+    [
+     "LF15:addr_token_jaccard",
+     0.4545
+    ],
+    [
+     "LF86:addr_frac_c_only",
+     0.4509
+    ]
+   ],
+   "all_r2_st_j_on_addr_cols": 0.352,
+   "all_r2_st_j_on_all97": 0.4099,
+   "all_P_street_mismatch_given_addr_token_set_ge_0.9": 0.1596,
+   "all_P_addr_token_set_lt_0.7_given_street_eq": 0.5258,
+   "rel_top_auc_st_eq": [
+    [
+     "LF84:addr_n_c_only",
+     0.6971
+    ],
+    [
+     "LF12:addr_jw_sim",
+     0.6919
+    ],
+    [
+     "RL27:af_a",
+     0.6728
+    ],
+    [
+     "RL27:af_n",
+     0.6574
+    ],
+    [
+     "LF83:addr_n_s1_only",
+     0.656
+    ],
+    [
+     "LF14:addr_token_set",
+     0.6514
+    ]
+   ],
+   "rel_top_spearman_st_j": [
+    [
+     "RL27:af_a",
+     0.2254
+    ],
+    [
+     "LF84:addr_n_c_only",
+     0.2241
+    ],
+    [
+     "LF12:addr_jw_sim",
+     0.2121
+    ],
+    [
+     "RL27:af_n",
+     0.1991
+    ],
+    [
+     "LF83:addr_n_s1_only",
+     0.1801
+    ],
+    [
+     "LF14:addr_token_set",
+     0.171
+    ]
+   ],
+   "rel_r2_st_j_on_addr_cols": 0.1061,
+   "rel_r2_st_j_on_all97": 0.2068,
+   "rel_P_street_mismatch_given_addr_token_set_ge_0.9": 0.0833,
+   "rel_P_addr_token_set_lt_0.7_given_street_eq": 0.0286
+  },
+  "examples_street_mismatch_addr_tset_ge_0.9": [
+   {
+    "s1_addr": "1561 York Road, St Albans Twp, OH",
+    "rec_addr": "OH, ST ALBANS TWP, 1561 YORK RORD",
+    "y": 1,
+    "p": 1.0,
+    "addr_token_set": 0.9677419066429138,
+    "st_s1": [
+     "york"
+    ],
+    "st_rec": [
+     "rord",
+     "york"
+    ]
+   },
+   {
+    "s1_addr": "793 Boca Raton Drive, St Peters, MO",
+    "rec_addr": "Missouri, 793 Boa Raton Drive, St Peters",
+    "y": 1,
+    "p": 1.0,
+    "addr_token_set": 0.9014084339141846,
+    "st_s1": [
+     "boca",
+     "raton"
+    ],
+    "st_rec": [
+     "boa",
+     "raton"
+    ]
+   },
+   {
+    "s1_addr": "4324 Saddlewood Trail, Rio Rancho, NM",
+    "rec_addr": "4324 SADDLEWOOD TRL, RIO RANCHO, NM",
+    "y": 1,
+    "p": 1.0,
+    "addr_token_set": 0.970588207244873,
+    "st_s1": [
+     "saddlewood"
+    ],
+    "st_rec": [
+     "saddlewood",
+     "trl"
+    ]
+   },
+   {
+    "s1_addr": "13403 Jacqueline Drive, Lake View, AL",
+    "rec_addr": "Alabama, Lake View, 13403 Jacquelite Drive",
+    "y": 1,
+    "p": 1.0,
+    "addr_token_set": 0.90666663646698,
+    "st_s1": [
+     "jacqueline"
+    ],
+    "st_rec": [
+     "jacquelite"
+    ]
+   },
+   {
+    "s1_addr": "702 Wind Song Trail, Mooresville, IN",
+    "rec_addr": "702 Wind Song Trl, Mooresville, Indiana",
+    "y": 1,
+    "p": 1.0,
+    "addr_token_set": 0.9014084339141846,
+    "st_s1": [
+     "song",
+     "wind"
+    ],
+    "st_rec": [
+     "song",
+     "trl",
+     "wind"
+    ]
+   },
+   {
+    "s1_addr": "144 A County Road 95, Chimayo, NM",
+    "rec_addr": "144 A COUNTY RAOD 95, CHIMAYO, NM",
+    "y": 1,
+    "p": 1.0,
+    "addr_token_set": 0.9677419066429138,
+    "st_s1": [
+     "county"
+    ],
+    "st_rec": [
+     "county",
+     "raod"
+    ]
+   },
+   {
+    "s1_addr": "4241 Consaul Road, Niskayuna, NY",
+    "rec_addr": "NISKAYUNA, NY, 4241 CONSRUL ROAD",
+    "y": 1,
+    "p": 1.0,
+    "addr_token_set": 0.9666666388511658,
+    "st_s1": [
+     "consaul"
+    ],
+    "st_rec": [
+     "consrul"
+    ]
+   },
+   {
+    "s1_addr": "4914 Chambers Chapel Road, Lakeland, TN",
+    "rec_addr": "4914 CHAMBERS CHAEL RD, LAKELAND, TN",
+    "y": 1,
+    "p": 1.0,
+    "addr_token_set": 0.9577465057373047,
+    "st_s1": [
+     "chambers",
+     "chapel"
+    ],
+    "st_rec": [
+     "chael",
+     "chambers"
+    ]
+   },
+   {
+    "s1_addr": "313 Cindy Cove, Ripley, TN",
+    "rec_addr": "313  CINDY CV, RIPLEY, TN",
+    "y": 1,
+    "p": 1.0,
+    "addr_token_set": 0.95652174949646,
+    "st_s1": [
+     "cindy",
+     "cove"
+    ],
+    "st_rec": [
+     "cindy",
+     "cv"
+    ]
+   },
+   {
+    "s1_addr": "Cedar Rapids, IA, 6409 Decatur St SW",
+    "rec_addr": "6409 DECATUR SAINT SW, CEDAR RAPIDS, IA",
+    "y": 1,
+    "p": 1.0,
+    "addr_token_set": 0.9577465057373047,
+    "st_s1": [
+     "decatur",
+     "sw"
+    ],
+    "st_rec": [
+     "decatur",
+     "saint",
+     "sw"
+    ]
+   }
+  ]
+ },
+ "S4_decoy_transformations": {
+  "house_cat_counts_rel": {
+   "same": 50863,
+   "missing": 10513,
+   "other": 5332,
+   "prefix_suffix": 3128,
+   "one_digit": 1069,
+   "pm1": 488,
+   "pm2_10": 315,
+   "transposition": 10
+  },
+  "H_cat_rel": 0.9467,
+  "H_cat_given_NUMtuple_rel": 0.4053,
+  "NUMtuple_cols": "lnum_status(47), lnum_edit(53), lnum_transposition(55), small_offset_same_len(69), house_agree(57), round(house_absdiff_log(58),2)",
+  "by_cat_same_street_rel": {
+   "same": {
+    "n": 36138,
+    "y_rate": 0.9935,
+    "mean_p": 0.9932
+   },
+   "other": {
+    "n": 1331,
+    "y_rate": 0.9264,
+    "mean_p": 0.9237
+   },
+   "one_digit": {
+    "n": 582,
+    "y_rate": 0.8986,
+    "mean_p": 0.8892
+   },
+   "prefix_suffix": {
+    "n": 1943,
+    "y_rate": 0.9738,
+    "mean_p": 0.9729
+   },
+   "pm1": {
+    "n": 277,
+    "y_rate": 0.8845,
+    "mean_p": 0.8655
+   },
+   "pm2_10": {
+    "n": 157,
+    "y_rate": 0.8217,
+    "mean_p": 0.8497
+   },
+   "transposition": {
+    "n": 4,
+    "y_rate": 1.0,
+    "mean_p": 0.9688
+   }
+  },
+  "token_substitution_rel": {
+   "n_groups": 24,
+   "n_pairs": 3168,
+   "share_abs_z_gt3": 0.0,
+   "share_abs_z_gt3_permuted": 0.0,
+   "sum_z2": 23.4,
+   "sum_z2_permuted": 36.5,
+   "top_by_abs_z": [
+    [
+     "('private', 'center')",
+     186,
+     0.989,
+     0.972,
+     2.07
+    ],
+    [
+     "('ltd', 'limited')",
+     243,
+     0.984,
+     0.973,
+     1.98
+    ],
+    [
+     "('limited', 'dr')",
+     26,
+     1.0,
+     0.969,
+     1.98
+    ],
+    [
+     "('pc', 'inc')",
+     47,
+     0.872,
+     0.824,
+     1.68
+    ],
+    [
+     "('private', 'service')",
+     57,
+     0.947,
+     0.971,
+     -1.41
+    ],
+    [
+     "('private', 'services')",
+     111,
+     0.964,
+     0.947,
+     1.3
+    ],
+    [
+     "('company', 'co')",
+     52,
+     0.962,
+     0.95,
+     0.89
+    ],
+    [
+     "('limited', 'sri')",
+     30,
+     1.0,
+     0.987,
+     0.8
+    ],
+    [
+     "('india', 'services')",
+     27,
+     0.963,
+     0.943,
+     0.74
+    ],
+    [
+     "('pc', 'llc')",
+     42,
+     0.833,
+     0.85,
+     -0.66
+    ],
+    [
+     "('group', 'inc')",
+     36,
+     0.944,
+     0.927,
+     0.62
+    ],
+    [
+     "('corporation', 'corp')",
+     46,
+     0.957,
+     0.944,
+     0.61
+    ]
+   ],
+   "top_by_n": [
+    [
+     "('limited', 'ltd')",
+     1523,
+     0.974,
+     0.974,
+     0.21
+    ],
+    [
+     "('inc', 'incorporated')",
+     354,
+     0.969,
+     0.967,
+     0.27
+    ],
+    [
+     "('ltd', 'limited')",
+     243,
+     0.984,
+     0.973,
+     1.98
+    ],
+    [
+     "('private', 'center')",
+     186,
+     0.989,
+     0.972,
+     2.07
+    ],
+    [
+     "('private', 'services')",
+     111,
+     0.964,
+     0.947,
+     1.3
+    ],
+    [
+     "('corp', 'corporation')",
+     89,
+     0.955,
+     0.954,
+     0.05
+    ],
+    [
+     "('private', 'service')",
+     57,
+     0.947,
+     0.971,
+     -1.41
+    ],
+    [
+     "('company', 'co')",
+     52,
+     0.962,
+     0.95,
+     0.89
+    ],
+    [
+     "('private', 'partners')",
+     48,
+     0.979,
+     0.971,
+     0.53
+    ],
+    [
+     "('pc', 'inc')",
+     47,
+     0.872,
+     0.824,
+     1.68
+    ],
+    [
+     "('corporation', 'corp')",
+     46,
+     0.957,
+     0.944,
+     0.61
+    ],
+    [
+     "('pc', 'llc')",
+     42,
+     0.833,
+     0.85,
+     -0.66
+    ]
+   ]
+  },
+  "token_add_drop_rel": {
+   "n_groups": 42,
+   "n_pairs": 13367,
+   "share_abs_z_gt3": 0.0238,
+   "share_abs_z_gt3_permuted": 0.0,
+   "sum_z2": 63.1,
+   "sum_z2_permuted": 32.2,
+   "top_by_abs_z": [
+    [
+     "add:the",
+     589,
+     0.992,
+     0.977,
+     3.96
+    ],
+    [
+     "add:llc",
+     423,
+     0.861,
+     0.882,
+     -2.46
+    ],
+    [
+     "add:partners",
+     66,
+     0.773,
+     0.839,
+     -2.34
+    ],
+    [
+     "add:mr",
+     123,
+     0.919,
+     0.943,
+     -2.0
+    ],
+    [
+     "add:lp",
+     360,
+     0.969,
+     0.957,
+     1.99
+    ],
+    [
+     "drop:corporation",
+     80,
+     0.887,
+     0.917,
+     -1.96
+    ],
+    [
+     "add:limited",
+     127,
+     0.866,
+     0.895,
+     -1.77
+    ],
+    [
+     "drop:group",
+     177,
+     0.91,
+     0.927,
+     -1.67
+    ],
+    [
+     "add:service",
+     85,
+     0.894,
+     0.918,
+     -1.66
+    ],
+    [
+     "drop:center",
+     85,
+     0.812,
+     0.846,
+     -1.62
+    ],
+    [
+     "drop:inc",
+     1328,
+     0.957,
+     0.953,
+     1.36
+    ],
+    [
+     "add:corp",
+     486,
+     0.938,
+     0.93,
+     1.26
+    ]
+   ],
+   "top_by_n": [
+    [
+     "drop:llc",
+     2096,
+     0.948,
+     0.948,
+     0.16
+    ],
+    [
+     "drop:limited",
+     1813,
+     0.969,
+     0.971,
+     -0.65
+    ],
+    [
+     "drop:inc",
+     1328,
+     0.957,
+     0.953,
+     1.36
+    ],
+    [
+     "add:inc",
+     817,
+     0.925,
+     0.924,
+     0.34
+    ],
+    [
+     "drop:ltd",
+     604,
+     0.964,
+     0.959,
+     1.1
+    ],
+    [
+     "add:the",
+     589,
+     0.992,
+     0.977,
+     3.96
+    ],
+    [
+     "add:co",
+     541,
+     0.932,
+     0.929,
+     0.48
+    ],
+    [
+     "add:ltd",
+     528,
+     0.92,
+     0.916,
+     0.64
+    ],
+    [
+     "add:corporation",
+     515,
+     0.975,
+     0.97,
+     1.21
+    ],
+    [
+     "add:corp",
+     486,
+     0.938,
+     0.93,
+     1.26
+    ],
+    [
+     "add:llc",
+     423,
+     0.861,
+     0.882,
+     -2.46
+    ],
+    [
+     "add:lp",
+     360,
+     0.969,
+     0.957,
+     1.99
+    ]
+   ]
+  }
+ },
+ "runtime_s": 194.3
+}

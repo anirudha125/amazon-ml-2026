@@ -1,0 +1,161 @@
+{
+ "filler_set": [
+  "a",
+  "aka",
+  "as",
+  "associes",
+  "b",
+  "business",
+  "cie",
+  "co",
+  "com",
+  "compagnie",
+  "d",
+  "dba",
+  "developpement",
+  "doing",
+  "ei",
+  "et",
+  "eurl",
+  "f",
+  "fils",
+  "fka",
+  "formerly",
+  "freres",
+  "frs",
+  "k",
+  "known",
+  "labs",
+  "ma",
+  "nee",
+  "one",
+  "sa",
+  "sarl",
+  "sas",
+  "sasu",
+  "sci",
+  "service",
+  "services",
+  "st",
+  "sys",
+  "t",
+  "trading"
+ ],
+ "n_pool_rows": 33180559,
+ "n_same_street_rows": 1406187,
+ "n_accepted_total": 879329,
+ "n_accepted_found_on_street": 657974,
+ "class_by_status": {
+  "ident": {
+   "HI": 352171,
+   "HI_kept": 352093,
+   "LO": 1113,
+   "LO_kept": 1106,
+   "NA": 1306
+  },
+  "filler_sub": {
+   "HI": 13571,
+   "HI_kept": 13530,
+   "LO": 9194,
+   "LO_kept": 9118,
+   "NA": 8917
+  },
+  "legal_only": {
+   "LO": 7049,
+   "LO_kept": 6960,
+   "HI": 102082,
+   "HI_kept": 101946,
+   "NA": 1247
+  },
+  "other": {
+   "HI": 127251,
+   "HI_kept": 126991,
+   "NA": 735359,
+   "LO": 28948,
+   "LO_kept": 28286
+  },
+  "filler_only": {
+   "LO": 4210,
+   "LO_kept": 4207,
+   "HI": 12385,
+   "HI_kept": 12374,
+   "NA": 1384
+  }
+ },
+ "fr_only_adders_class_by_status": {
+  "filler_only|LO": 4127,
+  "filler_sub|LO": 8762,
+  "filler_sub|NA": 8190,
+  "filler_sub|HI": 6259,
+  "filler_only|HI": 4906,
+  "filler_only|NA": 1305
+ },
+ "ambiguity": {
+  "filler_only|HI|ambiguous": 13,
+  "filler_only|HI|has_coloc": 1699,
+  "filler_only|HI|n": 12385,
+  "filler_only|LO|ambiguous": 3,
+  "filler_only|LO|has_coloc": 632,
+  "filler_only|LO|n": 4210,
+  "filler_only|NA|ambiguous": 25,
+  "filler_only|NA|has_coloc": 259,
+  "filler_only|NA|n": 1384,
+  "filler_sub|HI|ambiguous": 75,
+  "filler_sub|HI|has_coloc": 1796,
+  "filler_sub|HI|n": 13571,
+  "filler_sub|LO|ambiguous": 89,
+  "filler_sub|LO|has_coloc": 1289,
+  "filler_sub|LO|n": 9194,
+  "filler_sub|NA|ambiguous": 626,
+  "filler_sub|NA|has_coloc": 1960,
+  "filler_sub|NA|n": 8917
+ },
+ "NA_bounds": {
+  "filler_sub": {
+   "n_pairs": 8917,
+   "n_s1": 8351,
+   "n_s1_no_kept_pair": 209,
+   "n_s1_with_kept_ident_record": 6378,
+   "dLB_pp_if_all_TP_added": 0.0476,
+   "dLB_pp_if_all_FP_added": -0.123,
+   "dFrance_pp_if_all_TP": 0.318,
+   "dFrance_pp_if_all_FP": -0.821,
+   "breakeven_TP_fraction": 0.721
+  },
+  "filler_sub_fr_only": {
+   "n_pairs": 8190,
+   "n_s1": 7774,
+   "n_s1_no_kept_pair": 202,
+   "n_s1_with_kept_ident_record": 5934,
+   "dLB_pp_if_all_TP_added": 0.0445,
+   "dLB_pp_if_all_FP_added": -0.1144,
+   "dFrance_pp_if_all_TP": 0.297,
+   "dFrance_pp_if_all_FP": -0.764,
+   "breakeven_TP_fraction": 0.72
+  },
+  "filler_only": {
+   "n_pairs": 1384,
+   "n_s1": 1348,
+   "n_s1_no_kept_pair": 55,
+   "n_s1_with_kept_ident_record": 1016,
+   "dLB_pp_if_all_TP_added": 0.0086,
+   "dLB_pp_if_all_FP_added": -0.0203,
+   "dFrance_pp_if_all_TP": 0.057,
+   "dFrance_pp_if_all_FP": -0.136,
+   "breakeven_TP_fraction": 0.703
+  },
+  "filler_only_fr_only": {
+   "n_pairs": 1305,
+   "n_s1": 1275,
+   "n_s1_no_kept_pair": 51,
+   "n_s1_with_kept_ident_record": 962,
+   "dLB_pp_if_all_TP_added": 0.0081,
+   "dLB_pp_if_all_FP_added": -0.0191,
+   "dFrance_pp_if_all_TP": 0.054,
+   "dFrance_pp_if_all_FP": -0.128,
+   "breakeven_TP_fraction": 0.704
+  }
+ },
+ "N_all_test_S1": 1732544,
+ "N_France_S1": 259452
+}

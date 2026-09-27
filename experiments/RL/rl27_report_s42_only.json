@@ -1,0 +1,148 @@
+{
+ "seeds": [
+  42
+ ],
+ "V1": {
+  "s42": {
+   "th": [
+    0.7600000000000001,
+    0.7800000000000001
+   ],
+   "BASE": 98.555,
+   "NEW": 98.802,
+   "delta_pp": 0.248,
+   "ci95": [
+    0.187,
+    0.309
+   ],
+   "p_delta_le0": 0.0,
+   "US": [
+    98.499,
+    98.774
+   ],
+   "India": [
+    98.639,
+    98.846
+   ],
+   "TP": [
+    66911,
+    67186
+   ],
+   "FP": [
+    268,
+    167
+   ],
+   "FN": [
+    2467,
+    2192
+   ],
+   "singleton_fp_s1": [
+    10,
+    6
+   ],
+   "transitions": {
+    "new_TP": 471,
+    "lost_TP": 196,
+    "new_FP": 30,
+    "removed_FP": 131
+   },
+   "empty_address_slice": {
+    "BASE": {
+     "TP": 1417,
+     "FP": 79
+    },
+    "NEW": {
+     "TP": 1527,
+     "FP": 48
+    },
+    "in_pool_true": 2913
+   },
+   "lost_link_categories_fixed_minus_broken": {
+    "L2 empty-addr, unique name": 154,
+    "L3 Indic name": 2,
+    "L4 substituted name": 190,
+    "L5 house-number perturbed": 2,
+    "L6 other": 5,
+    "L7 record without house number": -2,
+    "SYM-C1": -44,
+    "SYM-C2": -32,
+    "SYM-C3": 0
+   }
+  }
+ },
+ "V0": {
+  "s42": {
+   "th": [
+    0.7600000000000001,
+    0.7800000000000001
+   ],
+   "BASE": 98.39,
+   "NEW": 98.689,
+   "delta_pp": 0.299,
+   "ci95": [
+    0.111,
+    0.527
+   ],
+   "p_delta_le0": 0.0003,
+   "US": [
+    98.244,
+    98.467
+   ],
+   "India": [
+    98.608,
+    99.021
+   ],
+   "TP": [
+    6657,
+    6685
+   ],
+   "FP": [
+    25,
+    17
+   ],
+   "FN": [
+    263,
+    235
+   ],
+   "singleton_fp_s1": [
+    2,
+    1
+   ],
+   "transitions": {
+    "new_TP": 48,
+    "lost_TP": 20,
+    "new_FP": 5,
+    "removed_FP": 13
+   },
+   "empty_address_slice": {
+    "BASE": {
+     "TP": 144,
+     "FP": 11
+    },
+    "NEW": {
+     "TP": 148,
+     "FP": 7
+    },
+    "in_pool_true": 301
+   }
+  }
+ },
+ "feature_gain_rl27_s42": {
+  "nf_n": 14484.9,
+  "nf_a": 4260.0,
+  "af_n": 2749.0,
+  "af_a": 786.9,
+  "coloc": 3107.8,
+  "dupf": 2589.8,
+  "rv_rank": 3825.3,
+  "rv_sa": 9552.9,
+  "rv_so": 37104.0,
+  "rv_gap": 30425.0
+ },
+ "gain_share_rl27_s42": 0.0081,
+ "runtime_base_s": 132.3,
+ "fit_s": {
+  "BASE_s42": 321.1,
+  "NEW_s42": 379.0
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "US": {
+  "s1": 663106,
+  "rows_differ": 15350,
+  "pairs_S005": 2236158,
+  "pairs_S006": 2241959,
+  "added": 10880,
+  "removed": 5079,
+  "nonempty_S005": 624748,
+  "nonempty_S006": 624933,
+  "cand_rows_identical": 663106,
+  "rows_differ_pct": 2.315
+ },
+ "France": {
+  "s1": 259452,
+  "rows_differ": 30247,
+  "pairs_S005": 854396,
+  "pairs_S006": 848634,
+  "added": 13275,
+  "removed": 19037,
+  "nonempty_S005": 244988,
+  "nonempty_S006": 244705,
+  "cand_rows_identical": 259452,
+  "rows_differ_pct": 11.658
+ },
+ "India": {
+  "s1": 809986,
+  "rows_differ": 21760,
+  "pairs_S005": 2728351,
+  "pairs_S006": 2737323,
+  "added": 15894,
+  "removed": 6922,
+  "nonempty_S005": 763161,
+  "nonempty_S006": 763430,
+  "cand_rows_identical": 809986,
+  "rows_differ_pct": 2.686
+ }
+}

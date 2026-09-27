@@ -1,0 +1,16 @@
+{
+ "set": "T2X",
+ "pooltag": "a50n10",
+ "k_addr": 50,
+ "k_name": 10,
+ "dense_tag": null,
+ "k_dense": 0,
+ "n_s1": 40000,
+ "n_pairs": 4554640,
+ "pairs_per_s1": 113.866,
+ "positives": 130230,
+ "n_gt": 138663,
+ "pool_recall": 0.9391834880249237,
+ "secs": 215.55189180374146,
+ "workers": 28
+}
